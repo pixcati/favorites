@@ -1,0 +1,103 @@
+[{
+	"_id": "fjkdasf1g1sb1",
+	"classify": "媒体工具",
+	"icon": "csz czs-play-l",
+	"sites": [ {
+		"name": "消除图片背景",
+		"href": "https://www.remove.bg/zh",
+		"desc": "快速移除或替换图片背景",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/xctpbj.png"
+	}, {
+		"name": "AI 换脸",
+		"href": "https://reflect.tech/",
+		"desc": "基于AI的在线换脸",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/aihn.png"
+			}, {
+		"name": "搞定抠图",
+		"href": "https://www.gaoding.com/koutu",
+		"desc": "实用在线抠图工具",
+		"logo": "https://www.gaoding.com/favicon.ico"
+			}, {
+		"name": "蒸気機",
+		"href": "https://lab.magiconch.com/vaporwave/",
+		"desc": "虚拟信号蒸汽波风格化影像后期工具",
+		"logo": "https://lab.magiconch.com/favicon.ico"
+			}, {
+		"name": "B站视频下载",
+		"href": "https://www.jijidown.com/",
+		"desc": "哔哩哔哩唧唧",
+		"logo": "http://client.jijidown.com/images/favicon.ico"
+				}, {
+		"name": "在线视频解析下载",
+		"href": "http://haiya360.com/",
+		"desc": "支持抖音快手微博头条皮皮虾等平台",
+		"logo": "http://haiya360.com/favicon.ico"
+				}, {
+		"name": "音乐搜索器",
+		"href": "http://www.xieqian.vip/music/",
+		"desc": "多平台音乐聚合搜索，支持网易云QQ音乐酷狗等",
+		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
+				}, {
+		"name": "YouTube 视频下载 ①",
+		"href": "https://youtube.iiilab.com/",
+		"desc": "支持YouTube、Twitter、Tumblr等平台",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/ytb1.ico"
+		
+			}]
+}, {
+
+	"_id": "5ce000b954656",
+	"classify": "效率工具",
+	"icon": "csz czs-setting-l",
+	"sites": [{
+		"name": "SSH 中转 ①",
+		"href": "https://heyterm.com/",
+		"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
+		"logo": "https://heyterm.com/public/imgs/favicon.37ffe083ef74.png"
+	}, {
+		"name": "SSH 中转 ②",
+		"href": "https://console.ucloud.cn/upathx/globalssh",
+		"desc": "UCloud 提供 GlobalSSH 加速服务",
+		"logo": "https://passport.ucloud.cn/build/favicon/favicon.ico"
+  }, {
+		"name": "在线扒站工具",
+		"href": "https://yya.gs/",
+		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
+		"logo": "https://yya.gs/favicon.ico"
+		 }, {
+		"name": "在线 Markdown 编辑",
+		"href": "https://www.zybuluo.com/",
+		"desc": "Markdown 编辑阅读器，实时同步预览",
+		"logo": "https://www.zybuluo.com/static/img/favicon.png"
+  	 }, {
+		"name": "在线格式转换",
+		"href": "https://convertio.co/zh/",
+		"desc": "将您的文件转换成任意格式",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
+  
+		
+					}]
+}, {
+
+	"_id": "5c;k;lkk5164",
+	"classify": "综合工具",
+	"icon": "csz czs-link-l",
+	"sites": [{
+		"name": "MikuTools",
+		"href": "https://tools.miku.ac/",
+		"desc": "一个轻量的工具集合，超多实用工具，图片提取文字、各平台视频下载、临时文件分享等",
+		"logo": "https://tools.miku.ac/favicon.ico"
+		}, {
+		"name": "懒人工具箱",
+		"href": "https://tool.lanrentuku.com/",
+		"desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
+		"logo": "https://tool.lanrentuku.com/favicon.ico"
+	}, {
+		"name": "PickFrom",
+		"href": "https://zh.pickfrom.net/",
+		"desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
+		"logo": "https://zh.pickfrom.net/favicon.ico"
+	
+	
+	
+}] }]
