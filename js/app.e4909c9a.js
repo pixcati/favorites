@@ -296,28 +296,30 @@
             [n("div", {
                 staticClass: "copyright"
             },
-            [n("div1", [t._v("\n          Copyright © 2019- 2050\n          "), n("a", {
+            [n("div1", [t._v("\n     Copyright © 2020   我的收藏\n          "), n("a", {
 				
 				
                 attrs: {
-                    href: "https://github.com/geekape/blog"
+                    href: "https://i.svvme.com/"
                 }
             },
-            [t._v("钟储兵博客")]), n("a", {
+            [t._v("我的分享")]), n("a", {
 				
 				
-                attrs: {
-                    href: "https://github.com/geekape/geek-navigation"
+				
+				attrs: {
+                    href: "https://js.svvme.com/"
                 }
             },
-            [t._v("   导航源码下载")]), n("a", {
+            [t._v("我的中转")]), n("a", {
+				
 				
 				
 				 attrs: {
                     href: "https://github.com/geekape/geek-navigation"
                 }
             },
-			 [t._v("   导航源码下载")
+			 [t._v("源码")
 			 
 			
 			])])])])
@@ -413,30 +415,35 @@
                     n = {},
                     a = {},
                     o = {};
+					
                     return e.name = "常用",
                     e.icon = "csz czs-heart",
                     e.data = this.data.filter(function(t) {
                         return - 1 != t.classify.indexOf("工具")
                     }),
                     t.push(e),
-                    n.name = "运营",
-                    n.icon = "csz czs-square",
+					
+                    n.name = "资源",
+                    n.icon = "csz czs-folder",
                     n.data = this.data.filter(function(t) {
                         return - 1 != t.classify.indexOf("［运营］")
                     }),
                     t.push(n),
+					
                     a.name = "玄学",
                     a.icon = "csz czs-taiji",
                     a.data = this.data.filter(function(t) {
                         return - 1 != t.classify.indexOf("［设计］")
                     }),
                     t.push(a),
-                    o.name = "前端",
-                    o.icon = "csz czs-camber",
+					
+                    o.name = "娱乐",
+                    o.icon = "csz czs-block",
                     o.data = this.data.filter(function(t) {
                         return - 1 != t.classify.indexOf("［前端］")
                     }),
                     t.push(o),
+					
                     t
                 }
             },
