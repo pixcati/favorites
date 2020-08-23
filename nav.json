@@ -11,7 +11,7 @@
 		"name": "在线图片编辑",
 		"href": "https://aipix.net/",
 		"desc": "AI抠图、滤镜、大小调整、剪裁等",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 			}, {
 		"name": "搞定抠图",
 		"href": "https://www.gaoding.com/koutu",
@@ -39,14 +39,14 @@
 		"logo": "http://haiya360.com/favicon.ico"
 				}, {
 		"name": "音乐搜索器",
-		"href": "http://www.xieqian.vip/music/",
+		"href": "http://music.ifkdy.com/",
 		"desc": "多平台音乐聚合搜索，支持网易云QQ音乐酷狗等",
 		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
 			}, {
 		"name": "YouTube 视频下载 ①",
 		"href": "http://ssyoutube.com/",
 		"desc": "在线获取 YouTube 视频",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 				}, {
 		"name": "YouTube 视频下载 ②",
 		"href": "https://youtube.iiilab.com/",
@@ -57,6 +57,11 @@
 		"href": "https://123apps.com/cn/",
 		"desc": "音视频在线剪切、格式转换、PDF转Word等",
 		"logo": "https://s1.ax1x.com/2020/05/25/t9k1OI.png"
+		 }, {
+		"name": "在线格式转换",
+		"href": "https://convertio.co/zh/",
+		"desc": "将您的文件转换成任意格式",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
 		
 			}]
 }, {
@@ -80,20 +85,20 @@
 		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
 		"logo": "https://bazhan.me/favicon.ico"
 		 }, {
-		"name": "CSS 除余",
+		"name": "CSS 整理",
 		"href": "https://uncss-online.com/",
 		"desc": "滤出CSS中被使用的部分",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
-			 }, {
-		"name": "在线格式转换",
-		"href": "https://convertio.co/zh/",
-		"desc": "将您的文件转换成任意格式",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
 			 }, {
 		"name": "Chrome 扩展下载",
 		"href": "https://pictureknow.com/extensions",
 		"desc": "收藏猫提供常用的 Chrome 扩展",
 		"logo": "https://pictureknow.com/favicon.ico"
+		}, {
+		"name": "Github 文件加速",
+		"href": "https://cdn.svvme.com/",
+		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
 		 }, {
 		"name": "在线 Markdown 编辑 ①",
 		"href": "https://www.zybuluo.com/",
@@ -108,21 +113,25 @@
 		"name": "从图片提取文字 ①",
 		"href": "https://tools.miku.ac/ocr/",
 		"desc": "OCR文字识别",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
-  
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
   
 		
 					}]
 }, {
 
-	"_id": "5c;k;lkk5164",
+	"_id": "5cfaklkk5164",
 	"classify": "综合工具",
-	"icon": "csz czs-link-l",
+	"icon": "csz csz czs-link-l",
 	"sites": [{
 		"name": "MikuTools",
 		"href": "https://tools.miku.ac/",
 		"desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
 		"logo": "https://tools.miku.ac/favicon.ico"
+				}, {
+		"name": "快点搜",
+		"href": "https://quickso.cn/",
+		"desc": "实用利器聚合",
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 		}, {
 		"name": "懒人工具箱",
 		"href": "https://tool.lanrentuku.com/",
@@ -138,6 +147,23 @@
 		"href": "https://tool.lu/",
 		"desc": "代码压缩、美化，开发类、站长类、极客类工具",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/zxgj.ico"
+		
+}]
+}, {
+
+	"_id": "5c456gdhhdgd64",
+	"classify": "存储工具",
+	"icon": "csz czs-baiduwangpan",
+	"sites": [{
+		"name": "百度网盘解析",
+		"href": "https://pan.dupan.me/",
+		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
+		"logo": "https://static.c3z.wang/static/favicon.ico"
+		}, {
+		"name": "网盘搬家 ①",
+		"href": "https://mover.io/",
+		"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"		
 	
 	
 					}]
@@ -145,27 +171,63 @@
 
 	"_id": "5cJHU11032f4",
 	"classify": "图片资源",
-	"icon": "",
+	"icon": "csz czs-image-l",
 	"sites": [{
 		"name": "极简壁纸",
 		"href": "https://bz.zzzmh.cn/",
 		"desc": "",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 			}, {
 		"name": "Wallpapers",
 		"href": "https://wallpapershome.com/",
 		"desc": "",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 				}, {
 		"name": "必应壁纸",
 		"href": "https://bing.ioliu.cn/",
 		"desc": "",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
 				}, {
 		"name": "随机 ①",
 		"href": "https://uploadbeta.com/api/pictures/random/",
+		"desc": "随机来一张美图",
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
+		
+}]
+}, {
+
+	"_id": "5cggsgrrr5164",
+	"classify": "软件资源",
+	"icon": "csz csz czs-link-l",
+	"sites": [{
+		"name": "获取最新 Chrome",
+		"href": "https://www.iplaysoft.com/tools/chrome/",
+		"desc": "获取最新谷歌浏览器",
+		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
+					}, {
+		"name": "获取与激活 office",
+		"href": "https://pan.svvme.com/%E8%BD%AF%E4%BB%B6/Win/Office/",
+		"desc": "多版本 office 安装与激活",
+		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+		
+					}]
+}, {
+
+	"_id": "5c637377734656",
+	"classify": "代理资源",
+	"icon": "csz czs-setting-l",
+	"sites": [{
+		"name": "YouTube 镜像",
+		"href": "https://video.feds.club/",
+		"desc": "支持P2P共享的油管代理",
+		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
+					}, {
+		"name": "v2 免费节点",
+		"href": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
-		"logo": "https://i.loli.net/2020/05/26/Y92WZhaKGynq1Sk.jpg"
-	
+		"logo": "https://i.loli.net/2020/08/02/rudJ7EqHCMe9gIs.jpg"
+
+		
+
 	
 }] }]
