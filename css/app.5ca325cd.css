@@ -14,9 +14,6 @@ body {
 	background-size: 100% 100%  */
 }
 
-a {
-	padding:0 10px;
-}
 ::selection {
 	background:#000000;
 	color:#ffffff;
@@ -143,6 +140,10 @@ body[data-v-99508432] {
 	text-decoration:none;
 	color:#3a85ff
 }
+.footer a {
+	margin-left:1em;
+}
+
 #menu-box[data-v-99508432] {
 	display:none;
 	width:100%;
@@ -505,35 +506,36 @@ body[data-v-43c30294] {
 /* citie */ 
 .main .box .item[data-v-43c30294] {
 	width:20%;
-	border:1px solid #000000bf;
-	-webkit-box-shadow:2px 3px 2px #67d1e7;
-	box-shadow:1px 2px 3px #00000000;
-	border-radius:7px;
-	background:#ffffff00;
-	padding:14px;
-	min-width:30px;
+	border:1px solid #e4ecf3;
+	-webkit-box-shadow:1px 2px 3px #f2f6f8;
+	box-shadow:1px 2px 3px #f2f6f8;
+	border-radius:6px;
+	background:#fff;
+	padding:10px;
+	min-width:200px;
 	margin:22px 0 0 2.1%;
 	float:left;
 	overflow:hidden;
 	-webkit-transition:all .3s;
 	transition:all .3s
-}.main .box .item[data-v-43c30294]:hover {
+}
+.main .box .item[data-v-43c30294]:hover {
 	-webkit-transform:translateY(-5px);
 	transform:translateY(-5px)
 }
-/* citie */ 
 .main .box .item .logo[data-v-43c30294],.main .box .item .no-logo[data-v-43c30294] {
-	color:#204051;
-	font-weight:500;
-	font-size:large
-}.main .box .item .logo[data-v-43c30294] {
+	color:#000000;
+	font-weight:300;
+	font-size:18px
+}
+.main .box .item .logo[data-v-43c30294] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
 	display:-webkit-box;
 	display:-ms-flexbox;
 	display:flex;
-	height:35px;
+	height:40px;
 	position:relative;
 	overflow:hidden;
 	text-overflow:ellipsis;
@@ -547,18 +549,19 @@ body[data-v-43c30294] {
 	vertical-align:middle;
 	margin-right:10px
 }
-/* citie */
 .main .box .item .desc[data-v-43c30294] {
-	color:#000000;
-	font-size:19px;
-	padding-top:9px;
-	height:45px;
+	color:#263942;
+	font-size:15px;
+	font-weight:100;
+	padding-top:10p x;
+	height:35px;
 	overflow:hidden;
 	text-overflow:ellipsis;
 	display:-webkit-box;
 	-webkit-line-clamp:2;
 	-webkit-box-orient:vertical
-}.el-image[data-v-43c30294] {
+}
+.el-image[data-v-43c30294] {
 	width:32px;
 	height:32px;
 	border-radius:50%;
@@ -597,7 +600,7 @@ body[data-v-466c883f] {
 /* zuoce */ 
 .container .left-bar[data-v-466c883f] {
 	position:fixed;
-	background:#00bcd4;
+	background:#51637B;
 	color:#ffffff;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -641,7 +644,7 @@ body[data-v-466c883f] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#7ebdb4;
+	background:#51637b;
 	color:#fff;
 	font-size:35px;
 	position:-webkit-sticky;
@@ -737,7 +740,7 @@ body[data-v-466c883f] {
 	position:absolute;
 	height:4px;
 	width:100%;
-	background-color:#F44336
+	background-color:#737399
 }
 #menu-box #menu label .horizontal[data-v-466c883f] {
 	top:10px
