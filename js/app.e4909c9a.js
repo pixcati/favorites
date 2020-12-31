@@ -153,9 +153,9 @@
                 attrs: {
 					// zuoce
                     "default-active": t.active,
-                    "background-color": "#00bcd4",
+                    "background-color": "#51637B",
                     "text-color": "#ffffff",
-                    "active-text-color": "#ffffff"
+                    "active-text-color": "#414f62"
                 }
             },
             t._l(t.newDataList,
@@ -383,7 +383,7 @@
             }), n("span", [t._v(t._s(t.data.name))])], 1), n("div", {
                 staticClass: "desc"
             },
-            [t._v(t._s(t.data.desc || "无简介"))])])
+            [t._v(t._s(t.data.desc || "偷懒没写上简介"))])])
         },
         O = [],
         C = {
@@ -426,7 +426,7 @@
                     n.name = "资源",
                     n.icon = "csz czs-folder",
                     n.data = this.data.filter(function(t) {
-                        return - 1 != t.classify.indexOf("［运营］")
+                        return - 1 != t.classify.indexOf("资源")
                     }),
                     t.push(n),
 					
