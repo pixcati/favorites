@@ -86,11 +86,11 @@
 		"logo": "https://passport.ucloud.cn/build/favicon/favicon.ico"
   }, {
 		"name": "在线扒站工具",
-		"href": "https://yya.gs/",
+		"href": "https://bazhan.me/",
 		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
 		"logo": "https://bazhan.me/favicon.ico"
 		 }, {
-		"name": "CSS 整理",
+		"name": "CSS 筛选",
 		"href": "https://uncss-online.com/",
 		"desc": "滤出CSS中被使用的部分",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
@@ -201,12 +201,22 @@
 				}, {
 		"name": "必应壁纸",
 		"href": "https://bing.ioliu.cn/",
-		"desc": "",
+		"desc": "必应历史美图",
 		"logo": "default.ico"
 				}, {
-		"name": "随机 ①",
+		"name": "随机图片 ①",
+		"href": "https://www.cnblogs.com/zaxtyson/p/11628746.html",
+		"desc": "随机图片Api",
+		"logo": "default.ico"		
+				}, {
+		"name": "随机图片 ②",
 		"href": "https://uploadbeta.com/api/pictures/random/",
 		"desc": "随机图片Api",
+		"logo": "default.ico"
+      }, {
+		"name": "SVG 图标",
+		"href": "https://iconsvg.xyz/",
+		"desc": "获取svg图标、代码",
 		"logo": "default.ico"
 					}, {
 		"name": "免费可商用字体",
