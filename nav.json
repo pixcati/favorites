@@ -6,7 +6,7 @@
 		"name": "消除图片背景",
 		"href": "https://www.remove.bg/zh",
 		"desc": "快速移除或替换图片背景",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/xctpbj.png"
+		"logo": "https://pic.stackoverflow.wiki/uploadImages/175/15/190/29/2021/02/15/23/03/4f3b1198-30bb-4d3c-bbf5-fb37b01be904.ico"
 		}, {
 		"name": "在线图片编辑",
 		"href": "https://aipix.net/",
@@ -23,6 +23,11 @@
 		"desc": "基于AI的在线换脸",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/aihn.png"
 			}, {
+		"name": "提取网页图片",
+		"href": "http://www.pullywood.com/ImageAssistant/",
+		"desc": "列出与保存网页中存在的图片或图标",
+		"logo": "default.ico"
+			}, {
 		"name": "蒸気機",
 		"href": "https://lab.magiconch.com/vaporwave/",
 		"desc": "虚拟信号蒸汽波风格化影像后期工具",
@@ -34,8 +39,8 @@
 		"logo": "https://www.jijidown.com/static/favicon.ico"
 				}, {
 		"name": "在线视频解析下载",
-		"href": "http://haiya360.com/",
-		"desc": "支持抖音快手微博头条皮皮虾等平台",
+		"href": "https://tools.miku.ac/youtube_dl/",
+		"desc": "Youtube_dl",
 		"logo": "default.ico"
 				}, {
 		"name": "音乐搜索器",
@@ -46,12 +51,12 @@
 		"name": "YouTube 视频下载 ①",
 		"href": "http://ssyoutube.com/",
 		"desc": "在线获取 YouTube 视频",
-		"logo": "default.ico"
+		"logo": "ico/ytb.ico"
 				}, {
 		"name": "YouTube 视频下载 ②",
 		"href": "https://youtube.iiilab.com/",
 		"desc": "支持YouTube、Twitter、Tumblr等平台",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/ytb1.ico"
+		"logo": "ico/ytb.ico"
 		}, {
 		"name": "音视频在线剪切",
 		"href": "https://123apps.com/cn/",
@@ -75,6 +80,11 @@
 	"classify": "效率工具",
 	"icon": "csz czs-setting-l",
 	"sites": [{
+		"name": "翻译神器",
+		"href": "https://www.deepl.com/translator",
+		"desc": "DeepL 靠谱的机器翻译",
+		"logo": "default.ico"
+	}, {
 		"name": "SSH 中转 ①",
 		"href": "https://heyterm.com/",
 		"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
@@ -89,6 +99,11 @@
 		"href": "https://bazhan.me/",
 		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
 		"logo": "https://bazhan.me/favicon.ico"
+  }, {
+		"name": "哪里域名便宜",
+		"href": "https://www.nazhumi.com/",
+		"desc": "全球域名，一网比价",
+		"logo": "default.ico"
 		 }, {
 		"name": "CSS 筛选",
 		"href": "https://uncss-online.com/",
@@ -116,6 +131,11 @@
 		"logo": "https://tools.miku.ac/favicon.ico"
 			 }, {
 		"name": "从图片提取文字 ①",
+		"href": "https://zh.pickfrom.net/png2text",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+					 }, {
+		"name": "从图片提取文字 ②",
 		"href": "https://tools.miku.ac/ocr/",
 		"desc": "OCR文字识别",
 		"logo": "default.ico"
@@ -165,15 +185,50 @@
 	"classify": "存储工具",
 	"icon": "csz czs-baiduwangpan",
 	"sites": [{
-		"name": "百度网盘解析",
-		"href": "https://pan.dupan.me/",
-		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
-		"logo": "https://static.c3z.wang/static/favicon.ico"
+		"name": "文件互传",
+		"href": "https://airportal.cn",
+		"desc": "AirPortal | 空投",
+		"logo": "default.ico"
 		}, {
-		"name": "网盘搬家 ①",
+		"name": "百度网盘解析",
+		"href": "https://tool.yijingying.com/baidupan/",
+		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
+		"logo": "ico/d.ico"
+		}, {
+		"name": "天翼云盘免登陆下载",
+		"href": "http://tool.yijingying.com/189cloud/",
+		"desc": "天翼云盘免登陆解析下载",
+		"logo": "ico/d.ico"
+		}, {
+		"name": "网盘搬家",
 		"href": "https://mover.io/",
 		"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
 		"logo": "default.ico"		
+		}, {
+		"name": "图床 ①",
+		"href": "https://sm.ms/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+		}, {
+		"name": "图床 ②",
+		"href": "https://imagelol.com/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+		}, {
+		"name": "图床 ③",
+		"href": "http://imgbed.cn/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+		}, {
+		"name": "图床 ④",
+		"href": "https://imgchr.com/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+		}, {
+		"name": "图床 ⑤",
+		"href": "https://pic.stackoverflow.wiki/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
 	
 	
 					}]
@@ -236,10 +291,15 @@
 		"desc": "获取最新谷歌浏览器",
 		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
 				}, {
-		"name": "获取与激活 office",
+		"name": "下载与激活 office",
 		"href": "https://otp.landian.vip/zh-cn/",
 		"desc": "多版本 office 安装与激活",
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+				}, {
+		"name": "获取免费 WPS",
+		"href": "https://www.baidu.com/s?wd=“wps 党政机关 下载”",
+		"desc": "WPS党政机关专版",
+		"logo": "default.ico"
 		}, {
 		"name": "易破解",
 		"href": "https://www.ypojie.com/",
@@ -250,6 +310,33 @@
 		"href": "http://www.yxssp.com/",
 		"desc": "安卓直装修改破解软件等",
 		"logo": "default.ico"
+					}]
+}, {
+
+	"_id": "3c6302164656",
+	"classify": "前端资源",
+	"icon": "csz czs-doc-edit-l",
+	"sites": [{
+			"name": "文字首字母头像",
+		"href": "https://mkblog.cn/1886/",
+		"desc": "纯前端生成字母头像",
+		"logo": "default.ico"
+					}, {
+		"name": "音乐播放器 ①",
+		"href": "https://aplayer.js.org/",
+		"desc": "APlayer 开源的播放器",
+		"logo": "default.ico"
+						}, {
+		"name": "音乐播放器 ②",
+		"href": "https://github.com/metowolf/MetingJS",
+		"desc": "给APlayer加入了外链网易云等功能",
+		"logo": "default.ico"
+						}, {
+		"name": "音乐播放器 ③",
+		"href": "https://github.com/Jrohy/QPlayer",
+		"desc": "QPlayer 简洁的悬浮音乐播放器",
+		"logo": "default.ico"
+		
 		
 					}]
 }, {
@@ -261,14 +348,24 @@
 		"name": "YouTube 镜像",
 		"href": "https://video.feds.club/",
 		"desc": "支持P2P共享的油管代理",
-		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
+		"logo": "ico/ytb.ico"
 					}, {
 		"name": "v2 免费节点",
 		"href": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 
-		
+					}]
+}, {
 
-	
+	"_id": "5c60454844656",
+	"classify": "影视资源",
+	"icon": "csz czs-play-l",
+	"sites": [{
+		"name": "卷毛鼠影院",
+		"href": "https://www.jmsooo.com/",
+		"desc": "白嫖影视资源",
+		"logo": "default.ico"
+					
+		
 }] }]
