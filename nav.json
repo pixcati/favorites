@@ -43,9 +43,14 @@
 		"desc": "Youtube_dl",
 		"logo": "default.ico"
 				}, {
-		"name": "音乐搜索器",
-		"href": "http://music.ifkdy.com/",
+		"name": "音乐白嫖器",
+		"href": "https://www.sixyin.com/wuyin/index.php",
 		"desc": "多平台音乐聚合搜索，支持网易云QQ音乐酷狗等",
+		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
+			 }, {
+		"name": "超级音乐白嫖",
+		"href": "https://search.bilibili.com/all?keyword=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%20%E7%99%BD%E5%AB%96",
+		"desc": "真就没想到",
 		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
 			}, {
 		"name": "YouTube 视频下载 ①",
@@ -67,8 +72,13 @@
 		"href": "https://www.alltoall.net/",
 		"desc": "免费的在线格式转换工具",
 		"logo": "default.ico"
-		 }, {
+				 }, {
 		"name": "在线格式转换 ②",
+		"href": "https://www.aconvert.com/cn/",
+		"desc": "免费的在线格式转换工具",
+		"logo": "default.ico"
+		 }, {
+		"name": "在线格式转换 ③",
 		"href": "https://convertio.co/zh/",
 		"desc": "将您的文件转换成任意格式",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
@@ -83,6 +93,11 @@
 		"name": "翻译神器",
 		"href": "https://www.deepl.com/translator",
 		"desc": "DeepL 靠谱的机器翻译",
+		"logo": "default.ico"
+	}, {
+		"name": "免费内网穿透",
+		"href": "https://www.natfrp.com/user/",
+		"desc": "SAKURA FRP",
 		"logo": "default.ico"
 	}, {
 		"name": "SSH 中转 ①",
@@ -100,6 +115,11 @@
 		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
 		"logo": "https://bazhan.me/favicon.ico"
   }, {
+		"name": "Github 文件加速",
+		"href": "https://cdn.svvme.com/",
+		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
+		  }, {
 		"name": "哪里域名便宜",
 		"href": "https://www.nazhumi.com/",
 		"desc": "全球域名，一网比价",
@@ -114,11 +134,6 @@
 		"href": "https://pictureknow.com/extensions",
 		"desc": "收藏猫提供常用的 Chrome 扩展",
 		"logo": "https://pictureknow.com/favicon.ico"
-		}, {
-		"name": "Github 文件加速",
-		"href": "https://cdn.svvme.com/",
-		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
-		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
 		 }, {
 		"name": "在线 Markdown 编辑 ①",
 		"href": "https://www.zybuluo.com/",
@@ -252,8 +267,17 @@
 		"href": "https://wallhaven.cc/",
 		"desc": "高质量壁纸",
 		"logo": "default.ico"
-
 				}, {
+		"name": "Pexels",
+		"href": "https://www.pexels.com/zh-cn/",
+		"desc": "免版权图片素材",
+		"logo": "default.ico"
+				}, {
+		"name": "Unsplash",
+		"href": "https://unsplash.com/",
+		"desc": "免版权图片素材",
+		"logo": "default.ico"
+						}, {
 		"name": "必应壁纸",
 		"href": "https://bing.ioliu.cn/",
 		"desc": "必应历史美图",
@@ -273,11 +297,18 @@
 		"href": "https://iconsvg.xyz/",
 		"desc": "获取svg图标、代码",
 		"logo": "default.ico"
-					}, {
+				}, {
 		"name": "免费可商用字体",
 		"href": "https://ziyouziti.com/index-index-all.html",
 		"desc": "免费可商用字体大全",
 		"logo": "default.ico"
+			}, {
+		"name": "在线配色",
+		"href": "https://color.adobe.com/zh/create/color-wheel",
+		"desc": "Adobe官方配色工具",
+		"logo": "default.ico"
+		
+		
 		
 }]
 }, {
@@ -314,7 +345,7 @@
 }, {
 
 	"_id": "3c6302164656",
-	"classify": "前端资源",
+	"classify": "WEB资源",
 	"icon": "csz czs-doc-edit-l",
 	"sites": [{
 			"name": "文字首字母头像",
@@ -336,6 +367,21 @@
 		"href": "https://github.com/Jrohy/QPlayer",
 		"desc": "QPlayer 简洁的悬浮音乐播放器",
 		"logo": "default.ico"
+						}, {
+		"name": "iro 主题",
+		"href": "https://iro.tw/",
+		"desc": "WordPress主题 Sakurairo",
+		"logo": "default.ico"
+						}, {
+		"name": "樱花Frp文档",
+		"href": "https://doc.natfrp.com/#/frpc/usage/linux",
+		"desc": "樱花Frp文档",
+		"logo": "default.ico"
+						}, {
+		"name": "Easy Hexo",
+		"href": "https://github.com/Jrohy/QPlayer",
+		"desc": "轻松入门Hexo",
+		"logo": "default.ico"
 		
 		
 					}]
@@ -354,6 +400,11 @@
 		"href": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
+			}, {
+		"name": "常见的客户端",
+		"href": "https://r.oking.top/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
+		"desc": "",
+		"logo": "default.ico"
 
 					}]
 }, {
@@ -364,6 +415,11 @@
 	"sites": [{
 		"name": "卷毛鼠影院",
 		"href": "https://www.jmsooo.com/",
+		"desc": "白嫖影视资源",
+		"logo": "default.ico"
+		}, {
+		"name": "VIP视频解析",
+		"href": "http://tool.yijingying.com/video/",
 		"desc": "白嫖影视资源",
 		"logo": "default.ico"
 					
