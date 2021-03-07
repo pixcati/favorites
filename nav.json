@@ -205,6 +205,11 @@
 		"desc": "AirPortal | 空投",
 		"logo": "default.ico"
 		}, {
+		"name": "网盘当对象储存",
+		"href": "https://v2ex.com/t/733854",
+		"desc": "Onedrive等变身对象储存、当cdn用",
+		"logo": "ico/d.ico"
+				}, {
 		"name": "百度网盘解析",
 		"href": "https://tool.yijingying.com/baidupan/",
 		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
@@ -403,6 +408,11 @@
 			}, {
 		"name": "常见的客户端",
 		"href": "https://r.oking.top/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
+		"desc": "",
+		"logo": "default.ico"
+			}, {
+		"name": "谷歌字体镜像 ①",
+		"href": "https://fonts.dogedoge.com/",
 		"desc": "",
 		"logo": "default.ico"
 
