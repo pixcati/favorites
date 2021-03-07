@@ -395,7 +395,7 @@
                     o.name = "娱乐",
                     o.icon = "csz czs-block",
                     o.data = this.data.filter(function(t) {
-                        return - 1 != t.classify.indexOf("收藏")
+                        return - 1 != t.classify.indexOf("网址")
                     }),
                     t.push(o),
 					
