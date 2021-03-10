@@ -386,7 +386,7 @@
                     t.push(n),
 					
                     a.name = "探索",
-                    a.icon = "csz czs-taiji",
+                    a.icon = "csz czs-gift",
                     a.data = this.data.filter(function(t) {
                         return - 1 != t.classify.indexOf("收藏")
                     }),
