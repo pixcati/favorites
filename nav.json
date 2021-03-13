@@ -88,21 +88,69 @@
 
 	"_id": "5ce000b954656",
 	"classify": "效率工具",
-	"icon": "csz czs-setting-l",
+	"icon": "csz czs-time-l",
 	"sites": [{
 		"name": "翻译神器",
 		"href": "https://www.deepl.com/translator",
 		"desc": "DeepL 靠谱的机器翻译",
 		"logo": "default.ico"
 	}, {
-		"name": "免费内网穿透",
-		"href": "https://www.natfrp.com/user/",
-		"desc": "SAKURA FRP",
-		"logo": "default.ico"
-	}, {
 		"name": "公共DNS大全",
 		"href": "https://ip.cn/dns.html",
 		"desc": "常用、小众或地方DNS",
+		"logo": "default.ico"
+	}, {
+		"name": "Chrome 扩展下载",
+		"href": "https://pictureknow.com/extensions",
+		"desc": "收藏猫提供常用的 Chrome 扩展",
+		"logo": "https://pictureknow.com/favicon.ico"
+	}, {
+		"name": "在线 Markdown 编辑 ①",
+		"href": "https://www.zybuluo.com/",
+		"desc": "Markdown 编辑阅读器，实时同步预览",
+		"logo": "https://www.zybuluo.com/static/img/favicon.png"
+	}, {
+		"name": "在线 Markdown 编辑 ②",
+		"href": "https://tools.miku.ac/markdown/",
+		"desc": "Markdown 编辑",
+		"logo": "https://tools.miku.ac/favicon.ico"
+	}, {
+		"name": "从图片提取文字 ①",
+		"href": "https://zh.pickfrom.net/png2text",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "从图片提取文字 ②",
+		"href": "https://tools.miku.ac/ocr/",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ①",
+		"href": "https://www.materialtools.com/?page=1",
+		"desc": "接码平台，可用于接收验证码",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ②",
+		"href": "http://www.114sim.com/",
+		"desc": "接码平台，可用于接收验证码",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+
+	"_id": "55fda05164",
+	"classify": "折腾工具",
+	"icon": "csz czs-server-l",
+	"sites": [{
+		"name": "笨牛网",
+		"href": "http://cdn.bnxb.com/",
+		"desc": "CNAME方式接入Cloudflare cdn  ",
+		"logo": "default.ico"
+	}, {
+		"name": "免费内网穿透",
+		"href": "https://www.natfrp.com/user/",
+		"desc": "SAKURA FRP",
 		"logo": "default.ico"
 	}, {
 		"name": "SSH 中转 ①",
@@ -134,39 +182,15 @@
 		"href": "https://uncss-online.com/",
 		"desc": "滤出CSS中被使用的部分",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
-	}, {
-		"name": "Chrome 扩展下载",
-		"href": "https://pictureknow.com/extensions",
-		"desc": "收藏猫提供常用的 Chrome 扩展",
-		"logo": "https://pictureknow.com/favicon.ico"
-	}, {
-		"name": "在线 Markdown 编辑 ①",
-		"href": "https://www.zybuluo.com/",
-		"desc": "Markdown 编辑阅读器，实时同步预览",
-		"logo": "https://www.zybuluo.com/static/img/favicon.png"
-	}, {
-		"name": "在线 Markdown 编辑 ②",
-		"href": "https://tools.miku.ac/markdown/",
-		"desc": "Markdown 编辑",
-		"logo": "https://tools.miku.ac/favicon.ico"
-	}, {
-		"name": "从图片提取文字 ①",
-		"href": "https://zh.pickfrom.net/png2text",
-		"desc": "OCR文字识别",
-		"logo": "default.ico"
-	}, {
-		"name": "从图片提取文字 ②",
-		"href": "https://tools.miku.ac/ocr/",
-		"desc": "OCR文字识别",
-		"logo": "default.ico"
 
 
 	}]
 }, {
-
+	
+	
 	"_id": "5cfaklkk5164",
 	"classify": "综合工具",
-	"icon": "csz csz czs-link-l",
+	"icon": "csz czs-thumbs-up-l",
 	"sites": [{
 		"name": "MikuTools",
 		"href": "https://tools.miku.ac/",
@@ -241,7 +265,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "图床 ③",
-		"href": "http://imgbed.cn/",
+		"href": "https://www.superbed.cn/",
 		"desc": "免费上传图片并获取外链",
 		"logo": "default.ico"
 	}, {
@@ -352,7 +376,7 @@
 
 	"_id": "5cggsgrrr5164",
 	"classify": "软件资源",
-	"icon": "csz czs-microsoft",
+	"icon": "csz czs-download-l",
 	"sites": [{
 		"name": "获取最新 Chrome",
 		"href": "https://www.iplaysoft.com/tools/chrome/",
@@ -397,6 +421,11 @@
 		"desc": "纯前端生成字母头像",
 		"logo": "default.ico"
 	}, {
+		"name": "CFl Workers 玩法",
+		"href": "https://www.dogedoge.com/results?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA",
+		"desc": "CloudFlare Workers 的一些玩法",
+		"logo": "default.ico"
+	}, {
 		"name": "音乐播放器 ①",
 		"href": "https://aplayer.js.org/",
 		"desc": "APlayer 开源的播放器",
@@ -433,7 +462,7 @@
 
 	"_id": "5c637377734656",
 	"classify": "代理资源",
-	"icon": "csz czs-setting-l",
+	"icon": "csz czs-paper-plane-l",
 	"sites": [{
 		"name": "YouTube 镜像",
 		"href": "https://video.feds.club/",
@@ -441,7 +470,7 @@
 		"logo": "ico/ytb.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -458,6 +487,16 @@
 		"name": "谷歌字体镜像 ①",
 		"href": "https://fonts.dogedoge.com/",
 		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "前端公共库",
+		"href": "https://51.ruyo.net/12387.html",
+		"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
+		"logo": "default.ico"
+	}, {
+		"name": "yum、npm源",
+		"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
+		"desc": "国内镜像源",
 		"logo": "default.ico"
 
 	}]
@@ -502,6 +541,11 @@
 		"name": "有趣网址之家",
 		"href": "https://youquhome.com/",
 		"desc": "收藏全球最有趣的网站",
+		"logo": "default.ico"
+	}, {
+		"name": "JIKE",
+		"href": "https://jike.info/",
+		"desc": "JIKE",
 		"logo": "default.ico"
 
 	}]
