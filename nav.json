@@ -153,6 +153,11 @@
 		"desc": "SAKURA FRP",
 		"logo": "default.ico"
 	}, {
+		"name": "站长工具国内测速",
+		"href": "http://tool.chinaz.com/speedtest/",
+		"desc": "站长工具国内测速",
+		"logo": "default.ico"
+	}, {
 		"name": "SSH 中转 ①",
 		"href": "https://heyterm.com/",
 		"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
