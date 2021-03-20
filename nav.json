@@ -101,8 +101,8 @@
 		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载",
-		"href": "https://pictureknow.com/extensions",
-		"desc": "收藏猫提供常用的 Chrome 扩展",
+		"href": "https://51.ruyo.net/7553.html",
+		"desc": "国内下载 Chrome 扩展",
 		"logo": "https://pictureknow.com/favicon.ico"
 	}, {
 		"name": "在线 Markdown 编辑 ①",
@@ -133,6 +133,11 @@
 		"name": "帮你收短信 ②",
 		"href": "http://www.114sim.com/",
 		"desc": "接码平台，可用于接收验证码",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ③",
+		"href": "https://51.ruyo.net/7789.html",
+		"desc": "接码平台汇总",
 		"logo": "default.ico"
 
 
