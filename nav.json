@@ -239,9 +239,14 @@
 	"classify": "存储工具",
 	"icon": "csz czs-baiduwangpan",
 	"sites": [{
-		"name": "文件互传",
+		"name": "文件互传 ①",
 		"href": "https://airportal.cn",
 		"desc": "AirPortal | 空投",
+		"logo": "default.ico"
+	}, {
+		"name": "文件互传 ②",
+		"href": "http://qingwendang.com/",
+		"desc": "随时云U盘，免登陆上传下载文件",
 		"logo": "default.ico"
 	}, {
 		"name": "网盘变对象储存",
@@ -415,6 +420,11 @@
 	}, {
 		"name": "六音软件",
 		"href": "https://www.sixyin.com/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "前线乐园",
+		"href": "https://www.yijingying.com/",
 		"desc": "",
 		"logo": "default.ico"
 		
