@@ -212,9 +212,14 @@
 		"desc": "实用利器聚合",
 		"logo": "default.ico"
 	}, {
-		"name": "快点搜",
-		"href": "https://quickso.cn/",
+		"name": "iMyShare",
+		"href": "https://imyshare.com/",
 		"desc": "实用导航",
+		"logo": "default.ico"
+	}, {
+		"name": "OneGO导航",
+		"href": "https://ionego.net/",
+		"desc": "网盘、网站收集",
 		"logo": "default.ico"
 	}, {
 		"name": "懒人工具箱",
@@ -247,6 +252,11 @@
 		"name": "文件互传 ②",
 		"href": "http://qingwendang.com/",
 		"desc": "随时云U盘，免登陆上传下载文件",
+		"logo": "default.ico"
+	}, {
+		"name": "网盘导航",
+		"href": "https://www.wangpan.tech/",
+		"desc": "网盘导航网",
 		"logo": "default.ico"
 	}, {
 		"name": "网盘变对象储存",
@@ -309,6 +319,11 @@
 		"name": "V2EX站内搜索",
 		"href": "https://www.sov2ex.com/",
 		"desc": "SOV@EX",
+		"logo": "default.ico"
+	}, {
+		"name": "网盘搜索",
+		"href": "https://www.wangpan.tech/#网盘资源",
+		"desc": "搜索不同的网盘",
 		"logo": "default.ico"
 
 
@@ -526,9 +541,9 @@
 	"classify": "影视资源",
 	"icon": "csz czs-play-l",
 	"sites": [{
-		"name": "卷毛鼠影院",
-		"href": "https://www.jmsooo.com/",
-		"desc": "白嫖影视资源",
+		"name": "免费看剧",
+		"href": "https://iao.su/531/",
+		"desc": "白嫖各种影视资源",
 		"logo": "default.ico"
 	}, {
 		"name": "VIP视频解析",
@@ -546,6 +561,11 @@
 		"name": "如有乐享",
 		"href": "https://51.ruyo.net/",
 		"desc": "分享是一种美德，是一种态度",
+		"logo": "default.ico"
+	}, {
+		"name": "不死鸟",
+		"href": "https://iao.su/",
+		"desc": "分享为王官网",
 		"logo": "default.ico"
 	}, {
 		"name": "Rat's Blog",
@@ -566,6 +586,11 @@
 		"name": "JIKE",
 		"href": "https://jike.info/",
 		"desc": "JIKE",
+		"logo": "default.ico"
+	}, {
+		"name": "TopBook",
+		"href": "https://topbook.cc/",
+		"desc": "高效生活视频书",
 		"logo": "default.ico"
 
 	}]
