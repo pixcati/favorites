@@ -45,10 +45,15 @@
 	}, {
 		"name": "音乐白嫖器",
 		"href": "https://www.sixyin.com/wuyin/index.php",
-		"desc": "多平台音乐聚合搜索，支持网易云QQ音乐酷狗等",
+		"desc": "多平台音乐聚合搜索",
 		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
 	}, {
-		"name": "超级音乐白嫖",
+		"name": "超级音乐白嫖 ①",
+		"href": "https://iao.su/2217/",
+		"desc": "白嫖各平台无损音乐",
+		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
+	}, {
+		"name": "超级音乐白嫖 ②",
 		"href": "https://search.bilibili.com/all?keyword=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%20%E7%99%BD%E5%AB%96",
 		"desc": "唔呼",
 		"logo": "https://cdn.jsdelivr.net/gh/maicong/music@master/favicon.ico"
