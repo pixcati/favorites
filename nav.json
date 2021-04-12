@@ -105,7 +105,12 @@
 		"desc": "常用、小众或地方DNS",
 		"logo": "default.ico"
 	}, {
-		"name": "Chrome 扩展下载",
+		"name": "Chrome 扩展下载 ①",
+		"href": "https://niao.su/6/",
+		"desc": "国内下载 Chrome 扩展",
+		"logo": "https://pictureknow.com/favicon.ico"
+	}, {
+		"name": "Chrome 扩展下载 ②",
 		"href": "https://51.ruyo.net/7553.html",
 		"desc": "国内下载 Chrome 扩展",
 		"logo": "https://pictureknow.com/favicon.ico"
@@ -127,6 +132,11 @@
 	}, {
 		"name": "从图片提取文字 ②",
 		"href": "https://tools.miku.ac/ocr/",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "从图片提取文字 ③",
+		"href": "https://web.baimiaoapp.com/",
 		"desc": "OCR文字识别",
 		"logo": "default.ico"
 	}, {
@@ -316,9 +326,9 @@
 	"classify": "检索工具",
 	"icon": "csz czs-search-l",
 	"sites": [{
-		"name": "多吉搜索",
-		"href": "https://www.dogedoge.com/",
-		"desc": "DogeDoge",
+		"name": "国内用谷歌",
+		"href": "http://www.google.cn.ua/",
+		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "网盘搜索",
@@ -519,24 +529,29 @@
 		"desc": "支持P2P共享的油管代理",
 		"logo": "ico/ytb.ico"
 	}, {
+		"name": "安卓VPN",
+		"href": "https://www.guandao.cc/appsearch/vpn",
+		"desc": "Google Play上的最新工具",
+		"logo": "default.ico"
+	}, {
 		"name": "v2 免费节点",
 		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
+		"name": "ss 免费节点",
+		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
 		"name": "常见的客户端",
 		"href": "https://r.oking.top/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
-		"desc": "",
+		"desc": "常见的代理客户端",
 		"logo": "default.ico"
 	}, {
 		"name": "Github最新Hosts",
 		"href": "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/README.md",
 		"desc": "Github最新Hosts",
-		"logo": "default.ico"
-	}, {
-		"name": "谷歌字体镜像 ①",
-		"href": "https://fonts.dogedoge.com/",
-		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "前端公共库",
