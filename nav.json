@@ -622,6 +622,11 @@
 		"href": "https://topbook.cc/",
 		"desc": "高效生活视频书",
 		"logo": "default.ico"
+	}, {
+		"name": "静然书屋",
+		"href": "https://books.andrewjr.workers.dev/0:/",
+		"desc": "图书分享",
+		"logo": "default.ico"
 
 	}]
 }, {
