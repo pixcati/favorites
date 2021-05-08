@@ -207,6 +207,11 @@
 		"href": "https://uncss-online.com/",
 		"desc": "滤出CSS中被使用的部分",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
+	}, {
+		"name": "JS 变萌",
+		"href": "https://utf-8.jp/public/aaencode.html",
+		"desc": "萌系的JS加密",
+		"logo": "default.ico"
 
 
 	}]
@@ -481,8 +486,13 @@
 		"desc": "纯前端生成字母头像",
 		"logo": "default.ico"
 	}, {
+		"name": "JS 变萌",
+		"href": "https://utf-8.jp/public/aaencode.html",
+		"desc": "萌系的JS加密",
+		"logo": "default.ico"
+	}, {
 		"name": "CF Workers 玩法",
-		"href": "https://www.dogedoge.com/results?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA",
+		"href": "https://cn.bing.com/search?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA&qs=n&form=QBRE&sp=-1&pq=%E4%BD%BF%E7%94%A8+cloudflare+workers+%E6%90%AD%E5%BB%BA&sc=0-24&sk=&cvid=38CB4C5038734318ADE2ACF3B6FC5798",
 		"desc": "CloudFlare Workers 的一些玩法",
 		"logo": "default.ico"
 	}, {
@@ -636,6 +646,21 @@
 	"classify": "猎奇收藏",
 	"icon": "csz czs-taiji",
 	"sites": [{
+		"name": "解除犯困",
+		"href": "https://www.bilibili.com/video/BV1tQ4y1T7QT",
+		"desc": "Sapien medicine 精气神系列之神",
+		"logo": "default.ico"
+	}, {
+		"name": "全身放松",
+		"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
+		"desc": "Sapien medicine 灵气按摩",
+		"logo": "default.ico"
+	}, {
+		"name": "无声曼陀罗",
+		"href": "https://www.ximalaya.com/yinyue/45784716/",
+		"desc": "闷声发财",
+		"logo": "default.ico"
+	}, {
 		"name": "退出鬼压床",
 		"href": "https://tieba.baidu.com/p/1219269818?see_lz=0",
 		"desc": "拉回清醒状态",
@@ -644,16 +669,6 @@
 		"name": "利用鬼压床",
 		"href": "https://tieba.baidu.com/p/1115993435",
 		"desc": "利用压床状态进行清明梦或星体投射",
-		"logo": "default.ico"
-	}, {
-		"name": "主动体验压床",
-		"href": "https://tieba.baidu.com/p/3064176343?red_tag=2380423378",
-		"desc": "",
-		"logo": "default.ico"
-	}, {
-		"name": "Sapien medicine",
-		"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
-		"desc": "灵气按摩",
 		"logo": "default.ico"
 	}, {
 		"name": "Cybo",
