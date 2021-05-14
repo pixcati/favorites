@@ -13,19 +13,19 @@
 		"desc": "AI抠图、滤镜、大小调整、剪裁等",
 		"logo": "default.ico"
 	}, {
-		"name": "搞定抠图",
+		"name": "快速抠图",
 		"href": "https://www.gaoding.com/koutu",
 		"desc": "实用在线抠图工具",
 		"logo": "https://www.gaoding.com/favicon.ico"
 	}, {
-		"name": "AI 换脸",
-		"href": "https://reflect.tech/",
-		"desc": "基于AI的在线换脸",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/aihn.png"
-	}, {
 		"name": "提取网页图片",
 		"href": "http://www.pullywood.com/ImageAssistant/",
 		"desc": "列出与保存网页中存在的图片或图标",
+		"logo": "default.ico"
+	}, {
+		"name": "AI 换脸",
+		"href": "https://reflect.tech/",
+		"desc": "基于AI的在线换脸",
 		"logo": "default.ico"
 	}, {
 		"name": "蒸気機",
@@ -426,7 +426,7 @@
 	}, {
 		"name": "在线配色",
 		"href": "https://color.adobe.com/zh/create/color-wheel",
-		"desc": "Adobe官方配色工具",
+		"desc": "Adobe官方推出的配色工具",
 		"logo": "default.ico"
 
 
