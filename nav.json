@@ -637,6 +637,11 @@
 		"href": "https://books.andrewjr.workers.dev/0:/",
 		"desc": "图书分享",
 		"logo": "default.ico"
+	}, {
+		"name": "小俊博客",
+		"href": "https://www.xjisme.com/",
+		"desc": "小俊博客",
+		"logo": "default.ico"
 
 	}]
 }, {
