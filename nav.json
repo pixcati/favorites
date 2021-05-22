@@ -409,6 +409,11 @@
 		"desc": "一款字体图标",
 		"logo": "default.ico"
 	}, {
+		"name": "阿里巴巴图标库",
+		"href": "https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.d33146d14&type=3",
+		"desc": "阿里巴巴矢量图标库",
+		"logo": "default.ico"
+	}, {
 		"name": "SVG 图标",
 		"href": "https://iconsvg.xyz/",
 		"desc": "获取svg图标、代码",
