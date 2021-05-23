@@ -392,12 +392,12 @@
                     }),
                     t.push(a),
 					
-                    o.name = "娱乐",
-                    o.icon = "csz czs-block",
-                    o.data = this.data.filter(function(t) {
-                        return - 1 != t.classify.indexOf("网址")
-                    }),
-                    t.push(o),
+                    // o.name = "",
+                    // o.icon = "csz czs-block",
+                    // o.data = this.data.filter(function(t) {
+                    //     return - 1 != t.classify.indexOf("网址")
+                    // }),
+                    // t.push(o),
 					
                     t
                 }
@@ -551,4 +551,3 @@
 	"8e26": function(t, e, n) {},
 	"9e74": function(t, e, n) {}
 });
-//# sourceMappingURL=app.e4909c9a.js.map
