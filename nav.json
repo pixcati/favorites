@@ -447,7 +447,7 @@
 		"href": "https://www.iplaysoft.com/tools/chrome/",
 		"desc": "获取最新谷歌浏览器",
 		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
-	}, {
+	}, { 
 		"name": "下载与白嫖 office",
 		"href": "https://otp.landian.vip/zh-cn/",
 		"desc": "多版本 office 安装与激活",
@@ -643,11 +643,6 @@
 		"desc": "挖掘建站的乐趣",
 		"logo": "default.ico"
 	}, {
-		"name": "有趣网址之家",
-		"href": "https://youquhome.com/",
-		"desc": "收藏全球最有趣的网站",
-		"logo": "default.ico"
-	}, {
 		"name": "JIKE",
 		"href": "https://jike.info/",
 		"desc": "JIKE",
@@ -715,13 +710,37 @@
 		"href": "http://blog.sina.com.cn/s/blog_40c4b2530102vok2.html",
 		"desc": "",
 		"logo": "default.ico"
-	}, {
-		"name": "神圣回路",
-		"href": "https://www.bilibili.com/read/cv6023952",
-		"desc": "",
-		"logo": "default.ico"
 
+		
+		
+		}]
+}, {
+
+	"_id": "5c6007444656",
+	"classify": "有趣收藏",
+	"icon": "csz czs-block",
+	"sites": [{
+		"name": "这个不存在",
+		"href": "https://thisxdoesnotexist.com",
+		"desc": "随机来点不存在的东西",
+		"logo": "default.ico"
+	}, {
+		"name": "随机人脸",
+		"href": "https://thispersondoesnotexist.com/",
+		"desc": "每次刷新都会出现不同Ai合成人脸",
+		"logo": "default.ico"
+	}, {
+		"name": "随机猫图",
+		"href": "https://thiscatdoesnotexist.com/",
+		"desc": "每次刷新都会出现不同的合成猫",
+		"logo": "default.ico"
+	}, {
+		"name": "有趣网址之家",
+		"href": "https://youquhome.com/",
+		"desc": "收藏全球最有趣的网站",
+		"logo": "default.ico"
 
 	}]
 }]
+
 
