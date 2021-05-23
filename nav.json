@@ -591,6 +591,11 @@
 		"desc": "白嫖各种影视资源",
 		"logo": "default.ico"
 	}, {
+		"name": "ZY Player 资源播放器",
+		"href": "http://zyplayer.fun/",
+		"desc": "跨平台视频资源播放器",
+		"logo": "default.ico"
+	}, {
 		"name": "VIP视频解析",
 		"href": "http://tool.yijingying.com/video/",
 		"desc": "白嫖影视资源",
@@ -719,3 +724,4 @@
 
 	}]
 }]
+
