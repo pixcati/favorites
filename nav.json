@@ -584,6 +584,11 @@
 		"desc": "国内镜像源",
 		"logo": "default.ico"
 	}, {
+		"name": "JDK国内镜像源",
+		"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
+		"desc": "国内线路下载JDK、Tomcat",
+		"logo": "default.ico"
+	}, {
 		"name": "Docker国内镜像源",
 		"href": "https://51.ruyo.net/16766.html#3",
 		"desc": "国内镜像源",
