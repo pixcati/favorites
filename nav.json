@@ -480,7 +480,7 @@
 	}, {
 		"name": "异次元软件世界",
 		"href": "https://www.iplaysoft.com/",
-		"desc": "高质量软件分享",
+		"desc": "高质量软件图文",
 		"logo": "default.ico"
 		
 		
@@ -581,6 +581,11 @@
 	}, {
 		"name": "yum、npm源",
 		"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
+		"desc": "国内镜像源",
+		"logo": "default.ico"
+	}, {
+		"name": "Docker国内镜像源",
+		"href": "https://51.ruyo.net/16766.html#3",
 		"desc": "国内镜像源",
 		"logo": "default.ico"
 
