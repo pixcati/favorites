@@ -477,6 +477,11 @@
 		"href": "https://www.yijingying.com/",
 		"desc": "",
 		"logo": "default.ico"
+	}, {
+		"name": "异次元软件世界",
+		"href": "https://www.iplaysoft.com/",
+		"desc": "高质量软件分享",
+		"logo": "default.ico"
 		
 		
 	}]
@@ -661,6 +666,11 @@
 		"name": "小俊博客",
 		"href": "https://www.xjisme.com/",
 		"desc": "小俊博客",
+		"logo": "default.ico"
+	}, {
+		"name": "异次元软件世界",
+		"href": "https://www.iplaysoft.com/",
+		"desc": "高质量软件分享",
 		"logo": "default.ico"
 
 	}]
