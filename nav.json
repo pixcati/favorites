@@ -549,9 +549,14 @@
 		"desc": "支持P2P共享的油管代理",
 		"logo": "ico/ytb.ico"
 	}, {
-		"name": "安卓VPN",
+		"name": "安卓VPN集合",
 		"href": "https://www.guandao.cc/appsearch/vpn",
 		"desc": "Google Play上的最新工具",
+		"logo": "default.ico"
+	}, {
+		"name": "在线代理",
+		"href": "https://proxy.justyy.com/",
+		"desc": "JSproxy", 
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
@@ -698,7 +703,7 @@
 	"sites": [{
 		"name": "解除犯困",
 		"href": "https://www.bilibili.com/video/BV1tQ4y1T7QT",
-		"desc": "Sapien medicine 精气神系列之神",
+		"desc": "Sapien medicine 精气神系列",
 		"logo": "default.ico"
 	}, {
 		"name": "全身放松",
@@ -709,6 +714,11 @@
 		"name": "释放恐惧",
 		"href": "https://search.bilibili.com/all?keyword=396Hz",
 		"desc": "释放恐惧和焦虑",
+		"logo": "default.ico"
+	}, {
+		"name": "五音疗疾",
+		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
+		"desc": "五音调五脏",
 		"logo": "default.ico"
 	}, {
 		"name": "无声曼陀罗",
@@ -733,6 +743,22 @@
 	}, {
 		"name": "转化式螺旋",
 		"href": "http://blog.sina.com.cn/s/blog_40c4b2530102vok2.html",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "男生变强",
+		"href": "https://jiba.plus/",
+		"desc": "懂得都懂",
+		"logo": "default.ico"
+	}, {
+		"name": "在线变帅 ①",
+		"href": "https://www.bilibili.com/video/BV1yv411h79G",
+		"desc": "",
+		"logo": "default.ico"
+
+	}, {
+		"name": "在线变帅 ②",
+		"href": "https://www.bilibili.com/video/BV1x5411w7ws",
 		"desc": "",
 		"logo": "default.ico"
 
