@@ -44,7 +44,7 @@
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/flyme_video.ico"
 	}, {
 		"name": "音乐白嫖器",
-		"href": "https://www.sixyin.com/wuyin/index.php",
+		"href": "http://tool.liumingye.cn/music/?page=homePage",
 		"desc": "多平台音乐聚合搜索",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
 	}, {
@@ -106,7 +106,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载 ①",
-		"href": "https://niao.su/6/",
+		"href": "https://chrome.zzzmh.cn/",
 		"desc": "国内下载 Chrome 扩展",
 		"logo": "https://pictureknow.com/favicon.ico"
 	}, {
@@ -153,6 +153,11 @@
 		"name": "帮你收短信 ③",
 		"href": "https://51.ruyo.net/7789.html",
 		"desc": "接码平台汇总",
+		"logo": "default.ico"
+	}, {
+		"name": "临时邮箱",
+		"href": "http://24mail.chacuo.net/",
+		"desc": "获取一个临时邮箱",
 		"logo": "default.ico"
 
 
@@ -392,6 +397,11 @@
 		"name": "必应壁纸",
 		"href": "https://bing.ioliu.cn/",
 		"desc": "必应历史美图",
+		"logo": "default.ico"
+	}, {
+		"name": "P站热门",
+		"href": "https://pixivic.com/",
+		"desc": "P站热榜与热门",
 		"logo": "default.ico"
 	}, {
 		"name": "随机图片 ①",
@@ -658,6 +668,11 @@
 		"desc": "分享为王官网",
 		"logo": "default.ico"
 	}, {
+		"name": "吾爱分享",
+		"href": "https://52sharing.cn/",
+		"desc": "吾爱分享网",
+		"logo": "default.ico"
+	}, {
 		"name": "Rat's Blog",
 		"href": "https://www.moerats.com/",
 		"desc": "Rat's Blog",
@@ -701,6 +716,11 @@
 		"name": "趣玩实验室",
 		"href": "https://lab.lalkk.com/",
 		"desc": "趣玩实验室",
+		"logo": "default.ico" 
+	}, {
+		"name": "Epic 喜加一",
+		"href": "https://www.epicgames.com/store/zh-CN/",
+		"desc": "白嫖游戏",
 		"logo": "default.ico"
 
 	}]
@@ -794,6 +814,11 @@
 		"name": "随机猫图",
 		"href": "https://thiscatdoesnotexist.com/",
 		"desc": "每次刷新都会出现不同的合成猫",
+		"logo": "default.ico"
+	}, {
+		"name": "随机妹纸",
+		"href": "https://thiscatdoesnotexist.com/",
+		"desc": "每次刷新都会出现不同的二刺螈",
 		"logo": "default.ico"
 	}, {
 		"name": "有趣网址之家",
