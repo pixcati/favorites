@@ -105,6 +105,11 @@
 		"desc": "常用、小众或地方DNS",
 		"logo": "default.ico"
 	}, {
+		"name": "在线方格纸打印",
+		"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
+		"desc": "在线自定义打印多种类型的方格纸",
+		"logo": "default.ico"
+	}, {
 		"name": "Chrome 扩展下载 ①",
 		"href": "https://chrome.zzzmh.cn/",
 		"desc": "国内下载 Chrome 扩展",
@@ -686,6 +691,11 @@
 		"name": "小众软件",
 		"href": "https://www.appinn.com/",
 		"desc": "小众软件",
+		"logo": "default.ico"
+	}, {
+		"name": "无忧启动论坛",
+		"href": "http://bbs.wuyou.net/",
+		"desc": "无忧启动论坛",
 		"logo": "default.ico"
 	}, {
 		"name": "挖站否",
