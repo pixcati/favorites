@@ -23,6 +23,11 @@
 		"desc": "列出与保存网页中存在的图片或图标",
 		"logo": "default.ico"
 	}, {
+		"name": "在线带壳截图",
+		"href": "https://deviceshots.com/",
+		"desc": "给截图添加不同设备类型的壳子",
+		"logo": "default.ico"
+	}, {
 		"name": "AI 换脸",
 		"href": "https://reflect.tech/",
 		"desc": "基于AI的在线换脸",
@@ -32,6 +37,11 @@
 		"href": "https://lab.magiconch.com/vaporwave/",
 		"desc": "虚拟信号蒸汽波风格化影像后期工具",
 		"logo": "https://lab.magiconch.com/favicon.ico"
+	}, {
+		"name": "在线画像素画",
+		"href": "https://site.douban.com/163509/widget/forum/8736495/discussion/615417236/",
+		"desc": "多个在线画像素画的小工具",
+		"logo": "default.ico"
 	}, {
 		"name": "B站视频下载",
 		"href": "https://www.jijidown.com/",
@@ -103,6 +113,11 @@
 		"name": "公共DNS大全",
 		"href": "https://ip.cn/dns.html",
 		"desc": "常用、小众或地方DNS",
+		"logo": "default.ico"
+	}, {
+		"name": "网页上都是简体",
+		"href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
+		"desc": "网页上的繁体字都替换为简体",
 		"logo": "default.ico"
 	}, {
 		"name": "在线方格纸打印",
@@ -585,12 +600,12 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "ss 免费节点",
-		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -631,19 +646,24 @@
 	"classify": "影视资源",
 	"icon": "csz czs-play-l",
 	"sites": [{
-		"name": "免费看剧",
+		"name": "免费看剧 ①",
 		"href": "https://iao.su/531/",
 		"desc": "白嫖各种影视资源",
 		"logo": "default.ico"
 	}, {
-		"name": "ZY Player 资源播放器",
-		"href": "http://zyplayer.fun/",
-		"desc": "跨平台视频资源播放器",
+		"name": "免费看剧 ②",
+		"href": "https://www.coolapk.com/feed/21540393?shareKey=MzRjYTg5ZGIxNzU5NjBlNjhmOGU~&shareUid=1174882",
+		"desc": "白嫖各种影视资源",
 		"logo": "default.ico"
 	}, {
 		"name": "VIP视频解析", 
 		"href": "http://tool.yijingying.com/video/",
 		"desc": "白嫖影视资源",
+		"logo": "default.ico"
+	}, {
+		"name": "ZY Player 资源播放器",
+		"href": "http://zyplayer.fun/",
+		"desc": "跨平台视频资源播放器",
 		"logo": "default.ico"
 	}, {
 		"name": "免费爱奇艺账号",
@@ -751,9 +771,14 @@
 		"desc": "Sapien medicine 精气神系列",
 		"logo": "default.ico"
 	}, {
+		"name": "世界简史",
+		"href": "hhttps://tieba.baidu.com/p/7156836600?pn=1",
+		"desc": "世界简史",
+		"logo": "default.ico"
+	}, {
 		"name": "全身放松",
 		"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
-		"desc": "Sapien medicine 灵气按摩",
+		"desc": "Sapien medicine",
 		"logo": "default.ico"
 	}, {
 		"name": "释放恐惧",
@@ -794,17 +819,6 @@
 		"name": "男生变强",
 		"href": "https://jiba.plus/",
 		"desc": "懂得都懂",
-		"logo": "default.ico"
-	}, {
-		"name": "在线变帅 ①",
-		"href": "https://www.bilibili.com/video/BV1yv411h79G",
-		"desc": "",
-		"logo": "default.ico"
-
-	}, {
-		"name": "在线变帅 ②",
-		"href": "https://www.bilibili.com/video/BV1x5411w7ws",
-		"desc": "",
 		"logo": "default.ico"
 
 		
