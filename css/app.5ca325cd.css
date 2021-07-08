@@ -7,11 +7,7 @@
 body {
 	margin:0;
 	background:#00000000;
- /*	background-image: url(https://uploadbeta.com/api/pictures/random/ );
-	background-attachment: fixed;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%  */
+
 }
 
 ::selection {
@@ -26,6 +22,7 @@ body {
 	background:#000000;
 	color:#ffffff;
 }
+
 
 li[data-v-99508432] {
 	list-style:none
@@ -525,7 +522,7 @@ body[data-v-43c30294] {
 }
 .main .box .item .logo[data-v-43c30294],.main .box .item .no-logo[data-v-43c30294] {
 	color:#000000;
-	font-weight:300;
+	font-weight:600;
 	font-size:18px
 }
 .main .box .item .logo[data-v-43c30294] {
@@ -552,7 +549,7 @@ body[data-v-43c30294] {
 .main .box .item .desc[data-v-43c30294] {
 	color:#263942;
 	font-size:15px;
-	font-weight:100;
+	font-weight:500;
 	padding-top:10p x;
 	height:35px;
 	overflow:hidden;
