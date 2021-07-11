@@ -362,7 +362,7 @@
 	"icon": "csz czs-search-l",
 	"sites": [{
 		"name": "国内用谷歌",
-		"href": "http://www.google.cn.ua/",
+		"href": "http://tools.bugscaner.com/google/",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -610,7 +610,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "常见的客户端",
-		"href": "https://r.oking.top/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
+		"href": "https://g.svvme.com/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
 		"desc": "常见的代理客户端",
 		"logo": "default.ico"
 	}, {
@@ -688,6 +688,11 @@
 	"classify": "好站收藏",
 	"icon": "csz czs-rss",
 	"sites": [{
+		"name": "图书资源白嫖",
+		"href": "http://shuxiangjia.cn/",
+		"desc": "不同类型的图书资源",
+		"logo": "default.ico"
+	}, {
 		"name": "如有乐享",
 		"href": "https://51.ruyo.net/",
 		"desc": "分享是一种美德，是一种态度",
@@ -721,6 +726,11 @@
 		"name": "挖站否",
 		"href": "https://wzfou.com/",
 		"desc": "挖掘建站的乐趣",
+		"logo": "default.ico"
+	}, {
+		"name": "羊毛党之家",
+		"href": "https://yangmaodang.org/",
+		"desc": "薅羊毛",
 		"logo": "default.ico"
 	}, {
 		"name": "JIKE",
