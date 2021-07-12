@@ -703,6 +703,11 @@
 		"desc": "分享为王官网",
 		"logo": "default.ico"
 	}, {
+		"name": "文武科技柜",
+		"href": "https://www.wangdu.site/",
+		"desc": "文武科技柜",
+		"logo": "default.ico"
+	}, {
 		"name": "吾爱分享",
 		"href": "https://52sharing.cn/",
 		"desc": "吾爱分享网",
@@ -776,11 +781,6 @@
 	"classify": "猎奇收藏",
 	"icon": "csz czs-taiji",
 	"sites": [{
-		"name": "解除犯困",
-		"href": "https://www.bilibili.com/video/BV1tQ4y1T7QT",
-		"desc": "Sapien medicine 精气神系列",
-		"logo": "default.ico"
-	}, {
 		"name": "世界简史",
 		"href": "hhttps://tieba.baidu.com/p/7156836600?pn=1",
 		"desc": "世界简史",
@@ -791,47 +791,10 @@
 		"desc": "Sapien medicine",
 		"logo": "default.ico"
 	}, {
-		"name": "释放恐惧",
-		"href": "https://search.bilibili.com/all?keyword=396Hz",
-		"desc": "释放恐惧和焦虑",
-		"logo": "default.ico"
-	}, {
 		"name": "五音疗疾",
 		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
 		"desc": "五音调五脏",
 		"logo": "default.ico"
-	}, {
-		"name": "无声曼陀罗",
-		"href": "https://www.ximalaya.com/yinyue/45784716/",
-		"desc": "闷声发财",
-		"logo": "default.ico"
-	}, {
-		"name": "退出鬼压床",
-		"href": "https://tieba.baidu.com/p/1219269818?see_lz=0",
-		"desc": "拉回清醒状态",
-		"logo": "default.ico"
-	}, {
-		"name": "利用鬼压床",
-		"href": "https://tieba.baidu.com/p/1115993435",
-		"desc": "利用压床状态进行清明梦或星体投射",
-		"logo": "default.ico"
-	}, {
-		"name": "Cybo",
-		"href": "https://www.douban.com/note/581437066/",
-		"desc": "连续的体验小概率事件",
-		"logo": "default.ico"
-	}, {
-		"name": "转化式螺旋",
-		"href": "http://blog.sina.com.cn/s/blog_40c4b2530102vok2.html",
-		"desc": "",
-		"logo": "default.ico"
-	}, {
-		"name": "男生变强",
-		"href": "https://jiba.plus/",
-		"desc": "懂得都懂",
-		"logo": "default.ico"
-
-		
 		
 		}]
 }, {
