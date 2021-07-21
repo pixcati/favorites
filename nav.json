@@ -286,6 +286,11 @@
 		"href": "https://tool.lu/",
 		"desc": "代码压缩、美化，开发类、站长类、极客类工具",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/zxgj.ico"
+	}, {
+		"name": "哆啦A梦的神奇口袋",
+		"href": "http://baozangku.ys168.com",
+		"desc": "永硕E盘下的某列表",
+		"logo": "default.ico"
 
 	}]
 }, {
@@ -496,6 +501,16 @@
 		"name": "获取纯净的Flash",
 		"href": "https://www.sixyin.com/1806.html",
 		"desc": "纯净并去除了限制",
+		"logo": "default.ico"
+	}, {
+		"name": "获取不同的系统镜像",
+		"href": "https://www.wangdu.site/software/43.html",
+		"desc": "下载原版的Win10/8/7/xp，或Linux系统镜像与安装程序 ",
+		"logo": "default.ico"
+	}, {
+		"name": "截图神器",
+		"href": "https://zh.snipaste.com/",
+		"desc": "Snipaste是一款优秀的截图工具",
 		"logo": "default.ico"
 	}, {
 		"name": "易破解",
@@ -819,7 +834,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "随机妹纸",
-		"href": "https://thiscatdoesnotexist.com/",
+		"href": "https://www.thiswaifudoesnotexist.net",
 		"desc": "每次刷新都会出现不同的二刺螈",
 		"logo": "default.ico"
 	}, {
