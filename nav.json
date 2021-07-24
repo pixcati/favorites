@@ -315,7 +315,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "网盘变对象储存",
-		"href": "https://v2ex.com/t/733854",
+		"href": "https://js2.svvme.com/https/v2ex.com/t/733854",
 		"desc": "Onedrive等变身对象储存、当cdn用",
 		"logo": "default.ico"
 	}, {
@@ -605,8 +605,8 @@
 		"logo": "ico/ytb.ico"
 	}, {
 		"name": "安卓VPN集合",
-		"href": "https://www.guandao.cc/appsearch/vpn",
-		"desc": "Google Play上的最新工具",
+		"href": "https://js2.svvme.com/https/apk.support/search?q=vpn&t=support",
+		"desc": "同步 Play上的最新工具",
 		"logo": "default.ico"
 	}, {
 		"name": "在线代理",
@@ -728,11 +728,6 @@
 		"desc": "吾爱分享网",
 		"logo": "default.ico"
 	}, {
-		"name": "Rat's Blog",
-		"href": "https://www.moerats.com/",
-		"desc": "Rat's Blog",
-		"logo": "default.ico"
-	}, {
 		"name": "小众软件",
 		"href": "https://www.appinn.com/",
 		"desc": "小众软件",
@@ -768,9 +763,9 @@
 		"desc": "图书分享",
 		"logo": "default.ico"
 	}, {
-		"name": "小俊博客",
-		"href": "https://www.xjisme.com/",
-		"desc": "小俊博客",
+		"name": "哔哩大学",
+		"href": "https://bilidx.nexmoe.com/",
+		"desc": "B站上的学习资源",
 		"logo": "default.ico"
 	}, {
 		"name": "异次元软件世界",
@@ -792,12 +787,34 @@
 }, {
 
 
+	"_id": "5c51456534",
+	"classify": "博客收藏",
+	"icon": "csz czs-book",
+	"sites": [{
+		"name": "折影轻梦",
+		"href": "https://www.xjisme.com/",
+		"desc": "折影轻梦",
+		"logo": "default.ico"
+	}, {
+		"name": "小俊博客",
+		"href": "https://www.xjisme.com/",
+		"desc": "小俊博客",
+		"logo": "default.ico"
+	}, {
+		"name": "Rat's Blog",
+		"href": "https://www.moerats.com/",
+		"desc": "Rat's Blog",
+		"logo": "default.ico"
+		
+		}]
+}, {
+	
 	"_id": "5c550114656",
 	"classify": "猎奇收藏",
 	"icon": "csz czs-taiji",
 	"sites": [{
 		"name": "世界简史",
-		"href": "hhttps://tieba.baidu.com/p/7156836600?pn=1",
+		"href": "https://tieba.baidu.com/p/7156836600?pn=1",
 		"desc": "世界简史",
 		"logo": "default.ico"
 	}, {
