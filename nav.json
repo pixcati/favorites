@@ -128,12 +128,12 @@
 		"name": "Chrome 扩展下载 ①",
 		"href": "https://chrome.zzzmh.cn/",
 		"desc": "国内下载 Chrome 扩展",
-		"logo": "https://pictureknow.com/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载 ②",
 		"href": "https://51.ruyo.net/7553.html",
 		"desc": "国内下载 Chrome 扩展",
-		"logo": "https://pictureknow.com/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "在线 Markdown 编辑 ①",
 		"href": "https://www.zybuluo.com/",
@@ -503,11 +503,6 @@
 		"desc": "纯净并去除了限制",
 		"logo": "default.ico"
 	}, {
-		"name": "获取不同的系统镜像",
-		"href": "https://www.wangdu.site/software/43.html",
-		"desc": "下载原版的Win10/8/7/xp，或Linux系统镜像与安装程序 ",
-		"logo": "default.ico"
-	}, {
 		"name": "截图神器",
 		"href": "https://zh.snipaste.com/",
 		"desc": "Snipaste是一款优秀的截图工具",
@@ -542,9 +537,67 @@
 	}]
 }, {
 
+	"_id": "3c64156afd015",
+	"classify": "镜像资源",
+	"icon": "csz czs-linux",
+	"sites": [{
+		"name": "LInux 发行版下载",
+		"href": "https://g.svvme.com/Linux-%E9%95%9C%E5%83%8F-%E5%8F%91%E8%A1%8C%E7%89%88-%E4%B8%8B%E8%BD%BD-07-27",
+		"desc": "加速下载Linux发行及分支版本",
+		"logo": "default.ico"
+	}, {
+		"name": "极简系统",
+		"href": "https://www.sysmini.com/",
+		"desc": "下载Win10/8/7/xp原版镜像或精简 ",
+		"logo": "default.ico"
+	}, {
+		"name": "MSDN",
+		"href": "https://msdn.itellyou.cn/",
+		"desc": "Windows 原版镜像、软件",
+		"logo": "default.ico"
+	}, {
+		"name": "NEXT",
+		"href": "https://next.itellyou.cn/",
+		"desc": "Windows、Linux 原版镜像、软件",
+		"logo": "default.ico"
+	}, {
+		"name": "开源镜像站汇总",
+		"href": "https://g.svvme.com/%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E6%B1%87%E6%80%BB-07-28",
+		"desc": "开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "清华大学开源镜像站",
+		"href": "https://mirrors.tuna.tsinghua.edu.cn/",
+		"desc": "清华大学开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "前端公共库",
+		"href": "https://51.ruyo.net/12387.html",
+		"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
+		"logo": "default.ico"
+	}, {
+		"name": "yum、npm源",
+		"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
+		"desc": "国内镜像源",
+		"logo": "default.ico"
+	}, {
+		"name": "JDK国内镜像源",
+		"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
+		"desc": "国内线路下载JDK、Tomcat",
+		"logo": "default.ico"
+	}, {
+		"name": "Docker国内镜像源",
+		"href": "https://g.svvme.com/Docker-%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90-07-28",
+		"desc": "国内镜像源",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+
 	"_id": "3c6302164656",
 	"classify": "WEB资源",
-	"icon": "csz czs-doc-edit-l",
+	"icon": "csz czs-html5",
 	"sites": [{
 		"name": "文字首字母头像",
 		"href": "https://mkblog.cn/1886/",
@@ -605,7 +658,7 @@
 		"logo": "ico/ytb.ico"
 	}, {
 		"name": "安卓VPN集合",
-		"href": "https://js2.svvme.com/https/apk.support/search?q=vpn&t=support",
+		"href": "https://js.svvme.com/-----https://apk.support/search?q=vpn&t=support",
 		"desc": "同步 Play上的最新工具",
 		"logo": "default.ico"
 	}, {
@@ -632,26 +685,6 @@
 		"name": "Github最新Hosts",
 		"href": "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/README.md",
 		"desc": "Github最新Hosts",
-		"logo": "default.ico"
-	}, {
-		"name": "前端公共库",
-		"href": "https://51.ruyo.net/12387.html",
-		"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
-		"logo": "default.ico"
-	}, {
-		"name": "yum、npm源",
-		"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
-		"desc": "国内镜像源",
-		"logo": "default.ico"
-	}, {
-		"name": "JDK国内镜像源",
-		"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
-		"desc": "国内线路下载JDK、Tomcat",
-		"logo": "default.ico"
-	}, {
-		"name": "Docker国内镜像源",
-		"href": "https://51.ruyo.net/16766.html#3",
-		"desc": "国内镜像源",
 		"logo": "default.ico"
 
 	}]
