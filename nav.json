@@ -287,6 +287,11 @@
 		"desc": "代码压缩、美化，开发类、站长类、极客类工具",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/zxgj.ico"
 	}, {
+		"name": "Qtools在线工具",
+		"href": "https://www.qtool.net/",
+		"desc": "实用利器聚合",
+		"logo": "default.ico"
+	}, {
 		"name": "哆啦A梦的神奇口袋",
 		"href": "http://baozangku.ys168.com",
 		"desc": "永硕E盘下的某列表",
