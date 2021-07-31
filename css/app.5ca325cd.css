@@ -8,6 +8,12 @@ body {
 	margin:0;
 	background:#f3f6f8
 }
+
+/* 隐藏ico */
+.el-image {
+	display: none;
+}
+
 li[data-v-99508432] {
 	list-style:none
 }
