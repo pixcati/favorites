@@ -1,2083 +1,913 @@
-#app {
-	font-family:Avenir,Helvetica,Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale;
-	color:#2c3e50
-}
-body {
-	margin:0;
-	background: #fff;
-}
+[{
+	"_id": "fjkdasf1g1sb1",
+	"classify": "媒体工具",
+	"icon": "csz czs-play-l",
+	"sites": [{
+		"name": "消除图片背景",
+		"href": "https://www.remove.bg/zh",
+		"desc": "快速移除或替换图片背景",
+		"logo": "https://pic.stackoverflow.wiki/uploadImages/175/15/190/29/2021/02/15/23/03/4f3b1198-30bb-4d3c-bbf5-fb37b01be904.ico"
+	}, {
+		"name": "提取网页图片",
+		"href": "http://www.pullywood.com/ImageAssistant/",
+		"desc": "列出与保存网页中存在的图片或图标",
+		"logo": "default.ico"
+	}, {
+		"name": "B站视频下载",
+		"href": "https://www.jijidown.com/",
+		"desc": "哔哩哔哩唧唧",
+		"logo": "https://www.jijidown.com/static/favicon.ico"
+	}, {
+		"name": "在线视频解析下载",
+		"href": "http://videoparse.mmazai.com/",
+		"desc": "无水印下载抖音快手微博最右等平台视频",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/flyme_video.ico"
+	}, {
+		"name": "音乐白嫖器",
+		"href": "http://tool.liumingye.cn/music/?page=homePage",
+		"desc": "多平台音乐聚合搜索",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+	}, {
+		"name": "超级音乐白嫖 ①",
+		"href": "https://iao.su/2217/",
+		"desc": "白嫖各平台无损音乐",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+	}, {
+		"name": "超级音乐白嫖 ②",
+		"href": "https://search.bilibili.com/all?keyword=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%20%E7%99%BD%E5%AB%96",
+		"desc": "广大网友来支招",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+	}, {
+		"name": "在线带壳截图",
+		"href": "https://deviceshots.com/",
+		"desc": "给截图添加不同设备类型的壳子",
+		"logo": "default.ico"
+	}, {
+		"name": "在线画像素画",
+		"href": "https://site.douban.com/163509/widget/forum/8736495/discussion/615417236/",
+		"desc": "多个在线画像素画的小工具",
+		"logo": "default.ico"
+	}, {
+		"name": "YouTube 视频下载 ①",
+		"href": "http://ssyoutube.com/",
+		"desc": "在线获取 YouTube 视频",
+		"logo": "ico/ytb.ico"
+	}, {
+		"name": "YouTube 视频下载 ②",
+		"href": "https://youtube.iiilab.com/",
+		"desc": "支持YouTube、Twitter、Tumblr等平台",
+		"logo": "ico/ytb.ico"
+	}, {
+		"name": "音视频在线剪切",
+		"href": "https://123apps.com/cn/",
+		"desc": "音视频在线剪切、格式转换、PDF转Word等",
+		"logo": "default.ico"
+	}, {
+		"name": "在线格式转换 ①",
+		"href": "https://www.alltoall.net/",
+		"desc": "免费的在线格式转换工具",
+		"logo": "default.ico"
+	}, {
+		"name": "在线格式转换 ②",
+		"href": "https://www.aconvert.com/cn/",
+		"desc": "免费的在线格式转换工具",
+		"logo": "default.ico"
+	}, {
+		"name": "在线格式转换 ③",
+		"href": "https://convertio.co/zh/",
+		"desc": "将您的文件转换成任意格式",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
+	}, {
+		"name": "在线图片编辑",
+		"href": "https://aipix.net/",
+		"desc": "AI抠图、滤镜、大小调整、剪裁等",
+		"logo": "default.ico"
+	}, {
+		"name": "快速抠图",
+		"href": "https://www.gaoding.com/koutu",
+		"desc": "实用在线抠图工具",
+		"logo": "https://www.gaoding.com/favicon.ico"
+	}, {
+		"name": "AI 换脸",
+		"href": "https://reflect.tech/",
+		"desc": "基于AI的在线换脸",
+		"logo": "default.ico"
+	}, {
+		"name": "蒸気機",
+		"href": "https://lab.magiconch.com/vaporwave/",
+		"desc": "虚拟信号蒸汽波风格化影像后期工具",
+		"logo": "https://lab.magiconch.com/favicon.ico"
+	}]
+}, {
 
-/* 隐藏ico */
-.el-image {
-	display: none;
-}
+	"_id": "5ce000b954656",
+	"classify": "效率工具",
+	"icon": "csz czs-time-l",
+	"sites": [{
+		"name": "翻译神器",
+		"href": "https://www.deepl.com/translator",
+		"desc": "DeepL 靠谱的机器翻译",
+		"logo": "default.ico"
+	}, {
+		"name": "公共DNS大全",
+		"href": "https://ip.cn/dns.html",
+		"desc": "常用、小众或地方DNS",
+		"logo": "default.ico"
+	}, {
+		"name": "网页上都是简体",
+		"href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
+		"desc": "网页上的繁体字都替换为简体",
+		"logo": "default.ico"
+	}, {
+		"name": "在线方格纸打印",
+		"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
+		"desc": "在线自定义打印多种类型的方格纸",
+		"logo": "default.ico"
+	}, {
+		"name": "Chrome 扩展下载 ①",
+		"href": "https://chrome.zzzmh.cn/",
+		"desc": "国内下载 Chrome 扩展",
+		"logo": "default.ico"
+	}, {
+		"name": "Chrome 扩展下载 ②",
+		"href": "https://51.ruyo.net/7553.html",
+		"desc": "国内下载 Chrome 扩展",
+		"logo": "default.ico"
+	}, {
+		"name": "在线 Markdown 编辑 ①",
+		"href": "https://www.zybuluo.com/",
+		"desc": "Markdown 编辑阅读器，实时同步预览",
+		"logo": "https://www.zybuluo.com/static/img/favicon.png"
+	}, {
+		"name": "在线 Markdown 编辑 ②",
+		"href": "https://tools.miku.ac/markdown/",
+		"desc": "Markdown 编辑",
+		"logo": "https://tools.miku.ac/favicon.ico"
+	}, {
+		"name": "从图片提取文字 ①",
+		"href": "https://zh.pickfrom.net/png2text",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "从图片提取文字 ②",
+		"href": "https://tools.miku.ac/ocr/",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "从图片提取文字 ③",
+		"href": "https://web.baimiaoapp.com/",
+		"desc": "OCR文字识别",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ①",
+		"href": "https://www.materialtools.com/?page=1",
+		"desc": "接码平台，可用于接收验证码",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ②",
+		"href": "http://www.114sim.com/",
+		"desc": "接码平台，可用于接收验证码",
+		"logo": "default.ico"
+	}, {
+		"name": "帮你收短信 ③",
+		"href": "https://51.ruyo.net/7789.html",
+		"desc": "接码平台汇总",
+		"logo": "default.ico"
+	}, {
+		"name": "临时邮箱",
+		"href": "http://24mail.chacuo.net/",
+		"desc": "获取一个临时邮箱",
+		"logo": "default.ico"
 
-li[data-v-99508432] {
-	list-style:none
-}
-a[data-v-99508432] {
-	text-decoration:none
-}
-body[data-v-99508432],html[data-v-99508432] {
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0
-}
-body[data-v-99508432] {
-	font-size:12px;
-	color:#4d4d4d;
-	font-family:Helvetica Neue,Microsoft Yahei;
-	height:100vh;
-	background:#f3f6f8
-}
-.iconfont[data-v-99508432] {
-	color:#6b7386;
-	padding-right:4px
-}
-.icon-logo[data-v-99508432] {
-	width:20px;
-	height:20px;
-	margin-right:8px
-}
-.container .left-bar[data-v-99508432] {
-	position:fixed;
-	background:#064a8c;
-	color:#6b7386;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-box-direction:normal;
-	height:100vh;
-	width:248px;
-	overflow-y:scroll;
-	-webkit-transition:all .5s;
-	transition:all .5s
-}
-.container .left-bar[data-v-99508432],.container .main[data-v-99508432] {
-	-webkit-box-orient:vertical;
-	-ms-flex-direction:column;
-	flex-direction:column;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex
-}
-.container .main[data-v-99508432] {
-	position:relative;
-	margin-left:248px
-}
-.container .main .iconfont[data-v-99508432] {
-	font-size:18px;
-	color:#000
-}
-.set-scroll[data-v-99508432] {
-	background-color:#494f5e;
-	border-radius:0;
-	width:4px
-}
-.left-bar .title[data-v-99508432] {
-	padding:20px 0;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-	-webkit-box-pack:center;
-	-ms-flex-pack:center;
-	justify-content:center;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	background:#064a8c;
-	color:#fff;
-	font-size:18px;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	border-bottom:2px solid hsla(0,0%,100%,.04)
-}
-.nav .item a[data-v-99508432] {
-	color:#fff
-}
-#menu-box[data-v-99508432] {
-	display:none;
-	width:100%;
-	background:#fff;
-	text-align:right;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	z-index:2;
-	-webkit-box-shadow:1px 1px 8px #e0ddf;
-	box-shadow:1px 1px 8px #e0ddf;
-	height:50px
-}
-#menu-box #menu[data-v-99508432] {
-	height:50px;
-	width:40px;
-	position:absolute;
-	right:10px
-}
-#menu-box #menu [data-v-99508432] {
-	transition:all .3s;
-	-webkit-transition:all .3s;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box
-}
-#menu-box #menu input[type=checkbox][data-v-99508432] {
-	display:none
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.horizontal[data-v-99508432] {
-	opacity:0
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-1[data-v-99508432] {
-	transform:rotate(405deg);
-	-webkit-transform:rotate(405deg);
-	margin-top:10px
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-2[data-v-99508432] {
-	transform:rotate(-405deg);
-	-webkit-transform:rotate(-405deg);
-	margin-top:-10px
-}
-#menu-box #menu label[data-v-99508432] {
-	cursor:pointer;
-	position:absolute;
-	z-index:99;
-	height:100%;
-	width:100%;
-	top:10px;
-	left:0
-}
-#menu-box #menu label .line[data-v-99508432] {
-	position:absolute;
-	height:4px;
-	width:100%;
-	background-color:#064a8c
-}
-#menu-box #menu label .horizontal[data-v-99508432] {
-	top:10px
-}
-#menu-box #menu label .line-2[data-v-99508432] {
-	top:20px
-}
-.download a[data-v-99508432],.download i[data-v-99508432] {
-	color:#3668bd!important
-}
-#mainContent[data-v-99508432] {
-	padding-bottom:50px
-}
-@media screen and (max-width:481px) {
-	.container .box .item[data-v-99508432] {
-	width:39%;
-	min-width:100px
-}
-.container .main[data-v-99508432] {
-	margin-left:0
-}
-.container .left-bar[data-v-99508432] {
-	z-index:999;
-	left:-249px
-}
-#menu-box[data-v-99508432] {
-	display:block
-}
-.main .box[data-v-99508432] {
-	margin:10px
-}
-.footer[data-v-99508432] {
-	left:0
-}
-[data-v-99508432] .el-dialog {
-	width:95%
-}
-}@media screen and (min-width:481px) {
-	.container .left-bar[data-v-99508432] {
-	left:0
-}
-}@media screen and (min-width:482px) and (max-width:789px) {
-	.container .box .item[data-v-99508432] {
-	width:90%
-}
-.container .left-bar[data-v-99508432] {
-	left:0
-}
-}@media screen and (min-width:790px) and (max-width:1039px) {
-	.container .box .item[data-v-99508432] {
-	width:43%
-}
-}@media screen and (min-width:1040px) and (max-width:1920px) {
-	.container .box .item[data-v-99508432] {
-	width:20%
-}
-}.backtop[data-v-99508432],.el-button[data-v-99508432] {
-	border:0;
-	padding:10px;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-	-webkit-box-pack:center;
-	-ms-flex-pack:center;
-	justify-content:center;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	position:fixed;
-	background:#fff;
-	right:10px;
-	bottom:30px;
-	z-index:9999;
-	-webkit-box-shadow:0 0 20px rgba(0,0,0,.1);
-	box-shadow:0 0 20px rgba(0,0,0,.1);
-	cursor:pointer
-}
-[class^=el-icon-][data-v-99508432] {
-	font-size:20px
-}
-li[data-v-43c30294] {
-	list-style:none
-}
-a[data-v-43c30294] {
-	text-decoration:none
-}
-body[data-v-43c30294],html[data-v-43c30294] {
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0
-}
-body[data-v-43c30294] {
-	font-size:12px;
-	color:#4d4d4d;
-	font-family:Helvetica Neue,Microsoft Yahei;
-	height:100vh;
-	background:#f3f6f8
-}
-.iconfont[data-v-43c30294] {
-	color:#6b7386;
-	padding-right:4px
-}
-.icon-logo[data-v-43c30294] {
-	width:20px;
-	height:20px;
-	margin-right:8px
-}
-.container .left-bar[data-v-43c30294] {
-	position:fixed;
-	background:#064a8c;
-	color:#6b7386;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-box-direction:normal;
-	height:100vh;
-	width:248px;
-	overflow-y:scroll;
-	-webkit-transition:all .5s;
-	transition:all .5s
-}
-.container .left-bar[data-v-43c30294],.container .main[data-v-43c30294] {
-	-webkit-box-orient:vertical;
-	-ms-flex-direction:column;
-	flex-direction:column;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex
-}
-.container .main[data-v-43c30294] {
-	position:relative;
-	margin-left:248px
-}
-.container .main .iconfont[data-v-43c30294] {
-	font-size:18px;
-	color:#000
-}
-.set-scroll[data-v-43c30294] {
-	background-color:#494f5e;
-	border-radius:0;
-	width:4px
-}
-.left-bar .title[data-v-43c30294] {
-	padding:20px 0;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-	-webkit-box-pack:center;
-	-ms-flex-pack:center;
-	justify-content:center;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	background:#30333c;
-	color:#fff;
-	font-size:18px;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	border-bottom:2px solid hsla(0,0%,100%,.04)
-}
-.nav .item a[data-v-43c30294] {
-	color:#fff
-}
-.footer[data-v-43c30294] {
-	line-height:45px;
-	background:#fff;
-	-webkit-box-shadow:0 0 1rem rgba(0,0,0,.2);
-	box-shadow:0 0 1rem rgba(0,0,0,.2);
-	position:fixed;
-	bottom:0;
-	left:250px;
-	right:0
-}
-.footer .copyright[data-v-43c30294] {
-	margin-left:30px;
-	color:#949494;
-	font-size:12px
-}
-.footer .copyright a[data-v-43c30294] {
-	text-decoration:none;
-	color:#3a85ff
-}
-#menu-box[data-v-43c30294] {
-	display:none;
-	width:100%;
-	background:#fff;
-	text-align:right;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	z-index:2;
-	-webkit-box-shadow:1px 1px 8px #e0ddf;
-	box-shadow:1px 1px 8px #e0ddf;
-	height:50px
-}
-#menu-box #menu[data-v-43c30294] {
-	height:50px;
-	width:40px;
-	position:absolute;
-	right:10px
-}
-#menu-box #menu [data-v-43c30294] {
-	transition:all .3s;
-	-webkit-transition:all .3s;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box
-}
-#menu-box #menu input[type=checkbox][data-v-43c30294] {
-	display:none
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.horizontal[data-v-43c30294] {
-	opacity:0
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-1[data-v-43c30294] {
-	transform:rotate(405deg);
-	-webkit-transform:rotate(405deg);
-	margin-top:10px
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-2[data-v-43c30294] {
-	transform:rotate(-405deg);
-	-webkit-transform:rotate(-405deg);
-	margin-top:-10px
-}
-#menu-box #menu label[data-v-43c30294] {
-	cursor:pointer;
-	position:absolute;
-	z-index:99;
-	height:100%;
-	width:100%;
-	top:10px;
-	left:0
-}
-#menu-box #menu label .line[data-v-43c30294] {
-	position:absolute;
-	height:4px;
-	width:100%;
-	background-color:#064a8c
-}
-#menu-box #menu label .horizontal[data-v-43c30294] {
-	top:10px
-}
-#menu-box #menu label .line-2[data-v-43c30294] {
-	top:20px
-}
-.download a[data-v-43c30294],.download i[data-v-43c30294] {
-	color:#3668bd!important
-}
-#mainContent[data-v-43c30294] {
-	padding-bottom:50px
-}
-@media screen and (max-width:481px) {
-	.container .box .item[data-v-43c30294] {
-	width:39%;
-	min-width:100px
-}
-.container .main[data-v-43c30294] {
-	margin-left:0
-}
-.container .left-bar[data-v-43c30294] {
-	z-index:999;
-	left:-249px
-}
-#menu-box[data-v-43c30294] {
-	display:block
-}
-.main .box[data-v-43c30294] {
-	margin:10px
-}
-.footer[data-v-43c30294] {
-	left:0
-}
-[data-v-43c30294] .el-dialog {
-	width:95%
-}
-}@media screen and (min-width:481px) {
-	.container .left-bar[data-v-43c30294] {
-	left:0
-}
-}@media screen and (min-width:482px) and (max-width:789px) {
-	.container .box .item[data-v-43c30294] {
-	width:90%
-}
-.container .left-bar[data-v-43c30294] {
-	left:0
-}
-}@media screen and (min-width:790px) and (max-width:1039px) {
-	.container .box .item[data-v-43c30294] {
-	width:43%
-}
-}@media screen and (min-width:1040px) and (max-width:1920px) {
-	.container .box .item[data-v-43c30294] {
-	width:20%
-}
-}
-.main .box[data-v-466c883f] {
-	overflow:hidden;
-	margin:20px 30px;
-	/* background:rgba(255, 255, 255, 0.3); */
-	padding-bottom:20px
-}
-.main .box .sub-category>div[data-v-466c883f] {
-	padding:12px 0 12px 2.1%;
-	font-size: 22px;
-	color: #000;
-}
-/* 磁贴 */
-.main .box .item[data-v-43c30294] {
-	width:20%;
-	border:1px solid #e4ecf3;
-	-webkit-box-shadow:1px 2px 3px #f2f6f8;
-	box-shadow:1px 2px 3px #f2f6f8;
-	border-radius:15px;
-	padding:5px;
-	min-width:200px;
-	margin:22px 0 0 2.1%;
-	float:left;
-	overflow:hidden;
-	-webkit-transition:all .3s;l
-	transition: all 1.2s;
-}
-.main .box .item[data-v-43c30294]:hover {
-	-webkit-transform:translateY(-5px);
-	transform:translateY(-5px)
-}
-.main .box .item .logo[data-v-43c30294],.main .box .item .no-logo[data-v-43c30294] {
-	color: #064a8c;
-	font-weight:700;
-	font-size: 17px;d
-}
-.main .box .item .logo[data-v-43c30294] {
-	position:relative;
-	height:30px;
-	padding-top: 10px;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	display:-ms-flexbox;
-	/* display:flex; */
-	overflow:hidden;
-	text-align: center;
-	text-overflow:ellipsis;
-	-webkit-box-orient:vertical;
-}
-.main .box .item .logo img[data-v-43c30294] {
-	width:20px;
-	height:20px;
-	border-radius:100%;
-	vertical-align:middle;
-	margin-right:10px
-}
-.main .box .item .desc[data-v-43c30294] {
-	color: #303133;
-	font-size: 13px;
-	text-align: center;
-	padding:10px;
-	height:35px;
-	overflow:hidden;
-	text-overflow:ellipsis;
-	display:-webkit-box;
-	-webkit-line-clamp:2;
-	-webkit-box-orient:vertical;
-}
-.el-image[data-v-43c30294] {
-	width:35px;
-	height:35px;
-	border-radius:50%;
-	overflow:hidden;
-	margin-right:5px
-}
-li[data-v-466c883f] {
-	list-style:none
-}
-a[data-v-466c883f] {
-	text-decoration:none
-}
-body[data-v-466c883f],html[data-v-466c883f] {
-	width:100%;
-	height:100%;
-	margin:0;
-	padding:0
-}
-body[data-v-466c883f] {
-	font-size:12px;
-	color:#4d4d4d;
-	font-family:Helvetica Neue,Microsoft Yahei;
-	height:100vh;
-	background:#f3f6f8
-}
-.iconfont[data-v-466c883f] {
-	color:#6b7386;
-	padding-right:4px
-}
-.icon-logo[data-v-466c883f] {
-	width:20px;
-	height:20px;
-	margin-right:8px
-}
-/* 菜单 */
-.container .left-bar[data-v-466c883f] {
-	position:fixed;
-	background:#064a8c;
-	color:#6b7386;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box;
-	-webkit-box-direction:normal;
-	height:100vh;
-	width:248px;
-	overflow-y:scroll;
-	-webkit-transition:all .5s;
-	transition:all .5s
-}
-.container .left-bar[data-v-466c883f],.container .main[data-v-466c883f] {
-	-webkit-box-orient:vertical;
-	-ms-flex-direction:column;
-	flex-direction:column;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex
-}
-.container .main[data-v-466c883f] {
-	position:relative;
-	margin-left:248px
-}
-.container .main .iconfont[data-v-466c883f] {
-	font-size:18px;
-	color:#000
-}
-.set-scroll[data-v-466c883f] {
-	background-color:#494f5e;
-	border-radius:0;
-	width:4px
-}
-/* 菜单 */
-.left-bar .title[data-v-466c883f] {
-	padding:20px 0;
-	display:-webkit-box;
-	display:-ms-flexbox;
-	display:flex;
-	-webkit-box-pack:center;
-	-ms-flex-pack:center;
-	justify-content:center;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	background:#064a8c;
-	color:#fff;
-	font-size:20px;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	border-bottom:2px solid hsla(0,0%,100%,.04)
-}
-.nav .item a[data-v-466c883f] {
-	color:#fff
-}
 
-.footer[data-v-466c883f] {
-	line-height:45px;
-	background:#fff;
-	-webkit-box-shadow:0 0 1rem rgba(0,0,0,.2);
-	box-shadow:0 0 1rem rgba(0,0,0,.2);
-	position:fixed;
-	bottom:0;
-	left:250px;
-	right:0
-}
-.footer .copyright[data-v-466c883f] {
-	margin-left:30px;
-	color:#949494;
-	font-size:12px
-}
-.footer .copyright a[data-v-466c883f] {
-	text-decoration:none;
-	color:#000000;
-	margin: 5px;
-}
-#menu-box[data-v-466c883f] {
-	display:none;
-	width:100%;
-	background:#fff;
-	text-align:right;
-	position:-webkit-sticky;
-	position:sticky;
-	top:0;
-	z-index:2;
-	-webkit-box-shadow:1px 1px 8px #e0ddf;
-	box-shadow:1px 1px 8px #e0ddf;
-	height:50px
-}
-#menu-box #menu[data-v-466c883f] {
-	height:50px;
-	width:40px;
-	position:absolute;
-	right:10px
-}
-#menu-box #menu [data-v-466c883f] {
-	transition:all .3s;
-	-webkit-transition:all .3s;
-	-webkit-box-sizing:border-box;
-	box-sizing:border-box
-}
-#menu-box #menu input[type=checkbox][data-v-466c883f] {
-	display:none
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.horizontal[data-v-466c883f] {
-	opacity:0
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-1[data-v-466c883f] {
-	transform:rotate(405deg);
-	-webkit-transform:rotate(405deg);
-	margin-top:10px
-}
-#menu-box #menu input[type=checkbox]:checked~.menu-spin>.line-2[data-v-466c883f] {
-	transform:rotate(-405deg);
-	-webkit-transform:rotate(-405deg);
-	margin-top:-10px
-}
-#menu-box #menu label[data-v-466c883f] {
-	cursor:pointer;
-	position:absolute;
-	z-index:99;
-	height:100%;
-	width:100%;
-	top:10px;
-	left:0
-}
-#menu-box #menu label .line[data-v-466c883f] {
-	position:absolute;
-	height:4px;
-	width:100%;
-	background-color:#064a8c
-}
-#menu-box #menu label .horizontal[data-v-466c883f] {
-	top:10px
-}
-#menu-box #menu label .line-2[data-v-466c883f] {
-	top:20px
-}
-.download a[data-v-466c883f],.download i[data-v-466c883f] {
-	color:#3668bd!important
-}
-#mainContent[data-v-466c883f] {
-	padding-bottom:50px
-}
-@media screen and (max-width:481px) {
-	.container .box .item[data-v-466c883f] {
-	width:39%;
-	min-width:100px
-}
-.container .main[data-v-466c883f] {
-	margin-left:0
-}
-.container .left-bar[data-v-466c883f] {
-	z-index:999;
-	left:-249px
-}
-#menu-box[data-v-466c883f] {
-	display:block
-}
-.main .box[data-v-466c883f] {
-	margin:10px
-}
-.footer[data-v-466c883f] {
-	left:0
-}
-[data-v-466c883f] .el-dialog {
-	width:95%
-}
-}@media screen and (min-width:481px) {
-	.container .left-bar[data-v-466c883f] {
-	left:0
-}
-}@media screen and (min-width:482px) and (max-width:789px) {
-	.container .box .item[data-v-466c883f] {
-	width:90%
-}
-.container .left-bar[data-v-466c883f] {
-	left:0
-}
-}@media screen and (min-width:790px) and (max-width:1039px) {
-	.container .box .item[data-v-466c883f] {
-	width:43%
-}
-}@media screen and (min-width:1040px) and (max-width:1920px) {
-	.container .box .item[data-v-466c883f] {
-	width:20%
-}
-}.el-dialog[data-v-466c883f] {
-	min-width:320px
-}
-.el-submenu .el-menu-item[data-v-466c883f] {
-	padding:0
-}
-.el-menu-item>a[data-v-466c883f] {
-	color:#6b7386;
-	display:block;
-	width:100%;
-	height:100%
-}
-.el-menu-item.is-active>a[data-v-466c883f] {
-	color:#fff
-}
-.csz[data-v-466c883f] {
-	margin-right:5px
-}
-@font-face {
-	font-family:iconfont;
-	src:url(//at.alicdn.com/t/font_552690_glv40xqyj51xlxr.eot);
-	src:url(//at.alicdn.com/t/font_552690_glv40xqyj51xlxr.eot#iefix) format("embedded-opentype"),url(//at.alicdn.com/t/font_552690_glv40xqyj51xlxr.woff) format("woff"),url(//at.alicdn.com/t/font_552690_glv40xqyj51xlxr.ttf) format("truetype"),url(//at.alicdn.com/t/font_552690_glv40xqyj51xlxr.svg#iconfont) format("svg")
-}
-.iconfont {
-	font-family:iconfont!important;
-	font-size:16px;
-	font-style:normal;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale
-}
-.icon-shequ:before {
-	content:"\E600"
-}
-.icon-designer:before {
-	content:"\E613"
-}
-.icon-wendangdocument78:before {
-	content:"\E723"
-}
-.icon-blogger:before {
-	content:"\E6A4"
-}
-.icon-daohang2:before {
-	content:"\E614"
-}
-.icon-liuyan:before {
-	content:"\E638"
-}
-.icon-tool:before {
-	content:"\E64D"
-}
-.icon-xuexi1:before {
-	content:"\E63B"
-}
-.icon-zixun:before {
-	content:"\E6AF"
-}
-.icon-yunying:before {
-	content:"\E6AA"
-}
-.icon-daohang:before {
-	content:"\E611"
-}
-.icon-github:before {
-	content:"\E601"
-}
-.icon-daohang1:before {
-	content:"\E63D"
-}
-.icon-xuexi:before {
-	content:"\E604"
-}
-@font-face {
-	font-family:StrawberryIcon-pro;
-	src:url(../fonts/StrawberryIcon-pro.bde91239.ttf);
-	font-weight:400;
-	font-style:normal
-}
-[class*=" czs-"],[class^=czs-] {
-	font-family:StrawberryIcon-pro!important;
-	speak:none;
-	font-style:normal;
-	font-weight:400;
-	font-variant:normal;
-	text-transform:none;
-	line-height:1;
-	-webkit-font-smoothing:antialiased;
-	-moz-osx-font-smoothing:grayscale
-}
-.czs-about:before {
-	content:"\E900"
-}
-.czs-about-l:before {
-	content:"\E901"
-}
-.czs-add:before {
-	content:"\E902"
-}
-.czs-airplane:before {
-	content:"\E903"
-}
-.czs-airplane-l:before {
-	content:"\E904"
-}
-.czs-alipay:before {
-	content:"\E905"
-}
-.czs-analysis:before {
-	content:"\E906"
-}
-.czs-android:before {
-	content:"\E907"
-}
-.czs-angle-down-l:before {
-	content:"\E908"
-}
-.czs-angle-left-l:before {
-	content:"\E909"
-}
-.czs-angle-right-l:before {
-	content:"\E90A"
-}
-.czs-angle-up-l:before {
-	content:"\E90B"
-}
-.czs-apple:before {
-	content:"\E90C"
-}
-.czs-arrow-down-l:before {
-	content:"\E90D"
-}
-.czs-arrow-up-l:before {
-	content:"\E90E"
-}
-.czs-baiduwangpan:before {
-	content:"\E90F"
-}
-.czs-bar-chart:before {
-	content:"\E910"
-}
-.czs-bar-chart-l:before {
-	content:"\E911"
-}
-.czs-battery:before {
-	content:"\E912"
-}
-.czs-battery-l:before {
-	content:"\E913"
-}
-.czs-bell:before {
-	content:"\E914"
-}
-.czs-bell-l:before {
-	content:"\E915"
-}
-.czs-bevel:before {
-	content:"\E916"
-}
-.czs-bilibili:before {
-	content:"\E917"
-}
-.czs-bitcoin:before {
-	content:"\E918"
-}
-.czs-blackboard:before {
-	content:"\E919"
-}
-.czs-blackboard-l:before {
-	content:"\E91A"
-}
-.czs-block:before {
-	content:"\E91B"
-}
-.czs-block-l:before {
-	content:"\E91C"
-}
-.czs-bluetooth:before {
-	content:"\E91D"
-}
-.czs-bluetooth-l:before {
-	content:"\E91E"
-}
-.czs-board:before {
-	content:"\E91F"
-}
-.czs-board-l:before {
-	content:"\E920"
-}
-.czs-book:before {
-	content:"\E921"
-}
-.czs-book-l:before {
-	content:"\E922"
-}
-.czs-bookmark:before {
-	content:"\E923"
-}
-.czs-bookmark-l:before {
-	content:"\E924"
-}
-.czs-books:before {
-	content:"\E925"
-}
-.czs-books-l:before {
-	content:"\E926"
-}
-.czs-bot:before {
-	content:"\E927"
-}
-.czs-bot-l:before {
-	content:"\E928"
-}
-.czs-box:before {
-	content:"\E929"
-}
-.czs-box-l:before {
-	content:"\E92A"
-}
-.czs-briefcase:before {
-	content:"\E92B"
-}
-.czs-briefcase-l:before {
-	content:"\E92C"
-}
-.czs-brush:before {
-	content:"\E92D"
-}
-.czs-brush-l:before {
-	content:"\E92E"
-}
-.czs-bug:before {
-	content:"\E92F"
-}
-.czs-bug-l:before {
-	content:"\E930"
-}
-.czs-building:before {
-	content:"\E931"
-}
-.czs-building-l:before {
-	content:"\E932"
-}
-.czs-buy:before {
-	content:"\E933"
-}
-.czs-buy-l:before {
-	content:"\E934"
-}
-.czs-calculator:before {
-	content:"\E935"
-}
-.czs-calculator-l:before {
-	content:"\E936"
-}
-.czs-calendar:before {
-	content:"\E937"
-}
-.czs-calendar-l:before {
-	content:"\E938"
-}
-.czs-camber:before {
-	content:"\E939"
-}
-.czs-camber-l:before {
-	content:"\E93A"
-}
-.czs-camber-o:before {
-	content:"\E93B"
-}
-.czs-camera:before {
-	content:"\E93C"
-}
-.czs-camera-l:before {
-	content:"\E93D"
-}
-.czs-car:before {
-	content:"\E93E"
-}
-.czs-car-l:before {
-	content:"\E93F"
-}
-.czs-category-l:before {
-	content:"\E940"
-}
-.czs-certificate:before {
-	content:"\E941"
-}
-.czs-certificate-l:before {
-	content:"\E942"
-}
-.czs-chemistry:before {
-	content:"\E943"
-}
-.czs-chemistry-l:before {
-	content:"\E944"
-}
-.czs-choose-list-l:before {
-	content:"\E945"
-}
-.czs-chrome:before {
-	content:"\E946"
-}
-.czs-circle:before {
-	content:"\E947"
-}
-.czs-circle-l:before {
-	content:"\E948"
-}
-.czs-circle-o:before {
-	content:"\E949"
-}
-.czs-clip-l:before {
-	content:"\E94A"
-}
-.czs-clock:before {
-	content:"\E94B"
-}
-.czs-clock-l:before {
-	content:"\E94C"
-}
-.czs-close-l:before {
-	content:"\E94D"
-}
-.czs-clothes:before {
-	content:"\E94E"
-}
-.czs-clothes-l:before {
-	content:"\E94F"
-}
-.czs-cloud:before {
-	content:"\E950"
-}
-.czs-cloud-download-l:before {
-	content:"\E951"
-}
-.czs-cloud-l:before {
-	content:"\E952"
-}
-.czs-cloud-upload-l:before {
-	content:"\E953"
-}
-.czs-code-branch:before {
-	content:"\E954"
-}
-.czs-code-file:before {
-	content:"\E955"
-}
-.czs-code-file-l:before {
-	content:"\E956"
-}
-.czs-code-fork:before {
-	content:"\E957"
-}
-.czs-code-l:before {
-	content:"\E958"
-}
-.czs-coin:before {
-	content:"\E959"
-}
-.czs-coin-l:before {
-	content:"\E95A"
-}
-.czs-collection:before {
-	content:"\E95B"
-}
-.czs-come-l:before {
-	content:"\E95C"
-}
-.czs-command:before {
-	content:"\E95D"
-}
-.czs-command-l:before {
-	content:"\E95E"
-}
-.czs-commed2:before {
-	content:"\E95F"
-}
-.czs-commed2-l:before {
-	content:"\E960"
-}
-.czs-comment:before {
-	content:"\E961"
-}
-.czs-comment-l:before {
-	content:"\E962"
-}
-.czs-computer:before {
-	content:"\E963"
-}
-.czs-computer-l:before {
-	content:"\E964"
-}
-.czs-configuration:before {
-	content:"\E965"
-}
-.czs-configuration-l:before {
-	content:"\E966"
-}
-.czs-container:before {
-	content:"\E967"
-}
-.czs-container-l:before {
-	content:"\E968"
-}
-.czs-control:before {
-	content:"\E969"
-}
-.czs-control-rank:before {
-	content:"\E96A"
-}
-.czs-credit-card:before {
-	content:"\E96B"
-}
-.czs-credit-card-l:before {
-	content:"\E96C"
-}
-.czs-crown:before {
-	content:"\E96D"
-}
-.czs-crown-l:before {
-	content:"\E96E"
-}
-.czs-css3:before {
-	content:"\E96F"
-}
-.czs-cube:before {
-	content:"\E970"
-}
-.czs-cube-l:before {
-	content:"\E971"
-}
-.czs-cup:before {
-	content:"\E972"
-}
-.czs-cup-l:before {
-	content:"\E973"
-}
-.czs-dashboard:before {
-	content:"\E974"
-}
-.czs-dashboard-l:before {
-	content:"\E975"
-}
-.czs-dev-board:before {
-	content:"\E976"
-}
-.czs-dev-board-l:before {
-	content:"\E977"
-}
-.czs-d-glasses:before {
-	content:"\E978"
-}
-.czs-diamond:before {
-	content:"\E979"
-}
-.czs-diamond-l:before {
-	content:"\E97A"
-}
-.czs-doc-edit:before {
-	content:"\E97B"
-}
-.czs-doc-edit-l:before {
-	content:"\E97C"
-}
-.czs-doc-file:before {
-	content:"\E97D"
-}
-.czs-doc-file-l:before {
-	content:"\E97E"
-}
-.czs-download-l:before {
-	content:"\E97F"
-}
-.czs-dribbble:before {
-	content:"\E980"
-}
-.czs-dropbox:before {
-	content:"\E981"
-}
-.czs-earth:before {
-	content:"\E982"
-}
-.czs-earth-l:before {
-	content:"\E983"
-}
-.czs-eye:before {
-	content:"\E984"
-}
-.czs-eye-l:before {
-	content:"\E985"
-}
-.czs-face:before {
-	content:"\E986"
-}
-.czs-facebook:before {
-	content:"\E987"
-}
-.czs-face-l:before {
-	content:"\E988"
-}
-.czs-file:before {
-	content:"\E989"
-}
-.czs-file-l:before {
-	content:"\E98A"
-}
-.czs-film:before {
-	content:"\E98B"
-}
-.czs-film-l:before {
-	content:"\E98C"
-}
-.czs-fingerprint:before {
-	content:"\E98D"
-}
-.czs-fingerprint-l:before {
-	content:"\E98E"
-}
-.czs-fire-l:before {
-	content:"\E98F"
-}
-.czs-firewall:before {
-	content:"\E990"
-}
-.czs-firewall-l:before {
-	content:"\E991"
-}
-.czs-folder:before {
-	content:"\E992"
-}
-.czs-folder-l:before {
-	content:"\E993"
-}
-.czs-forum:before {
-	content:"\E994"
-}
-.czs-forum-l:before {
-	content:"\E995"
-}
-.czs-game:before {
-	content:"\E996"
-}
-.czs-game-l:before {
-	content:"\E997"
-}
-.czs-gene:before {
-	content:"\E998"
-}
-.czs-gift:before {
-	content:"\E999"
-}
-.czs-gift-l:before {
-	content:"\E99A"
-}
-.czs-github:before {
-	content:"\E99B"
-}
-.czs-github-logo:before {
-	content:"\E99C"
-}
-.czs-Google:before {
-	content:"\E99D"
-}
-.czs-greatwall:before {
-	content:"\E99E"
-}
-.czs-hacker:before {
-	content:"\E99F"
-}
-.czs-hammer:before {
-	content:"\E9A0"
-}
-.czs-hammer-l:before {
-	content:"\E9A1"
-}
-.czs-hand-bevel:before {
-	content:"\E9A2"
-}
-.czs-hand-button:before {
-	content:"\E9A3"
-}
-.czs-hande-vertical:before {
-	content:"\E9A4"
-}
-.czs-hand-gather:before {
-	content:"\E9A5"
-}
-.czs-hand-grasp:before {
-	content:"\E9A6"
-}
-.czs-hand-horizontal:before {
-	content:"\E9A7"
-}
-.czs-hand-pointer:before {
-	content:"\E9A8"
-}
-.czs-hand-slide:before {
-	content:"\E9A9"
-}
-.czs-hand-stop:before {
-	content:"\E9AA"
-}
-.czs-hand-touch:before {
-	content:"\E9AB"
-}
-.czs-hdmi:before {
-	content:"\E9AC"
-}
-.czs-hdmi-l:before {
-	content:"\E9AD"
-}
-.czs-headset:before {
-	content:"\E9AE"
-}
-.czs-headset-l:before {
-	content:"\E9AF"
-}
-.czs-heart:before {
-	content:"\E9B0"
-}
-.czs-heart-l:before {
-	content:"\E9B1"
-}
-.czs-home:before {
-	content:"\E9B2"
-}
-.czs-home-l:before {
-	content:"\E9B3"
-}
-.czs-html5:before {
-	content:"\E9B4"
-}
-.czs-image:before {
-	content:"\E9B5"
-}
-.czs-image-l:before {
-	content:"\E9B6"
-}
-.czs-inbox:before {
-	content:"\E9B7"
-}
-.czs-inbox-l:before {
-	content:"\E9B8"
-}
-.czs-info-l:before {
-	content:"\E9B9"
-}
-.czs-Instagram:before {
-	content:"\E9BA"
-}
-.czs-key:before {
-	content:"\E9BB"
-}
-.czs-keyboard:before {
-	content:"\E9BC"
-}
-.czs-keyboard-l:before {
-	content:"\E9BD"
-}
-.czs-key-l:before {
-	content:"\E9BE"
-}
-.czs-label-info:before {
-	content:"\E9BF"
-}
-.czs-label-info-l:before {
-	content:"\E9C0"
-}
-.czs-laptop:before {
-	content:"\E9C1"
-}
-.czs-laptop-l:before {
-	content:"\E9C2"
-}
-.czs-layers:before {
-	content:"\E9C3"
-}
-.czs-layout-grid:before {
-	content:"\E9C4"
-}
-.czs-layout-grids:before {
-	content:"\E9C5"
-}
-.czs-layout-list:before {
-	content:"\E9C6"
-}
-.czs-light:before {
-	content:"\E9C7"
-}
-.czs-light-flash-l:before {
-	content:"\E9C8"
-}
-.czs-light-l:before {
-	content:"\E9C9"
-}
-.czs-lightning:before {
-	content:"\E9CA"
-}
-.czs-lightning-l:before {
-	content:"\E9CB"
-}
-.czs-link-l:before {
-	content:"\E9CC"
-}
-.czs-linux:before {
-	content:"\E9CD"
-}
-.czs-list-clipboard:before {
-	content:"\E9CE"
-}
-.czs-list-clipboard-l:before {
-	content:"\E9CF"
-}
-.czs-location:before {
-	content:"\E9D0"
-}
-.czs-location-l:before {
-	content:"\E9D1"
-}
-.czs-lock:before {
-	content:"\E9D2"
-}
-.czs-lock-l:before {
-	content:"\E9D3"
-}
-.czs-map:before {
-	content:"\E9D4"
-}
-.czs-map-l:before {
-	content:"\E9D5"
-}
-.czs-medal:before {
-	content:"\E9D6"
-}
-.czs-medal-l:before {
-	content:"\E9D7"
-}
-.czs-menu-l:before {
-	content:"\E9D8"
-}
-.czs-message:before {
-	content:"\E9D9"
-}
-.czs-message-l:before {
-	content:"\E9DA"
-}
-.czs-microchip:before {
-	content:"\E9DB"
-}
-.czs-microchip-l:before {
-	content:"\E9DC"
-}
-.czs-microphone:before {
-	content:"\E9DD"
-}
-.czs-microphone-l:before {
-	content:"\E9DE"
-}
-.czs-microsoft:before {
-	content:"\E9DF"
-}
-.czs-mobile:before {
-	content:"\E9E0"
-}
-.czs-mobile-l:before {
-	content:"\E9E1"
-}
-.czs-moments:before {
-	content:"\E9E2"
-}
-.czs-money:before {
-	content:"\E9E3"
-}
-.czs-moon:before {
-	content:"\E9E4"
-}
-.czs-moon-l:before {
-	content:"\E9E5"
-}
-.czs-more:before {
-	content:"\E9E6"
-}
-.czs-mouse:before {
-	content:"\E9E7"
-}
-.czs-mouse-l:before {
-	content:"\E9E8"
-}
-.czs-music:before {
-	content:"\E9E9"
-}
-.czs-music-file:before {
-	content:"\E9EA"
-}
-.czs-music-file-l:before {
-	content:"\E9EB"
-}
-.czs-music-l:before {
-	content:"\E9EC"
-}
-.czs-music-note:before {
-	content:"\E9ED"
-}
-.czs-music-note-l:before {
-	content:"\E9EE"
-}
-.czs-nail:before {
-	content:"\E9EF"
-}
-.czs-nail-l:before {
-	content:"\E9F0"
-}
-.czs-nas:before {
-	content:"\E9F1"
-}
-.czs-nas-l:before {
-	content:"\E9F2"
-}
-.czs-network:before {
-	content:"\E9F3"
-}
-.czs-network-l:before {
-	content:"\E9F4"
-}
-.czs-new:before {
-	content:"\E9F5"
-}
-.czs-new-l:before {
-	content:"\E9F6"
-}
-.czs-newspaper:before {
-	content:"\E9F7"
-}
-.czs-newspaper-l:before {
-	content:"\E9F8"
-}
-.czs-operation:before {
-	content:"\E9F9"
-}
-.czs-operation-l:before {
-	content:"\E9FA"
-}
-.czs-out-l:before {
-	content:"\E9FB"
-}
-.czs-pad:before {
-	content:"\E9FC"
-}
-.czs-pad-l:before {
-	content:"\E9FD"
-}
-.czs-paper:before {
-	content:"\E9FE"
-}
-.czs-paper-l:before {
-	content:"\E9FF"
-}
-.czs-paper-plane:before {
-	content:"\EA00"
-}
-.czs-paper-plane-l:before {
-	content:"\EA01"
-}
-.czs-pause-l:before {
-	content:"\EA02"
-}
-.czs-paypal:before {
-	content:"\EA03"
-}
-.czs-pen:before {
-	content:"\EA04"
-}
-.czs-pen-write:before {
-	content:"\EA05"
-}
-.czs-people:before {
-	content:"\EA06"
-}
-.czs-phone:before {
-	content:"\EA07"
-}
-.czs-phone-l:before {
-	content:"\EA08"
-}
-.czs-pinterest:before {
-	content:"\EA09"
-}
-.czs-pixel:before {
-	content:"\EA0A"
-}
-.czs-platform:before {
-	content:"\EA0B"
-}
-.czs-platform-l:before {
-	content:"\EA0C"
-}
-.czs-play-l:before {
-	content:"\EA0D"
-}
-.czs-plugin:before {
-	content:"\EA0E"
-}
-.czs-pokemon-ball:before {
-	content:"\EA0F"
-}
-.czs-port:before {
-	content:"\EA10"
-}
-.czs-port-l:before {
-	content:"\EA11"
-}
-.czs-printer:before {
-	content:"\EA12"
-}
-.czs-printer-l:before {
-	content:"\EA13"
-}
-.czs-product:before {
-	content:"\EA14"
-}
-.czs-program:before {
-	content:"\EA15"
-}
-.czs-program-framework:before {
-	content:"\EA16"
-}
-.czs-program-l:before {
-	content:"\EA17"
-}
-.czs-prototype:before {
-	content:"\EA18"
-}
-.czs-prototype-l:before {
-	content:"\EA19"
-}
-.czs-prototype-select:before {
-	content:"\EA1A"
-}
-.czs-prototype-select-l:before {
-	content:"\EA1B"
-}
-.czs-qq:before {
-	content:"\EA1C"
-}
-.czs-qrcode-l:before {
-	content:"\EA1D"
-}
-.czs-quadrotor:before {
-	content:"\EA1E"
-}
-.czs-quote-left:before {
-	content:"\EA1F"
-}
-.czs-quote-right:before {
-	content:"\EA20"
-}
-.czs-qzone:before {
-	content:"\EA21"
-}
-.czs-raspberry:before {
-	content:"\EA22"
-}
-.czs-raspberry-l:before {
-	content:"\EA23"
-}
-.czs-read:before {
-	content:"\EA24"
-}
-.czs-read-l:before {
-	content:"\EA25"
-}
-.czs-red-envelope:before {
-	content:"\EA26"
-}
-.czs-renew:before {
-	content:"\EA27"
-}
-.czs-right-clipboard:before {
-	content:"\EA28"
-}
-.czs-right-clipboard-l:before {
-	content:"\EA29"
-}
-.czs-robot:before {
-	content:"\EA2A"
-}
-.czs-robot2:before {
-	content:"\EA2B"
-}
-.czs-robot2-l:before {
-	content:"\EA2C"
-}
-.czs-robot-l:before {
-	content:"\EA2D"
-}
-.czs-rocket:before {
-	content:"\EA2E"
-}
-.czs-rocket-l:before {
-	content:"\EA2F"
-}
-.czs-rollerbrush:before {
-	content:"\EA30"
-}
-.czs-rollerbrush-l:before {
-	content:"\EA31"
-}
-.czs-router:before {
-	content:"\EA32"
-}
-.czs-router-l:before {
-	content:"\EA33"
-}
-.czs-rss:before {
-	content:"\EA34"
-}
-.czs-ruler:before {
-	content:"\EA35"
-}
-.czs-ruler-l:before {
-	content:"\EA36"
-}
-.czs-save:before {
-	content:"\EA37"
-}
-.czs-save-l:before {
-	content:"\EA38"
-}
-.czs-scan-l:before {
-	content:"\EA39"
-}
-.czs-scissors:before {
-	content:"\EA3A"
-}
-.czs-sdcard:before {
-	content:"\EA3B"
-}
-.czs-sdcard-l:before {
-	content:"\EA3C"
-}
-.czs-search-l:before {
-	content:"\EA3D"
-}
-.czs-server:before {
-	content:"\EA3E"
-}
-.czs-server-l:before {
-	content:"\EA3F"
-}
-.czs-servers:before {
-	content:"\EA40"
-}
-.czs-setting:before {
-	content:"\EA41"
-}
-.czs-setting-l:before {
-	content:"\EA42"
-}
-.czs-share:before {
-	content:"\EA43"
-}
-.czs-shield:before {
-	content:"\EA44"
-}
-.czs-shield-l:before {
-	content:"\EA45"
-}
-.czs-shop:before {
-	content:"\EA46"
-}
-.czs-shop-l:before {
-	content:"\EA47"
-}
-.czs-shopping-cart:before {
-	content:"\EA48"
-}
-.czs-shopping-cart-l:before {
-	content:"\EA49"
-}
-.czs-site-folder:before {
-	content:"\EA4A"
-}
-.czs-site-folder-l:before {
-	content:"\EA4B"
-}
-.czs-slider-l:before {
-	content:"\EA4C"
-}
-.czs-square:before {
-	content:"\EA4D"
-}
-.czs-square-l:before {
-	content:"\EA4E"
-}
-.czs-square-o:before {
-	content:"\EA4F"
-}
-.czs-star:before {
-	content:"\EA50"
-}
-.czs-star-l:before {
-	content:"\EA51"
-}
-.czs-steam:before {
-	content:"\EA52"
-}
-.czs-storage:before {
-	content:"\EA53"
-}
-.czs-storage-l:before {
-	content:"\EA54"
-}
-.czs-sun:before {
-	content:"\EA55"
-}
-.czs-sun-l:before {
-	content:"\EA56"
-}
-.czs-sword:before {
-	content:"\EA57"
-}
-.czs-sword-l:before {
-	content:"\EA58"
-}
-.czs-tab:before {
-	content:"\EA59"
-}
-.czs-tab-l:before {
-	content:"\EA5A"
-}
-.czs-tag:before {
-	content:"\EA5B"
-}
-.czs-tag-l:before {
-	content:"\EA5C"
-}
-.czs-taiji:before {
-	content:"\EA5D"
-}
-.czs-talk:before {
-	content:"\EA5E"
-}
-.czs-talk-l:before {
-	content:"\EA5F"
-}
-.czs-taobao:before {
-	content:"\EA60"
-}
-.czs-t-brian:before {
-	content:"\EA61"
-}
-.czs-telegram:before {
-	content:"\EA62"
-}
-.czs-text-l:before {
-	content:"\EA63"
-}
-.czs-thumbs-up:before {
-	content:"\EA64"
-}
-.czs-thumbs-up-l:before {
-	content:"\EA65"
-}
-.czs-ticket:before {
-	content:"\EA66"
-}
-.czs-ticket-l:before {
-	content:"\EA67"
-}
-.czs-time:before {
-	content:"\EA68"
-}
-.czs-time-l:before {
-	content:"\EA69"
-}
-.czs-tmall:before {
-	content:"\EA6A"
-}
-.czs-transmission-l:before {
-	content:"\EA6B"
-}
-.czs-transport:before {
-	content:"\EA6C"
-}
-.czs-trash:before {
-	content:"\EA6D"
-}
-.czs-trash-l:before {
-	content:"\EA6E"
-}
-.czs-triangle:before {
-	content:"\EA6F"
-}
-.czs-triangle-l:before {
-	content:"\EA70"
-}
-.czs-triangle-o:before {
-	content:"\EA71"
-}
-.czs-trophy:before {
-	content:"\EA72"
-}
-.czs-trophy-l:before {
-	content:"\EA73"
-}
-.czs-truck:before {
-	content:"\EA74"
-}
-.czs-truck-l:before {
-	content:"\EA75"
-}
-.czs-tv:before {
-	content:"\EA76"
-}
-.czs-tv-l:before {
-	content:"\EA77"
-}
-.czs-twitter:before {
-	content:"\EA78"
-}
-.czs-upload-l:before {
-	content:"\EA79"
-}
-.czs-usb:before {
-	content:"\EA7A"
-}
-.czs-usb-l:before {
-	content:"\EA7B"
-}
-.czs-user:before {
-	content:"\EA7C"
-}
-.czs-user-l:before {
-	content:"\EA7D"
-}
-.czs-v2ex:before {
-	content:"\EA7E"
-}
-.czs-vector-design:before {
-	content:"\EA7F"
-}
-.czs-video-camera:before {
-	content:"\EA80"
-}
-.czs-video-camera-l:before {
-	content:"\EA81"
-}
-.czs-video-file:before {
-	content:"\EA82"
-}
-.czs-video-file-l:before {
-	content:"\EA83"
-}
-.czs-vimeo:before {
-	content:"\EA84"
-}
-.czs-virtual:before {
-	content:"\EA85"
-}
-.czs-virtual-l:before {
-	content:"\EA86"
-}
-.czs-volume:before {
-	content:"\EA87"
-}
-.czs-volume-l:before {
-	content:"\EA88"
-}
-.czs-volume-x-l:before {
-	content:"\EA89"
-}
-.czs-wallet:before {
-	content:"\EA8A"
-}
-.czs-wallet-l:before {
-	content:"\EA8B"
-}
-.czs-warning:before {
-	content:"\EA8C"
-}
-.czs-warning-l:before {
-	content:"\EA8D"
-}
-.czs-watch:before {
-	content:"\EA8E"
-}
-.czs-watch-l:before {
-	content:"\EA8F"
-}
-.czs-webcam:before {
-	content:"\EA90"
-}
-.czs-webcam-l:before {
-	content:"\EA91"
-}
-.czs-web-edit:before {
-	content:"\EA92"
-}
-.czs-web-edit-l:before {
-	content:"\EA93"
-}
-.czs-weibo:before {
-	content:"\EA94"
-}
-.czs-weixin:before {
-	content:"\EA95"
-}
-.czs-weixinzhifu:before {
-	content:"\EA96"
-}
-.czs-wifi:before {
-	content:"\EA97"
-}
-.czs-wordpress:before {
-	content:"\EA98"
-}
-.czs-wrench:before {
-	content:"\EA99"
-}
-.czs-wrench-l:before {
-	content:"\EA9A"
-}
-.czs-write-l:before {
-	content:"\EA9B"
-}
-.czs-x-buy-l:before {
-	content:"\EA9C"
-}
-.czs-youtube:before {
-	content:"\EA9D"
-}
-.czs-zhihu:before {
-	content:"\EA9E"
-}
-.czs-zip-folder:before {
-	content:"\EA9F"
-}
-.czs-zip-folder-l:before {
-	content:"\EAA0"
-}
+	}]
+}, {
+
+	"_id": "55fda05164",
+	"classify": "折腾工具",
+	"icon": "csz czs-server-l",
+	"sites": [{
+		"name": "挖站否 CDN",
+		"href": "https://cdn.wzfou.com/",
+		"desc": "CNAME方式接入CloudFlare ",
+		"logo": "default.ico"
+	}, {
+		"name": "免费内网穿透",
+		"href": "https://www.natfrp.com/user/",
+		"desc": "SAKURA FRP",
+		"logo": "default.ico"
+	}, {
+		"name": "站长工具国内测速",
+		"href": "http://tool.chinaz.com/speedtest/",
+		"desc": "站长工具国内测速",
+		"logo": "default.ico"
+	}, {
+		"name": "SSH 中转 ①",
+		"href": "https://heyterm.com/",
+		"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
+		"logo": "default.ico"
+	}, {
+		"name": "SSH 中转 ②",
+		"href": "https://console.ucloud.cn/upathx/globalssh",
+		"desc": "UCloud 提供 GlobalSSH 加速服务",
+		"logo": "https://passport.ucloud.cn/build/favicon/favicon.ico"
+	}, {
+		"name": "在线扒站工具",
+		"href": "https://bazhan.me/",
+		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
+		"logo": "https://bazhan.me/favicon.ico"
+	}, {
+		"name": "Github 文件加速",
+		"href": "https://cdn.svvme.com/",
+		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
+	}, {
+		"name": "哪里域名便宜",
+		"href": "https://www.nazhumi.com/",
+		"desc": "全球域名，一网比价",
+		"logo": "default.ico"
+	}, {
+		"name": "CSS 筛选",
+		"href": "https://uncss-online.com/",
+		"desc": "滤出CSS中被使用的部分",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
+	}, {
+		"name": "JS 变萌",
+		"href": "https://utf-8.jp/public/aaencode.html",
+		"desc": "萌系的JS加密",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+	
+	
+	"_id": "5cfaklkk5164",
+	"classify": "综合工具",
+	"icon": "csz czs-thumbs-up-l",
+	"sites": [{
+		"name": "MikuTools",
+		"href": "https://tools.miku.ac/",
+		"desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
+		"logo": "https://tools.miku.ac/favicon.ico"
+	}, {
+		"name": "Tooleyes",
+		"href": "https://www.tooleyes.com/",
+		"desc": "实用利器聚合",
+		"logo": "default.ico"
+	}, {
+		"name": "iMyShare",
+		"href": "https://imyshare.com/",
+		"desc": "实用导航",
+		"logo": "default.ico"
+	}, {
+		"name": "优聚集",
+		"href": "https://ujuji.com/",
+		"desc": "实用导航",
+		"logo": "default.ico"
+	}, {
+		"name": "OneGO导航",
+		"href": "https://ionego.net/",
+		"desc": "网盘、网站收集",
+		"logo": "default.ico"
+	}, {
+		"name": "懒人工具箱",
+		"href": "https://tool.lanrentuku.com/",
+		"desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
+		"logo": "https://tool.lanrentuku.com/favicon.ico"
+	}, {
+		"name": "PickFrom",
+		"href": "https://zh.pickfrom.net/",
+		"desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
+		"logo": "https://zh.pickfrom.net/favicon.ico"
+	}, {
+		"name": "在线工具",
+		"href": "https://tool.lu/",
+		"desc": "代码压缩、美化，开发类、站长类、极客类工具",
+		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/zxgj.ico"
+	}, {
+		"name": "Qtools在线工具",
+		"href": "https://www.qtool.net/",
+		"desc": "实用利器聚合",
+		"logo": "default.ico"
+	}, {
+		"name": "哆啦A梦的神奇口袋",
+		"href": "http://baozangku.ys168.com",
+		"desc": "永硕E盘下的某列表",
+		"logo": "default.ico"
+
+	}]
+}, {
+
+	"_id": "5c456gdhhdgd64",
+	"classify": "存储工具",
+	"icon": "csz czs-baiduwangpan",
+	"sites": [{
+		"name": "文件互传 ①",
+		"href": "https://airportal.cn",
+		"desc": "AirPortal | 空投",
+		"logo": "default.ico"
+	}, {
+		"name": "文件互传 ②",
+		"href": "http://qingwendang.com/",
+		"desc": "随时云U盘，免登陆上传下载文件",
+		"logo": "default.ico"
+	}, {
+		"name": "网盘导航",
+		"href": "https://www.wangpan.tech/",
+		"desc": "网盘导航网",
+		"logo": "default.ico"
+	}, {
+		"name": "网盘变对象储存",
+		"href": "https://js2.svvme.com/https/v2ex.com/t/733854",
+		"desc": "Onedrive等变身对象储存、当cdn用",
+		"logo": "default.ico"
+	}, {
+		"name": "百度网盘解析",
+		"href": "https://baidu.kinh.cc/",
+		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
+		"logo": "ico/d.ico"
+	}, {
+		"name": "天翼云盘免登陆下载",
+		"href": "http://tool.yijingying.com/189cloud/",
+		"desc": "天翼云盘免登陆解析下载",
+		"logo": "ico/d.ico"
+	}, {
+		"name": "网盘搬家",
+		"href": "https://mover.io/",
+		"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
+		"logo": "default.ico"
+	}, {
+		"name": "图床 ①",
+		"href": "https://sm.ms/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+	}, {
+		"name": "图床 ②",
+		"href": "https://imagelol.com/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+	}, {
+		"name": "图床 ③",
+		"href": "https://www.superbed.cn/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+	}, {
+		"name": "图床 ④",
+		"href": "https://imgchr.com/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+	}, {
+		"name": "图床 ⑤",
+		"href": "https://pic.stackoverflow.wiki/",
+		"desc": "免费上传图片并获取外链",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+	"_id": "5c456gdhhdgd64",
+	"classify": "检索工具",
+	"icon": "csz czs-search-l",
+	"sites": [{
+		"name": "国内用谷歌",
+		"href": "http://tools.bugscaner.com/google/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "网盘搜索",
+		"href": "https://www.chaonengso.com/",
+		"desc": "搜索不同的网盘",
+		"logo": "default.ico"
+	}, {
+		"name": "资源搜索",
+		"href": "https://iao.su/3700/",
+		"desc": "搜索不同类别的资源",
+		"logo": "default.ico"
+	}, {
+		"name": "V2EX站内搜索",
+		"href": "https://www.sov2ex.com/",
+		"desc": "在 V2EX.COM 中查找",
+		"logo": "default.ico"
+	}, {
+		"name": "搜索 Telegram",
+		"href": "http://www.sssoou.com/",
+		"desc": "在众多的频道或群组中查找热心网友的分享",
+		"logo": "default.ico"
+
+ 
+	}]
+}, {
+
+	"_id": "5cJHU11032f4",
+	"classify": "视觉资源",
+	"icon": "csz czs-image-l",
+	"sites": [{
+		"name": "极简壁纸",
+		"href": "https://bz.zzzmh.cn/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "Wallpapers",
+		"href": "https://wallpapershome.com/",
+		"desc": "高质量壁纸",
+		"logo": "default.ico"
+	}, {
+		"name": "Wallhaven",
+		"href": "https://wallhaven.cc/",
+		"desc": "高质量壁纸",
+		"logo": "default.ico"
+	}, {
+		"name": "Pexels",
+		"href": "https://www.pexels.com/zh-cn/",
+		"desc": "免版权图片素材",
+		"logo": "default.ico"
+	}, {
+		"name": "Unsplash",
+		"href": "https://unsplash.com/",
+		"desc": "免版权图片素材",
+		"logo": "default.ico"
+	}, {
+		"name": "必应壁纸",
+		"href": "https://bing.ioliu.cn/",
+		"desc": "必应历史美图",
+		"logo": "default.ico"
+	}, {
+		"name": "P站热门",
+		"href": "https://pixivic.com/",
+		"desc": "P站热榜与热门",
+		"logo": "default.ico"
+	}, {
+		"name": "随机图片 ①",
+		"href": "https://www.cnblogs.com/zaxtyson/p/11628746.html",
+		"desc": "随机图片Api",
+		"logo": "default.ico"
+	}, {
+		"name": "随机图片 ②",
+		"href": "https://uploadbeta.com/api/pictures/random/",
+		"desc": "随机图片Api",
+		"logo": "default.ico"
+	}, {
+		"name": "草莓图标库",
+		"href": "http://chuangzaoshi.com/icon/",
+		"desc": "一款字体图标",
+		"logo": "default.ico"
+	}, {
+		"name": "阿里巴巴图标库",
+		"href": "https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.d33146d14&type=3",
+		"desc": "阿里巴巴矢量图标库",
+		"logo": "default.ico"
+	}, {
+		"name": "SVG 图标",
+		"href": "https://iconsvg.xyz/",
+		"desc": "获取svg图标、代码",
+		"logo": "default.ico"
+	}, {
+		"name": "Emoji 大全",
+		"href": "https://emojixd.com/",
+		"desc": "emoji表情搜索与复制",
+		"logo": "default.ico"
+	}, {
+		"name": "免费可商用字体",
+		"href": "https://ziyouziti.com/index-index-all.html",
+		"desc": "免费可商用字体大全",
+		"logo": "default.ico"
+	}, {
+		"name": "在线配色",
+		"href": "https://color.adobe.com/zh/create/color-wheel",
+		"desc": "Adobe官方推出的配色工具",
+		"logo": "default.ico"
+
+
+
+	}]
+}, {
+
+	"_id": "5cggsgrrr5164",
+	"classify": "软件资源",
+	"icon": "csz czs-download-l",
+	"sites": [{
+		"name": "获取最新 Chrome",
+		"href": "https://www.iplaysoft.com/tools/chrome/",
+		"desc": "获取最新谷歌浏览器",
+		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
+	}, { 
+		"name": "下载与白嫖 office",
+		"href": "https://otp.landian.vip/zh-cn/",
+		"desc": "多版本 office 安装与激活",
+		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+	}, {
+		"name": "获取免费 WPS",
+		"href": "https://www.baidu.com/s?wd=“wps 党政机关 下载”",
+		"desc": "WPS党政机关专版",
+		"logo": "default.ico"
+	}, {
+		"name": "获取纯净的Flash",
+		"href": "https://www.sixyin.com/1806.html",
+		"desc": "纯净并去除了限制",
+		"logo": "default.ico"
+	}, {
+		"name": "截图神器",
+		"href": "https://zh.snipaste.com/",
+		"desc": "Snipaste是一款优秀的截图工具",
+		"logo": "default.ico"
+	}, {
+		"name": "易破解",
+		"href": "https://www.ypojie.com/",
+		"desc": "修改、汉化、绿色软件等",
+		"logo": "default.ico"
+	}, {
+		"name": "异星软件空间",
+		"href": "http://www.yxssp.com/",
+		"desc": "安卓直装修改破解软件等",
+		"logo": "default.ico"
+	}, {
+		"name": "六音软件",
+		"href": "https://www.sixyin.com/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "前线乐园",
+		"href": "https://www.yijingying.com/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "异次元软件世界",
+		"href": "https://www.iplaysoft.com/",
+		"desc": "高质量软件图文",
+		"logo": "default.ico"
+		
+		
+	}]
+}, {
+
+	"_id": "3c64156afd015",
+	"classify": "镜像资源",
+	"icon": "csz czs-linux",
+	"sites": [{
+		"name": "LInux 发行版下载",
+		"href": "https://g.svvme.com/Linux-%E9%95%9C%E5%83%8F-%E5%8F%91%E8%A1%8C%E7%89%88-%E4%B8%8B%E8%BD%BD-07-27",
+		"desc": "加速下载Linux发行及分支版本",
+		"logo": "default.ico"
+	}, {
+		"name": "极简系统",
+		"href": "https://www.sysmini.com/",
+		"desc": "下载Win10/8/7/xp原版镜像或精简 ",
+		"logo": "default.ico"
+	}, {
+		"name": "MSDN",
+		"href": "https://msdn.itellyou.cn/",
+		"desc": "Windows 原版镜像、软件",
+		"logo": "default.ico"
+	}, {
+		"name": "NEXT",
+		"href": "https://next.itellyou.cn/",
+		"desc": "Windows、Linux 原版镜像、软件",
+		"logo": "default.ico"
+	}, {
+		"name": "开源镜像站汇总",
+		"href": "https://g.svvme.com/%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E6%B1%87%E6%80%BB-07-28",
+		"desc": "开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "清华大学开源镜像站",
+		"href": "https://mirrors.tuna.tsinghua.edu.cn/",
+		"desc": "清华大学开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "前端公共库",
+		"href": "https://51.ruyo.net/12387.html",
+		"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
+		"logo": "default.ico"
+	}, {
+		"name": "yum、npm源",
+		"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
+		"desc": "国内镜像源",
+		"logo": "default.ico"
+	}, {
+		"name": "JDK国内镜像源",
+		"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
+		"desc": "国内线路下载JDK、Tomcat",
+		"logo": "default.ico"
+	}, {
+		"name": "Docker国内镜像源",
+		"href": "https://g.svvme.com/Docker-%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90-07-28",
+		"desc": "国内镜像源",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+
+	"_id": "3c6302164656",
+	"classify": "WEB资源",
+	"icon": "csz czs-html5",
+	"sites": [{
+		"name": "文字首字母头像",
+		"href": "https://mkblog.cn/1886/",
+		"desc": "纯前端生成字母头像",
+		"logo": "default.ico"
+	}, {
+		"name": "JS 变萌",
+		"href": "https://utf-8.jp/public/aaencode.html",
+		"desc": "萌系的JS加密",
+		"logo": "default.ico"
+	}, {
+		"name": "CF Workers 玩法",
+		"href": "https://cn.bing.com/search?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA&qs=n&form=QBRE&sp=-1&pq=%E4%BD%BF%E7%94%A8+cloudflare+workers+%E6%90%AD%E5%BB%BA&sc=0-24&sk=&cvid=38CB4C5038734318ADE2ACF3B6FC5798",
+		"desc": "CloudFlare Workers 的一些玩法",
+		"logo": "default.ico"
+	}, {
+		"name": "音乐播放器 ①",
+		"href": "https://aplayer.js.org/",
+		"desc": "APlayer 开源的播放器",
+		"logo": "default.ico"
+	}, {
+		"name": "音乐播放器 ②",
+		"href": "https://github.com/metowolf/MetingJS",
+		"desc": "给APlayer加入了外链网易云等功能",
+		"logo": "default.ico"
+	}, {
+		"name": "音乐播放器 ③",
+		"href": "https://github.com/Jrohy/QPlayer",
+		"desc": "QPlayer 简洁的悬浮音乐播放器",
+		"logo": "default.ico"
+	}, {
+		"name": "音乐播放器 ④",
+		"href": "https://github.com/Jrohy/QPlayer",
+		"desc": "CPlayer , APlayer同作者力作",
+		"logo": "default.ico"
+	}, {
+		"name": "iro 主题",
+		"href": "https://iro.tw/",
+		"desc": "WordPress主题 Sakurairo",
+		"logo": "default.ico"
+	}, {
+		"name": "handsome 主题",
+		"href": "https://www.ihewro.com/archives/489/",
+		"desc": "Typecho主题 handsome",
+		"logo": "default.ico"
+	}, {
+		"name": "樱花Frp文档",
+		"href": "https://doc.natfrp.com/#/frpc/usage/linux",
+		"desc": "樱花Frp文档",
+		"logo": "default.ico"
+	}, {
+		"name": "Easy Hexo",
+		"href": "https://easyhexo.com/",
+		"desc": "轻松入门Hexo",
+		"logo": "default.ico"
+
+
+	}]
+}, {
+
+	"_id": "5c637377734656",
+	"classify": "代理资源",
+	"icon": "csz czs-paper-plane-l",
+	"sites": [{
+		"name": "v2 免费节点",
+		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "ss 免费节点",
+		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "常见代理客户端",
+		"href": "https://g.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF-08-04",
+		"desc": "常见的代理客户端，vmess、ssr或更多",
+		"logo": "default.ico"
+	}, {
+		"name": "Github最新Hosts",
+		"href": "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/README.md",
+		"desc": "Github最新Hosts",
+		"logo": "default.ico"
+	}, {
+		"name": "在线代理 ①",
+		"href": "https://proxy.justyy.com/",
+		"desc": "在线方式访问境外网站", 
+		"logo": "default.ico"
+	}, {
+		"name": "在线代理 ②",
+		"href": "https://js.zmirror.xyz/",
+		"desc": "在线方式访问境外网站", 
+		"logo": "default.ico"
+	}, {
+		"name": "帮你谷歌",
+		"href": "https://js.svvme.com/",
+		"desc": "自搭建的在线代理",
+		"logo": "ico/ytb.ico"
+		
+	}]
+}, {
+
+	"_id": "5c60454844656",
+	"classify": "影视资源",
+	"icon": "csz czs-play-l",
+	"sites": [{
+		"name": "免费看剧 ①",
+		"href": "https://iao.su/531/",
+		"desc": "白嫖各种影视资源",
+		"logo": "default.ico"
+	}, {
+		"name": "免费看剧 ②",
+		"href": "https://www.coolapk.com/feed/21540393?shareKey=MzRjYTg5ZGIxNzU5NjBlNjhmOGU~&shareUid=1174882",
+		"desc": "白嫖各种影视资源",
+		"logo": "default.ico"
+	}, {
+		"name": "VIP视频解析", 
+		"href": "http://tool.yijingying.com/video/",
+		"desc": "白嫖影视资源",
+		"logo": "default.ico"
+	}, {
+		"name": "ZY Player 资源播放器",
+		"href": "http://zyplayer.fun/",
+		"desc": "跨平台视频资源播放器",
+		"logo": "default.ico"
+	}, {
+		"name": "免费爱奇艺账号",
+		"href": "http://www.zhanghao.cc/aiqiyihuiyuanzhanghao.html",
+		"desc": "爱奇艺、迅雷 共享账号",
+		"logo": "default.ico"
+	}, {
+		"name": "免费优酷账号",
+		"href": "https://www.feiyuka.com/youku",
+		"desc": "爱奇艺、迅雷 共享账号",
+		"logo": "default.ico"
+	}, {
+		"name": "ViP部落",
+		"href": "http://www.vipbuluo.com/",
+		"desc": "腾讯优酷爱奇艺乐视搜狐芒果迅雷饿了么美团会员",
+		"logo": "default.ico"
+
+	}]
+}, {
+
+	"_id": "5c6842444656",
+	"classify": "好站收藏",
+	"icon": "csz czs-rss",
+	"sites": [{
+		"name": "图书资源白嫖",
+		"href": "http://shuxiangjia.cn/",
+		"desc": "不同类型的图书资源",
+		"logo": "default.ico"
+	}, {
+		"name": "如有乐享",
+		"href": "https://51.ruyo.net/",
+		"desc": "分享是一种美德，是一种态度",
+		"logo": "default.ico"
+	}, {
+		"name": "不死鸟",
+		"href": "https://iao.su/",
+		"desc": "分享为王官网",
+		"logo": "default.ico"
+	}, {
+		"name": "文武科技柜",
+		"href": "https://www.wangdu.site/",
+		"desc": "文武科技柜",
+		"logo": "default.ico"
+	}, {
+		"name": "吾爱分享",
+		"href": "https://52sharing.cn/",
+		"desc": "吾爱分享网",
+		"logo": "default.ico"
+	}, {
+		"name": "小众软件",
+		"href": "https://www.appinn.com/",
+		"desc": "小众软件",
+		"logo": "default.ico"
+	}, {
+		"name": "无忧启动论坛",
+		"href": "http://bbs.wuyou.net/",
+		"desc": "无忧启动论坛",
+		"logo": "default.ico"
+	}, {
+		"name": "挖站否",
+		"href": "https://wzfou.com/",
+		"desc": "挖掘建站的乐趣",
+		"logo": "default.ico"
+	}, {
+		"name": "羊毛党之家",
+		"href": "https://yangmaodang.org/",
+		"desc": "薅羊毛",
+		"logo": "default.ico"
+	}, {
+		"name": "JIKE",
+		"href": "https://jike.info/",
+		"desc": "JIKE",
+		"logo": "default.ico"
+	}, {
+		"name": "TopBook",
+		"href": "https://topbook.cc/",
+		"desc": "高效生活视频书",
+		"logo": "default.ico"
+	}, {
+		"name": "静然书屋",
+		"href": "https://books.andrewjr.workers.dev/0:/",
+		"desc": "图书分享",
+		"logo": "default.ico"
+	}, {
+		"name": "哔哩大学",
+		"href": "https://bilidx.nexmoe.com/",
+		"desc": "B站上的学习资源",
+		"logo": "default.ico"
+	}, {
+		"name": "异次元软件世界",
+		"href": "https://www.iplaysoft.com/",
+		"desc": "高质量软件分享",
+		"logo": "default.ico"
+	}, {
+		"name": "趣玩实验室",
+		"href": "https://lab.lalkk.com/",
+		"desc": "趣玩实验室",
+		"logo": "default.ico" 
+	}, {
+		"name": "Epic 喜加一",
+		"href": "https://www.epicgames.com/store/zh-CN/",
+		"desc": "白嫖游戏",
+		"logo": "default.ico"
+
+	}]
+}, {
+
+
+	"_id": "5c51456534",
+	"classify": "博客收藏",
+	"icon": "csz czs-book",
+	"sites": [{
+		"name": "折影轻梦",
+		"href": "https://www.xjisme.com/",
+		"desc": "折影轻梦",
+		"logo": "default.ico"
+	}, {
+		"name": "小俊博客",
+		"href": "https://www.xjisme.com/",
+		"desc": "小俊博客",
+		"logo": "default.ico"
+	}, {
+		"name": "Rat's Blog",d
+		"href": "https://www.moerats.com/",
+		"desc": "Rat's Blog",
+		"logo": "default.ico"
+		
+		}]
+}, {
+	
+	"_id": "5c550114656",
+	"classify": "猎奇收藏",
+	"icon": "csz czs-taiji",
+	"sites": [{
+		"name": "世界简史",
+		"href": "https://tieba.baidu.com/p/7156836600?pn=1",
+		"desc": "世界简史",
+		"logo": "default.ico"
+	}, {
+		"name": "全身放松",
+		"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
+		"desc": "Sapien medicine",
+		"logo": "default.ico"
+	}, {
+		"name": "五音疗疾",
+		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
+		"desc": "五音调五脏",
+		"logo": "default.ico"
+		
+		}]
+}, {
+
+	"_id": "5c6007444656",
+	"classify": "有趣收藏",
+	"icon": "csz czs-block",
+	"sites": [{
+		"name": "这个不存在",
+		"href": "https://thisxdoesnotexist.com",
+		"desc": "随机来点不存在的东西",
+		"logo": "default.ico"
+	}, {
+		"name": "随机人脸",
+		"href": "https://thispersondoesnotexist.com/",
+		"desc": "每次刷新都会出现不同Ai合成人脸",
+		"logo": "default.ico"
+	}, {
+		"name": "随机猫图",
+		"href": "https://thiscatdoesnotexist.com/",
+		"desc": "每次刷新都会出现不同的合成猫",
+		"logo": "default.ico"
+	}, {
+		"name": "随机妹纸",
+		"href": "https://www.thiswaifudoesnotexist.net",
+		"desc": "每次刷新都会出现不同的二刺螈",
+		"logo": "default.ico"
+	}, {
+		"name": "有趣网址之家",
+		"href": "https://youquhome.com/",
+		"desc": "收藏全球最有趣的网站",
+		"logo": "default.ico"
+
+	}]
+}]
+
+
