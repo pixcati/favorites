@@ -187,9 +187,9 @@
 	"classify": "折腾工具",
 	"icon": "csz czs-server-l",
 	"sites": [{
-		"name": "笨牛网",
-		"href": "http://cdn.bnxb.com/",
-		"desc": "CNAME方式接入Cloudflare cdn  ",
+		"name": "挖站否 CDN",
+		"href": "https://cdn.wzfou.com/",
+		"desc": "CNAME方式接入CloudFlare ",
 		"logo": "default.ico"
 	}, {
 		"name": "免费内网穿透",
@@ -666,21 +666,6 @@
 	"classify": "代理资源",
 	"icon": "csz czs-paper-plane-l",
 	"sites": [{
-		"name": "YouTube 镜像",
-		"href": "https://video.feds.club/",
-		"desc": "支持P2P共享的油管代理",
-		"logo": "ico/ytb.ico"
-	}, {
-		"name": "安卓VPN集合",
-		"href": "https://js.svvme.com/-----https://apk.support/search?q=vpn&t=support",
-		"desc": "同步 Play上的最新工具",
-		"logo": "default.ico"
-	}, {
-		"name": "在线代理",
-		"href": "https://proxy.justyy.com/",
-		"desc": "JSproxy", 
-		"logo": "default.ico"
-	}, {
 		"name": "v2 免费节点",
 		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
@@ -691,16 +676,31 @@
 		"desc": "",
 		"logo": "default.ico"
 	}, {
-		"name": "常见的客户端",
-		"href": "https://g.svvme.com/%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7-02-15",
-		"desc": "常见的代理客户端",
+		"name": "常见代理客户端",
+		"href": "https://g.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF-08-04",
+		"desc": "常见的代理客户端，vmess、ssr或更多",
 		"logo": "default.ico"
 	}, {
 		"name": "Github最新Hosts",
 		"href": "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/README.md",
 		"desc": "Github最新Hosts",
 		"logo": "default.ico"
-
+	}, {
+		"name": "在线代理 ①",
+		"href": "https://proxy.justyy.com/",
+		"desc": "在线方式访问境外网站", 
+		"logo": "default.ico"
+	}, {
+		"name": "在线代理 ②",
+		"href": "https://js.zmirror.xyz/",
+		"desc": "在线方式访问境外网站", 
+		"logo": "default.ico"
+	}, {
+		"name": "帮你谷歌",
+		"href": "https://js.svvme.com/",
+		"desc": "自搭建的在线代理",
+		"logo": "ico/ytb.ico"
+		
 	}]
 }, {
 
@@ -848,7 +848,7 @@
 		"desc": "小俊博客",
 		"logo": "default.ico"
 	}, {
-		"name": "Rat's Blog",
+		"name": "Rat's Blog",d
 		"href": "https://www.moerats.com/",
 		"desc": "Rat's Blog",
 		"logo": "default.ico"
