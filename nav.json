@@ -109,6 +109,11 @@
 		"desc": "DeepL 靠谱的机器翻译",
 		"logo": "default.ico"
 	}, {
+		"name": "二维码生成制作",
+		"href": "https://qrbtf.com/",
+		"desc": "参数化二维码生成",
+		"logo": "default.ico"
+	}, {
 		"name": "公共DNS大全",
 		"href": "https://ip.cn/dns.html",
 		"desc": "常用、小众或地方DNS",
@@ -261,6 +266,11 @@
 		"desc": "实用导航",
 		"logo": "default.ico"
 	}, {
+		"name": "Creative Mass",
+		"href": "https://creativemass.cn/",
+		"desc": "精选创意导航",
+		"logo": "default.ico"
+	}, {
 		"name": "优聚集",
 		"href": "https://ujuji.com/",
 		"desc": "实用导航",
@@ -394,6 +404,11 @@
 		"href": "http://www.sssoou.com/",
 		"desc": "在众多的频道或群组中查找热心网友的分享",
 		"logo": "default.ico"
+	}, {
+		"name": "仿知网",
+		"href": "https://www.cn-ki.net/",
+		"desc": "iData-知识检索",
+		"logo": "default.ico"
 
  
 	}]
@@ -512,6 +527,16 @@
 		"desc": "Snipaste是一款优秀的截图工具",
 		"logo": "default.ico"
 	}, {
+		"name": "阿里云盘小白羊版",
+		"href": "https://js2.svvme.com/https/github.com/liupan1890/aliyunpan",
+		"desc": "Snipaste是一款优秀的截图工具",
+		"logo": "default.ico"
+	}, {
+		"name": "微当下载",
+		"href": "https://www.weidown.com/",
+		"desc": "修改、汉化、绿色软件等",
+		"logo": "default.ico"
+	}, {
 		"name": "易破解",
 		"href": "https://www.ypojie.com/",
 		"desc": "修改、汉化、绿色软件等",
@@ -524,7 +549,7 @@
 	}, {
 		"name": "六音软件",
 		"href": "https://www.sixyin.com/",
-		"desc": "",
+		"desc": "魔改软件合辑",
 		"logo": "default.ico"
 	}, {
 		"name": "前线乐园",
@@ -851,6 +876,16 @@
 		"name": "Rat's Blog",
 		"href": "https://www.moerats.com/",
 		"desc": "Rat's Blog",
+		"logo": "default.ico"
+	}, {
+		"name": "缤纷彩虹天地",
+		"href": "http://blog.cccyun.cn/",
+		"desc": "彩虹云任务的作者的博客",
+		"logo": "default.ico"
+	}, {
+		"name": "卜卜口",
+		"href": "https://mouto.org/",
+		"desc": "卜卜口",
 		"logo": "default.ico"
 		
 		}]
