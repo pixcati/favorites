@@ -192,6 +192,11 @@
 	"classify": "折腾工具",
 	"icon": "csz czs-server-l",
 	"sites": [{
+		"name": "哪里域名便宜",
+		"href": "https://www.nazhumi.com/",
+		"desc": "全球域名，一网比价",
+		"logo": "default.ico"
+	}, {
 		"name": "挖站否 CDN",
 		"href": "https://cdn.wzfou.com/",
 		"desc": "CNAME方式接入CloudFlare ",
@@ -222,15 +227,15 @@
 		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
 		"logo": "https://bazhan.me/favicon.ico"
 	}, {
-		"name": "Github 文件加速",
+		"name": "Github 文件加速 ①",
 		"href": "https://cdn.svvme.com/",
 		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
 		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
 	}, {
-		"name": "哪里域名便宜",
-		"href": "https://www.nazhumi.com/",
-		"desc": "全球域名，一网比价",
-		"logo": "default.ico"
+		"name": "Github 文件加速 ②",
+		"href": "https://ghproxy.com/",
+		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
 	}, {
 		"name": "CSS 筛选",
 		"href": "https://uncss-online.com/",
@@ -284,6 +289,11 @@
 		"name": "CXY521",
 		"href": "http://tooool.org/",
 		"desc": "程序员导航-CXY521",
+		"logo": "default.ico"
+	}, {
+		"name": "快点搜",
+		"href": "https://quickso.cn/",
+		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "懒人工具箱",
