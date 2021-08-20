@@ -549,7 +549,7 @@
 	}, {
 		"name": "阿里云盘小白羊版",
 		"href": "https://js2.svvme.com/https/github.com/liupan1890/aliyunpan",
-		"desc": "Snipaste是一款优秀的截图工具",
+		"desc": "阿里云盘小白羊版",
 		"logo": "default.ico"
 	}, {
 		"name": "微当下载",
@@ -557,24 +557,34 @@
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
+		"name": "六音软件",
+		"href": "https://www.sixyin.com/",
+		"desc": "魔改软件合辑",
+		"logo": "default.ico"
+	}, {
 		"name": "易破解",
 		"href": "https://www.ypojie.com/",
+		"desc": "修改、汉化、绿色软件等",
+		"logo": "default.ico"
+	}, {
+		"name": "zd423",
+		"href": "https://www.zdfans.com/",
+		"desc": "修改、汉化、绿色软件等",
+		"logo": "default.ico"
+	}, {
+		"name": "423down",
+		"href": "https://www.ypojie.com/",
+		"desc": "修改、汉化、绿色软件等",
+		"logo": "default.ico"
+	}, {
+		"name": "果核剥壳",
+		"href": "https://www.ghxi.com/",
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
 		"name": "异星软件空间",
 		"href": "http://www.yxssp.com/",
 		"desc": "安卓直装修改破解软件等",
-		"logo": "default.ico"
-	}, {
-		"name": "六音软件",
-		"href": "https://www.sixyin.com/",
-		"desc": "魔改软件合辑",
-		"logo": "default.ico"
-	}, {
-		"name": "前线乐园",
-		"href": "https://www.yijingying.com/",
-		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "异次元软件世界",
@@ -721,8 +731,13 @@
 		"desc": "",
 		"logo": "default.ico"
 	}, {
-		"name": "ss 免费节点",
+		"name": "ss 免费节点 ①",
 		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "ss 免费节点 ②",
+		"href": "https://js.svvme.com/-----https://lncn.org/",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -768,6 +783,11 @@
 		"desc": "白嫖各种影视资源",
 		"logo": "default.ico"
 	}, {
+		"name": "TV直播网站合辑",
+		"href": "https://js2.svvme.com/https/github.com/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
+		"desc": "电脑、手机看电视的平台整理",
+		"logo": "default.ico"
+	}, {
 		"name": "VIP视频解析", 
 		"href": "http://tool.yijingying.com/video/",
 		"desc": "白嫖影视资源",
@@ -810,11 +830,6 @@
 	"classify": "好站收藏",
 	"icon": "csz czs-rss",
 	"sites": [{
-		"name": "图书资源白嫖",
-		"href": "http://shuxiangjia.cn/",
-		"desc": "不同类型的图书资源",
-		"logo": "default.ico"
-	}, {
 		"name": "如有乐享",
 		"href": "https://51.ruyo.net/",
 		"desc": "分享是一种美德，是一种态度",
@@ -870,16 +885,6 @@
 		"desc": "高效生活视频书",
 		"logo": "default.ico"
 	}, {
-		"name": "静然书屋",
-		"href": "https://books.andrewjr.workers.dev/0:/",
-		"desc": "图书分享",
-		"logo": "default.ico"
-	}, {
-		"name": "哔哩大学",
-		"href": "https://bilidx.nexmoe.com/",
-		"desc": "B站上的学习资源",
-		"logo": "default.ico"
-	}, {
 		"name": "异次元软件世界",
 		"href": "https://www.iplaysoft.com/",
 		"desc": "高质量软件分享",
@@ -893,10 +898,34 @@
 		"name": "Epic 喜加一",
 		"href": "https://www.epicgames.com/store/zh-CN/",
 		"desc": "白嫖游戏",
-		"logo": "default.ico"
+		"logo": "default.icod"
 
 	}]
 }, {
+
+
+	"_id": "5c5456651009",
+	"classify": "学习资源",
+	"icon": "csz czs-bar-chart-l",
+	"sites": [{
+		"name": "静然书屋",
+		"href": "https://books.andrewjr.workers.dev/0:/",
+		"desc": "图书分享",
+		"logo": "default.ico"
+	}, {
+		"name": "哔哩大学",
+		"href": "https://bilidx.nexmoe.com/",
+		"desc": "B站上的学习资源",
+		"logo": "default.ico"
+	}, {
+		"name": "图书资源白嫖",
+		"href": "http://shuxiangjia.cn/",
+		"desc": "不同类型的图书资源",
+		"logo": "default.ico"
+
+		
+		}]
+	}, {
 
 
 	"_id": "5c51456534",
@@ -926,6 +955,11 @@
 		"name": "卜卜口",
 		"href": "https://mouto.org/",
 		"desc": "卜卜口",
+		"logo": "default.ico"
+	}, {
+		"name": "秋枫酱",
+		"href": "https://akinokae.de/",
+		"desc": "秋のかえで",
 		"logo": "default.ico"
 		
 		}]
