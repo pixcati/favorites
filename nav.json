@@ -429,6 +429,11 @@
 		"href": "https://www.cn-ki.net/",
 		"desc": "iData-知识检索",
 		"logo": "default.ico"
+	}, {
+		"name": "Magi",
+		"href": "https://magi.com/",
+		"desc": "Magi",
+		"logo": "default.ico"
 		
  
 	}]
@@ -703,6 +708,11 @@
 		"desc": "WordPress主题 MDx",
 		"logo": "default.ico"
 	}, {
+		"name": "Argon 主题",
+		"href": "https://solstice23.top/archives/746",
+		"desc": "WordPress主题 Argon",
+		"logo": "default.ico"
+	}, {
 		"name": "handsome 主题",
 		"href": "https://www.ihewro.com/archives/489/",
 		"desc": "Typecho主题 handsome",
@@ -727,17 +737,17 @@
 	"icon": "csz czs-paper-plane-l",
 	"sites": [{
 		"name": "v2 免费节点",
-		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://js2.svvme.com/https/github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "ss 免费节点 ①",
-		"href": "https://js.svvme.com/-----https://github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://js2.svvme.com/https/github.com/Alvin9999/new-pac/wiki/ss%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "ss 免费节点 ②",
-		"href": "https://js.svvme.com/-----https://lncn.org/",
+		"href": "https://js2.svvme.com/https/lncn.org/",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -823,6 +833,32 @@
 		"desc": "腾讯优酷爱奇艺乐视搜狐芒果迅雷饿了么美团会员",
 		"logo": "default.ico"
 
+
+
+	}]
+}, {
+
+
+	"_id": "5c5456651009",
+	"classify": "学习资源",
+	"icon": "csz czs-bar-chart-l",
+	"sites": [{
+		"name": "静然书屋",
+		"href": "https://books.andrewjr.workers.dev/0:/",
+		"desc": "图书分享",
+		"logo": "default.ico"
+	}, {
+		"name": "哔哩大学",
+		"href": "https://bilidx.nexmoe.com/",
+		"desc": "B站上的学习资源",
+		"logo": "default.ico"
+	}, {
+		"name": "图书资源白嫖",
+		"href": "http://shuxiangjia.cn/",
+		"desc": "不同类型的图书资源",
+		"logo": "default.ico"
+
+
 	}]
 }, {
 
@@ -899,33 +935,9 @@
 		"href": "https://www.epicgames.com/store/zh-CN/",
 		"desc": "白嫖游戏",
 		"logo": "default.icod"
-
-	}]
-}, {
-
-
-	"_id": "5c5456651009",
-	"classify": "学习资源",
-	"icon": "csz czs-bar-chart-l",
-	"sites": [{
-		"name": "静然书屋",
-		"href": "https://books.andrewjr.workers.dev/0:/",
-		"desc": "图书分享",
-		"logo": "default.ico"
-	}, {
-		"name": "哔哩大学",
-		"href": "https://bilidx.nexmoe.com/",
-		"desc": "B站上的学习资源",
-		"logo": "default.ico"
-	}, {
-		"name": "图书资源白嫖",
-		"href": "http://shuxiangjia.cn/",
-		"desc": "不同类型的图书资源",
-		"logo": "default.ico"
-
 		
 		}]
-	}, {
+	}, { 
 
 
 	"_id": "5c51456534",
@@ -960,6 +972,11 @@
 		"name": "秋枫酱",
 		"href": "https://akinokae.de/",
 		"desc": "秋のかえで",
+		"logo": "default.ico"
+	}, {
+		"name": "极客公园",
+		"href": "https://gitcafe.net/",
+		"desc": "极客公园",
 		"logo": "default.ico"
 		
 		}]
