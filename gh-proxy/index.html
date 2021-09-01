@@ -1,163 +1,102 @@
-'use strict'
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>GitHub代理加速</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/css/main.min.css" />
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn/img/20210804150303.png">
+<meta property="og:title" content="欢哥GitHub代理加速" />
+<meta property="og:description" content="GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务." />
+</head>
+<body class="landing is-preload">
+<div id="page-wrapper">
 
-/**
- * static files (404.html, sw.js, conf.js)
- */
-const ASSET_URL = 'https://hunshcn.github.io/gh-proxy'
-// 前缀，如果自定义路由为example.com/gh/*，将PREFIX改为 '/gh/'，注意，少一个杠都会错！
-const PREFIX = '/'
-// git使用cnpmjs镜像、分支文件使用jsDelivr镜像的开关，0为关闭，默认开启
-const Config = {
-    jsdelivr: 1,
-    cnpmjs: 1
-}
+<header id="header" class="alt">
+<h1><a href="/">GitHub代理加速</a></h1>
+<nav id="nav">
+<ul>
+<li><a href="https://js.svvme.com/" target="_blank">代理</a></li>
+<li><a href="https://pay.svvme.com/" target="_blank">捐赠</a></li>
+<li><a href="https://www.svvme.com/" target="_blank">博客</a></li>
 
-/** @type {RequestInit} */
-const PREFLIGHT_INIT = {
-    status: 204,
-    headers: new Headers({
-        'access-control-allow-origin': '*',
-        'access-control-allow-methods': 'GET,POST,PUT,PATCH,TRACE,DELETE,HEAD,OPTIONS',
-        'access-control-max-age': '1728000',
-    }),
-}
+</ul>
+</nav>
+</header>
 
-/**
- * @param {any} body
- * @param {number} status
- * @param {Object<string, string>} headers
- */
-function makeRes(body, status = 200, headers = {}) {
-    headers['access-control-allow-origin'] = '*'
-    return new Response(body, {status, headers})
-}
+<section id="cta">
+<img src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn/img/20210804150303.png" height="100" width="100">
+<br />
+<h2>GitHub代理加速</h2>
+<p>GitHub 文件 , Releases , archive , gist , raw.githubusercontent.com 文件代理加速下载服务.</p>
+<form action="./" method="get" target="__blank">
+<div class="row gtr-50 gtr-uniform">
+<div class="col-8 col-12-mobilep">
+<input class="block url" type="text" name="q" id="email" placeholder="输入 GitHub 文件链接" pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$" required>
+</div>
+<div class="col-4 col-12-mobilep">
+<input type="submit" value="下载">
+</div>
+</div>
+</form>
+</section>
+<section id="main" class="container">
+<header>
+<h2>使用说明</h2>
+<p>本站加速下载服务<font color="red">免费使用</font>
+<br>
+如果本站的服务帮助到您,欢迎大家随意<a href="https://pan.svvme.com/" target="_blank">打赏</a>以支持本站提供更好的服务.
+<br>
+本工具仅可用于从 GitHub 上加速下载学习资源及相关代码！请勿用于非法用途，否则后果自负！
+</p>
+</header>
+<div class="row">
+<div class="col-12">
 
+<section class="box">
 
-/**
- * @param {string} urlStr
- */
-function newUrl(urlStr) {
-    try {
-        return new URL(urlStr)
-    } catch (err) {
-        return null
-    }
-}
+<section class="box">
+<h3>首页下载</h3>
+<p>在本页地址栏输入合规链接（参考以下链接）点击下载按钮
+<br>
+支持 <font color="red">raw.githubusercontent.com</font> , <font color="red">gist.github.com</font> , <font color="red">gist.githubusercontent.com</font> 文件下载.</p>
+<hr />
+<header>
+<h4><b>Raw 文件</b></h4>
+</header>
+<p>https://raw.githubusercontent.com/xxx/xxx/master/xxx</p>
+<header>
+<h4><b>分支源码</b></h4>
+</header>
+<p>https://github.com/xxx/xxx/archive/master.zip</p>
+<header>
+<h4><b>Releases 源码</b></h4>
+</header>
+<p>https://github.com/stilleshan/xxx/xxx/v1.0.tar.gz</p>
+<header>
+<h4><b>Releases 文件</b></h4>
+</header>
+<p>https://github.com/xxx/xxx/releases/download/v1.0/xxx.tar.gz</p>
+</section>
+</div>
+</div>
+</section>
 
-
-addEventListener('fetch', e => {
-    const ret = fetchHandler(e)
-        .catch(err => makeRes('cfworker error:\n' + err.stack, 502))
-    e.respondWith(ret)
-})
-
-
-/**
- * @param {FetchEvent} e
- */
-async function fetchHandler(e) {
-    const req = e.request
-    const urlStr = req.url
-    const urlObj = new URL(urlStr)
-    let path = urlObj.searchParams.get('q')
-    if (path) {
-        return Response.redirect('https://' + urlObj.host + PREFIX + path, 301)
-    }
-    // cfworker 会把路径中的 `//` 合并成 `/`
-    path = urlObj.href.substr(urlObj.origin.length + PREFIX.length).replace(/^https?:\/+/, 'https://')
-    const exp1 = /^(?:https?:\/\/)?github\.com\/.+?\/.+?\/(?:releases|archive)\/.*$/i
-    const exp2 = /^(?:https?:\/\/)?github\.com\/.+?\/.+?\/(?:blob)\/.*$/i
-    const exp3 = /^(?:https?:\/\/)?github\.com\/.+?\/.+?\/(?:info|git-upload-pack).*$/i
-    const exp4 = /^(?:https?:\/\/)?raw\.githubusercontent\.com\/.+?\/.+?\/.+?\/.+$/i
-    if (path.search(exp1) === 0 || !Config.cnpmjs && (path.search(exp3) === 0 || path.search(exp4))) {
-        return httpHandler(req, path)
-    } else if (path.search(exp2) === 0) {
-        if (Config.jsdelivr){
-            const newUrl = path.replace('/blob/', '@').replace(/^(?:https?:\/\/)?github\.com/, 'https://cdn.jsdelivr.net/gh')
-            return Response.redirect(newUrl, 302)
-        }else{
-            path = path.replace('/blob/', '/raw/')
-            return httpHandler(req, path)
-        }
-    } else if (path.search(exp3) === 0) {
-        const newUrl = path.replace(/^(?:https?:\/\/)?github\.com/, 'https://github.com.cnpmjs.org')
-        return Response.redirect(newUrl, 302)
-    } else if (path.search(exp4) === 0) {
-        const newUrl = path.replace(/(?<=com\/.+?\/.+?)\/(.+?\/)/, '@$1').replace(/^(?:https?:\/\/)?raw\.githubusercontent\.com/, 'https://cdn.jsdelivr.net/gh')
-        return Response.redirect(newUrl, 302)
-    } else {
-        return fetch(ASSET_URL + path)
-    }
-}
-
-
-/**
- * @param {Request} req
- * @param {string} pathname
- */
-function httpHandler(req, pathname) {
-    const reqHdrRaw = req.headers
-
-    // preflight
-    if (req.method === 'OPTIONS' &&
-        reqHdrRaw.has('access-control-request-headers')
-    ) {
-        return new Response(null, PREFLIGHT_INIT)
-    }
-
-    let rawLen = ''
-
-    const reqHdrNew = new Headers(reqHdrRaw)
-
-    let urlStr = pathname
-    if (urlStr.startsWith('github')) {
-        urlStr = 'https://' + urlStr
-    }
-    const urlObj = newUrl(urlStr)
-
-    /** @type {RequestInit} */
-    const reqInit = {
-        method: req.method,
-        headers: reqHdrNew,
-        redirect: 'follow',
-        body: req.body
-    }
-    return proxy(urlObj, reqInit, rawLen, 0)
-}
+<footer id="footer">
+<ul class="copyright">
+<li><b>Github代理加速</b> All rights reserved.</li>
+</ul>
+</footer>
+</div>
 
 
-/**
- *
- * @param {URL} urlObj
- * @param {RequestInit} reqInit
- */
-async function proxy(urlObj, reqInit, rawLen) {
-    const res = await fetch(urlObj.href, reqInit)
-    const resHdrOld = res.headers
-    const resHdrNew = new Headers(resHdrOld)
-
-    // verify
-    if (rawLen) {
-        const newLen = resHdrOld.get('content-length') || ''
-        const badLen = (rawLen !== newLen)
-
-        if (badLen) {
-            return makeRes(res.body, 400, {
-                '--error': `bad len: ${newLen}, except: ${rawLen}`,
-                'access-control-expose-headers': '--error',
-            })
-        }
-    }
-    const status = res.status
-    resHdrNew.set('access-control-expose-headers', '*')
-    resHdrNew.set('access-control-allow-origin', '*')
-
-    resHdrNew.delete('content-security-policy')
-    resHdrNew.delete('content-security-policy-report-only')
-    resHdrNew.delete('clear-site-data')
-
-    return new Response(res.body, {
-        status,
-        headers: resHdrNew,
-    })
-}
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/jquery.dropotron.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/jquery.scrollex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/browser.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/breakpoints.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/util.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/muzihuaner/huancdn@main/js/githubdl/main.js"></script>
+<script  src="https://static.cloudflareinsights.com/beacon.min.js" ></script>
+</body>
+</html>
