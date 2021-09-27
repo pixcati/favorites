@@ -535,7 +535,7 @@
 
 
 
-	}]
+	}]d
 }, {
 
 	"_id": "5cggsgrrr5164",
@@ -550,6 +550,11 @@
 		"name": "下载与白嫖 office",
 		"href": "https://otp.landian.vip/zh-cn/",
 		"desc": "多版本 office 安装与激活",
+		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+	}, { 
+		"name": "激活 Windows",
+		"href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
+		"desc": "Windows 数字激活工具",
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
 	}, {
 		"name": "获取免费 WPS",
@@ -979,6 +984,11 @@
 		"desc": "彩虹云任务的作者的博客",
 		"logo": "default.ico"
 	}, {
+		"name": "好鸭",
+		"href": "https://haoduck.com/",
+		"desc": "好鸭",
+		"logo": "default.ico"
+	}, {
 		"name": "卜卜口",
 		"href": "https://mouto.org/",
 		"desc": "卜卜口",
@@ -992,6 +1002,16 @@
 		"name": "极客公园",
 		"href": "https://gitcafe.net/",
 		"desc": "极客公园",
+		"logo": "default.ico"
+	}, {
+		"name": "zrj766",
+		"href": "https://www.zrj96.com/",
+		"desc": "zrj766的频道",
+		"logo": "default.ico"
+	}, {
+		"name": "皮皮凛の小窝",
+		"href": "https://owomoe.net/",
+		"desc": "皮皮凛の小窝",
 		"logo": "default.ico"
 		
 		}]
