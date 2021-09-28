@@ -144,6 +144,11 @@
 		"desc": "下载 Chrome 扩展的途径聚合",
 		"logo": "default.ico"
 	}, {
+		"name": "Chrome 插件英雄榜",
+		"href": "https://www.v2fy.com/p/readme-chromeappheroes/",
+		"desc": "Chrome插件英雄榜",
+		"logo": "default.ico"
+	}, {
 		"name": "在线 Markdown 编辑 ①",
 		"href": "https://www.zybuluo.com/",
 		"desc": "Markdown 编辑阅读器，实时同步预览",
@@ -894,6 +899,16 @@
 		"name": "不死鸟",
 		"href": "https://iao.su/",
 		"desc": "分享为王官网",
+		"logo": "default.ico"
+	}, {
+		"name": "V2方圆",
+		"href": "https://www.v2fy.com/",
+		"desc": "发掘稀缺资源.",
+		"logo": "default.ico"
+	}, {
+		"name": "在线工具秘籍",
+		"href": "https://www.v2fy.com/p/readme-onlinetoolsbook/",
+		"desc": "在线工具秘籍",
 		"logo": "default.ico"
 	}, {
 		"name": "文武科技柜",
