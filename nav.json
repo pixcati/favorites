@@ -270,7 +270,7 @@
 	"icon": "csz czs-search-l",
 	"sites": [{
 		"name": "国内用谷歌",
-		"href": "https://js2.svvme.com/https/telegra.ph/%E5%8F%AF%E7%94%A8%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F%E6%95%B4%E7%90%86-09-03",
+		"href": "https://g.svvme.com/%E5%8F%AF%E7%94%A8%E8%B0%B7%E6%AD%8C%E9%95%9C%E5%83%8F%E6%95%B4%E7%90%86-09-03",
 		"desc": "可用谷歌镜像站",
 		"logo": "default.ico"
 	}, {
@@ -641,7 +641,7 @@
 	"icon": "csz czs-linux",
 	"sites": [{
 		"name": "LInux 发行版下载",
-		"href": "https://js2.svvme.com/https/telegra.ph/Linux-%E9%95%9C%E5%83%8F-%E5%8F%91%E8%A1%8C%E7%89%88-%E4%B8%8B%E8%BD%BD-07-27",
+		"href": "https://g.svvme.com/Linux-%E9%95%9C%E5%83%8F-%E5%8F%91%E8%A1%8C%E7%89%88-%E4%B8%8B%E8%BD%BD-07-27",
 		"desc": "加速下载Linux发行及分支版本",
 		"logo": "default.ico"
 	}, {
@@ -661,7 +661,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "开源镜像站汇总",
-		"href": "https://js2.svvme.com/https/telegra.ph/%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E6%B1%87%E6%80%BB-07-28",
+		"href": "https://g.svvme.com/%E5%BC%80%E6%BA%90%E9%95%9C%E5%83%8F%E7%AB%99%E6%B1%87%E6%80%BB-07-28",
 		"desc": "开源镜像站",
 		"logo": "default.ico"
 	}, {
@@ -686,7 +686,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "Docker国内镜像源",
-		"href": "https://js2.svvme.com/https/telegra.ph/Docker-%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90-07-28",
+		"href": "https://g.svvme.com/Docker-%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E6%BA%90-07-28",
 		"desc": "国内镜像源",
 		"logo": "default.ico"
 
@@ -787,7 +787,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "常见代理客户端",
-		"href": "https://js2.svvme.com/https/telegra.ph/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF-08-04",
+		"href": "https://g.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF-08-04",
 		"desc": "常见的代理客户端，vmess、ssr或更多",
 		"logo": "default.ico"
 	}, {
