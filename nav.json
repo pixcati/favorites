@@ -1079,9 +1079,9 @@
 	"classify": "有趣收藏",
 	"icon": "csz czs-block",
 	"sites": [{
-		"name": "这个不存在",
-		"href": "https://thisxdoesnotexist.com",
-		"desc": "随机来点不存在的东西",
+		"name": "jar游戏下载",
+		"href": "https://joyin-li.vercel.app/",
+		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
 		"logo": "default.ico"
 	}, {
 		"name": "随机人脸",
@@ -1097,6 +1097,11 @@
 		"name": "随机妹纸",
 		"href": "https://www.thiswaifudoesnotexist.net",
 		"desc": "每次刷新都会出现不同的二刺螈",
+		"logo": "default.ico"
+	}, {
+		"name": "这个不存在",
+		"href": "https://thisxdoesnotexist.com",
+		"desc": "随机来点不存在的东西",
 		"logo": "default.ico"
 	}, {
 		"name": "有趣网址之家",
