@@ -107,7 +107,7 @@
 	"sites": [{
 		"name": "翻译神器",
 		"href": "https://www.deepl.com/translator",
-		"desc": "DeepL 靠谱的机器翻译",
+		"desc": "DeepL  靠谱的机器翻译",
 		"logo": "default.ico"
 	}, {
 		"name": "二维码生成制作",
@@ -128,6 +128,11 @@
 		"name": "在线方格纸打印",
 		"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
 		"desc": "在线自定义打印多种类型的方格纸",
+		"logo": "default.ico"
+	}, {
+		"name": "智能法律咨询",
+		"href": "https://ip.cn/dns.html",
+		"desc": "自动给出法律意见书",
 		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载 ①",
@@ -569,7 +574,7 @@
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
 	}, { 
 		"name": "激活 Windows ",
-		"href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
+		"href": "https://hub.fastgit.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
 		"desc": "Windows 数字激活工具",
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
 	}, {
@@ -589,7 +594,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "阿里云盘小白羊版",
-		"href": "https://js2.svvme.com/https/github.com/liupan1890/aliyunpan",
+		"href": "https://hub.fastgit.org/liupan1890/aliyunpan",
 		"desc": "阿里云盘小白羊版",
 		"logo": "default.ico"
 	}, {
@@ -909,6 +914,11 @@
 		"desc": "B站上的学习资源",
 		"logo": "default.ico"
 	}, {
+		"name": "中小学网课大全",
+		"href": "https://ykt.eduyun.cn/",
+		"desc": "小初高视频课程",
+		"logo": "default.ico"
+	}, {
 		"name": "图书资源白嫖",
 		"href": "http://shuxiangjia.cn/",
 		"desc": "不同类型的图书资源",
@@ -1057,19 +1067,29 @@
 	"classify": "猎奇收藏",
 	"icon": "csz czs-taiji",
 	"sites": [{
-		"name": "世界简史",
-		"href": "https://tieba.baidu.com/p/7156836600?pn=1",
-		"desc": "世界简史",
-		"logo": "default.ico"
-	}, {
-		"name": "全身放松",
+		"name": "全身自动放松",
 		"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
 		"desc": "Sapien medicine",
 		"logo": "default.ico"
 	}, {
+		"name": "凡人修行指南",
+		"href": "http://hugoal.ys168.com/",
+		"desc": "瑜伽、传统修行资料聚合",
+		"logo": "default.ico"
+	}, {
+		"name": "灵体结构示意",
+		"href": "http://jilu.yuanwushi.com/yuedu/2014-11-10/13.html",
+		"desc": "据称是亲身实验的观察",
+		"logo": "default.ico"
+	}, {
+		"name": "世界简史",
+		"href": "https://tieba.baidu.com/p/7156836600?pn=1",
+		"desc": "世界背后的真相",
+		"logo": "default.ico"
+	}, {
 		"name": "五音疗疾",
 		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
-		"desc": "五音调五脏",
+		"desc": "五音调五脏 —— 《黄帝内经》",
 		"logo": "default.ico"
 		
 		}]
@@ -1086,7 +1106,7 @@
 	}, {
 		"name": "随机人脸",
 		"href": "https://thispersondoesnotexist.com/",
-		"desc": "每次刷新都会出现不同Ai合成人脸",
+		"desc": "每次刷新都会出现不同的Ai合成人脸",
 		"logo": "default.ico"
 	}, {
 		"name": "随机猫图",
