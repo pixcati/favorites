@@ -613,13 +613,13 @@
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
-		"name": "六音软件",
-		"href": "https://www.sixyin.com/",
-		"desc": "魔改软件合辑",
+		"name": "QiuQuan's Blog",
+		"href": "http://www.qiuquan.cc/",
+		"desc": "精简 、优化 、 打包",
 		"logo": "default.ico"
 	}, {
-		"name": "易破解",
-		"href": "https://www.ypojie.com/",
+		"name": "423down",
+		"href": "https://www.423down.com/",
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
@@ -628,8 +628,13 @@
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
-		"name": "423down",
-		"href": "https://www.423down.com/",
+		"name": "六音软件",
+		"href": "https://www.sixyin.com/",
+		"desc": "魔改软件合辑",
+		"logo": "default.ico"
+	}, {
+		"name": "易破解",
+		"href": "https://www.ypojie.com/",
 		"desc": "修改、汉化、绿色软件等",
 		"logo": "default.ico"
 	}, {
