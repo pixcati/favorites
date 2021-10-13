@@ -353,6 +353,11 @@
  		"desc": "类似宝塔、LNMP等同类软件聚合 ",
  		"logo": "default.ico"
  	}, {
+ 		"name": "一键重装服务器",
+ 		"href": "https://www.cxthhhhh.com/network-reinstall-system-modify",
+ 		"desc": "适用于Linux / Windows ",
+ 		"logo": "default.ico"
+ 	}, {
  		"name": "挖站否 CDN",
  		"href": "https://cdn.wzfou.com/",
  		"desc": "CNAME方式接入CloudFlare ",
@@ -778,6 +783,11 @@
 		"href": "https://easyhexo.com/",
 		"desc": "轻松入门Hexo",
 		"logo": "default.ico"
+	}, {
+		"name": "LitePress",
+		"href": "https://litepress.cn/",
+		"desc": "WordPress 本土化",
+		"logo": "default.ico"
 
 
 	}]
@@ -793,7 +803,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://hub.fastgit.org /Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -1026,8 +1036,13 @@
 		"logo": "default.ico"
 	}, {
 		"name": "Rat's Blog",
-		"href": "https://www.moerats.com/",
+		"href": "https://www.moerats.com/", 
 		"desc": "Rat's Blog",
+		"logo": "default.ico"
+	}, {
+		"name": "大鸟博客", 
+		"href": "https://www.daniao.org/",
+		"desc": "大鸟博客",
 		"logo": "default.ico"
 	}, {
 		"name": "缤纷彩虹天地",
