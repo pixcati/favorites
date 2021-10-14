@@ -803,17 +803,22 @@
 	"icon": "csz czs-paper-plane-l",
 	"sites": [{
 		"name": "常见代理客户端",
-		"href": "https://g.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF-08-04",
+		"href": "http://i.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%88%E7%BF%BB%E5%A2%99%EF%BC%89%E5%AE%A2%E6%88%B7%E7%AB%AF",
 		"desc": "常见的代理客户端，vmess、ssr或更多",
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://hub.fastgit.org /Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "v2 订阅源",
 		"href": "https://suo.yt/v2ray",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "Clash 订阅源",
+		"href": "https://suo.yt/clash",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -827,11 +832,6 @@
 		"desc": "",
 		"logo": "default.ico"
 	}, {
-		"name": "Clash 订阅源",
-		"href": "https://256.so/clash",
-		"desc": "",
-		"logo": "default.ico"
-	}, {
 		"name": "蓝灯最新版本",
 		"href": "https://hub.fastgit.org/getlantern/lantern/blob/devel/README.md",
 		"desc": "Lantern 多平台最新版本聚合",
@@ -842,13 +842,8 @@
 		"desc": "Github最新Hosts",
 		"logo": "default.ico"
 	}, {
-		"name": "在线代理 ①",
+		"name": "在线代理",
 		"href": "https://proxy.justyy.com/",
-		"desc": "在线方式访问境外网站", 
-		"logo": "default.ico"
-	}, {
-		"name": "在线代理 ②",
-		"href": "https://js.zmirror.xyz/",
 		"desc": "在线方式访问境外网站", 
 		"logo": "default.ico"
 	}, {
