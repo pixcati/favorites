@@ -105,6 +105,11 @@
 	"classify": "效率工具",
 	"icon": "csz czs-time-l",
 	"sites": [{
+		"name": "在线记事本",
+		"href": "https://filelink.io/",
+		"desc": "编辑内容并生成公开链接",
+		"logo": "default.ico"
+	}, {
 		"name": "翻译神器",
 		"href": "https://www.deepl.com/translator",
 		"desc": "DeepL  靠谱的机器翻译",
@@ -113,6 +118,11 @@
 		"name": "二维码生成制作",
 		"href": "https://qrbtf.com/",
 		"desc": "参数化二维码生成",
+		"logo": "default.ico"
+	}, {
+		"name": "查看本地IP",
+		"href": "https://ipip.ooo/",
+		"desc": "查询本地IPV4、IPV6或DNS",
 		"logo": "default.ico"
 	}, {
 		"name": "公共DNS大全",
@@ -842,7 +852,12 @@
 		"desc": "Github最新Hosts",
 		"logo": "default.ico"
 	}, {
-		"name": "在线代理",
+		"name": "在线提取代理IP",
+		"href": "https://ip.ihuan.me/",
+		"desc": "在线提取代理IP",
+		"logo": "default.ico"
+	}, {
+		"name": "Jsproxy 在线代理",
 		"href": "https://proxy.justyy.com/",
 		"desc": "在线方式访问境外网站", 
 		"logo": "default.ico"
