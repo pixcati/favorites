@@ -126,7 +126,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "公共DNS大全",
-		"href": "https://ip.cn/dns.html",
+		"href": "https://dns.iui.im/",
 		"desc": "常用、小众或地方DNS",
 		"logo": "default.ico"
 	}, {
@@ -1147,6 +1147,16 @@
 		"name": "随机人脸",
 		"href": "https://thispersondoesnotexist.com/",
 		"desc": "每次刷新都会出现不同的Ai合成人脸",
+		"logo": "default.ico"
+	}, {
+		"name": "弹跳文字生成",
+		"href": "https://aidn.jp/zgif/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "扭动图片生成",
+		"href": "https://aidn.jp/ygif/",
+		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "随机猫图",
