@@ -813,7 +813,7 @@
 	"icon": "csz czs-paper-plane-l",
 	"sites": [{
 		"name": "常见代理客户端",
-		"href": "http://i.svvme.com/%E5%B8%B8%E7%94%A8%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%88%E7%BF%BB%E5%A2%99%EF%BC%89%E5%AE%A2%E6%88%B7%E7%AB%AF",
+		"href": "http://i.svvme.com/proxy",
 		"desc": "常见的代理客户端，vmess、ssr或更多",
 		"logo": "default.ico"
 	}, {
@@ -1112,13 +1112,8 @@
 		"desc": "Sapien medicine",
 		"logo": "default.ico"
 	}, {
-		"name": "凡人修行指南",
-		"href": "http://hugoal.ys168.com/",
-		"desc": "瑜伽、传统修行资料聚合",
-		"logo": "default.ico"
-	}, {
 		"name": "灵体结构示意",
-		"href": "http://jilu.yuanwushi.com/yuedu/2014-11-10/13.html",
+		"href": "https://mp.weixin.qq.com/s/2AjOKOSVl1xQHEQT4Lt9nQ",
 		"desc": "据称是亲身实验的观察",
 		"logo": "default.ico"
 	}, {
@@ -1130,6 +1125,11 @@
 		"name": "五音疗疾",
 		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
 		"desc": "五音调五脏 —— 《黄帝内经》",
+		"logo": "default.ico"
+	}, {
+		"name": "男孩子在线变强",
+		"href": "https://jiba.plus/",
+		"desc": "男生变强",
 		"logo": "default.ico"
 		
 		}]
@@ -1144,11 +1144,6 @@
 		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
 		"logo": "default.ico"
 	}, {
-		"name": "随机人脸",
-		"href": "https://thispersondoesnotexist.com/",
-		"desc": "每次刷新都会出现不同的Ai合成人脸",
-		"logo": "default.ico"
-	}, {
 		"name": "弹跳文字生成",
 		"href": "https://aidn.jp/zgif/",
 		"desc": "",
@@ -1157,6 +1152,11 @@
 		"name": "扭动图片生成",
 		"href": "https://aidn.jp/ygif/",
 		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "随机人脸",
+		"href": "https://thispersondoesnotexist.com/",
+		"desc": "每次刷新都会出现不同的Ai合成人脸",
 		"logo": "default.ico"
 	}, {
 		"name": "随机猫图",
