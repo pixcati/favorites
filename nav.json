@@ -997,6 +997,11 @@
 		"desc": "挖掘建站的乐趣",
 		"logo": "default.ico"
 	}, {
+		"name": "Npcink",
+		"href": "共享wordpress主题插件以及使用开发等优秀教程",
+		"desc": "挖掘建站的乐趣",
+		"logo": "default.ico"
+	}, {
 		"name": "主机百科",
 		"href": "https://zhujiwiki.com/",
 		"desc": "提供有价值的主机信息和主机测评",
@@ -1142,6 +1147,11 @@
 		"name": "jar游戏下载",
 		"href": "https://joyin-li.vercel.app/",
 		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
+		"logo": "default.ico"
+	}, {
+		"name": "在线挨夸",
+		"href": "https://aidn.jp/kimisuki/",
+		"desc": "在线挨夸",
 		"logo": "default.ico"
 	}, {
 		"name": "弹跳文字生成",
