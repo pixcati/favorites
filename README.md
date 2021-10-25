@@ -9,4 +9,4 @@
 [https://github.com/geekape/geek-navigation/tree/json-navigation](https://github.com/geekape/geek-navigation/tree/json-navigation)
 
 ## 油猴脚本收藏
-https://greasyfork.org/zh-CN/scripts?set=14441
+https://greasyfork.org/zh-CN/scripts?set=465064
