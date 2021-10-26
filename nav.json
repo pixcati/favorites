@@ -526,22 +526,17 @@
 	}, {
 		"name": "必应壁纸",
 		"href": "https://bing.ioliu.cn/",
-		"desc": "必应历史美图",
+		"desc": "必应历史美图、背景",
+		"logo": "default.ico"
+	}, {
+		"name": "致美化",
+		"href": "https://zhutix.com/",
+		"desc": "桌面美化资源",
 		"logo": "default.ico"
 	}, {
 		"name": "P站热门",
 		"href": "https://pixivic.com/",
 		"desc": "P站热榜与热门",
-		"logo": "default.ico"
-	}, {
-		"name": "随机图片 ①",
-		"href": "https://www.cnblogs.com/zaxtyson/p/11628746.html",
-		"desc": "随机图片Api",
-		"logo": "default.ico"
-	}, {
-		"name": "随机图片 ②",
-		"href": "https://uploadbeta.com/api/pictures/random/",
-		"desc": "随机图片Api",
 		"logo": "default.ico"
 	}, {
 		"name": "草莓图标库",
