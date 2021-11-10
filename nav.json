@@ -141,7 +141,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "智能法律咨询",
-		"href": "https://ip.cn/dns.html",
+		"href": "https://ai.12348.gov.cn/",
 		"desc": "自动给出法律意见书",
 		"logo": "default.ico"
 	}, {
@@ -993,8 +993,8 @@
 		"logo": "default.ico"
 	}, {
 		"name": "Npcink",
-		"href": "共享wordpress主题插件以及使用开发等优秀教程",
-		"desc": "挖掘建站的乐趣",
+		"href": "https://www.npc.ink/",
+		"desc": "共享wordpress主题插件以及使用开发等优秀教程",
 		"logo": "default.ico"
 	}, {
 		"name": "主机百科",
@@ -1030,6 +1030,11 @@
 		"name": "Epic 喜加一",
 		"href": "https://www.epicgames.com/store/zh-CN/",
 		"desc": "白嫖游戏",
+		"logo": "default.icod"
+	}, {
+		"name": "云盘资源共享",
+		"href": "https://oook.xyz/",
+		"desc": "云盘资源分享",
 		"logo": "default.icod"
 		
 		}]
