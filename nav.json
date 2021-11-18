@@ -353,6 +353,11 @@
  		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
  		"logo": "https://bazhan.me/favicon.ico"
  	}, {
+ 		"name": "免费SSL证书",
+ 		"href": "https://wzfou.com/mianfei-ssl/",
+ 		"desc": "免费SSL证书申请渠道汇总",
+ 		"logo": "default.ico"
+ 	}, {
  		"name": "常用服务器软件",
  		"href": "https://s.jb51.net/",
  		"desc": "常用服务器、VPS软件聚合 ",
