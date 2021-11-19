@@ -940,13 +940,18 @@
 	"icon": "csz czs-bar-chart-l",
 	"sites": [{
 		"name": "静然书屋",
-		"href": "https://books.andrewjr.workers.dev/0:/",
+		"href": "https://books.andrewjr.workers.dev/",
 		"desc": "图书分享",
 		"logo": "default.ico"
 	}, {
 		"name": "哔哩大学",
 		"href": "https://bilidx.nexmoe.com/",
 		"desc": "B站上的学习资源",
+		"logo": "default.ico"
+	}, {
+		"name": "编程随想的图书收藏",
+		"href": "https://hub.fastgit.org/programthink/books/blob/master/README.wiki",
+		"desc": "网友收藏的电子书清单",
 		"logo": "default.ico"
 	}, {
 		"name": "中小学网课大全",
@@ -958,7 +963,6 @@
 		"href": "http://shuxiangjia.cn/",
 		"desc": "不同类型的图书资源",
 		"logo": "default.ico"
-
 
 	}]
 }, {
