@@ -373,6 +373,11 @@
  		"desc": "适用于Linux / Windows ",
  		"logo": "default.ico"
  	}, {
+ 		"name": "一键安装Docker",
+ 		"href": "https://51.ruyo.net/16766.html",
+ 		"desc": "Docker 一脚安装脚本",
+ 		"logo": "default.ico"
+ 	}, {
  		"name": "挖站否 CDN",
  		"href": "https://cdn.wzfou.com/",
  		"desc": "CNAME方式接入CloudFlare ",
