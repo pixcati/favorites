@@ -369,8 +369,13 @@
  		"logo": "default.ico"
  	}, {
  		"name": "一键重装服务器",
- 		"href": "https://www.cxthhhhh.com/network-reinstall-system-modify",
+ 		"href": "https://wzfou.com/5-vps-chongzhuang/",
  		"desc": "适用于Linux / Windows ",
+ 		"logo": "default.ico"
+ 	}, {
+ 		"name": "一键安装Kangle",
+ 		"href": "http://kangle.cccyun.cn/",
+ 		"desc": "一键安装 Kangle+Ep+Mysql ",
  		"logo": "default.ico"
  	}, {
  		"name": "一键安装Docker",
