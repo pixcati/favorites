@@ -813,6 +813,11 @@
 		"href": "https://litepress.cn/",
 		"desc": "WordPress 本土化",
 		"logo": "default.ico"
+	}, {
+		"name": "微信官方文档",
+		"href": "https://developers.weixin.qq.com/doc/",
+		"desc": "小程序、公众号等文档",
+		"logo": "default.ico"
 
 
 	}]
