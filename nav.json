@@ -120,6 +120,11 @@
 		"desc": "参数化二维码生成",
 		"logo": "default.ico"
 	}, {
+		"name": "随机密码生成器",
+		"href": "http://tools.jb51.net/password/rand_pwd",
+		"desc": "随机密码生成器",
+		"logo": "default.ico"
+	}, {
 		"name": "查看本地IP",
 		"href": "https://ipip.ooo/",
 		"desc": "查询本地IPV4、IPV6或DNS",
@@ -127,7 +132,7 @@
 	}, {
 		"name": "公共DNS大全",
 		"href": "https://dns.iui.im/",
-		"desc": "常用、小众或地方DNS",
+		"desc": "常用、小众或地方    DNS",
 		"logo": "default.ico"
 	}, {
 		"name": "网页上都是简体",
@@ -325,6 +330,11 @@
 		"desc": "在众多的频道或群组中查找热心网友的分享",
 		"logo": "default.ico"
 	}, {
+		"name": "报告查一查",
+		"href": "http://report.seedsufe.com/index",
+		"desc": "轻量级行研数据工具",
+		"logo": "default.ico"
+	}, {
 		"name": "仿知网",
 		"href": "https://www.cn-ki.net/",
 		"desc": "iData-知识检索",
@@ -444,6 +454,11 @@
 		"name": "Tooleyes",
 		"href": "https://www.tooleyes.com/",
 		"desc": "实用利器聚合",
+		"logo": "default.ico"
+	}, {
+		"name": "脚本之家在线工具",
+		"href": "http://tools.jb51.net/",
+		"desc": "脚本之家提供的在线工具",
 		"logo": "default.ico"
 	}, {
 		"name": "在线工具秘籍",
