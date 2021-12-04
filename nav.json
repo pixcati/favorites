@@ -115,6 +115,12 @@
 		"desc": "DeepL  靠谱的机器翻译",
 		"logo": "default.ico"
 	}, {
+		"name": "耳机戴反没有",
+		"href": "https://link.stdcdn.com/listen.mp4",
+		"desc": "左右声道测试以及哪边不响了",
+		"logo": "default.ico"
+	}, {
+	}, {
 		"name": "二维码生成制作",
 		"href": "https://qrbtf.com/",
 		"desc": "参数化二维码生成",
@@ -459,7 +465,7 @@
 		"name": "脚本之家在线工具",
 		"href": "http://tools.jb51.net/",
 		"desc": "脚本之家提供的在线工具",
-		"logo": "default.ico"
+		"logo": "default.ico";
 	}, {
 		"name": "在线工具秘籍",
 		"href": "https://www.v2fy.com/p/readme-onlinetoolsbook/",
