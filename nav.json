@@ -120,6 +120,11 @@
 		"desc": "左右声道测试以及哪边不响",
 		"logo": "default.ico"
 	}, {
+		"name": "代码卡片制作",
+		"href": "https://carbon.now.sh/",
+		"desc": "为你的代码片段生成好看的卡片图",
+		"logo": "default.ico"
+	}, {
 		"name": "二维码生成制作",
 		"href": "https://qrbtf.com/",
 		"desc": "参数化二维码生成",
