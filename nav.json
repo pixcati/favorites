@@ -643,19 +643,14 @@
 		"desc": "纯净并去除了限制",
 		"logo": "default.ico"
 	}, {
-		"name": "截图神器",
-		"href": "https://zh.snipaste.com/",
-		"desc": "Snipaste是一款优秀的截图工具",
-		"logo": "default.ico"
-	}, {
-		"name": "阿里云盘小白羊版",
-		"href": "https://hub.fastgit.org/liupan1890/aliyunpan",
-		"desc": "阿里云盘小白羊版",
+		"name": "安卓APK下载",
+		"href": "https://findappweb.com/",
+		"desc": "免代理下载谷歌市场上的APK",
 		"logo": "default.ico"
 	}, {
 		"name": "微当下载",
 		"href": "https://www.weidown.com/",
-		"desc": "修改、汉化、绿色软件等",
+		"desc": "修改、汉化、精简软件等",
 		"logo": "default.ico"
 	}, {
 		"name": "QiuQuan's Blog",
@@ -702,7 +697,16 @@
 		"href": "https://www.iplaysoft.com/",
 		"desc": "高质量软件图文",
 		"logo": "default.ico"
-		
+	}, {
+		"name": "截图神器",
+		"href": "https://zh.snipaste.com/",
+		"desc": "Snipaste是一款优秀的截图工具",
+		"logo": "default.ico"
+	}, {
+		"name": "阿里云盘小白羊版",
+		"href": "https://hub.fastgit.org/liupan1890/aliyunpan",
+		"desc": "阿里云盘小白羊版",
+		"logo": "default.ico"
 		
 	}]
 }, {
