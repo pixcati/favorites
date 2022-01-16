@@ -354,8 +354,12 @@
 		"href": "https://magi.com/",
 		"desc": "Magi",
 		"logo": "default.ico"
+	}, {
+		"name": "F搜",
+		"href": "https://fsou.cc/",
+		"desc": "F搜",
+		"logo": "default.ico"
 		
- 
  	}]
  }, {
  
@@ -1176,26 +1180,31 @@
 		"logo": "default.ico"
 	}, {
 		"name": "灵体结构示意",
-		"href": "https://mp.weixin.qq.com/s/2AjOKOSVl1xQHEQT4Lt9nQ",
-		"desc": "据称是亲身实验的观察",
+		"href": "https://mp.weixin.qq.com/s/A-aYFdqUdtbgCEIyKSrjEA",
+		"desc": "魂魄结构",
 		"logo": "default.ico"
 	}, {
 		"name": "控制梦境",
 		"href": "https://cdn.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
-		"desc": "基础神游教学读物",
+		"desc": "基础神游教程",
 		"logo": "default.ico"
 	}, {
-		"name": "世界简史",
-		"href": "https://tieba.baidu.com/p/7156836600?pn=1",
-		"desc": "世界背后的真相",
+		"name": "诅咒反弹",
+		"href": "https://www.bilibili.com/video/BV1yh411Y7xA",
+		"desc": "清理诅咒",
 		"logo": "default.ico"
 	}, {
 		"name": "五音疗疾",
 		"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
-		"desc": "五音调五脏 —— 《黄帝内经》",
+		"desc": "《黄帝内经》：五音调五脏 ",
 		"logo": "default.ico"
 	}, {
-		"name": "男孩子在线变强",
+		"name": "祛除附体",
+		"href": "https://www.bilibili.com/video/BV14g411N7wy",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "物理壮阳",
 		"href": "https://jiba.plus/",
 		"desc": "男生变强",
 		"logo": "default.ico"
