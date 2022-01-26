@@ -129,9 +129,9 @@
 					staticClass: "el-menu-vertical-demo",
 					attrs: {
 						"default-active": t.active,
-						"background-color": "#064a8c",
-						"text-color": "#ffffff",
-						"active-text-color": "#eeeeee"
+						"background-color": "#24292f",
+						"text-color": "#fff",
+						"active-text-color": "#eee"
 					}
 				}, t._l(t.newDataList, function(e, a) {
 					return n("el-submenu", {
