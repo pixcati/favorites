@@ -554,8 +554,7 @@ body[data-v-466c883f] {
 /* 菜单 */
 .container .left-bar[data-v-466c883f] {
 	position:fixed;
-	background:#064a8c;
-	color:#6b7386;
+	background:#24292f;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	-webkit-box-direction:normal;
@@ -598,7 +597,7 @@ body[data-v-466c883f] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#064a8c;
+	background:#24292f;
 	color:#fff;
 	font-size:20px;
 	position:-webkit-sticky;
