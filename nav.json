@@ -14,10 +14,15 @@
 		"desc": "列出与保存网页中存在的图片或图标",
 		"logo": "default.ico"
 	}, {
-		"name": "B站视频下载",
+		"name": "B站视频下载 ①",
 		"href": "https://www.jijidown.com/",
 		"desc": "哔哩哔哩唧唧",
 		"logo": "https://www.jijidown.com/static/favicon.ico"
+	}, {
+		"name": "B站视频下载 ④",
+		"href": "https://www.52pojie.cn/thread-1576351-1-1.html",
+		"desc": "B23Downloader",
+		"logo": "default.ico"
 	}, {
 		"name": "在线视频解析下载",
 		"href": "http://videoparse.mmazai.com/",
@@ -130,9 +135,9 @@
 		"desc": "参数化二维码生成",
 		"logo": "default.ico"
 	}, {
-		"name": "随机密码生成器",
+		"name": "随机密码生成",
 		"href": "http://tools.jb51.net/password/rand_pwd",
-		"desc": "随机密码生成器",
+		"desc": "随机密码生成",
 		"logo": "default.ico"
 	}, {
 		"name": "查看本地IP",
@@ -150,14 +155,14 @@
 		"desc": "网页上的繁体字都替换为简体",
 		"logo": "default.ico"
 	}, {
+		"name": "获取境外号卡",
+		"href": "https://owomoe.net/dev/175.html",
+		"desc": "中国大陆可用境外SIM卡",
+		"logo": "default.ico"
+	}, {
 		"name": "在线方格纸打印",
 		"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
 		"desc": "在线自定义打印多种类型的方格纸",
-		"logo": "default.ico"
-	}, {
-		"name": "智能法律咨询",
-		"href": "https://ai.12348.gov.cn/",
-		"desc": "自动给出法律意见书",
 		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载 ①",
@@ -229,7 +234,11 @@
 		"href": "http://24mail.chacuo.net/",
 		"desc": "获取一个临时邮箱",
 		"logo": "default.ico"
-
+	}, {
+		"name": "智能法律咨询",
+		"href": "https://ai.12348.gov.cn/",
+		"desc": "自动给出法律意见书",
+		"logo": "default.ico"
 
 	}]
 }, {
@@ -1191,7 +1200,7 @@
 	}, {
 		"name": "诅咒反弹",
 		"href": "https://www.bilibili.com/video/BV1yh411Y7xA",
-		"desc": "清理诅咒",
+		"desc": "清理诅咒与投射",
 		"logo": "default.ico"
 	}, {
 		"name": "五音疗疾",
@@ -1201,7 +1210,7 @@
 	}, {
 		"name": "祛除附体",
 		"href": "https://www.bilibili.com/video/BV14g411N7wy",
-		"desc": "",
+		"desc": "尝试移除其他程序",
 		"logo": "default.ico"
 	}, {
 		"name": "物理壮阳",
