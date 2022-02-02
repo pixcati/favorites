@@ -364,6 +364,11 @@
 		"desc": "Magi",
 		"logo": "default.ico"
 	}, {
+		"name": "钟馗之眼",
+		"href": "https://www.zoomeye.org/",
+		"desc": "ZoomEye",
+		"logo": "default.ico"
+	}, {
 		"name": "F搜",
 		"href": "https://fsou.cc/",
 		"desc": "F搜",
@@ -514,8 +519,8 @@
 		"desc": "程序员导航-CXY521",
 		"logo": "default.ico"
 	}, {
-		"name": "快点搜",
-		"href": "https://quickso.cn/",
+		"name": "油小猴",
+		"href": "https://www.baiduyun.wiki/",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -642,7 +647,7 @@
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
 	}, { 
 		"name": "激活 Windows ",
-		"href": "https://hub.fastgit.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
+		"href": "https://github.com.cnpmjs.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
 		"desc": "Windows 数字激活工具",
 		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
 	}, {
@@ -717,7 +722,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "阿里云盘小白羊版",
-		"href": "https://hub.fastgit.org/liupan1890/aliyunpan",
+		"href": "https://github.com.cnpmjs.org/liupan1890/aliyunpan",
 		"desc": "阿里云盘小白羊版",
 		"logo": "default.ico"
 		
@@ -875,7 +880,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://hub.fastgit.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -900,7 +905,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "蓝灯最新版本",
-		"href": "https://hub.fastgit.org/getlantern/lantern/blob/devel/README.md",
+		"href": "https://github.com.cnpmjs.org/getlantern/lantern/blob/devel/README.md",
 		"desc": "Lantern 多平台最新版本聚合",
 		"logo": "default.ico"
 	}, {
@@ -942,12 +947,12 @@
 		"logo": "default.ico"
 	}, {
 		"name": "TV直播网站合辑",
-		"href": "https://hub.fastgit.org/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
+		"href": "https://github.com.cnpmjs.org/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
 		"desc": "电脑、手机看电视的平台整理",
 		"logo": "default.ico"
 	}, {
 		"name": "VIP视频解析", 
-		"href": "http://tool.yijingying.com/video/",
+		"href": "https://www.xixicai.top/",
 		"desc": "白嫖影视资源",
 		"logo": "default.ico"
 	}, {
@@ -1002,7 +1007,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "编程随想的图书收藏",
-		"href": "https://hub.fastgit.org/programthink/books/blob/master/README.wiki",
+		"href": "https://github.com.cnpmjs.org/programthink/books/blob/master/README.wiki",
 		"desc": "网友收藏的电子书清单",
 		"logo": "default.ico"
 	}, {
