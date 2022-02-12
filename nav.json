@@ -19,7 +19,7 @@
 		"desc": "哔哩哔哩唧唧",
 		"logo": "https://www.jijidown.com/static/favicon.ico"
 	}, {
-		"name": "B站视频下载 ④",
+		"name": "B站视频下载 ②",
 		"href": "https://www.52pojie.cn/thread-1576351-1-1.html",
 		"desc": "B23Downloader",
 		"logo": "default.ico"
@@ -128,6 +128,11 @@
 		"name": "代码卡片制作",
 		"href": "https://carbon.now.sh/",
 		"desc": "为你的代码片段生成好看的卡片图",
+		"logo": "default.ico"
+	}, {
+		"name": "WIFI卡片制作",
+		"href": "https://wificard.io/",
+		"desc": "为你的wifi制作二维码以扫码接入",
 		"logo": "default.ico"
 	}, {
 		"name": "二维码生成制作",
@@ -804,6 +809,11 @@
 		"name": "JS 变萌",
 		"href": "https://utf-8.jp/public/aaencode.html",
 		"desc": "萌系的JS加密",
+		"logo": "default.ico"
+	}, {
+		"name": "一言",
+		"href": "https://hitokoto.cn/",
+		"desc": "Hitokoto - 一言",
 		"logo": "default.ico"
 	}, {
 		"name": "CF Workers 玩法",
