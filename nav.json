@@ -40,8 +40,8 @@
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
 	}, {
 		"name": "超级音乐白嫖 ②",
-		"href": "https://search.bilibili.com/all?keyword=%E6%97%A0%E6%8D%9F%E9%9F%B3%E4%B9%90%20%E7%99%BD%E5%AB%96",
-		"desc": "广大网友来支招",
+		"href": "http://blog.cccyun.cn/post-391.html",
+		"desc": "白嫖各平台无损音乐",
 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
 	}, {
 		"name": "在线带壳截图",
@@ -662,7 +662,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "获取纯净的Flash",
-		"href": "https://www.sixyin.com/1806.html",
+		"href": "https://www.52pojie.cn/thread-1535805-1-1.html",
 		"desc": "纯净并去除了限制",
 		"logo": "default.ico"
 	}, {
@@ -692,7 +692,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "六音软件",
-		"href": "https://www.sixyin.com/",
+		"href": "https://www.6yit.com/",
 		"desc": "魔改软件合辑",
 		"logo": "default.ico"
 	}, {
@@ -1235,6 +1235,16 @@
 	"classify": "有趣收藏",
 	"icon": "csz czs-block",
 	"sites": [{
+		"name": "发音转换器",
+		"href": "http://101.43.3.123/fyzhq",
+		"desc": "将中文的发音对应到外语发音",
+		"logo": "default.ico"
+	}, {
+		"name": "狗屁不通文章生成器",
+		"href": "https://suulnnka.github.io/BullshitGenerator/",
+		"desc": "狗屁不通文章生成器",
+		"logo": "default.ico"
+	}, {
 		"name": "jar游戏下载",
 		"href": "https://joyin-li.vercel.app/",
 		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
@@ -1252,6 +1262,11 @@
 	}, {
 		"name": "扭动图片生成",
 		"href": "https://aidn.jp/ygif/",
+		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "字符画生成",
+		"href": "https://tools.kalvinbg.cn/txt/ascii",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
