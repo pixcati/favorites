@@ -1,4 +1,3 @@
-
 [{
 	"_id": "fjkdasf1g1sb1",
 	"classify": "媒体工具",
@@ -94,15 +93,16 @@
 		"desc": "实用在线抠图工具",
 		"logo": "https://www.gaoding.com/favicon.ico"
 	}, {
+		"name": "AI头像生成",
+		"href": "https://waifulabs.com/",
+		"desc": "头像生成器",
+		"logo": "default.ico"
+	}, {
 		"name": "AI 换脸",
 		"href": "https://reflect.tech/",
 		"desc": "基于AI的在线换脸",
 		"logo": "default.ico"
-	}, {
-		"name": "蒸気機",
-		"href": "https://lab.magiconch.com/vaporwave/",
-		"desc": "虚拟信号蒸汽波风格化影像后期工具",
-		"logo": "https://lab.magiconch.com/favicon.ico"
+
 	}]
 }, {
 
@@ -168,6 +168,11 @@
 		"name": "在线方格纸打印",
 		"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
 		"desc": "在线自定义打印多种类型的方格纸",
+		"logo": "default.ico"
+	}, {
+		"name": "文字转语音",
+		"href": "https://ghproxy.com/https://github.com/ag2s20150909/TTS/releases/download/0.2_202202092159/TTS_release_v0.2_202202092159.apk",
+		"desc": "基于微软接口制作的TTS软件",
 		"logo": "default.ico"
 	}, {
 		"name": "Chrome 扩展下载 ①",
@@ -895,14 +900,14 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://js2.svvme.com/https/github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "v2 订阅源",
 		"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/V2Ray",
 		"desc": "",
-		"logo": "default.ico"
+		"logo": "default.ico" 
 	}, {
 		"name": "Clash 订阅源",
 		"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/Clash.yml",
@@ -943,7 +948,11 @@
 		"href": "https://js.svvme.com/",
 		"desc": "自搭建的在线代理",
 		"logo": "ico/ytb.ico"
-		
+	}, {
+			"name": "维基百科镜像",
+			"href": "https://zh.m.wikipedia.iwiki.uk/",
+			"desc": "维基百科镜像",
+			"logo": "default.ico"
 	}]
 }, {
 
@@ -964,6 +973,11 @@
 		"name": "TV直播网站合辑",
 		"href": "https://github.com.cnpmjs.org/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
 		"desc": "电脑、手机看电视的平台整理",
+		"logo": "default.ico"
+	}, {
+		"name": "全平台直播",
+		"href": "http://live.yj1211.work/",
+		"desc": "查看多个平台的直播",
 		"logo": "default.ico"
 	}, {
 		"name": "VIP视频解析", 
@@ -1035,6 +1049,11 @@
 		"href": "http://shuxiangjia.cn/",
 		"desc": "不同类型的图书资源",
 		"logo": "default.ico"
+	}, {
+		"name": "反向词典",
+		"href": "https://wantwords.thunlp.org/",00000000
+		"desc": "清华万词王 WantWords",
+		"logo": "default.ico"
 
 	}]
 }, {
@@ -1051,6 +1070,11 @@
 		"name": "不死鸟",
 		"href": "https://iao.su/",
 		"desc": "分享为王官网",
+		"logo": "default.ico"
+	}, {
+		"name": "书签地球",
+		"href": "https://www.bookmarkearth.com/",
+		"desc": "浏览器书签共享平台",
 		"logo": "default.ico"
 	}, {
 		"name": "V2方圆",
@@ -1186,6 +1210,11 @@
 		"desc": "zrj766的频道",
 		"logo": "default.ico"
 	}, {
+		"name": "梅塔沃克",
+		"href": "https://iweec.com/",
+		"desc": "梅塔沃克",
+		"logo": "default.ico"
+	}, {
 		"name": "缙哥哥博客",
 		"href": "https://www.dujin.org/",
 		"desc": "缙哥哥博客",
@@ -1260,6 +1289,11 @@
 		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
 		"logo": "default.ico"
 	}, {
+		"name": "蒸気機",
+		"href": "https://lab.magiconch.com/vaporwave/",
+		"desc": "虚拟信号蒸汽波风格化影像后期工具",
+		"logo": "https://lab.magiconch.com/favicon.ico"
+	}, {
 		"name": "在线挨夸",
 		"href": "https://aidn.jp/kimisuki/",
 		"desc": "在线挨夸",
@@ -1278,6 +1312,11 @@
 		"name": "字符画生成",
 		"href": "https://tools.kalvinbg.cn/txt/ascii",
 		"desc": "",
+		"logo": "default.ico"
+	}, {
+		"name": "P站风格Logo生成",
+		"href": "https://www.logoly.pro/",
+		"desc": "Pornhub风格logo生成",
 		"logo": "default.ico"
 	}, {
 		"name": "随机人脸",
