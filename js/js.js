@@ -129,9 +129,9 @@
 					staticClass: "el-menu-vertical-demo",
 					attrs: {
 						"default-active": t.active,
-						"background-color": "#24292f",
-						"text-color": "#fff",
-						"active-text-color": "#eee"
+						"background-color": "#0069bc",
+						"text-color": "#ffffff",
+						"active-text-color": "#eeeeee"
 					}
 				}, t._l(t.newDataList, function(e, a) {
 					return n("el-submenu", {
@@ -251,29 +251,14 @@
 					staticClass: "footer"
 				}, [n("div", {
 					staticClass: "copyright"
-				}, [n("div", [t._v("\n   我的收藏\n          "), n("a", {
-				
-				attrs: {
-                    href: "https://blog.svvme.com/"
-                }
-            },
-            [t._v("我的博客")]), n("a", {
-								
-				
-                attrs: {
-                    href: "http://pan.svvme.com/"
-                }
-            },
-            [t._v("我的网盘")]), n("a", {
-				
-				
+				}, [n("div", [t._v("\n   我的收藏  \n        "), n("a", {
+																
 				 attrs: {
-                    href: "http://svvme.com/"
+                    href: "https://pan.svvme.com/"
                 }
             },
-			 [t._v("首页")]), n("a", {
+			 [t._v("我的网盘")]), n("a", {
 				 
-				
 				 attrs: {
                     href: "https://github.com/geekape/geek-navigation"
                 }
@@ -282,10 +267,10 @@
 				 
 			 
 				 attrs: {
-                    href: "https://wpa.qq.com/msgrd?v=3&uin=859175486&site=qq&menu=yes"
+                    href: "https://www.svvme.com/"
                 }
             },
-			 [t._v("找我")
+			 [t._v("关于")
 			 
 			
 			])])])])
