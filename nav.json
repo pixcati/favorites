@@ -93,14 +93,14 @@
 		"desc": "实用在线抠图工具",
 		"logo": "https://www.gaoding.com/favicon.ico"
 	}, {
-		"name": "AI头像生成",
-		"href": "https://waifulabs.com/",
-		"desc": "头像生成器",
-		"logo": "default.ico"
-	}, {
 		"name": "AI 换脸",
 		"href": "https://reflect.tech/",
 		"desc": "基于AI的在线换脸",
+		"logo": "default.ico"
+	}, {
+		"name": "AI头像生成",
+		"href": "https://waifulabs.com/",
+		"desc": "头像生成器",
 		"logo": "default.ico"
 
 	}]
@@ -900,14 +900,14 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://js2.svvme.com/https/github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
 		"name": "v2 订阅源",
 		"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/V2Ray",
 		"desc": "",
-		"logo": "default.ico" 
+		"logo": "default.ico"
 	}, {
 		"name": "Clash 订阅源",
 		"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/Clash.yml",
@@ -948,11 +948,7 @@
 		"href": "https://js.svvme.com/",
 		"desc": "自搭建的在线代理",
 		"logo": "ico/ytb.ico"
-	}, {
-			"name": "维基百科镜像",
-			"href": "https://zh.m.wikipedia.iwiki.uk/",
-			"desc": "维基百科镜像",
-			"logo": "default.ico"
+		
 	}]
 }, {
 
@@ -973,11 +969,6 @@
 		"name": "TV直播网站合辑",
 		"href": "https://github.com.cnpmjs.org/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
 		"desc": "电脑、手机看电视的平台整理",
-		"logo": "default.ico"
-	}, {
-		"name": "全平台直播",
-		"href": "http://live.yj1211.work/",
-		"desc": "查看多个平台的直播",
 		"logo": "default.ico"
 	}, {
 		"name": "VIP视频解析", 
@@ -1048,11 +1039,6 @@
 		"name": "图书资源白嫖",
 		"href": "http://shuxiangjia.cn/",
 		"desc": "不同类型的图书资源",
-		"logo": "default.ico"
-	}, {
-		"name": "反向词典",
-		"href": "https://wantwords.thunlp.org/",00000000
-		"desc": "清华万词王 WantWords",
 		"logo": "default.ico"
 
 	}]
@@ -1175,7 +1161,7 @@
 		"desc": "大鸟博客",
 		"logo": "default.ico"
 	}, {
-		"name": "缤纷彩虹天地",
+		"name": "缤纷彩虹",
 		"href": "http://blog.cccyun.cn/",
 		"desc": "彩虹云任务的作者的博客",
 		"logo": "default.ico"
@@ -1200,7 +1186,7 @@
 		"desc": "秋のかえで",
 		"logo": "default.ico"
 	}, {
-		"name": "极客公园",
+		"name": "云落",
 		"href": "https://gitcafe.net/",
 		"desc": "极客公园",
 		"logo": "default.ico"
@@ -1215,14 +1201,19 @@
 		"desc": "梅塔沃克",
 		"logo": "default.ico"
 	}, {
-		"name": "缙哥哥博客",
+		"name": "缙哥哥",
 		"href": "https://www.dujin.org/",
 		"desc": "缙哥哥博客",
 		"logo": "default.ico"
 	}, {
-		"name": "皮皮凛の小窝",
+		"name": "皮皮凛",
 		"href": "https://owomoe.net/",
 		"desc": "皮皮凛の小窝",
+		"logo": "default.ico"
+	}, {
+		"name": "Dimpurr",
+		"href": "http://blog.dimpurr.com/",
+		"desc": "钉子の次元",
 		"logo": "default.ico"
 		
 		}]
@@ -1289,7 +1280,7 @@
 		"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
 		"logo": "default.ico"
 	}, {
-		"name": "蒸気機",
+		"name": "蒸気机",
 		"href": "https://lab.magiconch.com/vaporwave/",
 		"desc": "虚拟信号蒸汽波风格化影像后期工具",
 		"logo": "https://lab.magiconch.com/favicon.ico"
@@ -1297,6 +1288,11 @@
 		"name": "在线挨夸",
 		"href": "https://aidn.jp/kimisuki/",
 		"desc": "在线挨夸",
+		"logo": "default.ico"
+	}, {
+		"name": "P站风格Logo生成",
+		"href": "https://www.logoly.pro/",
+		"desc": "Pornhub风格logo生成",
 		"logo": "default.ico"
 	}, {
 		"name": "弹跳文字生成",
@@ -1312,11 +1308,6 @@
 		"name": "字符画生成",
 		"href": "https://tools.kalvinbg.cn/txt/ascii",
 		"desc": "",
-		"logo": "default.ico"
-	}, {
-		"name": "P站风格Logo生成",
-		"href": "https://www.logoly.pro/",
-		"desc": "Pornhub风格logo生成",
 		"logo": "default.ico"
 	}, {
 		"name": "随机人脸",
@@ -1346,5 +1337,4 @@
 
 	}]
 }]
-
 
