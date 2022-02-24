@@ -135,6 +135,11 @@
 		"desc": "为你的wifi制作二维码以扫码接入",
 		"logo": "default.ico"
 	}, {
+		"name": "万能UA生成",
+		"href": "https://wificard.io/",
+		"desc": "丰富的应用内 Useragent",
+		"logo": "default.ico"
+	}, {
 		"name": "二维码生成制作",
 		"href": "https://qrbtf.com/",
 		"desc": "参数化二维码生成",
@@ -297,6 +302,11 @@
 		"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
 		"logo": "default.ico"
 	}, {
+		"name": "星云网盘",
+		"href": "https://pan.2233yun.cn/",
+		"desc": "基于Cloudreve的小网盘",
+		"logo": "default.ico"
+	}, {
 		"name": "图床 ①",
 		"href": "https://sm.ms/",
 		"desc": "免费上传图片并获取外链",
@@ -372,6 +382,11 @@
 		"name": "Magi",
 		"href": "https://magi.com/",
 		"desc": "Magi",
+		"logo": "default.ico"
+	}, {
+		"name": "Shodan",
+		"href": "https://www.shodan.io/",
+		"desc": "Shodan",
 		"logo": "default.ico"
 	}, {
 		"name": "钟馗之眼",
