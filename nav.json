@@ -1250,12 +1250,17 @@
 	}, {
 		"name": "控制梦境",
 		"href": "https://cdn.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
-		"desc": "基础神游教程",
+		"desc": "清醒梦、出体教程",
 		"logo": "default.ico"
 	}, {
 		"name": "诅咒反弹",
 		"href": "https://www.bilibili.com/video/BV1yh411Y7xA",
 		"desc": "清理诅咒与投射",
+		"logo": "default.ico"
+	}, {
+		"name": "移除负面想法",
+		"href": "https://www.bilibili.com/video/BV1xA411M7rX",
+		"desc": "移除负面想法",
 		"logo": "default.ico"
 	}, {
 		"name": "五音疗疾",
