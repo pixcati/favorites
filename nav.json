@@ -426,6 +426,11 @@
  		"desc": "常用服务器、VPS软件聚合 ",
  		"logo": "default.ico"
  	}, {
+ 		"name": "优化宝塔面板",
+ 		"href": "http://blog.cccyun.cn/post-431.html",
+ 		"desc": "去除验证码关闭活动推荐等 ",
+ 		"logo": "default.ico"
+ 	}, {
  		"name": "VPS可视化管理",
  		"href": "https://www.jianshu.com/p/23e11fdc598f",
  		"desc": "类似宝塔、LNMP等同类软件聚合 ",
