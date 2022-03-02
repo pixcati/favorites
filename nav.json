@@ -6,7 +6,7 @@
 		"name": "消除图片背景",
 		"href": "https://www.remove.bg/zh",
 		"desc": "快速移除或替换图片背景",
-		"logo": "https://pic.stackoverflow.wiki/uploadImages/175/15/190/29/2021/02/15/23/03/4f3b1198-30bb-4d3c-bbf5-fb37b01be904.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "提取网页图片",
 		"href": "http://www.pullywood.com/ImageAssistant/",
@@ -16,7 +16,7 @@
 		"name": "B站视频下载 ①",
 		"href": "https://www.jijidown.com/",
 		"desc": "哔哩哔哩唧唧",
-		"logo": "https://www.jijidown.com/static/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "B站视频下载 ②",
 		"href": "https://www.52pojie.cn/thread-1576351-1-1.html",
@@ -24,24 +24,24 @@
 		"logo": "default.ico"
 	}, {
 		"name": "在线视频解析下载",
-		"href": "http://videoparse.mmazai.com/",
+		"href": "https://resoumen.com/v/",
 		"desc": "无水印下载抖音快手微博最右等平台视频",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/flyme_video.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "音乐白嫖器",
 		"href": "http://tool.liumingye.cn/music/?page=homePage",
 		"desc": "多平台音乐聚合搜索",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "超级音乐白嫖 ①",
 		"href": "https://iao.su/2217/",
 		"desc": "白嫖各平台无损音乐",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "超级音乐白嫖 ②",
 		"href": "http://blog.cccyun.cn/post-391.html",
 		"desc": "白嫖各平台无损音乐",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/favorites@master/ico/zhushou_music.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "在线带壳截图",
 		"href": "https://deviceshots.com/",
@@ -56,12 +56,12 @@
 		"name": "YouTube 视频下载 ①",
 		"href": "http://ssyoutube.com/",
 		"desc": "在线获取 YouTube 视频",
-		"logo": "ico/ytb.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "YouTube 视频下载 ②",
 		"href": "https://youtube.iiilab.com/",
 		"desc": "支持YouTube、Twitter、Tumblr等平台",
-		"logo": "ico/ytb.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "音视频在线剪切",
 		"href": "https://123apps.com/cn/",
@@ -81,7 +81,7 @@
 		"name": "在线格式转换 ③",
 		"href": "https://convertio.co/zh/",
 		"desc": "将您的文件转换成任意格式",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/gszh.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "在线图片编辑",
 		"href": "https://aipix.net/",
@@ -91,7 +91,7 @@
 		"name": "快速抠图",
 		"href": "https://www.gaoding.com/koutu",
 		"desc": "实用在线抠图工具",
-		"logo": "https://www.gaoding.com/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "AI 换脸",
 		"href": "https://reflect.tech/",
@@ -136,8 +136,8 @@
 		"logo": "default.ico"
 	}, {
 		"name": "万能UA生成",
-		"href": "https://wificard.io/",
-		"desc": "丰富的应用内 Useragent",
+		"href": "https://lemon399.gitee.io/user-agent-share-page/",
+		"desc": "丰富的应用内 Useragent",        
 		"logo": "default.ico"
 	}, {
 		"name": "二维码生成制作",
@@ -208,12 +208,12 @@
 		"name": "在线 Markdown 编辑 ①",
 		"href": "https://www.zybuluo.com/",
 		"desc": "Markdown 编辑阅读器，实时同步预览",
-		"logo": "https://www.zybuluo.com/static/img/favicon.png"
+		"logo": "default.ico"
 	}, {
 		"name": "在线 Markdown 编辑 ②",
 		"href": "https://tools.miku.ac/markdown/",
 		"desc": "Markdown 编辑",
-		"logo": "https://tools.miku.ac/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "从图片提取文字 ①",
 		"href": "https://zh.pickfrom.net/png2text",
@@ -290,12 +290,12 @@
 		"name": "百度网盘解析",
 		"href": "https://baidu.kinh.cc/",
 		"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
-		"logo": "ico/d.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "天翼云盘解析",
 		"href": "https://189.ly93.cc/",
 		"desc": "提取直链",
-		"logo": "ico/d.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "网盘搬家",
 		"href": "https://mover.io/",
@@ -414,7 +414,7 @@
  		"name": "在线扒站工具",
  		"href": "https://bazhan.me/",
  		"desc": "打包下载网页内的 HTML/CSS/JS 资源",
- 		"logo": "https://bazhan.me/favicon.ico"
+ 		"logo": "default.ico"
  	}, {
  		"name": "免费SSL证书",
  		"href": "https://wzfou.com/mianfei-ssl/",
@@ -474,22 +474,22 @@
  		"name": "SSH 中转 ②",
  		"href": "https://console.ucloud.cn/upathx/globalssh",
  		"desc": "UCloud 提供 GlobalSSH 加速服务",
- 		"logo": "https://passport.ucloud.cn/build/favicon/favicon.ico"
+ 		"logo": "default.ico"
  	}, {
  		"name": "Github 文件加速 ①",
  		"href": "https://cdn.svvme.com/",
  		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
- 		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
+ 		"logo": "default.ico"
  	}, {
  		"name": "Github 文件加速 ②",
  		"href": "https://ghproxy.com/",
  		"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
- 		"logo": "https://ae01.alicdn.com/kf/H2fc84859291347418b11091fe0e508b8v.png"
+ 		"logo": "default.ico"
  	}, {
  		"name": "CSS 筛选",
  		"href": "https://uncss-online.com/",
  		"desc": "滤出CSS中被使用的部分",
- 		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/csscy.ico"
+ 		"logo": "default.ico"
  	}, {
  		"name": "JS 变萌",
  		"href": "https://utf-8.jp/public/aaencode.html",
@@ -507,7 +507,7 @@
 		"name": "MikuTools",
 		"href": "https://tools.miku.ac/",
 		"desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
-		"logo": "https://tools.miku.ac/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "Tooleyes",
 		"href": "https://www.tooleyes.com/",
@@ -557,17 +557,17 @@
 		"name": "懒人工具箱",
 		"href": "https://tool.lanrentuku.com/",
 		"desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
-		"logo": "https://tool.lanrentuku.com/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "PickFrom",
 		"href": "https://zh.pickfrom.net/",
 		"desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
-		"logo": "https://zh.pickfrom.net/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "在线工具",
 		"href": "https://tool.lu/",
 		"desc": "代码压缩、美化，开发类、站长类、极客类工具",
-		"logo": "https://cdn.jsdelivr.net/gh/pixcati/filesbox@0.2/imgs/zxgj.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "Qtools在线工具",
 		"href": "https://www.qtool.net/",
@@ -674,17 +674,17 @@
 		"name": "获取最新 Chrome",
 		"href": "https://www.iplaysoft.com/tools/chrome/",
 		"desc": "获取最新谷歌浏览器",
-		"logo": "https://i.loli.net/2020/08/06/JM6cajNXC9o3Snv.jpg"
+		"logo": "default.ico"
 	}, { 
 		"name": "下载与白嫖 office",
 		"href": "https://otp.landian.vip/zh-cn/",
 		"desc": "多版本 office 安装与激活",
-		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+		"logo": "default.ico"
 	}, { 
 		"name": "激活 Windows ",
 		"href": "https://github.com.cnpmjs.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
 		"desc": "Windows 数字激活工具",
-		"logo": "https://i.loli.net/2020/08/09/bpYhDxBGmX1c5R2.png"
+		"logo": "default.ico"
 	}, {
 		"name": "获取免费 WPS",
 		"href": "http://pan.svvme.com/download/618d2314379d54002bc3fa72",
@@ -967,7 +967,7 @@
 		"name": "帮你谷歌",
 		"href": "https://js.svvme.com/",
 		"desc": "自搭建的在线代理",
-		"logo": "ico/ytb.ico"
+		"logo": "default.ico"
 		
 	}]
 }, {
@@ -1138,20 +1138,15 @@
 		"desc": "高质量软件分享",
 		"logo": "default.ico"
 	}, {
-		"name": "趣玩实验室",
-		"href": "https://lab.lalkk.com/",
-		"desc": "趣玩实验室",
-		"logo": "default.ico" 
-	}, {
 		"name": "Epic 喜加一",
 		"href": "https://www.epicgames.com/store/zh-CN/",
 		"desc": "白嫖游戏",
-		"logo": "default.icod"
+		"logo": "default.ico"
 	}, {
 		"name": "云盘资源共享",
-		"href": "https://oook.xyz/",
+		"href": "https://ypfx.club/",
 		"desc": "云盘资源分享",
-		"logo": "default.icod"
+		"logo": "default.ico"
 		
 		}]
 	}, { 
@@ -1308,7 +1303,7 @@
 		"name": "蒸気机",
 		"href": "https://lab.magiconch.com/vaporwave/",
 		"desc": "虚拟信号蒸汽波风格化影像后期工具",
-		"logo": "https://lab.magiconch.com/favicon.ico"
+		"logo": "default.ico"
 	}, {
 		"name": "在线挨夸",
 		"href": "https://aidn.jp/kimisuki/",
