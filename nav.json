@@ -682,7 +682,7 @@
 		"logo": "default.ico"
 	}, { 
 		"name": "激活 Windows ",
-		"href": "https://github.com.cnpmjs.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
+		"href": "https://git.goout.workers.dev/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
 		"desc": "Windows 数字激活工具",
 		"logo": "default.ico"
 	}, {
@@ -757,7 +757,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "阿里云盘小白羊版",
-		"href": "https://github.com.cnpmjs.org/liupan1890/aliyunpan",
+		"href": "https://git.goout.workers.dev/liupan1890/aliyunpan",
 		"desc": "阿里云盘小白羊版",
 		"logo": "default.ico"
 		
@@ -773,14 +773,14 @@
 		"desc": "加速下载Linux发行及分支版本",
 		"logo": "default.ico"
 	}, {
-		"name": "极简系统",
-		"href": "https://www.sysmini.com/",
-		"desc": "下载Win10/8/7/xp原版镜像或精简 ",
-		"logo": "default.ico"
-	}, {
 		"name": "MSDN",
 		"href": "https://msdn.itellyou.cn/",
 		"desc": "Windows 原版镜像、软件",
+		"logo": "default.ico"
+	}, {
+		"name": "极简系统",
+		"href": "https://www.sysmini.com/",
+		"desc": "下载Win10/8/7/xp原版镜像或精简 ",
 		"logo": "default.ico"
 	}, {
 		"name": "NEXT",
@@ -788,14 +788,24 @@
 		"desc": "Windows、Linux 原版镜像、软件",
 		"logo": "default.ico"
 	}, {
-		"name": "开源镜像站汇总",
-		"href": "http://i.svvme.com/isos",
-		"desc": "开源镜像站",
+		"name": "黑苹果",
+		"href": "https://mackext.com/category/macos/",
+		"desc": "MacOS镜像",
 		"logo": "default.ico"
 	}, {
 		"name": "清华大学开源镜像站",
 		"href": "https://mirrors.tuna.tsinghua.edu.cn/",
 		"desc": "清华大学开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "中科大开源镜像站",
+		"href": "https://mirrors.ustc.edu.cn/",
+		"desc": "中科大开源镜像站",
+		"logo": "default.ico"
+	}, {
+		"name": "开源镜像站汇总",
+		"href": "http://i.svvme.com/isos",
+		"desc": "开源镜像站",
 		"logo": "default.ico"
 	}, {
 		"name": "前端公共库",
@@ -920,7 +930,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "v2 免费节点",
-		"href": "https://github.com.cnpmjs.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+		"href": "https://git.goout.workers.dev/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 		"desc": "",
 		"logo": "default.ico"
 	}, {
@@ -945,7 +955,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "蓝灯最新版本",
-		"href": "https://github.com.cnpmjs.org/getlantern/lantern/blob/devel/README.md",
+		"href": "https://git.goout.workers.dev/getlantern/lantern/blob/devel/README.md",
 		"desc": "Lantern 多平台最新版本聚合",
 		"logo": "default.ico"
 	}, {
@@ -987,7 +997,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "TV直播网站合辑",
-		"href": "https://github.com.cnpmjs.org/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
+		"href": "https://git.goout.workers.dev/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
 		"desc": "电脑、手机看电视的平台整理",
 		"logo": "default.ico"
 	}, {
@@ -1047,7 +1057,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "编程随想的图书收藏",
-		"href": "https://github.com.cnpmjs.org/programthink/books/blob/master/README.wiki",
+		"href": "https://git.goout.workers.dev/programthink/books/blob/master/README.wiki",
 		"desc": "网友收藏的电子书清单",
 		"logo": "default.ico"
 	}, {
@@ -1076,6 +1086,11 @@
 		"name": "不死鸟",
 		"href": "https://iao.su/",
 		"desc": "分享为王官网",
+		"logo": "default.ico"
+	}, {
+		"name": "免費資源網路社群",
+		"href": "https://iao.su/",
+		"desc": "台湾免费资源网络社群",
 		"logo": "default.ico"
 	}, {
 		"name": "书签地球",
