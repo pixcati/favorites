@@ -145,8 +145,13 @@
 		"desc": "参数化二维码生成",
 		"logo": "default.ico"
 	}, {
+		"name": "移动端芯片排行",
+		"href": "https://www.socpk.com/",
+		"desc": "移动端芯片综合性能排行，由极客湾出品",
+		"logo": "default.ico"
+	}, {
 		"name": "随机密码生成",
-		"href": "http://tools.jb51.net/password/rand_pwd",
+		"href": "https://tool.ip138.com/rando0000000m/",
 		"desc": "随机密码生成",
 		"logo": "default.ico"
 	}, {
