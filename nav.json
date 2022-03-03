@@ -682,8 +682,13 @@
 		"logo": "default.ico"
 	}, { 
 		"name": "激活 Windows ",
-		"href": "https://git.goout.workers.dev/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4/massgravel/Microsoft-Activation-Scripts/releases/tag/1.4",
-		"desc": "Windows 数字激活工具",
+		"href": "https://git.goout.workers.dev/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
+		"desc": "Windows 数字激活工具，解压密码1234",
+		"logo": "default.ico"
+	}, { 
+		"name": "Office 密钥 ",
+		"href": "https://office-kms-keys.pages.dev/",
+		"desc": "Ofice 激活密钥",
 		"logo": "default.ico"
 	}, {
 		"name": "获取免费 WPS",
@@ -1089,7 +1094,7 @@
 		"logo": "default.ico"
 	}, {
 		"name": "免費資源網路社群",
-		"href": "https://iao.su/",
+		"href": "https://free.com.tw/",
 		"desc": "台湾免费资源网络社群",
 		"logo": "default.ico"
 	}, {
