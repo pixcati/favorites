@@ -501,6 +501,36 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "一键更换软件源",
+				"href": "https://supermanito.github.io/LinuxMirrors/",
+				"desc": "更换软件源为不同的国内镜像，支持多个发行版 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键重装服务器",
+				"href": "https://wzfou.com/5-vps-chongzhuang/",
+				"desc": "适用于Linux / Windows ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键内核网络加速",
+				"href": "https://git.goout.workers.dev/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
+				"desc": "为服务器启用BBR、锐速以及魔改版加速",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键安装Kangle",
+				"href": "http://kangle.cccyun.cn/",
+				"desc": "一键安装 Kangle+Ep+Mysql ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键安装Docker",
+				"href": "https://51.ruyo.net/16766.html",
+				"desc": "Docker 一脚安装脚本",
+				"logo": "default.ico"
+			},
+			{
 				"name": "免费SSL证书",
 				"href": "https://wzfou.com/mianfei-ssl/",
 				"desc": "免费SSL证书申请渠道汇总",
@@ -522,30 +552,6 @@
 				"name": "VPS可视化管理",
 				"href": "https://www.jianshu.com/p/23e11fdc598f",
 				"desc": "类似宝塔、LNMP等同类软件聚合 ",
-				"logo": "default.ico"
-			},
-			{
-				"name": "一键更换软件源",
-				"href": "https://supermanito.github.io/LinuxMirrors/",
-				"desc": "更换软件源为不同的国内镜像，支持多个发行版 ",
-				"logo": "default.ico"
-			},
-			{
-				"name": "一键重装服务器",
-				"href": "https://wzfou.com/5-vps-chongzhuang/",
-				"desc": "适用于Linux / Windows ",
-				"logo": "default.ico"
-			},
-			{
-				"name": "一键安装Kangle",
-				"href": "http://kangle.cccyun.cn/",
-				"desc": "一键安装 Kangle+Ep+Mysql ",
-				"logo": "default.ico"
-			},
-			{
-				"name": "一键安装Docker",
-				"href": "https://51.ruyo.net/16766.html",
-				"desc": "Docker 一脚安装脚本",
 				"logo": "default.ico"
 			},
 			{
@@ -594,12 +600,6 @@
 				"name": "JS 变萌",
 				"href": "https://utf-8.jp/public/aaencode.html",
 				"desc": "萌系的JS加密",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Magisk 资源分享",
-				"href": "https://magisk.suchenqaq.club/",
-				"desc": "Magisk 资源分享",
 				"logo": "default.ico"
 			}
 		]
@@ -840,12 +840,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "安卓APK下载",
-				"href": "https://findappweb.com/",
-				"desc": "免代理下载谷歌市场上的APK",
-				"logo": "default.ico"
-			},
-			{
 				"name": "微当下载",
 				"href": "https://www.weidown.com/",
 				"desc": "修改、汉化、精简软件等",
@@ -915,6 +909,37 @@
 				"name": "阿里云盘小白羊版",
 				"href": "https://git.goout.workers.dev/liupan1890/aliyunpan",
 				"desc": "阿里云盘小白羊版",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "542346fa6",
+		"classify": "安卓资源",
+		"icon": "csz czs-android",
+		"sites": [
+			{
+				"name": "Magisk 资源分享",
+				"href": "https://magisk.suchenqaq.club/",
+				"desc": "Magisk 资源分享",
+				"logo": "default.ico"
+			},
+			{
+				"name": "安卓APK下载",
+				"href": "https://findappweb.com/",
+				"desc": "免代理下载谷歌市场上的APK",
+				"logo": "default.ico"
+			},
+			{
+				"name": "晨钟酱",
+				"href": "https://www.jamcz.com/ ",
+				"desc": "搞机利器套餐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "VMOS Pro",
+				"href": "https://423down.lanzouo.com/b0f1fns7a ",
+				"desc": "获取新版本的VMOS Pro 解锁版",
 				"logo": "default.ico"
 			}
 		]
@@ -1113,6 +1138,24 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "综合可用节点 ①",
+				"href": "https://proxypoolss.fly.dev/",
+				"desc": "由程序自动抓取的各类节点",
+				"logo": "default.ico"
+			},
+			{
+				"name": "综合可用节点 ②",
+				"href": "https://gfwglass.tk/",
+				"desc": "由程序自动抓取的各类节点",
+				"logo": "default.ico"
+			},
+			{
+				"name": "综合可用节点 ③",
+				"href": "http://www.fuckgfw.tk/",
+				"desc": "由程序自动抓取的各类节点",
+				"logo": "default.ico"
+			},
+			{
 				"name": "v2 免费节点",
 				"href": "https://git.goout.workers.dev/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 				"desc": "",
@@ -1131,14 +1174,8 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "ss 免费节点 ①",
+				"name": "ss 免费节点",
 				"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/ssrsub",
-				"desc": "",
-				"logo": "default.ico"
-			},
-			{
-				"name": "ss 免费节点 ②",
-				"href": "https://js.svvme.com/-----https://lncn.org/",
 				"desc": "",
 				"logo": "default.ico"
 			},
