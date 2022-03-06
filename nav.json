@@ -579,13 +579,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Github 文件加速 ①",
-				"href": "https://cdn.svvme.com/",
-				"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Github 文件加速 ②",
+				"name": "Github 文件加速",
 				"href": "https://ghproxy.com/",
 				"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
 				"logo": "default.ico"
@@ -600,6 +594,12 @@
 				"name": "JS 变萌",
 				"href": "https://utf-8.jp/public/aaencode.html",
 				"desc": "萌系的JS加密",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Magisk 资源分享",
+				"href": "https://magisk.suchenqaq.club/",
+				"desc": "Magisk 资源分享",
 				"logo": "default.ico"
 			}
 		]
