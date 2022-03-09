@@ -925,9 +925,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "安卓APK下载",
+				"name": "境内外APK下载",
 				"href": "https://findappweb.com/",
 				"desc": "免代理下载谷歌市场上的APK",
+				"logo": "default.ico"
+			},
+			{
+				"name": "分应用屏幕旋转",
+				"href": "https://www.coolapk.com/apk/com.pranavpandey.rotation",
+				"desc": "自定义不同应用与规则下的屏幕方向",
 				"logo": "default.ico"
 			},
 			{
@@ -962,21 +968,33 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "极简系统",
-				"href": "https://www.sysmini.com/",
-				"desc": "下载Win10/8/7/xp原版镜像或精简 ",
-				"logo": "default.ico"
-			},
-			{
 				"name": "NEXT",
 				"href": "https://next.itellyou.cn/",
 				"desc": "Windows、Linux 原版镜像、软件",
 				"logo": "default.ico"
 			},
 			{
+				"name": "极简系统",
+				"href": "https://www.sysmini.com/",
+				"desc": "下载Win10/8/7/xp原版镜像或精简 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Ventoy",
+				"href": "https://www.ventoy.net/cn/",
+				"desc": "多系统多镜像启动盘",
+				"logo": "default.ico"
+			},
+			{
 				"name": "黑苹果",
 				"href": "https://mackext.com/category/macos/",
 				"desc": "MacOS镜像",
+				"logo": "default.ico"
+			},
+			{
+				"name": "阿里巴巴开源镜像站",
+				"href": "https://mirrors.aliyun.com/",
+				"desc": "阿里巴巴开源镜像站",
 				"logo": "default.ico"
 			},
 			{
@@ -998,7 +1016,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "前端公共库",
+				"name": "前端公共库汇总",
 				"href": "https://51.ruyo.net/12387.html",
 				"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
 				"logo": "default.ico"
