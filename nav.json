@@ -840,6 +840,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "恢复文件与数据",
+				"href": "https://www.disktool.cn/recovery/winfr.html",
+				"desc": "微软出品恢复工具的可视化版本",
+				"logo": "default.ico"
+			},
+			{
 				"name": "微当下载",
 				"href": "https://www.weidown.com/",
 				"desc": "修改、汉化、精简软件等",
