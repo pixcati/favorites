@@ -882,6 +882,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "分享者",
+				"href": "https://www.sharerw.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
 				"name": "吾爱分享",
 				"href": "https://52sharing.cn/",
 				"desc": "吾爱分享网",
