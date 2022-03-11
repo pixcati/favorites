@@ -222,27 +222,21 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Chrome 扩展下载 ①",
+				"name": "浏览器扩展下载 ①",
 				"href": "https://chrome.zzzmh.cn/",
 				"desc": "国内下载 Chrome 扩展",
 				"logo": "default.ico"
 			},
 			{
-				"name": "Chrome 扩展下载 ②",
+				"name": "浏览器扩展下载 ②",
 				"href": "https://crxdl.com/",
 				"desc": "下载 CRX 格式的 Chrome 扩展",
 				"logo": "default.ico"
 			},
 			{
-				"name": "Chrome 扩展下载 ③",
+				"name": "浏览器扩展下载 ③",
 				"href": "https://www.crxsoso.com/",
 				"desc": "下载 CRX 格式的 Chrome 扩展",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Chrome 扩展下载 ④",
-				"href": "https://51.ruyo.net/7553.html",
-				"desc": "下载 Chrome 扩展的途径聚合",
 				"logo": "default.ico"
 			},
 			{
@@ -531,6 +525,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "SSH 中转 ①",
+				"href": "https://heyterm.com/",
+				"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
+				"logo": "default.ico"
+			},
+			{
+				"name": "SSH 中转 ②",
+				"href": "https://console.ucloud.cn/upathx/globalssh",
+				"desc": "UCloud 提供 GlobalSSH 加速服务",
+				"logo": "default.ico"
+			},
+			{
 				"name": "免费SSL证书",
 				"href": "https://wzfou.com/mianfei-ssl/",
 				"desc": "免费SSL证书申请渠道汇总",
@@ -570,18 +576,6 @@
 				"name": "站长工具国内测速",
 				"href": "http://tool.chinaz.com/speedtest/",
 				"desc": "站长工具国内测速",
-				"logo": "default.ico"
-			},
-			{
-				"name": "SSH 中转 ①",
-				"href": "https://heyterm.com/",
-				"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
-				"logo": "default.ico"
-			},
-			{
-				"name": "SSH 中转 ②",
-				"href": "https://console.ucloud.cn/upathx/globalssh",
-				"desc": "UCloud 提供 GlobalSSH 加速服务",
 				"logo": "default.ico"
 			},
 			{
@@ -1271,6 +1265,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "直播源格式转换",
+				"href": "https://guihet.com/tvlistconvert.html",
+				"desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
+				"logo": "default.ico"
+			},
+			{
 				"name": "VIP视频解析",
 				"href": "https://www.xixicai.top/",
 				"desc": "白嫖影视资源",
@@ -1621,7 +1621,7 @@
 				"name": "发音转换器",
 				"href": "http://uahh.syouzyo.org/fyzhq",
 				"desc": "将中文的发音对应到外语发音",
-				"logo": "default.ico"
+				"logo": "default.ico"0 
 			},
 			{
 				"name": "狗屁不通文章生成器",
