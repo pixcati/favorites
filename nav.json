@@ -610,6 +610,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "一个木函",
+				"href": "https://web.woobx.cn/",
+				"desc": "实用利器聚合", 
+				"logo": "default.ico"
+			},
+			{
 				"name": "Tooleyes",
 				"href": "https://www.tooleyes.com/",
 				"desc": "实用利器聚合",
@@ -1621,18 +1627,24 @@
 				"name": "发音转换器",
 				"href": "http://uahh.syouzyo.org/fyzhq",
 				"desc": "将中文的发音对应到外语发音",
-				"logo": "default.ico"0 
-			},
-			{
-				"name": "狗屁不通文章生成器",
-				"href": "https://suulnnka.github.io/BullshitGenerator/",
-				"desc": "狗屁不通文章生成器",
 				"logo": "default.ico"
 			},
 			{
 				"name": "jar游戏下载",
 				"href": "https://joyin-li.vercel.app/",
 				"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
+				"logo": "default.ico"
+			},
+			{
+				"name": "损坏文件生成器",
+				"href": "http://www.xnet.se/fd/",
+				"desc": "生成指定大小的损坏文件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "狗屁不通文章生成器",
+				"href": "https://suulnnka.github.io/BullshitGenerator/",
+				"desc": "狗屁不通文章生成器",
 				"logo": "default.ico"
 			},
 			{
