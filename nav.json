@@ -1375,6 +1375,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "小众软件",
+				"href": "https://www.appinn.com/",
+				"desc": "小众软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "发现频道",
+				"href": "https://meta.appinn.net/c/faxian",
+				"desc": "小众软件的发现频道",
+				"logo": "default.ico"
+			},
+			{
 				"name": "免費資源網路社群",
 				"href": "https://free.com.tw/",
 				"desc": "台湾免费资源网络社群",
@@ -1396,12 +1408,6 @@
 				"name": "文武科技柜",
 				"href": "https://www.wangdu.site/",
 				"desc": "文武科技柜",
-				"logo": "default.ico"
-			},
-			{
-				"name": "小众软件",
-				"href": "https://www.appinn.com/",
-				"desc": "小众软件",
 				"logo": "default.ico"
 			},
 			{
