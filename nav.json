@@ -162,6 +162,30 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "浏览器扩展下载 ①",
+				"href": "https://chrome.zzzmh.cn/",
+				"desc": "国内下载 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "浏览器扩展下载 ②",
+				"href": "https://crxdl.com/",
+				"desc": "下载 CRX 格式的 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "浏览器扩展下载 ③",
+				"href": "https://www.crxsoso.com/",
+				"desc": "下载 CRX 格式的 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Chrome 插件英雄榜",
+				"href": "https://www.v2fy.com/p/readme-chromeappheroes/",
+				"desc": "Chrome插件英雄榜",
+				"logo": "default.ico"
+			},
+			{
 				"name": "万能UA生成",
 				"href": "https://lemon399.gitee.io/user-agent-share-page/",
 				"desc": "丰富的应用内 Useragent",
@@ -219,30 +243,6 @@
 				"name": "文字转语音",
 				"href": "https://ghproxy.com/https://github.com/ag2s20150909/TTS/releases/download/0.2_202202092159/TTS_release_v0.2_202202092159.apk",
 				"desc": "基于微软接口制作的TTS软件",
-				"logo": "default.ico"
-			},
-			{
-				"name": "浏览器扩展下载 ①",
-				"href": "https://chrome.zzzmh.cn/",
-				"desc": "国内下载 Chrome 扩展",
-				"logo": "default.ico"
-			},
-			{
-				"name": "浏览器扩展下载 ②",
-				"href": "https://crxdl.com/",
-				"desc": "下载 CRX 格式的 Chrome 扩展",
-				"logo": "default.ico"
-			},
-			{
-				"name": "浏览器扩展下载 ③",
-				"href": "https://www.crxsoso.com/",
-				"desc": "下载 CRX 格式的 Chrome 扩展",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Chrome 插件英雄榜",
-				"href": "https://www.v2fy.com/p/readme-chromeappheroes/",
-				"desc": "Chrome插件英雄榜",
 				"logo": "default.ico"
 			},
 			{
@@ -1578,6 +1578,12 @@
 				"name": "全身自动放松",
 				"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
 				"desc": "Sapien medicine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "暗网网址大全",
+				"href": "https://cdn.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
+				"desc": "暗网网址大全",
 				"logo": "default.ico"
 			},
 			{
