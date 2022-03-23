@@ -1283,6 +1283,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "谁在直播",
+				"href": "http://live.yj1211.work/",
+				"desc": "全网直播平台聚合",
+				"logo": "default.ico"
+			},
+			{
 				"name": "磁力云播",
 				"href": "https://magnet.pages.dev/",
 				"desc": "在线解析磁力或种子",
