@@ -338,7 +338,7 @@
 			},
 			{
 				"name": "网盘变对象储存",
-				"href": "https://js2.svvme.com/https/v2ex.com/t/733854",
+				"href": "https://js.goout.workers.dev/https/v2ex.com/t/733854",
 				"desc": "Onedrive等变身对象储存、当cdn用",
 				"logo": "default.ico"
 			},
@@ -1193,19 +1193,19 @@
 			},
 			{
 				"name": "v2 订阅源",
-				"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/V2Ray",
+				"href": "https://js.goout.workers.dev/https/github.com/ssrsub/ssr/raw/master/V2Ray",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "Clash 订阅源",
-				"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/Clash.yml",
+				"href": "https://js.goout.workers.dev/https/github.com/ssrsub/ssr/raw/master/Clash.yml",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "ss 免费节点",
-				"href": "https://js2.svvme.com/https/github.com/ssrsub/ssr/raw/master/ssrsub",
+				"href": "https://js.goout.workers.dev/https/github.com/ssrsub/ssr/raw/master/ssrsub",
 				"desc": "",
 				"logo": "default.ico"
 			},
@@ -1651,6 +1651,24 @@
 				"name": "jar游戏下载",
 				"href": "https://joyin-li.vercel.app/",
 				"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电脑玩Wii U",
+				"href": "https://www.iplaysoft.com/cemu.html",
+				"desc": "Wii U模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Dolphin",
+				"href": "https://cn.dolphin-emu.org/",
+				"desc": "电脑玩Wii",
+				"logo": "default.ico"
+			},
+			{
+				"name": "植僵资源",
+				"href": "http://lonelystar.org/download.htm",
+				"desc": "植物大战僵尸僵尸各类版本，含破解",
 				"logo": "default.ico"
 			},
 			{
