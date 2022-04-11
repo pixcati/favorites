@@ -1447,6 +1447,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "乐云主机笔记",
+				"href": "https://www.letcloud.cn/",
+				"desc": "乐云主机笔记",
+				"logo": "default.ico"
+			},
+			{
 				"name": "JIKE",
 				"href": "https://jike.info/",
 				"desc": "JIKE",
@@ -1511,6 +1517,12 @@
 				"name": "缤纷彩虹",
 				"href": "http://blog.cccyun.cn/",
 				"desc": "彩虹云任务的作者的博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "笨猫博客",
+				"href": "https://www.nbmao.com/",
+				"desc": "笨猫博客",
 				"logo": "default.ico"
 			},
 			{
