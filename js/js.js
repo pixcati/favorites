@@ -254,7 +254,7 @@
 				}, [n("div", [t._v("\n   我的收藏  \n        "), n("a", {
 																
 				 attrs: {
-                    href: "https://pan.svvme.com/"
+                    href: "http://pan.svvme.com/"
                 }
             },
 			 [t._v("我的网盘")]), n("a", {
