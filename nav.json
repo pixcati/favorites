@@ -422,6 +422,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "在线搜题",
+				"href": "https://www.asklib.com/",
+				"desc": "查找各科试题",
+				"logo": "default.ico"
+			},
+			{
 				"name": "磁力搜索",
 				"href": "https://iao.su/908/",
 				"desc": "磁力搜索网站聚合",
@@ -483,9 +489,15 @@
 		"icon": "csz czs-server-l",
 		"sites": [
 			{
-				"name": "哪里域名便宜",
+				"name": "哪里域名便宜 ①",
 				"href": "https://www.nazhumi.com/",
 				"desc": "全球域名，一网比价",
+				"logo": "default.ico"
+			},
+			{
+				"name": "哪里域名便宜 ②",
+				"href": "https://namebeta.com/",
+				"desc": "域名注册查询并多方查价",
 				"logo": "default.ico"
 			},
 			{
