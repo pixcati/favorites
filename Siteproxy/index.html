@@ -1,0 +1,323 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Siteproxy代理</title>
+		<meta name="Keywords" content=""/>
+		<meta name="Description" content="Now, only a paper away from the world."/>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/0.4.1/css/mdui.min.css">
+		<script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/mdui/0.4.1/js/mdui.min.js"></script>
+
+		<style type="text/css">
+			body {
+				background: #f3f4f7;
+			}
+
+			.searchbar_icon {
+				width: 36px;
+				height: 36px;
+				display: inline-block;
+				margin-left: 8px;
+				margin-right: 8px;
+				cursor: pointer;
+			}
+
+			.search_btn {
+				margin-left: 8px;
+				margin-right: 8px;
+			}
+
+			.searchbar_input_parent {
+				width: 100%;
+				display: inline-block;
+				height: 36px;
+				padding: 0;
+				margin-right: 8px;
+			}
+
+			.searchbar {
+				text-align: center;
+				margin-bottom: 12px;
+				margin-top: 8px;
+				padding-left: 15px;
+				width: 75%;
+				background-color: #fff;
+				border-radius: 50px;
+				-webkit-transition: all .3s cubic-bezier(0, 0, .2, 1);
+				transition: all .3s cubic-bezier(0, 0, .2, 1);
+			}
+
+			.mdui-headroom-unpinned-toolbar .searchbar {
+				width: 100%;
+				border-radius: 0px;
+				margin-bottom: 0px;
+				margin-top: 0px;
+				padding-bottom: 8px;
+				padding-top: 8px;
+			}
+
+			.mdui-card i {
+				font-size: 22px;
+			}
+
+			@media (min-width: 600px) {
+				.mdui-appbar-with-toolbar {
+					padding-top: calc(64px + 52px) !important;
+				}
+
+			}
+
+			@media (max-width: 959px) and (orientation: landscape) {
+				.mdui-appbar-with-toolbar {
+					padding-top: calc(48px + 52px) !important;
+				}
+
+			}
+
+			.mdui-appbar-with-toolbar {
+				padding-top: calc(56px + 52px);
+			}
+
+			.website {
+				width: 85px;
+				display: inline-block;
+			}
+
+			.custom_website {
+				display: inline-block;
+			}
+
+			.websiteIcon {
+				width: 85px;
+				border-radius: 100%;
+			}
+
+			.websites {
+				padding: 0;
+				text-align: center;
+			}
+
+
+			@media screen and (min-width: 600px) {
+
+				.appbar {
+					background-color: #fff !important;
+					color: #000 !important;
+				}
+
+
+				.searchbar {
+					background-color: transparent !important;
+				}
+
+				.suggest {
+					top: 116px !important;
+				}
+
+			}
+
+
+			@media screen and (max-width: 600px) {
+				.mdcard {
+					padding-top: 16px;
+				}
+			}
+
+			.header {
+				height: 50px;
+			}
+
+			.appbar {
+				background-color: #333;
+				color: #fff;
+			}
+
+			.searchbar_input_parent>.mdui-textfield-input:not([disabled]):hover {
+				box-shadow: none;
+				border: 0;
+			}
+
+			.searchbar_input_parent>.mdui-textfield-input {
+				border: 0;
+			}
+
+			.searchbar_icon_img {
+				height: 36px;
+				width: 20px;
+			}
+
+			.suggest {
+				width: 100%;
+				position: absolute;
+				top: 108px;
+				color: #000;
+				z-index: 2;
+				background-color: #fff;
+				-webkit-transition: opacity .3s cubic-bezier(0, 0, .2, 1);
+				transition: opacity .3s cubic-bezier(0, 0, .2, 1);
+			}
+
+			.suggest[show=true] {
+				opacity: 1;
+				visibility: visible;
+			}
+
+			.suggest:not([show=true]) {
+				opacity: 0;
+				visibility: hidden;
+			}
+
+			.footer {
+				padding: 32px 0;
+			}
+
+			.footer span {
+				display: block;
+			}
+
+			.footer a {
+				margin: 2px;
+			}
+
+			.reBtn,
+			.edit_wrapper {
+				position: absolute;
+				right: 8px;
+			}
+
+			.copyright {
+				margin: 16px;
+			}
+
+
+			.empty_icon {
+				width: 100%;
+				font-size: 60px;
+				padding: 16px 0;
+			}
+
+			.empty_tip {
+				width: 100%;
+			}
+
+			.empty {
+				margin: 16px;
+			}
+
+			.addBtn_empty {
+				margin: 16px 0;
+			}
+
+			.custom_list:not(.edit) .remove_btn {
+				display: none;
+			}
+
+			.custom_list.edit .remove_btn {
+				z-index: 100;
+			}
+
+			.remove_btn {
+				position: absolute;
+				cursor: pointer;
+				border-radius: 3px;
+				background: none;
+				transition: .3s;
+			}
+		</style>
+	</head>
+
+	<body class="mdui-appbar-with-toolbar">
+		<div class="mdui-appbar mdui-appbar-fixed appbar mdui-appbar-scroll-toolbar-hide">
+			<div class="mdui-toolbar mdui-color-theme">
+				<button mdui-menu="{target: '#or'}" class="mdui-btn mdui-btn-icon mdui-ripple">
+					<i class="mdui-icon material-icons">menu</i>
+				</button>
+				<ul class="mdui-menu" id="or">
+					<li class="mdui-menu-item">
+						<a href="#" target="_blank">未命名</a>
+					</li>
+				</ul>
+				<span class="mdui-typo-headline"> Siteproxy</span>
+				<div class="mdui-toolbar-spacer"></div>
+			</div>
+			<form target="_blank" class="searchbar mdui-center mdui-valign mdui-ripple">
+				<div class="mdui-textfield searchbar_input_parent">
+					<input class="mdui-textfield-input" v-model="keyword" type="text"
+						placeholder="输入域名、网址或搜索词" />
+				</div>
+				<button class="mdui-btn mdui-btn-icon mdui-ripple search_btn">
+						<i class=" mdui-icon material-icons mdui-text-color-black">&#xe163;</i>
+				</button>
+			</form>
+		</div>
+		<div class="mdui-m-t-2 mdui-container">
+			<div class="mdui-row">
+				<div class="mdui-col-xs-12 mdui-col-sm-12">
+					<div class="mdui-card">
+						<div class="mdui-card-header header">
+							<span>快速代理</span>
+						</div>
+						<div class="mdui-divider"></div>
+						<div class="mdui-card-content websites">
+							<ul class="mdui-list mdui-m-x-1">
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.github.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/github.png" class="websiteIcon"></div>
+																	<span>Github</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.v2ex.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/v2ex.png" class="websiteIcon"></div>
+																	<span>V2EX</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.pixiv.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/pixiv.png" class="websiteIcon"></div>
+																	<span>Pixiv</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.youtube.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/youtube.png" class="websiteIcon"></div>
+																	<span>Youtube</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/google.fuckcloudnative.io/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/google.png" class="websiteIcon"></div>
+																	<span>Google</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.twitter.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/twitter.png" class="websiteIcon"></div>
+																	<span>Twitter</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.facebook.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/facebook.png" class="websiteIcon"></div>
+																	<span>Facebook</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/mail.google.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/gmail.png" class="websiteIcon"></div>
+																	<span>Gmail</span>
+																</a></li>
+															<li class="website mdui-ripple mdui-m-x-1"><a target="_blank"
+																	href="./https/www.reddit.com/">
+																	<div><img src="https://cdn.jsdelivr.net/gh/pixcati/JSproxy_php@master/assets/ico/reddit.png" class="websiteIcon"></div>
+																	<span>Reddit</span>
+																</a></li>
+														</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer mdui-text-center mdui-typo">
+			&copy; <a href="https://github.com/netptop/siteproxy" target="_blank">siteproxy</a>
+			<br>
+		</footer>
+
+
+	</body>
+</html>
