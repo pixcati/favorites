@@ -1143,8 +1143,14 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "Cuteen 主题",
+				"href": "https://blog.zwying.com/",
+				"desc": "Typecho主题 Cuteen",
+				"logo": "default.ico"
+			},
+			{
 				"name": "樱花Frp文档",
-				"href": "https://doc.natfrp.com/#/frpc/usage/linux",
+				"href": "https://doc.natfrp.com/#/frpc/usage/linux",d
 				"desc": "樱花Frp文档",
 				"logo": "default.ico"
 			},
