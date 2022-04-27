@@ -314,14 +314,14 @@
 		"sites": [
 			{
 				"name": "文件互传 ①",
-				"href": "https://airportal.cn",
-				"desc": "AirPortal | 空投",
+				"href": "https://app.tmp.link/",
+				"desc": "临时文件分享",
 				"logo": "default.ico"
 			},
 			{
 				"name": "文件互传 ②",
-				"href": "http://qingwendang.com/",
-				"desc": "随时云U盘，免登陆上传下载文件",
+				"href": "https://airportal.cn",
+				"desc": "AirPortal | 空投",
 				"logo": "default.ico"
 			},
 			{
