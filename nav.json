@@ -17,6 +17,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "九宫格切图",
+				"href": "https://lab.magiconch.com/v/sns-image",
+				"desc": "将图片分割成九张图",
+				"logo": "default.ico"
+			},
+			{
 				"name": "B站视频下载 ①",
 				"href": "https://www.jijidown.com/",
 				"desc": "哔哩哔哩唧唧",
