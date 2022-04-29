@@ -986,9 +986,9 @@
 		"icon": "csz czs-linux",
 		"sites": [
 			{
-				"name": "LInux 发行版下载",
-				"href": "http://i.svvme.com/linux",
-				"desc": "加速下载Linux发行及分支版本",
+				"name": "常用镜像服务",
+				"href": "https://www.library.ac.cn/",
+				"desc": "镜像代理网站与开源软件镜像",
 				"logo": "default.ico"
 			},
 			{
