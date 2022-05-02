@@ -992,6 +992,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "LInux 发行版下载",
+				"href": "http://i.svvme.com/linux",
+				"desc": "加速下载Linux发行及分支版本",
+				"logo": "default.ico"
+			},
+			{
 				"name": "MSDN",
 				"href": "https://msdn.itellyou.cn/",
 				"desc": "Windows 原版镜像、软件",
