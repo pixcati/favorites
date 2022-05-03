@@ -1392,6 +1392,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "国家高等教育",
+				"href": "https://ykt.eduyun.cn/",
+				"desc": "国家高等教育智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "国家职业教育",
+				"href": "https://vocational.smartedu.cn/",
+				"desc": "国家高等教育智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
 				"name": "图书资源白嫖",
 				"href": "http://shuxiangjia.cn/",
 				"desc": "不同类型的图书资源",
