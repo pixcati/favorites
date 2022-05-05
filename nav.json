@@ -1641,8 +1641,8 @@
 		"icon": "csz czs-taiji",
 		"sites": [
 			{
-				"name": "全身自动放松",
-				"href": "https://www.bilibili.com/video/BV1DT4y1u7Xg",
+				"name": "音频能量场",
+				"href": "https://search.bilibili.com/all?keyword=Sapien%20Medicine",
 				"desc": "Sapien medicine",
 				"logo": "default.ico"
 			},
@@ -1653,15 +1653,21 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "山海经密码",
+				"href": "https://www.youtube.com/playlist?list=PL2BTl-ntPF4xXe9T13fMRppyN0t8JSX4w",
+				"desc": "山海经密码",
+				"logo": "default.ico"
+			},
+			{
 				"name": "灵体结构示意",
 				"href": "https://mp.weixin.qq.com/s/A-aYFdqUdtbgCEIyKSrjEA",
-				"desc": "魂魄结构",
+				"desc": "灵体结构",
 				"logo": "default.ico"
 			},
 			{
 				"name": "控制梦境",
 				"href": "https://cdn.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
-				"desc": "清醒梦、出体教程",
+				"desc": "基础清醒梦、出体教程",
 				"logo": "default.ico"
 			},
 			{
