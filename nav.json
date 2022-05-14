@@ -331,6 +331,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "文件传输助手",
+				"href": "https://filehelper.weixin.qq.com/",
+				"desc": "微信文件传输助手网页版",
+				"logo": "default.ico"
+			},
+			{
 				"name": "PP直连",
 				"href": "https://www.ppzhilian.com/",
 				"desc": "帮手机、电脑点到点直连",
@@ -343,14 +349,8 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "网盘变对象储存",
-				"href": "https://js.goout.workers.dev/https/v2ex.com/t/733854",
-				"desc": "Onedrive等变身对象储存、当cdn用",
-				"logo": "default.ico"
-			},
-			{
 				"name": "百度网盘解析",
-				"href": "https://baidu.kinh.cc/",
+				"href": "https://kinhdown.kinh.cc/",
 				"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
 				"logo": "default.ico"
 			},
@@ -364,6 +364,12 @@
 				"name": "网盘搬家",
 				"href": "https://mover.io/",
 				"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网盘变对象储存",
+				"href": "https://js.goout.workers.dev/https/v2ex.com/t/733854",
+				"desc": "Onedrive等变身对象储存、当cdn用",
 				"logo": "default.ico"
 			},
 			{
