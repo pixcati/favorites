@@ -30,13 +30,13 @@
 			},
 			{
 				"name": "B站视频下载 ②",
-				"href": "https://www.52pojie.cn/thread-1576351-1-1.html",
-				"desc": "B23Downloader",
+				"href": "https://p.uk.cn.eu.org/https/github.com/leiurayer/downkyi",
+				"desc": "哔哩下载姬",
 				"logo": "default.ico"
 			},
 			{
 				"name": "在线视频解析下载",
-				"href": "https://resoumen.com/v/",
+				"href": "https://www.helloty.cn/",
 				"desc": "无水印下载抖音快手微博最右等平台视频",
 				"logo": "default.ico"
 			},
@@ -137,12 +137,6 @@
 		"classify": "效率工具",
 		"icon": "csz czs-time-l",
 		"sites": [
-			{
-				"name": "在线记事本",
-				"href": "https://filelink.io/",
-				"desc": "编辑内容并生成公开链接",
-				"logo": "default.ico"
-			},
 			{
 				"name": "翻译神器",
 				"href": "https://www.deepl.com/translator",
@@ -350,7 +344,7 @@
 			},
 			{
 				"name": "百度网盘解析",
-				"href": "https://kinhdown.kinh.cc/",
+				"href": "https://baidu.kinh.cc/",
 				"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
 				"logo": "default.ico"
 			},
@@ -591,6 +585,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "CloudFlare 优选IP",
+				"href": "https://g.uk.cn.eu.org/XIU2/CloudflareSpeedTest",
+				"desc": "测试 Cloudflare CDN 延迟和速度",
+				"logo": "default.ico"
+			},
+			{
 				"name": "免费内网穿透",
 				"href": "https://www.natfrp.com/user/",
 				"desc": "SAKURA FRP",
@@ -603,9 +603,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Github 文件加速",
+				"name": "Github 文件加速 ①",
 				"href": "https://ghproxy.com/",
 				"desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Github 文件加速 ②",
+				"href": "https://c.uk.cn.eu.org/",
+				"desc": "自搭建版",
 				"logo": "default.ico"
 			},
 			{
