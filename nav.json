@@ -973,6 +973,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "小米ROM下载",
+				"href": "https://xiaomirom.com/",
+				"desc": "小米所有线刷与卡刷固件",
+				"logo": "default.ico"
+			},
+			{
 				"name": "分应用屏幕旋转",
 				"href": "https://www.coolapk.com/apk/com.pranavpandey.rotation",
 				"desc": "自定义不同应用与规则下的屏幕方向",
