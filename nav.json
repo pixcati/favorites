@@ -773,6 +773,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "搜图神器",
+				"href": "https://www.logosc.cn/so/",
+				"desc": "免费版权图片一键搜索",
+				"logo": "default.ico"
+			},
+			{
 				"name": "必应壁纸",
 				"href": "https://bing.ioliu.cn/",
 				"desc": "必应历史美图、背景",
@@ -846,7 +852,13 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "激活 Windows ",
+				"name": "激活 Windows ①",
+				"href": "https://www.423down.com/1202.html",
+				"desc": "智能选择激活方式，同时可激活Office",
+				"logo": "default.ico"
+			},
+			{
+				"name": "激活 Windows ②",
 				"href": "https://g.uk.cn.eu.org/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
 				"desc": "Windows 数字激活工具，解压密码1234",
 				"logo": "default.ico"
@@ -1314,7 +1326,7 @@
 			},
 			{
 				"name": "免费看剧 ②",
-				"href": "https://www.coolapk.com/feed/21540393?shareKey=MzRjYTg5ZGIxNzU5NjBlNjhmOGU~&shareUid=1174882",
+				"href": "https://www.207788.xyz/8.html",
 				"desc": "白嫖各种影视资源",
 				"logo": "default.ico"
 			},
@@ -1678,7 +1690,7 @@
 			},
 			{
 				"name": "暗网网址大全",
-				"href": "https://cdn.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
+				"href": "https://fastly.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
 				"desc": "暗网网址大全",
 				"logo": "default.ico"
 			},
@@ -1696,7 +1708,7 @@
 			},
 			{
 				"name": "控制梦境",
-				"href": "https://cdn.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
+				"href": "https://fastly.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
 				"desc": "基础清醒梦、出体教程",
 				"logo": "default.ico"
 			},
@@ -1741,6 +1753,12 @@
 				"name": "发音转换器",
 				"href": "http://uahh.syouzyo.org/fyzhq",
 				"desc": "将中文的发音对应到外语发音",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Bongo Cat Mver",
+				"href": "https://www.bilibili.com/video/BV1d7411n71D",
+				"desc": "让你的桌面有一只猫猫",
 				"logo": "default.ico"
 			},
 			{
