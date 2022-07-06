@@ -398,7 +398,7 @@
 			},
 			{
 				"name": "图床 ⑤",
-				"href": "https://www.alphapic.org.cn/",
+				"href": "https://img.kinh.cc/",
 				"desc": "免费上传图片并获取外链",
 				"logo": "default.ico"
 			}
@@ -1551,6 +1551,12 @@
 			{
 				"name": "羊毛党之家",
 				"href": "https://yangmaodang.org/",
+				"desc": "薅羊毛",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MJJ导航",
+				"href": "https://www.mjjloc.com/",
 				"desc": "薅羊毛",
 				"logo": "default.ico"
 			},
