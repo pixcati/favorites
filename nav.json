@@ -144,9 +144,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "耳机戴反没有",
-				"href": "https://link.stdcdn.com/listen.mp4",
-				"desc": "左右声道测试以及哪边不响",
+				"name": "查看本地IP",
+				"href": "https://ip.skk.moe/",
+				"desc": "查询本地IPV4、IPV6或DNS",
 				"logo": "default.ico"
 			},
 			{
@@ -207,12 +207,6 @@
 				"name": "随机密码生成",
 				"href": "https://tool.ip138.com/rando0000000m/",
 				"desc": "随机密码生成",
-				"logo": "default.ico"
-			},
-			{
-				"name": "查看本地IP",
-				"href": "https://ipip.ooo/",
-				"desc": "查询本地IPV4、IPV6或DNS",
 				"logo": "default.ico"
 			},
 			{
@@ -664,6 +658,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "轻惋云野",
+				"href": "https://store.chainwon.com/",
+				"desc": "让你的收藏夹不再是孤岛",
+				"logo": "default.ico"
+			},
+			{
 				"name": "iMyShare",
 				"href": "https://imyshare.com/",
 				"desc": "实用导航",
@@ -731,7 +731,7 @@
 			},
 			{
 				"name": "LKS的网站推荐",
-				"href": "https://xiangjianan.gitee.io/lks/",
+				"href": "http://lkssite.vip/",
 				"desc": "良心网站推荐",
 				"logo": "default.ico"
 			}
@@ -982,6 +982,12 @@
 				"name": "境内外APK下载",
 				"href": "https://findappweb.com/",
 				"desc": "免代理下载谷歌市场上的APK",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AppShare",
+				"href": "https://appshare.muge.info/",
+				"desc": "APP分享",
 				"logo": "default.ico"
 			},
 			{
@@ -1786,7 +1792,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Bongo Cat Mver",
+				"name": "Bongo Cat",
 				"href": "https://www.bilibili.com/video/BV1d7411n71D",
 				"desc": "让你的桌面有一只猫猫",
 				"logo": "default.ico"
