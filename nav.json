@@ -1070,6 +1070,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "Android x86",
+				"href": "https://www.android-x86.org/releases.html",
+				"desc": "Android x86 镜像",
+				"logo": "default.ico"
+			},
+			{
 				"name": "黑苹果",
 				"href": "https://mackext.com/category/macos/",
 				"desc": "MacOS镜像",
