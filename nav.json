@@ -948,6 +948,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "ReXdl",
+				"href": "https://rexdl.com/",
+				"desc": "老外运营的安卓破解软件站",
+				"logo": "default.ico"
+			},
+			{
 				"name": "异次元软件世界",
 				"href": "https://www.iplaysoft.com/",
 				"desc": "高质量软件图文",
@@ -979,9 +985,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "境内外APK下载",
-				"href": "https://findappweb.com/",
-				"desc": "免代理下载谷歌市场上的APK",
+				"name": "境外APK下载",
+				"href": "https://9apps.fit/",
+				"desc": "免谷歌套件下载谷歌市场上的APK",
 				"logo": "default.ico"
 			},
 			{
