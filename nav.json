@@ -1015,6 +1015,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "搞机助手",
+				"href": "https://lsdy.top/gjzs ",
+				"desc": "搞机助手Win制版",
+				"logo": "default.ico"
+			},
+			{
 				"name": "搞机助手 R",
 				"href": "https://gjzsr.com/ ",
 				"desc": "搞机助手最新重制版",
@@ -1030,6 +1036,12 @@
 				"name": "VMOS Pro",
 				"href": "https://423down.lanzouo.com/b0f1fns7a ",
 				"desc": "获取新版本的VMOS Pro 解锁版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "两仪",
+				"href": "https://twoyi.app/zh/index.html ",
+				"desc": "一个轻量级的 Android 容器",
 				"logo": "default.ico"
 			}
 		]
@@ -1807,12 +1819,6 @@
 				"name": "Bongo Cat",
 				"href": "https://www.bilibili.com/video/BV1d7411n71D",
 				"desc": "让你的桌面有一只猫猫",
-				"logo": "default.ico"
-			},
-			{
-				"name": "jar游戏下载",
-				"href": "https://joyin-li.vercel.app/",
-				"desc": "jar游戏，在安卓上可以用 J2ME loader 跑着玩",
 				"logo": "default.ico"
 			},
 			{
