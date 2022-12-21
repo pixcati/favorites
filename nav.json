@@ -986,20 +986,32 @@
 			},
 			{
 				"name": "境外APK下载",
-				"href": "https://9apps.fit/",
+				"href": "https://softmany.com/cn/",
 				"desc": "免谷歌套件下载谷歌市场上的APK",
-				"logo": "default.ico"
-			},
-			{
-				"name": "AppShare",
-				"href": "https://appshare.muge.info/",
-				"desc": "APP分享",
 				"logo": "default.ico"
 			},
 			{
 				"name": "小米ROM下载",
 				"href": "https://xiaomirom.com/",
 				"desc": "小米所有线刷与卡刷固件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "手机安装Windows",
+				"href": "https://mindows.cn/",
+				"desc": "Mindows 工具箱",
+				"logo": "default.ico"
+			},
+			{
+				"name": "玩机资源合集",
+				"href": "http://wanji.jamcz.com/ ",
+				"desc": "adb、fastboot以及各厂商驱动与官方刷机包",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AppShare",
+				"href": "https://appshare.muge.info/",
+				"desc": "APP分享",
 				"logo": "default.ico"
 			},
 			{
@@ -1017,7 +1029,7 @@
 			{
 				"name": "搞机助手",
 				"href": "https://lsdy.top/gjzs ",
-				"desc": "搞机助手Win制版",
+				"desc": "搞机助手Win版",
 				"logo": "default.ico"
 			},
 			{
@@ -1846,7 +1858,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "在线小游戏合集 、",
+				"name": "在线小游戏合集 ",
 				"href": "https://poki.cn/",
 				"desc": "在线小游戏合集",
 				"logo": "default.ico"
