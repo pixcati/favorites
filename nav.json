@@ -537,13 +537,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "SSH 中转 ①",
-				"href": "https://heyterm.com/",
-				"desc": "加速及代理你的 SSH/RDP/VNC 连接，支持 ipv4 => v6",
-				"logo": "default.ico"
-			},
-			{
-				"name": "SSH 中转 ②",
+				"name": "SSH 中转",
 				"href": "https://console.ucloud.cn/upathx/globalssh",
 				"desc": "UCloud 提供 GlobalSSH 加速服务",
 				"logo": "default.ico"
@@ -564,6 +558,12 @@
 				"name": "纯净版宝塔面板",
 				"href": "https://www.hostcli.com/",
 				"desc": "去除验证码关闭活动推荐等 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "高仿宝塔面板",
+				"href": "https://g.uk.cn.eu.org/midoks/mdserver-web",
+				"desc": "根据宝塔UI重构的面板",
 				"logo": "default.ico"
 			},
 			{
@@ -612,12 +612,6 @@
 				"name": "CSS 筛选",
 				"href": "https://uncss-online.com/",
 				"desc": "滤出CSS中被使用的部分",
-				"logo": "default.ico"
-			},
-			{
-				"name": "JS 变萌",
-				"href": "https://utf-8.jp/public/aaencode.html",
-				"desc": "萌系的JS加密",
 				"logo": "default.ico"
 			}
 		]
@@ -987,7 +981,7 @@
 			{
 				"name": "境外APK下载",
 				"href": "https://softmany.com/cn/",
-				"desc": "免谷歌套件下载谷歌市场上的APK",
+				"desc": "免代理下载谷歌市场上的APK",
 				"logo": "default.ico"
 			},
 			{
@@ -1018,6 +1012,12 @@
 				"name": "分应用屏幕旋转",
 				"href": "https://www.coolapk.com/apk/com.pranavpandey.rotation",
 				"desc": "自定义不同应用与规则下的屏幕方向",
+				"logo": "default.ico"
+			},
+			{
+				"name": "存储空间隔离",
+				"href": "https://sr.rikka.app/zh-hans/",
+				"desc": "解决存储权限被滥用",
 				"logo": "default.ico"
 			},
 			{
@@ -1055,6 +1055,18 @@
 				"href": "https://twoyi.app/zh/index.html ",
 				"desc": "一个轻量级的 Android 容器",
 				"logo": "default.ico"
+			},
+			{
+				"name": "Termux",
+				"href": "https://f-droid.org/zh_Hans/packages/com.termux/ ",
+				"desc": "带软件包的终端模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Termux魔改版",
+				"href": "https://blog.utermux.dev/ut/download.html",
+				"desc": "ZeroTermux、uTermux等版本",
+				"logo": "default.ico"
 			}
 		]
 	},
@@ -1066,13 +1078,7 @@
 			{
 				"name": "常用镜像服务",
 				"href": "https://www.library.ac.cn/",
-				"desc": "镜像代理网站与开源软件镜像",
-				"logo": "default.ico"
-			},
-			{
-				"name": "LInux 发行版下载",
-				"href": "http://i.svvme.com/linux",
-				"desc": "加速下载Linux发行及分支版本",
+				"desc": "反向代理网站与开源软件镜像",
 				"logo": "default.ico"
 			},
 			{
@@ -1133,7 +1139,7 @@
 				"name": "开源镜像站汇总",
 				"href": "http://i.svvme.com/isos",
 				"desc": "开源镜像站",
-				"logo": "default.ico"
+				"logo": "default.ico"          
 			},
 			{
 				"name": "前端公共库汇总",
@@ -1368,8 +1374,14 @@
 			},
 			{
 				"name": "找高清电影",
-				"href": "https://hostloc.com/thread-595549-1-1.html",
+				"href": "https://p.uk.cn.eu.org/https/hostloc.com/thread-595549-1-1.html",
 				"desc": "整合找电影资源的姿势",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TVBox",
+				"href": "https://iui.su/175/",
+				"desc": "TVBox本体及配置源",
 				"logo": "default.ico"
 			},
 			{
@@ -1421,33 +1433,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "安逸影视导航",
-				"href": "https://anee.cc/",
-				"desc": "各类影视网站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "ZY Player 资源播放器",
-				"href": "http://zyplayer.fun/",
-				"desc": "跨平台视频资源播放器",
-				"logo": "default.ico"
-			},
-			{
-				"name": "免费爱奇艺账号",
+				"name": "爱奇艺共享账号",
 				"href": "http://www.zhanghao.cc/aiqiyihuiyuanzhanghao.html",
 				"desc": "爱奇艺、迅雷 共享账号",
 				"logo": "default.ico"
 			},
 			{
-				"name": "免费优酷账号",
+				"name": "优酷共享账号",
 				"href": "https://www.feiyuka.com/youku",
 				"desc": "爱奇艺、迅雷 共享账号",
-				"logo": "default.ico"
-			},
-			{
-				"name": "ViP部落",
-				"href": "http://www.vipbuluo.com/",
-				"desc": "腾讯优酷爱奇艺乐视搜狐芒果迅雷饿了么美团会员",
 				"logo": "default.ico"
 			}
 		]
@@ -1848,7 +1842,7 @@
 			{
 				"name": "Dolphin",
 				"href": "https://cn.dolphin-emu.org/",
-				"desc": "电脑玩Wii",
+				"desc": "海滩模拟器，电脑玩Wii",
 				"logo": "default.ico"
 			},
 			{
