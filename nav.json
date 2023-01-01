@@ -1294,24 +1294,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "综合可用节点 ①",
-				"href": "https://proxypoolss.fly.dev/",
-				"desc": "由程序自动抓取的各类节点",
-				"logo": "default.ico"
-			},
-			{
-				"name": "综合可用节点 ②",
-				"href": "http://42.194.196.226/",
-				"desc": "由程序自动抓取的各类节点",
-				"logo": "default.ico"
-			},
-			{
-				"name": "综合可用节点 ③",
-				"href": "http://wxshi.top:9090/",
-				"desc": "由程序自动抓取的各类节点",
-				"logo": "default.ico"
-			},
-			{
 				"name": "v2 免费节点",
 				"href": "https://g.uk.cn.eu.org/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 				"desc": "",
@@ -1357,12 +1339,6 @@
 				"name": "Jsproxy 在线代理",
 				"href": "https://proxy.justyy.com/",
 				"desc": "在线方式访问境外网站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "帮你谷歌",
-				"href": "https://js.svvme.com/",
-				"desc": "自搭建的在线代理",
 				"logo": "default.ico"
 			}
 		]
@@ -1852,15 +1828,33 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "Lemuroid",
+				"href": "https://f-droid.org/packages/com.swordfish.lemuroid/",
+				"desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
+				"logo": "default.ico"
+			},
+			{
 				"name": "植僵资源",
 				"href": "http://lonelystar.org/download.htm",
 				"desc": "植物大战僵尸僵尸各类版本，含破解",
 				"logo": "default.ico"
 			},
 			{
+				"name": "小霸王 ",
+				"href": "https://www.yikm.net/",
+				"desc": "在线玩FC、街机、GBA等",
+				"logo": "default.ico"
+			},
+			{
 				"name": "在线小游戏合集 ",
 				"href": "https://poki.cn/",
 				"desc": "在线小游戏合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "古墓丽影网页版 ",
+				"href": "http://xproger.info/projects/OpenLara/",
+				"desc": "Classic Tomb Raider open-source engine",
 				"logo": "default.ico"
 			},
 			{
