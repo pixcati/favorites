@@ -1840,6 +1840,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "在线FC ",
+				"href": "https://mklab.eu.org/FCGames/",
+				"desc": "JavaScript NES emulator",
+				"logo": "default.ico"
+			},
+			{
 				"name": "小霸王 ",
 				"href": "https://www.yikm.net/",
 				"desc": "在线玩FC、街机、GBA等",
@@ -1848,7 +1854,7 @@
 			{
 				"name": "在线小游戏合集 ",
 				"href": "https://poki.cn/",
-				"desc": "在线小游戏合集",
+				"desc": "在线H5游戏合集",
 				"logo": "default.ico"
 			},
 			{
