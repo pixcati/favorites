@@ -489,6 +489,12 @@
 		"icon": "csz czs-server-l",
 		"sites": [
 			{
+				"name": "在线定制OP固件",
+				"href": "https://supes.top/",
+				"desc": "定制您的OpenWrt固件",
+				"logo": "default.ico"
+			},
+			{
 				"name": "哪里域名便宜 ①",
 				"href": "https://www.nazhumi.com/",
 				"desc": "全球域名，一网比价",
@@ -865,7 +871,7 @@
 			},
 			{
 				"name": "获取免费 WPS",
-				"href": "http://pan.svvme.com/download/618d2314379d54002bc3fa72",
+				"href": "http://pan.svvme.com/d/OneDrive/%E8%BD%AF%E4%BB%B6/Win/%E5%A4%A7%E5%BA%86%E5%B8%82%E5%85%9A%E6%94%BF%E6%9C%BA%E5%85%B3%E4%B8%93%E7%89%88%20WPS%20Office2019_.exe?sign=7alcJIhTIghQcCoK2NZGhoD0KxfYit6sY_iO39ykIKs=:0",
 				"desc": "WPS党政机关专版",
 				"logo": "default.ico"
 			},
@@ -1427,15 +1433,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "爱奇艺共享账号",
-				"href": "http://www.zhanghao.cc/aiqiyihuiyuanzhanghao.html",
-				"desc": "爱奇艺、迅雷 共享账号",
-				"logo": "default.ico"
-			},
-			{
-				"name": "优酷共享账号",
-				"href": "https://www.feiyuka.com/youku",
-				"desc": "爱奇艺、迅雷 共享账号",
+				"name": "xiaoya的Alist",
+				"href": "http://alist.xiaoya.pro/",
+				"desc": "Alist",
 				"logo": "default.ico"
 			}
 		]
