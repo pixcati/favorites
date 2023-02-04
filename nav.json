@@ -331,15 +331,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "网盘导航",
-				"href": "https://www.wangpan.tech/",
-				"desc": "网盘导航网",
-				"logo": "default.ico"
-			},
-			{
-				"name": "百度网盘解析",
-				"href": "https://baidu.kinh.cc/",
-				"desc": "提取度盘分享链接的直链，可使用 IDM 加速下载",
+				"name": "KinhDown",
+				"href": "https://www.kinhdown.com/",
+				"desc": "突破度盘限速",
 				"logo": "default.ico"
 			},
 			{
@@ -355,15 +349,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "网盘变对象储存",
-				"href": "https://p.uk.cn.eu.org/https/v2ex.com/t/733854",
-				"desc": "Onedrive等变身对象储存、当cdn用",
+				"name": "Alist",
+				"href": "https://alist.nn.ci/zh/",
+				"desc": "支持多种存储的文件列表程序",
 				"logo": "default.ico"
 			},
 			{
-				"name": "星云网盘",
-				"href": "https://pan.2233yun.cn/",
-				"desc": "基于Cloudreve的小网盘",
+				"name": "目录列表程序整理",
+				"href": "https://wzfou.com/mulu-lists/",
+				"desc": "一个文件列表程序的整理",
 				"logo": "default.ico"
 			},
 			{
@@ -900,15 +894,21 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "QiuQuan's Blog",
-				"href": "http://www.qiuquan.cc/",
-				"desc": "精简 、优化 、 打包",
-				"logo": "default.ico"
-			},
-			{
 				"name": "423down",
 				"href": "https://www.423down.com/",
 				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "果核剥壳",
+				"href": "https://www.ghxi.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "QiuQuan's Blog",
+				"href": "http://www.qiuquan.cc/",
+				"desc": "精简 、优化 、 打包",
 				"logo": "default.ico"
 			},
 			{
@@ -939,12 +939,6 @@
 				"name": "吾爱分享",
 				"href": "https://52sharing.cn/",
 				"desc": "吾爱分享网",
-				"logo": "default.ico"
-			},
-			{
-				"name": "果核剥壳",
-				"href": "https://www.ghxi.com/",
-				"desc": "修改、汉化、绿色软件等",
 				"logo": "default.ico"
 			},
 			{
@@ -1100,12 +1094,6 @@
 		"icon": "csz czs-linux",
 		"sites": [
 			{
-				"name": "常用镜像服务",
-				"href": "https://www.library.ac.cn/",
-				"desc": "反向代理网站与开源软件镜像",
-				"logo": "default.ico"
-			},
-			{
 				"name": "MSDN",
 				"href": "https://msdn.itellyou.cn/",
 				"desc": "Windows 原版镜像、软件",
@@ -1161,7 +1149,7 @@
 			},
 			{
 				"name": "开源镜像站汇总",
-				"href": "http://i.svvme.com/isos",
+				"href": "",
 				"desc": "开源镜像站",
 				"logo": "default.ico"          
 			},
@@ -1185,7 +1173,7 @@
 			},
 			{
 				"name": "Docker国内镜像源",
-				"href": "http://i.svvme.com/docker-%e5%9b%bd%e5%86%85%e9%95%9c%e5%83%8f%e6%ba%90",
+				"href": "",
 				"desc": "国内镜像源",
 				"logo": "default.ico"
 			}
