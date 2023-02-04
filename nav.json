@@ -634,6 +634,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "帮小忙",
+				"href": "https://tool.browser.qq.com/",
+				"desc": "腾讯旗下的工具集", 
+				"logo": "default.ico"
+			},
+			{
 				"name": "彩虹工具",
 				"href": "http://tool.cccyun.cc/",
 				"desc": "彩虹工具网", 
