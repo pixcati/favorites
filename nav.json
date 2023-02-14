@@ -888,12 +888,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "微当下载",
-				"href": "https://www.weidown.com/",
-				"desc": "修改、汉化、精简软件等",
-				"logo": "default.ico"
-			},
-			{
 				"name": "423down",
 				"href": "https://www.423down.com/",
 				"desc": "修改、汉化、绿色软件等",
@@ -903,6 +897,18 @@
 				"name": "果核剥壳",
 				"href": "https://www.ghxi.com/",
 				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "abcapk",
+				"href": "https://abcapk.xyz/",
+				"desc": "安卓修改、破解软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "微当下载",
+				"href": "https://www.weidown.com/",
+				"desc": "修改、汉化、精简软件等",
 				"logo": "default.ico"
 			},
 			{
@@ -975,6 +981,12 @@
 				"name": "阿里云盘小白羊版",
 				"href": "https://g.svvme.com/liupan1890/aliyunpan",
 				"desc": "阿里云盘小白羊版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "QQ微信防撤回",
+				"href": "https://g.svvme.com/huiyadanli/RevokeMsgPatcher/wiki",
+				"desc": "PC微信QQ防撤回补丁",
 				"logo": "default.ico"
 			},
 			{
@@ -1455,12 +1467,6 @@
 				"name": "静然书屋",
 				"href": "https://books.andrewjr.wang/",
 				"desc": "图书分享",
-				"logo": "default.ico"
-			},
-			{
-				"name": "哔哩大学",
-				"href": "https://bilidx.nexmoe.com/",
-				"desc": "B站上的学习资源",
 				"logo": "default.ico"
 			},
 			{
