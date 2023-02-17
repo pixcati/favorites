@@ -1,10 +1,8 @@
-[
-	{
+[{
 		"_id": "fjkdasf1g1sb1",
 		"classify": "媒体工具",
 		"icon": "csz czs-play-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "消除图片背景",
 				"href": "https://www.remove.bg/zh",
 				"desc": "快速移除或替换图片背景",
@@ -136,8 +134,7 @@
 		"_id": "5ce000b954656",
 		"classify": "效率工具",
 		"icon": "csz czs-time-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "翻译神器",
 				"href": "https://www.deepl.com/translator",
 				"desc": "DeepL  靠谱的机器翻译",
@@ -305,8 +302,7 @@
 		"_id": "5c456gdhhdgd64",
 		"classify": "存储工具",
 		"icon": "csz czs-baiduwangpan",
-		"sites": [
-			{
+		"sites": [{
 				"name": "文件互传 ①",
 				"href": "https://app.tmp.link/",
 				"desc": "临时文件分享",
@@ -396,8 +392,7 @@
 		"_id": "5c456gdhhdgd64",
 		"classify": "检索工具",
 		"icon": "csz czs-search-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "国内用谷歌",
 				"href": "https://www.library.ac.cn/",
 				"desc": "可用谷歌镜像站",
@@ -481,8 +476,7 @@
 		"_id": "55fda05164",
 		"classify": "折腾工具",
 		"icon": "csz czs-server-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "在线定制OP固件",
 				"href": "https://supes.top/",
 				"desc": "定制您的OpenWrt固件",
@@ -620,8 +614,7 @@
 		"_id": "5cfaklkk5164",
 		"classify": "综合工具",
 		"icon": "csz czs-thumbs-up-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "MikuTools",
 				"href": "https://tools.miku.ac/",
 				"desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
@@ -630,13 +623,13 @@
 			{
 				"name": "帮小忙",
 				"href": "https://tool.browser.qq.com/",
-				"desc": "腾讯旗下的工具集", 
+				"desc": "腾讯旗下的工具集",
 				"logo": "default.ico"
 			},
 			{
 				"name": "彩虹工具",
 				"href": "http://tool.cccyun.cc/",
-				"desc": "彩虹工具网", 
+				"desc": "彩虹工具网",
 				"logo": "default.ico"
 			},
 			{
@@ -741,8 +734,7 @@
 		"_id": "5cJHU11032f4",
 		"classify": "视觉资源",
 		"icon": "csz czs-image-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "极简壁纸",
 				"href": "https://bz.zzzmh.cn/",
 				"desc": "",
@@ -838,8 +830,7 @@
 		"_id": "5cggsgrrr5164",
 		"classify": "软件资源",
 		"icon": "csz czs-download-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "获取最新 Chrome",
 				"href": "https://www.iplaysoft.com/tools/chrome/",
 				"desc": "获取最新谷歌浏览器",
@@ -972,16 +963,11 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "CE修改器",
-				"href": "https://www.ghxi.com/ce.html",
-				"desc": "Cheat Engine中文版",
-				"logo": "default.ico"
-			},
-			{
 				"name": "阿里云盘小白羊版",
 				"href": "https://g.svvme.com/liupan1890/aliyunpan",
 				"desc": "阿里云盘小白羊版",
 				"logo": "default.ico"
+
 			},
 			{
 				"name": "QQ微信防撤回",
@@ -998,11 +984,82 @@
 		]
 	},
 	{
+		"_id": "5cfdafadq0",
+		"classify": "游戏资源",
+		"icon": "csz csz czs-game-l",
+		"sites": [{
+			"name": "在线玩FC ",
+				"href": "https://mklab.eu.org/FCGames/",
+				"desc": "JavaScript NES emulator",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小霸王 ",
+				"href": "https://www.yikm.net/",
+				"desc": "在线玩FC、街机、GBA等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线小游戏合集 ",
+				"href": "https://poki.cn/",
+				"desc": "在线H5游戏合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Switch游戏资源 ",
+				"href": "https://xxxxx520.com/",
+				"desc": "Switch 520资源站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "古墓丽影网页版 ",
+				"href": "http://xproger.info/projects/OpenLara/",
+				"desc": "Classic Tomb Raider open-source engine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电脑玩Wii U",
+				"href": "https://www.iplaysoft.com/cemu.html",
+				"desc": "Wii U模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Dolphin",
+				"href": "https://cn.dolphin-emu.org/",
+				"desc": "Wii模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Lemuroid",
+				"href": "https://f-droid.org/zh_Hans/packages/com.swordfish.lemuroid/",
+				"desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Pcstory",
+				"href": "https://7zip.lanzoue.com/itgNi0nvsw8d",
+				"desc": "蘑菇游戏下载器，5.0版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "植僵资源",
+				"href": "http://lonelystar.org/download.htm",
+				"desc": "植物大战僵尸僵尸各类版本，含破解",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CE修改器",
+				"href": "https://www.ghxi.com/ce.html",
+				"desc": "Cheat Engine中文版",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
 		"_id": "542346fa6",
 		"classify": "安卓资源",
 		"icon": "csz czs-android",
-		"sites": [
-			{
+		"sites": [{
 				"name": "Magisk 资源分享",
 				"href": "https://magisk.suchenqaq.club/",
 				"desc": "Magisk 资源分享",
@@ -1116,8 +1173,7 @@
 		"_id": "3c64156afd015",
 		"classify": "镜像资源",
 		"icon": "csz czs-linux",
-		"sites": [
-			{
+		"sites": [{
 				"name": "MSDN",
 				"href": "https://msdn.itellyou.cn/",
 				"desc": "Windows 原版镜像、软件",
@@ -1175,7 +1231,7 @@
 				"name": "开源镜像站汇总",
 				"href": "",
 				"desc": "开源镜像站",
-				"logo": "default.ico"          
+				"logo": "default.ico"
 			},
 			{
 				"name": "前端公共库汇总",
@@ -1207,8 +1263,7 @@
 		"_id": "3c6302164656",
 		"classify": "WEB资源",
 		"icon": "csz czs-html5",
-		"sites": [
-			{
+		"sites": [{
 				"name": "文字首字母头像",
 				"href": "https://mkblog.cn/1886/",
 				"desc": "纯前端生成字母头像",
@@ -1316,8 +1371,7 @@
 		"_id": "5c637377734656",
 		"classify": "代理资源",
 		"icon": "csz czs-paper-plane-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "常见代理客户端",
 				"href": "https://r.svvme.com/%E5%B8%B8%E8%A7%81%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%88%E9%9B%86-01-18",
 				"desc": "常见的代理客户端，vmess、ssr或更多",
@@ -1383,8 +1437,7 @@
 		"_id": "5c60454844656",
 		"classify": "影视资源",
 		"icon": "csz czs-play-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "免费看剧",
 				"href": "https://iao.su/531/",
 				"desc": "白嫖各种影视资源",
@@ -1462,8 +1515,7 @@
 		"_id": "5c5456651009",
 		"classify": "学习资源",
 		"icon": "csz czs-bar-chart-l",
-		"sites": [
-			{
+		"sites": [{
 				"name": "静然书屋",
 				"href": "https://books.andrewjr.wang/",
 				"desc": "图书分享",
@@ -1517,8 +1569,7 @@
 		"_id": "5c6842444656",
 		"classify": "好站收藏",
 		"icon": "csz czs-rss",
-		"sites": [
-			{
+		"sites": [{
 				"name": "如有乐享",
 				"href": "https://51.ruyo.net/",
 				"desc": "分享是一种美德，是一种态度",
@@ -1644,8 +1695,7 @@
 		"_id": "5c51456534",
 		"classify": "博客收藏",
 		"icon": "csz czs-book",
-		"sites": [
-			{
+		"sites": [{
 				"name": "折影轻梦",
 				"href": "https://nexmoe.com/",
 				"desc": "折影轻梦",
@@ -1747,8 +1797,7 @@
 		"_id": "5c550114656",
 		"classify": "猎奇收藏",
 		"icon": "csz czs-taiji",
-		"sites": [
-			{
+		"sites": [{
 				"name": "音频能量场",
 				"href": "https://search.bilibili.com/all?keyword=Sapien%20Medicine",
 				"desc": "Sapien medicine",
@@ -1820,8 +1869,7 @@
 		"_id": "5c6007444656",
 		"classify": "有趣收藏",
 		"icon": "csz czs-block",
-		"sites": [
-			{
+		"sites": [{
 				"name": "发音转换器",
 				"href": "http://uahh.syouzyo.org/fyzhq",
 				"desc": "将中文的发音对应到外语发音",
@@ -1837,54 +1885,6 @@
 				"name": "Bongo Cat",
 				"href": "https://www.bilibili.com/video/BV1d7411n71D",
 				"desc": "让你的桌面有一只猫猫",
-				"logo": "default.ico"
-			},
-			{
-				"name": "电脑玩Wii U",
-				"href": "https://www.iplaysoft.com/cemu.html",
-				"desc": "Wii U模拟器",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Dolphin",
-				"href": "https://cn.dolphin-emu.org/",
-				"desc": "海滩模拟器，电脑玩Wii",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Lemuroid",
-				"href": "https://f-droid.org/zh_Hans/packages/com.swordfish.lemuroid/",
-				"desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
-				"logo": "default.ico"
-			},
-			{
-				"name": "植僵资源",
-				"href": "http://lonelystar.org/download.htm",
-				"desc": "植物大战僵尸僵尸各类版本，含破解",
-				"logo": "default.ico"
-			},
-			{
-				"name": "在线FC ",
-				"href": "https://mklab.eu.org/FCGames/",
-				"desc": "JavaScript NES emulator",
-				"logo": "default.ico"
-			},
-			{
-				"name": "小霸王 ",
-				"href": "https://www.yikm.net/",
-				"desc": "在线玩FC、街机、GBA等",
-				"logo": "default.ico"
-			},
-			{
-				"name": "在线小游戏合集 ",
-				"href": "https://poki.cn/",
-				"desc": "在线H5游戏合集",
-				"logo": "default.ico"
-			},
-			{
-				"name": "古墓丽影网页版 ",
-				"href": "http://xproger.info/projects/OpenLara/",
-				"desc": "Classic Tomb Raider open-source engine",
 				"logo": "default.ico"
 			},
 			{
@@ -1962,4 +1962,3 @@
 		]
 	}
 ]
-                                                                            
