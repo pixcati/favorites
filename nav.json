@@ -727,6 +727,12 @@
 				"href": "http://lkssite.vip/",
 				"desc": "良心网站推荐",
 				"logo": "default.ico"
+			},
+			{
+				"name": "快点搜",
+				"href": "https://quickso.cn/",
+				"desc": "",
+				"logo": "default.ico"
 			}
 		]
 	},
@@ -897,6 +903,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "ZAPRO",
+				"href": "https://tmioe.com/",
+				"desc": "修改、破解软件等",
+				"logo": "default.ico"
+			},
+			{
 				"name": "微当下载",
 				"href": "https://www.weidown.com/",
 				"desc": "修改、汉化、精简软件等",
@@ -1006,9 +1018,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Switch游戏资源 ",
+				"name": "NS游戏资源 ① ",
 				"href": "https://xxxxx520.com/",
 				"desc": "Switch 520资源站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "NS游戏资源 ②",
+				"href": "https://www.coolapk.com/feed/41244276?shareKey=ZWI0NTkwODBkZWUyNjQwYzk0MjI~",
+				"desc": "Switch 游戏资源",
 				"logo": "default.ico"
 			},
 			{
