@@ -1000,7 +1000,13 @@
 		"classify": "游戏资源",
 		"icon": "csz csz czs-game-l",
 		"sites": [{
-			"name": "在线玩FC ",
+				"name": "安卓NS模拟器 ",
+				"href": "https://www.bilibili.com/read/cv18207718",
+				"desc": "NS、PS2、PSV、3DS等模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线玩FC ",
 				"href": "https://mklab.eu.org/FCGames/",
 				"desc": "JavaScript NES emulator",
 				"logo": "default.ico"
@@ -1019,7 +1025,7 @@
 			},
 			{
 				"name": "NS游戏资源 ① ",
-				"href": "https://xxxxx520.com/",
+				"href": "https://www.gamer520.com/",
 				"desc": "Switch 520资源站",
 				"logo": "default.ico"
 			},
@@ -1093,6 +1099,12 @@
 				"name": "小米ROM下载",
 				"href": "https://xiaomirom.com/",
 				"desc": "小米所有线刷与卡刷固件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MIUI修改版桌面",
+				"href": "https://space.bilibili.com/324056528/video",
+				"desc": "一个修改版的MIUI桌面",
 				"logo": "default.ico"
 			},
 			{
