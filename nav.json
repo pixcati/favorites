@@ -1376,7 +1376,7 @@
 				"href": "https://litepress.cn/",
 				"desc": "WordPress 本土化",
 				"logo": "default.ico"
-			},
+			}, 
 			{
 				"name": "微信官方文档",
 				"href": "https://developers.weixin.qq.com/doc/",
@@ -1747,6 +1747,12 @@
 				"name": "笨猫博客",
 				"href": "https://www.nbmao.com/",
 				"desc": "笨猫博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MisakaNo の 小破站",
+				"href": "https://blog.misaka.rest/",
+				"desc": "MisakaNo の 小破站",
 				"logo": "default.ico"
 			},
 			{
