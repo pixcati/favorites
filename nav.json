@@ -28,14 +28,8 @@
 			},
 			{
 				"name": "B站视频下载 ②",
-				"href": "https://g.svvme.com/leiurayer/downkyi",
-				"desc": "哔哩下载姬",
-				"logo": "default.ico"
-			},
-			{
-				"name": "在线视频解析下载",
-				"href": "https://www.helloty.cn/",
-				"desc": "无水印下载抖音快手微博最右等平台视频",
+				"href": "http://zhouql.vip/bilibili/",
+				"desc": "B站视频在线下载",
 				"logo": "default.ico"
 			},
 			{
@@ -105,27 +99,21 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "在线图片编辑",
-				"href": "https://aipix.net/",
-				"desc": "AI抠图、滤镜、大小调整、剪裁等",
-				"logo": "default.ico"
-			},
-			{
 				"name": "快速抠图",
 				"href": "https://www.gaoding.com/koutu",
 				"desc": "实用在线抠图工具",
 				"logo": "default.ico"
 			},
 			{
-				"name": "AI 换脸",
-				"href": "https://reflect.tech/",
-				"desc": "基于AI的在线换脸",
+				"name": "Effidit",
+				"href": "https://effidit.qq.com/",
+				"desc": "腾讯出品的文字工具",
 				"logo": "default.ico"
 			},
 			{
-				"name": "AI头像生成",
-				"href": "https://waifulabs.com/",
-				"desc": "头像生成器",
+				"name": "ARC实验室",
+				"href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
+				"desc": "人像修复、人像抠图、动漫增强等",
 				"logo": "default.ico"
 			}
 		]
