@@ -721,6 +721,18 @@
 				"href": "https://quickso.cn/",
 				"desc": "",
 				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ①",
+				"href": "https://aibard123.com/?github",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ②",
+				"href": "https://www.aigc.cn/",
+				"desc": "AIGC工具集",
+				"logo": "default.ico"
 			}
 		]
 	},
