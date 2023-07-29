@@ -1906,15 +1906,15 @@
 		"classify": "有趣收藏",
 		"icon": "csz czs-block",
 		"sites": [{
-				"name": "发音转换器",
-				"href": "http://uahh.syouzyo.org/fyzhq",
-				"desc": "将中文的发音对应到外语发音",
-				"logo": "default.ico"
-			},
-			{
 				"name": "神奇海螺试验场",
 				"href": "https://lab.magiconch.com/",
 				"desc": "卜卜口大佬的整活",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Mikutap",
+				"href": "https://aidn.jp/mikutap/",
+				"desc": "Mikutap",
 				"logo": "default.ico"
 			},
 			{
