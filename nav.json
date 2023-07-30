@@ -1012,6 +1012,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "在线运行SWF ",
+				"href": "https://ruffle.rs/",
+				"desc": "在现代浏览器中玩转Flash",
+				"logo": "default.ico"
+			},
+			{
 				"name": "小霸王 ",
 				"href": "https://www.yikm.net/",
 				"desc": "在线玩FC、街机、GBA等",
@@ -1021,6 +1027,18 @@
 				"name": "在线小游戏合集 ",
 				"href": "https://poki.cn/",
 				"desc": "在线H5游戏合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Java游戏小站 ",
+				"href": "https://java.owoemu.com/",
+				"desc": "Java游戏资源集合",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Flashpoint",
+				"href": "https://flashpointarchive.org/",
+				"desc": "Flash档案馆，游戏与动画",
 				"logo": "default.ico"
 			},
 			{
