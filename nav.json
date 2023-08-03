@@ -1636,6 +1636,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "优质盒子",
+				"href": "https://uzbox.com/",
+				"desc": "优质盒子",
+				"logo": "default.ico"
+			},
+			{
 				"name": "发现频道",
 				"href": "https://meta.appinn.net/c/faxian",
 				"desc": "小众软件的发现频道",
@@ -1735,6 +1741,12 @@
 				"name": "云盘资源共享",
 				"href": "https://ypfx.club/",
 				"desc": "云盘资源分享",
+				"logo": "default.ico"
+			},
+			{
+				"name": "偷懒爱好者周刊",
+				"href": "https://toolight.zhubai.love/",
+				"desc": "偷懒爱好者周刊",
 				"logo": "default.ico"
 			}
 		]
