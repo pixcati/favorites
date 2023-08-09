@@ -207,7 +207,13 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "获取境外号卡",
+				"name": "获取境外号卡 ①",
+				"href": "https://mutou.men/posts/2023-7-26-%E5%9B%BD%E5%A4%96%E6%89%8B%E6%9C%BA%E5%8D%A1%E6%B1%87%E6%80%BB/",
+				"desc": "中国大陆可用境外SIM卡",
+				"logo": "default.ico"
+			},
+			{
+				"name": "获取境外号卡 ②",
 				"href": "https://owomoe.net/dev/175.html",
 				"desc": "中国大陆可用境外SIM卡",
 				"logo": "default.ico"
