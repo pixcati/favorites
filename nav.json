@@ -358,25 +358,13 @@
 			},
 			{
 				"name": "图床 ②",
-				"href": "https://imagelol.com/",
-				"desc": "免费上传图片并获取外链",
-				"logo": "default.ico"
-			},
-			{
-				"name": "图床 ③",
 				"href": "https://www.superbed.cn/",
 				"desc": "免费上传图片并获取外链",
 				"logo": "default.ico"
 			},
 			{
-				"name": "图床 ④",
+				"name": "图床 ③",
 				"href": "https://imgchr.com/",
-				"desc": "免费上传图片并获取外链",
-				"logo": "default.ico"
-			},
-			{
-				"name": "图床 ⑤",
-				"href": "https://img.kinh.cc/",
 				"desc": "免费上传图片并获取外链",
 				"logo": "default.ico"
 			}
