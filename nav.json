@@ -115,6 +115,12 @@
 				"href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
 				"desc": "人像修复、人像抠图、动漫增强等",
 				"logo": "default.ico"
+			},
+			{
+				"name": "Clipdrop",
+				"href": "https://clipdrop.co/",
+				"desc": "AI绘画、图片脑补、背景替换去除、图片去字等",
+				"logo": "default.ico"
 			}
 		]
 	},
