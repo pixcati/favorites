@@ -483,9 +483,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "在线扒站工具",
-				"href": "https://bazhan.me/",
-				"desc": "打包下载网页内的 HTML/CSS/JS 资源",
+				"name": "网页历史快照",
+				"href": "https://web.archive.org/",
+				"desc": "Wayback Machine",
 				"logo": "default.ico"
 			},
 			{
@@ -502,7 +502,7 @@
 			},
 			{
 				"name": "一键内核网络加速",
-				"href": "https://g.svvme.com/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
+				"href": "https://github-cdn.pages.dev/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
 				"desc": "为服务器启用BBR、锐速以及魔改版加速",
 				"logo": "default.ico"
 			},
@@ -544,7 +544,7 @@
 			},
 			{
 				"name": "高仿宝塔面板",
-				"href": "https://g.svvme.com/midoks/mdserver-web",
+				"href": "https://github-cdn.pages.dev/midoks/mdserver-web",
 				"desc": "根据宝塔UI重构的面板",
 				"logo": "default.ico"
 			},
@@ -562,7 +562,7 @@
 			},
 			{
 				"name": "CloudFlare 优选IP",
-				"href": "https://g.svvme.com/XIU2/CloudflareSpeedTest",
+				"href": "https://github-cdn.pages.dev/XIU2/CloudflareSpeedTest",
 				"desc": "测试 Cloudflare CDN 延迟和速度",
 				"logo": "default.ico"
 			},
@@ -639,8 +639,8 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "轻惋云野",
-				"href": "https://store.chainwon.com/",
+				"name": "漫游云野",
+				"href": "https://roam.mixcm.com/",
 				"desc": "让你的收藏夹不再是孤岛",
 				"logo": "default.ico"
 			},
@@ -724,7 +724,7 @@
 			},
 			{
 				"name": "AI工具导航 ①",
-				"href": "https://aibard123.com/?github",
+				"href": "https://aibard123.com/ ",
 				"desc": "AI工具导航",
 				"logo": "default.ico"
 			},
@@ -856,7 +856,7 @@
 			},
 			{
 				"name": "激活 Windows ②",
-				"href": "https://g.svvme.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
+				"href": "https://github-cdn.pages.dev/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
 				"desc": "Windows 数字激活工具，解压密码1234",
 				"logo": "default.ico"
 			},
@@ -976,14 +976,14 @@
 			},
 			{
 				"name": "阿里云盘小白羊版",
-				"href": "https://g.svvme.com/liupan1890/aliyunpan",
+				"href": "https://github-cdn.pages.dev/liupan1890/aliyunpan",
 				"desc": "阿里云盘小白羊版",
 				"logo": "default.ico"
 
 			},
 			{
 				"name": "QQ微信防撤回",
-				"href": "https://g.svvme.com/huiyadanli/RevokeMsgPatcher/wiki",
+				"href": "https://github-cdn.pages.dev/huiyadanli/RevokeMsgPatcher/wiki",
 				"desc": "PC微信QQ防撤回补丁",
 				"logo": "default.ico"
 			},
@@ -1139,7 +1139,7 @@
 			},
 			{
 				"name": "GSI镜像列表",
-				"href": "https://g.svvme.com/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
+				"href": "https://github-cdn.pages.dev/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
 				"desc": "GSI通用刷机包、DSU Loader",
 				"logo": "default.ico"
 			},
@@ -1433,31 +1433,31 @@
 			},
 			{
 				"name": "v2 免费节点",
-				"href": "https://g.svvme.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+				"href": "https://github-cdn.pages.dev/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "v2 订阅源",
-				"href": "https://g.svvme.com/ssrsub/ssr/raw/master/V2Ray",
+				"href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/V2Ray",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "Clash 订阅源",
-				"href": "https://g.svvme.com/ssrsub/ssr/raw/master/Clash.yml",
+				"href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/Clash.yml",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "ss 免费节点",
-				"href": "https://g.svvme.com/ssrsub/ssr/raw/master/ssrsub",
+				"href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/ssrsub",
 				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "蓝灯最新版本",
-				"href": "https://g.svvme.com/getlantern/lantern/blob/devel/README.md",
+				"href": "https://github-cdn.pages.dev/getlantern/lantern/blob/devel/README.md",
 				"desc": "Lantern 多平台最新版本聚合",
 				"logo": "default.ico"
 			},
@@ -1505,13 +1505,13 @@
 			},
 			{
 				"name": "M3U8直播源",
-				"href": "https://g.svvme.com/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
+				"href": "https://github-cdn.pages.dev/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
 				"desc": "电脑、手机看电视的平台整理",
 				"logo": "default.ico"
 			},
 			{
 				"name": "TV直播网站合辑",
-				"href": "https://g.svvme.com/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
+				"href": "https://github-cdn.pages.dev/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
 				"desc": "电脑、手机看电视的平台整理",
 				"logo": "default.ico"
 			},
@@ -1571,7 +1571,7 @@
 			},
 			{
 				"name": "编程随想的图书收藏",
-				"href": "https://g.svvme.com/programthink/books/blob/master/README.wiki",
+				"href": "https://github-cdn.pages.dev/programthink/books/blob/master/README.wiki",
 				"desc": "网友收藏的电子书清单",
 				"logo": "default.ico"
 			},
