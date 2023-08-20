@@ -381,18 +381,6 @@
 		"classify": "检索工具",
 		"icon": "csz czs-search-l",
 		"sites": [{
-				"name": "国内用谷歌",
-				"href": "https://www.library.ac.cn/",
-				"desc": "可用谷歌镜像站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "网盘搜索",
-				"href": "https://www.chaonengso.com/",
-				"desc": "搜索不同的网盘",
-				"logo": "default.ico"
-			},
-			{
 				"name": "资源搜索",
 				"href": "https://iao.su/3700/",
 				"desc": "搜索不同类别的资源",
@@ -454,7 +442,7 @@
 			},
 			{
 				"name": "F搜",
-				"href": "https://fsou.cc/",
+				"href": "https://fsoufsou.com/",
 				"desc": "F搜",
 				"logo": "default.ico"
 			}
