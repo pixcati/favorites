@@ -891,6 +891,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "分享迷",
+				"href": "https://www.fenxm.com/",
+				"desc": "安卓TV软件、修改、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
 				"name": "ZAPRO",
 				"href": "https://tmioe.com/",
 				"desc": "修改、破解软件等",
@@ -924,18 +930,6 @@
 				"name": "易破解",
 				"href": "https://www.ypojie.com/",
 				"desc": "修改、汉化、绿色软件等",
-				"logo": "default.ico"
-			},
-			{
-				"name": "分享者",
-				"href": "https://www.sharerw.com/",
-				"desc": "修改、汉化、绿色软件等",
-				"logo": "default.ico"
-			},
-			{
-				"name": "吾爱分享",
-				"href": "https://52sharing.cn/",
-				"desc": "吾爱分享网",
 				"logo": "default.ico"
 			},
 			{
@@ -1492,6 +1486,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "TVBox 配置源",
+				"href": "https://www.lige.fit/",
+				"desc": "TVBox源仓库与接口",
+				"logo": "default.ico"
+			},
+			{
+				"name": "调试助手",
+				"href": "https://www.fenxm.com/854.html",
+				"desc": "TVBox二开版本，可导入源",
+				"logo": "default.ico"
+			},
+			{
 				"name": "M3U8直播源",
 				"href": "https://github-cdn.pages.dev/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
 				"desc": "电脑、手机看电视的平台整理",
@@ -1507,12 +1513,6 @@
 				"name": "直播源格式转换",
 				"href": "https://guihet.com/tvlistconvert.html",
 				"desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
-				"logo": "default.ico"
-			},
-			{
-				"name": "VIP视频解析",
-				"href": "https://www.xixicai.top/",
-				"desc": "白嫖影视资源",
 				"logo": "default.ico"
 			},
 			{
