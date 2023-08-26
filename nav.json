@@ -121,6 +121,12 @@
 				"href": "https://clipdrop.co/",
 				"desc": "AI绘画、图片脑补、背景替换去除、图片去字等",
 				"logo": "default.ico"
+			},
+			{
+				"name": "动漫图片超分辨率",
+				"href": "https://real-cugan.animesales.xyz/",
+				"desc": "Real-CUGAN借助本地算力为你无损放大动漫图片",
+				"logo": "default.ico"
 			}
 		]
 	},
@@ -915,8 +921,8 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "zd423",
-				"href": "https://www.zdfans.com/",
+				"name": "PC软件库",
+				"href": "https://www.pcoof.com/",
 				"desc": "修改、汉化、绿色软件等",
 				"logo": "default.ico"
 			},
@@ -1480,6 +1486,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "Alist站点集",
+				"href": "https://www.pcoof.com/295.html",
+				"desc": "Alist",
+				"logo": "default.ico"
+			},
+			{
 				"name": "TVBox",
 				"href": "https://iui.su/175/",
 				"desc": "TVBox本体及配置源",
@@ -1524,25 +1536,13 @@
 			{
 				"name": "下次一定",
 				"href": "https://www.iiice.cn/",
-				"desc": "影视资源合集",
+				"desc": "影视资源导航",
 				"logo": "default.ico"
 			},
 			{
 				"name": "磁力云播",
 				"href": "https://magnet.pages.dev/",
 				"desc": "在线解析磁力或种子",
-				"logo": "default.ico"
-			},
-			{
-				"name": "片库",
-				"href": "https://www.btnull.in/",
-				"desc": "片库",
-				"logo": "default.ico"
-			},
-			{
-				"name": "xiaoya的Alist",
-				"href": "http://alist.xiaoya.pro/",
-				"desc": "Alist",
 				"logo": "default.ico"
 			}
 		]
@@ -1750,12 +1750,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "小俊博客",
-				"href": "https://www.xjisme.com/",
-				"desc": "小俊博客",
-				"logo": "default.ico"
-			},
-			{
 				"name": "Rat's Blog",
 				"href": "https://www.moerats.com/",
 				"desc": "Rat's Blog",
@@ -1843,6 +1837,12 @@
 				"name": "Dimpurr",
 				"href": "http://blog.dimpurr.com/",
 				"desc": "钉子の次元",
+				"logo": "default.ico"
+			},
+			{
+				"name": "V's Blog",
+				"href": "https://vofficial233.com/",
+				"desc": "Vofficial",
 				"logo": "default.ico"
 			}
 		]
