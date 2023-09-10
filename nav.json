@@ -141,6 +141,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "翻译图中文字",
+				"href": "https://cotrans.touhou.ai/",
+				"desc": "一键翻译各类图片内文字",
+				"logo": "default.ico"
+			},
+			{
 				"name": "查看本地IP",
 				"href": "https://ip.skk.moe/",
 				"desc": "查询本地IPV4、IPV6或DNS",
@@ -209,7 +215,7 @@
 			{
 				"name": "公共DNS大全",
 				"href": "https://dns.iui.im/",
-				"desc": "常用、小众或地方    DNS",
+				"desc": "常用、小众或地方DNS",
 				"logo": "default.ico"
 			},
 			{
@@ -234,12 +240,6 @@
 				"name": "在线方格纸打印",
 				"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
 				"desc": "在线自定义打印多种类型的方格纸",
-				"logo": "default.ico"
-			},
-			{
-				"name": "文字转语音",
-				"href": "https://ghproxy.com/https://github.com/ag2s20150909/TTS/releases/download/0.2_202202092159/TTS_release_v0.2_202202092159.apk",
-				"desc": "基于微软接口制作的TTS软件",
 				"logo": "default.ico"
 			},
 			{
