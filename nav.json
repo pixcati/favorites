@@ -208,7 +208,7 @@
 			},
 			{
 				"name": "随机密码生成",
-				"href": "https://tool.ip138.com/rando0000000m/",
+				"href": "https://www.wotianna.com/password/",
 				"desc": "随机密码生成",
 				"logo": "default.ico"
 			},
@@ -226,7 +226,7 @@
 			},
 			{
 				"name": "获取境外号卡 ①",
-				"href": "https://mutou.men/posts/2023-7-26-%E5%9B%BD%E5%A4%96%E6%89%8B%E6%9C%BA%E5%8D%A1%E6%B1%87%E6%80%BB/",
+				"href": "https://mutou.men/posts/2023-07-26-国外手机卡汇总/",
 				"desc": "中国大陆可用境外SIM卡",
 				"logo": "default.ico"
 			},
@@ -651,8 +651,20 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "优聚集",
+				"href": "https://ujuji.com/",
+				"desc": "实用导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "OneGO导航",
+				"href": "https://ionego.net/",
+				"desc": "网盘、网站收集",
+				"logo": "default.ico"
+			},
+			{
 				"name": "CXY521",
-				"href": "http://www.cxy521.com/",
+				"href": "http://tooool.org/",
 				"desc": "程序员导航-CXY521",
 				"logo": "default.ico"
 			},
@@ -689,7 +701,7 @@
 			{
 				"name": "哆啦A梦的神奇口袋",
 				"href": "https://baozangku.com/",
-				"desc": "哆啦A梦的神奇口袋",
+				"desc": "永硕E盘下的某列表",
 				"logo": "default.ico"
 			},
 			{
@@ -856,7 +868,7 @@
 			},
 			{
 				"name": "获取纯净的Flash",
-				"href": "https://www.ghxi.com/cleanflashplayer.html",
+				"href": "https://www.52pojie.cn/thread-1535805-1-1.html",
 				"desc": "纯净并去除了限制",
 				"logo": "default.ico"
 			},
@@ -864,6 +876,12 @@
 				"name": "恢复文件与数据",
 				"href": "https://www.disktool.cn/recovery/winfr.html",
 				"desc": "微软出品恢复工具的可视化版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "我天哪",
+				"href": "https://www.wotianna.com/",
+				"desc": "软件导航",
 				"logo": "default.ico"
 			},
 			{
@@ -939,24 +957,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Androeed",
-				"href": "https://androeed.cn/",
-				"desc": "国外安卓破解软件站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "5APPS",
-				"href": "https://5-app.ru/",
-				"desc": "国外安卓破解软件站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "5Play",
-				"href": "https://5play.org/",
-				"desc": "国外安卓破解软件站",
-				"logo": "default.ico"
-			},
-			{
 				"name": "异次元软件世界",
 				"href": "https://www.iplaysoft.com/",
 				"desc": "高质量软件图文",
@@ -967,6 +967,13 @@
 				"href": "https://zh.snipaste.com/",
 				"desc": "Snipaste是一款优秀的截图工具",
 				"logo": "default.ico"
+			},
+			{
+				"name": "阿里云盘小白羊版",
+				"href": "https://github-cdn.pages.dev/liupan1890/aliyunpan",
+				"desc": "阿里云盘小白羊版",
+				"logo": "default.ico"
+
 			},
 			{
 				"name": "QQ微信防撤回",
@@ -1036,7 +1043,7 @@
 			},
 			{
 				"name": "NS游戏资源 ②",
-				"href": "https://pan.quark.cn/s/ee141a36ca3a#/list/share",
+				"href": "https://www.coolapk.com/feed/41244276?shareKey=ZWI0NTkwODBkZWUyNjQwYzk0MjI~",
 				"desc": "Switch 游戏资源",
 				"logo": "default.ico"
 			},
