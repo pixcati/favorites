@@ -219,6 +219,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "开发者速查表",
+				"href": "https://devhints.io/",
+				"desc": "Devhints",
+				"logo": "default.ico"
+			},
+			{
 				"name": "网页上都是简体",
 				"href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
 				"desc": "网页上的繁体字都替换为简体",
@@ -711,12 +717,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "快点搜",
-				"href": "https://quickso.cn/",
-				"desc": "",
-				"logo": "default.ico"
-			},
-			{
 				"name": "AI工具导航 ①",
 				"href": "https://aibard123.com/ ",
 				"desc": "AI工具导航",
@@ -868,7 +868,7 @@
 			},
 			{
 				"name": "获取纯净的Flash",
-				"href": "https://www.52pojie.cn/thread-1535805-1-1.html",
+				"href": "https://www.ghxi.com/cleanflashplayer.html",
 				"desc": "纯净并去除了限制",
 				"logo": "default.ico"
 			},
@@ -876,6 +876,12 @@
 				"name": "恢复文件与数据",
 				"href": "https://www.disktool.cn/recovery/winfr.html",
 				"desc": "微软出品恢复工具的可视化版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "二次寒树",
+				"href": "https://echs.top/",
+				"desc": "优质的软件和工具导航",
 				"logo": "default.ico"
 			},
 			{
@@ -1795,12 +1801,6 @@
 				"name": "好鸭",
 				"href": "https://haoduck.com/",
 				"desc": "好鸭",
-				"logo": "default.ico"
-			},
-			{
-				"name": "卜卜口",
-				"href": "https://mouto.org/",
-				"desc": "卜卜口",
 				"logo": "default.ico"
 			},
 			{
