@@ -1420,8 +1420,14 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "订阅源转换",
+				"name": "订阅源转换 ①",
 				"href": "https://sub-web.netlify.app/",
+				"desc": "使你的代理订阅支持更多客户端",
+				"logo": "default.ico"
+			},
+			{
+				"name": "订阅源转换 ②",
+				"href": "http://id9.cc/",
 				"desc": "使你的代理订阅支持更多客户端",
 				"logo": "default.ico"
 			},
