@@ -219,9 +219,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "开发者速查表",
+				"name": "开发者速查表 ①",
 				"href": "https://devhints.io/",
 				"desc": "Devhints",
+				"logo": "default.ico"
+			},
+			{
+				"name": "开发者速查表②",
+				"href": "https://wangchujiang.com/reference/",
+				"desc": "Quick Reference",
 				"logo": "default.ico"
 			},
 			{
@@ -621,12 +627,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Tooleyes",
-				"href": "https://www.tooleyes.com/",
-				"desc": "实用利器聚合",
-				"logo": "default.ico"
-			},
-			{
 				"name": "脚本之家在线工具",
 				"href": "http://tools.jb51.net/",
 				"desc": "脚本之家提供的在线工具",
@@ -654,12 +654,6 @@
 				"name": "Creative Mass",
 				"href": "https://creativemass.cn/",
 				"desc": "精选创意导航",
-				"logo": "default.ico"
-			},
-			{
-				"name": "优聚集",
-				"href": "https://ujuji.com/",
-				"desc": "实用导航",
 				"logo": "default.ico"
 			},
 			{
@@ -699,9 +693,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Qtools在线工具",
-				"href": "https://www.qtool.net/",
-				"desc": "实用利器聚合",
+				"name": "在线工具箱",
+				"href": "https://moeyy.cn/tool/",
+				"desc": "在线工具箱",
 				"logo": "default.ico"
 			},
 			{
@@ -1714,12 +1708,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "乐云主机笔记",
-				"href": "https://www.letcloud.cn/",
-				"desc": "乐云主机笔记",
-				"logo": "default.ico"
-			},
-			{
 				"name": "JIKE",
 				"href": "https://jike.info/",
 				"desc": "JIKE",
@@ -1744,9 +1732,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "云盘资源共享",
-				"href": "https://ypfx.club/",
-				"desc": "云盘资源分享",
+				"name": "Moeyy APP",
+				"href": "https://moeyy.cn/app",
+				"desc": "Moeyy APP",
 				"logo": "default.ico"
 			},
 			{
@@ -1792,6 +1780,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "笨猫博客",
+				"href": "https://www.nbmao.com/",
+				"desc": "笨猫博客",
+				"logo": "default.ico"
+			},
+			{
 				"name": "MisakaNo の 小破站",
 				"href": "https://blog.misaka.rest/",
 				"desc": "MisakaNo の 小破站",
@@ -1801,12 +1795,6 @@
 				"name": "好鸭",
 				"href": "https://haoduck.com/",
 				"desc": "好鸭",
-				"logo": "default.ico"
-			},
-			{
-				"name": "后宫学长",
-				"href": "https://haremu.com/",
-				"desc": "后宫学长",
 				"logo": "default.ico"
 			},
 			{
