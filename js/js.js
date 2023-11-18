@@ -260,10 +260,10 @@
 			 [t._v("我的网盘")]), n("a", {
 				 
 				 attrs: {
-                    href: "https://github.com/geekape/geek-navigation"
+                    href: "./new.html"
                 }
             },
-			 [t._v("源码")]), n("a", {
+			 [t._v("简版")]), n("a", {
 				 
 			 
 				 attrs: {
