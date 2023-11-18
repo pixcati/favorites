@@ -1120,6 +1120,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "MIUI主题国际站",
+				"href": "https://www.miuithemer.com/",
+				"desc": "下载国际版 MIUI 主题MTZ文件",
+				"logo": "default.ico"
+			},
+			{
 				"name": "手机安装Windows",
 				"href": "https://mindows.cn/",
 				"desc": "Mindows 工具箱",
@@ -1498,9 +1504,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "Alist站点集",
+				"name": "Alist站点集 ①",
 				"href": "https://www.pcoof.com/295.html",
-				"desc": "Alist",
+				"desc": "Alist 站点整理列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Alist站点集 ②",
+				"href": "https://www.bilibili.com/read/mobile?id=23374971",
+				"desc": "Alist 站点整理列表",
 				"logo": "default.ico"
 			},
 			{
