@@ -1,163 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Modern Tree-like Navigation</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" href="favicon.ico" />
+	<title>我的收藏</title>
+	<meta name="description" content="网站仅作为个人网络书签，不构成工具网站或导航" />
 
-    body {
-      font-family: 'Roboto', sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-      margin: 20px;
-      display: flex;
-      justify-content: center;
-      animation: fadeIn 0.8s ease; /* Fade-in animation */
-    }
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #f4f4f4;
+			color: #000;
+			margin: 20px;
+			display: flex;
+			justify-content: center;
+			animation: fadeIn 0.8s ease;
+			/* Fade-in animation */
+		}
 
-    ul {
-      list-style-type: none;
-    }
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
 
-    li {
-      margin-bottom: 10px;
-    }
+			to {
+				opacity: 1;
+			}
+		}
 
-    .category-title {
-      text-decoration: none;
-      color: #3f51b5;
-      font-weight: bold;
-      font-size: 22px;
-      cursor: pointer;
-      border-bottom: 2px solid #3f51b5;
-      padding: 10px 0;
-      display: inline-block;
-      transition: border-bottom 0.3s ease;
-    }
+		ul {
+			list-style-type: none;
+		}
 
-    .category-title:hover {
-      border-bottom: 2px solid #303f9f;
-    }
+		li {
+			margin-bottom: 10px;
+		}
 
-    .category-content {
-      display: block;
-      margin-left: 20px;
-    }
+		.category-title {
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 22px;
+			cursor: pointer;
+			border-bottom: 2px solid #000;
+			padding: 10px 0;
+			display: inline-block;
+			transition: border-bottom 0.3s ease;
+		}
 
-    .site {
-      padding: 10px;
-      font-size: 18px;
-      background-color: #fff;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      margin-bottom: 10px;
-      border-radius: 5px;
-      cursor: pointer;
-      transform: translate(0, 0);
-      transition: box-shadow 0.3s ease, transform 0.3s ease;
-      animation: cardAnimation 1s ease; /* Card animation */
-    }
 
-    @keyframes cardAnimation {
-      0% {
-        transform: translate(0, 20px);
-        opacity: 0;
-      }
-      100% {
-        transform: translate(0, 0);
-        opacity: 1;
-      }
-    }
+		.category-content {
+			display: block;
+			padding: 15px 0;
+			margin-left: 20px;
+		}
 
-    .site:hover {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transform: scale(1.02);
-    }
+		.site {
+			padding: 12px;
+			font-size: 18px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			margin-bottom: 10px;
+			cursor: pointer;
+			transform: translate(0, 0);
+			transition: box-shadow 0.3s ease, transform 0.3s ease;
+			animation: cardAnimation 1s ease;
+			/* Card animation */
+		}
 
-    .site-desc {
-      color: #666;
-      font-size: 16px;
-      margin-top: 5px;
-    }
+		@keyframes cardAnimation {
+			0% {
+				transform: translate(0, 20px);
+				opacity: 0;
+			}
 
-    a {
-      text-decoration: none;
-      color: #3f51b5;
-    }
-  </style>
+			100% {
+				transform: translate(0, 0);
+				opacity: 1;
+			}
+		}
+
+		.site:hover {
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+			transform: scale(1.02);
+		}
+
+		.site-desc {
+			color: #666;
+			font-size: 16px;
+			margin-top: 5px;
+		}
+
+		a {
+			text-decoration: none;
+			font-weight: 600;
+		}
+	</style>
 </head>
 <body>
-  <ul id="siteTree"></ul>
+	<ul id="siteTree"></ul>
+	
 
-  <script>
-    fetch('nav.json')
-      .then(response => response.json())
-      .then(jsonData => {
-        const siteTree = document.getElementById('siteTree');
+	<script>
+		fetch('nav.json')
+			.then(response => response.json())
+			.then(jsonData => {
+				const siteTree = document.getElementById('siteTree');
 
-        function createSiteTree(parentNode, categories) {
-          const ul = document.createElement('ul');
+				function createSiteTree(parentNode, categories) {
+					const ul = document.createElement('ul');
 
-          categories.forEach(category => {
-            const li = document.createElement('li');
-            const categoryTitle = document.createElement('a');
-            categoryTitle.className = 'category-title';
-            categoryTitle.href = '#'; // You can link to a specific category page if needed
-            categoryTitle.textContent = category.classify;
-            categoryTitle.addEventListener('click', () => {
-              const content = li.querySelector('.category-content');
-              content.style.display = (content.style.display === 'none' || content.style.display === '') ? 'block' : 'none';
-            });
-            li.appendChild(categoryTitle);
+					categories.forEach(category => {
+						const li = document.createElement('li');
+						const categoryTitle = document.createElement('a');
+						categoryTitle.className = 'category-title';
+						categoryTitle.href = '#'; // You can link to a specific category page if needed
+						categoryTitle.textContent = category.classify;
+						categoryTitle.addEventListener('click', () => {
+							const content = li.querySelector('.category-content');
+							content.style.display = (content.style.display === 'none' || content.style
+								.display === '') ? 'block' : 'none';
+						});
+						li.appendChild(categoryTitle);
 
-            if (category.sites && category.sites.length > 0) {
-              const categoryContent = document.createElement('div');
-              categoryContent.className = 'category-content';
+						if (category.sites && category.sites.length > 0) {
+							const categoryContent = document.createElement('div');
+							categoryContent.className = 'category-content';
 
-              category.sites.forEach(site => {
-                const siteDiv = document.createElement('div');
-                siteDiv.className = 'site';
+							category.sites.forEach(site => {
+								const siteDiv = document.createElement('div');
+								siteDiv.className = 'site';
 
-                const siteLink = document.createElement('a');
-                siteLink.href = site.href;
-                siteLink.textContent = site.name;
-                siteLink.target = '_blank'; // Open in a new tab
+								siteDiv.addEventListener('click', () => {
+									window.open(site.href, '_blank');
+								});
 
-                const siteDesc = document.createElement('div');
-                siteDesc.className = 'site-desc';
-                siteDesc.textContent = site.desc;
+								const siteLink = document.createElement('a');
+								siteLink.textContent = site.name;
+								siteLink.target = '_blank'; // Open in a new tab
 
-                siteDiv.appendChild(siteLink);
-                siteDiv.appendChild(siteDesc);
-                categoryContent.appendChild(siteDiv);
-              });
+								const siteDesc = document.createElement('div');
+								siteDesc.className = 'site-desc';
+								siteDesc.textContent = site.desc;
 
-              li.appendChild(categoryContent);
-            }
+								siteDiv.appendChild(siteLink);
+								siteDiv.appendChild(siteDesc);
+								categoryContent.appendChild(siteDiv);
+							});
 
-            ul.appendChild(li);
-          });
+							li.appendChild(categoryContent);
+						}
 
-          parentNode.appendChild(ul);
-        }
+						ul.appendChild(li);
+					});
 
-        createSiteTree(siteTree, jsonData);
-      })
-      .catch(error => console.error('Error fetching JSON:', error));
-  </script>
+					parentNode.appendChild(ul);
+				}
+
+				createSiteTree(siteTree, jsonData);
+			})
+			.catch(error => console.error('Error fetching JSON:', error));
+	</script>
 </body>
 </html>
