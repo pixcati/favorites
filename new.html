@@ -17,7 +17,6 @@
 		body {
 			font-family: 'Roboto', sans-serif;
 			background-color: #f4f4f4;
-			color: #000;
 			margin: 20px;
 			display: flex;
 			justify-content: center;
@@ -46,6 +45,7 @@
 		.category-title {
 			text-decoration: none;
 			font-weight: bold;
+			color: #000;
 			font-size: 22px;
 			cursor: pointer;
 			border-bottom: 2px solid #000;
@@ -57,8 +57,7 @@
 
 		.category-content {
 			display: block;
-			padding: 15px 0;
-			margin-left: 20px;
+			padding: 15px 10px;
 		}
 
 		.site {
@@ -108,65 +107,66 @@
 	<ul id="siteTree"></ul>
 	
 
-	<script>
-		fetch('nav.json')
-			.then(response => response.json())
-			.then(jsonData => {
-				const siteTree = document.getElementById('siteTree');
-
-				function createSiteTree(parentNode, categories) {
-					const ul = document.createElement('ul');
-
-					categories.forEach(category => {
-						const li = document.createElement('li');
-						const categoryTitle = document.createElement('a');
-						categoryTitle.className = 'category-title';
-						categoryTitle.href = '#'; // You can link to a specific category page if needed
-						categoryTitle.textContent = category.classify;
-						categoryTitle.addEventListener('click', () => {
-							const content = li.querySelector('.category-content');
-							content.style.display = (content.style.display === 'none' || content.style
-								.display === '') ? 'block' : 'none';
-						});
-						li.appendChild(categoryTitle);
-
-						if (category.sites && category.sites.length > 0) {
-							const categoryContent = document.createElement('div');
-							categoryContent.className = 'category-content';
-
-							category.sites.forEach(site => {
-								const siteDiv = document.createElement('div');
-								siteDiv.className = 'site';
-
-								siteDiv.addEventListener('click', () => {
-									window.open(site.href, '_blank');
-								});
-
-								const siteLink = document.createElement('a');
-								siteLink.textContent = site.name;
-								siteLink.target = '_blank'; // Open in a new tab
-
-								const siteDesc = document.createElement('div');
-								siteDesc.className = 'site-desc';
-								siteDesc.textContent = site.desc;
-
-								siteDiv.appendChild(siteLink);
-								siteDiv.appendChild(siteDesc);
-								categoryContent.appendChild(siteDiv);
-							});
-
-							li.appendChild(categoryContent);
-						}
-
-						ul.appendChild(li);
-					});
-
-					parentNode.appendChild(ul);
-				}
-
-				createSiteTree(siteTree, jsonData);
-			})
-			.catch(error => console.error('Error fetching JSON:', error));
-	</script>
+	 <script>
+	        fetch('nav.json')
+	            .then(response => response.json())
+	            .then(jsonData => {
+	                const siteTree = document.getElementById('siteTree');
+	
+	                function createSiteTree(parentNode, categories) {
+	                    const ul = document.createElement('ul');
+	
+	                    categories.forEach(category => {
+	                        const li = document.createElement('li');
+	                        const categoryTitle = document.createElement('a');
+	                        categoryTitle.className = 'category-title';
+	                        categoryTitle.href = '#';
+	                        categoryTitle.textContent = category.classify;
+	
+	                        categoryTitle.addEventListener('click', () => {
+	                            const content = li.querySelector('.category-content');
+	                            content.style.display = (content.style.display === 'none') ? 'block' : 'none';
+	                        });
+	
+	                        li.appendChild(categoryTitle);
+	
+	                        if (category.sites && category.sites.length > 0) {
+	                            const categoryContent = document.createElement('div');
+	                            categoryContent.className = 'category-content';
+	
+	                            category.sites.forEach(site => {
+	                                const siteDiv = document.createElement('div');
+	                                siteDiv.className = 'site';
+	
+	                                siteDiv.addEventListener('click', () => {
+	                                    window.open(site.href, '_blank');
+	                                });
+	
+	                                const siteLink = document.createElement('a');
+	                                siteLink.textContent = site.name;
+	                                siteLink.target = '_blank';
+	
+	                                const siteDesc = document.createElement('div');
+	                                siteDesc.className = 'site-desc';
+	                                siteDesc.textContent = site.desc;
+	
+	                                siteDiv.appendChild(siteLink);
+	                                siteDiv.appendChild(siteDesc);
+	                                categoryContent.appendChild(siteDiv);
+	                            });
+	
+	                            li.appendChild(categoryContent);
+	                        }
+	
+	                        ul.appendChild(li);
+	                    });
+	
+	                    parentNode.appendChild(ul);
+	                }
+	
+	                createSiteTree(siteTree, jsonData);
+	            })
+	            .catch(error => console.error('Error fetching JSON:', error));
+	    </script>
 </body>
 </html>
