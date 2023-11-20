@@ -556,7 +556,7 @@
 			},
 			{
 				"name": "VPS可视化管理",
-				"href": "https://www.jianshu.com/p/23e11fdc598f",
+				"href": "https://i.svvme.com/vps-ke-shi-hua-guan-li",
 				"desc": "类似宝塔、LNMP等同类软件聚合 ",
 				"logo": "default.ico"
 			},
@@ -831,15 +831,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "下载与白嫖 Office",
+				"name": "下载与白嫖 office",
 				"href": "https://otp.landian.vip/zh-cn/",
 				"desc": "多版本 office 安装与激活",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Adobe系列下载",
-				"href": "http://adobe.v404.cn/adobe/",
-				"desc": "网盘获取Adobe系列软件",
 				"logo": "default.ico"
 			},
 			{
@@ -1504,12 +1498,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "找高清电影",
-				"href": "https://p.uk.cn.eu.org/https/hostloc.com/thread-595549-1-1.html",
-				"desc": "整合找电影资源的姿势",
-				"logo": "default.ico"
-			},
-			{
 				"name": "Alist站点集 ①",
 				"href": "https://www.pcoof.com/295.html",
 				"desc": "Alist 站点整理列表",
@@ -1588,12 +1576,6 @@
 		"classify": "学习资源",
 		"icon": "csz czs-bar-chart-l",
 		"sites": [{
-				"name": "静然书屋",
-				"href": "https://books.andrewjr.wang/",
-				"desc": "图书分享",
-				"logo": "default.ico"
-			},
-			{
 				"name": "编程随想的图书收藏",
 				"href": "https://github-cdn.pages.dev/programthink/books/blob/master/README.wiki",
 				"desc": "网友收藏的电子书清单",
