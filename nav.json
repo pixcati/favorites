@@ -1462,9 +1462,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "蓝灯最新版本",
-				"href": "https://github-cdn.pages.dev/getlantern/lantern/blob/devel/README.md",
-				"desc": "Lantern 多平台最新版本聚合",
+				"name": "WGCF",
+				"href": "https://github-cdn.pages.dev/yonggekkk/warp-yg",
+				"desc": "Cloudflare Warp WireGuard",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wokers Vless",
+				"href": "https://github-cdn.pages.dev/yonggekkk/Cloudflare-workers-pages-vless",
+				"desc": "Cloudflare Wokers Vless",
 				"logo": "default.ico"
 			},
 			{
@@ -1477,12 +1483,6 @@
 				"name": "在线提取代理IP",
 				"href": "https://ip.ihuan.me/",
 				"desc": "在线提取代理IP",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Jsproxy 在线代理",
-				"href": "https://proxy.justyy.com/",
-				"desc": "在线方式访问境外网站",
 				"logo": "default.ico"
 			}
 		]
