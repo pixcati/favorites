@@ -1,172 +1,205 @@
 <!DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" href="favicon.ico" />
-	<link rel="apple-touch-icon" href="favicon.ico" />
-	<title>我的收藏</title>
-	<meta name="description" content="网站仅作为个人网络书签，不构成工具网站或导航" />
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="apple-touch-icon" href="favicon.ico" />
+		<title>我的收藏</title>
+		<meta name="description" content="网站仅作为个人网络书签，不构成工具网站或导航" />
 
-	<style>
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
-
-		body {
-			font-family: 'Roboto', sans-serif;
-			background-color: #f4f4f4;
-			margin: 20px;
-			display: flex;
-			justify-content: center;
-			animation: fadeIn 0.8s ease;
-			/* Fade-in animation */
-		}
-
-		@keyframes fadeIn {
-			from {
-				opacity: 0;
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
 			}
 
-			to {
-				opacity: 1;
-			}
-		}
-
-		ul {
-			list-style-type: none;
-		}
-
-		li {
-			margin-bottom: 10px;
-		}
-
-		.category-title {
-			text-decoration: none;
-			font-weight: bold;
-			color: #000;
-			font-size: 22px;
-			cursor: pointer;
-			border-bottom: 2px solid #000;
-			padding: 10px 0;
-			display: inline-block;
-			transition: border-bottom 0.3s ease;
-		}
-
-
-		.category-content {
-			display: block;
-			padding: 15px 10px;
-		}
-
-		.site {
-			padding: 12px;
-			font-size: 18px;
-			background-color: #fff;
-			border-radius: 5px;
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-			margin-bottom: 10px;
-			cursor: pointer;
-			transform: translate(0, 0);
-			transition: box-shadow 0.3s ease, transform 0.3s ease;
-			animation: cardAnimation 0.8s ease;
-			/* Card animation */
-		}
-
-		@keyframes cardAnimation {
-			0% {
-				transform: translate(0, 20px);
-				opacity: 0;
+			body {
+				font-family: 'Roboto', sans-serif;
+				background-color: #f4f4f4;
+				margin: 20px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				animation: fadeIn 0.8s ease;
+				/* Fade-in animation */
 			}
 
-			100% {
+			@keyframes fadeIn {
+				from {
+					opacity: 0;
+				}
+
+				to {
+					opacity: 1;
+				}
+			}
+
+			ul {
+				list-style-type: none;
+			}
+
+			li {
+				margin-bottom: 10px;
+			}
+
+			.category-title {
+				text-decoration: none;
+				font-weight: bold;
+				color: #000;
+				font-size: 22px;
+				cursor: pointer;
+				border-bottom: 2px solid #000;
+				padding: 10px 0;
+				display: inline-block;
+				transition: border-bottom 0.3s ease;
+			}
+
+			.category-content {
+				display: block;
+				padding: 15px 10px;
+			}
+
+			.site {
+				padding: 14px;
+				font-size: 18px;
+				background-color: #fff;
+				border-radius: 10px;
+				box-shadow: 0 0 1rem rgba(161, 177, 204, 0.4);
+				margin-bottom: 10px;
+				cursor: pointer;
 				transform: translate(0, 0);
-				opacity: 1;
+				transition: box-shadow 0.3s ease, transform 0.3s ease;
+				animation: cardAnimation 0.8s ease;
+				/* Card animation */
 			}
-		}
 
-		.site:hover {
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-			transform: scale(1.02);
-		}
+			@keyframes cardAnimation {
+				0% {
+					transform: translate(0, 20px);
+					opacity: 0;
+				}
 
-		.site-desc {
-			color: #666;
-			font-size: 16px;
-			margin-top: 5px;
-		}
+				100% {
+					transform: translate(0, 0);
+					opacity: 1;
+				}
+			}
 
-		a {
-			text-decoration: none;
-			font-weight: 600;
-		}
-	</style>
-</head>
-<body>
-	<ul id="siteTree"></ul>
-	
+			.site:hover {
+				box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+				transform: scale(1.02);
+			}
 
-	 <script>
-	        fetch('nav.json')
-	            .then(response => response.json())
-	            .then(jsonData => {
-	                const siteTree = document.getElementById('siteTree');
-	
-	                function createSiteTree(parentNode, categories) {
-	                    const ul = document.createElement('ul');
-	
-	                    categories.forEach(category => {
-	                        const li = document.createElement('li');
-	                        const categoryTitle = document.createElement('a');
-	                        categoryTitle.className = 'category-title';
-	                        categoryTitle.href = '#';
-	                        categoryTitle.textContent = category.classify;
-	
-	                        categoryTitle.addEventListener('click', () => {
-	                            const content = li.querySelector('.category-content');
-	                            content.style.display = (content.style.display === 'none') ? 'block' : 'none';
-	                        });
-	
-	                        li.appendChild(categoryTitle);
-	
-	                        if (category.sites && category.sites.length > 0) {
-	                            const categoryContent = document.createElement('div');
-	                            categoryContent.className = 'category-content';
-	
-	                            category.sites.forEach(site => {
-	                                const siteDiv = document.createElement('div');
-	                                siteDiv.className = 'site';
-	
-	                                siteDiv.addEventListener('click', () => {
-	                                    window.open(site.href, '_blank');
-	                                });
-	
-	                                const siteLink = document.createElement('a');
-	                                siteLink.textContent = site.name;
-	                                siteLink.target = '_blank';
-	
-	                                const siteDesc = document.createElement('div');
-	                                siteDesc.className = 'site-desc';
-	                                siteDesc.textContent = site.desc;
-	
-	                                siteDiv.appendChild(siteLink);
-	                                siteDiv.appendChild(siteDesc);
-	                                categoryContent.appendChild(siteDiv);
-	                            });
-	
-	                            li.appendChild(categoryContent);
-	                        }
-	
-	                        ul.appendChild(li);
-	                    });
-	
-	                    parentNode.appendChild(ul);
-	                }
-	
-	                createSiteTree(siteTree, jsonData);
-	            })
-	            .catch(error => console.error('Error fetching JSON:', error));
-	    </script>
-</body>
+			.site-desc {
+				color: #666;
+				font-size: 16px;
+				margin-top: 5px;
+			}
+
+			a {
+				text-decoration: none;
+				font-weight: 600;
+			}
+
+
+			header,
+			footer {
+				text-align: center;
+				padding: 25px 20px;
+				line-height: 25px;
+			}
+
+			footer {
+				color: #666;
+			}
+			
+			footer a {
+				color:#2196f3;
+			}
+
+			header h1 {
+				font-size: 32px;
+				line-height: 32px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>
+			<svg t="1700476996404" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3050" width="32" height="32"><path d="M511.449009 213.858462a179.278769 179.278769 0 1 1 0 358.557538 179.278769 179.278769 0 0 1 0-358.557538z m393.294769 179.357538A393.294769 393.294769 0 1 0 182.036086 608.098462l294.203077 392.270769a39.384615 39.384615 0 0 0 70.498462 0l294.754461-392.270769c39.699692-61.912615 63.251692-135.483077 63.251692-214.882462z" fill="#1296db" p-id="3051"></path></svg>
+				<script>const currentDomain=window.location.hostname;document.write(`${currentDomain}`);</script></h1>
+		</header>
+
+		<ul id="siteTree"></ul>
+
+		<footer>
+			<p>&copy; 我的收藏</p>
+			<a href="index.html">标准版</a>
+		</footer>
+
+		<script>
+			fetch('nav.json')
+				.then(response => response.json())
+				.then(jsonData => {
+					const siteTree = document.getElementById('siteTree');
+
+					function createSiteTree(parentNode, categories) {
+						const ul = document.createElement('ul');
+
+						categories.forEach(category => {
+							const li = document.createElement('li');
+							const categoryTitle = document.createElement('a');
+							categoryTitle.className = 'category-title';
+							categoryTitle.href = '#';
+							categoryTitle.textContent = category.classify;
+
+							categoryTitle.addEventListener('click', () => {
+								const content = li.querySelector('.category-content');
+								content.style.display = (content.style.display === 'none') ? 'block' :
+								'none';
+							});
+
+							li.appendChild(categoryTitle);
+
+							if (category.sites && category.sites.length > 0) {
+								const categoryContent = document.createElement('div');
+								categoryContent.className = 'category-content';
+
+								category.sites.forEach(site => {
+									const siteDiv = document.createElement('div');
+									siteDiv.className = 'site';
+
+									siteDiv.addEventListener('click', () => {
+										window.open(site.href, '_blank');
+									});
+
+									const siteLink = document.createElement('a');
+									siteLink.textContent = site.name;
+									siteLink.target = '_blank';
+
+									const siteDesc = document.createElement('div');
+									siteDesc.className = 'site-desc';
+									siteDesc.textContent = site.desc;
+
+									siteDiv.appendChild(siteLink);
+									siteDiv.appendChild(siteDesc);
+									categoryContent.appendChild(siteDiv);
+								});
+
+								li.appendChild(categoryContent);
+							}
+
+							ul.appendChild(li);
+						});
+
+						parentNode.appendChild(ul);
+					}
+
+					createSiteTree(siteTree, jsonData);
+				})
+				.catch(error => console.error('Error fetching JSON:', error));
+		</script>
+	</body>
 </html>
