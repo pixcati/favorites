@@ -333,6 +333,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "局域网互传网页版",
+				"href": "https://snapdrop.net/",
+				"desc": "局域网内设备通过此网页进行互传",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网络剪切板",
+				"href": "https://netcut.cn/",
+				"desc": "快速传送全格式文件与存储文本",
+				"logo": "default.ico"
+			},
+			{
 				"name": "文件传输助手",
 				"href": "https://filehelper.weixin.qq.com/",
 				"desc": "微信文件传输助手网页版",
