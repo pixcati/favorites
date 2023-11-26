@@ -1120,7 +1120,13 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "境外APK下载",
+				"name": "境外APK下载 ①",
+				"href": "https://www.apkmirror.com/",
+				"desc": "ApkMirror",
+				"logo": "default.ico"
+			},
+			{
+				"name": "境外APK下载 ②",
 				"href": "https://softmany.com/cn/",
 				"desc": "免代理下载谷歌市场上的APK",
 				"logo": "default.ico"
