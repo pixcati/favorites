@@ -837,6 +837,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "Adobe系列下载",
+				"href": "http://adobe.v404.cn/adobe/",
+				"desc": "网盘获取Adobe系列软件",
+				"logo": "default.ico"
+			},
+			{
 				"name": "激活 Windows ①",
 				"href": "https://www.423down.com/1202.html",
 				"desc": "智能选择激活方式，同时可激活Office",
@@ -1406,7 +1412,7 @@
 				"href": "https://litepress.cn/",
 				"desc": "WordPress 本土化",
 				"logo": "default.ico"
-			}, 
+			},
 			{
 				"name": "微信官方文档",
 				"href": "https://developers.weixin.qq.com/doc/",
