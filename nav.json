@@ -4,7 +4,7 @@
 		"icon": "csz czs-play-l",
 		"sites": [{
 				"name": "消除图片背景",
-				"href": "https://www.remove.bg/zh",
+				"href": "https://bgsub.cn/",
 				"desc": "快速移除或替换图片背景",
 				"logo": "default.ico"
 			},
@@ -64,8 +64,8 @@
 			},
 			{
 				"name": "YouTube 视频下载 ①",
-				"href": "http://ssyoutube.com/",
-				"desc": "在线获取 YouTube 视频",
+				"href": "https://cobalt.tools/",
+				"desc": "在线获取 YouTube 视频", 
 				"logo": "default.ico"
 			},
 			{
@@ -144,6 +144,12 @@
 				"name": "翻译图中文字",
 				"href": "https://cotrans.touhou.ai/",
 				"desc": "一键翻译各类图片内文字",
+				"logo": "default.ico"
+			},
+			{
+				"name": "从图片提取文字",
+				"href": "https://i.svvme.com/ocr-wen-zi-shi-bie-gong-ju",
+				"desc": "OCR文字识别",
 				"logo": "default.ico"
 			},
 			{
@@ -264,24 +270,6 @@
 				"name": "在线 Markdown 编辑 ②",
 				"href": "https://tools.miku.ac/markdown/",
 				"desc": "Markdown 编辑",
-				"logo": "default.ico"
-			},
-			{
-				"name": "从图片提取文字 ①",
-				"href": "https://zh.pickfrom.net/png2text",
-				"desc": "OCR文字识别",
-				"logo": "default.ico"
-			},
-			{
-				"name": "从图片提取文字 ②",
-				"href": "https://tools.miku.ac/ocr/",
-				"desc": "OCR文字识别",
-				"logo": "default.ico"
-			},
-			{
-				"name": "从图片提取文字 ③",
-				"href": "https://web.baimiaoapp.com/",
-				"desc": "OCR文字识别",
 				"logo": "default.ico"
 			},
 			{
@@ -1301,7 +1289,7 @@
 			},
 			{
 				"name": "开源镜像站汇总",
-				"href": "",
+				"href": "https://mirrors.quickso.cn/",
 				"desc": "开源镜像站",
 				"logo": "default.ico"
 			},
@@ -1322,7 +1310,7 @@
 				"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
 				"desc": "国内线路下载JDK、Tomcat",
 				"logo": "default.ico"
-			},
+			},  
 			{
 				"name": "Docker镜像",
 				"href": "https://51.ruyo.net/18416.html",
