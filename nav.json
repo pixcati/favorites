@@ -471,6 +471,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "老毛子APP",
+				"href": "https://www.right.com.cn/forum/thread-4088564-1-1.html",
+				"desc": "为Padavan固件适配的APP",
+				"logo": "default.ico"
+			},
+			{
 				"name": "哪里域名便宜 ①",
 				"href": "https://www.nazhumi.com/",
 				"desc": "全球域名，一网比价",
@@ -537,7 +543,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "纯净版宝塔面板",
+				"name": "魔改版宝塔面板",
 				"href": "https://www.hostcli.com/",
 				"desc": "去除验证码关闭活动推荐等 ",
 				"logo": "default.ico"
@@ -963,28 +969,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "截图神器",
-				"href": "https://zh.snipaste.com/",
-				"desc": "Snipaste是一款优秀的截图工具",
-				"logo": "default.ico"
-			},
-			{
-				"name": "阿里云盘小白羊版",
-				"href": "https://github-cdn.pages.dev/liupan1890/aliyunpan",
-				"desc": "阿里云盘小白羊版",
-				"logo": "default.ico"
-
-			},
-			{
 				"name": "QQ微信防撤回",
 				"href": "https://github-cdn.pages.dev/huiyadanli/RevokeMsgPatcher/wiki",
 				"desc": "PC微信QQ防撤回补丁",
-				"logo": "default.ico"
-			},
-			{
-				"name": "老毛子APP",
-				"href": "https://www.right.com.cn/forum/thread-4088564-1-1.html",
-				"desc": "为Padavan固件适配的APP",
 				"logo": "default.ico"
 			}
 		]
@@ -1582,6 +1569,24 @@
 		"classify": "学习资源",
 		"icon": "csz czs-bar-chart-l",
 		"sites": [{
+				"name": "反向词典",
+				"href": "https://wantwords.net/",
+				"desc": "使用描述检索词语或查找近反义词",
+				"logo": "default.ico"
+			},
+			{
+				"name": "据意查句",
+				"href": "https://wantquotes.net/",
+				"desc": "根据描述查找相应的名言名句",
+				"logo": "default.ico"
+			},
+			{
+				"name": "高质量网站集",
+				"href": "https://i.svvme.com/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
+				"desc": "探索互联网上的高质量内容",
+				"logo": "default.ico"
+			},
+			{
 				"name": "编程随想的图书收藏",
 				"href": "https://github-cdn.pages.dev/programthink/books/blob/master/README.wiki",
 				"desc": "网友收藏的电子书清单",
@@ -1710,12 +1715,6 @@
 			{
 				"name": "羊毛党之家",
 				"href": "https://yangmaodang.org/",
-				"desc": "薅羊毛",
-				"logo": "default.ico"
-			},
-			{
-				"name": "MJJ导航",
-				"href": "https://www.mjjloc.com/",
 				"desc": "薅羊毛",
 				"logo": "default.ico"
 			},
