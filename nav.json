@@ -81,6 +81,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "文字转AI语音 ①",
+				"href": "https://www.modelscope.cn/studios/xzjosh/Bert-VITS2/",
+				"desc": "一个基于VITS的语音合成Demo合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字转AI语音 ②",
+				"href": "https://www.text-to-speech.cn/",
+				"desc": "基于微软Azure语音合成的第三方工具",
+				"logo": "default.ico"
+			},
+			{
 				"name": "在线格式转换 ①",
 				"href": "https://www.alltoall.net/",
 				"desc": "免费的在线格式转换工具",
@@ -135,9 +147,9 @@
 		"classify": "效率工具",
 		"icon": "csz czs-time-l",
 		"sites": [{
-				"name": "翻译神器",
-				"href": "https://www.deepl.com/translator",
-				"desc": "DeepL  靠谱的机器翻译",
+				"name": "沉浸式翻译",
+				"href": "https://immersivetranslate.com/",
+				"desc": "双语对照网页翻译",
 				"logo": "default.ico"
 			},
 			{
@@ -969,6 +981,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "截图神器",
+				"href": "https://pixpinapp.com/",
+				"desc": "PixXin支持截取动图、贴图、长截图、OCR等功能",
+				"logo": "default.ico"
+			},
+			{
 				"name": "QQ微信防撤回",
 				"href": "https://github-cdn.pages.dev/huiyadanli/RevokeMsgPatcher/wiki",
 				"desc": "PC微信QQ防撤回补丁",
@@ -1080,7 +1098,7 @@
 	},
 	{
 		"_id": "542346fa6",
-		"classify": "安卓资源",
+		"classify": "玩机资源",
 		"icon": "csz czs-android",
 		"sites": [{
 				"name": "Magisk 资源分享",
@@ -1098,6 +1116,12 @@
 				"name": "境外APK下载 ②",
 				"href": "https://softmany.com/cn/",
 				"desc": "免代理下载谷歌市场上的APK",
+				"logo": "default.ico"
+			},
+			{
+				"name": "IPA软件下载",
+				"href": "https://i.svvme.com/ipa-ge-shi-ruan-jian-xia-zai",
+				"desc": "下载适用于iOS的IPA软件",
 				"logo": "default.ico"
 			},
 			{
@@ -1125,7 +1149,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "玩机资源合集",
+				"name": "安卓玩机合集",
 				"href": "http://wanji.jamcz.com/ ",
 				"desc": "adb、fastboot以及各厂商驱动与官方刷机包",
 				"logo": "default.ico"
@@ -1164,6 +1188,12 @@
 				"name": "梦魇兽",
 				"href": "https://nightmare.press/ ",
 				"desc": "梦魇兽的个人中心",
+				"logo": "default.ico"
+			},
+			{
+				"name": "巨魔 2 ",
+				"href": "https://www.52pojie.cn/thread-1862815-1-1.html",
+				"desc": "通过TrollStore免越狱安装IPA",
 				"logo": "default.ico"
 			},
 			{
