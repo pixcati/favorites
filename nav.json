@@ -733,6 +733,12 @@
 				"href": "https://www.aigc.cn/",
 				"desc": "AIGC工具集",
 				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ③",
+				"href": "https://www.naviai.cn/",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
 			}
 		]
 	},
@@ -1528,8 +1534,14 @@
 			},
 			{
 				"name": "Alist站点集 ②",
-				"href": "https://www.bilibili.com/read/mobile?id=23374971",
+				"href": "https://i.svvme.com/alist-zhan-dian-ji",
 				"desc": "Alist 站点整理列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "盒子地窖",
+				"href": "http://m.wmsio.cn/",
+				"desc": "安卓TV软件、TVBox衍生版本等",
 				"logo": "default.ico"
 			},
 			{
