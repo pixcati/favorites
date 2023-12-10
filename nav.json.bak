@@ -147,6 +147,12 @@
 		"classify": "效率工具",
 		"icon": "csz czs-time-l",
 		"sites": [{
+				"name": "ChatGPT镜像站",
+				"href": "https://dongsiqie.me/chatgpt",
+				"desc": "免费的ChatGPT镜像网站，有少量的Plus会员",
+				"logo": "default.ico"
+			},
+			{
 				"name": "沉浸式翻译",
 				"href": "https://immersivetranslate.com/",
 				"desc": "双语对照网页翻译",
@@ -684,6 +690,12 @@
 				"name": "CXY521",
 				"href": "http://www.cxy521.com/",
 				"desc": "程序员导航-CXY521",
+				"logo": "default.ico"
+			},
+			{
+				"name": "冻死企鹅",
+				"href": "https://dongsiqie.me/",
+				"desc": "免费的ChatGPT以及衍生项目",
 				"logo": "default.ico"
 			},
 			{
