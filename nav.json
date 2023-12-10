@@ -147,6 +147,12 @@
 		"classify": "效率工具",
 		"icon": "csz czs-time-l",
 		"sites": [{
+				"name": "ChatGPT镜像站",
+				"href": "https://dongsiqie.me/chatgpt",
+				"desc": "免费的ChatGPT镜像网站，有少量的Plus会员",
+				"logo": "default.ico"
+			},
+			{
 				"name": "沉浸式翻译",
 				"href": "https://immersivetranslate.com/",
 				"desc": "双语对照网页翻译",
@@ -162,6 +168,12 @@
 				"name": "从图片提取文字",
 				"href": "https://i.svvme.com/ocr-wen-zi-shi-bie-gong-ju",
 				"desc": "OCR文字识别",
+				"logo": "default.ico"
+			},
+			{
+				"name": "白板",
+				"href": "https://excalidraw.com/",
+				"desc": "开源手绘白板，协作加密，支持PNG、SVG导出",
 				"logo": "default.ico"
 			},
 			{
@@ -678,6 +690,12 @@
 				"name": "CXY521",
 				"href": "http://www.cxy521.com/",
 				"desc": "程序员导航-CXY521",
+				"logo": "default.ico"
+			},
+			{
+				"name": "冻死企鹅",
+				"href": "https://dongsiqie.me/",
+				"desc": "免费的ChatGPT以及衍生项目",
 				"logo": "default.ico"
 			},
 			{
@@ -1669,6 +1687,18 @@
 				"href": "http://shuxiangjia.cn/",
 				"desc": "不同类型的图书资源",
 				"logo": "default.ico"
+			},
+			{
+				"name": "偷懒爱好者周刊",
+				"href": "https://toolight.zhubai.love/",
+				"desc": "偷懒爱好者周刊",
+				"logo": "default.ico"
+			},
+			{
+				"name": "技术周刊精选列表",
+				"href": "https://www.fre123.com/wk",
+				"desc": "汇聚优质精选技术周刊，为你提供高质量信息流",
+				"logo": "default.ico"
 			}
 		]
 	},
@@ -1788,12 +1818,6 @@
 				"name": "Moeyy APP",
 				"href": "https://moeyy.cn/app",
 				"desc": "Moeyy APP",
-				"logo": "default.ico"
-			},
-			{
-				"name": "偷懒爱好者周刊",
-				"href": "https://toolight.zhubai.love/",
-				"desc": "偷懒爱好者周刊",
 				"logo": "default.ico"
 			}
 		]
