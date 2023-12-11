@@ -252,13 +252,8 @@
 				}, [n("div", {
 					staticClass: "copyright"
 				}, [n("div", [t._v("\n   我的收藏  \n        "), n("a", {
-																
-				 attrs: {
-                    href: "http://pan.svvme.com/"
-                }
-            },
-			 [t._v("我的网盘")]), n("a", {
-				 
+
+
 				 attrs: {
                     href: "./new.html"
                 }
@@ -267,7 +262,7 @@
 				 
 			 
 				 attrs: {
-                    href: "https://www.svvme.com/"
+                    href: "https://i.svvme.com/"
                 }
             },
 			 [t._v("关于")
