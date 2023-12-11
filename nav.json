@@ -183,6 +183,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "URL提取",
+				"href": "http://tools.sbbbb.cn/urltq/",
+				"desc": "从内容中提取链接",
+				"logo": "default.ico"
+			},
+			{
 				"name": "代码卡片制作",
 				"href": "https://carbon.now.sh/",
 				"desc": "为你的代码片段生成好看的卡片图",
@@ -240,6 +246,12 @@
 				"name": "随机密码生成",
 				"href": "https://www.wotianna.com/password/",
 				"desc": "随机密码生成",
+				"logo": "default.ico"
+			},
+			{
+				"name": "设备默认密码大全",
+				"href": "http://tools.sbbbb.cn/defaultpasswd/",
+				"desc": "不同设备的默认账号及密码",
 				"logo": "default.ico"
 			},
 			{
@@ -714,6 +726,18 @@
 				"name": "PickFrom",
 				"href": "https://zh.pickfrom.net/",
 				"desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "LuckySec",
+				"href": "http://nav.luckysec.cn/",
+				"desc": " 网络安全资源导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "0xShe网络安全导航",
+				"href": "https://sbbbb.cn/",
+				"desc": "网络安全日常工具集",
 				"logo": "default.ico"
 			},
 			{
