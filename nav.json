@@ -692,6 +692,12 @@
 				"desc": "精选创意导航",
 				"logo": "default.ico"
 			},
+			{ 
+				"name": "ITEM",
+				"href": "https://item.ink",
+				"desc": "链接更多选项",
+				"logo": "default.ico"
+			},
 			{
 				"name": "龙喵",
 				"href": "https://ailongmiao.com/",
@@ -713,7 +719,13 @@
 			{
 				"name": "油小猴",
 				"href": "https://www.baiduyun.wiki/",
-				"desc": "",
+				"desc": "实用脚本集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "源仓库",
+				"href": "http://www.yckceo.com/",
+				"desc": "书源、漫画源影视源",
 				"logo": "default.ico"
 			},
 			{
@@ -1593,8 +1605,14 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "TVBox 配置源",
+				"name": "TVBox 配置源 ①",
 				"href": "https://www.lige.fit/",
+				"desc": "TVBox源仓库与接口",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TVBox 配置源 ②",
+				"href": "http://www.yckceo.com/index/applist/tvbox.html",
 				"desc": "TVBox源仓库与接口",
 				"logo": "default.ico"
 			},
@@ -1806,12 +1824,6 @@
 				"name": "主机百科",
 				"href": "https://zhujiwiki.com/",
 				"desc": "提供有价值的主机信息和主机测评",
-				"logo": "default.ico"
-			},
-			{
-				"name": "羊毛党之家",
-				"href": "https://yangmaodang.org/",
-				"desc": "薅羊毛",
 				"logo": "default.ico"
 			},
 			{
