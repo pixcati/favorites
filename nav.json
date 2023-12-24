@@ -1503,9 +1503,15 @@
 		"classify": "代理资源",
 		"icon": "csz czs-paper-plane-l",
 		"sites": [{
-				"name": "常见代理客户端",
+				"name": "常见代理客户端 ①",
+				"href": "https://findladders.com/clients/",
+				"desc": "常见的代理客户端，vmess、torjan或更多",
+				"logo": "default.ico"
+			},
+			{
+				"name": "常见代理客户端 ②",
 				"href": "https://r.svvme.com/%E5%B8%B8%E8%A7%81%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%88%E9%9B%86-01-18",
-				"desc": "常见的代理客户端，vmess、ssr或更多",
+				"desc": "常见的代理客户端汇总",
 				"logo": "default.ico"
 			},
 			{
@@ -1614,7 +1620,7 @@
 				"name": "TVBox 配置源 ②",
 				"href": "http://www.yckceo.com/index/applist/tvbox.html",
 				"desc": "TVBox源仓库与接口",
-				"logo": "default.ico"
+				"logo": "default0                                                                                                                          .ico"
 			},
 			{
 				"name": "调试助手",
