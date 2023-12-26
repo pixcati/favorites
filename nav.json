@@ -358,7 +358,7 @@
 			},
 			{
 				"name": "局域网互传网页版",
-				"href": "https://snapdrop.net/",
+				"href": "https://yunge.in/",
 				"desc": "局域网内设备通过此网页进行互传",
 				"logo": "default.ico"
 			},
@@ -680,6 +680,12 @@
 				"desc": "让你的收藏夹不再是孤岛",
 				"logo": "default.ico"
 			},
+			{ 
+				"name": "ITEM",
+				"href": "https://item.ink",
+				"desc": "链接更多选项",
+				"logo": "default.ico"
+			},
 			{
 				"name": "iMyShare",
 				"href": "https://imyshare.com/",
@@ -687,15 +693,15 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "一网一匠",
+				"href": "https://ywyj.cn/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
 				"name": "Creative Mass",
 				"href": "https://creativemass.cn/",
 				"desc": "精选创意导航",
-				"logo": "default.ico"
-			},
-			{ 
-				"name": "ITEM",
-				"href": "https://item.ink",
-				"desc": "链接更多选项",
 				"logo": "default.ico"
 			},
 			{
@@ -953,7 +959,7 @@
 			{
 				"name": "二次寒树",
 				"href": "https://echs.top/",
-				"desc": "优质的软件和工具导航",
+				"desc": "软件和工具导航",
 				"logo": "default.ico"
 			},
 			{
@@ -1029,8 +1035,8 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "ReXdl",
-				"href": "https://rexdl.com/",
+				"name": "LITEAPKS",
+				"href": "https://liteapks.com/",
 				"desc": "老外运营的安卓破解软件站",
 				"logo": "default.ico"
 			},
@@ -1168,14 +1174,14 @@
 			},
 			{
 				"name": "境外APK下载 ①",
-				"href": "https://www.apkmirror.com/",
-				"desc": "ApkMirror",
+				"href": "https://apkbog.com/cm/apks",
+				"desc": "免代理下载谷歌市场上的APK",
 				"logo": "default.ico"
 			},
 			{
 				"name": "境外APK下载 ②",
-				"href": "https://softmany.com/cn/",
-				"desc": "免代理下载谷歌市场上的APK",
+				"href": "https://www.apkmirror.com/",
+				"desc": "ApkMirror",
 				"logo": "default.ico"
 			},
 			{
