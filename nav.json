@@ -1077,25 +1077,25 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "在线运行SWF ",
-				"href": "https://ruffle.rs/",
-				"desc": "在现代浏览器中玩转Flash",
-				"logo": "default.ico"
-			},
-			{
 				"name": "小霸王 ",
 				"href": "https://www.yikm.net/",
 				"desc": "在线玩FC、街机、GBA等",
 				"logo": "default.ico"
 			},
 			{
-				"name": "在线小游戏合集 ",
+				"name": "Poki ",
 				"href": "https://poki.cn/",
 				"desc": "在线H5游戏合集",
 				"logo": "default.ico"
 			},
 			{
-				"name": "Java游戏小站 ",
+				"name": "PacoGames ",
+				"href": "https://www.pacogames.com/",
+				"desc": "国外小游戏网站合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Java游戏小站",
 				"href": "https://java.owoemu.com/",
 				"desc": "Java游戏资源集合",
 				"logo": "default.ico"
@@ -1107,21 +1107,21 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "NS游戏资源 ① ",
+				"name": "NS游戏资源",
 				"href": "https://www.gamer520.com/",
 				"desc": "Switch 520资源站",
-				"logo": "default.ico"
-			},
-			{
-				"name": "NS游戏资源 ②",
-				"href": "https://www.coolapk.com/feed/41244276?shareKey=ZWI0NTkwODBkZWUyNjQwYzk0MjI~",
-				"desc": "Switch 游戏资源",
 				"logo": "default.ico"
 			},
 			{
 				"name": "古墓丽影网页版 ",
 				"href": "http://xproger.info/projects/OpenLara/",
 				"desc": "Classic Tomb Raider open-source engine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线运行SWF ",
+				"href": "https://ruffle.rs/",
+				"desc": "在现代浏览器中玩转Flash",
 				"logo": "default.ico"
 			},
 			{
@@ -1149,7 +1149,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "植僵资源",
+				"name": "PVZ资源",
 				"href": "http://lonelystar.org/download.htm",
 				"desc": "植物大战僵尸僵尸各类版本，含破解",
 				"logo": "default.ico"
@@ -1713,6 +1713,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "中小学教材电子版",
+				"href": "https://jc.pep.com.cn/",
+				"desc": "人民教育出版社教材合集",
+				"logo": "default.ico"
+			},
+			{
 				"name": "国家高等教育",
 				"href": "https://ykt.eduyun.cn/",
 				"desc": "国家高等教育智慧教育平台",
@@ -2051,7 +2057,7 @@
 		"sites": [{
 				"name": "神奇海螺试验场",
 				"href": "https://lab.magiconch.com/",
-				"desc": "卜卜口大佬的整活",
+				"desc": "神奇海螺试验场",
 				"logo": "default.ico"
 			},
 			{
@@ -2067,9 +2073,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "狗屁不通文章生成器",
-				"href": "https://suulnnka.github.io/BullshitGenerator/",
-				"desc": "狗屁不通文章生成器",
+				"name": "网页里的电脑博物馆",
+				"href": "https://www.compumuseum.com/index.html",
+				"desc": "基于原版ISO镜像，在网页里使用古董电脑",
 				"logo": "default.ico"
 			},
 			{
