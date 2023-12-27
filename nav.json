@@ -693,12 +693,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "一网一匠",
-				"href": "https://ywyj.cn/",
-				"desc": "一起发现有趣的新产品",
-				"logo": "default.ico"
-			},
-			{
 				"name": "Creative Mass",
 				"href": "https://creativemass.cn/",
 				"desc": "精选创意导航",
@@ -957,12 +951,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "二次寒树",
-				"href": "https://echs.top/",
-				"desc": "软件和工具导航",
-				"logo": "default.ico"
-			},
-			{
 				"name": "我天哪",
 				"href": "https://www.wotianna.com/",
 				"desc": "软件导航",
@@ -1037,7 +1025,7 @@
 			{
 				"name": "LITEAPKS",
 				"href": "https://liteapks.com/",
-				"desc": "老外运营的安卓破解软件站",
+				"desc": "一个国外的安卓破解软件游戏站",
 				"logo": "default.ico"
 			},
 			{
@@ -1791,6 +1779,18 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "一网一匠",
+				"href": "https://ywyj.cn/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
+				"name": "新趣集",
+				"href": "https://xinquji.com/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
 				"name": "发现频道",
 				"href": "https://meta.appinn.net/c/faxian",
 				"desc": "小众软件的发现频道",
@@ -1867,12 +1867,6 @@
 				"href": "https://www.epicgames.com/store/zh-CN/",
 				"desc": "白嫖游戏",
 				"logo": "default.ico"
-			},
-			{
-				"name": "Moeyy APP",
-				"href": "https://moeyy.cn/app",
-				"desc": "Moeyy APP",
-				"logo": "default.ico"
 			}
 		]
 	},
@@ -1881,21 +1875,15 @@
 		"classify": "博客收藏",
 		"icon": "csz czs-book",
 		"sites": [{
-				"name": "折影轻梦",
-				"href": "https://nexmoe.com/",
-				"desc": "折影轻梦",
-				"logo": "default.ico"
-			},
-			{
 				"name": "Rat's Blog",
 				"href": "https://www.moerats.com/",
 				"desc": "Rat's Blog",
 				"logo": "default.ico"
 			},
 			{
-				"name": "大鸟博客",
-				"href": "https://www.daniao.org/",
-				"desc": "大鸟博客",
+				"name": "二次寒树",
+				"href": "https://echs.top/",
+				"desc": "二次寒树",
 				"logo": "default.ico"
 			},
 			{
@@ -1905,9 +1893,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "笨猫博客",
-				"href": "https://www.nbmao.com/",
-				"desc": "笨猫博客",
+				"name": "Moeyy",
+				"href": "https://moeyy.cn/app",
+				"desc": "Moeyy APP",
 				"logo": "default.ico"
 			},
 			{
@@ -1926,12 +1914,6 @@
 				"name": "好鸭",
 				"href": "https://haoduck.com/",
 				"desc": "好鸭",
-				"logo": "default.ico"
-			},
-			{
-				"name": "秋枫酱",
-				"href": "https://akinokae.de/",
-				"desc": "秋のかえで",
 				"logo": "default.ico"
 			},
 			{
@@ -1962,12 +1944,6 @@
 				"name": "皮皮凛",
 				"href": "https://owomoe.net/",
 				"desc": "皮皮凛の小窝",
-				"logo": "default.ico"
-			},
-			{
-				"name": "Dimpurr",
-				"href": "http://blog.dimpurr.com/",
-				"desc": "钉子の次元",
 				"logo": "default.ico"
 			},
 			{
