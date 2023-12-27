@@ -675,6 +675,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "一网一匠",
+				"href": "https://ywyj.cn/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
 				"name": "漫游云野",
 				"href": "https://roam.mixcm.com/",
 				"desc": "让你的收藏夹不再是孤岛",
@@ -1776,12 +1782,6 @@
 				"name": "优质盒子",
 				"href": "https://uzbox.com/",
 				"desc": "优质盒子",
-				"logo": "default.ico"
-			},
-			{
-				"name": "一网一匠",
-				"href": "https://ywyj.cn/",
-				"desc": "一起发现有趣的新产品",
 				"logo": "default.ico"
 			},
 			{
