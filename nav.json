@@ -2031,6 +2031,12 @@
 		"classify": "有趣收藏",
 		"icon": "csz czs-block",
 		"sites": [{
+				"name": "有趣网址之家",
+				"href": "https://youquhome.com/",
+				"desc": "收藏全球最有趣的网站",
+				"logo": "default.ico"
+			},
+			{
 				"name": "神奇海螺试验场",
 				"href": "https://lab.magiconch.com/",
 				"desc": "神奇海螺试验场",
@@ -2049,7 +2055,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "网页里的电脑博物馆",
+				"name": "网页里的PC博物馆",
 				"href": "https://www.compumuseum.com/index.html",
 				"desc": "基于原版ISO镜像，在网页里使用古董电脑",
 				"logo": "default.ico"
@@ -2067,7 +2073,7 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "P站风格Logo生成",
+				"name": "P站Logo生成",
 				"href": "https://www.logoly.pro/",
 				"desc": "Pornhub风格logo生成",
 				"logo": "default.ico"
@@ -2091,33 +2097,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "随机人脸",
-				"href": "https://thispersondoesnotexist.com/",
-				"desc": "每次刷新都会出现不同的Ai合成人脸",
-				"logo": "default.ico"
-			},
-			{
 				"name": "随机猫图",
 				"href": "https://thiscatdoesnotexist.com/",
 				"desc": "每次刷新都会出现不同的合成猫",
-				"logo": "default.ico"
-			},
-			{
-				"name": "随机妹纸",
-				"href": "https://www.thiswaifudoesnotexist.net",
-				"desc": "每次刷新都会出现不同的二刺螈",
-				"logo": "default.ico"
-			},
-			{
-				"name": "这个不存在",
-				"href": "https://thisxdoesnotexist.com",
-				"desc": "随机来点不存在的东西",
-				"logo": "default.ico"
-			},
-			{
-				"name": "有趣网址之家",
-				"href": "https://youquhome.com/",
-				"desc": "收藏全球最有趣的网站",
 				"logo": "default.ico"
 			}
 		]
