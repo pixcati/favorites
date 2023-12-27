@@ -83,13 +83,19 @@
 			{
 				"name": "文字转AI语音 ①",
 				"href": "https://www.modelscope.cn/studios/xzjosh/Bert-VITS2/",
-				"desc": "一个基于VITS的语音合成Demo合集",
+				"desc": "基于VITS的语音合成Demo合集",
 				"logo": "default.ico"
 			},
 			{
 				"name": "文字转AI语音 ②",
 				"href": "https://www.text-to-speech.cn/",
 				"desc": "基于微软Azure语音合成的第三方工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字转AI语音 ③",
+				"href": "https://zomehwh-vits-uma-genshin-honkai.hf.space/",
+				"desc": "基于VITS的语音合成Demo合集",
 				"logo": "default.ico"
 			},
 			{
@@ -959,7 +965,7 @@
 			{
 				"name": "我天哪",
 				"href": "https://www.wotianna.com/",
-				"desc": "软件导航",
+				"desc": "一个软件导航",
 				"logo": "default.ico"
 			},
 			{
@@ -1032,6 +1038,24 @@
 				"name": "LITEAPKS",
 				"href": "https://liteapks.com/",
 				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "5Play",
+				"href": "https://5play.org/",
+				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "5-App",
+				"href": "https://5-app.ru/",
+				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "星火应用商店",
+				"href": "https://spark-app.store/",
+				"desc": "Linux软件商店，适用于Debian系",
 				"logo": "default.ico"
 			},
 			{
@@ -2058,6 +2082,12 @@
 				"name": "网页里的PC博物馆",
 				"href": "https://www.compumuseum.com/index.html",
 				"desc": "基于原版ISO镜像，在网页里使用古董电脑",
+				"logo": "default.ico"
+			},
+			{
+				"name": "语音维基",
+				"href": "https://voicewiki.cn/wiki/",
+				"desc": "不同游戏中的角色语音",
 				"logo": "default.ico"
 			},
 			{
