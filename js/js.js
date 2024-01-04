@@ -129,7 +129,7 @@
 					staticClass: "el-menu-vertical-demo",
 					attrs: {
 						"default-active": t.active,
-						"background-color": "#2196f3",
+						"background-color": "#30333c",
 						"text-color": "#ffffff",
 						"active-text-color": "#eeeeee"
 					}
