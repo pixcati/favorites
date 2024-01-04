@@ -44,7 +44,7 @@ body[data-v-99508432] {
 }
 .container .left-bar[data-v-99508432] {
 	position:fixed;
-	background:#064a8c;
+	background:#30333c;
 	color:#6b7386;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -481,7 +481,7 @@ body[data-v-43c30294] {
 .main .box .item .logo[data-v-43c30294],.main .box .item .no-logo[data-v-43c30294] {
 	color: #000;
 	font-weight:700;
-	font-size: 17px;d
+	font-size: 17px;
 }
 .main .box .item .logo[data-v-43c30294] {
 	position:relative;
@@ -554,7 +554,7 @@ body[data-v-466c883f] {
 /* 菜单 */
 .container .left-bar[data-v-466c883f] {
 	position:fixed;
-	background:#2196f3;
+	background:#30333c;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	-webkit-box-direction:normal;
@@ -597,7 +597,7 @@ body[data-v-466c883f] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#2196f3;
+	background:#30333c;
 	color:#fff;
 	font-size:20px;
 	position:-webkit-sticky;
