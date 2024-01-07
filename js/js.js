@@ -319,11 +319,11 @@
 					attrs: {
 						src: t.data.logo,
 						fit: "cover",
-						lazy: ""
+						lazy: ""                                         
 					}
 				}), n("span", [t._v(t._s(t.data.name))])], 1), n("div", {
 					staticClass: "desc"
-				}, [t._v(t._s(t.data.desc || "描述还没有写上吖"))])])
+				}, [t._v(t._s(t.data.desc || ""))])])
 			},
 			O = [],
 			C = {
