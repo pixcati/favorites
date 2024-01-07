@@ -1905,6 +1905,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "零度解说",
+				"href": "https://www.freedidi.com/",
+				"desc": "零度博客",
+				"logo": "default.ico"
+			},
+			{ 
 				"name": "二次寒树",
 				"href": "https://echs.top/",
 				"desc": "二次寒树",
@@ -1995,15 +2001,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "暗网网址大全",
+				"name": "Tor网址集",
 				"href": "https://fastly.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
-				"desc": "暗网网址大全",
+				"desc": "深网网址列表",
 				"logo": "default.ico"
 			},
 			{
 				"name": "山海经密码",
 				"href": "https://www.youtube.com/playlist?list=PL2BTl-ntPF4xXe9T13fMRppyN0t8JSX4w",
-				"desc": "山海经密码",
+				"desc": "山海经讲解",
 				"logo": "default.ico"
 			},
 			{
@@ -2021,37 +2027,31 @@
 			{
 				"name": "控制梦境",
 				"href": "https://fastly.jsdelivr.net/gh/pixcati/hexo@main/cdn/%E6%A2%A6%E6%8E%A7%E5%B8%88-2018.pdf",
-				"desc": "基础清醒梦、出体教程",
-				"logo": "default.ico"
-			},
-			{
-				"name": "诅咒反弹",
-				"href": "https://www.bilibili.com/video/BV1yh411Y7xA",
-				"desc": "清理诅咒与投射",
+				"desc": "清醒梦教程",
 				"logo": "default.ico"
 			},
 			{
 				"name": "移除负面想法",
-				"href": "https://www.bilibili.com/video/BV1xA411M7rX",
+				"href": "https://www.bilibili.com/video/BV1yh411Y7xA",
 				"desc": "移除负面想法",
 				"logo": "default.ico"
 			},
 			{
 				"name": "五音疗疾",
 				"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
-				"desc": "《黄帝内经》：五音调五脏 ",
+				"desc": "五音调五脏 ",
 				"logo": "default.ico"
 			},
 			{
-				"name": "祛除附体",
+				"name": "祛附",
 				"href": "https://www.bilibili.com/video/BV14g411N7wy",
-				"desc": "尝试移除其他程序",
+				"desc": "",
 				"logo": "default.ico"
 			},
 			{
 				"name": "物理壮阳",
 				"href": "https://jiba.plus/",
-				"desc": "男生变强",
+				"desc": "男同志变强攻略",
 				"logo": "default.ico"
 			}
 		]
