@@ -910,7 +910,7 @@
 		"icon": "csz czs-download-l",
 		"sites": [{
 				"name": "获取最新 Chrome",
-				"href": "https://www.iplaysoft.com/tools/chrome/",
+				"href": "https://dream.ren/tool/chrome/",
 				"desc": "获取最新谷歌浏览器",
 				"logo": "default.ico"
 			},
@@ -1187,7 +1187,7 @@
 		"sites": [{
 				"name": "Magisk 资源分享",
 				"href": "https://magisk.suchenqaq.club/",
-				"desc": "Magisk 资源分享",
+				"desc": "Magisk、Xposed资源",
 				"logo": "default.ico"
 			},
 			{
@@ -1899,6 +1899,12 @@
 		"classify": "博客收藏",
 		"icon": "csz czs-book",
 		"sites": [{
+				"name": "收集博客的博客",
+				"href": "https://www.boke.im/",
+				"desc": "收集了不同博客的导航站",
+				"logo": "default.ico"
+			},
+			{
 				"name": "Rat's Blog",
 				"href": "https://www.moerats.com/",
 				"desc": "Rat's Blog",
