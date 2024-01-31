@@ -351,13 +351,13 @@
 		"classify": "存储工具",
 		"icon": "csz czs-baiduwangpan",
 		"sites": [{
-				"name": "文件互传 ①",
-				"href": "https://app.tmp.link/",
-				"desc": "临时文件分享",
+				"name": "文件快递柜",
+				"href": "https://share.lanol.cn/#/send",
+				"desc": "像拿快递一样取文件",
 				"logo": "default.ico"
 			},
 			{
-				"name": "文件互传 ②",
+				"name": "空投快传",
 				"href": "https://airportal.cn",
 				"desc": "AirPortal | 空投",
 				"logo": "default.ico"
