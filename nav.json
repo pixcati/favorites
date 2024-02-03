@@ -1041,6 +1041,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "APKHUB",
+				"href": "https://apkhub.cloud/",
+				"desc": "APKHUB",
+				"logo": "default.ico"
+			},
+			{
 				"name": "5Play",
 				"href": "https://5play.org/",
 				"desc": "一个国外的安卓破解软件游戏站",
@@ -1245,12 +1251,6 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "AppShare",
-				"href": "https://appshare.muge.info/",
-				"desc": "APP分享",
-				"logo": "default.ico"
-			},
-			{
 				"name": "分应用屏幕旋转",
 				"href": "https://www.coolapk.com/apk/com.pranavpandey.rotation",
 				"desc": "自定义不同应用与规则下的屏幕方向",
@@ -1311,6 +1311,12 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "小小电脑",
+				"href": "https://github-cdn.pages.dev/Cateners/tiny_computer",
+				"desc": "给所有安卓arm64设备的PC应用引擎",
+				"logo": "default.ico"
+			},
+			{
 				"name": "Termux",
 				"href": "https://f-droid.org/zh_Hans/packages/com.termux/ ",
 				"desc": "带软件包的终端模拟器",
@@ -1318,7 +1324,7 @@
 			},
 			{
 				"name": "Termux魔改版",
-				"href": "https://blog.utermux.dev/ut/download.html",
+				"href": "https://od.ixcmstudio.cn/repository/main/ZeroTermux/",
 				"desc": "ZeroTermux、uTermux等版本",
 				"logo": "default.ico"
 			}
