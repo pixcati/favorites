@@ -471,9 +471,9 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "仿知网",
-				"href": "https://www.cn-ki.net/",
-				"desc": "iData-知识检索",
+				"name": "医药信息查询",
+				"href": "https://dayi.org.cn/",
+				"desc": "中国医药信息查询平台",
 				"logo": "default.ico"
 			},
 			{
@@ -714,6 +714,12 @@
 				"name": "龙喵",
 				"href": "https://ailongmiao.com/",
 				"desc": "有态度的导航网站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "旁门左道",
+				"href": "https://www.goto-mars.com/people/aLYqyNvYvd#nav-category-265771",
+				"desc": "旁门左道PPT推荐的导航",
 				"logo": "default.ico"
 			},
 			{
@@ -1749,15 +1755,33 @@
 				"logo": "default.ico"
 			},
 			{
+				"name": "电报优质频道集 ①",
+				"href": "https://rectg.com/",
+				"desc": "Telegram上不错的频道与群组",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电报优质频道集 ②",
+				"href": "https://github-cdn.pages.dev/itgoyo/TelegramGroup",
+				"desc": "Telegram上不错的频道与群组",
+				"logo": "default.ico"
+			},
+			{
 				"name": "编程随想的图书收藏",
 				"href": "https://github-cdn.pages.dev/programthink/books/blob/master/README.wiki",
 				"desc": "网友收藏的电子书清单",
 				"logo": "default.ico"
 			},
 			{
+				"name": "中国哲学书电子化计划",
+				"href": "https://ctext.org/zhs",
+				"desc": "中国哲学书电子化计划",
+				"logo": "default.ico"
+			},
+			{
 				"name": "中小学网课大全",
 				"href": "https://ykt.eduyun.cn/",
-				"desc": "小初高视频课程",
+				"desc": "国家中小学智慧教育平台",
 				"logo": "default.ico"
 			},
 			{
@@ -1768,20 +1792,38 @@
 			},
 			{
 				"name": "国家高等教育",
-				"href": "https://ykt.eduyun.cn/",
+				"href": "https://www.chinaooc.com.cn/",
 				"desc": "国家高等教育智慧教育平台",
 				"logo": "default.ico"
 			},
 			{
 				"name": "国家职业教育",
 				"href": "https://vocational.smartedu.cn/",
-				"desc": "国家高等教育智慧教育平台",
+				"desc": "国家职业教育智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "终身教育平台",
+				"href": "https://le.ouchn.cn/",
+				"desc": "终身教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Github 大学",
+				"href": "https://www.uedbox.com/post/54160/",
+				"desc": "Github上共享的课程资源",
 				"logo": "default.ico"
 			},
 			{
 				"name": "可以玩的大学课程",
 				"href": "https://jibencaozuo.com/",
 				"desc": "可以玩的大学课程",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PubScholar",
+				"href": "https://pubscholar.cn/",
+				"desc": "PubScholar 公益学术平台",
 				"logo": "default.ico"
 			},
 			{
@@ -2170,4 +2212,4 @@
 			}
 		]
 	}
-]
+]6
