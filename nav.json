@@ -1215,6 +1215,12 @@
 		"classify": "玩机资源",
 		"icon": "csz czs-android",
 		"sites": [{
+				"name": "安卓旧版软件",
+				"href": "https://apkcombo.com/zh/",
+				"desc": "寻找旧版本、32位、x86等多架构软件",
+				"logo": "default.ico"
+			},
+			{
 				"name": "Magisk 资源分享",
 				"href": "https://magisk.suchenqaq.club/",
 				"desc": "Magisk、Xposed资源",
@@ -2155,7 +2161,7 @@
 				"href": "https://www.bilibili.com/video/BV1d7411n71D",
 				"desc": "让你的桌面有一只猫猫",
 				"logo": "default.ico"
-			},
+			},	
 			{
 				"name": "网页里的PC博物馆",
 				"href": "https://www.compumuseum.com/index.html",
