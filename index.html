@@ -1,1 +1,71 @@
-<!DOCTYPE html><html lang="zh"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible"content="IE=edge"/><meta name="viewport"content="width=device-width,initial-scale=1"/><link rel="shortcut icon"href="favicon.ico"/><link rel="apple-touch-icon"href="favicon.ico"/><title>我的收藏</title><meta name="description"content="网站仅作为个人网络书签，不构成工具网站或导航"/><head><link href="./css/chunk-vendors.af67b8ba.css"rel="stylesheet"/><link href="./css/app.5ca325cd.css"rel="stylesheet"/></head><body><noscript><strong>未开启JavaScript</strong></noscript><div id="app"></div><script src="./js/js.js"></script><script src="./js/chunk-vendors.ca9d6b6b.js"></script><script>var _hmt=_hmt||[];(function(){var hm=document.createElement("script");hm.src="https://hm.baidu.com/hm.js?e88d0ab5684715eb78969dd627e0236e";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s)})();</script></body></html>
+<!DOCTYPE html>
+<html lang="zh">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="apple-touch-icon" href="favicon.ico" />
+	<title>我的收藏</title>
+	<meta name="description" content="网站仅作为个人网络书签，不构成工具网站或导航" />
+	<head>
+		<link href="./css/chunk-vendors.af67b8ba.css" rel="stylesheet" />
+		<link href="./css/app.5ca325cd.css" rel="stylesheet" />
+	</head>
+	<body><noscript><strong>未开启JavaScript</strong></noscript>
+		<!-- <div id="app"></div> -->
+		    <div id="passwordPrompt">
+		        <p>请输入密码以访问页面：</p>
+		        <input type="password" id="inputPassword" />
+		        <button onclick="validatePassword()">提交</button>
+		    </div>
+		    <div id="app" style="display:none"></div>
+		<script src="./js/js.js"></script>
+		<script src="./js/chunk-vendors.ca9d6b6b.js"></script>
+		
+		<script type="text/javascript">
+		        function validatePassword() {
+		            var inputPassword = document.getElementById('inputPassword').value;
+		            var correctPassword = "123456";
+		            var passwordPrompt = document.getElementById('passwordPrompt');
+		            var appDiv = document.getElementById('app');
+		
+		            if (inputPassword === correctPassword) {
+		                // 密码正确，设置localStorage标记
+		                localStorage.setItem('accessGranted', 'true');
+		                // 隐藏密码输入框，显示app盒子
+		                passwordPrompt.style.display = 'none';
+		                appDiv.style.display = 'block';
+		            } else {
+		                // 密码错误，显示错误提示
+		                alert("密码错误，请重新输入！");
+		            }
+		        }
+		
+		        // 页面加载时检查localStorage
+		        window.onload = function() {
+		            var accessGranted = localStorage.getItem('accessGranted');
+		            var passwordPrompt = document.getElementById('passwordPrompt');
+		            var appDiv = document.getElementById('app');
+		
+		            if (accessGranted === 'true') {
+		                // 如果已授权，隐藏密码输入框，显示app盒子
+		                passwordPrompt.style.display = 'none';
+		                appDiv.style.display = 'block';
+		            } else {
+		                // 如果未授权，显示密码输入框
+		                passwordPrompt.style.display = 'block';
+		                appDiv.style.display = 'none';
+		            }
+		        };
+		    </script>
+		<script type="text/javascript">
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?e88d0ab5684715eb78969dd627e0236e";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s)
+			})();
+		</script>
+	</body>
+</html>
