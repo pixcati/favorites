@@ -262,7 +262,7 @@
 				 
 			 
 				 attrs: {
-                    href: "https://i.svvme.com/"
+                    href: "https://i.pixcat.ru/"
                 }
             },
 			 [t._v("关于")
