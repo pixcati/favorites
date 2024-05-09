@@ -996,6 +996,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "克隆窝",
+                "href": "https://www.uy5.net/",
+                "desc": "修改、汉化、绿色软件等",
+                "logo": "default.ico"
+            },
+            {
                 "name": "分享迷",
                 "href": "https://www.fenxm.com/",
                 "desc": "安卓TV软件、修改、绿色软件等",
@@ -1114,6 +1120,12 @@
                 "name": "小霸王 ",
                 "href": "https://www.yikm.net/",
                 "desc": "在线玩FC、街机、GBA等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "资源避难所 ",
+                "href": "https://www.flysheep6.com/",
+                "desc": "PC游戏、模拟器资源下载",
                 "logo": "default.ico"
             },
             {
@@ -1487,7 +1499,7 @@
             },
             {
                 "name": "CF Workers 玩法",
-                "href": "https://cn.bing.com/search?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA&qs=n&form=QBRE&sp=-1&pq=%E4%BD%BF%E7%94%A8+cloudflare+workers+%E6%90%AD%E5%BB%BA&sc=0-24&sk=&cvid=38CB4C5038734318ADE2ACF3B6FC5798",
+                "href": "https://bing.com/search?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA&qs=n&form=QBRE&sp=-1&pq=%E4%BD%BF%E7%94%A8+cloudflare+workers+%E6%90%AD%E5%BB%BA&sc=0-24&sk=&cvid=38CB4C5038734318ADE2ACF3B6FC5798",
                 "desc": "CloudFlare Workers 的一些玩法",
                 "logo": "default.ico"
             },
@@ -1513,6 +1525,18 @@
                 "name": "音乐播放器 ④",
                 "href": "https://github.com/Jrohy/QPlayer",
                 "desc": "CPlayer , APlayer同作者力作",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Npcink",
+                "href": "https://www.npc.ink/",
+                "desc": "共享wordpress主题插件以及使用开发等优秀教程",
+                "logo": "default.ico"
+            },
+            {
+                "name": "念念不忘必有回响",
+                "href": "https://typecho.work/",
+                "desc": "typecho非官方网站",
                 "logo": "default.ico"
             },
             {
@@ -1662,15 +1686,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Alist站点集 ①",
-                "href": "https://www.pcoof.com/295.html",
-                "desc": "Alist 站点整理列表",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Alist站点集 ②",
-                "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
-                "desc": "Alist 站点整理列表",
+                "name": "VIP影视解析",
+                "href": "https://www.btnull.org/vipplay/",
+                "desc": "解析爱奇艺、腾讯、优酷、乐视、芒果等",
                 "logo": "default.ico"
             },
             {
@@ -1710,12 +1728,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "TV直播网站合辑",
-                "href": "https://github-cdn.pages.dev/biancangming/wtv/wiki/TV%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E5%90%88%E9%9B%86",
-                "desc": "电脑、手机看电视的平台整理",
-                "logo": "default.ico"
-            },
-            {
                 "name": "直播源格式转换",
                 "href": "https://guihet.com/tvlistconvert.html",
                 "desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
@@ -1743,6 +1755,18 @@
                 "name": "磁力云播",
                 "href": "https://magnet.pages.dev/",
                 "desc": "在线解析磁力或种子",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Alist站点集 ①",
+                "href": "https://www.pcoof.com/295.html",
+                "desc": "Alist 站点整理列表",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Alist站点集 ②",
+                "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
+                "desc": "Alist 站点整理列表",
                 "logo": "default.ico"
             }
         ]
@@ -1952,12 +1976,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Npcink",
-                "href": "https://www.npc.ink/",
-                "desc": "共享wordpress主题插件以及使用开发等优秀教程",
-                "logo": "default.ico"
-            },
-            {
                 "name": "主机百科",
                 "href": "https://zhujiwiki.com/",
                 "desc": "提供有价值的主机信息和主机测评",
@@ -2031,7 +2049,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "MisakaNo の 小破站",
+                "name": "MisakaNo",
                 "href": "https://blog.misaka.rest/",
                 "desc": "MisakaNo の 小破站",
                 "logo": "default.ico"
