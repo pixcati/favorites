@@ -1498,9 +1498,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "CF Workers 玩法",
-                "href": "https://bing.com/search?q=%E4%BD%BF%E7%94%A8+CloudFlare+Workers+%E6%90%AD%E5%BB%BA&qs=n&form=QBRE&sp=-1&pq=%E4%BD%BF%E7%94%A8+cloudflare+workers+%E6%90%AD%E5%BB%BA&sc=0-24&sk=&cvid=38CB4C5038734318ADE2ACF3B6FC5798",
-                "desc": "CloudFlare Workers 的一些玩法",
+                "name": "Cloudflare 玩出花",
+                "href": "https://github-cdn.pages.dev/zhuima/awesome-cloudflare",
+                "desc": "CloudFlare 五花八门的玩法与工具",
                 "logo": "default.ico"
             },
             {
