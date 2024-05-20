@@ -125,12 +125,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Effidit",
-                "href": "https://effidit.qq.com/",
-                "desc": "腾讯出品的文字工具",
-                "logo": "default.ico"
-            },
-            {
                 "name": "ARC实验室",
                 "href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
                 "desc": "人像修复、人像抠图、动漫增强等",
@@ -143,9 +137,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "动漫图片超分辨率",
-                "href": "https://real-cugan.animesales.xyz/",
-                "desc": "Real-CUGAN借助本地算力为你无损放大动漫图片",
+                "name": "图片无损放大",
+                "href": "https://github.com/tumuyan/RealSR-NCNN-Android/releases",
+                "desc": "Real-CUGAN、Waifu2x等",
                 "logo": "default.ico"
             }
         ]
@@ -157,7 +151,7 @@
         "sites": [
             {
                 "name": "ChatGPT镜像站",
-                "href": "https://dongsiqie.me/chatgpt",
+                "href": "https://dongsiqie.me/",
                 "desc": "免费的ChatGPT镜像网站，有少量的Plus会员",
                 "logo": "default.ico"
             },
@@ -225,18 +219,6 @@
                 "name": "浏览器扩展下载 ③",
                 "href": "https://www.crxsoso.com/",
                 "desc": "下载 CRX 格式的 Chrome 扩展",
-                "logo": "default.ico"
-            },
-            {
-                "name": "插件英雄榜",
-                "href": "https://www.v2fy.com/p/readme-chromeappheroes/",
-                "desc": "Chrome插件英雄榜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "万能UA生成",
-                "href": "https://lemon399.gitee.io/user-agent-share-page/",
-                "desc": "丰富的应用内 Useragent",
                 "logo": "default.ico"
             },
             {
@@ -556,7 +538,7 @@
             },
             {
                 "name": "一键内核网络加速",
-                "href": "https://github-cdn.pages.dev/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
+                "href": "https://github.com/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
                 "desc": "为服务器启用BBR、锐速以及魔改版加速",
                 "logo": "default.ico"
             },
@@ -598,7 +580,7 @@
             },
             {
                 "name": "高仿宝塔面板",
-                "href": "https://github-cdn.pages.dev/midoks/mdserver-web",
+                "href": "https://github.com/midoks/mdserver-web",
                 "desc": "根据宝塔UI重构的面板",
                 "logo": "default.ico"
             },
@@ -616,7 +598,7 @@
             },
             {
                 "name": "CloudFlare 优选IP",
-                "href": "https://github-cdn.pages.dev/XIU2/CloudflareSpeedTest",
+                "href": "https://github.com/XIU2/CloudflareSpeedTest",
                 "desc": "测试 Cloudflare CDN 延迟和速度",
                 "logo": "default.ico"
             },
@@ -635,13 +617,13 @@
             {
                 "name": "Github 文件加速 ①",
                 "href": "https://ghproxy.com/",
-                "desc": "经由 JsDelivr 加速并使仓库内文件可外链",
+                "desc": "加速Github文件下载",
                 "logo": "default.ico"
             },
             {
                 "name": "Github 文件加速 ②",
-                "href": "https://c.uk.cn.eu.org/",
-                "desc": "自搭建版",
+                "href": "https://ghmirror00.pages.dev/",
+                "desc": "加速Github文件下载",
                 "logo": "default.ico"
             },
             {
@@ -930,7 +912,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "下载与白嫖 office ①②",
+                "name": "下载与白嫖 office ①",
                 "href": "https://otp.landian.vip/zh-cn/",
                 "desc": "多版本 office 安装与激活",
                 "logo": "default.ico"
@@ -939,6 +921,12 @@
                 "name": "下载与白嫖 office ②",
                 "href": "https://www.mocreak.com/",
                 "desc": "一键自动化、无人值守下载、安装、部署 Office ",
+                "logo": "default.ico"
+            },
+            {
+                "name": "获取免费的WPS",
+                "href": "https://www.lyszm.com/773.html",
+                "desc": "WPS政企专版 ",
                 "logo": "default.ico"
             },
             {
@@ -955,7 +943,7 @@
             },
             {
                 "name": "激活 Windows ②",
-                "href": "https://github-cdn.pages.dev/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
+                "href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
                 "desc": "Windows 数字激活工具，解压密码1234",
                 "logo": "default.ico"
             },
@@ -1093,7 +1081,7 @@
             },
             {
                 "name": "QQ微信防撤回",
-                "href": "https://github-cdn.pages.dev/huiyadanli/RevokeMsgPatcher/wiki",
+                "href": "https://github.com/huiyadanli/RevokeMsgPatcher/wiki",
                 "desc": "PC微信QQ防撤回补丁",
                 "logo": "default.ico"
             }
@@ -1293,14 +1281,8 @@
             },
             {
                 "name": "GSI镜像列表",
-                "href": "https://github-cdn.pages.dev/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
+                "href": "https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
                 "desc": "GSI通用刷机包、DSU Loader",
-                "logo": "default.ico"
-            },
-            {
-                "name": "分应用屏幕旋转",
-                "href": "https://www.coolapk.com/apk/com.pranavpandey.rotation",
-                "desc": "自定义不同应用与规则下的屏幕方向",
                 "logo": "default.ico"
             },
             {
@@ -1359,7 +1341,7 @@
             },
             {
                 "name": "小小电脑",
-                "href": "https://github-cdn.pages.dev/Cateners/tiny_computer",
+                "href": "https://github.com/Cateners/tiny_computer",
                 "desc": "给所有安卓arm64设备的PC应用引擎",
                 "logo": "default.ico"
             },
@@ -1373,6 +1355,18 @@
                 "name": "Termux魔改版",
                 "href": "https://od.ixcmstudio.cn/repository/main/ZeroTermux/",
                 "desc": "ZeroTermux、uTermux等版本",
+                "logo": "default.ico"
+            },
+            {
+                "name": "安卓端PC模拟器合集",
+                "href": "https://www.bilibili.com/read/mobile?id=25407219",
+                "desc": "安卓上的Wine环境等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "安卓端PC模拟器合集",
+                "href": "https://www.bilibili.com/read/mobile?id=25407219",
+                "desc": "安卓上的Wine环境等",
                 "logo": "default.ico"
             }
         ]
@@ -1499,7 +1493,7 @@
             },
             {
                 "name": "Cloudflare 玩出花",
-                "href": "https://github-cdn.pages.dev/zhuima/awesome-cloudflare",
+                "href": "https://github.com/zhuima/awesome-cloudflare",
                 "desc": "CloudFlare 五花八门的玩法与工具",
                 "logo": "default.ico"
             },
@@ -1626,37 +1620,37 @@
             },
             {
                 "name": "v2 免费节点",
-                "href": "https://github-cdn.pages.dev/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
+                "href": "https://github.com/Alvin9999/new-pac/wiki/v2ray%E5%85%8D%E8%B4%B9%E8%B4%A6%E5%8F%B7",
                 "desc": "",
                 "logo": "default.ico"
             },
             {
                 "name": "v2 订阅源",
-                "href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/V2Ray",
+                "href": "https://github.com/ssrsub/ssr/raw/master/V2Ray",
                 "desc": "",
                 "logo": "default.ico"
             },
             {
                 "name": "Clash 订阅源",
-                "href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/Clash.yml",
+                "href": "https://github.com/ssrsub/ssr/raw/master/Clash.yml",
                 "desc": "",
                 "logo": "default.ico"
             },
             {
                 "name": "ss 免费节点",
-                "href": "https://github-cdn.pages.dev/ssrsub/ssr/raw/master/ssrsub",
+                "href": "https://github.com/ssrsub/ssr/raw/master/ssrsub",
                 "desc": "",
                 "logo": "default.ico"
             },
             {
                 "name": "WGCF",
-                "href": "https://github-cdn.pages.dev/yonggekkk/warp-yg",
+                "href": "https://github.com/yonggekkk/warp-yg",
                 "desc": "Cloudflare Warp WireGuard",
                 "logo": "default.ico"
             },
             {
                 "name": "Wokers Vless",
-                "href": "https://github-cdn.pages.dev/yonggekkk/Cloudflare-workers-pages-vless",
+                "href": "https://github.com/yonggekkk/Cloudflare-workers-pages-vless",
                 "desc": "Cloudflare Wokers Vless",
                 "logo": "default.ico"
             },
@@ -1723,7 +1717,7 @@
             },
             {
                 "name": "M3U8直播源",
-                "href": "https://github-cdn.pages.dev/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
+                "href": "https://github.com/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
                 "desc": "电脑、手机看电视的平台整理",
                 "logo": "default.ico"
             },
@@ -1802,13 +1796,13 @@
             },
             {
                 "name": "电报优质频道集 ②",
-                "href": "https://github-cdn.pages.dev/itgoyo/TelegramGroup",
+                "href": "https://github.com/itgoyo/TelegramGroup",
                 "desc": "Telegram上不错的频道与群组",
                 "logo": "default.ico"
             },
             {
                 "name": "编程随想的图书收藏",
-                "href": "https://github-cdn.pages.dev/programthink/books/blob/master/README.wiki",
+                "href": "https://github.com/programthink/books/blob/master/README.wiki",
                 "desc": "网友收藏的电子书清单",
                 "logo": "default.ico"
             },
@@ -1888,6 +1882,12 @@
                 "name": "偷懒爱好者周刊",
                 "href": "https://toolight.zhubai.love/",
                 "desc": "偷懒爱好者周刊",
+                "logo": "default.ico"
+            },
+            {
+                "name": "科技爱好者周刊 ",
+                "href": "https://www.ruanyifeng.com/blog/weekly/",
+                "desc": "科技爱好者周刊",
                 "logo": "default.ico"
             },
             {
@@ -2007,9 +2007,15 @@
         "icon": "csz czs-book",
         "sites": [
             {
-                "name": "Rat's Blog",
-                "href": "https://www.moerats.com/",
-                "desc": "Rat's Blog",
+                "name": "BlogFinder",
+                "href": "https://bf.zzxworld.com/",
+                "desc": "发现优秀的个人博客",
+                "logo": "default.ico"
+            },
+            {
+                "name": "耕读",
+                "href": "https://igdux.com/",
+                "desc": "耕读",
                 "logo": "default.ico"
             },
             {
@@ -2037,9 +2043,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Moeyy",
-                "href": "https://moeyy.cn/app",
-                "desc": "Moeyy APP",
+                "name": "Rat's Blog",
+                "href": "https://www.moerats.com/",
+                "desc": "Rat's Blog",
                 "logo": "default.ico"
             },
             {
@@ -2049,21 +2055,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "MisakaNo",
-                "href": "https://blog.misaka.rest/",
-                "desc": "MisakaNo の 小破站",
-                "logo": "default.ico"
-            },
-            {
                 "name": "好鸭",
                 "href": "https://haoduck.com/",
                 "desc": "好鸭",
-                "logo": "default.ico"
-            },
-            {
-                "name": "云落",
-                "href": "https://gitcafe.net/",
-                "desc": "极客公园",
                 "logo": "default.ico"
             },
             {
@@ -2177,6 +2171,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "Windows 93",
+                "href": "https://www.windows93.net/",
+                "desc": "Windows 93",
+                "logo": "default.ico"
+            },
+            {
                 "name": "神奇海螺试验场",
                 "href": "https://lab.magiconch.com/",
                 "desc": "神奇海螺试验场",
@@ -2197,7 +2197,13 @@
             {
                 "name": "网页里的PC博物馆",
                 "href": "https://www.compumuseum.com/index.html",
-                "desc": "基于原版ISO镜像，在网页里使用古董电脑",
+                "desc": "基于原版镜像，在网页里使用古董电脑",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Virtual x86",
+                "href": "https://copy.sh/v86/",
+                "desc": "Run KolibriOS, Linux or Windows 98 in your browser",
                 "logo": "default.ico"
             },
             {
@@ -2222,24 +2228,6 @@
                 "name": "P站Logo生成",
                 "href": "https://www.logoly.pro/",
                 "desc": "Pornhub风格logo生成",
-                "logo": "default.ico"
-            },
-            {
-                "name": "弹跳文字生成",
-                "href": "https://aidn.jp/zgif/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "扭动图片生成",
-                "href": "https://aidn.jp/ygif/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "字符画生成",
-                "href": "https://tools.kalvinbg.cn/txt/ascii",
-                "desc": "",
                 "logo": "default.ico"
             }
         ]
