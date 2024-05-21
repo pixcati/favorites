@@ -141,6 +141,12 @@
                 "href": "https://github.com/tumuyan/RealSR-NCNN-Android/releases",
                 "desc": "Real-CUGAN、Waifu2x等",
                 "logo": "default.ico"
+            },
+            {
+                "name": "SD整合包",
+                "href": "https://space.bilibili.com/12566101/channel/seriesdetail?sid=3930565",
+                "desc": "Stable Diffusion秋叶整合包",
+                "logo": "default.ico"
             }
         ]
     },
