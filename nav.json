@@ -440,6 +440,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "虫部落聚合搜索",
+                "href": "https://search.chongbuluo.com/",
+                "desc": "使用多个学术搜索引擎搜索内容",
+                "logo": "default.ico"
+            },
+            {
                 "name": "V2EX站内搜索",
                 "href": "https://www.sov2ex.com/",
                 "desc": "在 V2EX.COM 中查找",
@@ -452,9 +458,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "报告查一查",
-                "href": "http://report.seedsufe.com/index",
-                "desc": "轻量级行研数据工具",
+                "name": "虫部落学术搜索",
+                "href": "https://scholar.chongbuluo.com/",
+                "desc": "使用多个学术搜索引擎搜索内容",
                 "logo": "default.ico"
             },
             {
@@ -567,9 +573,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "常用服务器软件",
-                "href": "https://s.jb51.net/",
-                "desc": "常用服务器、VPS软件聚合 ",
+                "name": "VPS融合怪脚本",
+                "href": "https://github.com/spiritLHLS/ecs",
+                "desc": "VPS融合怪服务器测评脚本",
                 "logo": "default.ico"
             },
             {
@@ -591,9 +597,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "挖站否 CDN",
-                "href": "https://cdn.wzfou.com/",
-                "desc": "CNAME方式接入CloudFlare ",
+                "name": "Cloudflare 玩出花",
+                "href": "https://github.com/zhuima/awesome-cloudflare",
+                "desc": "CloudFlare 五花八门的玩法与工具",
                 "logo": "default.ico"
             },
             {
@@ -1492,12 +1498,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Cloudflare 玩出花",
-                "href": "https://github.com/zhuima/awesome-cloudflare",
-                "desc": "CloudFlare 五花八门的玩法与工具",
-                "logo": "default.ico"
-            },
-            {
                 "name": "音乐播放器 ①",
                 "href": "https://aplayer.js.org/",
                 "desc": "APlayer 开源的播放器",
@@ -1789,6 +1789,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "互联网知识地图",
+                "href": "https://yunyinghui.feishu.cn/wiki/QrvDwaNt4icE2qkZTPSccNKInhh",
+                "desc": "互联网知识地图",
+                "logo": "default.ico"
+            },
+            {
                 "name": "电报优质频道集 ①",
                 "href": "https://rectg.com/",
                 "desc": "Telegram上不错的频道与群组",
@@ -1893,7 +1899,13 @@
             {
                 "name": "技术周刊精选列表",
                 "href": "https://www.fre123.com/wk",
-                "desc": "汇聚优质精选技术周刊，为你提供高质量信息流",
+                "desc": "优质精选技术周刊，高质量信息流",
+                "logo": "default.ico"
+            },
+            {
+                "name": "1000UserGuide",
+                "href": "https://1000userguide.com/",
+                "desc": "",
                 "logo": "default.ico"
             }
         ]
