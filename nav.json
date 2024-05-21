@@ -812,6 +812,12 @@
                 "href": "https://www.naviai.cn/",
                 "desc": "AI工具导航",
                 "logo": "default.ico"
+            },
+            {
+                "name": "AI工具导航 ④",
+                "href": "https://www.aiopenminds.com/",
+                "desc": "AI工具导航",
+                "logo": "default.ico"
             }
         ]
     },
