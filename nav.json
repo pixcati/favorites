@@ -498,6 +498,12 @@
                 "href": "https://fsoufsou.com/",
                 "desc": "F搜",
                 "logo": "default.ico"
+            },
+            {
+                "name": "无追搜索",
+                "href": "https://www.wuzhuiso.com/",
+                "desc": "在多个引擎无追踪搜索",
+                "logo": "default.ico"
             }
         ]
     },
