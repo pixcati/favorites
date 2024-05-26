@@ -458,9 +458,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "搜索 Telegram",
-                "href": "http://www.sssoou.com/",
-                "desc": "在众多的频道或群组中查找热心网友的分享",
+                "name": "泄露数据查询",
+                "href": "https://taogefx.com/3574.html",
+                "desc": "检查信息数据是否遭遇安全隐患",
                 "logo": "default.ico"
             },
             {
@@ -471,7 +471,7 @@
             },
             {
                 "name": "医药信息查询",
-                "href": "https://dayi.org.cn/",
+                "href": "https://www.dayi.org.cn/",
                 "desc": "中国医药信息查询平台",
                 "logo": "default.ico"
             },
@@ -594,6 +594,11 @@
                 "name": "高仿宝塔面板",
                 "href": "https://github.com/midoks/mdserver-web",
                 "desc": "根据宝塔UI重构的面板",
+                "logo": "default.ico"
+            },
+            {
+                "name": "低价服务器榜单",
+                "href": "https:/",
                 "logo": "default.ico"
             },
             {
@@ -1380,12 +1385,6 @@
                 "href": "https://www.bilibili.com/read/mobile?id=25407219",
                 "desc": "安卓上的Wine环境等",
                 "logo": "default.ico"
-            },
-            {
-                "name": "安卓端PC模拟器合集",
-                "href": "https://www.bilibili.com/read/mobile?id=25407219",
-                "desc": "安卓上的Wine环境等",
-                "logo": "default.ico"
             }
         ]
     },
@@ -1670,12 +1669,6 @@
                 "name": "Github最新Hosts",
                 "href": "https://raw.hellogithub.com/hosts",
                 "desc": "Github最新Hosts",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线提取代理IP",
-                "href": "https://ip.ihuan.me/",
-                "desc": "在线提取代理IP",
                 "logo": "default.ico"
             }
         ]
