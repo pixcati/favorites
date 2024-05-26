@@ -604,7 +604,8 @@
             },
             {
                 "name": "低价服务器榜单",
-                "href": "https:/",
+                "href": "https://vpsdb.top/",
+                "desc": "性价比VPS方案",
                 "logo": "default.ico"
             },
             {
