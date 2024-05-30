@@ -1951,6 +1951,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "平替好物清单",
+                "href": "https://github.com/leonlucc/awesome-alternative",
+                "desc": "工厂源头或小微品牌生产的口碑平替好物",
+                "logo": "default.ico"
+            },
+            {
                 "name": "程序员延寿指南",
                 "href": "https://github.com/geekan/HowToLiveLonger",
                 "desc": "如何活得更久",
