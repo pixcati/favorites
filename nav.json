@@ -156,9 +156,9 @@
         "icon": "csz czs-time-l",
         "sites": [
             {
-                "name": "ChatGPT镜像站",
-                "href": "https://dongsiqie.me/",
-                "desc": "免费的ChatGPT镜像网站，有少量的Plus会员",
+                "name": "国内大模型一览",
+                "href": "https://github.com/wgwang/awesome-LLMs-In-China",
+                "desc": "国产LLM列表",
                 "logo": "default.ico"
             },
             {
@@ -234,9 +234,15 @@
                 "logo": "default.ico"
             },
             {
+                "name": "CPU显卡天梯图",
+                "href": "https://www.topcpu.net/zh-hk/",
+                "desc": "CPU、GPU、Soc性能排行",
+                "logo": "default.ico"
+            },
+            {
                 "name": "移动端芯片排行",
                 "href": "https://www.socpk.com/",
-                "desc": "移动端芯片综合性能排行，由极客湾出品",
+                "desc": "移动端Soc性能排行，由极客湾出品",
                 "logo": "default.ico"
             },
             {
@@ -255,6 +261,12 @@
                 "name": "公共DNS大全",
                 "href": "https://dns.iui.im/",
                 "desc": "常用、小众或地方DNS",
+                "logo": "default.ico"
+            },
+            {
+                "name": "快捷键备忘录",
+                "href": "https://hotkeycheatsheet.com/zh",
+                "desc": "工具类软件的常用快捷键",
                 "logo": "default.ico"
             },
             {
@@ -1129,15 +1141,15 @@
                 "logo": "default.ico"
             },
             {
-                "name": "在线玩FC ",
-                "href": "https://mklab.eu.org/FCGames/",
-                "desc": "JavaScript NES emulator",
-                "logo": "default.ico"
-            },
-            {
                 "name": "小霸王 ",
                 "href": "https://www.yikm.net/",
                 "desc": "在线玩FC、街机、GBA等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "低端游戏 ",
+                "href": "https://ddyx.me/",
+                "desc": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
                 "logo": "default.ico"
             },
             {
@@ -1919,6 +1931,36 @@
                 "href": "https://1000userguide.com/",
                 "desc": "",
                 "logo": "default.ico"
+            },
+            {
+                "name": "城市租房生存指南",
+                "href": "https://zufang.ababtools.com/",
+                "desc": "租房小白修炼手册",
+                "logo": "default.ico"
+            },
+            {
+                "name": "在家做饭指南",
+                "href": "https://cook.aiurs.co/",
+                "desc": "程序员在家做饭方法指南",
+                "logo": "default.ico"
+            },
+            {
+                "name": "食用手册",
+                "href": "https://cook.yunyoujun.cn/",
+                "desc": "好的，今天我们来做菜",
+                "logo": "default.ico"
+            },
+            {
+                "name": "程序员延寿指南",
+                "href": "https://github.com/geekan/HowToLiveLonger",
+                "desc": "如何活得更久",
+                "logo": "default.ico"
+            },
+            {
+                "name": "独立开发者项目列表",
+                "href": "https://1c7.github.io/chinese-independent-developer/",
+                "desc": "中国独立开发者项目列表",
+                "logo": "default.ico"
             }
         ]
     },
@@ -2034,6 +2076,12 @@
                 "name": "BlogFinder",
                 "href": "https://bf.zzxworld.com/",
                 "desc": "发现优秀的个人博客",
+                "logo": "default.ico"
+            },
+            {
+                "name": "虫洞",
+                "href": "https://www.foreverblog.cn/go.html",
+                "desc": "随机访问一个博客或网站",
                 "logo": "default.ico"
             },
             {
@@ -2237,7 +2285,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "中国景区实时摄像头",
+                "name": "景区实时摄像头",
                 "href": "https://livechina.cctv.com/zhibo",
                 "desc": "24小时中国景区的实时摄像头画面",
                 "logo": "default.ico"
