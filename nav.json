@@ -718,6 +718,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "梦想导航",
+                "href": "https://nav.dreamthere.cn/",
+                "desc": "探索未知的网路世界",
+                "logo": "default.ico"
+            },
+            {
                 "name": "ITEM",
                 "href": "https://item.ink",
                 "desc": "链接更多选项",
@@ -1813,6 +1819,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "海棠诗社",
+                "href": "https://haitang.app/",
+                "desc": "古韵今风，海棠诗梦间",
+                "logo": "default.ico"
+            },
+            {
                 "name": "高质量网站集",
                 "href": "https://i.pixcat.ru/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
                 "desc": "探索互联网上的高质量内容",
@@ -1922,15 +1934,21 @@
         "icon": "csz czs-rss",
         "sites": [
             {
-                "name": "如有乐享",
-                "href": "https://51.ruyo.net/",
-                "desc": "分享是一种美德，是一种态度",
+                "name": "不死鸟",
+                "href": "https://iao.su/",
+                "desc": "分享为王",
                 "logo": "default.ico"
             },
             {
-                "name": "不死鸟",
-                "href": "https://iao.su/",
-                "desc": "分享为王官网",
+                "name": " webhub123",
+                "href": "https://www.webhub123.com/#/home/more",
+                "desc": "连接枯萎的中文互联网",
+                "logo": "default.ico"
+            },
+            {
+                "name": "如有乐享",
+                "href": "https://51.ruyo.net/",
+                "desc": "分享是一种美德，是一种态度",
                 "logo": "default.ico"
             },
             {
@@ -2249,6 +2267,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "奇趣",
+                "href": "https://qiqu.dreamthere.cn/",
+                "desc": "探索未知的网路世界",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Windows 93",
                 "href": "https://www.windows93.net/",
                 "desc": "Windows 93",
@@ -2298,7 +2322,7 @@
             },
             {
                 "name": "工作时长排行榜",
-                "href": "https://duibiao.info/post/4211lx",
+                "href": "https://duibiao.info/post/4211",
                 "desc": "互联网公司工作时长排行榜",
                 "logo": "default.ico"
             },
