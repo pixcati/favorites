@@ -192,6 +192,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "模拟手写签名",
+                "href": "https://www.calligrapher.ai/",
+                "desc": "模拟手写英文签名，可导出SVG",
+                "logo": "default.ico"
+            },
+            {
                 "name": "查看本地IP",
                 "href": "https://ip.skk.moe/",
                 "desc": "查询本地IPV4、IPV6或DNS",
@@ -947,9 +953,21 @@
                 "logo": "default.ico"
             },
             {
+                "name": "色彩百科",
+                "href": "https://encycolorpedia.cn/named",
+                "desc": "Encycolorpedia",
+                "logo": "default.ico"
+            },
+            {
                 "name": "在线配色",
                 "href": "https://color.adobe.com/zh/create/color-wheel",
                 "desc": "Adobe官方推出的配色工具",
+                "logo": "default.ico"
+            },
+            {
+                "name": "配色方案推荐",
+                "href": "https://peiseka.com/",
+                "desc": "",
                 "logo": "default.ico"
             }
         ]
@@ -1819,6 +1837,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "识典古籍",
+                "href": "https://www.shidianguji.com/",
+                "desc": "古籍在线阅读",
+                "logo": "default.ico"
+            },
+            {
                 "name": "海棠诗社",
                 "href": "https://haitang.app/",
                 "desc": "古韵今风，海棠诗梦间",
@@ -2336,6 +2360,12 @@
                 "name": "P站Logo生成",
                 "href": "https://www.logoly.pro/",
                 "desc": "Pornhub风格logo生成",
+                "logo": "default.ico"
+            },
+            {
+                "name": "哄哄模拟器",
+                "href": "https://hong.greatdk.com/",
+                "desc": "让TA原谅你",
                 "logo": "default.ico"
             }
         ]
