@@ -2266,10 +2266,28 @@
                 "logo": "default.ico"
             },
             {
+                "name": "繁盛梦",
+                "href": "https://m.blossomdreaming.com/",
+                "desc": "探索古墨西哥托尔特克智慧与修行之道",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Wingmakers",
                 "href": "https://www.wingmakerschina.com/",
                 "desc": "造翼者",
-                "logo": "default.ico"
+                "logo": "default.ico
+            },
+            {
+                "name": "Bashar",
+                "href": "https://mp.weixin.qq.com/s/FNXysxyl0cVbJKR1gmOLMQ",
+                "desc": "巴夏Bashar",
+                "logo": "default.ico
+            },
+            {
+                "name": "世界简史",
+                "href": "https://tieba.baidu.com/p/7156836600?see_lz=0",
+                "desc": "",
+                "logo": "default.ico
             },
             {
                 "name": "灵体结构示意",
@@ -2302,10 +2320,16 @@
                 "logo": "default.ico"
             },
             {
-                "name": "物理壮阳",
+                "name": "在线壮阳",
                 "href": "https://jiba.plus/",
                 "desc": "男同志变强攻略",
                 "logo": "default.ico"
+            },
+            {
+                "name": "修行资料集 ①",
+                "href": "http://silverthorn.ysepan.com/?xzpd=1",
+                "desc": "资料集合",
+                "logo": "default.ico
             }
         ]
     },
