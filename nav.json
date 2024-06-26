@@ -1298,6 +1298,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "ADB在线执行器",
+                "href": "https://xadb.netlify.app/",
+                "desc": "在线的aADB GUI",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Magisk 资源分享",
                 "href": "https://magisk.suchenqaq.club/",
                 "desc": "Magisk、Xposed资源",
@@ -1379,6 +1385,18 @@
                 "name": "巨魔 2 ",
                 "href": "https://www.52pojie.cn/thread-1862815-1-1.html",
                 "desc": "通过TrollStore免越狱安装IPA",
+                "logo": "default.ico"
+            },
+            {
+                "name": "虫洞",
+                "href": "https://www.er.run/",
+                "desc": "电脑与手机之捷径",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Tango",
+                "href": "https://app.tangoapp.dev/",
+                "desc": "浏览器中管理你的 Android",
                 "logo": "default.ico"
             },
             {
