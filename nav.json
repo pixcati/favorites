@@ -240,6 +240,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "找脚本",
+                "href": "https://www.zhaojiaoben.cn/",
+                "desc": "在线油猴脚本搜索工具",
+                "logo": "default.ico"
+            },
+            {
                 "name": "二维码生成制作",
                 "href": "https://qrbtf.com/",
                 "desc": "参数化二维码生成",
