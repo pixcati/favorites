@@ -760,6 +760,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "快点搜",
+                "href": "https://quickso.cn/",
+                "desc": "资源导航",
+                "logo": "default.ico"
+            },
+            {
                 "name": "龙喵",
                 "href": "https://ailongmiao.com/",
                 "desc": "有态度的导航网站",
