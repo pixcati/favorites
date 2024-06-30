@@ -2163,6 +2163,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "中文博客列表导航",
+                "href": "https://zhblogs.ohyee.cc/",
+                "desc": "尝试链接几乎所有的中文博客",
+                "logo": "default.ico"
+            },
+            {
                 "name": "虫洞",
                 "href": "https://www.foreverblog.cn/go.html",
                 "desc": "随机访问一个博客或网站",
