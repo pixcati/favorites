@@ -180,6 +180,18 @@
                 "logo": "default.ico"
             },
             {
+                "name": "多引擎翻译 ①",
+                "href": "https://33tool.com/translate/",
+                "desc": "使用多个源进行翻译",
+                "logo": "default.ico"
+            },
+            {
+                "name": "多引擎翻译 ②",
+                "href": "https://openl.club/",
+                "desc": "使用多个AI进行翻译",
+                "logo": "default.ico"
+            },
+            {
                 "name": "从图片提取文字",
                 "href": "https://i.pixcat.ru/ocr-wen-zi-shi-bie-gong-ju",
                 "desc": "OCR文字识别",
@@ -769,6 +781,12 @@
                 "name": "龙喵",
                 "href": "https://ailongmiao.com/",
                 "desc": "有态度的导航网站",
+                "logo": "default.ico"
+            },
+            {
+                "name": "AMZ123",
+                "href": "https://www.amz123.com/",
+                "desc": "跨境电商出海导航",
                 "logo": "default.ico"
             },
             {
