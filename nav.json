@@ -748,6 +748,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "设计师导航",
+                "href": "https://hao.uisdc.com/",
+                "desc": "国内专业设计师网站导航",
+                "logo": "default.ico"
+            },
+            {
                 "name": "梦想导航",
                 "href": "https://nav.dreamthere.cn/",
                 "desc": "探索未知的网路世界",
