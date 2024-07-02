@@ -8,11 +8,29 @@
 		<link rel="apple-touch-icon" href="favicon.ico" />
 		<meta name="keywords" content="导航,主页,书签">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="https://jsd.nn.ci/gh/ZYYO666/homepage@main/static/css/style.css">
-		<link rel="stylesheet" href="https://jsd.nn.ci/gh/xiangsudian/CaoMei@master/style.css">
+		<link rel="stylesheet" href="https://jsd.pixcat.ru/gh/ZYYO666/homepage@main/static/css/style.css">
+		<link rel="stylesheet" href="https://jsd.pixcat.ru/gh/xiangsudian/CaoMei@master/style.css">
 
 		<style>
 			html {
+								--main_bg_color: rgb(238, 238, 238);
+				--main_text_color: #000;
+				--gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%);
+				--purple_text_color: #747bff;
+				--text_bg_color: #00000040;
+				--item_bg_color: #fff;
+				--item_hover_color: #fff;
+				--item_left_title_color: ;
+				--item_left_text_color: ;
+				--footer_text_color: #000;
+				--left_tag_item: rgb(27 42 57 / 20%);
+				--card_filter: 2.5px;
+				/* 				--back_filter: 0px;
+				--back_filter_color: #00000030; */
+				--fill: #000;
+			}
+
+			html[data-theme="Dark"] {
 				--main_bg_color: url(https://t.mwm.moe/fj) rgb(0, 0, 0);
 				--main_text_color: #ffffff;
 				/* --gradient: linear-gradient(120deg, #bd34fe, #e0321b 30%, #41d1ff 60%); */
@@ -27,24 +45,6 @@
 				--card_filter: 2.5px;
 				--back_filter: 0px;
 				--back_filter_color: #00000030;
-				--fill: #ffffff;
-			}
-
-			html[data-theme="Dark"] {
-				--main_bg_color: rgb(0, 0, 0);
-				--main_text_color: #fff;
-				--gradient: linear-gradient(120deg, rgb(133, 62, 255), #f76cc6 30%, rgb(255, 255, 255) 60%);
-				--purple_text_color: #747bff;
-				--text_bg_color: rgb(26, 4, 48);
-				--item_bg_color: rgb(19, 20, 24);
-				--item_hover_color: rgb(19, 23, 27);
-				--item_left_title_color: rgb(255, 255, 255);
-				--item_left_text_color: rgb(142, 142, 142);
-				--footer_text_color: #646464;
-				--left_tag_item: linear-gradient(50deg, #1f2327, #000000);
-				--card_filter: 0px;
-				--back_filter: 0px;
-				--back_filter_color: #00000000;
 				--fill: #ffffff;
 			}
 		</style>
@@ -89,7 +89,7 @@
 
 					<div class="iconContainer">
 						<a class="iconItem" onclick="" href="./index.html">
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></svg>
+							<svg class="icon"  xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 11A8.1 8.1 0 0 0 4.5 9M4 5v4h4m-4 4a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></svg>
 							<div class="iconTip">换版</div>
 						</a><a class="iconItem" onclick="" href="https://pixcat.ru">
 							<svg t="1714813178890" class="icon" viewBox="0 0 1024 1024" version="1.1"
@@ -114,7 +114,7 @@
 							</svg>
 							<div class="iconTip">音乐</div>
 						</a><a class="iconItem" onclick="" href="https://i.pixcat.ru/">
-							<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m6 18l-2.3 2.3q-.475.475-1.088.213T2 19.575V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18zm-.85-2H20V4H4v13.125zM4 16V4zm4-5q.425 0 .713-.288T9 10t-.288-.712T8 9t-.712.288T7 10t.288.713T8 11m4 0q.425 0 .713-.288T13 10t-.288-.712T12 9t-.712.288T11 10t.288.713T12 11m4 0q.425 0 .713-.288T17 10t-.288-.712T16 9t-.712.288T15 10t.288.713T16 11"/></svg>
+							<svg  class="icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="m6 18l-2.3 2.3q-.475.475-1.088.213T2 19.575V4q0-.825.588-1.412T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.587 1.413T20 18zm-.85-2H20V4H4v13.125zM4 16V4zm4-5q.425 0 .713-.288T9 10t-.288-.712T8 9t-.712.288T7 10t.288.713T8 11m4 0q.425 0 .713-.288T13 10t-.288-.712T12 9t-.712.288T11 10t.288.713T12 11m4 0q.425 0 .713-.288T17 10t-.288-.712T16 9t-.712.288T15 10t.288.713T16 11"/></svg>
 							<div class="iconTip">关于</div>
 						</a> <a class="switch" href="javascript:void(0)">
 							<div class="onoffswitch">
