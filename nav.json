@@ -778,15 +778,21 @@
                 "logo": "default.ico"
             },
             {
-                "name": "快点搜",
-                "href": "https://quickso.cn/",
-                "desc": "资源导航",
+                "name": "叛逆草",
+                "href": "https://www.pncao.com/",
+                "desc": "",
                 "logo": "default.ico"
             },
             {
                 "name": "龙喵",
                 "href": "https://ailongmiao.com/",
-                "desc": "有态度的导航网站",
+                "desc": "",
+                "logo": "default.ico"
+            },
+            {
+                "name": "有约啦导航 ",
+                "href": "https://123.youyuela.com/",
+                "desc": "",
                 "logo": "default.ico"
             },
             {
@@ -971,9 +977,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "SVG 图标",
-                "href": "https://iconsvg.xyz/",
-                "desc": "获取svg图标、代码",
+                "name": "Yesicon图标库",
+                "href": "https://yesicon.app/",
+                "desc": "高品质矢量图标",
                 "logo": "default.ico"
             },
             {
