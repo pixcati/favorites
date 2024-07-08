@@ -168,6 +168,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "大模型排行榜",
+                "href": "https://rank.opencompass.org.cn/home",
+                "desc": "大模型评测榜单",
+                "logo": "default.ico"
+            },
+            {
                 "name": "沉浸式翻译",
                 "href": "https://immersivetranslate.com/",
                 "desc": "双语对照网页翻译",
@@ -1318,6 +1324,12 @@
                 "name": "PVZ资源",
                 "href": "http://lonelystar.org/download.htm",
                 "desc": "植物大战僵尸僵尸各类版本，含破解",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Ballance",
+                "href": "https://ballance.jxpxxzj.cn/wiki/Ballance%E5%90%A7%E5%AF%BC%E8%88%AA%E8%B4%B4",
+                "desc": "平衡球资源整合",
                 "logo": "default.ico"
             },
             {
