@@ -168,7 +168,13 @@
                 "logo": "default.ico"
             },
             {
-                "name": "大模型排行榜",
+                "name": "大模型排行榜 ①",
+                "href": "https://lyihub.com",
+                "desc": "林哥的大模型野榜",
+                "logo": "default.ico"
+            },
+            {
+                "name": "大模型排行榜 ②",
                 "href": "https://rank.opencompass.org.cn/home",
                 "desc": "大模型评测榜单",
                 "logo": "default.ico"
@@ -509,6 +515,12 @@
                 "name": "V2EX站内搜索",
                 "href": "https://www.sov2ex.com/",
                 "desc": "在 V2EX.COM 中查找",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Linux命令查询",
+                "href": "https://wangchujiang.com/linux-command/",
+                "desc": "600+ linux 命令的使用说明与示例",
                 "logo": "default.ico"
             },
             {
@@ -916,6 +928,12 @@
         "classify": "视觉资源",
         "icon": "csz czs-image-l",
         "sites": [
+            {
+                "name": "抽象背景生成器",
+                "href": "https://www.color4bg.com/zh-hans/",
+                "desc": "抽象动态背景生成器,免费导出图片视频或JS",
+                "logo": "default.ico"
+            },
             {
                 "name": "极简壁纸",
                 "href": "https://bz.zzzmh.cn/",
