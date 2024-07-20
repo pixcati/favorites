@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -14,6 +15,17 @@ a,body,div,footer,form,h1,h2,header,html,li,nav,p,section,ul{margin:0;padding:0;
 			#cta {
 				background: #1f2328;
 			}
+			 .cdn-select {
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            padding: 1em 0.2rem;
+            border: 1px solid #e5e5e5;
+            border-radius: 3px;
+            background-color: #404448;
+            color: inherit;
+            font-size: 0.85em;
+            cursor: pointer;
+        }
 		</style>
 
 	</head>
@@ -41,18 +53,24 @@ a,body,div,footer,form,h1,h2,header,html,li,nav,p,section,ul{margin:0;padding:0;
 								pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$"
 								required>
 						</div>
-						<div class="col-4 col-12-mobilep">
-							<input type="submit" value="获取">
-						</div>
-					</div>
-				</form>
-			</section>
+<div class="col-4 col-12-mobilep">
+                        <!-- 添加CDN选择下拉菜单 -->
+                        <select name="cdn" id="cdnSelect" class="cdn-select">
+                            <option value="default" selected>默认</option>
+                            <option value="fastly">Fastly</option>
+                            <option value="gcore">gcore</option>
+                            <option value="cloudflare">CloudFlare</option>
+                        </select>
+                        <input type="submit" value="获取">
+                    </div>
+                </div>
+            </form>
+        </section>
 
 
 			<footer id="footer">
 				<p><a>Github代理加速</a>All rights reserved.</p>
 			</footer>
 		</div>
-
-	</body>
+</body>
 </html>
