@@ -1262,8 +1262,8 @@
             },
             {
                 "name": "模拟器游戏ROM",
-                "href": "https://www.bilibili.com/video/BV1dM411r7w4/",
-                "desc": "32 个游戏ROM下载网站推合集",
+                "href": "https://www.emulatorgames.net/roms/",
+                "desc": "丰富的复古游戏ROM库",
                 "logo": "default.ico"
             },
             {
@@ -1555,6 +1555,18 @@
                 "href": "https://www.ventoy.net/cn/",
                 "desc": "多系统多镜像启动盘",
                 "logo": "default.ico"
+    },
+    {
+        "name": "FirPE Project",
+        "href": "https://firpe.cn/",
+        "desc": "最适合年轻人的PE",
+        "logo": "default.ico"
+    },
+    {
+        "name": "HotPE",
+        "href": "https://www.hotpe.top/",
+        "desc": "一个纯净、强大、优雅的PE工具箱",
+        "logo": "default.ico"
             },
             {
                 "name": "Android x86",
@@ -2249,8 +2261,14 @@
             {
                 "name": "二次寒树",
                 "href": "https://echs.top/",
-                "desc": "二次寒树",
+                "desc": "ECHSFXY",
                 "logo": "default.ico"
+    },
+    {
+        "name": "雨夜回廊",
+        "href": "https://myql.eu.org/about",
+        "desc": "雨夜回廊",
+        "logo": "default.ico"
             },
             {
                 "name": "小z博客",
