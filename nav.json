@@ -1,2510 +1,2490 @@
-[
-    {
-        "_id": "fjkdasf1g1sb1",
-        "classify": "媒体工具",
-        "icon": "csz czs-play-l",
-        "sites": [
-            {
-                "name": "消除图片背景",
-                "href": "https://bgsub.cn/",
-                "desc": "快速移除或替换图片背景",
-                "logo": "default.ico"
-            },
-            {
-                "name": "提取网页图片",
-                "href": "http://www.pullywood.com/ImageAssistant/",
-                "desc": "列出与保存网页中存在的图片或图标",
-                "logo": "default.ico"
-            },
-            {
-                "name": "九宫格切图",
-                "href": "https://lab.magiconch.com/v/sns-image",
-                "desc": "将图片分割成九张图",
-                "logo": "default.ico"
-            },
-            {
-                "name": "B站视频下载 ①",
-                "href": "https://www.jijidown.com/",
-                "desc": "哔哩哔哩唧唧",
-                "logo": "default.ico"
-            },
-            {
-                "name": "B站视频下载 ②",
-                "href": "http://zhouql.vip/bilibili/",
-                "desc": "B站视频在线下载",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音乐白嫖器",
-                "href": "http://tool.liumingye.cn/music/?page=homePage",
-                "desc": "多平台音乐聚合搜索",
-                "logo": "default.ico"
-            },
-            {
-                "name": "超级音乐白嫖 ①",
-                "href": "https://iao.su/2217/",
-                "desc": "白嫖各平台无损音乐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "超级音乐白嫖 ②",
-                "href": "http://blog.cccyun.cn/post-391.html",
-                "desc": "白嫖各平台无损音乐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线带壳截图",
-                "href": "https://deviceshots.com/",
-                "desc": "给截图添加不同设备类型的壳子",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线画像素画",
-                "href": "https://site.douban.com/163509/widget/forum/8736495/discussion/615417236/",
-                "desc": "多个在线画像素画的小工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "YouTube 视频下载 ①",
-                "href": "https://cobalt.tools/",
-                "desc": "在线获取 YouTube 视频",
-                "logo": "default.ico"
-            },
-            {
-                "name": "YouTube 视频下载 ②",
-                "href": "https://youtube.iiilab.com/",
-                "desc": "支持YouTube、Twitter、Tumblr等平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音视频在线剪切",
-                "href": "https://123apps.com/cn/",
-                "desc": "音视频在线剪切、格式转换、PDF转Word等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文字转AI语音 ①",
-                "href": "https://www.modelscope.cn/studios/xzjosh/Bert-VITS2/",
-                "desc": "基于VITS的语音合成Demo合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文字转AI语音 ②",
-                "href": "https://www.text-to-speech.cn/",
-                "desc": "基于微软Azure语音合成的第三方工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文字转AI语音 ③",
-                "href": "https://zomehwh-vits-uma-genshin-honkai.hf.space/",
-                "desc": "基于VITS的语音合成Demo合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线格式转换 ①",
-                "href": "https://www.alltoall.net/",
-                "desc": "免费的在线格式转换工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线格式转换 ②",
-                "href": "https://www.aconvert.com/cn/",
-                "desc": "免费的在线格式转换工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线格式转换 ③",
-                "href": "https://convertio.co/zh/",
-                "desc": "将您的文件转换成任意格式",
-                "logo": "default.ico"
-            },
-            {
-                "name": "FFmpeg网页版",
-                "href": "https://ffmpeg.gcc.ac.cn/index_zh.html",
-                "desc": "在浏览器本地进行FFmpeg转码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "快速抠图",
-                "href": "https://www.gaoding.com/koutu",
-                "desc": "实用在线抠图工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ARC实验室",
-                "href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
-                "desc": "人像修复、人像抠图、动漫增强等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Clipdrop",
-                "href": "https://clipdrop.co/",
-                "desc": "AI绘画、图片脑补、背景替换去除、图片去字等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "图片无损放大",
-                "href": "https://github.com/tumuyan/RealSR-NCNN-Android/releases",
-                "desc": "Real-CUGAN、Waifu2x等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "SD整合包",
-                "href": "https://space.bilibili.com/12566101/channel/seriesdetail?sid=3930565",
-                "desc": "Stable Diffusion秋叶整合包",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5ce000b954656",
-        "classify": "效率工具",
-        "icon": "csz czs-time-l",
-        "sites": [
-            {
-                "name": "国内大模型一览",
-                "href": "https://github.com/wgwang/awesome-LLMs-In-China",
-                "desc": "国产LLM列表",
-                "logo": "default.ico"
-            },
-            {
-                "name": "大模型排行榜 ①",
-                "href": "https://lyihub.com",
-                "desc": "林哥的大模型野榜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "大模型排行榜 ②",
-                "href": "https://rank.opencompass.org.cn/home",
-                "desc": "大模型评测榜单",
-                "logo": "default.ico"
-            },
-            {
-                "name": "沉浸式翻译",
-                "href": "https://immersivetranslate.com/",
-                "desc": "双语对照网页翻译",
-                "logo": "default.ico"
-            },
-            {
-                "name": "翻译图中文字",
-                "href": "https://cotrans.touhou.ai/",
-                "desc": "一键翻译各类图片内文字",
-                "logo": "default.ico"
-            },
-            {
-                "name": "多引擎翻译 ①",
-                "href": "https://33tool.com/translate/",
-                "desc": "使用多个源进行翻译",
-                "logo": "default.ico"
-            },
-            {
-                "name": "多引擎翻译 ②",
-                "href": "https://openl.club/",
-                "desc": "使用多个AI进行翻译",
-                "logo": "default.ico"
-            },
-            {
-                "name": "从图片提取文字",
-                "href": "https://i.pixcat.ru/ocr-wen-zi-shi-bie-gong-ju",
-                "desc": "OCR文字识别",
-                "logo": "default.ico"
-            },
-            {
-                "name": "白板",
-                "href": "https://excalidraw.com/",
-                "desc": "开源手绘白板，协作加密，支持PNG、SVG导出",
-                "logo": "default.ico"
-            },
-            {
-                "name": "模拟手写签名",
-                "href": "https://www.calligrapher.ai/",
-                "desc": "模拟手写英文签名，可导出SVG",
-                "logo": "default.ico"
-            },
-            {
-                "name": "查看本地IP",
-                "href": "https://ip.skk.moe/",
-                "desc": "查询本地IPV4、IPV6或DNS",
-                "logo": "default.ico"
-            },
-            {
-                "name": "URL提取",
-                "href": "http://tools.sbbbb.cn/urltq/",
-                "desc": "从内容中提取链接",
-                "logo": "default.ico"
-            },
-            {
-                "name": "代码卡片制作",
-                "href": "https://carbon.now.sh/",
-                "desc": "为你的代码片段生成好看的卡片图",
-                "logo": "default.ico"
-            },
-            {
-                "name": "WIFI卡片制作",
-                "href": "https://wificard.io/",
-                "desc": "为你的wifi制作二维码以扫码接入",
-                "logo": "default.ico"
-            },
-            {
-                "name": "浏览器扩展下载 ①",
-                "href": "https://chrome.zzzmh.cn/",
-                "desc": "国内下载 Chrome 扩展",
-                "logo": "default.ico"
-            },
-            {
-                "name": "浏览器扩展下载 ②",
-                "href": "https://crxdl.com/",
-                "desc": "下载 CRX 格式的 Chrome 扩展",
-                "logo": "default.ico"
-            },
-            {
-                "name": "浏览器扩展下载 ③",
-                "href": "https://www.crxsoso.com/",
-                "desc": "下载 CRX 格式的 Chrome 扩展",
-                "logo": "default.ico"
-            },
-            {
-                "name": "找脚本",
-                "href": "https://www.zhaojiaoben.cn/",
-                "desc": "在线油猴脚本搜索工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "二维码生成制作",
-                "href": "https://qrbtf.com/",
-                "desc": "参数化二维码生成",
-                "logo": "default.ico"
-            },
-            {
-                "name": "CPU显卡天梯图",
-                "href": "https://www.topcpu.net/zh-hk/",
-                "desc": "CPU、GPU、Soc性能排行",
-                "logo": "default.ico"
-            },
-            {
-                "name": "移动端芯片排行",
-                "href": "https://www.socpk.com/",
-                "desc": "移动端Soc性能排行，由极客湾出品",
-                "logo": "default.ico"
-            },
-            {
-                "name": "路由器CPU性能排行",
-                "href": "https://www.jamcz.com/router/",
-                "desc": "硬路由多核加解密性能",
-                "logo": "default.ico"
-            },
-            {
-                "name": "随机密码生成",
-                "href": "https://www.wotianna.com/password/",
-                "desc": "随机密码生成",
-                "logo": "default.ico"
-            },
-            {
-                "name": "设备默认密码大全",
-                "href": "http://tools.sbbbb.cn/defaultpasswd/",
-                "desc": "不同设备的默认账号及密码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "公共DNS大全",
-                "href": "https://dns.iui.im/",
-                "desc": "常用、小众或地方DNS",
-                "logo": "default.ico"
-            },
-            {
-                "name": "快捷键备忘录",
-                "href": "https://hotkeycheatsheet.com/zh",
-                "desc": "工具类软件的常用快捷键",
-                "logo": "default.ico"
-            },
-            {
-                "name": "开发者速查表 ①",
-                "href": "https://devhints.io/",
-                "desc": "Devhints",
-                "logo": "default.ico"
-            },
-            {
-                "name": "开发者速查表②",
-                "href": "https://wangchujiang.com/reference/",
-                "desc": "Quick Reference",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网页上都是简体",
-                "href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
-                "desc": "网页上的繁体字都替换为简体",
-                "logo": "default.ico"
-            },
-            {
-                "name": "获取境外号卡 ①",
-                "href": "https://mutou.men/posts/2023-07-26-国外手机卡汇总/",
-                "desc": "中国大陆可用境外SIM卡",
-                "logo": "default.ico"
-            },
-            {
-                "name": "获取境外号卡 ②",
-                "href": "https://owomoe.net/dev/175.html",
-                "desc": "中国大陆可用境外SIM卡",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线方格纸打印",
-                "href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
-                "desc": "在线自定义打印多种类型的方格纸",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线 Markdown 编辑 ①",
-                "href": "https://www.zybuluo.com/",
-                "desc": "Markdown 编辑阅读器，实时同步预览",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线 Markdown 编辑 ②",
-                "href": "https://tools.miku.ac/markdown/",
-                "desc": "Markdown 编辑",
-                "logo": "default.ico"
-            },
-            {
-                "name": "帮你收短信 ①",
-                "href": "https://www.materialtools.com/?page=1",
-                "desc": "接码平台，可用于接收验证码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "帮你收短信 ②",
-                "href": "http://www.114sim.com/",
-                "desc": "接码平台，可用于接收验证码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "帮你收短信 ③",
-                "href": "https://51.ruyo.net/7789.html",
-                "desc": "接码平台汇总",
-                "logo": "default.ico"
-            },
-            {
-                "name": "临时邮箱",
-                "href": "http://24mail.chacuo.net/",
-                "desc": "获取一个临时邮箱",
-                "logo": "default.ico"
-            },
-            {
-                "name": "智能法律咨询",
-                "href": "https://ai.12348.gov.cn/",
-                "desc": "自动给出法律意见书",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c456gdhhdgd64",
-        "classify": "存储工具",
-        "icon": "csz czs-baiduwangpan",
-        "sites": [
-            {
-                "name": "文件快递柜",
-                "href": "https://share.lanol.cn/#/send",
-                "desc": "像拿快递一样取文件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "空投快传",
-                "href": "https://airportal.cn",
-                "desc": "AirPortal | 空投",
-                "logo": "default.ico"
-            },
-            {
-                "name": "局域网互传网页版",
-                "href": "https://yunge.in/",
-                "desc": "局域网内设备通过此网页进行互传",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网络剪切板",
-                "href": "https://netcut.cn/",
-                "desc": "快速传送全格式文件与存储文本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文件传输助手",
-                "href": "https://filehelper.weixin.qq.com/",
-                "desc": "微信文件传输助手网页版",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PP直连",
-                "href": "https://www.ppzhilian.com/",
-                "desc": "帮手机、电脑点到点直连",
-                "logo": "default.ico"
-            },
-            {
-                "name": "KinhDown",
-                "href": "https://www.kinhdown.com/",
-                "desc": "突破度盘限速",
-                "logo": "default.ico"
-            },
-            {
-                "name": "百度网盘解析",
-                "href": "https://moeyy.cn/baidudisk/",
-                "desc": "提取文件直链",
-                "logo": "default.ico"
-            },
-            {
-                "name": "天翼云盘解析",
-                "href": "https://189.ly93.cc/",
-                "desc": "提取文件直链",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网盘搬家",
-                "href": "https://mover.io/",
-                "desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Alist",
-                "href": "https://alist.nn.ci/zh/",
-                "desc": "支持多种存储的文件列表程序",
-                "logo": "default.ico"
-            },
-            {
-                "name": "目录列表程序整理",
-                "href": "https://wzfou.com/mulu-lists/",
-                "desc": "一个文件列表程序的整理",
-                "logo": "default.ico"
-            },
-            {
-                "name": "免费图床",
-                "href": "https://i.pixcat.ru/zai-xian-tu-pian-tuo-guan",
-                "desc": "上传图片并获取外链",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c456gdhhdgd64",
-        "classify": "检索工具",
-        "icon": "csz czs-search-l",
-        "sites": [
-            {
-                "name": "资源搜索",
-                "href": "https://iao.su/3700/",
-                "desc": "搜索不同类别的资源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线搜题",
-                "href": "https://www.asklib.com/",
-                "desc": "查找各科试题",
-                "logo": "default.ico"
-            },
-            {
-                "name": "磁力搜索",
-                "href": "https://iao.su/908/",
-                "desc": "磁力搜索网站聚合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "虫部落聚合搜索",
-                "href": "https://search.chongbuluo.com/",
-                "desc": "使用多个学术搜索引擎搜索内容",
-                "logo": "default.ico"
-            },
-            {
-                "name": "V2EX站内搜索",
-                "href": "https://www.sov2ex.com/",
-                "desc": "在 V2EX.COM 中查找",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Linux命令查询",
-                "href": "https://wangchujiang.com/linux-command/",
-                "desc": "600+ linux 命令的使用说明与示例",
-                "logo": "default.ico"
-            },
-            {
-                "name": "泄露数据查询",
-                "href": "https://taogefx.com/3574.html",
-                "desc": "检查信息数据是否遭遇安全隐患",
-                "logo": "default.ico"
-            },
-            {
-                "name": "虫部落学术搜索",
-                "href": "https://scholar.chongbuluo.com/",
-                "desc": "使用多个学术搜索引擎搜索内容",
-                "logo": "default.ico"
-            },
-            {
-                "name": "医药信息查询",
-                "href": "https://www.dayi.org.cn/",
-                "desc": "中国医药信息查询平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Magi",
-                "href": "https://magi.com/",
-                "desc": "Magi",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Shodan",
-                "href": "https://www.shodan.io/",
-                "desc": "Shodan",
-                "logo": "default.ico"
-            },
-            {
-                "name": "钟馗之眼",
-                "href": "https://www.zoomeye.org/",
-                "desc": "ZoomEye",
-                "logo": "default.ico"
-            },
-            {
-                "name": "F搜",
-                "href": "https://fsoufsou.com/",
-                "desc": "F搜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "探索者小舒",
-                "href": "https://xiaoshuapp.com/explorer/",
-                "desc": "在多个引擎间切换搜索",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "55fda05164",
-        "classify": "折腾工具",
-        "icon": "csz czs-server-l",
-        "sites": [
-            {
-                "name": "在线定制OP固件",
-                "href": "https://supes.top/",
-                "desc": "定制您的OpenWrt固件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "老毛子APP",
-                "href": "https://www.right.com.cn/forum/thread-4088564-1-1.html",
-                "desc": "为Padavan固件适配的APP",
-                "logo": "default.ico"
-            },
-            {
-                "name": "哪里域名便宜 ①",
-                "href": "https://www.nazhumi.com/",
-                "desc": "全球域名，一网比价",
-                "logo": "default.ico"
-            },
-            {
-                "name": "哪里域名便宜 ②",
-                "href": "https://namebeta.com/",
-                "desc": "域名注册查询并多方查价",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网页历史快照",
-                "href": "https://web.archive.org/",
-                "desc": "Wayback Machine",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一键更换软件源",
-                "href": "https://supermanito.github.io/LinuxMirrors/",
-                "desc": "更换软件源为不同的国内镜像，支持多个发行版 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一键重装服务器",
-                "href": "https://wzfou.com/5-vps-chongzhuang/",
-                "desc": "适用于Linux / Windows ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一键内核网络加速",
-                "href": "https://github.com/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
-                "desc": "为服务器启用BBR、锐速以及魔改版加速",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一键安装Kangle",
-                "href": "http://kangle.cccyun.cn/",
-                "desc": "一键安装 Kangle+Ep+Mysql ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一键安装Docker",
-                "href": "https://51.ruyo.net/16766.html",
-                "desc": "Docker 一脚安装脚本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "SSH 中转",
-                "href": "https://console.ucloud.cn/upathx/globalssh",
-                "desc": "UCloud 提供 GlobalSSH 加速服务",
-                "logo": "default.ico"
-            },
-            {
-                "name": "免费SSL证书",
-                "href": "https://wzfou.com/mianfei-ssl/",
-                "desc": "免费SSL证书申请渠道汇总",
-                "logo": "default.ico"
-            },
-            {
-                "name": "VPS融合怪脚本",
-                "href": "https://github.com/spiritLHLS/ecs",
-                "desc": "VPS融合怪服务器测评脚本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "魔改版宝塔面板",
-                "href": "https://www.hostcli.com/",
-                "desc": "去除验证码关闭活动推荐等 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "高仿宝塔面板",
-                "href": "https://github.com/midoks/mdserver-web",
-                "desc": "根据宝塔UI重构的面板",
-                "logo": "default.ico"
-            },
-            {
-                "name": "低价服务器榜单",
-                "href": "https://vpsdb.top/",
-                "desc": "性价比VPS方案",
-                "logo": "default.ico"
-            },
-            {
-                "name": "VPS可视化管理",
-                "href": "https://i.pixcat.ru/vps-ke-shi-hua-guan-li",
-                "desc": "类似宝塔、LNMP等同类软件聚合 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Cloudflare 玩出花",
-                "href": "https://github.com/zhuima/awesome-cloudflare",
-                "desc": "CloudFlare 五花八门的玩法与工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "CloudFlare 优选IP",
-                "href": "https://github.com/XIU2/CloudflareSpeedTest",
-                "desc": "测试 Cloudflare CDN 延迟和速度",
-                "logo": "default.ico"
-            },
-            {
-                "name": "免费内网穿透",
-                "href": "https://www.natfrp.com/user/",
-                "desc": "SAKURA FRP",
-                "logo": "default.ico"
-            },
-            {
-                "name": "站长工具国内测速",
-                "href": "http://tool.chinaz.com/speedtest/",
-                "desc": "站长工具国内测速",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Github 文件加速 ①",
-                "href": "https://ghproxy.com/",
-                "desc": "加速Github文件下载",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Github 文件加速 ②",
-                "href": "https://ghmirror00.pages.dev/",
-                "desc": "加速Github文件下载",
-                "logo": "default.ico"
-            },
-            {
-                "name": "CSS 筛选",
-                "href": "https://uncss-online.com/",
-                "desc": "滤出CSS中被使用的部分",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5cfaklkk5164",
-        "classify": "综合工具",
-        "icon": "csz czs-thumbs-up-l",
-        "sites": [
-            {
-                "name": "MikuTools",
-                "href": "https://tools.miku.ac/",
-                "desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "帮小忙",
-                "href": "https://tool.browser.qq.com/",
-                "desc": "腾讯旗下的工具集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "彩虹工具",
-                "href": "http://tool.cccyun.cc/",
-                "desc": "彩虹工具网",
-                "logo": "default.ico"
-            },
-            {
-                "name": "千盒工具",
-                "href": "https://1000tool.com/",
-                "desc": "专注优质在线工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一网一匠",
-                "href": "https://ywyj.cn/",
-                "desc": "一起发现有趣的新产品",
-                "logo": "default.ico"
-            },
-            {
-                "name": "漫游云野",
-                "href": "https://roam.mixcm.com/",
-                "desc": "让你的收藏夹不再是孤岛",
-                "logo": "default.ico"
-            },
-            {
-                "name": "设计师导航",
-                "href": "https://hao.uisdc.com/",
-                "desc": "国内专业设计师网站导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "梦想导航",
-                "href": "https://nav.dreamthere.cn/",
-                "desc": "探索未知的网路世界",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ITEM",
-                "href": "https://item.ink",
-                "desc": "链接更多选项",
-                "logo": "default.ico"
-            },
-            {
-                "name": "iMyShare",
-                "href": "https://imyshare.com/",
-                "desc": "实用导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Creative Mass",
-                "href": "https://creativemass.cn/",
-                "desc": "精选创意导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "叛逆草",
-                "href": "https://www.pncao.com/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "龙喵",
-                "href": "https://ailongmiao.com/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "有约啦导航 ",
-                "href": "https://123.youyuela.com/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AMZ123",
-                "href": "https://www.amz123.com/",
-                "desc": "跨境电商出海导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "旁门左道",
-                "href": "https://www.goto-mars.com/people/aLYqyNvYvd#nav-category-265771",
-                "desc": "旁门左道PPT推荐的导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "CXY521",
-                "href": "http://www.cxy521.com/",
-                "desc": "程序员导航-CXY521",
-                "logo": "default.ico"
-            },
-            {
-                "name": "冻死企鹅",
-                "href": "https://dongsiqie.me/",
-                "desc": "免费的ChatGPT以及衍生项目",
-                "logo": "default.ico"
-            },
-            {
-                "name": "油小猴",
-                "href": "https://www.baiduyun.wiki/",
-                "desc": "实用脚本集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "源仓库",
-                "href": "https://yckceo.vip/",
-                "desc": "书源、漫画源影视源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "懒人工具箱",
-                "href": "https://tool.lanrentuku.com/",
-                "desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PickFrom",
-                "href": "https://zh.pickfrom.net/",
-                "desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "LuckySec",
-                "href": "http://nav.luckysec.cn/",
-                "desc": " 网络安全资源导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "0xShe网络安全导航",
-                "href": "https://sbbbb.cn/",
-                "desc": "网络安全日常工具集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线工具",
-                "href": "https://tool.lu/",
-                "desc": "代码压缩、美化，开发类、站长类、极客类工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线工具箱",
-                "href": "https://moeyy.cn/tool/",
-                "desc": "在线工具箱",
-                "logo": "default.ico"
-            },
-            {
-                "name": "哆啦A梦的神奇口袋",
-                "href": "https://baozangku.com/",
-                "desc": "永硕E盘下的某列表",
-                "logo": "default.ico"
-            },
-            {
-                "name": "LKS的网站推荐",
-                "href": "http://lkssite.vip/",
-                "desc": "良心网站推荐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ①",
-                "href": "https://aibard123.com/ ",
-                "desc": "AI工具导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ②",
-                "href": "https://www.aigc.cn/",
-                "desc": "AIGC工具集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ③",
-                "href": "https://www.naviai.cn/",
-                "desc": "AI工具导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ④",
-                "href": "https://www.aiopenminds.com/",
-                "desc": "AI工具导航",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5cJHU11032f4",
-        "classify": "视觉资源",
-        "icon": "csz czs-image-l",
-        "sites": [
-            {
-                "name": "抽象背景生成器",
-                "href": "https://www.color4bg.com/zh-hans/",
-                "desc": "抽象动态背景生成器,免费导出图片视频或JS",
-                "logo": "default.ico"
-            },
-            {
-                "name": "极简壁纸",
-                "href": "https://bz.zzzmh.cn/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wallpapers",
-                "href": "https://wallpapershome.com/",
-                "desc": "高质量壁纸",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wallhaven",
-                "href": "https://wallhaven.cc/",
-                "desc": "高质量壁纸",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Pexels",
-                "href": "https://www.pexels.com/zh-cn/",
-                "desc": "免版权图片素材",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Unsplash",
-                "href": "https://unsplash.com/",
-                "desc": "免版权图片素材",
-                "logo": "default.ico"
-            },
-            {
-                "name": "搜图神器",
-                "href": "https://www.logosc.cn/so/",
-                "desc": "免费版权图片一键搜索",
-                "logo": "default.ico"
-            },
-            {
-                "name": "必应壁纸",
-                "href": "https://bing.img.run/",
-                "desc": "必应历史美图、背景",
-                "logo": "default.ico"
-            },
-            {
-                "name": "致美化",
-                "href": "https://zhutix.com/",
-                "desc": "桌面美化资源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "P站热门",
-                "href": "https://pixivic.com/",
-                "desc": "P站热榜与热门",
-                "logo": "default.ico"
-            },
-            {
-                "name": "草莓图标库",
-                "href": "http://chuangzaoshi.com/icon/",
-                "desc": "一款字体图标",
-                "logo": "default.ico"
-            },
-            {
-                "name": "阿里巴巴图标库",
-                "href": "https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.d33146d14&type=3",
-                "desc": "阿里巴巴矢量图标库",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Yesicon图标库",
-                "href": "https://yesicon.app/",
-                "desc": "高品质矢量图标",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Emoji 大全",
-                "href": "https://emojixd.com/",
-                "desc": "emoji表情搜索与复制",
-                "logo": "default.ico"
-            },
-            {
-                "name": "免费可商用字体",
-                "href": "https://ziyouziti.com/index-index-all.html",
-                "desc": "免费可商用字体大全",
-                "logo": "default.ico"
-            },
-            {
-                "name": "色彩百科",
-                "href": "https://encycolorpedia.cn/named",
-                "desc": "Encycolorpedia",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线配色",
-                "href": "https://color.adobe.com/zh/create/color-wheel",
-                "desc": "Adobe官方推出的配色工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "配色方案推荐",
-                "href": "https://peiseka.com/",
-                "desc": "",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5cggsgrrr5164",
-        "classify": "软件资源",
-        "icon": "csz czs-download-l",
-        "sites": [
-            {
-                "name": "获取最新 Chrome",
-                "href": "https://dream.ren/tool/chrome/",
-                "desc": "获取最新谷歌浏览器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "下载与白嫖 office ①",
-                "href": "https://otp.landian.vip/zh-cn/",
-                "desc": "多版本 office 安装与激活",
-                "logo": "default.ico"
-            },
-            {
-                "name": "下载与白嫖 office ②",
-                "href": "https://www.mocreak.com/",
-                "desc": "一键自动化、无人值守下载、安装、部署 Office ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "获取免费的WPS",
-                "href": "https://www.lyszm.com/773.html",
-                "desc": "WPS政企专版 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Adobe系列下载",
-                "href": "http://adobe.v404.cn/adobe/",
-                "desc": "网盘获取Adobe系列软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "激活 Windows ①",
-                "href": "https://www.423down.com/1202.html",
-                "desc": "智能选择激活方式，同时可激活Office",
-                "logo": "default.ico"
-            },
-            {
-                "name": "激活 Windows ②",
-                "href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
-                "desc": "Windows 数字激活工具，解压密码1234",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Office 密钥 ",
-                "href": "https://office-kms-keys.pages.dev/",
-                "desc": "Ofice 激活密钥",
-                "logo": "default.ico"
-            },
-            {
-                "name": "获取纯净的Flash",
-                "href": "https://www.ghxi.com/cleanflashplayer.html",
-                "desc": "纯净并去除了限制",
-                "logo": "default.ico"
-            },
-            {
-                "name": "恢复文件与数据",
-                "href": "https://www.disktool.cn/recovery/winfr.html",
-                "desc": "微软出品恢复工具的可视化版本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "我天哪",
-                "href": "https://www.wotianna.com/",
-                "desc": "一个软件导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "423down",
-                "href": "https://www.423down.com/",
-                "desc": "修改、汉化、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "果核剥壳",
-                "href": "https://www.ghxi.com/",
-                "desc": "修改、汉化、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "克隆窝",
-                "href": "https://www.uy5.net/",
-                "desc": "修改、汉化、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "分享迷",
-                "href": "https://www.fenxm.com/",
-                "desc": "安卓TV软件、修改、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ZAPRO",
-                "href": "https://tmioe.com/",
-                "desc": "修改、破解软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "微当下载",
-                "href": "https://www.weidown.com/",
-                "desc": "修改、汉化、精简软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "QiuQuan's Blog",
-                "href": "http://www.qiuquan.cc/",
-                "desc": "精简 、优化 、 打包",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PC软件库",
-                "href": "https://www.pcoof.com/",
-                "desc": "修改、汉化、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "六音软件",
-                "href": "https://www.6yit.com/",
-                "desc": "魔改软件合辑",
-                "logo": "default.ico"
-            },
-            {
-                "name": "易破解",
-                "href": "https://www.ypojie.com/",
-                "desc": "修改、汉化、绿色软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "异星软件空间",
-                "href": "http://www.yxssp.com/",
-                "desc": "安卓直装修改破解软件等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "LITEAPKS",
-                "href": "https://liteapks.com/",
-                "desc": "一个国外的安卓破解软件游戏站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "APKHUB",
-                "href": "https://apkhub.cloud/",
-                "desc": "APKHUB",
-                "logo": "default.ico"
-            },
-            {
-                "name": "5Play",
-                "href": "https://5play.org/",
-                "desc": "一个国外的安卓破解软件游戏站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "5-App",
-                "href": "https://5-app.ru/",
-                "desc": "一个国外的安卓破解软件游戏站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "星火应用商店",
-                "href": "https://spark-app.store/",
-                "desc": "Linux软件商店，适用于Debian系",
-                "logo": "default.ico"
-            },
-            {
-                "name": "异次元软件世界",
-                "href": "https://www.iplaysoft.com/",
-                "desc": "高质量软件图文",
-                "logo": "default.ico"
-            },
-            {
-                "name": "截图神器",
-                "href": "https://pixpinapp.com/",
-                "desc": "PixXin支持截取动图、贴图、长截图、OCR等功能",
-                "logo": "default.ico"
-            },
-            {
-                "name": "QQ微信防撤回",
-                "href": "https://github.com/huiyadanli/RevokeMsgPatcher/wiki",
-                "desc": "PC微信QQ防撤回补丁",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5cfdafadq0",
-        "classify": "游戏资源",
-        "icon": "csz csz czs-game-l",
-        "sites": [
-            {
-                "name": "安卓NS模拟器 ",
-                "href": "https://www.bilibili.com/read/cv18207718",
-                "desc": "NS、PS2、PSV、3DS等模拟器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "小霸王 ",
-                "href": "https://www.yikm.net/",
-                "desc": "在线玩FC、街机、GBA等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "低端游戏 ",
-                "href": "https://ddyx.me/",
-                "desc": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "资源避难所 ",
-                "href": "https://www.flysheep6.com/",
-                "desc": "PC游戏、模拟器资源下载",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Vimm's Lair",
-                "href": "https://vimm.net/vault/",
-                "desc": "26 个经典系统的所有游戏",
-                "logo": "default.ico"
-            },
-            {
-                "name": "模拟器游戏ROM",
-                "href": "https://www.emulatorgames.net/roms/",
-                "desc": "丰富的复古游戏ROM库",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Poki ",
-                "href": "https://poki.cn/",
-                "desc": "在线H5游戏合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PacoGames ",
-                "href": "https://www.pacogames.com/",
-                "desc": "国外小游戏网站合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Java游戏小站",
-                "href": "https://java.owoemu.com/",
-                "desc": "Java游戏资源集合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Flashpoint",
-                "href": "https://flashpointarchive.org/",
-                "desc": "Flash档案馆，游戏与动画",
-                "logo": "default.ico"
-            },
-            {
-                "name": "NS游戏资源",
-                "href": "https://www.gamer520.com/",
-                "desc": "Switch 520资源站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Epic 喜加一",
-                "href": "https://www.epicgames.com/store/zh-CN/",
-                "desc": "白嫖游戏",
-                "logo": "default.ico"
-            },
-            {
-                "name": "古墓丽影网页版 ",
-                "href": "http://xproger.info/projects/OpenLara/",
-                "desc": "Classic Tomb Raider open-source engine",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线运行SWF ",
-                "href": "https://ruffle.rs/",
-                "desc": "在现代浏览器中玩转Flash",
-                "logo": "default.ico"
-            },
-            {
-                "name": "电脑玩Wii U",
-                "href": "https://www.iplaysoft.com/cemu.html",
-                "desc": "Wii U模拟器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Dolphin",
-                "href": "https://cn.dolphin-emu.org/",
-                "desc": "Wii模拟器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Lemuroid",
-                "href": "https://f-droid.org/zh_Hans/packages/com.swordfish.lemuroid/",
-                "desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Pcstory",
-                "href": "https://7zip.lanzoue.com/itgNi0nvsw8d",
-                "desc": "蘑菇游戏下载器，5.0版本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PVZ资源",
-                "href": "http://lonelystar.org/download.htm",
-                "desc": "植物大战僵尸僵尸各类版本，含破解",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Ballance",
-                "href": "https://ballance.jxpxxzj.cn/wiki/Ballance%E5%90%A7%E5%AF%BC%E8%88%AA%E8%B4%B4",
-                "desc": "平衡球资源整合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "CE修改器",
-                "href": "https://www.ghxi.com/ce.html",
-                "desc": "Cheat Engine中文版",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "542346fa6",
-        "classify": "玩机资源",
-        "icon": "csz czs-android",
-        "sites": [
-            {
-                "name": "安卓旧版软件",
-                "href": "https://apkcombo.com/zh/",
-                "desc": "寻找旧版本、32位、x86等多架构软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ADB在线执行器",
-                "href": "https://xadb.netlify.app/",
-                "desc": "在线的aADB GUI",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Magisk 资源分享",
-                "href": "https://magisk.suchenqaq.club/",
-                "desc": "Magisk、Xposed资源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "境外APK下载 ①",
-                "href": "https://apk.bot/cn",
-                "desc": "免代理下载谷歌市场上的APK",
-                "logo": "default.ico"
-            },
-            {
-                "name": "境外APK下载 ②",
-                "href": "https://www.apkmirror.com/",
-                "desc": "ApkMirror",
-                "logo": "default.ico"
-            },
-            {
-                "name": "IPA软件下载",
-                "href": "https://i.pixcat.ru/ipa-ge-shi-ruan-jian-xia-zai",
-                "desc": "下载适用于iOS的IPA软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "小米ROM下载",
-                "href": "https://xiaomirom.com/",
-                "desc": "小米所有线刷与卡刷固件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "MIUI修改版桌面",
-                "href": "https://space.bilibili.com/324056528/video",
-                "desc": "一个修改版的MIUI桌面",
-                "logo": "default.ico"
-            },
-            {
-                "name": "MIUI主题国际站",
-                "href": "https://www.miuithemer.com/",
-                "desc": "下载国际版 MIUI 主题MTZ文件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "手机安装Windows",
-                "href": "https://mindows.cn/",
-                "desc": "Mindows 工具箱",
-                "logo": "default.ico"
-            },
-            {
-                "name": "安卓玩机合集",
-                "href": "https://www.jamcz.com/tutorial/wanji/",
-                "desc": "adb、fastboot以及各厂商驱动与官方刷机包",
-                "logo": "default.ico"
-            },
-            {
-                "name": "GSI镜像列表",
-                "href": "https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
-                "desc": "GSI通用刷机包、DSU Loader",
-                "logo": "default.ico"
-            },
-            {
-                "name": "存储空间隔离",
-                "href": "https://sr.rikka.app/zh-hans/",
-                "desc": "解决存储权限被滥用",
-                "logo": "default.ico"
-            },
-            {
-                "name": "晨钟酱",
-                "href": "https://www.jamcz.com/ ",
-                "desc": "搞机利器套餐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "梦魇兽",
-                "href": "https://nightmare.press/ ",
-                "desc": "梦魇兽的个人中心",
-                "logo": "default.ico"
-            },
-            {
-                "name": "巨魔 2 ",
-                "href": "https://www.52pojie.cn/thread-1862815-1-1.html",
-                "desc": "通过TrollStore免越狱安装IPA",
-                "logo": "default.ico"
-            },
-            {
-                "name": "虫洞",
-                "href": "https://www.er.run/",
-                "desc": "电脑与手机之捷径",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Tango",
-                "href": "https://app.tangoapp.dev/",
-                "desc": "浏览器中管理你的 Android",
-                "logo": "default.ico"
-            },
-            {
-                "name": "搞机助手",
-                "href": "https://lsdy.top/gjzs ",
-                "desc": "搞机助手Win版",
-                "logo": "default.ico"
-            },
-            {
-                "name": "搞机助手 R",
-                "href": "https://gjzsr.com/ ",
-                "desc": "搞机助手最新重制版",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Shizuku",
-                "href": "https://shizuku.rikka.app/zh-hans/ ",
-                "desc": "Adb套娃授权",
-                "logo": "default.ico"
-            },
-            {
-                "name": "VMOS Pro",
-                "href": "https://423down.lanzouo.com/b0f1fns7a ",
-                "desc": "获取新版本的VMOS Pro 解锁版",
-                "logo": "default.ico"
-            },
-            {
-                "name": "两仪",
-                "href": "https://twoyi.app/zh/index.html ",
-                "desc": "一个轻量级的 Android 容器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "小小电脑",
-                "href": "https://github.com/Cateners/tiny_computer",
-                "desc": "给所有安卓arm64设备的PC应用引擎",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Termux",
-                "href": "https://f-droid.org/zh_Hans/packages/com.termux/ ",
-                "desc": "带软件包的终端模拟器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Termux魔改版",
-                "href": "https://od.ixcmstudio.cn/repository/main/ZeroTermux/",
-                "desc": "ZeroTermux、uTermux等版本",
-                "logo": "default.ico"
-            },
-            {
-                "name": "安卓端PC模拟器合集",
-                "href": "https://www.bilibili.com/read/mobile?id=25407219",
-                "desc": "安卓上的Wine环境等",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "3c64156afd015",
-        "classify": "镜像资源",
-        "icon": "csz czs-linux",
-        "sites": [
-            {
-                "name": "MSDN",
-                "href": "https://msdn.itellyou.cn/",
-                "desc": "Windows 原版镜像、软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "NEXT",
-                "href": "https://next.itellyou.cn/",
-                "desc": "Windows、Linux 原版镜像、软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "极简系统",
-                "href": "https://www.sysmini.com/",
-                "desc": "下载Win10/8/7/xp原版镜像或精简 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Ventoy",
-                "href": "https://www.ventoy.net/cn/",
-                "desc": "多系统多镜像启动盘",
-                "logo": "default.ico"
-    },
-    {
-        "name": "FirPE Project",
-        "href": "https://firpe.cn/",
-        "desc": "最适合年轻人的PE",
-        "logo": "default.ico"
-    },
-    {
-        "name": "HotPE",
-        "href": "https://www.hotpe.top/",
-        "desc": "一个纯净、强大、优雅的PE工具箱",
-        "logo": "default.ico"
-            },
-            {
-                "name": "Android x86",
-                "href": "https://www.android-x86.org/releases.html",
-                "desc": "Android x86 镜像",
-                "logo": "default.ico"
-            },
-            {
-                "name": "黑苹果",
-                "href": "https://mackext.com/category/macos/",
-                "desc": "MacOS镜像",
-                "logo": "default.ico"
-            },
-            {
-                "name": "阿里巴巴开源镜像站",
-                "href": "https://mirrors.aliyun.com/",
-                "desc": "阿里巴巴开源镜像站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "清华大学开源镜像站",
-                "href": "https://mirrors.tuna.tsinghua.edu.cn/",
-                "desc": "清华大学开源镜像站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "中科大开源镜像站",
-                "href": "https://mirrors.ustc.edu.cn/",
-                "desc": "中科大开源镜像站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "镜像站汇总 ①",
-                "href": "https://i.pixcat.ru/jing-xiang-zhan-hui-zong",
-                "desc": "镜像站合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "镜像站汇总 ②",
-                "href": "https://mirrors.cernet.edu.cn/",
-                "desc": "镜像站合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "前端公共库汇总",
-                "href": "https://51.ruyo.net/12387.html",
-                "desc": "前端JS、CSS静态资源公共库，含评测及推荐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "yum、npm源",
-                "href": "https://blog.csdn.net/zhen1819/article/details/110817365",
-                "desc": "国内镜像源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "JDK国内镜像",
-                "href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
-                "desc": "国内线路下载JDK、Tomcat",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Docker镜像",
-                "href": "https://51.ruyo.net/18416.html",
-                "desc": "Docker Hub加速，使用国内镜像源",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "3c6302164656",
-        "classify": "WEB资源",
-        "icon": "csz czs-html5",
-        "sites": [
-            {
-                "name": "图生代码",
-                "href": "https://www.octopus31.com/code/generate",
-                "desc": "AI通过图片为你生成代码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文字首字母头像",
-                "href": "https://mkblog.cn/1886/",
-                "desc": "纯前端生成字母头像",
-                "logo": "default.ico"
-            },
-            {
-                "name": "JS 变萌",
-                "href": "https://utf-8.jp/public/aaencode.html",
-                "desc": "萌系的JS加密",
-                "logo": "default.ico"
-            },
-            {
-                "name": "一言",
-                "href": "https://hitokoto.cn/",
-                "desc": "Hitokoto - 一言",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音乐播放器 ①",
-                "href": "https://aplayer.js.org/",
-                "desc": "APlayer 开源的播放器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音乐播放器 ②",
-                "href": "https://github.com/metowolf/MetingJS",
-                "desc": "给APlayer加入了外链网易云等功能",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音乐播放器 ③",
-                "href": "https://github.com/Jrohy/QPlayer",
-                "desc": "QPlayer 简洁的悬浮音乐播放器",
-                "logo": "default.ico"
-            },
-            {
-                "name": "音乐播放器 ④",
-                "href": "https://github.com/Jrohy/QPlayer",
-                "desc": "CPlayer , APlayer同作者力作",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Npcink",
-                "href": "https://www.npc.ink/",
-                "desc": "共享wordpress主题插件以及使用开发等优秀教程",
-                "logo": "default.ico"
-            },
-            {
-                "name": "念念不忘必有回响",
-                "href": "https://typecho.work/",
-                "desc": "typecho非官方网站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "iro 主题",
-                "href": "https://iro.tw/",
-                "desc": "WordPress主题 Sakurairo",
-                "logo": "default.ico"
-            },
-            {
-                "name": "MDx 主题",
-                "href": "https://flyhigher.top/develop/788.html",
-                "desc": "WordPress主题 MDx",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Argon 主题",
-                "href": "https://solstice23.top/archives/746",
-                "desc": "WordPress主题 Argon",
-                "logo": "default.ico"
-            },
-            {
-                "name": "handsome 主题",
-                "href": "https://www.ihewro.com/archives/489/",
-                "desc": "Typecho主题 handsome",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Cuteen 主题",
-                "href": "https://blog.zwying.com/",
-                "desc": "Typecho主题 Cuteen",
-                "logo": "default.ico"
-            },
-            {
-                "name": "樱花Frp文档",
-                "href": "https://doc.natfrp.com/#/frpc/usage/linux",
-                "desc": "樱花Frp文档",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Easy Hexo",
-                "href": "https://easyhexo.com/",
-                "desc": "轻松入门Hexo",
-                "logo": "default.ico"
-            },
-            {
-                "name": "LitePress",
-                "href": "https://litepress.cn/",
-                "desc": "WordPress 本土化",
-                "logo": "default.ico"
-            },
-            {
-                "name": "微信官方文档",
-                "href": "https://developers.weixin.qq.com/doc/",
-                "desc": "小程序、公众号等文档",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c637377734656",
-        "classify": "代理资源",
-        "icon": "csz czs-paper-plane-l",
-        "sites": [
-            {
-                "name": "常见代理客户端 ①",
-                "href": "https://findladders.com/clients/",
-                "desc": "常见的代理客户端，vmess、torjan或更多",
-                "logo": "default.ico"
-            },
-            {
-                "name": "常见代理客户端 ②",
-                "href": "https://jichangx.com/gui/",
-                "desc": "常见的代理客户端，vmess、torjan或更多",
-                "logo": "default.ico"
-            },
-            {
-                "name": "常见代理客户端 ③",
-                "href": "https://r.pixcat.ru/%E5%B8%B8%E8%A7%81%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%88%E9%9B%86-01-18",
-                "desc": "常见的代理客户端汇总",
-                "logo": "default.ico"
-            },
-            {
-                "name": "订阅源转换 ①",
-                "href": "https://sub-web.netlify.app/",
-                "desc": "使你的代理订阅支持更多客户端",
-                "logo": "default.ico"
-            },
-            {
-                "name": "订阅源转换 ②",
-                "href": "http://id9.cc/",
-                "desc": "使你的代理订阅支持更多客户端",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ClashM 订阅源",
-                "href": "https://subs.zeabur.app/clash",
-                "desc": "Clash Meta与Cloudflare Warp",
-                "logo": "default.ico"
-            },
-            {
-                "name": "WGCF",
-                "href": "https://github.com/yonggekkk/warp-yg",
-                "desc": "Cloudflare Warp WireGuard",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wokers Vless",
-                "href": "https://github.com/yonggekkk/Cloudflare-workers-pages-vless",
-                "desc": "Cloudflare Wokers Vless",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wokers Vless订阅版",
-                "href": "https://github.com/cmliu/edgetunnel",
-                "desc": "Cloudflare Wokers Vless",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Watt Toolkit",
-                "href": "https://steampp.net/",
-                "desc": "Steam++ 工具箱",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c60454844656",
-        "classify": "影视资源",
-        "icon": "csz czs-play-l",
-        "sites": [
-            {
-                "name": "免费看剧",
-                "href": "https://iao.su/531/",
-                "desc": "白嫖各种影视资源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "VIP影视解析",
-                "href": "https://www.btnull.org/vipplay/",
-                "desc": "解析爱奇艺、腾讯、优酷、乐视、芒果等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "盒子地窖",
-                "href": "http://m.wmsio.cn/",
-                "desc": "安卓TV软件、TVBox衍生版本等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "TVBox",
-                "href": "https://iui.su/175/",
-                "desc": "TVBox本体及配置源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "TVBox 配置源 ①",
-                "href": "https://www.lige.fit/",
-                "desc": "TVBox源仓库与接口",
-                "logo": "default.ico"
-            },
-            {
-                "name": "TVBox 配置源 ②",
-                "href": "http://www.yckceo.com/index/applist/tvbox.html",
-                "desc": "TVBox源仓库与接口",
-                "logo": "default0                                                                                                                          .ico"
-            },
-            {
-                "name": "调试助手",
-                "href": "https://www.fenxm.com/854.html",
-                "desc": "TVBox二开版本，可导入源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "M3U8直播源",
-                "href": "https://github.com/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
-                "desc": "电脑、手机看电视的平台整理",
-                "logo": "default.ico"
-            },
-            {
-                "name": "直播源格式转换",
-                "href": "https://guihet.com/tvlistconvert.html",
-                "desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
-                "logo": "default.ico"
-            },
-            {
-                "name": "谁在直播",
-                "href": "http://live.yj1211.work/",
-                "desc": "全网直播平台聚合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "硬核影视指南",
-                "href": "https://yingheapp.com/",
-                "desc": "影视资源导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "下次一定",
-                "href": "https://www.iiice.cn/",
-                "desc": "影视资源导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "磁力云播",
-                "href": "https://magnet.pages.dev/",
-                "desc": "在线解析磁力或种子",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Alist站点集 ①",
-                "href": "https://www.pcoof.com/295.html",
-                "desc": "Alist 站点整理列表",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Alist站点集 ②",
-                "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
-                "desc": "Alist 站点整理列表",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c5456651009",
-        "classify": "学习资源",
-        "icon": "csz czs-bar-chart-l",
-        "sites": [
-            {
-                "name": "反向词典",
-                "href": "https://wantwords.net/",
-                "desc": "使用描述检索词语或查找近反义词",
-                "logo": "default.ico"
-            },
-            {
-                "name": "据意查句",
-                "href": "https://wantquotes.net/",
-                "desc": "根据描述查找相应的名言名句",
-                "logo": "default.ico"
-            },
-            {
-                "name": "识典古籍",
-                "href": "https://www.shidianguji.com/",
-                "desc": "古籍在线阅读",
-                "logo": "default.ico"
-            },
-            {
-                "name": "海棠诗社",
-                "href": "https://haitang.app/",
-                "desc": "古韵今风，海棠诗梦间",
-                "logo": "default.ico"
-            },
-            {
-                "name": "高质量网站集",
-                "href": "https://i.pixcat.ru/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
-                "desc": "探索互联网上的高质量内容",
-                "logo": "default.ico"
-            },
-            {
-                "name": "互联网知识地图",
-                "href": "https://yunyinghui.feishu.cn/wiki/QrvDwaNt4icE2qkZTPSccNKInhh",
-                "desc": "互联网知识地图",
-                "logo": "default.ico"
-            },
-            {
-                "name": "电报优质频道集 ①",
-                "href": "https://rectg.com/",
-                "desc": "Telegram上不错的频道与群组",
-                "logo": "default.ico"
-            },
-            {
-                "name": "电报优质频道集 ②",
-                "href": "https://github.com/itgoyo/TelegramGroup",
-                "desc": "Telegram上不错的频道与群组",
-                "logo": "default.ico"
-            },
-            {
-                "name": "编程随想的图书收藏",
-                "href": "https://github.com/programthink/books/blob/master/README.wiki",
-                "desc": "网友收藏的电子书清单",
-                "logo": "default.ico"
-            },
-            {
-                "name": "中国哲学书电子化计划",
-                "href": "https://ctext.org/zhs",
-                "desc": "中国哲学书电子化计划",
-                "logo": "default.ico"
-            },
-            {
-                "name": "中小学网课大全",
-                "href": "https://ykt.eduyun.cn/",
-                "desc": "国家中小学智慧教育平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "中小学教材电子版",
-                "href": "https://jc.pep.com.cn/",
-                "desc": "人民教育出版社教材合集",
-                "logo": "default.ico"
-            },
-            {
-                "name": "国家高等教育",
-                "href": "https://www.chinaooc.com.cn/",
-                "desc": "国家高等教育智慧教育平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "国家职业教育",
-                "href": "https://vocational.smartedu.cn/",
-                "desc": "国家职业教育智慧教育平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "终身教育平台",
-                "href": "https://le.ouchn.cn/",
-                "desc": "终身教育平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Github 大学",
-                "href": "https://www.uedbox.com/post/54160/",
-                "desc": "Github上共享的课程资源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "科普中国辟谣频道",
-                "href": "https://piyao.kepuchina.cn/",
-                "desc": "科普中国辟谣频道",
-                "logo": "default.ico"
-            },
-            {
-                "name": "可以玩的大学课程",
-                "href": "https://jibencaozuo.com/",
-                "desc": "可以玩的大学课程",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PubScholar",
-                "href": "https://pubscholar.cn/",
-                "desc": "PubScholar 公益学术平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "渐构",
-                "href": "https://www.modevol.com/",
-                "desc": "渐构 Modevol",
-                "logo": "default.ico"
-            },
-            {
-                "name": "图书资源白嫖",
-                "href": "http://shuxiangjia.cn/",
-                "desc": "不同类型的图书资源",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c6842444656",
-        "classify": "好站收藏",
-        "icon": "csz czs-rss",
-        "sites": [
-            {
-                "name": "不死鸟",
-                "href": "https://iao.su/",
-                "desc": "分享为王",
-                "logo": "default.ico"
-            },
-            {
-                "name": " webhub123",
-                "href": "https://www.webhub123.com/#/home/more",
-                "desc": "连接枯萎的中文互联网",
-                "logo": "default.ico"
-            },
-            {
-                "name": "如有乐享",
-                "href": "https://51.ruyo.net/",
-                "desc": "分享是一种美德，是一种态度",
-                "logo": "default.ico"
-            },
-            {
-                "name": "小众软件",
-                "href": "https://www.appinn.com/",
-                "desc": "小众软件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "优质盒子",
-                "href": "https://uzbox.com/",
-                "desc": "优质盒子",
-                "logo": "default.ico"
-            },
-            {
-                "name": "新趣集",
-                "href": "https://xinquji.com/",
-                "desc": "一起发现有趣的新产品",
-                "logo": "default.ico"
-            },
-            {
-                "name": "发现频道",
-                "href": "https://meta.appinn.net/c/faxian",
-                "desc": "小众软件的发现频道",
-                "logo": "default.ico"
-            },
-            {
-                "name": "免费资源网路社群",
-                "href": "https://free.com.tw/",
-                "desc": "台湾免费资源网络社群",
-                "logo": "default.ico"
-            },
-            {
-                "name": "书签地球",
-                "href": "https://www.bookmarkearth.com/",
-                "desc": "浏览器书签共享平台",
-                "logo": "default.ico"
-            },
-            {
-                "name": "文武科技柜",
-                "href": "https://www.wangdu.site/",
-                "desc": "文武科技柜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "面向租客的租房导航",
-                "href": "https://yaxiaozu.ababtools.com/",
-                "desc": "轻松找到理想住所",
-                "logo": "default.ico"
-            },
-            {
-                "name": "挖站否",
-                "href": "https://wzfou.com/",
-                "desc": "挖掘建站的乐趣",
-                "logo": "default.ico"
-            },
-            {
-                "name": "主机百科",
-                "href": "https://zhujiwiki.com/",
-                "desc": "提供有价值的主机信息和主机测评",
-                "logo": "default.ico"
-            },
-            {
-                "name": "XTROJAN黑科技",
-                "href": "https://xtrojan.net/",
-                "desc": "科学上网学习",
-                "logo": "default.ico"
-            },
-            {
-                "name": "JIKE",
-                "href": "https://jike.info/",
-                "desc": "JIKE",
-                "logo": "default.ico"
-            },
-            {
-                "name": "TopBook",
-                "href": "https://topbook.cc/",
-                "desc": "高效生活视频书",
-                "logo": "default.ico"
-            },
-            {
-                "name": "异次元软件世界",
-                "href": "https://www.iplaysoft.com/",
-                "desc": "高质量软件分享",
-                "logo": "default.ico"
-            },
-            {
-                "name": "偷懒爱好者周刊",
-                "href": "https://toolight.zhubai.love/",
-                "desc": "偷懒爱好者周刊",
-                "logo": "default.ico"
-            },
-            {
-                "name": "科技爱好者周刊 ",
-                "href": "https://www.ruanyifeng.com/blog/weekly/",
-                "desc": "科技爱好者周刊",
-                "logo": "default.ico"
-            },
-            {
-                "name": "技术周刊精选列表",
-                "href": "https://www.fre123.com/wk",
-                "desc": "优质精选技术周刊，高质量信息流",
-                "logo": "default.ico"
-            },
-            {
-                "name": "1000UserGuide",
-                "href": "https://1000userguide.com/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "城市租房生存指南",
-                "href": "https://zufang.ababtools.com/",
-                "desc": "租房小白修炼手册",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在家做饭指南",
-                "href": "https://cook.aiurs.co/",
-                "desc": "程序员在家做饭方法指南",
-                "logo": "default.ico"
-            },
-            {
-                "name": "食用手册",
-                "href": "https://cook.yunyoujun.cn/",
-                "desc": "好的，今天我们来做菜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "平替好物清单",
-                "href": "https://github.com/leonlucc/awesome-alternative",
-                "desc": "工厂源头或小微品牌生产的口碑平替好物",
-                "logo": "default.ico"
-            },
-            {
-                "name": "程序员延寿指南",
-                "href": "https://github.com/geekan/HowToLiveLonger",
-                "desc": "如何活得更久",
-                "logo": "default.ico"
-            },
-            {
-                "name": "独立开发者项目列表",
-                "href": "https://1c7.github.io/chinese-independent-developer/",
-                "desc": "中国独立开发者项目列表",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c51456534",
-        "classify": "博客收藏",
-        "icon": "csz czs-book",
-        "sites": [
-            {
-                "name": "BlogFinder",
-                "href": "https://bf.zzxworld.com/",
-                "desc": "发现优秀的个人博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "中文博客列表导航",
-                "href": "https://zhblogs.ohyee.cc/",
-                "desc": "尝试链接几乎所有的中文博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "虫洞",
-                "href": "https://www.foreverblog.cn/go.html",
-                "desc": "随机访问一个博客或网站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "耕读",
-                "href": "https://igdux.com/",
-                "desc": "耕读",
-                "logo": "default.ico"
-            },
-            {
-                "name": "零度解说",
-                "href": "https://www.freedidi.com/",
-                "desc": "零度博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "二次寒树",
-                "href": "https://echs.top/",
-                "desc": "ECHSFXY",
-                "logo": "default.ico"
-    },
-    {
-        "name": "雨夜回廊",
-        "href": "https://myql.eu.org/about",
-        "desc": "雨夜回廊",
-        "logo": "default.ico"
-            },
-            {
-                "name": "小z博客",
-                "href": "https://blog.xiaoz.org/",
-                "desc": " 小z博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "缤纷彩虹",
-                "href": "http://blog.cccyun.cn/",
-                "desc": "彩虹云任务的作者的博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Rat's Blog",
-                "href": "https://www.moerats.com/",
-                "desc": "Rat's Blog",
-                "logo": "default.ico"
-            },
-            {
-                "name": "笨猫博客",
-                "href": "https://www.nbmao.com/",
-                "desc": "笨猫博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "好鸭",
-                "href": "https://haoduck.com/",
-                "desc": "好鸭",
-                "logo": "default.ico"
-            },
-            {
-                "name": "从零开始的创作生活",
-                "href": "https://www.fengcun.top/",
-                "desc": "一个爱分享的小站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "梅塔沃克",
-                "href": "https://iweec.com/",
-                "desc": "梅塔沃克",
-                "logo": "default.ico"
-            },
-            {
-                "name": "缙哥哥",
-                "href": "https://www.dujin.org/",
-                "desc": "缙哥哥博客",
-                "logo": "default.ico"
-            },
-            {
-                "name": "皮皮凛",
-                "href": "https://owomoe.net/",
-                "desc": "皮皮凛の小窝",
-                "logo": "default.ico"
-            },
-            {
-                "name": "V's Blog",
-                "href": "https://vofficial233.com/",
-                "desc": "Vofficial",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c550114656",
-        "classify": "猎奇收藏",
-        "icon": "csz czs-taiji",
-        "sites": [
-            {
-                "name": "音频能量场",
-                "href": "https://search.bilibili.com/all?keyword=Sapien%20Medicine",
-                "desc": "Sapien medicine",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Tor网址集",
-                "href": "https://fastly.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
-                "desc": "深网网址列表",
-                "logo": "default.ico"
-            },
-            {
-                "name": "山海经密码",
-                "href": "https://www.youtube.com/playlist?list=PL2BTl-ntPF4xXe9T13fMRppyN0t8JSX4w",
-                "desc": "山海经讲解",
-                "logo": "default.ico"
-            },
-            {
-                "name": "繁盛梦",
-                "href": "https://m.blossomdreaming.com/",
-                "desc": "探索古墨西哥托尔特克智慧与修行之道",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wingmakers",
-                "href": "https://www.wingmakerschina.com/",
-                "desc": "造翼者",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Bashar",
-                "href": "https://mp.weixin.qq.com/s/FNXysxyl0cVbJKR1gmOLMQ",
-                "desc": "巴夏Bashar",
-                "logo": "default.ico"
-            },
-            {
-                "name": "世界简史",
-                "href": "https://tieba.baidu.com/p/7156836600?see_lz=0",
-                "logo": "default.ico"
-            },
-            {
-                "name": "灵体结构示意",
-                "href": "https://mp.weixin.qq.com/s/A-aYFdqUdtbgCEIyKSrjEA",
-                "desc": "灵体结构",
-                "logo": "default.ico"
-            },
-            {
-                "name": "退出鬼压床",
-                "href": "https://tieba.baidu.com/p/1219269818",
-                "desc": "压床速解",
-                "logo": "default.ico"
-            },
-            {
-                "name": "移除负面想法",
-                "href": "https://search.bilibili.com/all?keyword=%E5%9C%A3%E5%A4%9A%E7%BA%B3%E9%87%8A%E6%94%BE%E6%B3%95",
-                "desc": "移除负面想法",
-                "logo": "default.ico"
-            },
-            {
-                "name": "五音疗疾",
-                "href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
-                "desc": "五音调五脏 ",
-                "logo": "default.ico"
-            },
-            {
-                "name": "祛附",
-                "href": "https://www.bilibili.com/video/BV14g411N7wy",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "在线壮阳",
-                "href": "https://jiba.plus/",
-                "desc": "男同志变强攻略",
-                "logo": "default.ico"
-            },
-            {
-                "name": "修行资料集 ①",
-                "href": "http://silverthorn.ysepan.com/?xzpd=1",
-                "desc": "资料集合",
-                "logo": "default.ico"
-            }
-        ]
-    },
-    {
-        "_id": "5c6007444656",
-        "classify": "有趣收藏",
-        "icon": "csz czs-block",
-        "sites": [
-            {
-                "name": "有趣网址之家",
-                "href": "https://youquhome.com/",
-                "desc": "收藏全球最有趣的网站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "奇趣",
-                "href": "https://qiqu.dreamthere.cn/",
-                "desc": "探索未知的网路世界",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Windows 93",
-                "href": "https://www.windows93.net/",
-                "desc": "Windows 93",
-                "logo": "default.ico"
-            },
-            {
-                "name": "神奇海螺试验场",
-                "href": "https://lab.magiconch.com/",
-                "desc": "神奇海螺试验场",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Mikutap",
-                "href": "https://aidn.jp/mikutap/",
-                "desc": "Mikutap",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Bongo Cat",
-                "href": "https://www.bilibili.com/video/BV1d7411n71D",
-                "desc": "让你的桌面有一只猫猫",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网页里的PC博物馆",
-                "href": "https://www.compumuseum.com/index.html",
-                "desc": "基于原版镜像，在网页里使用古董电脑",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Virtual x86",
-                "href": "https://copy.sh/v86/",
-                "desc": "Run KolibriOS, Linux or Windows 98 in your browser",
-                "logo": "default.ico"
-            },
-            {
-                "name": "语音维基",
-                "href": "https://voicewiki.cn/wiki/",
-                "desc": "不同游戏中的角色语音",
-                "logo": "default.ico"
-            },
-            {
-                "name": "景区实时摄像头",
-                "href": "https://livechina.cctv.com/zhibo",
-                "desc": "24小时中国景区的实时摄像头画面",
-                "logo": "default.ico"
-            },
-            {
-                "name": "工作时长排行榜",
-                "href": "https://duibiao.info/post/4211",
-                "desc": "互联网公司工作时长排行榜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "P站Logo生成",
-                "href": "https://www.logoly.pro/",
-                "desc": "Pornhub风格logo生成",
-                "logo": "default.ico"
-            },
-            {
-                "name": "哄哄模拟器",
-                "href": "https://hong.greatdk.com/",
-                "desc": "让TA原谅你",
-                "logo": "default.ico"
-            }
-        ]
-    }
+[{
+		"_id": "fjkdasf1g1sb1",
+		"classify": "媒体工具",
+		"icon": "csz czs-play-l",
+		"sites": [{
+				"name": "消除图片背景",
+				"href": "https://bgsub.cn/",
+				"desc": "快速移除或替换图片背景",
+				"logo": "default.ico"
+			},
+			{
+				"name": "提取网页图片",
+				"href": "http://www.pullywood.com/ImageAssistant/",
+				"desc": "列出与保存网页中存在的图片或图标",
+				"logo": "default.ico"
+			},
+			{
+				"name": "九宫格切图",
+				"href": "https://lab.magiconch.com/v/sns-image",
+				"desc": "将图片分割成九张图",
+				"logo": "default.ico"
+			},
+			{
+				"name": "B站视频下载 ①",
+				"href": "https://www.jijidown.com/",
+				"desc": "哔哩哔哩唧唧",
+				"logo": "default.ico"
+			},
+			{
+				"name": "B站视频下载 ②",
+				"href": "http://zhouql.vip/bilibili/",
+				"desc": "B站视频在线下载",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音乐白嫖器",
+				"href": "http://tool.liumingye.cn/music/?page=homePage",
+				"desc": "多平台音乐聚合搜索",
+				"logo": "default.ico"
+			},
+			{
+				"name": "超级音乐白嫖 ①",
+				"href": "https://iao.su/2217/",
+				"desc": "白嫖各平台无损音乐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "超级音乐白嫖 ②",
+				"href": "http://blog.cccyun.cn/post-391.html",
+				"desc": "白嫖各平台无损音乐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线带壳截图",
+				"href": "https://deviceshots.com/",
+				"desc": "给截图添加不同设备类型的壳子",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线画像素画",
+				"href": "https://site.douban.com/163509/widget/forum/8736495/discussion/615417236/",
+				"desc": "多个在线画像素画的小工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "YouTube 视频下载 ①",
+				"href": "https://cobalt.tools/",
+				"desc": "在线获取 YouTube 视频",
+				"logo": "default.ico"
+			},
+			{
+				"name": "YouTube 视频下载 ②",
+				"href": "https://youtube.iiilab.com/",
+				"desc": "支持YouTube、Twitter、Tumblr等平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音视频在线剪切",
+				"href": "https://123apps.com/cn/",
+				"desc": "音视频在线剪切、格式转换、PDF转Word等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字转AI语音 ①",
+				"href": "https://www.modelscope.cn/studios/xzjosh/Bert-VITS2/",
+				"desc": "基于VITS的语音合成Demo合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字转AI语音 ②",
+				"href": "https://www.text-to-speech.cn/",
+				"desc": "基于微软Azure语音合成的第三方工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字转AI语音 ③",
+				"href": "https://zomehwh-vits-uma-genshin-honkai.hf.space/",
+				"desc": "基于VITS的语音合成Demo合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线格式转换 ①",
+				"href": "https://www.alltoall.net/",
+				"desc": "免费的在线格式转换工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线格式转换 ②",
+				"href": "https://www.aconvert.com/cn/",
+				"desc": "免费的在线格式转换工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线格式转换 ③",
+				"href": "https://convertio.co/zh/",
+				"desc": "将您的文件转换成任意格式",
+				"logo": "default.ico"
+			},
+			{
+				"name": "FFmpeg网页版",
+				"href": "https://ffmpeg.gcc.ac.cn/index_zh.html",
+				"desc": "在浏览器本地进行FFmpeg转码",
+				"logo": "default.ico"
+			},
+			{
+				"name": "快速抠图",
+				"href": "https://www.gaoding.com/koutu",
+				"desc": "实用在线抠图工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "ARC实验室",
+				"href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
+				"desc": "人像修复、人像抠图、动漫增强等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Clipdrop",
+				"href": "https://clipdrop.co/",
+				"desc": "AI绘画、图片脑补、背景替换去除、图片去字等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "图片无损放大",
+				"href": "https://github.com/tumuyan/RealSR-NCNN-Android/releases",
+				"desc": "Real-CUGAN、Waifu2x等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "SD整合包",
+				"href": "https://space.bilibili.com/12566101/channel/seriesdetail?sid=3930565",
+				"desc": "Stable Diffusion秋叶整合包",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5ce000b954656",
+		"classify": "效率工具",
+		"icon": "csz czs-time-l",
+		"sites": [{
+				"name": "国内大模型一览",
+				"href": "https://github.com/wgwang/awesome-LLMs-In-China",
+				"desc": "国产LLM列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "大模型排行榜 ①",
+				"href": "https://lyihub.com",
+				"desc": "林哥的大模型野榜",
+				"logo": "default.ico"
+			},
+			{
+				"name": "大模型排行榜 ②",
+				"href": "https://rank.opencompass.org.cn/home",
+				"desc": "大模型评测榜单",
+				"logo": "default.ico"
+			},
+			{
+				"name": "沉浸式翻译",
+				"href": "https://immersivetranslate.com/",
+				"desc": "双语对照网页翻译",
+				"logo": "default.ico"
+			},
+			{
+				"name": "翻译图中文字",
+				"href": "https://cotrans.touhou.ai/",
+				"desc": "一键翻译各类图片内文字",
+				"logo": "default.ico"
+			},
+			{
+				"name": "多引擎翻译 ①",
+				"href": "https://33tool.com/translate/",
+				"desc": "使用多个源进行翻译",
+				"logo": "default.ico"
+			},
+			{
+				"name": "多引擎翻译 ②",
+				"href": "https://openl.club/",
+				"desc": "使用多个AI进行翻译",
+				"logo": "default.ico"
+			},
+			{
+				"name": "从图片提取文字",
+				"href": "https://i.pixcat.ru/ocr-wen-zi-shi-bie-gong-ju",
+				"desc": "OCR文字识别",
+				"logo": "default.ico"
+			},
+			{
+				"name": "白板",
+				"href": "https://excalidraw.com/",
+				"desc": "开源手绘白板，协作加密，支持PNG、SVG导出",
+				"logo": "default.ico"
+			},
+			{
+				"name": "模拟手写签名",
+				"href": "https://www.calligrapher.ai/",
+				"desc": "模拟手写英文签名，可导出SVG",
+				"logo": "default.ico"
+			},
+			{
+				"name": "查看本地IP",
+				"href": "https://ip.skk.moe/",
+				"desc": "查询本地IPV4、IPV6或DNS",
+				"logo": "default.ico"
+			},
+			{
+				"name": "URL提取",
+				"href": "http://tools.sbbbb.cn/urltq/",
+				"desc": "从内容中提取链接",
+				"logo": "default.ico"
+			},
+			{
+				"name": "代码卡片制作",
+				"href": "https://carbon.now.sh/",
+				"desc": "为你的代码片段生成好看的卡片图",
+				"logo": "default.ico"
+			},
+			{
+				"name": "WIFI卡片制作",
+				"href": "https://wificard.io/",
+				"desc": "为你的wifi制作二维码以扫码接入",
+				"logo": "default.ico"
+			},
+			{
+				"name": "浏览器扩展下载 ①",
+				"href": "https://chrome.zzzmh.cn/",
+				"desc": "国内下载 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "浏览器扩展下载 ②",
+				"href": "https://crxdl.com/",
+				"desc": "下载 CRX 格式的 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "浏览器扩展下载 ③",
+				"href": "https://www.crxsoso.com/",
+				"desc": "下载 CRX 格式的 Chrome 扩展",
+				"logo": "default.ico"
+			},
+			{
+				"name": "找脚本",
+				"href": "https://www.zhaojiaoben.cn/",
+				"desc": "在线油猴脚本搜索工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "二维码生成制作",
+				"href": "https://qrbtf.com/",
+				"desc": "参数化二维码生成",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CPU显卡天梯图",
+				"href": "https://www.topcpu.net/zh-hk/",
+				"desc": "CPU、GPU、Soc性能排行",
+				"logo": "default.ico"
+			},
+			{
+				"name": "移动端芯片排行",
+				"href": "https://www.socpk.com/",
+				"desc": "移动端Soc性能排行，由极客湾出品",
+				"logo": "default.ico"
+			},
+			{
+				"name": "路由器CPU性能排行",
+				"href": "https://www.jamcz.com/router/",
+				"desc": "硬路由多核加解密性能",
+				"logo": "default.ico"
+			},
+			{
+				"name": "随机密码生成",
+				"href": "https://www.wotianna.com/password/",
+				"desc": "随机密码生成",
+				"logo": "default.ico"
+			},
+			{
+				"name": "设备默认密码大全",
+				"href": "http://tools.sbbbb.cn/defaultpasswd/",
+				"desc": "不同设备的默认账号及密码",
+				"logo": "default.ico"
+			},
+			{
+				"name": "公共DNS大全",
+				"href": "https://dns.iui.im/",
+				"desc": "常用、小众或地方DNS",
+				"logo": "default.ico"
+			},
+			{
+				"name": "快捷键备忘录",
+				"href": "https://hotkeycheatsheet.com/zh",
+				"desc": "工具类软件的常用快捷键",
+				"logo": "default.ico"
+			},
+			{
+				"name": "开发者速查表 ①",
+				"href": "https://devhints.io/",
+				"desc": "Devhints",
+				"logo": "default.ico"
+			},
+			{
+				"name": "开发者速查表②",
+				"href": "https://wangchujiang.com/reference/",
+				"desc": "Quick Reference",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网页上都是简体",
+				"href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
+				"desc": "网页上的繁体字都替换为简体",
+				"logo": "default.ico"
+			},
+			{
+				"name": "获取境外号卡 ①",
+				"href": "https://mutou.men/posts/2023-07-26-国外手机卡汇总/",
+				"desc": "中国大陆可用境外SIM卡",
+				"logo": "default.ico"
+			},
+			{
+				"name": "获取境外号卡 ②",
+				"href": "https://owomoe.net/dev/175.html",
+				"desc": "中国大陆可用境外SIM卡",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线方格纸打印",
+				"href": "https://www.mygraphpaper.com/index.php?lang=zh-hans",
+				"desc": "在线自定义打印多种类型的方格纸",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线 Markdown 编辑 ①",
+				"href": "https://www.zybuluo.com/",
+				"desc": "Markdown 编辑阅读器，实时同步预览",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线 Markdown 编辑 ②",
+				"href": "https://tools.miku.ac/markdown/",
+				"desc": "Markdown 编辑",
+				"logo": "default.ico"
+			},
+			{
+				"name": "帮你收短信 ①",
+				"href": "https://www.materialtools.com/?page=1",
+				"desc": "接码平台，可用于接收验证码",
+				"logo": "default.ico"
+			},
+			{
+				"name": "帮你收短信 ②",
+				"href": "http://www.114sim.com/",
+				"desc": "接码平台，可用于接收验证码",
+				"logo": "default.ico"
+			},
+			{
+				"name": "帮你收短信 ③",
+				"href": "https://51.ruyo.net/7789.html",
+				"desc": "接码平台汇总",
+				"logo": "default.ico"
+			},
+			{
+				"name": "临时邮箱",
+				"href": "http://24mail.chacuo.net/",
+				"desc": "获取一个临时邮箱",
+				"logo": "default.ico"
+			},
+			{
+				"name": "智能法律咨询",
+				"href": "https://ai.12348.gov.cn/",
+				"desc": "自动给出法律意见书",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c456gdhhdgd64",
+		"classify": "存储工具",
+		"icon": "csz czs-baiduwangpan",
+		"sites": [{
+				"name": "文件快递柜",
+				"href": "https://share.lanol.cn/#/send",
+				"desc": "像拿快递一样取文件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "空投快传",
+				"href": "https://airportal.cn",
+				"desc": "AirPortal | 空投",
+				"logo": "default.ico"
+			},
+			{
+				"name": "局域网互传网页版",
+				"href": "https://yunge.in/",
+				"desc": "局域网内设备通过此网页进行互传",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网络剪切板",
+				"href": "https://netcut.cn/",
+				"desc": "快速传送全格式文件与存储文本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文件传输助手",
+				"href": "https://filehelper.weixin.qq.com/",
+				"desc": "微信文件传输助手网页版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PP直连",
+				"href": "https://www.ppzhilian.com/",
+				"desc": "帮手机、电脑点到点直连",
+				"logo": "default.ico"
+			},
+			{
+				"name": "KinhDown",
+				"href": "https://www.kinhdown.com/",
+				"desc": "突破度盘限速",
+				"logo": "default.ico"
+			},
+			{
+				"name": "百度网盘解析",
+				"href": "https://moeyy.cn/baidudisk/",
+				"desc": "提取文件直链",
+				"logo": "default.ico"
+			},
+			{
+				"name": "天翼云盘解析",
+				"href": "https://189.ly93.cc/",
+				"desc": "提取文件直链",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网盘搬家",
+				"href": "https://mover.io/",
+				"desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Alist",
+				"href": "https://alist.nn.ci/zh/",
+				"desc": "支持多种存储的文件列表程序",
+				"logo": "default.ico"
+			},
+			{
+				"name": "目录列表程序整理",
+				"href": "https://wzfou.com/mulu-lists/",
+				"desc": "一个文件列表程序的整理",
+				"logo": "default.ico"
+			},
+			{
+				"name": "免费图床",
+				"href": "https://i.pixcat.ru/zai-xian-tu-pian-tuo-guan",
+				"desc": "上传图片并获取外链",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c456gdhhdgd64",
+		"classify": "检索工具",
+		"icon": "csz czs-search-l",
+		"sites": [{
+				"name": "资源搜索",
+				"href": "https://iao.su/3700/",
+				"desc": "搜索不同类别的资源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线搜题",
+				"href": "https://www.asklib.com/",
+				"desc": "查找各科试题",
+				"logo": "default.ico"
+			},
+			{
+				"name": "磁力搜索",
+				"href": "https://iao.su/908/",
+				"desc": "磁力搜索网站聚合",
+				"logo": "default.ico"
+			},
+			{
+				"name": "虫部落聚合搜索",
+				"href": "https://search.chongbuluo.com/",
+				"desc": "使用多个学术搜索引擎搜索内容",
+				"logo": "default.ico"
+			},
+			{
+				"name": "V2EX站内搜索",
+				"href": "https://www.sov2ex.com/",
+				"desc": "在 V2EX.COM 中查找",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Linux命令查询",
+				"href": "https://wangchujiang.com/linux-command/",
+				"desc": "600+ linux 命令的使用说明与示例",
+				"logo": "default.ico"
+			},
+			{
+				"name": "泄露数据查询",
+				"href": "https://taogefx.com/3574.html",
+				"desc": "检查信息数据是否遭遇安全隐患",
+				"logo": "default.ico"
+			},
+			{
+				"name": "虫部落学术搜索",
+				"href": "https://scholar.chongbuluo.com/",
+				"desc": "使用多个学术搜索引擎搜索内容",
+				"logo": "default.ico"
+			},
+			{
+				"name": "医药信息查询",
+				"href": "https://www.dayi.org.cn/",
+				"desc": "中国医药信息查询平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Magi",
+				"href": "https://magi.com/",
+				"desc": "Magi",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Shodan",
+				"href": "https://www.shodan.io/",
+				"desc": "Shodan",
+				"logo": "default.ico"
+			},
+			{
+				"name": "钟馗之眼",
+				"href": "https://www.zoomeye.org/",
+				"desc": "ZoomEye",
+				"logo": "default.ico"
+			},
+			{
+				"name": "F搜",
+				"href": "https://fsoufsou.com/",
+				"desc": "F搜",
+				"logo": "default.ico"
+			},
+			{
+				"name": "探索者小舒",
+				"href": "https://xiaoshuapp.com/explorer/",
+				"desc": "在多个引擎间切换搜索",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "55fda05164",
+		"classify": "折腾工具",
+		"icon": "csz czs-server-l",
+		"sites": [{
+				"name": "在线定制OP固件",
+				"href": "https://supes.top/",
+				"desc": "定制您的OpenWrt固件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "老毛子APP",
+				"href": "https://www.right.com.cn/forum/thread-4088564-1-1.html",
+				"desc": "为Padavan固件适配的APP",
+				"logo": "default.ico"
+			},
+			{
+				"name": "哪里域名便宜 ①",
+				"href": "https://www.nazhumi.com/",
+				"desc": "全球域名，一网比价",
+				"logo": "default.ico"
+			},
+			{
+				"name": "哪里域名便宜 ②",
+				"href": "https://namebeta.com/",
+				"desc": "域名注册查询并多方查价",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网页历史快照",
+				"href": "https://web.archive.org/",
+				"desc": "Wayback Machine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键更换软件源",
+				"href": "https://supermanito.github.io/LinuxMirrors/",
+				"desc": "更换软件源为不同的国内镜像，支持多个发行版 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键重装服务器",
+				"href": "https://wzfou.com/5-vps-chongzhuang/",
+				"desc": "适用于Linux / Windows ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键内核网络加速",
+				"href": "https://github.com/Chikage0o0/Linux-NetSpeed/blob/master/README.md",
+				"desc": "为服务器启用BBR、锐速以及魔改版加速",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键安装Kangle",
+				"href": "http://kangle.cccyun.cn/",
+				"desc": "一键安装 Kangle+Ep+Mysql ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一键安装Docker",
+				"href": "https://51.ruyo.net/16766.html",
+				"desc": "Docker 一脚安装脚本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "SSH 中转",
+				"href": "https://console.ucloud.cn/upathx/globalssh",
+				"desc": "UCloud 提供 GlobalSSH 加速服务",
+				"logo": "default.ico"
+			},
+			{
+				"name": "免费SSL证书",
+				"href": "https://wzfou.com/mianfei-ssl/",
+				"desc": "免费SSL证书申请渠道汇总",
+				"logo": "default.ico"
+			},
+			{
+				"name": "VPS融合怪脚本",
+				"href": "https://github.com/spiritLHLS/ecs",
+				"desc": "VPS融合怪服务器测评脚本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "魔改版宝塔面板",
+				"href": "https://www.hostcli.com/",
+				"desc": "去除验证码关闭活动推荐等 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "高仿宝塔面板",
+				"href": "https://github.com/midoks/mdserver-web",
+				"desc": "根据宝塔UI重构的面板",
+				"logo": "default.ico"
+			},
+			{
+				"name": "低价服务器榜单",
+				"href": "https://vpsdb.top/",
+				"desc": "性价比VPS方案",
+				"logo": "default.ico"
+			},
+			{
+				"name": "VPS可视化管理",
+				"href": "https://i.pixcat.ru/vps-ke-shi-hua-guan-li",
+				"desc": "类似宝塔、LNMP等同类软件聚合 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Cloudflare 玩出花",
+				"href": "https://github.com/zhuima/awesome-cloudflare",
+				"desc": "CloudFlare 五花八门的玩法与工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CloudFlare 优选IP",
+				"href": "https://github.com/XIU2/CloudflareSpeedTest",
+				"desc": "测试 Cloudflare CDN 延迟和速度",
+				"logo": "default.ico"
+			},
+			{
+				"name": "免费内网穿透",
+				"href": "https://www.natfrp.com/user/",
+				"desc": "SAKURA FRP",
+				"logo": "default.ico"
+			},
+			{
+				"name": "站长工具国内测速",
+				"href": "http://tool.chinaz.com/speedtest/",
+				"desc": "站长工具国内测速",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Github 文件加速 ①",
+				"href": "https://ghproxy.com/",
+				"desc": "加速Github文件下载",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Github 文件加速 ②",
+				"href": "https://ghmirror00.pages.dev/",
+				"desc": "加速Github文件下载",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CSS 筛选",
+				"href": "https://uncss-online.com/",
+				"desc": "滤出CSS中被使用的部分",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5cfaklkk5164",
+		"classify": "综合工具",
+		"icon": "csz czs-thumbs-up-l",
+		"sites": [{
+				"name": "MikuTools",
+				"href": "https://tools.miku.ac/",
+				"desc": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "帮小忙",
+				"href": "https://tool.browser.qq.com/",
+				"desc": "腾讯旗下的工具集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "彩虹工具",
+				"href": "http://tool.cccyun.cc/",
+				"desc": "彩虹工具网",
+				"logo": "default.ico"
+			},
+			{
+				"name": "千盒工具",
+				"href": "https://1000tool.com/",
+				"desc": "专注优质在线工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一网一匠",
+				"href": "https://ywyj.cn/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
+				"name": "漫游云野",
+				"href": "https://roam.mixcm.com/",
+				"desc": "让你的收藏夹不再是孤岛",
+				"logo": "default.ico"
+			},
+			{
+				"name": "设计师导航",
+				"href": "https://hao.uisdc.com/",
+				"desc": "国内专业设计师网站导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "梦想导航",
+				"href": "https://nav.dreamthere.cn/",
+				"desc": "探索未知的网路世界",
+				"logo": "default.ico"
+			},
+			{
+				"name": "ITEM",
+				"href": "https://item.ink",
+				"desc": "链接更多选项",
+				"logo": "default.ico"
+			},
+			{
+				"name": "iMyShare",
+				"href": "https://imyshare.com/",
+				"desc": "实用导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Creative Mass",
+				"href": "https://creativemass.cn/",
+				"desc": "精选创意导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "叛逆草",
+				"href": "https://www.pncao.com/",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "龙喵",
+				"href": "https://ailongmiao.com/",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "有约啦导航 ",
+				"href": "https://123.youyuela.com/",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AMZ123",
+				"href": "https://www.amz123.com/",
+				"desc": "跨境电商出海导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "旁门左道",
+				"href": "https://www.goto-mars.com/people/aLYqyNvYvd#nav-category-265771",
+				"desc": "旁门左道PPT推荐的导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CXY521",
+				"href": "http://www.cxy521.com/",
+				"desc": "程序员导航-CXY521",
+				"logo": "default.ico"
+			},
+			{
+				"name": "冻死企鹅",
+				"href": "https://dongsiqie.me/",
+				"desc": "免费的ChatGPT以及衍生项目",
+				"logo": "default.ico"
+			},
+			{
+				"name": "油小猴",
+				"href": "https://www.baiduyun.wiki/",
+				"desc": "实用脚本集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "源仓库",
+				"href": "https://yckceo.vip/",
+				"desc": "书源、漫画源影视源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "懒人工具箱",
+				"href": "https://tool.lanrentuku.com/",
+				"desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PickFrom",
+				"href": "https://zh.pickfrom.net/",
+				"desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "LuckySec",
+				"href": "http://nav.luckysec.cn/",
+				"desc": " 网络安全资源导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "0xShe网络安全导航",
+				"href": "https://sbbbb.cn/",
+				"desc": "网络安全日常工具集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线工具",
+				"href": "https://tool.lu/",
+				"desc": "代码压缩、美化，开发类、站长类、极客类工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线工具箱",
+				"href": "https://moeyy.cn/tool/",
+				"desc": "在线工具箱",
+				"logo": "default.ico"
+			},
+			{
+				"name": "哆啦A梦的神奇口袋",
+				"href": "https://baozangku.com/",
+				"desc": "永硕E盘下的某列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "LKS的网站推荐",
+				"href": "http://lkssite.vip/",
+				"desc": "良心网站推荐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ①",
+				"href": "https://aibard123.com/ ",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ②",
+				"href": "https://www.aigc.cn/",
+				"desc": "AIGC工具集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ③",
+				"href": "https://www.naviai.cn/",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ④",
+				"href": "https://www.aiopenminds.com/",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5cJHU11032f4",
+		"classify": "视觉资源",
+		"icon": "csz czs-image-l",
+		"sites": [{
+				"name": "抽象背景生成器",
+				"href": "https://www.color4bg.com/zh-hans/",
+				"desc": "抽象动态背景生成器,免费导出图片视频或JS",
+				"logo": "default.ico"
+			},
+			{
+				"name": "极简壁纸",
+				"href": "https://bz.zzzmh.cn/",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wallpapers",
+				"href": "https://wallpapershome.com/",
+				"desc": "高质量壁纸",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wallhaven",
+				"href": "https://wallhaven.cc/",
+				"desc": "高质量壁纸",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Pexels",
+				"href": "https://www.pexels.com/zh-cn/",
+				"desc": "免版权图片素材",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Unsplash",
+				"href": "https://unsplash.com/",
+				"desc": "免版权图片素材",
+				"logo": "default.ico"
+			},
+			{
+				"name": "搜图神器",
+				"href": "https://www.logosc.cn/so/",
+				"desc": "免费版权图片一键搜索",
+				"logo": "default.ico"
+			},
+			{
+				"name": "必应壁纸",
+				"href": "https://bing.img.run/",
+				"desc": "必应历史美图、背景",
+				"logo": "default.ico"
+			},
+			{
+				"name": "致美化",
+				"href": "https://zhutix.com/",
+				"desc": "桌面美化资源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "P站热门",
+				"href": "https://pixivic.com/",
+				"desc": "P站热榜与热门",
+				"logo": "default.ico"
+			},
+			{
+				"name": "草莓图标库",
+				"href": "http://chuangzaoshi.com/icon/",
+				"desc": "一款字体图标",
+				"logo": "default.ico"
+			},
+			{
+				"name": "阿里巴巴图标库",
+				"href": "https://www.iconfont.cn/collections/index?spm=a313x.7781069.1998910419.d33146d14&type=3",
+				"desc": "阿里巴巴矢量图标库",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Yesicon图标库",
+				"href": "https://yesicon.app/",
+				"desc": "高品质矢量图标",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Emoji 大全",
+				"href": "https://emojixd.com/",
+				"desc": "emoji表情搜索与复制",
+				"logo": "default.ico"
+			},
+			{
+				"name": "免费可商用字体",
+				"href": "https://ziyouziti.com/index-index-all.html",
+				"desc": "免费可商用字体大全",
+				"logo": "default.ico"
+			},
+			{
+				"name": "色彩百科",
+				"href": "https://encycolorpedia.cn/named",
+				"desc": "Encycolorpedia",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线配色",
+				"href": "https://color.adobe.com/zh/create/color-wheel",
+				"desc": "Adobe官方推出的配色工具",
+				"logo": "default.ico"
+			},
+			{
+				"name": "配色方案推荐",
+				"href": "https://peiseka.com/",
+				"desc": "",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5cggsgrrr5164",
+		"classify": "软件资源",
+		"icon": "csz czs-download-l",
+		"sites": [{
+				"name": "获取最新 Chrome",
+				"href": "https://dream.ren/tool/chrome/",
+				"desc": "获取最新谷歌浏览器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "下载与白嫖 office ①",
+				"href": "https://otp.landian.vip/zh-cn/",
+				"desc": "多版本 office 安装与激活",
+				"logo": "default.ico"
+			},
+			{
+				"name": "下载与白嫖 office ②",
+				"href": "https://www.mocreak.com/",
+				"desc": "一键自动化、无人值守下载、安装、部署 Office ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "获取免费的WPS",
+				"href": "https://www.lyszm.com/773.html",
+				"desc": "WPS政企专版 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Adobe系列下载",
+				"href": "http://adobe.v404.cn/adobe/",
+				"desc": "网盘获取Adobe系列软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "激活 Windows ①",
+				"href": "https://www.423down.com/1202.html",
+				"desc": "智能选择激活方式，同时可激活Office",
+				"logo": "default.ico"
+			},
+			{
+				"name": "激活 Windows ②",
+				"href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
+				"desc": "Windows 数字激活工具，解压密码1234",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Office 密钥 ",
+				"href": "https://office-kms-keys.pages.dev/",
+				"desc": "Ofice 激活密钥",
+				"logo": "default.ico"
+			},
+			{
+				"name": "获取纯净的Flash",
+				"href": "https://www.ghxi.com/cleanflashplayer.html",
+				"desc": "纯净并去除了限制",
+				"logo": "default.ico"
+			},
+			{
+				"name": "恢复文件与数据",
+				"href": "https://www.disktool.cn/recovery/winfr.html",
+				"desc": "微软出品恢复工具的可视化版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "我天哪",
+				"href": "https://www.wotianna.com/",
+				"desc": "一个软件导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "423down",
+				"href": "https://www.423down.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "果核剥壳",
+				"href": "https://www.ghxi.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "克隆窝",
+				"href": "https://www.uy5.net/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "分享迷",
+				"href": "https://www.fenxm.com/",
+				"desc": "安卓TV软件、修改、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "ZAPRO",
+				"href": "https://tmioe.com/",
+				"desc": "修改、破解软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "微当下载",
+				"href": "https://www.weidown.com/",
+				"desc": "修改、汉化、精简软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "QiuQuan's Blog",
+				"href": "http://www.qiuquan.cc/",
+				"desc": "精简 、优化 、 打包",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PC软件库",
+				"href": "https://www.pcoof.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "六音软件",
+				"href": "https://www.6yit.com/",
+				"desc": "魔改软件合辑",
+				"logo": "default.ico"
+			},
+			{
+				"name": "易破解",
+				"href": "https://www.ypojie.com/",
+				"desc": "修改、汉化、绿色软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "异星软件空间",
+				"href": "http://www.yxssp.com/",
+				"desc": "安卓直装修改破解软件等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "LITEAPKS",
+				"href": "https://liteapks.com/",
+				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "APKHUB",
+				"href": "https://apkhub.cloud/",
+				"desc": "APKHUB",
+				"logo": "default.ico"
+			},
+			{
+				"name": "5Play",
+				"href": "https://5play.org/",
+				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "5-App",
+				"href": "https://5-app.ru/",
+				"desc": "一个国外的安卓破解软件游戏站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "星火应用商店",
+				"href": "https://spark-app.store/",
+				"desc": "Linux软件商店，适用于Debian系",
+				"logo": "default.ico"
+			},
+			{
+				"name": "异次元软件世界",
+				"href": "https://www.iplaysoft.com/",
+				"desc": "高质量软件图文",
+				"logo": "default.ico"
+			},
+			{
+				"name": "截图神器",
+				"href": "https://pixpinapp.com/",
+				"desc": "PixXin支持截取动图、贴图、长截图、OCR等功能",
+				"logo": "default.ico"
+			},
+			{
+				"name": "QQ微信防撤回",
+				"href": "https://github.com/huiyadanli/RevokeMsgPatcher/wiki",
+				"desc": "PC微信QQ防撤回补丁",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5cfdafadq0",
+		"classify": "游戏资源",
+		"icon": "csz csz czs-game-l",
+		"sites": [{
+				"name": "安卓NS模拟器 ",
+				"href": "https://www.bilibili.com/read/cv18207718",
+				"desc": "NS、PS2、PSV、3DS等模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小霸王 ",
+				"href": "https://www.yikm.net/",
+				"desc": "在线玩FC、街机、GBA等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "低端游戏 ",
+				"href": "https://ddyx.me/",
+				"desc": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "资源避难所 ",
+				"href": "https://www.flysheep6.com/",
+				"desc": "PC游戏、模拟器资源下载",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Vimm's Lair",
+				"href": "https://vimm.net/vault/",
+				"desc": "26 个经典系统的所有游戏",
+				"logo": "default.ico"
+			},
+			{
+				"name": "模拟器游戏ROM",
+				"href": "https://www.emulatorgames.net/roms/",
+				"desc": "丰富的复古游戏ROM库",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Poki ",
+				"href": "https://poki.cn/",
+				"desc": "在线H5游戏合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PacoGames ",
+				"href": "https://www.pacogames.com/",
+				"desc": "国外小游戏网站合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Java游戏小站",
+				"href": "https://java.owoemu.com/",
+				"desc": "Java游戏资源集合",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Flashpoint",
+				"href": "https://flashpointarchive.org/",
+				"desc": "Flash档案馆，游戏与动画",
+				"logo": "default.ico"
+			},
+			{
+				"name": "NS游戏资源",
+				"href": "https://www.gamer520.com/",
+				"desc": "Switch 520资源站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Epic 喜加一",
+				"href": "https://www.epicgames.com/store/zh-CN/",
+				"desc": "白嫖游戏",
+				"logo": "default.ico"
+			},
+			{
+				"name": "古墓丽影网页版 ",
+				"href": "http://xproger.info/projects/OpenLara/",
+				"desc": "Classic Tomb Raider open-source engine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线运行SWF ",
+				"href": "https://ruffle.rs/",
+				"desc": "在现代浏览器中玩转Flash",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电脑玩Wii U",
+				"href": "https://www.iplaysoft.com/cemu.html",
+				"desc": "Wii U模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Dolphin",
+				"href": "https://cn.dolphin-emu.org/",
+				"desc": "Wii模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Lemuroid",
+				"href": "https://f-droid.org/zh_Hans/packages/com.swordfish.lemuroid/",
+				"desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Pcstory",
+				"href": "https://7zip.lanzoue.com/itgNi0nvsw8d",
+				"desc": "蘑菇游戏下载器，5.0版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PVZ资源",
+				"href": "http://lonelystar.org/download.htm",
+				"desc": "植物大战僵尸僵尸各类版本，含破解",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Ballance",
+				"href": "https://ballance.jxpxxzj.cn/wiki/Ballance%E5%90%A7%E5%AF%BC%E8%88%AA%E8%B4%B4",
+				"desc": "平衡球资源整合",
+				"logo": "default.ico"
+			},
+			{
+				"name": "CE修改器",
+				"href": "https://www.ghxi.com/ce.html",
+				"desc": "Cheat Engine中文版",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "542346fa6",
+		"classify": "玩机资源",
+		"icon": "csz czs-android",
+		"sites": [{
+				"name": "安卓旧版软件",
+				"href": "https://apkcombo.com/zh/",
+				"desc": "寻找旧版本、32位、x86等多架构软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "ADB在线执行器",
+				"href": "https://xadb.netlify.app/",
+				"desc": "在线的aADB GUI",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Magisk 资源分享",
+				"href": "https://magisk.suchenqaq.club/",
+				"desc": "Magisk、Xposed资源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "境外APK下载 ①",
+				"href": "https://apk.bot/cn",
+				"desc": "免代理下载谷歌市场上的APK",
+				"logo": "default.ico"
+			},
+			{
+				"name": "境外APK下载 ②",
+				"href": "https://www.apkmirror.com/",
+				"desc": "ApkMirror",
+				"logo": "default.ico"
+			},
+			{
+				"name": "IPA软件下载",
+				"href": "https://i.pixcat.ru/ipa-ge-shi-ruan-jian-xia-zai",
+				"desc": "下载适用于iOS的IPA软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小米ROM下载",
+				"href": "https://xiaomirom.com/",
+				"desc": "小米所有线刷与卡刷固件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MIUI修改版桌面",
+				"href": "https://space.bilibili.com/324056528/video",
+				"desc": "一个修改版的MIUI桌面",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MIUI主题国际站",
+				"href": "https://www.miuithemer.com/",
+				"desc": "下载国际版 MIUI 主题MTZ文件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "手机安装Windows",
+				"href": "https://mindows.cn/",
+				"desc": "Mindows 工具箱",
+				"logo": "default.ico"
+			},
+			{
+				"name": "安卓玩机合集",
+				"href": "https://www.jamcz.com/tutorial/wanji/",
+				"desc": "adb、fastboot以及各厂商驱动与官方刷机包",
+				"logo": "default.ico"
+			},
+			{
+				"name": "GSI镜像列表",
+				"href": "https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
+				"desc": "GSI通用刷机包、DSU Loader",
+				"logo": "default.ico"
+			},
+			{
+				"name": "存储空间隔离",
+				"href": "https://sr.rikka.app/zh-hans/",
+				"desc": "解决存储权限被滥用",
+				"logo": "default.ico"
+			},
+			{
+				"name": "晨钟酱",
+				"href": "https://www.jamcz.com/ ",
+				"desc": "搞机利器套餐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "梦魇兽",
+				"href": "https://nightmare.press/ ",
+				"desc": "梦魇兽的个人中心",
+				"logo": "default.ico"
+			},
+			{
+				"name": "巨魔 2 ",
+				"href": "https://www.52pojie.cn/thread-1862815-1-1.html",
+				"desc": "通过TrollStore免越狱安装IPA",
+				"logo": "default.ico"
+			},
+			{
+				"name": "虫洞",
+				"href": "https://www.er.run/",
+				"desc": "电脑与手机之捷径",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Tango",
+				"href": "https://app.tangoapp.dev/",
+				"desc": "浏览器中管理你的 Android",
+				"logo": "default.ico"
+			},
+			{
+				"name": "搞机助手",
+				"href": "https://lsdy.top/gjzs ",
+				"desc": "搞机助手Win版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "搞机助手 R",
+				"href": "https://gjzsr.com/ ",
+				"desc": "搞机助手最新重制版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Shizuku",
+				"href": "https://shizuku.rikka.app/zh-hans/ ",
+				"desc": "Adb套娃授权",
+				"logo": "default.ico"
+			},
+			{
+				"name": "VMOS Pro",
+				"href": "https://423down.lanzouo.com/b0f1fns7a ",
+				"desc": "获取新版本的VMOS Pro 解锁版",
+				"logo": "default.ico"
+			},
+			{
+				"name": "两仪",
+				"href": "https://twoyi.app/zh/index.html ",
+				"desc": "一个轻量级的 Android 容器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小小电脑",
+				"href": "https://github.com/Cateners/tiny_computer",
+				"desc": "给所有安卓arm64设备的PC应用引擎",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Termux",
+				"href": "https://f-droid.org/zh_Hans/packages/com.termux/ ",
+				"desc": "带软件包的终端模拟器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Termux魔改版",
+				"href": "https://od.ixcmstudio.cn/repository/main/ZeroTermux/",
+				"desc": "ZeroTermux、uTermux等版本",
+				"logo": "default.ico"
+			},
+			{
+				"name": "安卓端PC模拟器合集",
+				"href": "https://www.bilibili.com/read/mobile?id=25407219",
+				"desc": "安卓上的Wine环境等",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "3c64156afd015",
+		"classify": "镜像资源",
+		"icon": "csz czs-linux",
+		"sites": [{
+				"name": "MSDN",
+				"href": "https://msdn.itellyou.cn/",
+				"desc": "Windows 原版镜像、软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "NEXT",
+				"href": "https://next.itellyou.cn/",
+				"desc": "Windows、Linux 原版镜像、软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "极简系统",
+				"href": "https://www.sysmini.com/",
+				"desc": "下载Win10/8/7/xp原版镜像或精简 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Ventoy",
+				"href": "https://www.ventoy.net/cn/",
+				"desc": "多系统多镜像启动盘",
+				"logo": "default.ico"
+			},
+			{
+				"name": "FirPE Project",
+				"href": "https://firpe.cn/",
+				"desc": "最适合年轻人的PE",
+				"logo": "default.ico"
+			},
+			{
+				"name": "HotPE",
+				"href": "https://www.hotpe.top/",
+				"desc": "一个纯净、强大、优雅的PE工具箱",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Android x86",
+				"href": "https://www.android-x86.org/releases.html",
+				"desc": "Android x86 镜像",
+				"logo": "default.ico"
+			},
+			{
+				"name": "黑苹果",
+				"href": "https://mackext.com/category/macos/",
+				"desc": "MacOS镜像",
+				"logo": "default.ico"
+			},
+			{
+				"name": "阿里巴巴开源镜像站",
+				"href": "https://mirrors.aliyun.com/",
+				"desc": "阿里巴巴开源镜像站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "清华大学开源镜像站",
+				"href": "https://mirrors.tuna.tsinghua.edu.cn/",
+				"desc": "清华大学开源镜像站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "中科大开源镜像站",
+				"href": "https://mirrors.ustc.edu.cn/",
+				"desc": "中科大开源镜像站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "镜像站汇总 ①",
+				"href": "https://i.pixcat.ru/jing-xiang-zhan-hui-zong",
+				"desc": "镜像站合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "镜像站汇总 ②",
+				"href": "https://mirrors.cernet.edu.cn/",
+				"desc": "镜像站合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "前端公共库汇总",
+				"href": "https://51.ruyo.net/12387.html",
+				"desc": "前端JS、CSS静态资源公共库，含评测及推荐",
+				"logo": "default.ico"
+			},
+			{
+				"name": "yum、npm源",
+				"href": "https://blog.csdn.net/zhen1819/article/details/110817365",
+				"desc": "国内镜像源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "JDK国内镜像",
+				"href": "https://blog.csdn.net/weixin_44003789/article/details/106937578",
+				"desc": "国内线路下载JDK、Tomcat",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Docker镜像",
+				"href": "https://51.ruyo.net/18416.html",
+				"desc": "Docker Hub加速，使用国内镜像源",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "3c6302164656",
+		"classify": "WEB资源",
+		"icon": "csz czs-html5",
+		"sites": [{
+				"name": "图生代码",
+				"href": "https://www.octopus31.com/code/generate",
+				"desc": "AI通过图片为你生成代码",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文字首字母头像",
+				"href": "https://mkblog.cn/1886/",
+				"desc": "纯前端生成字母头像",
+				"logo": "default.ico"
+			},
+			{
+				"name": "JS 变萌",
+				"href": "https://utf-8.jp/public/aaencode.html",
+				"desc": "萌系的JS加密",
+				"logo": "default.ico"
+			},
+			{
+				"name": "一言",
+				"href": "https://hitokoto.cn/",
+				"desc": "Hitokoto - 一言",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音乐播放器 ①",
+				"href": "https://aplayer.js.org/",
+				"desc": "APlayer 开源的播放器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音乐播放器 ②",
+				"href": "https://github.com/metowolf/MetingJS",
+				"desc": "给APlayer加入了外链网易云等功能",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音乐播放器 ③",
+				"href": "https://github.com/Jrohy/QPlayer",
+				"desc": "QPlayer 简洁的悬浮音乐播放器",
+				"logo": "default.ico"
+			},
+			{
+				"name": "音乐播放器 ④",
+				"href": "https://github.com/Jrohy/QPlayer",
+				"desc": "CPlayer , APlayer同作者力作",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Npcink",
+				"href": "https://www.npc.ink/",
+				"desc": "共享wordpress主题插件以及使用开发等优秀教程",
+				"logo": "default.ico"
+			},
+			{
+				"name": "念念不忘必有回响",
+				"href": "https://typecho.work/",
+				"desc": "typecho非官方网站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "iro 主题",
+				"href": "https://iro.tw/",
+				"desc": "WordPress主题 Sakurairo",
+				"logo": "default.ico"
+			},
+			{
+				"name": "MDx 主题",
+				"href": "https://flyhigher.top/develop/788.html",
+				"desc": "WordPress主题 MDx",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Argon 主题",
+				"href": "https://solstice23.top/archives/746",
+				"desc": "WordPress主题 Argon",
+				"logo": "default.ico"
+			},
+			{
+				"name": "handsome 主题",
+				"href": "https://www.ihewro.com/archives/489/",
+				"desc": "Typecho主题 handsome",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Cuteen 主题",
+				"href": "https://blog.zwying.com/",
+				"desc": "Typecho主题 Cuteen",
+				"logo": "default.ico"
+			},
+			{
+				"name": "樱花Frp文档",
+				"href": "https://doc.natfrp.com/#/frpc/usage/linux",
+				"desc": "樱花Frp文档",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Easy Hexo",
+				"href": "https://easyhexo.com/",
+				"desc": "轻松入门Hexo",
+				"logo": "default.ico"
+			},
+			{
+				"name": "LitePress",
+				"href": "https://litepress.cn/",
+				"desc": "WordPress 本土化",
+				"logo": "default.ico"
+			},
+			{
+				"name": "微信官方文档",
+				"href": "https://developers.weixin.qq.com/doc/",
+				"desc": "小程序、公众号等文档",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c637377734656",
+		"classify": "代理资源",
+		"icon": "csz czs-paper-plane-l",
+		"sites": [{
+				"name": "常见代理客户端 ①",
+				"href": "https://findladders.com/clients/",
+				"desc": "常见的代理客户端，vmess、torjan或更多",
+				"logo": "default.ico"
+			},
+			{
+				"name": "常见代理客户端 ②",
+				"href": "https://jichangx.com/gui/",
+				"desc": "常见的代理客户端，vmess、torjan或更多",
+				"logo": "default.ico"
+			},
+			{
+				"name": "常见代理客户端 ③",
+				"href": "https://r.pixcat.ru/%E5%B8%B8%E8%A7%81%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E7%BF%BB%E5%A2%99%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%88%E9%9B%86-01-18",
+				"desc": "常见的代理客户端汇总",
+				"logo": "default.ico"
+			},
+			{
+				"name": "订阅源转换 ①",
+				"href": "https://sub-web.netlify.app/",
+				"desc": "使你的代理订阅支持更多客户端",
+				"logo": "default.ico"
+			},
+			{
+				"name": "订阅源转换 ②",
+				"href": "http://id9.cc/",
+				"desc": "使你的代理订阅支持更多客户端",
+				"logo": "default.ico"
+			},
+			{
+				"name": "ClashM 订阅源",
+				"href": "https://subs.zeabur.app/clash",
+				"desc": "Clash Meta与Cloudflare Warp",
+				"logo": "default.ico"
+			},
+			{
+				"name": "WGCF",
+				"href": "https://github.com/yonggekkk/warp-yg",
+				"desc": "Cloudflare Warp WireGuard",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wokers Vless",
+				"href": "https://github.com/yonggekkk/Cloudflare-workers-pages-vless",
+				"desc": "Cloudflare Wokers Vless",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wokers Vless订阅版",
+				"href": "https://github.com/cmliu/edgetunnel",
+				"desc": "Cloudflare Wokers Vless",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Watt Toolkit",
+				"href": "https://steampp.net/",
+				"desc": "Steam++ 工具箱",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c60454844656",
+		"classify": "影视资源",
+		"icon": "csz czs-play-l",
+		"sites": [{
+				"name": "免费看剧",
+				"href": "https://iao.su/531/",
+				"desc": "白嫖各种影视资源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "VIP影视解析",
+				"href": "https://www.btnull.org/vipplay/",
+				"desc": "解析爱奇艺、腾讯、优酷、乐视、芒果等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "盒子地窖",
+				"href": "http://m.wmsio.cn/",
+				"desc": "安卓TV软件、TVBox衍生版本等",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TVBox",
+				"href": "https://iui.su/175/",
+				"desc": "TVBox本体及配置源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TVBox 配置源 ①",
+				"href": "https://www.lige.fit/",
+				"desc": "TVBox源仓库与接口",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TVBox 配置源 ②",
+				"href": "http://www.yckceo.com/index/applist/tvbox.html",
+				"desc": "TVBox源仓库与接口",
+				"logo": "default0                                                                                                                          .ico"
+			},
+			{
+				"name": "调试助手",
+				"href": "https://www.fenxm.com/854.html",
+				"desc": "TVBox二开版本，可导入源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "M3U8直播源",
+				"href": "https://github.com/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
+				"desc": "电脑、手机看电视的平台整理",
+				"logo": "default.ico"
+			},
+			{
+				"name": "直播源格式转换",
+				"href": "https://guihet.com/tvlistconvert.html",
+				"desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
+				"logo": "default.ico"
+			},
+			{
+				"name": "谁在直播",
+				"href": "http://live.yj1211.work/",
+				"desc": "全网直播平台聚合",
+				"logo": "default.ico"
+			},
+			{
+				"name": "硬核影视指南",
+				"href": "https://yingheapp.com/",
+				"desc": "影视资源导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "下次一定",
+				"href": "https://www.iiice.cn/",
+				"desc": "影视资源导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "磁力云播",
+				"href": "https://magnet.pages.dev/",
+				"desc": "在线解析磁力或种子",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Alist站点集 ①",
+				"href": "https://www.pcoof.com/295.html",
+				"desc": "Alist 站点整理列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Alist站点集 ②",
+				"href": "https://i.pixcat.ru/alist-zhan-dian-ji",
+				"desc": "Alist 站点整理列表",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c5456651009",
+		"classify": "学习资源",
+		"icon": "csz czs-bar-chart-l",
+		"sites": [{
+				"name": "反向词典",
+				"href": "https://wantwords.net/",
+				"desc": "使用描述检索词语或查找近反义词",
+				"logo": "default.ico"
+			},
+			{
+				"name": "据意查句",
+				"href": "https://wantquotes.net/",
+				"desc": "根据描述查找相应的名言名句",
+				"logo": "default.ico"
+			},
+			{
+				"name": "识典古籍",
+				"href": "https://www.shidianguji.com/",
+				"desc": "古籍在线阅读",
+				"logo": "default.ico"
+			},
+			{
+				"name": "海棠诗社",
+				"href": "https://haitang.app/",
+				"desc": "古韵今风，海棠诗梦间",
+				"logo": "default.ico"
+			},
+			{
+				"name": "高质量网站集",
+				"href": "https://i.pixcat.ru/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
+				"desc": "探索互联网上的高质量内容",
+				"logo": "default.ico"
+			},
+			{
+				"name": "互联网知识地图",
+				"href": "https://yunyinghui.feishu.cn/wiki/QrvDwaNt4icE2qkZTPSccNKInhh",
+				"desc": "互联网知识地图",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电报优质频道集 ①",
+				"href": "https://rectg.com/",
+				"desc": "Telegram上不错的频道与群组",
+				"logo": "default.ico"
+			},
+			{
+				"name": "电报优质频道集 ②",
+				"href": "https://github.com/itgoyo/TelegramGroup",
+				"desc": "Telegram上不错的频道与群组",
+				"logo": "default.ico"
+			},
+			{
+				"name": "编程随想的图书收藏",
+				"href": "https://github.com/programthink/books/blob/master/README.wiki",
+				"desc": "网友收藏的电子书清单",
+				"logo": "default.ico"
+			},
+			{
+				"name": "中国哲学书电子化计划",
+				"href": "https://ctext.org/zhs",
+				"desc": "中国哲学书电子化计划",
+				"logo": "default.ico"
+			},
+			{
+				"name": "中小学网课大全",
+				"href": "https://ykt.eduyun.cn/",
+				"desc": "国家中小学智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "中小学教材电子版",
+				"href": "https://jc.pep.com.cn/",
+				"desc": "人民教育出版社教材合集",
+				"logo": "default.ico"
+			},
+			{
+				"name": "国家高等教育",
+				"href": "https://www.chinaooc.com.cn/",
+				"desc": "国家高等教育智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "国家职业教育",
+				"href": "https://vocational.smartedu.cn/",
+				"desc": "国家职业教育智慧教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "终身教育平台",
+				"href": "https://le.ouchn.cn/",
+				"desc": "终身教育平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Github 大学",
+				"href": "https://www.uedbox.com/post/54160/",
+				"desc": "Github上共享的课程资源",
+				"logo": "default.ico"
+			},
+			{
+				"name": "科普中国辟谣频道",
+				"href": "https://piyao.kepuchina.cn/",
+				"desc": "科普中国辟谣频道",
+				"logo": "default.ico"
+			},
+			{
+				"name": "可以玩的大学课程",
+				"href": "https://jibencaozuo.com/",
+				"desc": "可以玩的大学课程",
+				"logo": "default.ico"
+			},
+			{
+				"name": "PubScholar",
+				"href": "https://pubscholar.cn/",
+				"desc": "PubScholar 公益学术平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "渐构",
+				"href": "https://www.modevol.com/",
+				"desc": "渐构 Modevol",
+				"logo": "default.ico"
+			},
+			{
+				"name": "图书资源白嫖",
+				"href": "http://shuxiangjia.cn/",
+				"desc": "不同类型的图书资源",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c6842444656",
+		"classify": "好站收藏",
+		"icon": "csz czs-rss",
+		"sites": [{
+				"name": "不死鸟",
+				"href": "https://iao.su/",
+				"desc": "分享为王",
+				"logo": "default.ico"
+			},
+			{
+				"name": " webhub123",
+				"href": "https://www.webhub123.com/#/home/more",
+				"desc": "连接枯萎的中文互联网",
+				"logo": "default.ico"
+			},
+			{
+				"name": "如有乐享",
+				"href": "https://51.ruyo.net/",
+				"desc": "分享是一种美德，是一种态度",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小众软件",
+				"href": "https://www.appinn.com/",
+				"desc": "小众软件",
+				"logo": "default.ico"
+			},
+			{
+				"name": "优质盒子",
+				"href": "https://uzbox.com/",
+				"desc": "优质盒子",
+				"logo": "default.ico"
+			},
+			{
+				"name": "新趣集",
+				"href": "https://xinquji.com/",
+				"desc": "一起发现有趣的新产品",
+				"logo": "default.ico"
+			},
+			{
+				"name": "发现频道",
+				"href": "https://meta.appinn.net/c/faxian",
+				"desc": "小众软件的发现频道",
+				"logo": "default.ico"
+			},
+			{
+				"name": "免费资源网路社群",
+				"href": "https://free.com.tw/",
+				"desc": "台湾免费资源网络社群",
+				"logo": "default.ico"
+			},
+			{
+				"name": "书签地球",
+				"href": "https://www.bookmarkearth.com/",
+				"desc": "浏览器书签共享平台",
+				"logo": "default.ico"
+			},
+			{
+				"name": "文武科技柜",
+				"href": "https://www.wangdu.site/",
+				"desc": "文武科技柜",
+				"logo": "default.ico"
+			},
+			{
+				"name": "面向租客的租房导航",
+				"href": "https://yaxiaozu.ababtools.com/",
+				"desc": "轻松找到理想住所",
+				"logo": "default.ico"
+			},
+			{
+				"name": "挖站否",
+				"href": "https://wzfou.com/",
+				"desc": "挖掘建站的乐趣",
+				"logo": "default.ico"
+			},
+			{
+				"name": "主机百科",
+				"href": "https://zhujiwiki.com/",
+				"desc": "提供有价值的主机信息和主机测评",
+				"logo": "default.ico"
+			},
+			{
+				"name": "XTROJAN黑科技",
+				"href": "https://xtrojan.net/",
+				"desc": "科学上网学习",
+				"logo": "default.ico"
+			},
+			{
+				"name": "JIKE",
+				"href": "https://jike.info/",
+				"desc": "JIKE",
+				"logo": "default.ico"
+			},
+			{
+				"name": "TopBook",
+				"href": "https://topbook.cc/",
+				"desc": "高效生活视频书",
+				"logo": "default.ico"
+			},
+			{
+				"name": "异次元软件世界",
+				"href": "https://www.iplaysoft.com/",
+				"desc": "高质量软件分享",
+				"logo": "default.ico"
+			},
+			{
+				"name": "偷懒爱好者周刊",
+				"href": "https://toolight.zhubai.love/",
+				"desc": "偷懒爱好者周刊",
+				"logo": "default.ico"
+			},
+			{
+				"name": "科技爱好者周刊 ",
+				"href": "https://www.ruanyifeng.com/blog/weekly/",
+				"desc": "科技爱好者周刊",
+				"logo": "default.ico"
+			},
+			{
+				"name": "技术周刊精选列表",
+				"href": "https://www.fre123.com/wk",
+				"desc": "优质精选技术周刊，高质量信息流",
+				"logo": "default.ico"
+			},
+			{
+				"name": "1000UserGuide",
+				"href": "https://1000userguide.com/",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "城市租房生存指南",
+				"href": "https://zufang.ababtools.com/",
+				"desc": "租房小白修炼手册",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在家做饭指南",
+				"href": "https://cook.aiurs.co/",
+				"desc": "程序员在家做饭方法指南",
+				"logo": "default.ico"
+			},
+			{
+				"name": "食用手册",
+				"href": "https://cook.yunyoujun.cn/",
+				"desc": "好的，今天我们来做菜",
+				"logo": "default.ico"
+			},
+			{
+				"name": "平替好物清单",
+				"href": "https://github.com/leonlucc/awesome-alternative",
+				"desc": "工厂源头或小微品牌生产的口碑平替好物",
+				"logo": "default.ico"
+			},
+			{
+				"name": "程序员延寿指南",
+				"href": "https://github.com/geekan/HowToLiveLonger",
+				"desc": "如何活得更久",
+				"logo": "default.ico"
+			},
+			{
+				"name": "独立开发者项目列表",
+				"href": "https://1c7.github.io/chinese-independent-developer/",
+				"desc": "中国独立开发者项目列表",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c51456534",
+		"classify": "博客收藏",
+		"icon": "csz czs-book",
+		"sites": [{
+				"name": "BlogFinder",
+				"href": "https://bf.zzxworld.com/",
+				"desc": "发现优秀的个人博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "中文博客列表导航",
+				"href": "https://zhblogs.ohyee.cc/",
+				"desc": "尝试链接几乎所有的中文博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "虫洞",
+				"href": "https://www.foreverblog.cn/go.html",
+				"desc": "随机访问一个博客或网站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "耕读",
+				"href": "https://igdux.com/",
+				"desc": "耕读",
+				"logo": "default.ico"
+			},
+			{
+				"name": "零度解说",
+				"href": "https://www.freedidi.com/",
+				"desc": "零度博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "二次寒树",
+				"href": "https://echs.top/",
+				"desc": "ECHSFXY",
+				"logo": "default.ico"
+			},
+			{
+				"name": "雨夜回廊",
+				"href": "https://myql.eu.org/about",
+				"desc": "雨夜回廊",
+				"logo": "default.ico"
+			},
+			{
+				"name": "小z博客",
+				"href": "https://blog.xiaoz.org/",
+				"desc": " 小z博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "缤纷彩虹",
+				"href": "http://blog.cccyun.cn/",
+				"desc": "彩虹云任务的作者的博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Rat's Blog",
+				"href": "https://www.moerats.com/",
+				"desc": "Rat's Blog",
+				"logo": "default.ico"
+			},
+			{
+				"name": "笨猫博客",
+				"href": "https://www.nbmao.com/",
+				"desc": "笨猫博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "好鸭",
+				"href": "https://haoduck.com/",
+				"desc": "好鸭",
+				"logo": "default.ico"
+			},
+			{
+				"name": "从零开始的创作生活",
+				"href": "https://www.fengcun.top/",
+				"desc": "一个爱分享的小站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "梅塔沃克",
+				"href": "https://iweec.com/",
+				"desc": "梅塔沃克",
+				"logo": "default.ico"
+			},
+			{
+				"name": "缙哥哥",
+				"href": "https://www.dujin.org/",
+				"desc": "缙哥哥博客",
+				"logo": "default.ico"
+			},
+			{
+				"name": "皮皮凛",
+				"href": "https://owomoe.net/",
+				"desc": "皮皮凛の小窝",
+				"logo": "default.ico"
+			},
+			{
+				"name": "V's Blog",
+				"href": "https://vofficial233.com/",
+				"desc": "Vofficial",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c550114656",
+		"classify": "猎奇收藏",
+		"icon": "csz czs-taiji",
+		"sites": [{
+				"name": "音频能量场",
+				"href": "https://search.bilibili.com/all?keyword=Sapien%20Medicine",
+				"desc": "Sapien medicine",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Tor网址集",
+				"href": "https://fastly.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
+				"desc": "深网网址列表",
+				"logo": "default.ico"
+			},
+			{
+				"name": "山海经密码",
+				"href": "https://www.youtube.com/playlist?list=PL2BTl-ntPF4xXe9T13fMRppyN0t8JSX4w",
+				"desc": "山海经讲解",
+				"logo": "default.ico"
+			},
+			{
+				"name": "繁盛梦",
+				"href": "https://m.blossomdreaming.com/",
+				"desc": "探索古墨西哥托尔特克智慧与修行之道",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Wingmakers",
+				"href": "https://www.wingmakerschina.com/",
+				"desc": "造翼者",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Bashar",
+				"href": "https://mp.weixin.qq.com/s/FNXysxyl0cVbJKR1gmOLMQ",
+				"desc": "巴夏Bashar",
+				"logo": "default.ico"
+			},
+			{
+				"name": "世界简史",
+				"href": "https://tieba.baidu.com/p/7156836600?see_lz=0",
+				"logo": "default.ico"
+			},
+			{
+				"name": "灵体结构示意",
+				"href": "https://mp.weixin.qq.com/s/A-aYFdqUdtbgCEIyKSrjEA",
+				"desc": "灵体结构",
+				"logo": "default.ico"
+			},
+			{
+				"name": "退出鬼压床",
+				"href": "https://tieba.baidu.com/p/1219269818",
+				"desc": "压床速解",
+				"logo": "default.ico"
+			},
+			{
+				"name": "移除负面想法",
+				"href": "https://search.bilibili.com/all?keyword=%E5%9C%A3%E5%A4%9A%E7%BA%B3%E9%87%8A%E6%94%BE%E6%B3%95",
+				"desc": "移除负面想法",
+				"logo": "default.ico"
+			},
+			{
+				"name": "五音疗疾",
+				"href": "https://search.bilibili.com/all?keyword=%E9%9F%B3%E8%8D%AF",
+				"desc": "五音调五脏 ",
+				"logo": "default.ico"
+			},
+			{
+				"name": "祛附",
+				"href": "https://www.bilibili.com/video/BV14g411N7wy",
+				"desc": "",
+				"logo": "default.ico"
+			},
+			{
+				"name": "在线壮阳",
+				"href": "https://jiba.plus/",
+				"desc": "男同志变强攻略",
+				"logo": "default.ico"
+			},
+			{
+				"name": "修行资料集 ①",
+				"href": "http://silverthorn.ysepan.com/?xzpd=1",
+				"desc": "资料集合",
+				"logo": "default.ico"
+			}
+		]
+	},
+	{
+		"_id": "5c6007444656",
+		"classify": "有趣收藏",
+		"icon": "csz czs-block",
+		"sites": [{
+				"name": "有趣网址之家",
+				"href": "https://youquhome.com/",
+				"desc": "收藏全球最有趣的网站",
+				"logo": "default.ico"
+			},
+			{
+				"name": "奇趣",
+				"href": "https://qiqu.dreamthere.cn/",
+				"desc": "探索未知的网路世界",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Windows 93",
+				"href": "https://www.windows93.net/",
+				"desc": "Windows 93",
+				"logo": "default.ico"
+			},
+			{
+				"name": "神奇海螺试验场",
+				"href": "https://lab.magiconch.com/",
+				"desc": "神奇海螺试验场",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Mikutap",
+				"href": "https://aidn.jp/mikutap/",
+				"desc": "Mikutap",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Bongo Cat",
+				"href": "https://www.bilibili.com/video/BV1d7411n71D",
+				"desc": "让你的桌面有一只猫猫",
+				"logo": "default.ico"
+			},
+			{
+				"name": "网页里的PC博物馆",
+				"href": "https://www.compumuseum.com/index.html",
+				"desc": "基于原版镜像，在网页里使用古董电脑",
+				"logo": "default.ico"
+			},
+			{
+				"name": "Virtual x86",
+				"href": "https://copy.sh/v86/",
+				"desc": "Run KolibriOS, Linux or Windows 98 in your browser",
+				"logo": "default.ico"
+			},
+			{
+				"name": "语音维基",
+				"href": "https://voicewiki.cn/wiki/",
+				"desc": "不同游戏中的角色语音",
+				"logo": "default.ico"
+			},
+			{
+				"name": "景区实时摄像头",
+				"href": "https://livechina.cctv.com/zhibo",
+				"desc": "24小时中国景区的实时摄像头画面",
+				"logo": "default.ico"
+			},
+			{
+				"name": "工作时长排行榜",
+				"href": "https://duibiao.info/post/4211",
+				"desc": "互联网公司工作时长排行榜",
+				"logo": "default.ico"
+			},
+			{
+				"name": "P站Logo生成",
+				"href": "https://www.logoly.pro/",
+				"desc": "Pornhub风格logo生成",
+				"logo": "default.ico"
+			},
+			{
+				"name": "哄哄模拟器",
+				"href": "https://hong.greatdk.com/",
+				"desc": "让TA原谅你",
+				"logo": "default.ico"
+			}
+		]
+	}
 ]
