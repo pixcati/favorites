@@ -1413,9 +1413,15 @@
 				"logo": "default.ico"
 			},
 			{
-				"name": "安卓玩机合集",
+				"name": "安卓玩机合集 ①",
 				"href": "https://www.jamcz.com/tutorial/wanji/",
 				"desc": "adb、fastboot以及各厂商驱动与官方刷机包",
+				"logo": "default.ico"
+			},
+			{
+				"name": "安卓玩机合集 ②",
+				"href": "https://myql.eu.org/article/ce4438f2-75c7-47c5-9228-5e7cd0f6eb51",
+				"desc": "Root与免Root玩机工具等",
 				"logo": "default.ico"
 			},
 			{
@@ -2043,6 +2049,12 @@
 		"classify": "好站收藏",
 		"icon": "csz czs-rss",
 		"sites": [{
+				"name": "FMHY",
+				"href": "https://fmhy.net/",
+				"desc": "freemediaheckyeah",
+				"logo": "default.ico"
+			},
+			{
 				"name": "不死鸟",
 				"href": "https://iao.su/",
 				"desc": "分享为王",
