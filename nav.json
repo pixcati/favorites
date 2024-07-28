@@ -913,6 +913,18 @@
 				"href": "https://www.aiopenminds.com/",
 				"desc": "AI工具导航",
 				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ⑤",
+				"href": "https://ai-bot.cn/",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
+			},
+			{
+				"name": "AI工具导航 ⑥",
+				"href": "https://www.aigotools.com/cn",
+				"desc": "AI工具导航",
+				"logo": "default.ico"
 			}
 		]
 	},
