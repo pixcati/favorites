@@ -1,4 +1,4 @@
-[
+0[ 
   {
     "_id": "fjkdasf1g1sb1",
     "classify": "媒体工具",
@@ -1122,6 +1122,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Awesome-Windows",
+        "href": "https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md",
+        "desc": "Windows优选工具列表",
+        "logo": "default.ico"
+      },
+      {
         "name": "423down",
         "href": "https://www.423down.com/",
         "desc": "修改、汉化、绿色软件等",
@@ -1505,6 +1511,12 @@
         "name": "Shizuku",
         "href": "https://shizuku.rikka.app/zh-hans/ ",
         "desc": "Adb套娃授权",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Awesome-Shizuku",
+        "href": "https://github.com/timschneeb/awesome-shizuku/blob/master/README_cn.md",
+        "desc": "挖掘Shizuku的可玩性",
         "logo": "default.ico"
       },
       {
@@ -2243,6 +2255,12 @@
         "name": "独立开发者项目列表",
         "href": "https://1c7.github.io/chinese-independent-developer/",
         "desc": "中国独立开发者项目列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Awesome",
+        "href": "https://github.com/sindresorhus/awesome",
+        "desc": "Awesome",
         "logo": "default.ico"
       }
     ]
