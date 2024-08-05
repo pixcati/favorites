@@ -1510,7 +1510,7 @@
       {
         "name": "Shizuku",
         "href": "https://shizuku.rikka.app/zh-hans/ ",
-        "desc": "Adb套娃授权",
+        "desc": "让你的应用直接使用系统 API",
         "logo": "default.ico"
       },
       {
@@ -1552,6 +1552,12 @@
       {
         "name": "安卓端PC模拟器合集",
         "href": "https://www.bilibili.com/read/mobile?id=25407219",
+        "desc": "安卓上的Wine环境等",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Mac 运行 iOS 游戏",
+        "href": "https://github.com/PlayCover/PlayCover",
         "desc": "安卓上的Wine环境等",
         "logo": "default.ico"
       }
