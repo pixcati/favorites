@@ -1569,6 +1569,12 @@
     "icon": "csz czs-linux",
     "sites": [
       {
+        "name": "WinNew",
+        "href": "https://winnew.cn/",
+        "desc": " 从微软服务器获取最新原版镜像",
+        "logo": "default.ico"
+      },
+      {
         "name": "MSDN",
         "href": "https://msdn.itellyou.cn/",
         "desc": "Windows 原版镜像、软件",
@@ -1581,9 +1587,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "极简系统",
-        "href": "https://www.sysmini.com/",
-        "desc": "下载Win10/8/7/xp原版镜像或精简 ",
+        "name": "系统库",
+        "href": "https://www.xitongku.com/h5/",
+        "desc": "致力于原版Windows生态服务",
         "logo": "default.ico"
       },
       {
