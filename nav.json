@@ -1575,6 +1575,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "UUP dump",
+        "href": "https://uupdump.net/",
+        "desc": "轻松地从微软更新服务器下载 UUP 文件",
+        "logo": "default.ico"
+      },
+      {
         "name": "MSDN",
         "href": "https://msdn.itellyou.cn/",
         "desc": "Windows 原版镜像、软件",
