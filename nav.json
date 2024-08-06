@@ -2518,15 +2518,21 @@
         "logo": "default.ico"
       },
       {
+        "name": "掌上宇宙",
+        "href": "https://cocosmos.online/",
+        "desc": "Cocosmos 掌上宇宙",
+        "logo": "default.ico"
+      },
+      {
         "name": "Mikutap",
         "href": "https://aidn.jp/mikutap/",
         "desc": "Mikutap",
         "logo": "default.ico"
       },
       {
-        "name": "Bongo Cat",
-        "href": "https://www.bilibili.com/video/BV1d7411n71D",
-        "desc": "让你的桌面有一只猫猫",
+        "name": "世界各地动物园直播",
+        "href": "https://www.explore.org/livecams",
+        "desc": "世界各地动物公园直播",
         "logo": "default.ico"
       },
       {
