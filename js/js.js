@@ -260,6 +260,13 @@
             },
 			 [t._v("简版")]), n("a", {
 				 
+
+				 attrs: {
+                    href: "https://pixcat.ru/api/bookmark.php"
+                }
+            },
+			 [t._v("导出书签")]), n("a", {	 
+				 
 			 
 				 attrs: {
                     href: "https://i.pixcat.ru/"
