@@ -446,7 +446,7 @@
             },
             {
                 "name": "百度网盘解析",
-                "href": "https://moeyy.cn/baidudisk/",
+                "href": "https://pan.b23.buzz/",
                 "desc": "提取文件直链",
                 "logo": "default.ico"
             },
@@ -466,6 +466,12 @@
                 "name": "Alist",
                 "href": "https://alist.nn.ci/zh/",
                 "desc": "支持多种存储的文件列表程序",
+                "logo": "default.ico"
+            },
+            {
+                "name": "NetMount",
+                "href": "https://www.netmount.cn/",
+                "desc": "统一管理和挂载云存储",
                 "logo": "default.ico"
             },
             {
@@ -772,6 +778,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "独立开发者导航",
+                "href": "https://www.indiehackers.site/zh/apptype/featured",
+                "desc": "发掘最优秀的工具",
+                "logo": "default.ico"
+            },
+            {
                 "name": "梦想导航",
                 "href": "https://nav.dreamthere.cn/",
                 "desc": "探索未知的网路世界",
@@ -804,12 +816,6 @@
             {
                 "name": "龙喵",
                 "href": "https://ailongmiao.com/",
-                "desc": "",
-                "logo": "default.ico"
-            },
-            {
-                "name": "有约啦导航 ",
-                "href": "https://123.youyuela.com/",
                 "desc": "",
                 "logo": "default.ico"
             },
@@ -886,9 +892,15 @@
                 "logo": "default.ico"
             },
             {
+                "name": "Tools-Web",
+                "href": "https://tools.ranblogs.com/",
+                "desc": "一个轻量的在线工具箱",
+                "logo": "default.ico"
+            },
+            {
                 "name": "哆啦A梦的神奇口袋",
                 "href": "https://baozangku.com/",
-                "desc": "永硕E盘下的某列表",
+                "desc": "哆啦A梦的神奇口袋",
                 "logo": "default.ico"
             },
             {
@@ -2419,6 +2431,12 @@
                 "name": "道教经典",
                 "href": "https://www.daorenjia.com/",
                 "desc": "道家经典在线阅读",
+                "logo": "default.ico"
+            },
+            {
+                "name": "AI塔罗占卜",
+                "href": "https://tarotap.com/zh",
+                "desc": "塔罗耳语",
                 "logo": "default.ico"
             },
             {
