@@ -2005,6 +2005,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "下一本读什么",
+                "href": "https://xiayibendushenme.com/",
+                "desc": "高质量书单集合",
+                "logo": "default.ico"
+            },
+            {
                 "name": "识典古籍",
                 "href": "https://www.shidianguji.com/",
                 "desc": "古籍在线阅读",
@@ -2434,6 +2440,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "佛教经典",
+                "href": "http://www.xuefo.com/jz/show3_2_1.htm",
+                "desc": "佛经原文、注音、白话文等资料",
+                "logo": "default.ico"
+            },
+            {
                 "name": "AI塔罗占卜",
                 "href": "https://tarotap.com/zh",
                 "desc": "塔罗耳语",
@@ -2464,7 +2476,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Bashar",
+                "name": "14",
                 "href": "https://mp.weixin.qq.com/s/FNXysxyl0cVbJKR1gmOLMQ",
                 "desc": "巴夏Bashar",
                 "logo": "default.ico"
@@ -2512,7 +2524,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "修行资料集 ①",
+                "name": "资料集 ①",
                 "href": "http://silverthorn.ysepan.com/?xzpd=1",
                 "desc": "资料集合",
                 "logo": "default.ico"
