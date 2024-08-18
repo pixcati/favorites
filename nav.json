@@ -1460,6 +1460,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "ADB 用法大全",
+                "href": "https://mazhuang.org/awesome-adb/",
+                "desc": "Awesome Adb",
+                "logo": "default.ico"
+            },
+            {
                 "name": "安卓玩机合集 ①",
                 "href": "https://www.jamcz.com/tutorial/wanji/",
                 "desc": "adb、fastboot以及各厂商驱动与官方刷机包",
