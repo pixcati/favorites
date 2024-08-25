@@ -2549,6 +2549,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "发现有趣的东西",
+                "href": "https://iui.su/3093/",
+                "desc": "一些有趣、新奇的网站或app等",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Windows 93",
                 "href": "https://www.windows93.net/",
                 "desc": "Windows 93",
