@@ -355,14 +355,14 @@
             },
             {
                 "name": "在线 Markdown 编辑 ①",
-                "href": "https://www.zybuluo.com/",
-                "desc": "Markdown 编辑阅读器，实时同步预览",
+                "href": "https://markdown.lovejade.cn/",
+                "desc": "为未来而构建的在线 Markdown 编辑器",
                 "logo": "default.ico"
             },
             {
                 "name": "在线 Markdown 编辑 ②",
-                "href": "https://tools.miku.ac/markdown/",
-                "desc": "Markdown 编辑",
+                "href": "https://www.zybuluo.com/",
+                "desc": "Markdown 编辑阅读器，实时同步预览",
                 "logo": "default.ico"
             },
             {
@@ -2495,7 +2495,7 @@
             },
             {
                 "name": "灵体结构示意",
-                "href": "https://mp.weixin.qq.com/s/A-aYFdqUdtbgCEIyKSrjEA",
+                "href": "https://yuanwushi.org/article-tag-2621.html",
                 "desc": "灵体结构",
                 "logo": "default.ico"
             },
