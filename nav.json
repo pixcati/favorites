@@ -415,9 +415,21 @@
                 "logo": "default.ico"
             },
             {
+                "name": "云鸽",
+                "href": "https://yunge.in/",
+                "desc": "局域网内设备通过此网页进行互传",
+                "logo": "default.ico"
+            },
+            {
                 "name": "ShareDrop",
                 "href": "https://www.sharedrop.io/",
                 "desc": "局域网内设备通过此网页进行互传",
+                "logo": "default.ico"
+            },
+            {
+                "name": "IPFS文件床",
+                "href": "https://cdn.ipfsscan.io/",
+                "desc": "基于IPFS的图床与文件存储服务",
                 "logo": "default.ico"
             },
             {
