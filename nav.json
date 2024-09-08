@@ -1926,6 +1926,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "硬核指南",
+                "href": "https://yingheapp.com/",
+                "desc": "资源导航，包括影视、音乐、电子书等",
+                "logo": "default.ico"
+            },
+            {
                 "name": "VIP影视解析",
                 "href": "https://www.btnull.org/vipplay/",
                 "desc": "解析爱奇艺、腾讯、优酷、乐视、芒果等",
@@ -1945,7 +1951,7 @@
             },
             {
                 "name": "TVBox 配置源 ①",
-                "href": "https://www.lige.fit/",
+                "href": "https://yingheapp.com/yingshicang-jiekou/",
                 "desc": "TVBox源仓库与接口",
                 "logo": "default.ico"
             },
@@ -1956,15 +1962,9 @@
                 "logo": "default0                                                                                                                          .ico"
             },
             {
-                "name": "调试助手",
-                "href": "https://www.fenxm.com/854.html",
-                "desc": "TVBox二开版本，可导入源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "M3U8直播源",
-                "href": "https://github.com/biancangming/wtv/wiki/%E6%9C%80%E6%96%B0IPTV%E7%9B%B4%E6%92%AD%E6%BA%90m3u8%E4%B8%8B%E8%BD%BD%EF%BC%8C%E7%94%B5%E8%A7%86%E7%9B%B4%E6%92%AD%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90",
-                "desc": "电脑、手机看电视的平台整理",
+                "name": "IPTV直播源汇总",
+                "href": "https://yingheapp.com/iptv/",
+                "desc": "直播源仓库",
                 "logo": "default.ico"
             },
             {
@@ -1977,12 +1977,6 @@
                 "name": "谁在直播",
                 "href": "http://live.yj1211.work/",
                 "desc": "全网直播平台聚合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "硬核影视指南",
-                "href": "https://yingheapp.com/",
-                "desc": "影视资源导航",
                 "logo": "default.ico"
             },
             {
