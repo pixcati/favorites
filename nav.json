@@ -826,6 +826,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "轻工具",
+                "href": "https://qinggongju.com/",
+                "desc": "专注收集分享优质免费资源的导航",
+                "logo": "default.ico"
+            },
+            {
                 "name": "龙喵",
                 "href": "https://ailongmiao.com/",
                 "desc": "",
@@ -1291,7 +1297,13 @@
                 "logo": "default.ico"
             },
             {
-                "name": "低端游戏 ",
+                "name": "老游戏在线玩",
+                "href": "https://zaixianwan.app/",
+                "desc": "包含NES、GB/GBC/GBA、NDS、PS等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "低端游戏",
                 "href": "https://ddyx.me/",
                 "desc": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
                 "logo": "default.ico"
