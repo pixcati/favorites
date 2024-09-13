@@ -2137,6 +2137,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "GitHub中文排行榜",
+                "href": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
+                "desc": "软件与资料榜单，精准定位中文好项目",
+                "logo": "default.ico"
+            },
+            {
                 "name": "科普中国辟谣频道",
                 "href": "https://piyao.kepuchina.cn/",
                 "desc": "科普中国辟谣频道",
