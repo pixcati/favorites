@@ -2379,6 +2379,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "开往",
+                "href": "https://www.travellings.cn/go.html",
+                "desc": "随机访问一个博客或网站",
+                "logo": "default.ico"
+            },
+            {
                 "name": "耕读",
                 "href": "https://igdux.com/",
                 "desc": "耕读",
