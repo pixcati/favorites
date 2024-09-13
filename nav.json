@@ -536,6 +536,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "购物平替查询",
+                "href": "https://www.pingti.app/",
+                "desc": "最佳平替，用更低价的搜索词购物",
+                "logo": "default.ico"
+            },
+            {
                 "name": "V2EX站内搜索",
                 "href": "https://www.sov2ex.com/",
                 "desc": "在 V2EX.COM 中查找",
@@ -2503,6 +2509,11 @@
                 "name": "佛教经典",
                 "href": "http://www.xuefo.com/jz/show3_2_1.htm",
                 "desc": "佛经原文、注音、白话文等资料",
+                "logo": "default.ico"           },
+            {
+                "name": "藏密度亡经",
+                "href": "http://www.dzj.fosss.net/relative/sdhb/zyjt/4285-zydjt",
+                "desc": "",
                 "logo": "default.ico"
             },
             {
