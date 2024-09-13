@@ -530,6 +530,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "电子书资源查找",
+                "href": "http://shuxiangjia.cn/?cate=9",
+                "desc": "图书、文档资源查找渠道集合",
+                "logo": "default.ico"
+            },
+            {
                 "name": "V2EX站内搜索",
                 "href": "https://www.sov2ex.com/",
                 "desc": "在 V2EX.COM 中查找",
@@ -2155,9 +2161,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "图书资源白嫖",
-                "href": "http://shuxiangjia.cn/",
-                "desc": "不同类型的图书资源",
+                "name": "安娜的档案",
+                "href": "https://zh.annas-archive.org/",
+                "desc": "37668190本图书、105786988篇论文
                 "logo": "default.ico"
             }
         ]
