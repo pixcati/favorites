@@ -143,9 +143,15 @@
                 "logo": "default.ico"
             },
             {
-                "name": "图片无损放大",
+                "name": "图片无损放大 ①",
                 "href": "https://github.com/tumuyan/RealSR-NCNN-Android/releases",
-                "desc": "Real-CUGAN、Waifu2x等",
+                "desc": "在安卓设备上运行Real-CUGAN、Waifu2x等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "图片无损放大 ②",
+                "href": "https://github.com/AaronFeng753/Waifu2x-Extension-GUI/blob/master/README_CN.md",
+                "desc": "使用机器学习放大图片视频或进行视频补帧",
                 "logo": "default.ico"
             },
             {
