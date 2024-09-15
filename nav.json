@@ -2312,6 +2312,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "奇趣周刊 ",
+                "href": "https://zishu.me/categories/weekly/",
+                "desc": "奇趣周刊",
+                "logo": "default.ico"
+            },
+            {
                 "name": "技术周刊精选列表",
                 "href": "https://www.fre123.com/wk",
                 "desc": "优质精选技术周刊，高质量信息流",
