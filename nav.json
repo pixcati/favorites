@@ -1146,21 +1146,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "激活 Windows ①",
+        "name": "激活 Windows",
         "href": "https://www.423down.com/1202.html",
         "desc": "智能选择激活方式，同时可激活Office",
         "logo": "default.ico"
       },
       {
-        "name": "激活 Windows ②",
-        "href": "https://github.com/massgravel/Microsoft-Activation-Scripts/releases/tag/1.5",
-        "desc": "Windows 数字激活工具，解压密码1234",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Office 密钥 ",
-        "href": "https://office-kms-keys.pages.dev/",
-        "desc": "Ofice 激活密钥",
+        "name": "激活 Office",
+        "href": "https://www.423down.com/6707.html",
+        "desc": "数字激活工具，同时激活Win或Office",
         "logo": "default.ico"
       },
       {
@@ -2044,6 +2038,12 @@
         "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
         "desc": "Alist 站点整理列表",
         "logo": "default.ico"
+      },
+      {
+        "name": "NSFW",
+        "href": "https://fmhy.net/nsfwpiracy#nsfw-indexes",
+        "desc": "",
+        "logo": "default.ico"
       }
     ]
   },
@@ -2708,6 +2708,12 @@
         "name": "P站Logo生成",
         "href": "https://www.logoly.pro/",
         "desc": "Pornhub风格logo生成",
+        "logo": "default.ico"
+      },
+      {
+        "name": "用书签生成网站",
+        "href": "https://pintree.io/guide-zh.html",
+        "desc": "将浏览器书签导出成导航网站",
         "logo": "default.ico"
       },
       {
