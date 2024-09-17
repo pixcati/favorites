@@ -1357,6 +1357,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Y8",
+        "href": "https://zh.y8.com/",
+        "desc": "在线H5游戏合集",
+        "logo": "default.ico"
+      },
+      {
         "name": "PacoGames",
         "href": "https://www.pacogames.com/",
         "desc": "国外小游戏网站合集",
@@ -1426,6 +1432,18 @@
         "name": "PVZ资源",
         "href": "http://lonelystar.org/download.htm",
         "desc": "植物大战僵尸僵尸各类版本，含破解",
+        "logo": "default.ico"
+      },
+      {
+        "name": "PVZ杂交版",
+        "href": "https://pvzgame.net/",
+        "desc": "植物大战僵尸僵尸杂交版",
+        "logo": "default.ico"
+      },
+      {
+        "name": "MC资源",
+        "href": "https://mc.minebbs.com/i",
+        "desc": "Minecraft各版本整合",
         "logo": "default.ico"
       },
       {
