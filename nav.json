@@ -1780,6 +1780,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Web前端导航",
+        "href": "https://www.alloyteam.com/nav/",
+        "desc": "",
+        "logo": "default.ico"
+      },
+      {
         "name": "文字首字母头像",
         "href": "https://mkblog.cn/1886/",
         "desc": "纯前端生成字母头像",
@@ -1794,31 +1800,19 @@
       {
         "name": "一言",
         "href": "https://hitokoto.cn/",
-        "desc": "Hitokoto - 一言",
+        "desc": "Hitokoto 一言",
         "logo": "default.ico"
       },
       {
-        "name": "音乐播放器 ①",
+        "name": "APlayer",
         "href": "https://aplayer.js.org/",
         "desc": "APlayer 开源的播放器",
         "logo": "default.ico"
       },
       {
-        "name": "音乐播放器 ②",
+        "name": "MetingJS",
         "href": "https://github.com/metowolf/MetingJS",
         "desc": "给APlayer加入了外链网易云等功能",
-        "logo": "default.ico"
-      },
-      {
-        "name": "音乐播放器 ③",
-        "href": "https://github.com/Jrohy/QPlayer",
-        "desc": "QPlayer 简洁的悬浮音乐播放器",
-        "logo": "default.ico"
-      },
-      {
-        "name": "音乐播放器 ④",
-        "href": "https://github.com/Jrohy/QPlayer",
-        "desc": "CPlayer , APlayer同作者力作",
         "logo": "default.ico"
       },
       {
