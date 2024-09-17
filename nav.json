@@ -1810,6 +1810,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "DPlayer",
+        "href": "https://dplayer.diygod.dev/zh/",
+        "desc": "DPlayer 开源的前端视频播放器",
+        "logo": "default.ico"
+      },
+      {
         "name": "MetingJS",
         "href": "https://github.com/metowolf/MetingJS",
         "desc": "给APlayer加入了外链网易云等功能",
