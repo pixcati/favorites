@@ -1798,6 +1798,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "WebStack",
+        "href": "https://webstack.cc/cn/index.html",
+        "desc": "设计师网址导航",
+        "logo": "default.ico"
+      },
+      {
         "name": "文字首字母头像",
         "href": "https://mkblog.cn/1886/",
         "desc": "纯前端生成字母头像",
