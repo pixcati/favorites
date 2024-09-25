@@ -6,7 +6,7 @@
     "sites": [
       {
         "name": "消除图片背景",
-        "href": "https://bgsub.cn/",
+        "href": "https://bgsub.com/webapp/",
         "desc": "快速移除或替换图片背景",
         "logo": "default.ico"
       },
@@ -14,7 +14,7 @@
         "name": "提取网页图片",
         "href": "http://www.pullywood.com/ImageAssistant/",
         "desc": "列出与保存网页中存在的图片或图标",
-        "logo": "default.ico"
+        "logo": "default.ico" 
       },
       {
         "name": "九宫格切图",
@@ -647,7 +647,7 @@
       {
         "name": "网页历史快照",
         "href": "https://web.archive.org/",
-        "desc": "Wayback Machine",
+        "desc": "Wayback Machine 互联网档案馆",
         "logo": "default.ico"
       },
       {
@@ -1998,6 +1998,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "聚玩盒子",
+        "href": "https://www.juwanhezi.com/",
+        "desc": "安卓TV软件、TVBox衍生版本等",
+        "logo": "default.ico"
+      },
+      {
         "name": "盒子地窖",
         "href": "http://m.wmsio.cn/",
         "desc": "安卓TV软件、TVBox衍生版本等",
@@ -2596,6 +2602,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Ruowen Huang",
+        "href": "http://ruowenh.com/%E4%B8%BB%E9%A0%81/",
+        "desc": "",
+        "logo": "default.ico"
+      },
+      {
         "name": "世界简史",
         "href": "https://tieba.baidu.com/p/7156836600?see_lz=0",
         "desc": "",
@@ -2639,6 +2651,12 @@
       },
       {
         "name": "资料集 ①",
+        "href": "https://pan.pixcat.ru/%E7%8E%84%E5%AD%A6",
+        "desc": "资料集合",
+        "logo": "default.ico"
+      },
+      {
+        "name": "资料集 ②",
         "href": "http://silverthorn.ysepan.com/?xzpd=1",
         "desc": "资料集合",
         "logo": "default.ico"
