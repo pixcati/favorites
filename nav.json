@@ -505,6 +505,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "查看磁链所含文件",
+        "href": "https://whatslink.info/",
+        "desc": "预览 Torrent/Magnet/Ed2k 等磁链地址中包含的文件",
+        "logo": "default.ico"d
+      },
+      {
         "name": "热门 BT Tracker 列表",
         "href": "https://trackerslist.com/",
         "desc": "全网热门 BitTorrent Tracker 列表",
@@ -1037,6 +1043,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Vave BG",
+        "href": "https://vavebg.com/",
+        "desc": "由 AI 生成的高清图片库，可免费商用",
+        "logo": "default.ico"
+      },
+      {
         "name": "搜图神器",
         "href": "https://www.logosc.cn/so/",
         "desc": "免费版权图片一键搜索",
@@ -1170,8 +1182,20 @@
         "logo": "default.ico"
       },
       {
+        "name": "小羿的软件商店",
+        "href": "https://xiaoyi.vc/win-app",
+        "desc": "经过精心筛选与验证的各类实用软件",
+        "logo": "default.ico"
+      },
+      {
         "name": "雨夜回廊的软件推荐",
         "href": "https://myql.eu.org/article/Software",
+        "desc": "优质的软件推荐列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "二次寒树的应用集",
+        "href": "https://echs.top/box/Windows",
         "desc": "优质的软件推荐列表",
         "logo": "default.ico"
       },
@@ -2460,6 +2484,12 @@
         "name": "二次寒树",
         "href": "https://echs.top/",
         "desc": "ECHSFXY",
+        "logo": "default.ico"
+      },
+      {
+        "name": "小羿",
+        "href": "https://www.xiaoyi.vc/",
+        "desc": "收录各种优秀软件",
         "logo": "default.ico"
       },
       {
