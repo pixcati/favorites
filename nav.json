@@ -508,7 +508,7 @@
         "name": "查看磁链所含文件",
         "href": "https://whatslink.info/",
         "desc": "预览 Torrent/Magnet/Ed2k 等磁链地址中包含的文件",
-        "logo": "default.ico"d
+        "logo": "default.ico"
       },
       {
         "name": "热门 BT Tracker 列表",
