@@ -910,6 +910,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "各种源大集合",
+        "href": "https://source.zgqinc.gq/",
+        "desc": "书源、图源、订阅源、规则、直播源",
+        "logo": "default.ico"
+      },
+      {
         "name": "懒人工具箱",
         "href": "https://tool.lanrentuku.com/",
         "desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
@@ -2282,6 +2288,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "ABABTOOLS",
+        "href": "https://ababtools.com/",
+        "desc": "发现有趣、有用的东西",
+        "logo": "default.ico"
+      },
+      {
         "name": "小众软件",
         "href": "https://www.appinn.com/",
         "desc": "小众软件",
@@ -2774,6 +2786,12 @@
         "name": "工作时长排行榜",
         "href": "https://duibiao.info/post/4211",
         "desc": "互联网公司工作时长排行榜",
+        "logo": "default.ico"
+      },
+      {
+        "name": "AI颜文字生成",
+        "href": "https://kaomoji.ai/zh",
+        "desc": "用AI创造独特的颜文字",
         "logo": "default.ico"
       },
       {
