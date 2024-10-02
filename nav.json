@@ -1411,6 +1411,24 @@
         "logo": "default.ico"
       },
       {
+        "name": "Flash保存计划",
+        "href": "https://flash.homes/",
+        "desc": "那些曾带给我们欢乐的 Flash 作品",
+        "logo": "default.ico"
+      },
+      {
+        "name": "oldswf ",
+        "href": "https://oldswf.com/",
+        "desc": "无需安装flash即可在线游玩的小游戏站",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Ruffle ",
+        "href": "https://ruffle.rs/",
+        "desc": "通过Ruffle在现代浏览器中玩转Flash",
+        "logo": "default.ico"
+      },
+      {
         "name": "NS游戏资源",
         "href": "https://www.gamer520.com/",
         "desc": "Switch 520资源站",
@@ -1426,12 +1444,6 @@
         "name": "古墓丽影网页版 ",
         "href": "http://xproger.info/projects/OpenLara/",
         "desc": "Classic Tomb Raider open-source engine",
-        "logo": "default.ico"
-      },
-      {
-        "name": "在线运行SWF ",
-        "href": "https://ruffle.rs/",
-        "desc": "在现代浏览器中玩转Flash",
         "logo": "default.ico"
       },
       {
