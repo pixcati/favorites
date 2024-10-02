@@ -1489,6 +1489,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "MC导航",
+        "href": "https://www.mcnav.net/",
+        "desc": "Minecraft 网址导航",
+        "logo": "default.ico"
+      },
+      {
         "name": "Ballance",
         "href": "https://ballance.jxpxxzj.cn/wiki/Ballance%E5%90%A7%E5%AF%BC%E8%88%AA%E8%B4%B4",
         "desc": "平衡球资源整合",
