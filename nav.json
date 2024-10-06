@@ -664,7 +664,7 @@
       },
       {
         "name": "一键重装服务器",
-        "href": "https://wzfou.com/5-vps-chongzhuang/",
+        "href": "https://github.com/bin456789/reinstall",
         "desc": "适用于Linux / Windows ",
         "logo": "default.ico"
       },
@@ -1502,7 +1502,7 @@
       },
       {
         "name": "WeMod",
-        "href": "https://www.wemod.com/zh",
+		"href": "https://www.wemod.com/zh",
         "desc": "游戏作弊、修改器和 Mod",
         "logo": "default.ico"
       },
@@ -1821,9 +1821,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Docker镜像",
+        "name": "Docker镜像加速 ①",
         "href": "https://51.ruyo.net/18416.html",
-        "desc": "Docker Hub加速，使用国内镜像源",
+        "desc": "Docker Hub加速",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Docker镜像加速 ②",
+        "href": "https://cloud.tencent.com/developer/article/2454486",
+        "desc": "Docker Hub加速",
         "logo": "default.ico"
       }
     ]
