@@ -639,9 +639,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "老毛子APP",
-        "href": "https://www.right.com.cn/forum/thread-4088564-1-1.html",
-        "desc": "为Padavan固件适配的APP",
+        "name": "MiGPT",
+        "href": "https://github.com/idootop/mi-gpt",
+        "desc": "将小爱音箱接入大语言模型",
         "logo": "default.ico"
       },
       {
