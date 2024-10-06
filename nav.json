@@ -429,13 +429,19 @@
       {
         "name": "ShareDrop",
         "href": "https://www.sharedrop.io/",
-        "desc": "局域网内设备通过此网页进行互传",
+        "desc": "局域网设备网页互传",
         "logo": "default.ico"
       },
       {
         "name": "IPFS文件床",
         "href": "https://cdn.ipfsscan.io/",
         "desc": "基于IPFS的图床与文件存储服务",
+        "logo": "default.ico"
+      },
+      {
+        "name": "DROP",
+        "href": "https://drop.space/",
+        "desc": "不限速不限流大文件传输托管",
         "logo": "default.ico"
       },
       {
@@ -1280,7 +1286,7 @@
       {
         "name": "LITEAPKS",
         "href": "https://liteapks.com/",
-        "desc": "一个国外的安卓破解软件游戏站",
+        "desc": "国外安卓破解软件游戏站",
         "logo": "default.ico"
       },
       {
@@ -1290,15 +1296,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "5Play",
-        "href": "https://5play.org/",
-        "desc": "一个国外的安卓破解软件游戏站",
+        "name": "Modyolo",
+        "href": "https://modyolo.com/",
+        "desc": "安卓应用修改、去广告版等",
         "logo": "default.ico"
       },
       {
         "name": "5-App",
         "href": "https://5-app.ru/",
-        "desc": "一个国外的安卓破解软件游戏站",
+        "desc": "国外安卓破解软件游戏站",
         "logo": "default.ico"
       },
       {
@@ -2278,6 +2284,12 @@
         "name": "安娜的档案",
         "href": "https://zh.annas-archive.org/",
         "desc": "37668190本图书、105786988篇论文",
+        "logo": "default.ico"
+      },
+      {
+        "name": "默沙东诊疗手册",
+        "href": "https://www.msdmanuals.cn/home",
+        "desc": "使用最广泛的医学信息资源之一",
         "logo": "default.ico"
       }
     ]
