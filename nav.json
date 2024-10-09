@@ -181,7 +181,7 @@
       },
       {
         "name": "大模型排行榜 ②",
-        "href": "https://rank.opencompass.org.cn/home",
+        "href": "https://livebench.ai/",
         "desc": "大模型评测榜单",
         "logo": "default.ico"
       },
@@ -391,7 +391,7 @@
       },
       {
         "name": "临时邮箱",
-        "href": "http://24mail.chacuo.net/",
+        "href": "https://smail.pw/zh-CN",
         "desc": "获取一个临时邮箱",
         "logo": "default.ico"
       },
