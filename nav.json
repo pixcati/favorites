@@ -759,15 +759,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Github 文件加速 ①",
-        "href": "https://ghproxy.com/",
+        "name": "Github 文件加速",
+        "href": "https://github.akams.cn/",
         "desc": "加速Github文件下载",
         "logo": "default.ico"
       },
       {
-        "name": "Github 文件加速 ②",
-        "href": "https://ghmirror00.pages.dev/",
-        "desc": "加速Github文件下载",
+        "name": "Github 下载加速脚本",
+        "href": "https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD",
+        "desc": "高速下载 Git Clone/SSH、Release、Raw、Code(ZIP) 等文件",
         "logo": "default.ico"
       },
       {
