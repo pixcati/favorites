@@ -1864,6 +1864,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "W3school",
+        "href": "https://www.w3school.com.cn/",
+        "desc": "w3school在线教程",
+        "logo": "default.ico"
+      },
+      {
         "name": "文字首字母头像",
         "href": "https://mkblog.cn/1886/",
         "desc": "纯前端生成字母头像",
