@@ -736,7 +736,7 @@
       },
       {
         "name": "Cloudflare 玩出花",
-        "href": "https://github.com/zhuima/awesome-cloudflare",
+        "href": "https://cloudflare.chuhai.tools/",
         "desc": "CloudFlare 五花八门的玩法与工具",
         "logo": "default.ico"
       },
@@ -826,9 +826,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "独立开发者导航",
+        "name": "独立开发者导航 ①",
         "href": "https://www.indiehackers.site/zh/apptype/featured",
         "desc": "发掘最优秀的工具",
+        "logo": "default.ico"
+      },
+      {
+        "name": "独立开发者导航 ②",
+        "href": "https://chuhai.tools/",
+        "desc": "发现最好的独立开发者工具 & 技术栈",
         "logo": "default.ico"
       },
       {
