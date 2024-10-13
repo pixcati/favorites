@@ -530,9 +530,15 @@
     "icon": "csz czs-search-l",
     "sites": [
       {
-        "name": "资源搜索",
+        "name": "资源搜索导航",
         "href": "https://iao.su/3700/",
         "desc": "搜索不同类别的资源",
+        "logo": "default.ico"
+      },
+      {
+        "name": "网盘搜索测评榜榜单",
+        "href": "https://www.pansou.vip/",
+        "desc": "人工亲测精选的网盘搜索工具导航",
         "logo": "default.ico"
       },
       {
@@ -2645,7 +2651,7 @@
       },
       {
         "name": "Tor网址集",
-        "href": "https://fastly.jsdelivr.net/gh/leelikar/DeepWeb@master/DeepWeb.txt",
+        "href": "https://onion666.com/",
         "desc": "深网网址列表",
         "logo": "default.ico"
       },
@@ -2657,7 +2663,7 @@
       },
       {
         "name": "佛教经典",
-        "href": "http://www.xuefo.com/jz/show3_2_1.htm",
+        "href": "http://www.xuefo9.net/jz/all.asp",
         "desc": "佛经原文、注音、白话文等资料",
         "logo": "default.ico"
       },
@@ -2671,6 +2677,12 @@
         "name": "AI塔罗占卜",
         "href": "https://tarotap.com/zh",
         "desc": "塔罗耳语",
+        "logo": "default.ico"
+      },
+      {
+        "name": "文始真经",
+        "href": "https://www.youtube.com/playlist?list=PL2BTl-ntPF4xGldEc3s72M58FtUplqXww",
+        "desc": "文始真经讲解",
         "logo": "default.ico"
       },
       {
