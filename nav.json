@@ -1260,6 +1260,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "极客应用",
+        "href": "https://www.gy328.com/",
+        "desc": "",
+        "logo": "default.ico"
+      },
+      {
         "name": "微当下载",
         "href": "https://www.weidown.com/",
         "desc": "修改、汉化、精简软件等",
@@ -1302,9 +1308,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "APKHUB",
-        "href": "https://apkhub.cloud/",
-        "desc": "APKHUB",
+        "name": "AppShare",
+        "href": "https://appshare.muge.info/#",
+        "desc": "AppShare",
+        "logo": "default.ico"
+      },
+      {
+        "name": "奇妙应用",
+        "href": "https://www.gy328.com/app/magicalapk/",
+        "desc": "社区与APP应用分享",
         "logo": "default.ico"
       },
       {
@@ -1528,6 +1540,12 @@
         "name": "CE修改器",
         "href": "https://www.ghxi.com/ce.html",
         "desc": "Cheat Engine中文版",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Game Cheats Manager",
+        "href": "https://github.com/dyang886/Game-Cheats-Manager/",
+        "desc": "游戏修改器一站式解决方案",
         "logo": "default.ico"
       }
     ]
