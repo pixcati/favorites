@@ -131,9 +131,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "ARC实验室",
-        "href": "https://arc.tencent.com/zh/ai-demos/imgRestore",
-        "desc": "人像修复、人像抠图、动漫增强等",
+        "name": "inpaint-web",
+        "href": "https://inpaintweb.lxfater.com/",
+        "desc": "无需上传在浏览器端进行图像修复、抠图、超分辨率等",
         "logo": "default.ico"
       },
       {
