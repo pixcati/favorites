@@ -2716,6 +2716,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "行星鉴定记录者",
+        "href": "https://jiayezi.cn/",
+        "desc": "",
+        "logo": "default.ico"
+      },
+      {
         "name": "Wingmakers",
         "href": "https://www.wingmakerschina.com/",
         "desc": "造翼者",
@@ -2765,7 +2771,7 @@
       },
       {
         "name": "祛附",
-        "href": "https://www.bilibili.com/video/BV14g411N7wy",
+        "href": "https://www. bilibili.com/video/BV14g411N7wy",
         "desc": "",
         "logo": "default.ico"
       },
@@ -2831,6 +2837,18 @@
         "logo": "default.ico"
       },
       {
+        "name": "全球高清实况摄像头",
+        "href": "https://www.skylinewebcams.com/",
+        "desc": "全球各地实况摄像头画面",
+        "logo": "default.ico"
+      },
+      {
+        "name": "景区实时摄像头",
+        "href": "https://livechina.cctv.com/zhibo",
+        "desc": "24小时中国景区的实时摄像头画面",
+        "logo": "default.ico"
+      },
+      {
         "name": "世界各地动物园直播",
         "href": "https://www.explore.org/livecams",
         "desc": "世界各地动物公园直播",
@@ -2852,12 +2870,6 @@
         "name": "语音维基",
         "href": "https://voicewiki.cn/wiki/",
         "desc": "不同游戏中的角色语音",
-        "logo": "default.ico"
-      },
-      {
-        "name": "景区实时摄像头",
-        "href": "https://livechina.cctv.com/zhibo",
-        "desc": "24小时中国景区的实时摄像头画面",
         "logo": "default.ico"
       },
       {
