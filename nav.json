@@ -645,12 +645,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "MiGPT",
-        "href": "https://github.com/idootop/mi-gpt",
-        "desc": "将小爱音箱接入大语言模型",
-        "logo": "default.ico"
-      },
-      {
         "name": "哪里域名便宜 ①",
         "href": "https://www.nazhumi.com/",
         "desc": "全球域名，一网比价",
@@ -670,7 +664,7 @@
       },
       {
         "name": "一键更换软件源",
-        "href": "https://supermanito.github.io/LinuxMirrors/",
+        "href": "https://linuxmirrors.cn/",
         "desc": "更换软件源为不同的国内镜像，支持多个发行版 ",
         "logo": "default.ico"
       },
@@ -694,7 +688,7 @@
       },
       {
         "name": "一键安装Docker",
-        "href": "https://51.ruyo.net/16766.html",
+        "href": "https://linuxmirrors.cn/other/",
         "desc": "Docker 一脚安装脚本",
         "logo": "default.ico"
       },
@@ -777,9 +771,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "CSS 筛选",
-        "href": "https://uncss-online.com/",
-        "desc": "滤出CSS中被使用的部分",
+        "name": "MiGPT",
+        "href": "https://github.com/idootop/mi-gpt",
+        "desc": "将小爱音箱接入大语言模型",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Docker-OSX",
+        "href": "https://github.com/sickcodes/Docker-OSX",
+        "desc": "在 Docker 中运行 macOS",
         "logo": "default.ico"
       }
     ]
@@ -1700,6 +1700,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Dhizuku",
+        "href": "https://github.com/iamr0s/Dhizuku",
+        "desc": "分享设备所有者权限给其余应用",
+        "logo": "default.ico"
+      },
+      {
         "name": "VMOS Pro",
         "href": "https://423down.lanzouo.com/b0f1fns7a ",
         "desc": "获取新版本的VMOS Pro 解锁版",
@@ -1906,6 +1912,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "CSS 筛选",
+        "href": "https://uncss-online.com/",
+        "desc": "滤出CSS中被使用的部分",
+        "logo": "default.ico"
+      },
+      {
         "name": "JS 变萌",
         "href": "https://utf-8.jp/public/aaencode.html",
         "desc": "萌系的JS加密",
@@ -1949,7 +1961,7 @@
       },
       {
         "name": "iro 主题",
-        "href": "https://iro.tw/",
+        "href": "https://github.com/mirai-mamori/Sakurairo",
         "desc": "WordPress主题 Sakurairo",
         "logo": "default.ico"
       },
