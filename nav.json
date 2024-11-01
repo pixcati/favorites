@@ -336,6 +336,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "AI编程助手收集",
+        "href": "https://51.ruyo.net/18684.html",
+        "desc": "国内外AI编程助手收集推荐",
+        "logo": "default.ico"
+      },
+      {
         "name": "网页上都是简体",
         "href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
         "desc": "网页上的繁体字都替换为简体",
@@ -775,12 +781,6 @@
         "href": "https://github.com/idootop/mi-gpt",
         "desc": "将小爱音箱接入大语言模型",
         "logo": "default.ico"
-      },
-      {
-        "name": "Docker-OSX",
-        "href": "https://github.com/sickcodes/Docker-OSX",
-        "desc": "在 Docker 中运行 macOS",
-        "logo": "default.ico"
       }
     ]
   },
@@ -1040,6 +1040,12 @@
         "name": "极简壁纸",
         "href": "https://bz.zzzmh.cn/",
         "desc": "",
+        "logo": "default.ico"
+      },
+      {
+        "name": "拾光壁纸",
+        "href": "https://snake.timeline.ink/home",
+        "desc": "干净、舒适、流畅的壁纸网站",
         "logo": "default.ico"
       },
       {
@@ -1466,8 +1472,8 @@
       },
       {
         "name": "Epic 喜加一",
-        "href": "https://www.epicgames.com/store/zh-CN/",
-        "desc": "白嫖游戏",
+        "href": "https://www.ithome.com/zt/xijiayi",
+        "desc": "当下可以白嫖的游戏",
         "logo": "default.ico"
       },
       {
@@ -1493,6 +1499,13 @@
         "href": "https://f-droid.org/zh_Hans/packages/com.swordfish.lemuroid/",
         "desc": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
         "logo": "default.ico"
+      },
+      {
+        "name": "RetroArch",
+        "href": "https://www.retroarch.com/",
+        "desc": "跨平台38合1全能模拟器",
+        "logo": "default.ico"
+		
       },
       {
         "name": "Pcstory",
@@ -1724,6 +1737,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "虚拟电脑",
+        "href": "http://124.221.123.125/cn/",
+        "desc": "安卓手机秒变Linux桌面电脑",
+        "logo": "default.ico"
+      },
+      {
         "name": "Termux",
         "href": "https://f-droid.org/zh_Hans/packages/com.termux/ ",
         "desc": "带软件包的终端模拟器",
@@ -1788,6 +1807,12 @@
         "name": "Ventoy",
         "href": "https://www.ventoy.net/cn/",
         "desc": "多系统多镜像启动盘",
+        "logo": "default.ico"
+      },
+      {
+        "name": "PVE",
+        "href": "https://www.iplaysoft.com/pve.html",
+        "desc": "Proxmox VE，在同环境同时跑任意多个系统",
         "logo": "default.ico"
       },
       {
@@ -1872,6 +1897,18 @@
         "name": "Docker镜像加速 ②",
         "href": "https://cloud.tencent.com/developer/article/2454486",
         "desc": "Docker Hub加速",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Docker-OSX",
+        "href": "https://github.com/sickcodes/Docker-OSX",
+        "desc": "在 Docker 中运行 macOS",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Wubuntu",
+        "href": "https://www.iplaysoft.com/wubuntu.html",
+        "desc": "披着 Win11 皮肤主题的 Ubuntu 系统，支持运行 exe 和安卓 APP",
         "logo": "default.ico"
       }
     ]
@@ -2072,6 +2109,12 @@
         "name": "Wokers Vless订阅版",
         "href": "https://github.com/cmliu/edgetunnel",
         "desc": "Cloudflare Wokers Vless",
+        "logo": "default.ico"
+      },
+      {
+        "name": "3x-ui",
+        "href": "https://github.com/MHSanaei/3x-ui",
+        "desc": "Xray服务端可视化面板",
         "logo": "default.ico"
       },
       {
@@ -2598,6 +2641,12 @@
         "name": "雨夜回廊",
         "href": "https://myql.eu.org/about",
         "desc": "雨夜回廊",
+        "logo": "default.ico"
+      },
+      {
+        "name": "在下莫老师",
+        "href": "https://xn--ghqy5t5uf651b82d.com/",
+        "desc": "莫老师的附件表",
         "logo": "default.ico"
       },
       {
