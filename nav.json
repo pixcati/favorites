@@ -6,7 +6,7 @@
     "sites": [
       {
         "name": "消除图片背景",
-        "href": "https://bgsub.com/webapp/",
+        "href": "https://zh.bgsub.com/webapp/",
         "desc": "快速移除或替换图片背景",
         "logo": "default.ico"
       },
@@ -237,6 +237,12 @@
         "name": "URL提取",
         "href": "http://tools.sbbbb.cn/urltq/",
         "desc": "从内容中提取链接",
+        "logo": "default.ico"
+      },
+      {
+        "name": "域名Whois查询",
+        "href": "https://who.cx/",
+        "desc": "查询域名的Whois信息",
         "logo": "default.ico"
       },
       {
@@ -814,6 +820,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "30TOOL",
+        "href": "https://www.30aitool.com/",
+        "desc": "让工具回归工具",
+        "logo": "default.ico"
+      },
+      {
         "name": "一网一匠",
         "href": "https://ywyj.cn/",
         "desc": "一起发现有趣的新产品",
@@ -870,13 +882,13 @@
       {
         "name": "叛逆草",
         "href": "https://www.pncao.com/",
-        "desc": "",
+        "desc": "专注收集分享免费优质资源",
         "logo": "default.ico"
       },
       {
         "name": "轻工具",
         "href": "https://qinggongju.com/",
-        "desc": "专注收集分享优质免费资源的导航",
+        "desc": "专注收集分享优质免费资源",
         "logo": "default.ico"
       },
       {
@@ -2931,6 +2943,12 @@
         "name": "语音维基",
         "href": "https://voicewiki.cn/wiki/",
         "desc": "不同游戏中的角色语音",
+        "logo": "default.ico"
+      },
+      {
+        "name": "流量消失器",
+        "href": "https://shua.leyz.top/",
+        "desc": "快速消耗流量卡套餐或目标服务器的流量",
         "logo": "default.ico"
       },
       {
