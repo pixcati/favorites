@@ -1453,6 +1453,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Awesome JS Games",
+        "href": "https://i.pixcat.ru/js-you-xi-yi-ji-xiang-guan-zi-yuan",
+        "desc": "JS游戏以及相关资源",
+        "logo": "default.ico"
+      },
+      {
         "name": "Flashpoint",
         "href": "https://flashpointarchive.org/",
         "desc": "Flash档案馆，游戏与动画",
@@ -1495,7 +1501,7 @@
         "logo": "default.ico"
       },
       {
-        "name": "电脑玩Wii U",
+        "name": "PC玩Wii U",
         "href": "https://www.iplaysoft.com/cemu.html",
         "desc": "Wii U模拟器",
         "logo": "default.ico"
