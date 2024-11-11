@@ -832,6 +832,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "网页在线工具汇总",
+        "href": "https://iui.su/1492/",
+        "desc": "网页在线工具汇总",
+        "logo": "default.ico"
+      },
+      {
         "name": "彩虹工具",
         "href": "http://tool.cccyun.cc/",
         "desc": "彩虹工具网",
@@ -958,12 +964,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "冻死企鹅",
-        "href": "https://dongsiqie.me/",
-        "desc": "免费的ChatGPT以及衍生项目",
-        "logo": "default.ico"
-      },
-      {
         "name": "油小猴",
         "href": "https://www.baiduyun.wiki/",
         "desc": "实用脚本集",
@@ -1006,7 +1006,7 @@
         "logo": "default.ico"
       },
       {
-        "name": "在线工具",
+        "name": "Toollu",
         "href": "https://tool.lu/",
         "desc": "代码压缩、美化，开发类、站长类、极客类工具",
         "logo": "default.ico"
@@ -1024,9 +1024,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "哆啦A梦的神奇口袋",
-        "href": "https://baozangku.com/",
-        "desc": "哆啦A梦的神奇口袋",
+        "name": "即时工具",
+        "href": "https://www.67tool.com/",
+        "desc": "",
         "logo": "default.ico"
       },
       {
