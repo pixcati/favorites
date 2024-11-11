@@ -651,6 +651,12 @@
     "icon": "csz czs-server-l",
     "sites": [
       {
+        "name": "我的Stars列表",
+        "href": "https://github.com/pixcati?tab=stars",
+        "desc": "我的Github标星列表",
+        "logo": "default.ico"
+      },
+      {
         "name": "在线定制OP固件",
         "href": "https://supes.top/",
         "desc": "定制您的OpenWrt固件",
@@ -786,6 +792,12 @@
         "name": "MiGPT",
         "href": "https://github.com/idootop/mi-gpt",
         "desc": "将小爱音箱接入大语言模型",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Koishi",
+        "href": "https://koishi.chat/zh-CN/s",
+        "desc": "跨平台、可扩展、高性能的机器人框架",
         "logo": "default.ico"
       },
       {
