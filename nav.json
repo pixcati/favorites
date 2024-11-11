@@ -14,7 +14,7 @@
         "name": "提取网页图片",
         "href": "http://www.pullywood.com/ImageAssistant/",
         "desc": "列出与保存网页中存在的图片或图标",
-        "logo": "default.ico" 
+        "logo": "default.ico"
       },
       {
         "name": "九宫格切图",
@@ -904,6 +904,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "酷啦鱼",
+        "href": "https://www.kulayu.com/",
+        "desc": "纯净、实用的网站清单",
+        "logo": "default.ico"
+      },
+      {
         "name": "轻工具",
         "href": "https://qinggongju.com/",
         "desc": "专注收集分享优质免费资源",
@@ -1290,6 +1296,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "鸭先知",
+        "href": "https://www.yxzhi.com/",
+        "desc": "专注分享优质软件应用、技术教程等",
+        "logo": "default.ico"
+      },
+      {
         "name": "ZAPRO",
         "href": "https://tmioe.com/",
         "desc": "修改、破解软件等",
@@ -1541,7 +1553,6 @@
         "href": "https://www.retroarch.com/",
         "desc": "跨平台38合1全能模拟器",
         "logo": "default.ico"
-		
       },
       {
         "name": "Pcstory",
@@ -1581,7 +1592,7 @@
       },
       {
         "name": "WeMod",
-		"href": "https://www.wemod.com/zh",
+        "href": "https://www.wemod.com/zh",
         "desc": "游戏作弊、修改器和 Mod",
         "logo": "default.ico"
       },
@@ -2191,12 +2202,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "盒子地窖",
-        "href": "http://m.wmsio.cn/",
-        "desc": "安卓TV软件、TVBox衍生版本等",
-        "logo": "default.ico"
-      },
-      {
         "name": "TVBox",
         "href": "https://iui.su/175/",
         "desc": "TVBox本体及配置源",
@@ -2227,12 +2232,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "谁在直播",
-        "href": "http://live.yj1211.work/",
-        "desc": "全网直播平台聚合",
-        "logo": "default.ico"
-      },
-      {
         "name": "下次一定",
         "href": "https://www.iiice.cn/",
         "desc": "影视资源导航",
@@ -2242,6 +2241,12 @@
         "name": "磁力云播",
         "href": "https://magnet.pages.dev/",
         "desc": "在线解析磁力或种子",
+        "logo": "default.ico"
+      },
+      {
+        "name": "哆啦新番社",
+        "href": "https://www.dora-video.cn/",
+        "desc": "哆啦A梦大山、水田、剧场版与直播等",
         "logo": "default.ico"
       },
       {
@@ -2487,12 +2492,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "优质盒子",
-        "href": "https://uzbox.com/",
-        "desc": "优质盒子",
-        "logo": "default.ico"
-      },
-      {
         "name": "新趣集",
         "href": "https://xinquji.com/",
         "desc": "一起发现有趣的新产品",
@@ -2526,6 +2525,12 @@
         "name": "文武科技柜",
         "href": "https://www.wangdu.site/",
         "desc": "文武科技柜",
+        "logo": "default.ico"
+      },
+      {
+        "name": "建站百科",
+        "href": "https://www.jzbk.net/",
+        "desc": "VPS优惠，建站技术分享等",
         "logo": "default.ico"
       },
       {
