@@ -406,12 +406,6 @@
         "href": "https://smail.pw/zh-CN",
         "desc": "获取一个临时邮箱",
         "logo": "default.ico"
-      },
-      {
-        "name": "智能法律咨询",
-        "href": "https://ai.12348.gov.cn/",
-        "desc": "自动给出法律意见书",
-        "logo": "default.ico"
       }
     ]
   },
@@ -505,6 +499,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "小雅Alist全家桶",
+        "href": "https://github.com/monlor/docker-xiaoya",
+        "desc": "使用 Docker 一键部署 Alist + Emby + Jellyfin",
+        "logo": "default.ico"
+      },
+      {
         "name": "NetMount",
         "href": "https://www.netmount.cn/",
         "desc": "统一管理和挂载云存储",
@@ -532,6 +532,18 @@
         "name": "热门 BT Tracker 列表",
         "href": "https://trackerslist.com/",
         "desc": "全网热门 BitTorrent Tracker 列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Alist站点集 ①",
+        "href": "https://www.pcoof.com/295.html",
+        "desc": "Alist 站点整理列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Alist站点集 ②",
+        "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
+        "desc": "Alist 站点整理列表",
         "logo": "default.ico"
       }
     ]
@@ -796,7 +808,7 @@
       },
       {
         "name": "Koishi",
-        "href": "https://koishi.chat/zh-CN/s",
+        "href": "https://koishi.chat/zh-CN/",
         "desc": "跨平台、可扩展、高性能的机器人框架",
         "logo": "default.ico"
       },
@@ -1395,6 +1407,12 @@
         "name": "星火应用商店",
         "href": "https://spark-app.store/",
         "desc": "Linux软件商店，适用于Debian系",
+        "logo": "default.ico"
+      },
+      {
+        "name": "iStore",
+        "href": "https://github.com/linkease/istore",
+        "desc": "一个Openwrt软件商店，适用于x86_64和arm64设备",
         "logo": "default.ico"
       },
       {
@@ -2196,6 +2214,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "流媒体白嫖索引",
+        "href": "https://fmhy.net/videopiracyguide",
+        "desc": "流媒体影视、剧场、动漫等",
+        "logo": "default.ico"
+      },
+      {
         "name": "硬核指南",
         "href": "https://yingheapp.com/",
         "desc": "资源导航，包括影视、音乐、电子书等",
@@ -2259,18 +2283,6 @@
         "name": "哆啦新番社",
         "href": "https://www.dora-video.cn/",
         "desc": "哆啦A梦大山、水田、剧场版与直播等",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Alist站点集 ①",
-        "href": "https://www.pcoof.com/295.html",
-        "desc": "Alist 站点整理列表",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Alist站点集 ②",
-        "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
-        "desc": "Alist 站点整理列表",
         "logo": "default.ico"
       },
       {
@@ -2721,9 +2733,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "好鸭",
-        "href": "https://haoduck.com/",
-        "desc": "好鸭",
+        "name": "Monlor's Blog",
+        "href": "https://www.monlor.com/",
+        "desc": "Monlor's Blog",
         "logo": "default.ico"
       },
       {
