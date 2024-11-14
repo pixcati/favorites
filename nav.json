@@ -192,6 +192,18 @@
         "logo": "default.ico"
       },
       {
+        "name": "今日热榜",
+        "href": "https://tophub.today/c/news",
+        "desc": "全网各平台热榜聚合",
+        "logo": "default.ico"
+      },
+      {
+        "name": "即时热点",
+        "href": "https://nowhots.com/",
+        "desc": "正在发生的事",
+        "logo": "default.ico"
+      },
+      {
         "name": "翻译图中文字",
         "href": "https://cotrans.touhou.ai/",
         "desc": "一键翻译各类图片内文字",
