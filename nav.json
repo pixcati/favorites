@@ -2080,38 +2080,14 @@
         "logo": "default.ico"
       },
       {
-        "name": "iro 主题",
-        "href": "https://github.com/mirai-mamori/Sakurairo",
-        "desc": "WordPress主题 Sakurairo",
-        "logo": "default.ico"
-      },
-      {
-        "name": "MDx 主题",
-        "href": "https://flyhigher.top/develop/788.html",
-        "desc": "WordPress主题 MDx",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Argon 主题",
-        "href": "https://solstice23.top/archives/746",
-        "desc": "WordPress主题 Argon",
-        "logo": "default.ico"
-      },
-      {
-        "name": "handsome 主题",
-        "href": "https://www.ihewro.com/archives/489/",
-        "desc": "Typecho主题 handsome",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Cuteen 主题",
-        "href": "https://blog.zwying.com/",
-        "desc": "Typecho主题 Cuteen",
+        "name": "我收藏的主题",
+        "href": "https://github.com/stars/pixcati/lists/%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F%E4%B8%8E%E4%B8%BB%E9%A2%98",
+        "desc": "Github上标星的主题、插件、衍生项目等",
         "logo": "default.ico"
       },
       {
         "name": "樱花Frp文档",
-        "href": "https://doc.natfrp.com/#/frpc/usage/linux",
+        "href": "https://doc.natfrp.com/",
         "desc": "樱花Frp文档",
         "logo": "default.ico"
       },
@@ -2473,6 +2449,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "大学生活质量指北",
+        "href": "https://colleges.chat/",
+        "desc": "招生时不写明但实际影响生活质量的详尽信息",
+        "logo": "default.ico"
+      },
+      {
         "name": "程序员延寿指南",
         "href": "https://github.com/geekan/HowToLiveLonger",
         "desc": "如何活得更久",
@@ -2772,6 +2754,12 @@
         "name": "缙哥哥",
         "href": "https://www.dujin.org/",
         "desc": "缙哥哥博客",
+        "logo": "default.ico"
+      },
+      {
+        "name": "初之音",
+        "href": "https://www.himiku.com/",
+        "desc": "初之音",
         "logo": "default.ico"
       },
       {
