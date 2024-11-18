@@ -2323,6 +2323,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "知识图谱",
+        "href": "https://cnkgraph.com/",
+        "desc": "古籍领域知识图谱，包含各种人物、地点之间的相互关系",
+        "logo": "default.ico"
+      },
+      {
         "name": "海棠诗社",
         "href": "https://haitang.app/",
         "desc": "古韵今风，海棠诗梦间",
@@ -2957,12 +2963,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "Windows 93",
-        "href": "https://www.windows93.net/",
-        "desc": "Windows 93",
-        "logo": "default.ico"
-      },
-      {
         "name": "神奇海螺试验场",
         "href": "https://lab.magiconch.com/",
         "desc": "神奇海螺试验场",
@@ -2972,6 +2972,12 @@
         "name": "Mikutap",
         "href": "https://aidn.jp/mikutap/",
         "desc": "Mikutap",
+        "logo": "default.ico"
+      },
+      {
+        "name": "月球地图",
+        "href": "https://ce2.greensea.org/",
+        "desc": "嫦娥二号7米分辨率全月图",
         "logo": "default.ico"
       },
       {
@@ -2993,15 +2999,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "网页里的PC博物馆",
-        "href": "https://www.compumuseum.com/index.html",
-        "desc": "基于原版镜像，在网页里使用古董电脑",
-        "logo": "default.ico"
-      },
-      {
-        "name": "Virtual x86",
-        "href": "https://copy.sh/v86/",
-        "desc": "Run KolibriOS, Linux or Windows 98 in your browser",
+        "name": "网页版操作系统",
+        "href": "https://i.pixcat.ru/wang-ye-ban-de-cao-zuo-xi-tong",
+        "desc": "在网页中高仿、实际运行、架空模拟的操作系统",
         "logo": "default.ico"
       },
       {
