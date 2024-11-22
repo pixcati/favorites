@@ -2359,6 +2359,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "我的Github书单",
+        "href": "https://github.com/pixcati?submit=Search&q=book&tab=stars",
+        "desc": "在Github上标星的那些书单项目",
+        "logo": "default.ico"
+      },
+      {
         "name": "编程随想的图书收藏",
         "href": "https://github.com/programthink/books/blob/master/README.wiki",
         "desc": "网友收藏的电子书清单",
