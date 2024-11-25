@@ -1105,7 +1105,7 @@
       {
         "name": "极简壁纸",
         "href": "https://bz.zzzmh.cn/",
-        "desc": "",
+        "desc": "极简壁纸",
         "logo": "default.ico"
       },
       {
@@ -1115,15 +1115,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Wallpapers",
-        "href": "https://wallpapershome.com/",
-        "desc": "高质量壁纸",
+        "name": "壁纸资源索引",
+        "href": "https://fmhy.net/system-tools#wallpapers",
+        "desc": "一些找壁纸的渠道汇总",
         "logo": "default.ico"
       },
       {
         "name": "Wallhaven",
         "href": "https://wallhaven.cc/",
-        "desc": "高质量壁纸",
+        "desc": "知名壁纸网站",
         "logo": "default.ico"
       },
       {
