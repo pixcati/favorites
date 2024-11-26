@@ -2177,6 +2177,18 @@
         "logo": "default.ico"
       },
       {
+        "name": "BPB Worker Panel",
+        "href": "https://github.com/bia-pain-bache/BPB-Worker-Panel",
+        "desc": "A GUI Panel providing Worker subscriptions for VLESS",
+        "logo": "default.ico"
+      },
+      {
+        "name": "xray-ui",
+        "href": "https://github.com/qist/xray-ui",
+        "desc": "基于x-ui的修改版本",
+        "logo": "default.ico"
+      },
+      {
         "name": "3x-ui",
         "href": "https://github.com/MHSanaei/3x-ui",
         "desc": "Xray服务端可视化面板",
