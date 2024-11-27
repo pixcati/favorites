@@ -729,9 +729,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "SSH 中转",
-        "href": "https://console.ucloud.cn/upathx/globalssh",
-        "desc": "UCloud 提供 GlobalSSH 加速服务",
+        "name": "在线SSH终端",
+        "href": "https://ssh.kkbpro.com/",
+        "desc": "在线 Web 版本的 SSH 连接器",
         "logo": "default.ico"
       },
       {
@@ -1275,6 +1275,12 @@
         "name": "恢复文件与数据",
         "href": "https://www.disktool.cn/recovery/winfr.html",
         "desc": "微软出品恢复工具的可视化版本",
+        "logo": "default.ico"
+      },
+      {
+        "name": "寻找开源代替品",
+        "href": "https://openalternative.co/",
+        "desc": "付费软件的开源免费替代方案",
         "logo": "default.ico"
       },
       {
@@ -2032,6 +2038,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "iframe 生成器 ",
+        "href": "https://iframegenerator.top/",
+        "desc": "嵌入内容可视化配置工具",
+        "logo": "default.ico"
+      },
+      {
         "name": "文字首字母头像",
         "href": "https://mkblog.cn/1886/",
         "desc": "纯前端生成字母头像",
@@ -2195,7 +2207,7 @@
         "logo": "default.ico"
       },
       {
-        "name": "Watt Toolkit",
+        "name": "Watt Toolkit
         "href": "https://steampp.net/",
         "desc": "Steam++ 工具箱",
         "logo": "default.ico"
@@ -2427,7 +2439,7 @@
       {
         "name": "每月科学流言榜",
         "href": "https://www.cdstm.cn/subjects/kxlyb/",
-        "desc": "",
+        "desc": "精选每月的流言，并通过科学的方式其真相",
         "logo": "default.ico"
       },
       {
