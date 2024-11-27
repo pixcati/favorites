@@ -3011,6 +3011,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Interesting",
+        "href": "https://fmhy.net/miscguide#interactive",
+        "desc": "",
+        "logo": "default.ico"
+      },
+      {
         "name": "神奇海螺试验场",
         "href": "https://lab.magiconch.com/",
         "desc": "神奇海螺试验场",
