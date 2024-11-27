@@ -829,6 +829,12 @@
         "href": "https://1c7.github.io/chinese-independent-developer/",
         "desc": "中国独立开发者项目列表",
         "logo": "default.ico"
+      },
+      {
+        "name": "Awesome Shell",
+        "href": "https://github.com/alebcay/awesome-shell/blob/master/README_ZH-CN.md",
+        "desc": "命令行框架、工具包、指南、小玩意合集",
+        "logo": "default.ico"
       }
     ]
   },
@@ -1413,6 +1419,12 @@
         "name": "5-App",
         "href": "https://5-app.ru/",
         "desc": "国外安卓破解软件游戏站",
+        "logo": "default.ico"
+      },
+      {
+        "name": "火绒应用商店",
+        "href": "https://www.huorong.cn/app_store.html",
+        "desc": "Windows软件商店，联想与火绒联合出品",
         "logo": "default.ico"
       },
       {
@@ -2134,6 +2146,12 @@
     "classify": "代理资源",
     "icon": "csz czs-paper-plane-l",
     "sites": [
+      {
+        "name": "Github 最新 hosts",
+        "href": "https://cdn.pixcat.ru/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts",
+        "desc": "Github 最新 Hosts",
+        "logo": "default.ico"
+      },
       {
         "name": "常见代理客户端 ①",
         "href": "https://findladders.com/clients/",
