@@ -572,6 +572,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "AI搜索引擎汇总",
+        "href": "https://felladrin.github.io/awesome-ai-web-search",
+        "desc": "AI搜索引擎工具目录列表",
+        "logo": "default.ico"
+      },
+      {
         "name": "在线搜题",
         "href": "https://www.asklib.com/",
         "desc": "查找各科试题",
