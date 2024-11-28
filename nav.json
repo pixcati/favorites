@@ -2509,6 +2509,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "中国居民膳食指南",
+        "href": "http://dg.cnsoc.org/",
+        "desc": "中国居民膳食指南",
+        "logo": "default.ico"
+      },
+      {
         "name": "城市租房生存指南",
         "href": "https://zufang.ababtools.com/",
         "desc": "租房小白修炼手册",
