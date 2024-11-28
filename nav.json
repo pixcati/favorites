@@ -837,6 +837,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Awesome GitHub Repo",
+        "href": "https://github.com/Wechat-ggGitHub/Awesome-GitHub-Repo",
+        "desc": "收集整理 GitHub 上高质量、有趣的开源项目",
+        "logo": "default.ico"
+      },
+      {
         "name": "Awesome Shell",
         "href": "https://github.com/alebcay/awesome-shell/blob/master/README_ZH-CN.md",
         "desc": "命令行框架、工具包、指南、小玩意合集",
@@ -2561,6 +2567,12 @@
         "name": "好用的网站",
         "href": "https://toolight.cn/data/site",
         "desc": "偷懒工具整理的资源与工具",
+        "logo": "default.ico"
+      },
+      {
+        "name": "合集网",
+        "href": "https://233heji.com/",
+        "desc": "信息资源大全",
         "logo": "default.ico"
       },
       {
