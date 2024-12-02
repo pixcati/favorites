@@ -319,8 +319,8 @@
       },
       {
         "name": "随机密码生成",
-        "href": "https://www.wotianna.com/password/",
-        "desc": "随机密码生成",
+        "href": "https://www.nullgo.com/web/random",
+        "desc": "随机字符串、密码生成器",
         "logo": "default.ico"
       },
       {
@@ -445,6 +445,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "LocalSend",
+        "href": "https://localsend.org/zh-CN",
+        "desc": "免费开源跨平台的局域网文件互传工具",
+        "logo": "default.ico"
+      },
+      {
         "name": "IPFS文件床",
         "href": "https://cdn.ipfsscan.io/",
         "desc": "基于IPFS的图床与文件存储服务",
@@ -475,12 +481,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "KinhDown",
-        "href": "https://www.kinhdown.com/",
-        "desc": "突破度盘限速",
-        "logo": "default.ico"
-      },
-      {
         "name": "百度网盘解析",
         "href": "https://pan.b23.buzz/",
         "desc": "提取文件直链",
@@ -496,6 +496,18 @@
         "name": "网盘搬家",
         "href": "https://mover.io/",
         "desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
+        "logo": "default.ico"
+      },
+      {
+        "name": "CloudDrive",
+        "href": "https://www.clouddrive2.com/",
+        "desc": "集成多个云存储服务并将它们统一整合",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Cloudreve",
+        "href": "https://cloudreve.org/",
+        "desc": "部署公私兼备的网盘系统",
         "logo": "default.ico"
       },
       {
