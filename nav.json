@@ -825,6 +825,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Ollama",
+        "href": "https://ollama.com/",
+        "desc": "在本地运行大语言模型",
+        "logo": "default.ico"
+      },
+      {
         "name": "MiGPT",
         "href": "https://github.com/idootop/mi-gpt",
         "desc": "将小爱音箱接入大语言模型",
@@ -2026,8 +2032,14 @@
       },
       {
         "name": "Docker镜像加速 ②",
-        "href": "https://cloud.tencent.com/developer/article/2454486",
+        "href": "https://www.wangdu.site/course/2109.html",
         "desc": "Docker Hub加速",
+        "logo": "default.ico"
+      },
+      {
+        "name": "HF-Mirror",
+        "href": "https://hf-mirror.com/",
+        "desc": "Huggingface 镜像站",
         "logo": "default.ico"
       },
       {
@@ -2654,12 +2666,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "建站百科",
-        "href": "https://www.jzbk.net/",
-        "desc": "VPS优惠，建站技术分享等",
-        "logo": "default.ico"
-      },
-      {
         "name": "面向租客的租房导航",
         "href": "https://yaxiaozu.ababtools.com/",
         "desc": "轻松找到理想住所",
@@ -2711,6 +2717,12 @@
         "name": "科技爱好者周刊 ",
         "href": "https://www.ruanyifeng.com/blog/weekly/",
         "desc": "科技爱好者周刊",
+        "logo": "default.ico"
+      },
+      {
+        "name": "每周科技补全 ",
+        "href": "https://github.com/xuanli199/weekly/blob/main/README.md",
+        "desc": "玄离199的每周科技补全",
         "logo": "default.ico"
       },
       {
@@ -2808,6 +2820,12 @@
         "name": "在下莫老师",
         "href": "https://xn--ghqy5t5uf651b82d.com/",
         "desc": "莫老师的附件表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "我不是咕咕鸽",
+        "href": "https://blog.laoda.de/",
+        "desc": "我不是咕咕鸽",
         "logo": "default.ico"
       },
       {
