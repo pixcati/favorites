@@ -2567,6 +2567,12 @@
         "href": "https://github.com/geekan/HowToLiveLonger",
         "desc": "如何活得更久",
         "logo": "default.ico"
+      },
+      {
+        "name": "GPT调教指南",
+        "href": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh",
+        "desc": "ChatGPT、LLMs 中文调教指南",
+        "logo": "default.ico"
       }
     ]
   },
