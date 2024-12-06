@@ -2606,6 +2606,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "世界漫游指南",
+        "href": "https://startab.cn/explorer?topic=113",
+        "desc": "探导大地、海洋和宇宙",
+        "logo": "default.ico"
+      },
+      {
         "name": "合集网",
         "href": "https://233heji.com/",
         "desc": "信息资源大全",
