@@ -650,9 +650,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "Magi",
-        "href": "https://magi.com/",
-        "desc": "Magi",
+        "name": "Versus",
+        "href": "https://versus.com/cn",
+        "desc": "万物皆可对比",
         "logo": "default.ico"
       },
       {
@@ -976,6 +976,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "霂明导航",
+        "href": "https://n.mumingfang.com/",
+        "desc": "创意工作者的优质导航",
+        "logo": "default.ico"
+      },
+      {
         "name": "酷啦鱼",
         "href": "https://www.kulayu.com/",
         "desc": "纯净、实用的网站清单",
@@ -1250,6 +1256,12 @@
         "name": "配色方案推荐",
         "href": "https://peiseka.com/",
         "desc": "",
+        "logo": "default.ico"
+      },
+      {
+        "name": "设计素材周刊",
+        "href": "https://moonvy.com/blog/tags/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/",
+        "desc": "月球背面的设计素材周刊",
         "logo": "default.ico"
       }
     ]
@@ -2606,12 +2618,6 @@
         "logo": "default.ico"
       },
       {
-        "name": "世界漫游指南",
-        "href": "https://startab.cn/explorer?topic=113",
-        "desc": "探导大地、海洋和宇宙",
-        "logo": "default.ico"
-      },
-      {
         "name": "合集网",
         "href": "https://233heji.com/",
         "desc": "信息资源大全",
@@ -2621,6 +2627,12 @@
         "name": "好网站不私藏",
         "href": "https://www.207788.xyz/",
         "desc": "好网站不私藏",
+        "logo": "default.ico"
+      },
+      {
+        "name": "什么值得看",
+        "href": "https://smzdk.top/",
+        "desc": "发现当下正在发生的有趣事",
         "logo": "default.ico"
       },
       {
@@ -3086,6 +3098,12 @@
         "name": "Interesting",
         "href": "https://fmhy.net/miscguide#interactive",
         "desc": "",
+        "logo": "default.ico"
+      },
+      {
+        "name": "世界漫游指南",
+        "href": "https://startab.cn/explorer?topic=113",
+        "desc": "探导大地、海洋和宇宙",
         "logo": "default.ico"
       },
       {
