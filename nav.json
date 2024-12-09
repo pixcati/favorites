@@ -1350,9 +1350,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Awesome Windows",
-        "href": "https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md",
-        "desc": "Windows优选工具列表",
+        "name": "软件下载站索引",
+        "href": "https://fmhy.net/downloadpiracyguide#software-sites",
+        "desc": "优选的软件下载站列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "UniGetUI",
+        "href": "https://github.com/marticliment/UnigetUI",
+        "desc": "适用于WIndows的软件包管理器可视化界面",
         "logo": "default.ico"
       },
       {
