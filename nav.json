@@ -412,6 +412,12 @@
         "href": "https://www.207788.xyz/117.html",
         "desc": "免费临时邮箱汇总整理",
         "logo": "default.ico"
+      },
+      {
+        "name": "URL Parser",
+        "href": "https://www.urlparser.online/",
+        "desc": "将网页转化为大模型可理解的格式",
+        "logo": "default.ico"
       }
     ]
   },
@@ -590,6 +596,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "以图搜图",
+        "href": "https://picfind.top/",
+        "desc": "从多个来源查找相似图片",
+        "logo": "default.ico"
+      },
+      {
         "name": "在线搜题",
         "href": "https://www.asklib.com/",
         "desc": "查找各科试题",
@@ -616,6 +628,12 @@
       {
         "name": "购物平替查询",
         "href": "https://www.pingti.app/",
+        "desc": "最佳平替，用更低价的搜索词购物",
+        "logo": "default.ico"
+      },
+      {
+        "name": "历史价格查询",
+        "href": "https://m.gwdang.com/trendIndex/",
         "desc": "最佳平替，用更低价的搜索词购物",
         "logo": "default.ico"
       },
@@ -1024,6 +1042,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "冻死企鹅",
+        "href": "https://bin9.top/",
+        "desc": "可白嫖AI项目导航",
+        "logo": "default.ico"
+      },
+      {
         "name": "油小猴",
         "href": "https://www.baiduyun.wiki/",
         "desc": "实用脚本集",
@@ -1093,6 +1117,12 @@
         "name": "LKS的网站推荐",
         "href": "http://lkssite.vip/",
         "desc": "良心网站推荐",
+        "logo": "default.ico"
+      },
+      {
+        "name": "免费AI工具箱",
+        "href": "https://nav.laogou717.com/",
+        "desc": "一切开始的地方，告别信息差",
         "logo": "default.ico"
       },
       {
