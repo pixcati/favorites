@@ -644,6 +644,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Github项目搜索",
+        "href": "https://www.github-zh.com/search",
+        "desc": "更好用的 GitHub 搜索引擎",
+        "logo": "default.ico"
+      },
+      {
         "name": "Linux命令查询",
         "href": "https://wangchujiang.com/linux-command/",
         "desc": "600+ linux 命令的使用说明与示例",
@@ -862,8 +868,14 @@
       },
       {
         "name": "GitHub中文排行榜",
-        "href": "https://github.com/GrowingGit/GitHub-Chinese-Top-Charts",
-        "desc": "软件与资料榜单，精准定位中文好项目",
+        "href": "https://www.github-zh.com/top-china",
+        "desc": "GitHub中文项目排行榜",
+        "logo": "default.ico"
+      },
+      {
+        "name": "GitHub全球排行榜",
+        "href": "https://www.github-zh.com/top",
+        "desc": "GitHub上最受欢迎的开源项目，按星标排序",
         "logo": "default.ico"
       },
       {
@@ -2533,9 +2545,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Github 大学",
+        "name": "在Github上大学",
         "href": "https://www.uedbox.com/post/54160/",
         "desc": "Github上共享的课程资源",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Github上的公共书库",
+        "href": "https://www.github-zh.com/topics/books",
+        "desc": "Github上共享电子书或学习资源",
         "logo": "default.ico"
       },
       {
@@ -2551,15 +2569,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "可以玩的大学课程",
-        "href": "https://jibencaozuo.com/",
-        "desc": "可以玩的大学课程",
+        "name": "CN5学术导航",
+        "href": "https://cnspub.com/",
+        "desc": "文献检索、科研资源与论文工具等",
         "logo": "default.ico"
       },
       {
-        "name": "PubScholar",
-        "href": "https://pubscholar.cn/",
-        "desc": "PubScholar 公益学术平台",
+        "name": "paper2x科研导航",
+        "href": "https://paper2x.noedgeai.com/",
+        "desc": "文献检索、科研资源与论文工具等",
         "logo": "default.ico"
       },
       {
@@ -2608,6 +2626,12 @@
         "name": "大学生活质量指北",
         "href": "https://colleges.chat/",
         "desc": "招生时不写明但实际影响生活质量的详尽信息",
+        "logo": "default.ico"
+      },
+      {
+        "name": "计算机自学指南",
+        "href": "https://csdiy.wiki/",
+        "desc": "CS自学指南",
         "logo": "default.ico"
       },
       {
@@ -2750,9 +2774,15 @@
         "logo": "default.ico"
       },
       {
+        "name": "GitHub中文社区",
+        "href": "https://www.github-zh.com/",
+        "desc": "GitHub中文社区",
+        "logo": "default.ico"
+      },
+      {
         "name": "HelloGitHub",
         "href": "https://hellogithub.com/",
-        "desc": "HelloGitHub",
+        "desc": "分享 GitHub 上有趣、入门级的开源项目",
         "logo": "default.ico"
       },
       {
