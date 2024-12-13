@@ -24,14 +24,14 @@
       },
       {
         "name": "B站视频下载 ①",
-        "href": "https://www.jijidown.com/",
-        "desc": "哔哩哔哩唧唧",
+        "href": "http://zhouql.vip/bilibili/",
+        "desc": "B站视频在线下载",
         "logo": "default.ico"
       },
       {
         "name": "B站视频下载 ②",
-        "href": "http://zhouql.vip/bilibili/",
-        "desc": "B站视频在线下载",
+        "href": "https://i.pixcat.ru/shi-pin-xia-zai-gong-ju#bilibili-bi-li-bi-li",
+        "desc": "多个可下载B站视频的工具",
         "logo": "default.ico"
       },
       {
@@ -41,27 +41,21 @@
         "logo": "default.ico"
       },
       {
-        "name": "超级音乐白嫖 ①",
+        "name": "超级音乐白嫖",
         "href": "https://iao.su/2217/",
         "desc": "白嫖各平台无损音乐",
         "logo": "default.ico"
       },
       {
-        "name": "超级音乐白嫖 ②",
-        "href": "http://blog.cccyun.cn/post-391.html",
-        "desc": "白嫖各平台无损音乐",
-        "logo": "default.ico"
-      },
-      {
         "name": "在线带壳截图",
-        "href": "https://deviceshots.com/",
-        "desc": "给截图添加不同设备类型的壳子",
+        "href": "https://fmhy.net/storage#app-site-mockups",
+        "desc": "样机图、带壳截图、不同设备的预览图等",
         "logo": "default.ico"
       },
       {
         "name": "在线画像素画",
-        "href": "https://site.douban.com/163509/widget/forum/8736495/discussion/615417236/",
-        "desc": "多个在线画像素画的小工具",
+        "href": "https://i.pixcat.ru/xiang-su-hua",
+        "desc": "制作像素画的工具集",
         "logo": "default.ico"
       },
       {
@@ -72,7 +66,7 @@
       },
       {
         "name": "YouTube 视频下载 ②",
-        "href": "https://youtube.iiilab.com/",
+        "href": "https://i.pixcat.ru/shi-pin-xia-zai-gong-ju",
         "desc": "支持YouTube、Twitter、Tumblr等平台",
         "logo": "default.ico"
       },
