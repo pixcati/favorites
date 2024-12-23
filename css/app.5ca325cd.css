@@ -44,7 +44,7 @@ body[data-v-99508432] {
 }
 .container .left-bar[data-v-99508432] {
 	position:fixed;
-	background:#30333c;
+	background:#36a0f4;
 	color:#6b7386;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -87,7 +87,7 @@ body[data-v-99508432] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#064a8c;
+	background:#000000;
 	color:#fff;
 	font-size:18px;
 	position:-webkit-sticky;
@@ -263,7 +263,7 @@ body[data-v-43c30294] {
 }
 .container .left-bar[data-v-43c30294] {
 	position:fixed;
-	background:#064a8c;
+	background:#000000;
 	color:#6b7386;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
@@ -306,7 +306,7 @@ body[data-v-43c30294] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#30333c;
+	background:#36a0f4;
 	color:#fff;
 	font-size:18px;
 	position:-webkit-sticky;
@@ -390,7 +390,7 @@ body[data-v-43c30294] {
 	position:absolute;
 	height:4px;
 	width:100%;
-	background-color:#064a8c
+	background-color:#000000
 }
 #menu-box #menu label .horizontal[data-v-43c30294] {
 	top:10px
@@ -461,60 +461,60 @@ body[data-v-43c30294] {
 }
 /* 磁贴 */
 .main .box .item[data-v-43c30294] {
-	width:20%;
-	border:1px solid #e4ecf3;
-	-webkit-box-shadow:1px 2px 3px #f2f6f8;
-	box-shadow:1px 2px 3px #f2f6f8;
-	border-radius:15px;
-	padding:5px;
-	min-width:200px;
-	margin:22px 0 0 2.1%;
-	float:left;
-	overflow:hidden;
-	-webkit-transition:all .3s;l
-	transition: all 1.2s;
+    width: 20%;
+    border: 1px solid #e4ecf3;
+    -webkit-box-shadow: 1px 2px 3px #f2f6f8;
+    box-shadow: 1px 2px 3px #f2f6f8;
+    border-radius: 15px;
+    padding: 5px;
+    min-width: 200px;
+    margin: 22px 0 0 2.1%;
+    float: left;
+    overflow: hidden;
+    -webkit-transition: all .3s;
+    transition: all 1.2s;
 }
 .main .box .item[data-v-43c30294]:hover {
-	-webkit-transform:translateY(-5px);
-	transform:translateY(-5px)
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
 }
 .main .box .item .logo[data-v-43c30294],.main .box .item .no-logo[data-v-43c30294] {
-	color: #000;
-	font-weight:700;
-	font-size: 17px;
+    color: #000;
+    font-weight: 700;
+    font-size: 17px;
 }
 .main .box .item .logo[data-v-43c30294] {
-	position:relative;
-	height:30px;
-	padding-top: 10px;
-	-webkit-box-align:center;
-	-ms-flex-align:center;
-	align-items:center;
-	display:-ms-flexbox;
-	/* display:flex; */
-	overflow:hidden;
-	text-align: center;
-	text-overflow:ellipsis;
-	-webkit-box-orient:vertical;
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    /* display: flex; */
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
 }
 .main .box .item .logo img[data-v-43c30294] {
-	width:20px;
-	height:20px;
-	border-radius:100%;
-	vertical-align:middle;
-	margin-right:10px
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin-right: 10px;
 }
 .main .box .item .desc[data-v-43c30294] {
-	color: #666;
-	font-size: 13px;
-	text-align: center;
-	padding:10px;
-	height:35px;
-	overflow:hidden;
-	text-overflow:ellipsis;
-	display:-webkit-box;
-	-webkit-line-clamp:2;
-	-webkit-box-orient:vertical;
+    color: #666;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    height: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
 }
 .el-image[data-v-43c30294] {
 	width:35px;
@@ -554,7 +554,7 @@ body[data-v-466c883f] {
 /* 菜单 */
 .container .left-bar[data-v-466c883f] {
 	position:fixed;
-	background:#30333c;
+	background:#36a0f4;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	-webkit-box-direction:normal;
@@ -597,7 +597,7 @@ body[data-v-466c883f] {
 	-webkit-box-align:center;
 	-ms-flex-align:center;
 	align-items:center;
-	background:#30333c;
+	background:#36a0f4;
 	color:#fff;
 	font-size:20px;
 	position:-webkit-sticky;
@@ -683,7 +683,7 @@ body[data-v-466c883f] {
 	position:absolute;
 	height:4px;
 	width:100%;
-	background-color:#064a8c
+	background-color:#000000
 }
 #menu-box #menu label .horizontal[data-v-466c883f] {
 	top:10px
