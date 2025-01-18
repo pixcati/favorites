@@ -1157,7 +1157,7 @@
       },
       {
         "name": "AI工具导航 ⑤",
-        "href": "https://ai-bot.cn/",
+        "href": "https://okeiai.com/zh/tools",
         "desc": "AI工具导航",
         "logo": "default.ico"
       },
@@ -1781,6 +1781,12 @@
         "name": "Magisk 资源分享",
         "href": "https://magisk.suchenqaq.club/",
         "desc": "Magisk、Xposed资源",
+		"logo": "default.ico"
+      },
+      {
+        "name": "BL解锁规则汇总",
+        "href": "https://khwang9883.github.io/MobileModels/misc/bootloader-kernel-source.html",
+        "desc": "不同手机厂商 Bootloader 解锁规则",
         "logo": "default.ico"
       },
       {
