@@ -23,13 +23,7 @@
         "logo": "default.ico"
       },
       {
-        "name": "B站视频下载 ①",
-        "href": "http://zhouql.vip/bilibili/",
-        "desc": "B站视频在线下载",
-        "logo": "default.ico"
-      },
-      {
-        "name": "B站视频下载 ②",
+        "name": "B站视频下载",
         "href": "https://i.pixcat.ru/shi-pin-xia-zai-gong-ju#bilibili-bi-li-bi-li",
         "desc": "多个可下载B站视频的工具",
         "logo": "default.ico"
