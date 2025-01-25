@@ -1651,6 +1651,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "FlashLittle",
+        "href": "https://flashlite.games/",
+        "desc": "适用于安装设备的Flash模拟器，包含虚拟按键",
+        "logo": "default.ico"
+      },
+      {
         "name": "Ruffle ",
         "href": "https://ruffle.rs/",
         "desc": "通过Ruffle在现代浏览器中玩转Flash",
@@ -1696,6 +1702,18 @@
         "name": "RetroArch",
         "href": "https://www.retroarch.com/",
         "desc": "跨平台38合1全能模拟器",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Batocera",
+        "href": "https://batocera.org/",
+        "desc": "基于Linux的复古游戏系统",
+        "logo": "default.ico"
+      },
+      {
+        "name": "EmuELEC",
+        "href": "https://bing.com/search?q=EmuELEC",
+        "desc": "基于LibreELEC的复古游戏模拟器系统，适用于ARM环境",
         "logo": "default.ico"
       },
       {
@@ -1785,7 +1803,7 @@
       },
       {
         "name": "境外APK下载 ①",
-        "href": "https://apk.bot/cn",
+        "href": "https://filehippo.com/zh/android/",
         "desc": "免代理下载谷歌市场上的APK",
         "logo": "default.ico"
       },
@@ -1841,6 +1859,12 @@
         "name": "安卓玩机合集 ②",
         "href": "https://myql.eu.org/article/ce4438f2-75c7-47c5-9228-5e7cd0f6eb51",
         "desc": "Root与免Root玩机工具等",
+        "logo": "default.ico"
+      },
+      {
+        "name": "安卓玩机合集 ③",
+        "href": "https://fmhy.net/android-iosguide#root-flash",
+        "desc": " Magisk、 KernelSU与其他Root刷机资源",
         "logo": "default.ico"
       },
       {
