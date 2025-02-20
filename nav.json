@@ -24,7 +24,7 @@
       },
       {
         "name": "B站视频下载",
-        "href": "https://i.pixcat.ru/shi-pin-xia-zai-gong-ju#bilibili-bi-li-bi-li",
+        "href": "https://i.pixcat.cn/shi-pin-xia-zai-gong-ju#bilibili-bi-li-bi-li",
         "desc": "多个可下载B站视频的工具",
         "logo": "default.ico"
       },
@@ -48,7 +48,7 @@
       },
       {
         "name": "在线画像素画",
-        "href": "https://i.pixcat.ru/xiang-su-hua",
+        "href": "https://i.pixcat.cn/xiang-su-hua",
         "desc": "制作像素画的工具集",
         "logo": "default.ico"
       },
@@ -60,7 +60,7 @@
       },
       {
         "name": "YouTube 视频下载 ②",
-        "href": "https://i.pixcat.ru/shi-pin-xia-zai-gong-ju",
+        "href": "https://i.pixcat.cn/shi-pin-xia-zai-gong-ju",
         "desc": "支持YouTube、Twitter、Tumblr等平台",
         "logo": "default.ico"
       },
@@ -211,7 +211,7 @@
       },
       {
         "name": "从图片提取文字",
-        "href": "https://i.pixcat.ru/ocr-wen-zi-shi-bie-gong-ju",
+        "href": "https://i.pixcat.cn/ocr-wen-zi-shi-bie-gong-ju",
         "desc": "OCR文字识别",
         "logo": "default.ico"
       },
@@ -530,7 +530,7 @@
       },
       {
         "name": "免费图床",
-        "href": "https://i.pixcat.ru/zai-xian-tu-pian-tuo-guan",
+        "href": "https://i.pixcat.cn/zai-xian-tu-pian-tuo-guan",
         "desc": "上传图片并获取外链",
         "logo": "default.ico"
       },
@@ -554,7 +554,7 @@
       },
       {
         "name": "Alist站点集 ②",
-        "href": "https://i.pixcat.ru/alist-zhan-dian-ji",
+        "href": "https://i.pixcat.cn/alist-zhan-dian-ji",
         "desc": "Alist 站点整理列表",
         "logo": "default.ico"
       }
@@ -796,7 +796,7 @@
       },
       {
         "name": "VPS可视化管理",
-        "href": "https://i.pixcat.ru/vps-ke-shi-hua-guan-li",
+        "href": "https://i.pixcat.cn/vps-ke-shi-hua-guan-li",
         "desc": "类似宝塔、LNMP等同类软件聚合 ",
         "logo": "default.ico"
       },
@@ -1634,7 +1634,7 @@
       },
       {
         "name": "Awesome JS Games",
-        "href": "https://i.pixcat.ru/js-you-xi-yi-ji-xiang-guan-zi-yuan",
+        "href": "https://i.pixcat.cn/js-you-xi-yi-ji-xiang-guan-zi-yuan",
         "desc": "JS游戏以及相关资源",
         "logo": "default.ico"
       },
@@ -1821,7 +1821,7 @@
       },
       {
         "name": "IPA软件下载",
-        "href": "https://i.pixcat.ru/ipa-ge-shi-ruan-jian-xia-zai",
+        "href": "https://i.pixcat.cn/ipa-ge-shi-ruan-jian-xia-zai",
         "desc": "下载适用于iOS的IPA软件",
         "logo": "default.ico"
       },
@@ -2086,7 +2086,7 @@
       },
       {
         "name": "镜像站汇总 ①",
-        "href": "https://i.pixcat.ru/jing-xiang-zhan-hui-zong",
+        "href": "https://i.pixcat.cn/jing-xiang-zhan-hui-zong",
         "desc": "镜像站合集",
         "logo": "default.ico"
       },
@@ -2274,7 +2274,7 @@
     "sites": [
       {
         "name": "Github 最新 hosts",
-        "href": "https://cdn.pixcat.ru/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts",
+        "href": "https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts",
         "desc": "Github 最新 Hosts",
         "logo": "default.ico"
       },
@@ -2292,7 +2292,7 @@
       },
       {
         "name": "常见代理客户端 ③",
-        "href": "https://i.pixcat.ru/chang-jian-dai-li-ke-hu-duan",
+        "href": "https://i.pixcat.cn/chang-jian-dai-li-ke-hu-duan",
         "desc": "常见的代理客户端汇总",
         "logo": "default.ico"
       },
@@ -2504,7 +2504,7 @@
       },
       {
         "name": "高质量网站集",
-        "href": "https://i.pixcat.ru/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
+        "href": "https://i.pixcat.cn/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
         "desc": "探索互联网上的高质量内容",
         "logo": "default.ico"
       },
@@ -2729,6 +2729,12 @@
         "name": "如有乐享",
         "href": "https://51.ruyo.net/",
         "desc": "分享是一种美德，是一种态度",
+        "logo": "default.ico"
+      },
+      {
+        "name": "免费资源网",
+        "href": "https://www.freeaday.com/",
+        "desc": "专门介绍互联网上各类免费资源",
         "logo": "default.ico"
       },
       {
@@ -3155,7 +3161,7 @@
       },
       {
         "name": "资料集 ①",
-        "href": "https://pan.pixcat.ru/%E7%8E%84%E5%AD%A6",
+        "href": "https://pan.pixcat.cn/%E7%8E%84%E5%AD%A6",
         "desc": "资料集合",
         "logo": "default.ico"
       },
@@ -3240,7 +3246,7 @@
       },
       {
         "name": "网页版操作系统",
-        "href": "https://i.pixcat.ru/wang-ye-ban-de-cao-zuo-xi-tong",
+        "href": "https://i.pixcat.cn/wang-ye-ban-de-cao-zuo-xi-tong",
         "desc": "在网页中高仿、实际运行、架空模拟的操作系统",
         "logo": "default.ico"
       },
