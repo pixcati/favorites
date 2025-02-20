@@ -262,14 +262,14 @@
 				 
 
 				 attrs: {
-                    href: "https://pixcat.ru/api/bookmark.php"
+                    href: "https://pixcat.cn/api/bookmark.php"
                 }
             },
 			 [t._v("导出书签")]), n("a", {	 
 				 
 			 
 				 attrs: {
-                    href: "https://i.pixcat.ru/"
+                    href: "https://i.pixcat.cn/"
                 }
             },
 			 [t._v("关于")
