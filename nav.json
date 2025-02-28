@@ -276,9 +276,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "找脚本",
+        "name": "找脚本 ①",
+        "href": "https://scriptcat.org/zh-CN/",
+        "desc": "分享你的用户脚本",
+        "logo": "default.ico"
+      },
+      {
+        "name": "找脚本 ②",
         "href": "https://www.zhaojiaoben.cn/",
-        "desc": "在线油猴脚本搜索工具",
+        "desc": "油猴脚本搜索工具",
         "logo": "default.ico"
       },
       {
