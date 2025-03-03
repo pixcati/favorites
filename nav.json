@@ -240,8 +240,14 @@
         "logo": "default.ico"
       },
       {
-        "name": "域名Whois查询",
+        "name": "域名Whois查询 ①",
         "href": "https://who.cx/",
+        "desc": "查询域名的Whois信息",
+        "logo": "default.ico"
+      },
+      {
+        "name": "域名Whois查询 ②",
+        "href": "https://tian.hu/",
         "desc": "查询域名的Whois信息",
         "logo": "default.ico"
       },
