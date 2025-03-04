@@ -1898,6 +1898,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "地理位置模拟",
+        "href": "https://github.com/ZCShou/GoGoGo",
+        "desc": "基于 Android 调试 API + 百度地图实现的虚拟定位工具",
+        "logo": "default.ico"
+      },
+      {
         "name": "晨钟酱",
         "href": "https://www.jamcz.com/ ",
         "desc": "搞机利器套餐",
