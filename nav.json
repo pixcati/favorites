@@ -2798,6 +2798,18 @@
         "logo": "default.ico"
       },
       {
+        "name": "wikiHow",
+        "href": "https://zh.wikihow.com/",
+        "desc": "你可以信赖的万事指南",
+        "logo": "default.ico"
+      },
+      {
+        "name": "iFixit修理手册",
+        "href": "https://zh.ifixit.com/Guide",
+        "desc": "针对所有物品的修理手册",
+        "logo": "default.ico"
+      },
+      {
         "name": "文武科技柜",
         "href": "https://www.wangdu.site/",
         "desc": "文武科技柜",
