@@ -1811,7 +1811,7 @@
         "name": "Magisk 资源分享",
         "href": "https://magisk.suchenqaq.club/",
         "desc": "Magisk、Xposed资源",
-		"logo": "default.ico"
+        "logo": "default.ico"
       },
       {
         "name": "BL解锁规则汇总",
@@ -1886,6 +1886,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "萤火虫资源站",
+        "href": "https://www.yhcres.top/",
+        "desc": " 安卓玩机、手表手环、路由器资源等",
+        "logo": "default.ico"
+      },
+      {
         "name": "GSI镜像列表",
         "href": "https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-(GSI)-List",
         "desc": "GSI通用刷机包、DSU Loader",
@@ -1901,6 +1907,12 @@
         "name": "地理位置模拟",
         "href": "https://github.com/ZCShou/GoGoGo",
         "desc": "基于 Android 调试 API + 百度地图实现的虚拟定位工具",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Scrcpy",
+        "href": "https://github.com/Genymobile/scrcpy",
+        "desc": "开源的安卓投屏神器，支持多平台",
         "logo": "default.ico"
       },
       {
@@ -2079,6 +2091,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "Bliss OS For PC",
+        "href": "https://blissos.org/",
+        "desc": "内置KernelSU的Android x86系统s",
+        "logo": "default.ico"
+      },
+      {
         "name": "黑苹果",
         "href": "https://mackext.com/category/macos/",
         "desc": "MacOS镜像",
@@ -2160,6 +2178,18 @@
         "name": "Wubuntu",
         "href": "https://www.iplaysoft.com/wubuntu.html",
         "desc": "披着 Win11 皮肤主题的 Ubuntu 系统，支持运行 exe 和安卓 APP",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Waydroid",
+        "href": "https://waydro.id/",
+        "desc": "在 Linux 系统上启动 Android 系统",
+        "logo": "default.ico"
+      },
+      {
+        "name": "redroid",
+        "href": "https://github.com/remote-android/redroid-doc/",
+        "desc": "基于KVM-QENU，在 docker 中运行 Android 系统、云手机",
         "logo": "default.ico"
       }
     ]
