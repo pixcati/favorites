@@ -2093,7 +2093,7 @@
       {
         "name": "Bliss OS For PC",
         "href": "https://blissos.org/",
-        "desc": "内置KernelSU的Android x86系统s",
+        "desc": "内置KernelSU的Android x86系统",
         "logo": "default.ico"
       },
       {
@@ -2166,6 +2166,12 @@
         "name": "HF-Mirror",
         "href": "https://hf-mirror.com/",
         "desc": "Huggingface 镜像站",
+        "logo": "default.ico"
+      },
+      {
+        "name": "FydeOS",
+        "href": "https://fydeos.com/",
+        "desc": "基于 Chrome OS，同时支持安卓与Linux应用",
         "logo": "default.ico"
       },
       {
