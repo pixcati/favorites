@@ -644,6 +644,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "TG 频道搜索",
+        "href": "https://tgchannels.me/",
+        "desc": "查找 Telegram 上的公共频道",
+        "logo": "default.ico"
+      },
+      {
         "name": "Github项目搜索",
         "href": "https://www.github-zh.com/search",
         "desc": "更好用的 GitHub 搜索引擎",
@@ -1067,8 +1073,14 @@
       },
       {
         "name": "源仓库",
-        "href": "https://yckceo.vip/",
+        "href": "https://www.yckceo.com/",
         "desc": "书源、漫画源影视源",
+        "logo": "default.ico"
+      },
+      {
+        "name": "书源导航",
+        "href": "https://mwdh.cc/",
+        "desc": "开源阅读相关资源",
         "logo": "default.ico"
       },
       {
@@ -1387,7 +1399,7 @@
       },
       {
         "name": "二次寒树的应用集",
-        "href": "https://echs.top/box/Windows",
+        "href": "https://echs.top/box/windows",
         "desc": "优质的软件推荐列表",
         "logo": "default.ico"
       },
@@ -2431,7 +2443,7 @@
       },
       {
         "name": "硬核指南",
-        "href": "https://yingheapp.com/",
+        "href": "https://yinghezhinan.com/",
         "desc": "资源导航，包括影视、音乐、电子书等",
         "logo": "default.ico"
       },
@@ -2461,19 +2473,19 @@
       },
       {
         "name": "TVBox 配置源 ①",
-        "href": "https://yingheapp.com/yingshicang-jiekou/",
+        "href": "https://yinghezhinan.com/yingshicang-jiekou/",
         "desc": "TVBox源仓库与接口",
         "logo": "default.ico"
       },
       {
         "name": "TVBox 配置源 ②",
-        "href": "http://www.yckceo.com/index/applist/tvbox.html",
+        "href": "http://www.%e9%a5%ad%e5%a4%aa%e7%a1%ac.net/tv",
         "desc": "TVBox源仓库与接口",
         "logo": "default0                                                                                                                          .ico"
       },
       {
         "name": "IPTV直播源汇总",
-        "href": "https://yingheapp.com/iptv/",
+        "href": "https://yinghezhinan.com/iptv/",
         "desc": "直播源仓库",
         "logo": "default.ico"
       },
