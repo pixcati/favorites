@@ -433,6 +433,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "空投快传",
+        "href": "https://www.airportal.cn/",
+        "desc": "AirPortal 空投快传",
+        "logo": "default.ico"
+      },
+      {
         "name": "SecureShare",
         "href": "https://www.securityshare.xyz/zh",
         "desc": "免费P2P文件传输与剪贴板共享，隐私无上传",
