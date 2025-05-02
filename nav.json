@@ -433,15 +433,21 @@
         "logo": "default.ico"
       },
       {
-        "name": "空投快传",
-        "href": "https://airportal.cn",
-        "desc": "AirPortal | 空投",
+        "name": "SecureShare",
+        "href": "https://www.securityshare.xyz/zh",
+        "desc": "免费P2P文件传输与剪贴板共享，隐私无上传",
         "logo": "default.ico"
       },
       {
         "name": "云鸽",
         "href": "https://yunge.in/",
-        "desc": "局域网内设备通过此网页进行互传",
+        "desc": "局域网、P2P文件传输",
+        "logo": "default.ico"
+      },
+      {
+        "name": "PairDrop",
+        "href": "https://pairdrop.net/",
+        "desc": "无需下载登录在线P2P文件互传",
         "logo": "default.ico"
       },
       {
@@ -454,6 +460,12 @@
         "name": "LocalSend",
         "href": "https://localsend.org/zh-CN",
         "desc": "免费开源跨平台的局域网文件互传工具",
+        "logo": "default.ico"
+      },
+      {
+        "name": "LANDrop",
+        "href": "https://landrop.app/",
+        "desc": "跨平台局域网文件传输工具",
         "logo": "default.ico"
       },
       {
