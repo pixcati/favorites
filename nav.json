@@ -2894,9 +2894,15 @@
         "logo": "default.ico"
       },
       {
+        "name": "建站百科",
+        "href": "https://www.jzbk.net/",
+        "desc": "VPS优惠、便宜VPS、免费资源等",
+        "logo": "default.ico"
+      },
+      {
         "name": "主机百科",
         "href": "https://zhujiwiki.com/",
-        "desc": "提供有价值的主机信息和主机测评",
+        "desc": "VPS主机信息和主机测评",
         "logo": "default.ico"
       },
       {
