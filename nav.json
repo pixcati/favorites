@@ -1717,6 +1717,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "每周免费游戏",
+        "href": "https://gbtgame.me/steam_free_games.html",
+        "desc": "Steam、Epic每周份的免费游戏",
+        "logo": "default.ico"
+      },
+      {
         "name": "Epic 喜加一",
         "href": "https://www.ithome.com/zt/xijiayi",
         "desc": "当下可以白嫖的游戏",
@@ -2457,6 +2463,12 @@
         "name": "流媒体白嫖索引",
         "href": "https://fmhy.net/videopiracyguide",
         "desc": "流媒体影视、剧场、动漫等",
+        "logo": "default.ico"
+      },
+      {
+        "name": "全球票房排行榜",
+        "href": "https://mbox.afei7.com/",
+        "desc": "全球票房实时数据",
         "logo": "default.ico"
       },
       {
