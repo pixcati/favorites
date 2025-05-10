@@ -2242,8 +2242,14 @@
       },
       {
         "name": "Wubuntu",
-        "href": "https://www.iplaysoft.com/wubuntu.html",
-        "desc": "披着 Win11 皮肤主题的 Ubuntu 系统，支持运行 exe 和安卓 APP",
+        "href": "https://winuxos.com/",
+        "desc": "Win11 皮肤主题的 Ubuntu 系统，支持运行 exe 和安卓 APP",
+        "logo": "default.ico"
+      },
+      {
+        "name": "AnduinOS",
+        "href": "https://www.anduinos.com/",
+        "desc": "Win11 皮肤主题的 Ubuntu 系统",
         "logo": "default.ico"
       },
       {
