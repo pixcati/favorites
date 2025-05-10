@@ -650,6 +650,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "购物平替查询",
+        "href": "https://www.pingti.app/",
+        "desc": "最佳平替，用更低价的搜索词购物",
+        "logo": "default.ico"
+      },
+      {
         "name": "历史价格查询",
         "href": "https://m.gwdang.com/trendIndex/",
         "desc": "最佳平替，用更低价的搜索词购物",
@@ -713,12 +719,6 @@
         "name": "钟馗之眼",
         "href": "https://www.zoomeye.org/",
         "desc": "ZoomEye",
-        "logo": "default.ico"
-      },
-      {
-        "name": "F搜",
-        "href": "https://fsoufsou.com/",
-        "desc": "F搜",
         "logo": "default.ico"
       },
       {
@@ -976,6 +976,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "产品经理导航",
+        "href": "https://www.pmbaobao.com/",
+        "desc": "产品经理、运营导航",
+        "logo": "default.ico"
+      },
+      {
         "name": "设计师导航",
         "href": "https://hao.uisdc.com/",
         "desc": "国内专业设计师网站导航",
@@ -991,6 +997,12 @@
         "name": "独立开发者导航 ②",
         "href": "https://chuhai.tools/",
         "desc": "发现最好的独立开发者工具 & 技术栈",
+        "logo": "default.ico"
+      },
+      {
+        "name": "大数据工具导航",
+        "href": "http://hao.199it.com/",
+        "desc": "199IT大数据工具导航",
         "logo": "default.ico"
       },
       {
@@ -1651,15 +1663,27 @@
         "logo": "default.ico"
       },
       {
-        "name": "Poki ",
+        "name": "Poki",
         "href": "https://poki.cn/",
         "desc": "在线H5游戏合集",
         "logo": "default.ico"
       },
       {
+        "name": "CrazyGames",
+        "href": "https://www.crazygames.com/",
+        "desc": "在线小游戏合集",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Y8",
+        "href": "https://zh.y8.com/",
+        "desc": "在线小游戏合集",
+        "logo": "default.ico"
+      },
+      {
         "name": "itch.io",
         "href": "https://itch.io/games/free/platform-web",
-        "desc": "在线H5游戏合集",
+        "desc": "在线小游戏合集",
         "logo": "default.ico"
       },
       {
@@ -2250,13 +2274,13 @@
       {
         "name": "Web前端导航",
         "href": "https://www.alloyteam.com/nav/",
-        "desc": "",
+        "desc": "前端、设计师网址导航",
         "logo": "default.ico"
       },
       {
         "name": "WebStack",
         "href": "https://webstack.cc/cn/index.html",
-        "desc": "设计师网址导航",
+        "desc": "前端、设计师网址导航",
         "logo": "default.ico"
       },
       {
@@ -2692,6 +2716,12 @@
         "name": "每月科学流言榜",
         "href": "https://www.cdstm.cn/subjects/kxlyb/",
         "desc": "精选每月的流言，并通过科学的方式其真相",
+        "logo": "default.ico"
+      },
+      {
+        "name": "学吧导航",
+        "href": "https://www.xue8nav.com/",
+        "desc": "学习资源导航",
         "logo": "default.ico"
       },
       {
