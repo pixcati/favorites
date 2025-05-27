@@ -1416,6 +1416,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "我的Alist软件目录",
+        "href": "https://pan.pixcat.cn/%E8%BD%AF%E4%BB%B6",
+        "desc": "常用软件的不同版本与更新",
+        "logo": "default.ico"
+      },
+      {
         "name": "小羿的软件商店",
         "href": "https://xiaoyi.vc/win-app",
         "desc": "经过精心筛选与验证的各类实用软件",
@@ -1428,9 +1434,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "二次寒树的应用集",
-        "href": "https://echs.top/box/windows",
-        "desc": "优质的软件推荐列表",
+        "name": "二次寒树的合集",
+        "href": "https://echs.top/box/",
+        "desc": "优质的软件、工具推荐列表",
         "logo": "default.ico"
       },
       {
@@ -3141,6 +3147,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "夜法之书",
+        "href": "https://blog.17lai.site/",
+        "desc": "关于Linux开源，Nas，Docker，嵌入式，理财，BG健身等主题",
+        "logo": "default.ico"
+      },
+      {
         "name": "从零开始的创作生活",
         "href": "https://www.fengcun.top/",
         "desc": "一个爱分享的小站",
@@ -3199,6 +3211,12 @@
         "name": "Tor网址集",
         "href": "https://onion666.com/",
         "desc": "深网网址列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "易学入门",
+        "href": "https://blog.17lai.site/posts/1accbe50/",
+        "desc": "一篇关于易学入门的博文",
         "logo": "default.ico"
       },
       {
