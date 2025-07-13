@@ -547,6 +547,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "OpenList",
+        "href": "https://github.com/OpenListTeam/OpenList",
+        "desc": "一个有韧性、长期治理、社区驱动的 AList 分支",
+        "logo": "default.ico"
+      },
+      {
         "name": "NetMount",
         "href": "https://www.netmount.cn/",
         "desc": "统一管理和挂载云存储",
@@ -2148,6 +2154,12 @@
         "name": "HotPE",
         "href": "https://www.hotpe.top/",
         "desc": "一个纯净、强大、优雅的PE工具箱",
+        "logo": "default.ico"
+      },
+      {
+        "name": "SysRi",
+        "href": "https://sysri.cn/",
+        "desc": "一个纯净、强大、易用的系统重装工具",
         "logo": "default.ico"
       },
       {
