@@ -282,6 +282,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "GFork Proxy",
+        "href": "https://home.greasyfork.org.cn/zh-hans",
+        "desc": "Greasy Fork 镜像站",
+        "logo": "default.ico"
+      },
+      {
         "name": "找脚本 ①",
         "href": "https://scriptcat.org/zh-CN/",
         "desc": "分享你的用户脚本",
@@ -361,7 +367,7 @@
       },
       {
         "name": "网页上都是简体",
-        "href": "https://greasyfork.org/zh-CN/scripts/378243-%E5%8E%BB%E7%B9%81%E7%95%99%E7%AE%80-%E7%B9%81%E7%AE%80%E8%BD%AC%E6%8D%A2",
+        "href": "https://gfork.zh-tw.eu.org/zh-hans/scripts/378243",
         "desc": "网页上的繁体字都替换为简体",
         "logo": "default.ico"
       },
@@ -2593,7 +2599,7 @@
       },
       {
         "name": "NSFW",
-        "href": "https://rentry.co/freemediafuckyeah",
+        "href": "https://saidit.net/s/freemediafuckyeah/wiki/index",
         "desc": "",
         "logo": "default.ico"
       }
