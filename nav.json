@@ -72,8 +72,8 @@
       },
       {
         "name": "文字转AI语音 ①",
-        "href": "https://www.modelscope.cn/studios/xzjosh/Bert-VITS2/",
-        "desc": "基于VITS的语音合成Demo合集",
+        "href": "https://texttospeech.im/zh-CN",
+        "desc": "免费在线文本转语音服务",
         "logo": "default.ico"
       },
       {
@@ -84,8 +84,8 @@
       },
       {
         "name": "文字转AI语音 ③",
-        "href": "https://zomehwh-vits-uma-genshin-honkai.hf.space/",
-        "desc": "基于VITS的语音合成Demo合集",
+        "href": "https://tiktokvoice.net/",
+        "desc": "TikTok Voice Generator",
         "logo": "default.ico"
       },
       {
