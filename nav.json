@@ -17,6 +17,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "在线拼图",
+        "href": "https://img.ops-coffee.cn/",
+        "desc": "布局拼图、长图拼接、创意编辑，可无水印保存",
+        "logo": "default.ico"
+      },
+      {
         "name": "九宫格切图",
         "href": "https://lab.magiconch.com/v/sns-image",
         "desc": "将图片分割成九张图",
@@ -3482,6 +3488,12 @@
         "name": "用书签生成网站",
         "href": "https://pintree.io/guide-zh.html",
         "desc": "将浏览器书签导出成导航网站",
+        "logo": "default.ico"
+      },
+      {
+        "name": "超级借口",
+        "href": "https://superexcuse.com/",
+        "desc": "请假推辞理由生成器",
         "logo": "default.ico"
       },
       {
