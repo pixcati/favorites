@@ -35,6 +35,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "网易云无损解析",
+        "href": "https://www.kanxizai.cn/163_music",
+        "desc": "网易云高品质音乐解析下载",
+        "logo": "default.ico"
+      },
+      {
         "name": "音乐白嫖器",
         "href": "https://musicfree.catcat.work/",
         "desc": "多平台音乐聚合搜索",
@@ -517,9 +523,9 @@
         "logo": "default.ico"
       },
       {
-        "name": "百度网盘解析",
-        "href": "https://pan.b23.buzz/",
-        "desc": "提取文件直链",
+        "name": "123网盘解析",
+        "href": "https://www.kanxizai.cn/123pan",
+        "desc": "快速解析分享链接并获取直链以下载",
         "logo": "default.ico"
       },
       {
@@ -3155,7 +3161,13 @@
       {
         "name": "缤纷彩虹",
         "href": "http://blog.cccyun.cn/",
-        "desc": "彩虹云任务的作者的博客",
+        "desc": "彩虹云任务作者的博客",
+        "logo": "default.ico"
+      },
+      {
+        "name": "苏晓晴",
+        "href": "https://www.toubiec.cn",
+        "desc": "晓晴博客",
         "logo": "default.ico"
       },
       {
