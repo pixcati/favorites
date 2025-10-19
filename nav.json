@@ -1404,9 +1404,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "Adobe系列下载",
+        "name": "Adobe系列下载 ①",
+        "href": "https://pan.baidu.com/wap/link?surl=5Ddk-RywrQk9yi-O3eZ-xmA#/home/%2F/%2F",
+        "desc": "从网盘获取Adobe系列软件",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Adobe系列下载 ②",
         "href": "http://adobe.v404.cn/adobe/",
-        "desc": "网盘获取Adobe系列软件",
+        "desc": "获取Adobe全家桶",
         "logo": "default.ico"
       },
       {
@@ -1446,6 +1452,12 @@
         "logo": "default.ico"
       },
       {
+        "name": "旧版本安卓软件库",
+        "href": "https://pfandroidapps.lovestoblog.com/",
+        "desc": "安卓 4.4~5.1 软件收集站",
+        "logo": "default.ico"
+      },
+      {
         "name": "小羿的软件商店",
         "href": "https://xiaoyi.vc/win-app",
         "desc": "经过精心筛选与验证的各类实用软件",
@@ -1461,6 +1473,12 @@
         "name": "二次寒树的合集",
         "href": "https://echs.top/box/",
         "desc": "优质的软件、工具推荐列表",
+        "logo": "default.ico"
+      },
+      {
+        "name": "老豆荚的应用分享",
+        "href": "https://oldpods.cn/home/index/index",
+        "desc": "旧版安卓软件、精简软件、定制版软件、游戏分享等",
         "logo": "default.ico"
       },
       {
@@ -1485,6 +1503,12 @@
         "name": "果核剥壳",
         "href": "https://www.ghxi.com/",
         "desc": "修改、汉化、绿色软件等",
+        "logo": "default.ico"
+      },
+      {
+        "name": "软仓",
+        "href": "https://www.ruancang.net/",
+        "desc"RuanCang.Net",
         "logo": "default.ico"
       },
       {
@@ -1753,15 +1777,15 @@
         "logo": "default.ico"
       },
       {
-        "name": "FlashLittle",
-        "href": "https://flashlite.games/",
-        "desc": "适用于安装设备的Flash模拟器，包含虚拟按键",
-        "logo": "default.ico"
-      },
-      {
         "name": "Ruffle ",
         "href": "https://ruffle.rs/",
         "desc": "通过Ruffle在现代浏览器中玩转Flash",
+        "logo": "default.ico"
+      },
+      {
+        "name": "安卓4游戏库",
+        "href": "https://ad4gamesarchive.mysxl.cn/",
+        "desc": "安卓四时代老设备游戏库",
         "logo": "default.ico"
       },
       {
@@ -1901,6 +1925,12 @@
         "name": "Magisk 资源分享",
         "href": "https://magisk.suchenqaq.club/",
         "desc": "Magisk、Xposed资源",
+        "logo": "default.ico"
+      },
+      {
+        "name": "Xposed 模块仓库",
+        "href": "https://modules.lsposed.org/",
+        "desc": "LSPosed 模块仓库的网页版本",
         "logo": "default.ico"
       },
       {
