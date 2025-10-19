@@ -615,7 +615,7 @@
         ]
     },
     {
-        "_id": "5c456gdhhdgd64",
+        "_id": "5c456uwphdgd64",
         "classify": "检索工具",
         "icon": "csz czs-search-l",
         "sites": [
@@ -639,7 +639,7 @@
             },
             {
                 "name": "以图搜图",
-                "href": "https:\/\/picfind.top\/",
+                "href": "https:\/\/i.pixcat.cn\/yi-tu-sou-tu",
                 "desc": "从多个来源查找相似图片",
                 "logo": "default.ico"
             },
