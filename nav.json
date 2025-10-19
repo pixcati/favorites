@@ -1508,7 +1508,7 @@
       {
         "name": "软仓",
         "href": "https://www.ruancang.net/",
-        "desc"RuanCang.Net",
+        "desc": "RuanCang.Net",
         "logo": "default.ico"
       },
       {
@@ -2607,7 +2607,7 @@
         "name": "TVBox 配置源 ②",
         "href": "http://www.%e9%a5%ad%e5%a4%aa%e7%a1%ac.net/tv",
         "desc": "TVBox源仓库与接口",
-        "logo": "default0                                                                                                                          .ico"
+        "logo": "default.ico"
       },
       {
         "name": "IPTV直播源汇总",
@@ -3389,7 +3389,7 @@
       },
       {
         "name": "祛附",
-        "href": "https://www. bilibili.com/video/BV14g411N7wy",
+        "href": "https://www.bilibili.com/video/BV14g411N7wy",
         "desc": "",
         "logo": "default.ico"
       },
