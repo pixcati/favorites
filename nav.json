@@ -2695,6 +2695,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "时光图书馆",
+                "href": "https:\/\/atimebook.com\/",
+                "desc": "老期刊、老课本、老报纸、古籍、书画、乐谱等",
+                "logo": "default.ico"
+            },
+            {
                 "name": "高质量网站集",
                 "href": "https:\/\/i.pixcat.cn\/hu-lian-wang-shang-de-gao-zhi-liang-nei-rong",
                 "desc": "探索互联网上的高质量内容",
@@ -3506,6 +3512,12 @@
                 "name": "语音维基",
                 "href": "https:\/\/voicewiki.cn\/wiki\/",
                 "desc": "不同游戏中的角色语音",
+                "logo": "default.ico"
+            },
+            {
+                "name": "骂人宝典",
+                "href": "https:\/\/caonima.de\/",
+                "desc": "骂人宝典，祖安语录",
                 "logo": "default.ico"
             },
             {
