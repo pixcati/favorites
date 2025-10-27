@@ -1669,6 +1669,24 @@
                 "logo": "default.ico"
             },
             {
+                "name": "资源避难所 ",
+                "href": "https:\/\/www.flysheep6.com\/",
+                "desc": "PC游戏、模拟器资源下载",
+                "logo": "default.ico"
+            },
+            {
+                "name": "梨子乐",
+                "href": "https:\/\/lzlgo.com\/",
+                "desc": "PC游戏等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Koyso ",
+                "href": "https:\/\/koyso.com\/",
+                "desc": "PC单机游戏下载",
+                "logo": "default.ico"
+            },
+            {
                 "name": "小霸王 ",
                 "href": "https:\/\/www.yikm.net\/",
                 "desc": "在线玩FC、街机、GBA等",
@@ -1690,18 +1708,6 @@
                 "name": "低端游戏",
                 "href": "https:\/\/ddyx.me\/",
                 "desc": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "资源避难所 ",
-                "href": "https:\/\/www.flysheep6.com\/",
-                "desc": "PC游戏、模拟器资源下载",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Koyso ",
-                "href": "https:\/\/koyso.com\/",
-                "desc": "PC单机游戏下载",
                 "logo": "default.ico"
             },
             {
@@ -1885,6 +1891,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "3DM Mod站",
+                "href": "https:\/\/mod.3dmgame.com\/",
+                "desc": "下载您感兴趣的模组和资源",
+                "logo": "default.ico"
+            },
+            {
                 "name": "WeMod",
                 "href": "https:\/\/www.wemod.com\/zh",
                 "desc": "游戏作弊、修改器和 Mod",
@@ -1894,6 +1906,12 @@
                 "name": "CE修改器",
                 "href": "https:\/\/www.ghxi.com\/ce.html",
                 "desc": "Cheat Engine中文版",
+                "logo": "default.ico"
+            },
+            {
+                "name": "GG修改器",
+                "href": "https:\/\/gameguardian.net\/forum\/files\/",
+                "desc": "Android 游戏数值修改工具",
                 "logo": "default.ico"
             },
             {
