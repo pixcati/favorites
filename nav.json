@@ -1253,21 +1253,21 @@
                 "logo": "default.ico"
             },
             {
-                "name": "极简壁纸",
-                "href": "https:\/\/bz.zzzmh.cn\/",
-                "desc": "极简壁纸",
-                "logo": "default.ico"
-            },
-            {
-                "name": "拾光壁纸",
-                "href": "https:\/\/snake.timeline.ink\/home",
-                "desc": "干净、舒适、流畅的壁纸网站",
+                "name": "AppleWalls",
+                "href": "https:\/\/www.applewalls.com\/",
+                "desc": "获取苹果设备内置壁纸",
                 "logo": "default.ico"
             },
             {
                 "name": "壁纸资源索引",
                 "href": "https:\/\/fmhy.net\/system-tools#wallpapers",
                 "desc": "一些找壁纸的渠道汇总",
+                "logo": "default.ico"
+            },
+            {
+                "name": "拾光壁纸",
+                "href": "https:\/\/gallery.timeline.ink\/",
+                "desc": "干净、舒适、流畅的壁纸网站",
                 "logo": "default.ico"
             },
             {
@@ -1313,9 +1313,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "P站热门",
-                "href": "https:\/\/pixivic.com\/",
-                "desc": "P站热榜与热门",
+                "name": "Pixiv Viewer",
+                "href": "https:\/\/pixiv.pictures\/",
+                "desc": "Pixiv 插画、小说阅览工具",
                 "logo": "default.ico"
             },
             {
@@ -2501,21 +2501,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "订阅源转换 ①",
-                "href": "https:\/\/sub-web.netlify.app\/",
+                "name": "订阅源转换",
+                "href": "https:\/\/SUBAPI.cmliussss.net",
                 "desc": "使你的代理订阅支持更多客户端",
-                "logo": "default.ico"
-            },
-            {
-                "name": "订阅源转换 ②",
-                "href": "http:\/\/id9.cc\/",
-                "desc": "使你的代理订阅支持更多客户端",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ClashM 订阅源",
-                "href": "https:\/\/subs.zeabur.app\/clash",
-                "desc": "Clash Meta与Cloudflare Warp",
                 "logo": "default.ico"
             },
             {
