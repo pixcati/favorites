@@ -181,8 +181,8 @@
             },
             {
                 "name": "大模型排行榜 ②",
-                "href": "https:\/\/livebench.ai\/",
-                "desc": "大模型评测榜单",
+                "href": "https:\/\/fmhy.net\/ai#ai-benchmarks",
+                "desc": "大模型评测榜单合集",
                 "logo": "default.ico"
             },
             {
@@ -994,12 +994,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "漫游云野",
-                "href": "https:\/\/roam.mixcm.com\/",
-                "desc": "让你的收藏夹不再是孤岛",
-                "logo": "default.ico"
-            },
-            {
                 "name": "产品经理导航",
                 "href": "https:\/\/www.pmbaobao.com\/",
                 "desc": "产品经理、运营导航",
@@ -1012,13 +1006,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "独立开发者导航 ①",
-                "href": "https:\/\/www.indiehackers.site\/zh\/apptype\/featured",
-                "desc": "发掘最优秀的工具",
-                "logo": "default.ico"
-            },
-            {
-                "name": "独立开发者导航 ②",
+                "name": "独立开发者导航",
                 "href": "https:\/\/chuhai.tools\/",
                 "desc": "发现最好的独立开发者工具 & 技术栈",
                 "logo": "default.ico"
@@ -1033,12 +1021,6 @@
                 "name": "梦想导航",
                 "href": "https:\/\/nav.dreamthere.cn\/",
                 "desc": "探索未知的网路世界",
-                "logo": "default.ico"
-            },
-            {
-                "name": "ITEM",
-                "href": "https:\/\/item.ink",
-                "desc": "链接更多选项",
                 "logo": "default.ico"
             },
             {
@@ -1061,7 +1043,7 @@
             },
             {
                 "name": "Tbox",
-                "href": "hhttps:\/\/www.tboxn.com\/",
+                "href": "https:\/\/www.tboxn.com\/",
                 "desc": "收录优质的在线工具",
                 "logo": "default.ico"
             },
@@ -1132,12 +1114,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "书源导航",
-                "href": "https:\/\/mwdh.cc\/",
-                "desc": "开源阅读相关资源",
-                "logo": "default.ico"
-            },
-            {
                 "name": "各种源大集合",
                 "href": "https:\/\/source.zgqinc.gq\/",
                 "desc": "书源、图源、订阅源、规则、直播源",
@@ -1153,12 +1129,6 @@
                 "name": "PickFrom",
                 "href": "https:\/\/zh.pickfrom.net\/",
                 "desc": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "LuckySec",
-                "href": "http:\/\/nav.luckysec.cn\/",
-                "desc": " 网络安全资源导航",
                 "logo": "default.ico"
             },
             {
@@ -1205,36 +1175,24 @@
             },
             {
                 "name": "AI工具导航 ①",
-                "href": "https:\/\/aibard123.com\/ ",
-                "desc": "AI工具导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ②",
                 "href": "https:\/\/www.aigc.cn\/",
                 "desc": "AIGC工具集",
                 "logo": "default.ico"
             },
             {
-                "name": "AI工具导航 ③",
-                "href": "https:\/\/www.naviai.cn\/",
-                "desc": "AI工具导航",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AI工具导航 ④",
+                "name": "AI工具导航 ②",
                 "href": "https:\/\/www.aiopenminds.com\/",
                 "desc": "AI工具导航",
                 "logo": "default.ico"
             },
             {
-                "name": "AI工具导航 ⑤",
+                "name": "AI工具导航 ③",
                 "href": "https:\/\/okeiai.com\/zh\/tools",
                 "desc": "AI工具导航",
                 "logo": "default.ico"
             },
             {
-                "name": "AI工具导航 ⑥",
+                "name": "AI工具导航 ④",
                 "href": "https:\/\/www.aigotools.com\/cn",
                 "desc": "AI工具导航",
                 "logo": "default.ico"
