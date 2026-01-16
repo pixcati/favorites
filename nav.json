@@ -1410,6 +1410,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "补回丢失的DLL",
+                "href": "https:\/\/cn.dll-files.com\/",
+                "desc": "查找并下载缺失的DLL文件",
+                "logo": "default.ico"
+            },
+            {
                 "name": "恢复文件与数据",
                 "href": "https:\/\/www.disktool.cn\/recovery\/winfr.html",
                 "desc": "微软出品恢复工具的可视化版本",
