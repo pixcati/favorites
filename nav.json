@@ -23,6 +23,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "视频转图片",
+                "href": "https:\/\/videotojpg.com\/zh",
+                "desc": "从视频文件当中提取图片，支持多种格式",
+                "logo": "default.ico"
+            },
+            {
                 "name": "九宫格切图",
                 "href": "https:\/\/lab.magiconch.com\/v\/sns-image",
                 "desc": "将图片分割成九张图",
@@ -83,6 +89,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "字幕工具箱",
+                "href": "https:\/\/zm.i8k.tv\/",
+                "desc": "在线字幕工具集合",
+                "logo": "default.ico"
+            },
+            {
                 "name": "文字转AI语音 ①",
                 "href": "https:\/\/texttospeech.im\/zh-CN",
                 "desc": "免费在线文本转语音服务",
@@ -116,6 +128,12 @@
                 "name": "在线格式转换 ③",
                 "href": "https:\/\/convertio.co\/zh\/",
                 "desc": "将您的文件转换成任意格式",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Local Audio Convert",
+                "href": "https:\/\/localaudioconvert.com\/audio-converter",
+                "desc": "在浏览器中本地转换音视频文件，支持一次拖入100个文件",
                 "logo": "default.ico"
             },
             {
@@ -988,12 +1006,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "一网一匠",
-                "href": "https:\/\/ywyj.cn\/",
-                "desc": "一起发现有趣的新产品",
-                "logo": "default.ico"
-            },
-            {
                 "name": "产品经理导航",
                 "href": "https:\/\/www.pmbaobao.com\/",
                 "desc": "产品经理、运营导航",
@@ -1045,6 +1057,12 @@
                 "name": "Tbox",
                 "href": "https:\/\/www.tboxn.com\/",
                 "desc": "收录优质的在线工具",
+                "logo": "default.ico"
+            },
+            {
+                "name": "刘明野工具箱",
+                "href": "https:\/\/tools.liumingye.cn\/",
+                "desc": "提供好用、易用的工具",
                 "logo": "default.ico"
             },
             {
@@ -1145,7 +1163,7 @@
             },
             {
                 "name": "在线工具箱",
-                "href": "https:\/\/moeyy.cn\/tool\/",
+                "href": "http:\/\/www.66zan.cn\/",
                 "desc": "在线工具箱",
                 "logo": "default.ico"
             },
@@ -1429,7 +1447,7 @@
             },
             {
                 "name": "二次寒树的合集",
-                "href": "https:\/\/echs.top\/box\/",
+                "href": "https:\/\/links.echs.top\/explore",
                 "desc": "优质的软件、工具推荐列表",
                 "logo": "default.ico"
             },
@@ -2169,6 +2187,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "Edgeless",
+                "href": "https:\/\/home.edgeless.top\/",
+                "desc": "强大而优雅的半开源PE工具",
+                "logo": "default.ico"
+            },
+            {
                 "name": "FirPE Project",
                 "href": "https:\/\/firpe.cn\/",
                 "desc": "最适合年轻人的PE",
@@ -2232,6 +2256,12 @@
                 "name": "镜像站汇总 ②",
                 "href": "https:\/\/mirrors.cernet.edu.cn\/",
                 "desc": "镜像站合集",
+                "logo": "default.ico"
+            },
+            {
+                "name": "雨夜回廊的系统资源整理",
+                "href": "https:\/\/myql.eu.org\/article\/%E7%B3%BB%E7%BB%9F",
+                "desc": "优质的操作系统相关工具整理列表",
                 "logo": "default.ico"
             },
             {
@@ -2605,7 +2635,7 @@
             },
             {
                 "name": "NSFW",
-                "href": "https:\/\/saidit.net\/s\/freemediafuckyeah\/wiki\/index",
+                "href": "https:\/\/fluffle.cc\/fmfy",
                 "desc": "",
                 "logo": "default.ico"
             }
@@ -3506,6 +3536,12 @@
                 "name": "AI颜文字生成",
                 "href": "https:\/\/kaomoji.ai\/zh",
                 "desc": "用AI创造独特的颜文字",
+                "logo": "default.ico"
+            },
+            {
+                "name": "蔚蓝档案标题生成器",
+                "href": "https:\/\/lab.nulla.top\/ba-logo",
+                "desc": "蔚蓝档案标题生成器",
                 "logo": "default.ico"
             },
             {
