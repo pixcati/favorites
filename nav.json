@@ -511,6 +511,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "多轨快传",
+                "href": "https:\/\/github.com\/weixiansen574\/HybridFileXfer",
+                "desc": "同时使用USB和WIFI等多张网卡传输文件",
+                "logo": "default.ico"
+            },
+            {
                 "name": "IPFS文件床",
                 "href": "https:\/\/cdn.ipfsscan.io\/",
                 "desc": "基于IPFS的图床与文件存储服务",
@@ -2132,6 +2138,18 @@
                 "logo": "default.ico"
             },
             {
+                "name": "Winlator",
+                "href": "https:\/\/github.com\/brunodev85\/winlator",
+                "desc": "通过Wine、Box86等在安卓设备上运行Windows应用",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Winlator-Amod",
+                "href": "https:\/\/github.com\/afeimod\/winlator-mod",
+                "desc": "Winlator阿飞修改版本",
+                "logo": "default.ico"
+            },
+            {
                 "name": "安卓端PC模拟器合集",
                 "href": "https:\/\/www.bilibili.com\/read\/mobile?id=25407219",
                 "desc": "安卓上的Wine环境等",
@@ -3425,7 +3443,7 @@
             },
             {
                 "name": "资料集 ②",
-                "href": "http:\/\/silverthorn.ysepan.com\/?xzpd=1",
+                "href": "https:\/\/pan.pixcat.cn\/%E5%AD%A6%E4%B9%A0\/%E7%8E%84%E5%AD%A6",
                 "desc": "资料集合",
                 "logo": "default.ico"
             }
