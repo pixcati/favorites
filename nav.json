@@ -1220,6 +1220,12 @@
                 "href": "https:\/\/www.aigotools.com\/cn",
                 "desc": "AI工具导航",
                 "logo": "default.ico"
+            },
+            {
+                "name": "AI工具导航 ⑤",
+                "href": "https:\/\/www.aihub.cn\/",
+                "desc": "AIHub工具导航",
+                "logo": "default.ico"
             }
         ]
     },
