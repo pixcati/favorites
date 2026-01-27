@@ -2049,13 +2049,13 @@
             },
             {
                 "name": "晨钟酱",
-                "href": "https:\/\/www.jamcz.com\/ ",
+                "href": "https:\/\/www.jamcz.com\/",
                 "desc": "搞机利器套餐",
                 "logo": "default.ico"
             },
             {
                 "name": "梦魇兽",
-                "href": "https:\/\/nightmare.press\/ ",
+                "href": "https:\/\/nightmare.press\/",
                 "desc": "梦魇兽的个人中心",
                 "logo": "default.ico"
             },
@@ -2079,19 +2079,19 @@
             },
             {
                 "name": "搞机助手",
-                "href": "https:\/\/lsdy.top\/gjzs ",
+                "href": "https:\/\/lsdy.top\/gjzs",
                 "desc": "搞机助手Win版",
                 "logo": "default.ico"
             },
             {
                 "name": "搞机助手 R",
-                "href": "https:\/\/gjzsr.com\/ ",
+                "href": "https:\/\/gjzsr.com\/",
                 "desc": "搞机助手最新重制版",
                 "logo": "default.ico"
             },
             {
                 "name": "Shizuku",
-                "href": "https:\/\/shizuku.rikka.app\/zh-hans\/ ",
+                "href": "https:\/\/shizuku.rikka.app\/zh-hans\/",
                 "desc": "让你的应用直接使用系统 API",
                 "logo": "default.ico"
             },
@@ -2109,13 +2109,13 @@
             },
             {
                 "name": "VMOS Pro",
-                "href": "https:\/\/423down.lanzouo.com\/b0f1fns7a ",
+                "href": "https:\/\/423down.lanzouo.com\/b0f1fns7a",
                 "desc": "获取新版本的VMOS Pro 解锁版",
                 "logo": "default.ico"
             },
             {
                 "name": "两仪",
-                "href": "https:\/\/twoyi.app\/zh\/index.html ",
+                "href": "https:\/\/twoyi.app\/zh\/index.html",
                 "desc": "一个轻量级的 Android 容器",
                 "logo": "default.ico"
             },
@@ -2133,7 +2133,7 @@
             },
             {
                 "name": "Termux",
-                "href": "https:\/\/f-droid.org\/zh_Hans\/packages\/com.termux\/ ",
+                "href": "https:\/\/f-droid.org\/zh_Hans\/packages\/com.termux\/",
                 "desc": "带软件包的终端模拟器",
                 "logo": "default.ico"
             },
@@ -2156,15 +2156,51 @@
                 "logo": "default.ico"
             },
             {
+                "name": "MiceWine-Application",
+                "href": "https:\/\/github.com\/KreitinnSoftware\/MiceWine-Application",
+                "desc": "在 Android 上运行 Windows 软件和游戏",
+                "logo": "default.ico"
+            },
+            {
                 "name": "安卓端PC模拟器合集",
                 "href": "https:\/\/www.bilibili.com\/read\/mobile?id=25407219",
                 "desc": "安卓上的Wine环境等",
                 "logo": "default.ico"
             },
             {
+                "name": "WSABuilds",
+                "href": "https:\/\/github.com\/MustardChef\/WSABuilds",
+                "desc": "Windows 安卓子系统，支持谷歌服务与Root",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Mac 运行 iOS 游戏",
                 "href": "https:\/\/github.com\/PlayCover\/PlayCover",
                 "desc": "安卓上的Wine环境等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Docker-OSX",
+                "href": "https:\/\/github.com\/sickcodes\/Docker-OSX",
+                "desc": "在 Docker 中运行 macOS",
+                "logo": "default.ico"
+            },
+            {
+                "name": "WinBoat",
+                "href": "https:\/\/www.winboat.app\/",
+                "desc": "在 Linux 上运行 Windows 应用，实现无缝集成",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Waydroid",
+                "href": "https:\/\/waydro.id\/",
+                "desc": "在 Linux 系统上启动 Android 系统",
+                "logo": "default.ico"
+            },
+            {
+                "name": "redroid",
+                "href": "https:\/\/github.com\/remote-android\/redroid-doc\/",
+                "desc": "基于KVM-QENU，在 docker 中运行 Android 系统、云手机",
                 "logo": "default.ico"
             }
         ]
@@ -2337,33 +2373,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Docker-OSX",
-                "href": "https:\/\/github.com\/sickcodes\/Docker-OSX",
-                "desc": "在 Docker 中运行 macOS",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Wubuntu",
-                "href": "https:\/\/winuxos.com\/",
-                "desc": "Win11 皮肤主题的 Ubuntu 系统，支持运行 exe 和安卓 APP",
-                "logo": "default.ico"
-            },
-            {
                 "name": "AnduinOS",
                 "href": "https:\/\/www.anduinos.com\/",
                 "desc": "Win11 皮肤主题的 Ubuntu 系统",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Waydroid",
-                "href": "https:\/\/waydro.id\/",
-                "desc": "在 Linux 系统上启动 Android 系统",
-                "logo": "default.ico"
-            },
-            {
-                "name": "redroid",
-                "href": "https:\/\/github.com\/remote-android\/redroid-doc\/",
-                "desc": "基于KVM-QENU，在 docker 中运行 Android 系统、云手机",
                 "logo": "default.ico"
             }
         ]
@@ -2858,7 +2870,7 @@
             },
             {
                 "name": "在家做饭指南",
-                "href": "https:\/\/cook.aiursoft.cn\/",
+                "href": "https:\/\/cook.aiursoft.com\/",
                 "desc": "程序员在家做饭方法指南",
                 "logo": "default.ico"
             },
@@ -2866,6 +2878,12 @@
                 "name": "食用手册",
                 "href": "https:\/\/cook.yunyoujun.cn\/",
                 "desc": "好的，今天我们来做菜",
+                "logo": "default.ico"
+            },
+            {
+                "name": "CookLikeHOC",
+                "href": "https:\/\/cooklikehoc.soilzhu.su\/",
+                "desc": "像老乡鸡那样做菜",
                 "logo": "default.ico"
             },
             {
