@@ -939,6 +939,18 @@
                 "logo": "default.ico"
             },
             {
+                "name": "OpenClaw",
+                "href": "https:\/\/github.com\/openclaw\/openclaw",
+                "desc": "自部署运行AI执行系统自动化任务",
+                "logo": "default.ico"
+            },
+            {
+                "name": "nanobot",
+                "href": "https:\/\/github.com\/HKUDS\/nanobot",
+                "desc": "轻量级OpenClaw平替，多平台接入与智能任务调度",
+                "logo": "default.ico"
+            },
+            {
                 "name": "GitHub中文排行榜",
                 "href": "https:\/\/www.github-zh.com\/top-china",
                 "desc": "GitHub中文项目排行榜",
