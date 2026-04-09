@@ -41,21 +41,21 @@
                 "logo": "default.ico"
             },
             {
-                "name": "网易云无损解析",
-                "href": "https:\/\/www.kanxizai.cn\/163_music",
-                "desc": "网易云高品质音乐解析下载",
+                "name": "B站音频解析",
+                "href": "https:\/\/www.pixcat.cn\/lab\/biliaudio.php",
+                "desc": "获取指定视频的音频部分，并尝试以高音质下载",
                 "logo": "default.ico"
             },
             {
-                "name": "音乐白嫖器",
-                "href": "https:\/\/musicfree.catcat.work\/",
-                "desc": "多平台音乐聚合搜索",
+                "name": "Go Music DL",
+                "href": "https:\/\/music.zkkp.nyc.mn\/",
+                "desc": "多平台音乐聚合搜索，支持网易云、QQ、酷狗、酷我、B站、汽水、咪咕等",
                 "logo": "default.ico"
             },
             {
-                "name": "超级音乐白嫖",
+                "name": "音乐资源白嫖",
                 "href": "https:\/\/iao.su\/2217\/",
-                "desc": "白嫖各平台无损音乐",
+                "desc": "不同的音乐白嫖渠道",
                 "logo": "default.ico"
             },
             {
@@ -1476,8 +1476,8 @@
                 "logo": "default.ico"
             },
             {
-                "name": "二次寒树的合集",
-                "href": "https:\/\/links.echs.top\/explore",
+                "name": "二次寒树的书签",
+                "href": "https:\/\/web.echs.top\/links\/",
                 "desc": "优质的软件、工具推荐列表",
                 "logo": "default.ico"
             },
@@ -3578,6 +3578,12 @@
                 "name": "流量消失器",
                 "href": "https:\/\/shua.leyz.top\/",
                 "desc": "快速消耗流量卡套餐或目标服务器的流量",
+                "logo": "default.ico"
+            },
+            {
+                "name": "万物皆可旋转",
+                "href": "https:\/\/bugteas.github.io\/nugget_speens_h5\/index.html",
+                "desc": "万物皆可旋转",
                 "logo": "default.ico"
             },
             {
