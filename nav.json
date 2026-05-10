@@ -897,6 +897,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "CloudFlare 优选域名",
+                "href": "https:\/\/cf.090227.xyz\/",
+                "desc": "提供优质的CloudFlare CDN节点信息",
+                "logo": "default.ico"
+            },
+            {
                 "name": "免费内网穿透",
                 "href": "https:\/\/www.natfrp.com\/user\/",
                 "desc": "SAKURA FRP",
@@ -948,6 +954,12 @@
                 "name": "nanobot",
                 "href": "https:\/\/github.com\/HKUDS\/nanobot",
                 "desc": "轻量级OpenClaw平替，多平台接入与智能任务调度",
+                "logo": "default.ico"
+            },
+            {
+                "name": "ClawPulse",
+                "href": "https:\/\/www.clawpulse.net\/",
+                "desc": "AI Agent项目项目收集汇总",
                 "logo": "default.ico"
             },
             {
@@ -1687,8 +1699,8 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Koyso ",
-                "href": "https:\/\/koyso.com\/",
+                "name": "Koyso",
+                "href": "https:\/\/koysobackup.com\/",
                 "desc": "PC单机游戏下载",
                 "logo": "default.ico"
             },
@@ -1807,9 +1819,15 @@
                 "logo": "default.ico"
             },
             {
-                "name": "每周免费游戏",
-                "href": "https:\/\/gbtgame.me\/steam_free_games.html",
-                "desc": "Steam、Epic每周份的免费游戏",
+                "name": "白嫖游戏速报",
+                "href": "https:\/\/gameinfo.gbtgame.me\/",
+                "desc": "聚合Steam、Epic等平台的限免资讯",
+                "logo": "default.ico"
+            },
+            {
+                "name": "游戏资源导航",
+                "href": "https:\/\/youxi.ggonav.com\/",
+                "desc": "单机、主机、网页游戏资源聚合导航",
                 "logo": "default.ico"
             },
             {
@@ -3599,9 +3617,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "AI颜文字生成",
-                "href": "https:\/\/kaomoji.ai\/zh",
-                "desc": "用AI创造独特的颜文字",
+                "name": "AI 人生重开手帐",
+                "href": "https:\/\/re.maa-ai.com\/",
+                "desc": "一个人生重开模拟器的AI版本",
                 "logo": "default.ico"
             },
             {
