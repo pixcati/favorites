@@ -96,8 +96,8 @@
             },
             {
                 "name": "文字转AI语音 ①",
-                "href": "https:\/\/texttospeech.im\/zh-CN",
-                "desc": "免费在线文本转语音服务",
+                "href": "https:\/\/acgn.ttson.cn\/",
+                "desc": "角色语音生成，原神、星穹、鸣潮、LOL等",
                 "logo": "default.ico"
             },
             {
@@ -903,12 +903,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "免费内网穿透",
-                "href": "https:\/\/www.natfrp.com\/user\/",
-                "desc": "SAKURA FRP",
-                "logo": "default.ico"
-            },
-            {
                 "name": "站长工具国内测速",
                 "href": "http:\/\/tool.chinaz.com\/speedtest\/",
                 "desc": "站长工具国内测速",
@@ -922,7 +916,7 @@
             },
             {
                 "name": "Github 下载加速脚本",
-                "href": "https:\/\/greasyfork.org\/zh-CN\/scripts\/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD",
+                "href": "https:\/\/scriptcat.org\/zh-CN\/script-show-page\/900",
                 "desc": "高速下载 Git Clone\/SSH、Release、Raw、Code(ZIP) 等文件",
                 "logo": "default.ico"
             },
@@ -933,15 +927,15 @@
                 "logo": "default.ico"
             },
             {
-                "name": "MiGPT",
-                "href": "https:\/\/github.com\/idootop\/mi-gpt",
-                "desc": "将小爱音箱接入大语言模型",
-                "logo": "default.ico"
-            },
-            {
                 "name": "Koishi",
                 "href": "https:\/\/koishi.chat\/zh-CN\/",
                 "desc": "跨平台、可扩展、高性能的机器人框架",
+                "logo": "default.ico"
+            },
+            {
+                "name": "AstrBot",
+                "href": "https:\/\/astrbot.app\/",
+                "desc": "全功能的 Agent 聊天机器人",
                 "logo": "default.ico"
             },
             {
@@ -963,18 +957,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "GitHub中文排行榜",
-                "href": "https:\/\/www.github-zh.com\/top-china",
-                "desc": "GitHub中文项目排行榜",
-                "logo": "default.ico"
-            },
-            {
-                "name": "GitHub全球排行榜",
-                "href": "https:\/\/www.github-zh.com\/top",
-                "desc": "GitHub上最受欢迎的开源项目，按星标排序",
-                "logo": "default.ico"
-            },
-            {
                 "name": "独立开发者项目列表",
                 "href": "https:\/\/1c7.github.io\/chinese-independent-developer\/",
                 "desc": "中国独立开发者项目列表",
@@ -990,6 +972,12 @@
                 "name": "Awesome Shell",
                 "href": "https:\/\/github.com\/alebcay\/awesome-shell\/blob\/master\/README_ZH-CN.md",
                 "desc": "命令行框架、工具包、指南、小玩意合集",
+                "logo": "default.ico"
+            },
+            {
+                "name": "SkillHub",
+                "href": "https:\/\/skillhub.cn\/",
+                "desc": "腾讯 SkillHub，专为中国用户优化的 Skills 社区",
                 "logo": "default.ico"
             }
         ]
@@ -1717,6 +1705,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "EmulatorJS",
+                "href": "https:\/\/www.emulatorjs.com\/",
+                "desc": "网页复古游戏模拟器",
+                "logo": "default.ico"
+            },
+            {
                 "name": "老游戏在线玩",
                 "href": "https:\/\/zaixianwan.app\/",
                 "desc": "包含NES、GB\/GBC\/GBA、NDS、PS等",
@@ -1732,12 +1726,6 @@
                 "name": "Vimm's Lair",
                 "href": "https:\/\/vimm.net\/vault\/",
                 "desc": "26 个经典系统的所有游戏",
-                "logo": "default.ico"
-            },
-            {
-                "name": "模拟器游戏ROM",
-                "href": "https:\/\/www.emulatorgames.net\/roms\/",
-                "desc": "丰富的复古游戏ROM库",
                 "logo": "default.ico"
             },
             {
@@ -1825,26 +1813,26 @@
                 "logo": "default.ico"
             },
             {
+                "name": "喜加一",
+                "href": "https:\/\/www.ithome.com\/zt\/xijiayi",
+                "desc": "当下可以白嫖的游戏",
+                "logo": "default.ico"
+            },
+            {
                 "name": "游戏资源导航",
                 "href": "https:\/\/youxi.ggonav.com\/",
                 "desc": "单机、主机、网页游戏资源聚合导航",
                 "logo": "default.ico"
             },
             {
-                "name": "Epic 喜加一",
-                "href": "https:\/\/www.ithome.com\/zt\/xijiayi",
-                "desc": "当下可以白嫖的游戏",
+                "name": "模拟器与ROM资源索引",
+                "href": "https:\/\/fmhy.net\/gaming#emulation-roms",
+                "desc": "模拟器与ROM资源汇总索引",
                 "logo": "default.ico"
             },
             {
-                "name": "古墓丽影网页版 ",
-                "href": "http:\/\/xproger.info\/projects\/OpenLara\/",
-                "desc": "Classic Tomb Raider open-source engine",
-                "logo": "default.ico"
-            },
-            {
-                "name": "PC玩Wii U",
-                "href": "https:\/\/www.iplaysoft.com\/cemu.html",
+                "name": "Cemu Guide",
+                "href": "https:\/\/cemu.cfw.guide\/",
                 "desc": "Wii U模拟器",
                 "logo": "default.ico"
             },
@@ -2037,7 +2025,7 @@
             },
             {
                 "name": "安卓玩机合集 ②",
-                "href": "https:\/\/myql.eu.org\/article\/ce4438f2-75c7-47c5-9228-5e7cd0f6eb51",
+                "href": "https:\/\/myql.eu.org\/article\/196d7f79-818d-80fb-97f9-d17380c535b9",
                 "desc": "Root与免Root玩机工具等",
                 "logo": "default.ico"
             },
@@ -2195,6 +2183,12 @@
                 "name": "安卓端PC模拟器合集",
                 "href": "https:\/\/www.bilibili.com\/read\/mobile?id=25407219",
                 "desc": "安卓上的Wine环境等",
+                "logo": "default.ico"
+            },
+            {
+                "name": "WSL Dashboard",
+                "href": "https:\/\/github.com\/owu\/wsl-dashboard",
+                "desc": "现代、高性能、轻量级的 WSL 实例管理仪表板，基于 Rust 和 Slint 构建",
                 "logo": "default.ico"
             },
             {
@@ -2394,6 +2388,12 @@
                 "name": "HF-Mirror",
                 "href": "https:\/\/hf-mirror.com\/",
                 "desc": "Huggingface 镜像站",
+                "logo": "default.ico"
+            },
+            {
+                "name": "ClawHub 镜像站",
+                "href": "https:\/\/cn.clawhub-mirror.com\/",
+                "desc": "ClawHub 中国官方镜像站，由火山引擎提供支持",
                 "logo": "default.ico"
             },
             {
@@ -2962,6 +2962,12 @@
                 "name": "GPT调教指南",
                 "href": "https:\/\/github.com\/PlexPt\/awesome-chatgpt-prompts-zh",
                 "desc": "ChatGPT、LLMs 中文调教指南",
+                "logo": "default.ico"
+            },
+            {
+                "name": "ClawPath",
+                "href": "https:\/\/clawpath.dev\/",
+                "desc": "OpenClaw 最短上手路径",
                 "logo": "default.ico"
             }
         ]
