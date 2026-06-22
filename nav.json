@@ -475,12 +475,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "SecureShare",
-                "href": "https:\/\/www.securityshare.xyz\/zh",
-                "desc": "免费P2P文件传输与剪贴板共享，隐私无上传",
-                "logo": "default.ico"
-            },
-            {
                 "name": "云鸽",
                 "href": "https:\/\/yunge.in\/",
                 "desc": "局域网、P2P文件传输",
@@ -523,12 +517,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "DROP",
-                "href": "https:\/\/drop.space\/",
-                "desc": "不限速不限流大文件传输托管",
-                "logo": "default.ico"
-            },
-            {
                 "name": "网络剪切板",
                 "href": "https:\/\/netcut.cn\/",
                 "desc": "快速传送全格式文件与存储文本",
@@ -547,21 +535,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "123网盘解析",
-                "href": "https:\/\/www.kanxizai.cn\/123pan",
-                "desc": "快速解析分享链接并获取直链以下载",
-                "logo": "default.ico"
-            },
-            {
                 "name": "天翼云盘解析",
                 "href": "https:\/\/189.ly93.cc\/",
                 "desc": "提取文件直链",
-                "logo": "default.ico"
-            },
-            {
-                "name": "网盘搬家",
-                "href": "https:\/\/mover.io\/",
-                "desc": "在多个网盘间复制数据，支持OneDrive、谷歌网盘等等",
                 "logo": "default.ico"
             },
             {
@@ -598,6 +574,12 @@
                 "name": "NetMount",
                 "href": "https:\/\/www.netmount.cn\/",
                 "desc": "统一管理和挂载云存储",
+                "logo": "default.ico"
+            },
+            {
+                "name": "存储分享服务汇总",
+                "href": "https:\/\/iui.su\/1253\/",
+                "desc": "免费文件存储分享服务汇总",
                 "logo": "default.ico"
             },
             {
@@ -645,7 +627,7 @@
         "sites": [
             {
                 "name": "资源搜索导航",
-                "href": "https:\/\/iao.su\/3700\/",
+                "href": "https:\/\/iui.su\/3700\/",
                 "desc": "搜索不同类别的资源",
                 "logo": "default.ico"
             },
@@ -675,7 +657,7 @@
             },
             {
                 "name": "磁力搜索",
-                "href": "https:\/\/iao.su\/908\/",
+                "href": "https:\/\/iui.su\/908\/",
                 "desc": "磁力搜索网站聚合",
                 "logo": "default.ico"
             },
@@ -1000,6 +982,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "不死鸟资源合集",
+                "href": "https:\/\/b.oe.do\/",
+                "desc": "不死鸟的资源汇总页面",
+                "logo": "default.ico"
+            },
+            {
                 "name": "网页在线工具汇总",
                 "href": "https:\/\/iui.su\/1492\/",
                 "desc": "网页在线工具汇总",
@@ -1256,6 +1244,12 @@
                 "name": "AppleWalls",
                 "href": "https:\/\/www.applewalls.com\/",
                 "desc": "获取苹果设备内置壁纸",
+                "logo": "default.ico"
+            },
+            {
+                "name": "壁纸网站大全",
+                "href": "https:\/\/iui.su\/3298\/",
+                "desc": "简单无需登录的壁纸网站合集",
                 "logo": "default.ico"
             },
             {
@@ -2344,8 +2338,8 @@
             },
             {
                 "name": "镜像站汇总 ②",
-                "href": "https:\/\/mirrors.cernet.edu.cn\/",
-                "desc": "镜像站合集",
+                "href": "https:\/\/iui.su\/3635\/",
+                "desc": "Docker、Huggingface、NPM 镜像",
                 "logo": "default.ico"
             },
             {
@@ -2358,18 +2352,6 @@
                 "name": "前端公共库汇总",
                 "href": "https:\/\/51.ruyo.net\/12387.html",
                 "desc": "前端JS、CSS静态资源公共库，含评测及推荐",
-                "logo": "default.ico"
-            },
-            {
-                "name": "yum、npm源",
-                "href": "https:\/\/blog.csdn.net\/zhen1819\/article\/details\/110817365",
-                "desc": "国内镜像源",
-                "logo": "default.ico"
-            },
-            {
-                "name": "JDK国内镜像",
-                "href": "https:\/\/blog.csdn.net\/weixin_44003789\/article\/details\/106937578",
-                "desc": "国内线路下载JDK、Tomcat",
                 "logo": "default.ico"
             },
             {
