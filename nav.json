@@ -939,8 +939,20 @@
                 "logo": "default.ico"
             },
             {
+                "name": "GitHubDaily",
+                "href": "https:\/\/github.com\/GitHubDaily\/GitHubDaily",
+                "desc": "分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯",
+                "logo": "default.ico"
+            },
+            {
+                "name": "GitHub 排行榜",
+                "href": "https:\/\/github-cn.com\/ranking",
+                "desc": "探索最受欢迎的开源项目",
+                "logo": "default.ico"
+            },
+            {
                 "name": "独立开发者项目列表",
-                "href": "https:\/\/1c7.github.io\/chinese-independent-developer\/",
+                "href": "https:\/\/github.com\/1c7\/chinese-independent-developer",
                 "desc": "中国独立开发者项目列表",
                 "logo": "default.ico"
             },
@@ -2587,7 +2599,7 @@
         "sites": [
             {
                 "name": "免费看剧",
-                "href": "https:\/\/iao.su\/531\/",
+                "href": "https:\/\/iui.su\/531\/",
                 "desc": "白嫖各种影视资源",
                 "logo": "default.ico"
             },
@@ -2598,27 +2610,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "全球票房排行榜",
-                "href": "https:\/\/mbox.afei7.com\/",
-                "desc": "全球票房实时数据",
-                "logo": "default.ico"
-            },
-            {
                 "name": "硬核指南",
                 "href": "https:\/\/yinghezhinan.com\/",
                 "desc": "资源导航，包括影视、音乐、电子书等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "VIP影视解析",
-                "href": "https:\/\/www.btnull.org\/vipplay\/",
-                "desc": "解析爱奇艺、腾讯、优酷、乐视、芒果等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "深影译站",
-                "href": "https:\/\/sysub.vip\/",
-                "desc": "与您共享全球影视经典",
                 "logo": "default.ico"
             },
             {
@@ -2664,9 +2658,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "磁力云播",
+                "name": "磁力链接预览工具",
                 "href": "https:\/\/magnet.pages.dev\/",
-                "desc": "在线解析磁力或种子",
+                "desc": "在线解析磁力链接",
                 "logo": "default.ico"
             },
             {
@@ -3038,12 +3032,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "有用经验",
-                "href": "https:\/\/yyjingyan.com\/",
-                "desc": "分享有用经验，打破信息茧房",
-                "logo": "default.ico"
-            },
-            {
                 "name": "wikiHow",
                 "href": "https:\/\/zh.wikihow.com\/",
                 "desc": "你可以信赖的万事指南",
@@ -3093,7 +3081,7 @@
             },
             {
                 "name": "GitHub中文社区",
-                "href": "https:\/\/www.github-zh.com\/",
+                "href": "https:\/\/github-cn.com\/",
                 "desc": "GitHub中文社区",
                 "logo": "default.ico"
             },
@@ -3128,6 +3116,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "Github 严选周刊",
+                "href": "https:\/\/github-cn.com\/weekly",
+                "desc": "每周精选一个高质量开源项目，深度解析其价值与应用场景。",
+                "logo": "default.ico"
+            },
+            {
                 "name": "每周科技补全 ",
                 "href": "https:\/\/github.com\/xuanli199\/weekly\/blob\/main\/README.md",
                 "desc": "玄离199的每周科技补全",
@@ -3141,8 +3135,8 @@
             },
             {
                 "name": "技术周刊精选列表",
-                "href": "https:\/\/fre123.com\/sp\/weekly",
-                "desc": "优质精选技术周刊，高质量信息流",
+                "href": "https:\/\/github.com\/yeshan333\/awesome-tech-weekly-zh",
+                "desc": "优质精选技术周刊、日刊、月刊，高质量信息流",
                 "logo": "default.ico"
             },
             {
