@@ -2073,3 +2073,25 @@ body[data-v-466c883f] {
 .czs-zip-folder-l:before {
 	content:"\EAA0"
 }
+
+/* ===== 最小修复：消除卡片"缺一块"（全屏生效） =====
+   原理：原 .item 用 float + 硬定高 (desc height: 35px)，
+         同一行卡片高度不一时，float 不会回流 → 右边空出 → "缺一块"。
+   修复：.item 内部改 flex column，标题/描述用 min-height 保证等高。
+   范围：所有屏幕。不改 .box、float、width、断点、颜色、阴影、侧栏、菜单。*/
+.main .box .item[data-v-43c30294] {
+    display: flex !important;
+    flex-direction: column !important;
+}
+.main .box .item .logo[data-v-43c30294],
+.main .box .item .no-logo[data-v-43c30294] {
+    min-height: 2.4em !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.main .box .item .desc[data-v-43c30294] {
+    height: auto !important;
+    min-height: 2.6em !important;
+    flex: 1 !important;
+}
