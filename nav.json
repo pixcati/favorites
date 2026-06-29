@@ -638,6 +638,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "大模型信息查询",
+                "href": "https:\/\/models.dev\/",
+                "desc": "不同提供商的模型价格、多模态支持、上下文窗口等信息查询",
+                "logo": "default.ico"
+            },
+            {
                 "name": "AI搜索引擎汇总",
                 "href": "https:\/\/felladrin.github.io\/awesome-ai-web-search",
                 "desc": "AI搜索引擎工具目录列表",
@@ -705,7 +711,7 @@
             },
             {
                 "name": "Github项目搜索",
-                "href": "https:\/\/www.github-zh.com\/search",
+                "href": "https:\/\/gitcn.org\/search",
                 "desc": "更好用的 GitHub 搜索引擎",
                 "logo": "default.ico"
             },
@@ -946,7 +952,7 @@
             },
             {
                 "name": "GitHub 排行榜",
-                "href": "https:\/\/github-cn.com\/ranking",
+                "href": "https:\/\/gitcn.org\/top",
                 "desc": "探索最受欢迎的开源项目",
                 "logo": "default.ico"
             },
@@ -2810,7 +2816,7 @@
             },
             {
                 "name": "Github上的公共书库",
-                "href": "https:\/\/www.github-zh.com\/topics\/books",
+                "href": "https:\/\/gitcn.org\/topics\/books",
                 "desc": "Github上共享电子书或学习资源",
                 "logo": "default.ico"
             },
@@ -3122,8 +3128,8 @@
                 "logo": "default.ico"
             },
             {
-                "name": "每周科技补全 ",
-                "href": "https:\/\/github.com\/xuanli199\/weekly\/blob\/main\/README.md",
+                "name": "每周科技补全",
+                "href": "https:\/\/my.feishu.cn\/wiki\/TOHawcRzricMQ3kr6lmc7x8nnGc",
                 "desc": "玄离199的每周科技补全",
                 "logo": "default.ico"
             },
