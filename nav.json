@@ -2180,6 +2180,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "盖世游戏",
+                "href": "https:\/\/gamehub.xiaoji.com\/zh-cn",
+                "desc": "在安卓上运行 PC 游戏，可导入本地或 Steam 游戏",
+                "logo": "default.ico"
+            },
+            {
                 "name": "安卓端PC模拟器合集",
                 "href": "https:\/\/www.bilibili.com\/read\/mobile?id=25407219",
                 "desc": "安卓上的Wine环境等",
@@ -2955,7 +2961,7 @@
             },
             {
                 "name": "不死鸟",
-                "href": "https:\/\/iao.su\/",
+                "href": "https:\/\/iui.su\/",
                 "desc": "分享为王",
                 "logo": "default.ico"
             },
