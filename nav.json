@@ -2647,20 +2647,20 @@
             },
             {
                 "name": "TVBox 配置源 ②",
-                "href": "http:\/\/www.%e9%a5%ad%e5%a4%aa%e7%a1%ac.net\/tv",
+                "href": "https:\/\/github.com\/youhunwl\/TVAPP#%E6%8E%A5%E5%8F%A3%E6%BA%90-",
                 "desc": "TVBox源仓库与接口",
                 "logo": "default.ico"
             },
             {
-                "name": "IPTV直播源汇总",
-                "href": "https:\/\/yinghezhinan.com\/iptv\/",
-                "desc": "直播源仓库",
+                "name": "全网TV影视应用汇总 ①",
+                "href": "https:\/\/github.com\/youhunwl\/TVAPP",
+                "desc": "涵盖影视、直播、K歌、工具、游戏等类型",
                 "logo": "default.ico"
             },
             {
-                "name": "直播源格式转换",
-                "href": "https:\/\/guihet.com\/tvlistconvert.html",
-                "desc": " DPL、M3U、mitv、NewTV、MTV、大屏Json",
+                "name": "全网TV影视应用汇总 ②",
+                "href": "https:\/\/github.com\/laoma2053\/awesome-zhuiju-free",
+                "desc": "人工精选影视 APP、网盘搜索、磁力BT、TVbox与影视仓配置源等",
                 "logo": "default.ico"
             },
             {
