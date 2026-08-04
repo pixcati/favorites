@@ -1971,7 +1971,7 @@
             },
             {
                 "name": "BL解锁规则汇总",
-                "href": "https:\/\/khwang9883.github.io\/MobileModels\/misc\/bootloader-kernel-source.html",
+                "href": "https:\/\/github.com\/MlgmXyysd\/android-bootloader-kernel-source",
                 "desc": "不同手机厂商 Bootloader 解锁规则",
                 "logo": "default.ico"
             },
