@@ -216,6 +216,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "摸摸鱼热榜",
+                "href": "https:\/\/www.momoyu.cc\/",
+                "desc": "摸摸鱼热榜",
+                "logo": "default.ico"
+            },
+            {
                 "name": "沉浸式翻译",
                 "href": "https:\/\/immersivetranslate.com\/",
                 "desc": "双语对照网页翻译",
@@ -1162,9 +1168,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "懒人工具箱",
-                "href": "https:\/\/tool.lanrentuku.com\/",
-                "desc": "大小写转换、汉字转拼音、时间戳转换、字数统计等",
+                "name": "爱资料工具",
+                "href": "https:\/\/www.toolnb.com\/",
+                "desc": "好用的在线工具箱",
                 "logo": "default.ico"
             },
             {
@@ -3140,8 +3146,8 @@
                 "logo": "default.ico"
             },
             {
-                "name": "奇趣周刊 ",
-                "href": "https:\/\/zishu.me\/categories\/weekly\/",
+                "name": "奇趣周刊",
+                "href": "https:\/\/zishu.me\/weekly",
                 "desc": "奇趣周刊",
                 "logo": "default.ico"
             },
@@ -3509,7 +3515,7 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Interesting",
+                "name": "Interactive",
                 "href": "https:\/\/fmhy.net\/miscguide#interactive",
                 "desc": "",
                 "logo": "default.ico"
@@ -3599,9 +3605,15 @@
                 "logo": "default.ico"
             },
             {
-                "name": "AI 人生重开手帐",
+                "name": "AI人生重开手帐",
                 "href": "https:\/\/re.maa-ai.com\/",
-                "desc": "一个人生重开模拟器的AI版本",
+                "desc": "人生重开模拟器AI版本",
+                "logo": "default.ico"
+            },
+            {
+                "name": "AI人生引擎",
+                "href": "https:\/\/ailifeengine.zeabur.app\/",
+                "desc": "在任何世界成为你想成为的任何事物",
                 "logo": "default.ico"
             },
             {
@@ -3614,12 +3626,6 @@
                 "name": "P站Logo生成",
                 "href": "https:\/\/www.logoly.pro\/",
                 "desc": "Pornhub风格logo生成",
-                "logo": "default.ico"
-            },
-            {
-                "name": "用书签生成网站",
-                "href": "https:\/\/pintree.io\/guide-zh.html",
-                "desc": "将浏览器书签导出成导航网站",
                 "logo": "default.ico"
             },
             {
