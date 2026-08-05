@@ -57,7 +57,7 @@
 			top: 0;
 			left: 0;
 			right: 0;
-			padding: 0.75rem 1.5rem;
+			padding: 0.75rem 2rem;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -81,13 +81,7 @@
 			color: var(--accent);
 		}
 
-		.header-actions {
-			display: flex;
-			align-items: center;
-			gap: 0.5rem;
-		}
-
-		/* Desktop Nav */
+		/* Desktop Navigation */
 		.nav-desktop {
 			display: flex;
 			align-items: center;
@@ -97,10 +91,10 @@
 		.nav-desktop a {
 			color: var(--text-secondary);
 			text-decoration: none;
-			font-size: 0.85rem;
+			font-size: 0.9rem;
 			font-weight: 500;
 			transition: var(--transition);
-			padding: 0.5rem 0.75rem;
+			padding: 0.5rem 0.875rem;
 			border-radius: var(--radius-sm);
 			white-space: nowrap;
 		}
@@ -110,13 +104,41 @@
 			background: var(--bg-secondary);
 		}
 
-		/* Action Buttons */
+		/* Theme Toggle */
+		.theme-toggle {
+			background: var(--bg-secondary);
+			border: 1px solid var(--border);
+			border-radius: var(--radius-sm);
+			width: 38px;
+			height: 38px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: var(--transition);
+			color: var(--text-primary);
+			margin-left: 0.5rem;
+		}
+
+		.theme-toggle:hover {
+			background: var(--accent);
+			color: white;
+			border-color: var(--accent);
+		}
+
+		/* Mobile Controls */
+		.mobile-controls {
+			display: none;
+			align-items: center;
+			gap: 0.5rem;
+		}
+
 		.action-btn {
 			background: var(--bg-secondary);
 			border: 1px solid var(--border);
 			border-radius: var(--radius-sm);
-			width: 36px;
-			height: 36px;
+			width: 38px;
+			height: 38px;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -131,10 +153,9 @@
 			border-color: var(--accent);
 		}
 
-		/* Mobile Menu Dropdown */
+		/* Mobile Dropdown Menu */
 		.mobile-menu {
 			position: relative;
-			display: none;
 		}
 
 		.menu-dropdown {
@@ -146,7 +167,7 @@
 			border-radius: var(--radius);
 			box-shadow: var(--shadow-lg);
 			padding: 0.5rem;
-			min-width: 140px;
+			min-width: 150px;
 			opacity: 0;
 			transform: translateY(-10px);
 			pointer-events: none;
@@ -164,10 +185,10 @@
 			display: flex;
 			align-items: center;
 			gap: 0.75rem;
-			padding: 0.625rem 0.75rem;
+			padding: 0.625rem 0.875rem;
 			color: var(--text-secondary);
 			text-decoration: none;
-			font-size: 0.85rem;
+			font-size: 0.875rem;
 			border-radius: var(--radius-sm);
 			transition: var(--transition);
 		}
@@ -178,8 +199,9 @@
 		}
 
 		.menu-dropdown a i {
-			width: 16px;
+			width: 18px;
 			text-align: center;
+			font-size: 0.875rem;
 		}
 
 		/* Main */
@@ -188,7 +210,7 @@
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			padding: 6rem 1.5rem 3rem;
+			padding: 6rem 2rem 3rem;
 		}
 
 		.container {
@@ -293,14 +315,14 @@
 			text-decoration: underline;
 		}
 
-		/* Responsive - Tablet */
+		/* Responsive - Tablet & Mobile */
 		@media (max-width: 900px) {
 			.nav-desktop {
 				display: none;
 			}
 
-			.mobile-menu {
-				display: block;
+			.mobile-controls {
+				display: flex;
 			}
 
 			.header {
@@ -328,7 +350,7 @@
 			}
 		}
 
-		/* Responsive - Mobile */
+		/* Responsive - Small Mobile */
 		@media (max-width: 480px) {
 			.main {
 				padding: 5rem 1rem 2rem;
@@ -392,44 +414,45 @@
 			<span>GitHub 加速</span>
 		</a>
 		
-		<div class="header-actions">
-			<!-- Desktop Navigation -->
-			<nav class="nav-desktop">
-				<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank" title="Github 加速脚本">
-					<i class="fas fa-code"></i> 脚本
-				</a>
-				<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank" title="Github 最新 hosts">
-					<i class="fas fa-network-wired"></i> Hosts
-				</a>
-				<a href="https://favorites.pages.dev/" target="_blank">
-					<i class="fas fa-compass"></i> 更多
-				</a>
-			</nav>
-			
-			<!-- Theme Toggle (Always Visible) -->
-			<button class="action-btn" id="themeToggle" aria-label="切换主题">
+		<!-- Desktop Navigation -->
+		<nav class="nav-desktop">
+			<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank" title="Github 加速脚本">
+				<i class="fas fa-code"></i> 脚本
+			</a>
+			<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank" title="Github 最新 hosts">
+				<i class="fas fa-network-wired"></i> Hosts
+			</a>
+			<a href="https://favorites.pages.dev/" target="_blank">
+				<i class="fas fa-compass"></i> 更多
+			</a>
+			<button class="theme-toggle" id="themeToggle" aria-label="切换主题">
 				<i class="fas fa-moon"></i>
 			</button>
-			
-			<!-- Mobile Menu Toggle -->
-			<button class="action-btn mobile-menu-btn" id="menuToggle" aria-label="菜单">
-				<i class="fas fa-bars"></i>
+		</nav>
+		
+		<!-- Mobile Controls -->
+		<div class="mobile-controls">
+			<button class="action-btn" id="themeToggleMobile" aria-label="切换主题">
+				<i class="fas fa-moon"></i>
 			</button>
-			
-			<!-- Mobile Dropdown Menu -->
-			<div class="menu-dropdown" id="menuDropdown">
-				<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank">
-					<i class="fas fa-code"></i>
-					<span>脚本</span>
-				</a>
-				<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank">
-					<i class="fas fa-network-wired"></i>
-					<span>Hosts</span>
-				</a>
-				<a href="https://favorites.pages.dev/" target="_blank">
-					<i class="fas fa-compass"></i>
-					<span>更多</span>
-				</a>
+			<div class="mobile-menu">
+				<button class="action-btn" id="menuToggle" aria-label="菜单">
+					<i class="fas fa-bars"></i>
+				</button>
+				<div class="menu-dropdown" id="menuDropdown">
+					<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank">
+						<i class="fas fa-code"></i>
+						<span>脚本</span>
+					</a>
+					<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank">
+						<i class="fas fa-network-wired"></i>
+						<span>Hosts</span>
+					</a>
+					<a href="https://favorites.pages.dev/" target="_blank">
+						<i class="fas fa-compass"></i>
+						<span>更多</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -465,31 +488,47 @@
 	</footer>
 
 	<script>
-		// 主题切换
-		const themeToggle = document.getElementById('themeToggle');
-		const themeIcon = themeToggle.querySelector('i');
-		
-		const savedTheme = localStorage.getItem('theme');
-		if (savedTheme) {
-			document.documentElement.setAttribute('data-theme', savedTheme);
-			updateThemeIcon(savedTheme);
-		} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-			document.documentElement.setAttribute('data-theme', 'dark');
-			updateThemeIcon('dark');
+		// 主题切换函数
+		function initTheme() {
+			const savedTheme = localStorage.getItem('theme');
+			if (savedTheme) {
+				document.documentElement.setAttribute('data-theme', savedTheme);
+				return savedTheme;
+			} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+				return 'dark';
+			}
+			return 'light';
 		}
 		
 		function updateThemeIcon(theme) {
-			themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+			const icons = document.querySelectorAll('#themeToggle i, #themeToggleMobile i');
+			icons.forEach(icon => {
+				icon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+			});
 		}
 		
-		themeToggle.addEventListener('click', (e) => {
-			e.stopPropagation();
+		function toggleTheme() {
 			const currentTheme = document.documentElement.getAttribute('data-theme');
 			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-			
 			document.documentElement.setAttribute('data-theme', newTheme);
 			localStorage.setItem('theme', newTheme);
 			updateThemeIcon(newTheme);
+		}
+		
+		// 初始化主题
+		const currentTheme = initTheme();
+		updateThemeIcon(currentTheme);
+		
+		// 主题切换事件 (桌面 + 移动)
+		document.getElementById('themeToggle').addEventListener('click', (e) => {
+			e.stopPropagation();
+			toggleTheme();
+		});
+		
+		document.getElementById('themeToggleMobile').addEventListener('click', (e) => {
+			e.stopPropagation();
+			toggleTheme();
 		});
 		
 		// 移动端菜单
