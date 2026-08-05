@@ -1,114 +1,548 @@
 <!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Github 下载加速</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta property="og:title" content="GitHub代理加速服务" />
-		<meta property="og:description" content="ghproxy,GitHub代理加速,Github文件加速,Github代理下载,Github加速下载,Github下载加速,Github镜像站" />
-		<link rel="stylesheet" type="text/css" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-" />
+<html lang="zh-CN">
+<head>
+	<title>GitHub 下载加速</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta property="og:title" content="GitHub 代理加速服务" />
+	<meta property="og:description" content="ghproxy, GitHub 代理加速，Github 文件加速，Github 代理下载" />
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	
+	<style>
+		:root {
+			--bg-primary: #ffffff;
+			--bg-secondary: #f8f9fa;
+			--text-primary: #1a1a2e;
+			--text-secondary: #4a4a6a;
+			--accent: #e89980;
+			--accent-hover: #d48870;
+			--border: #e5e5e5;
+			--shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+			--shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
+			--radius: 12px;
+			--radius-sm: 8px;
+			--transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+		}
 
-		<style type="text/css">
-a,body,div,footer,form,h1,h2,header,html,li,nav,p,section,ul{margin:0;padding:0;border:0;vertical-align:baseline;font:inherit;font-size:100%}footer,header,nav,section{display:block}body{line-height:1}ul{list-style:none}body{-webkit-text-size-adjust:none}input::-moz-focus-inner{padding:0;border:0}input{-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;appearance:none}body{-ms-overflow-style:scrollbar}@media screen and (max-width:480px){body,html{min-width:320px}}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{background:#f5f5f5}body,input{color:#777;letter-spacing:-.015em;font-weight:300;font-size:16pt;font-family:"Source Sans Pro",sans-serif;line-height:1.65em}a{border-bottom:dotted 1px;color:#e89980;text-decoration:none;-webkit-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;-moz-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out;-ms-transition:color .2s ease-in-out,border-bottom-color .2s ease-in-out}a:hover{border-bottom-color:transparent}p{margin:0 0 2em 0}h1,h2{margin:0 0 .5em 0;color:#646464;font-weight:300;line-height:1em}h1 a{color:inherit;text-decoration:none}h2{letter-spacing:-.035em;font-size:2.25em;line-height:1.5em}.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row>.col-4{width:33.33333%}.row>.col-8{width:66.66667%}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}@media screen and (max-width:1680px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}@media screen and (max-width:1280px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}@media screen and (max-width:980px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}@media screen and (max-width:840px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}@media screen and (max-width:736px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}@media screen and (max-width:480px){.row{display:flex;box-sizing:border-box;flex-wrap:wrap;align-items:stretch}.row>*{box-sizing:border-box}.row.gtr-uniform>*>:last-child{margin-bottom:0}.row>.col-12-mobilep{width:100%}.row.gtr-50{margin-top:0;margin-left:-1em}.row.gtr-50>*{padding:0 0 0 1em}.row.gtr-50.gtr-uniform{margin-top:-1em}.row.gtr-50.gtr-uniform>*{padding-top:1em}.row{margin-top:0;margin-left:-2em}.row>*{padding:0 0 0 2em}.row.gtr-uniform{margin-top:-2em}.row.gtr-uniform>*{padding-top:2em}}form{margin:0 0 2em 0}input[type=text]{display:block;padding:0 1em;width:100%;outline:0;border:solid 1px #e5e5e5;border-radius:6px;background-color:#f8f8f8;color:inherit;text-decoration:none;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;appearance:none}input[type=text]:invalid{box-shadow:none}input[type=text]:focus{border-color:#e89980;box-shadow:0 0 0 2px #e89980}input[type=text]{height:3em}::-webkit-input-placeholder{color:#999!important;opacity:1}:-moz-placeholder{color:#999!important;opacity:1}::-moz-placeholder{color:#999!important;opacity:1}:-ms-input-placeholder{color:#999!important;opacity:1}ul{margin:0 0 2em 0;padding-left:1em;list-style:disc}ul li{padding-left:.5em}input[type=submit]{display:inline-block;padding:0 2em;height:3em;border:0;border-radius:6px;background-color:#666;color:#fff;text-align:center;text-decoration:none;white-space:nowrap;font-weight:400;line-height:3em;cursor:pointer;-webkit-transition:background-color .2s ease-in-out,color .2s ease-in-out;-moz-transition:background-color .2s ease-in-out,color .2s ease-in-out;transition:background-color .2s ease-in-out,color .2s ease-in-out;-moz-appearance:none;-webkit-appearance:none;-ms-appearance:none;appearance:none;-ms-transition:background-color .2s ease-in-out,color .2s ease-in-out}input[type=submit]:hover{background-color:#737373}input[type=submit]:active{background-color:#595959}input[type=submit]:disabled{background-color:#777!important;box-shadow:inset 0 -.15em 0 0 rgba(0,0,0,.15);color:#f5f5f5!important;opacity:.25;cursor:default}#page-wrapper{padding-top:3em}body.landing #page-wrapper{padding-top:0}#header{position:fixed;top:0;left:0;z-index:10000;width:100%;height:3.25em;background:#444;color:#bbb;line-height:3.25em;cursor:default}#header h1{position:absolute;top:0;left:1.25em;margin:0;padding:0;height:inherit;color:inherit;line-height:inherit}#header h1 a{border:0;color:#fff;font-weight:400}#header nav{position:absolute;top:0;right:.75em;height:inherit;vertical-align:middle;line-height:inherit}#header nav>ul{margin:0;padding-left:0;list-style:none}#header nav>ul>li{display:inline-block;padding-left:0}#header nav>ul>li a{display:inline-block;padding:0 1em;height:2em;border-radius:6px;line-height:1.95em}#header nav>ul>li a:not(.button){display:inline-block;border:0;color:#fff;text-decoration:none}#header nav>ul>li:first-child{margin-left:0}#header.alt{position:absolute;background:0;color:rgba(255,255,255,.75);-moz-animation:none;-webkit-animation:none;-ms-animation:none;animation:none}#footer{padding:1em 0;text-align:center;font-size:18px}#footer a{margin:5px;color:#000}#footer p{color:#888}#cta{padding:7em 0 4em 0;color:#fff;text-align:center;font-weight:300}#cta h2{color:inherit}#cta form{margin:0 auto;width:25em;max-width:100%}#cta input[type=submit]{background:#fff;box-shadow:none;color:#444}#cta input[type=text]{border:0;background:rgba(255,255,255,.15);color:#fff}#cta input[type=text]:focus{box-shadow:inset 0 0 0 2px #fff}#cta ::-webkit-input-placeholder{color:rgba(255,255,255,.75)!important}#cta :-moz-placeholder{color:rgba(255,255,255,.75)!important}#cta ::-moz-placeholder{color:rgba(255,255,255,.75)!important}#cta :-ms-input-placeholder{color:rgba(255,255,255,.75)!important}@media screen and (max-width:1680px){body,input{font-size:13pt}}@media screen and (max-width:1280px){body,input{font-size:11pt}}@media screen and (max-width:980px){body,input{font-size:11pt}}@media screen and (max-width:840px){body,html{overflow-x:hidden}body,input{font-size:11pt}#page-wrapper{padding-top:0}#page-wrapper{padding-bottom:1px;-webkit-transition:-webkit-transform .5s ease;-moz-transition:-moz-transform .5s ease;transition:transform .5s ease;-moz-backface-visibility:hidden;-webkit-backface-visibility:hidden;-ms-backface-visibility:hidden;backface-visibility:hidden;-ms-transition:-ms-transform .5s ease}h2{letter-spacing:-.025em;font-size:1.75em;line-height:1.35em}#footer{padding:1.5em 0}}@media screen and (max-width:480px){body,html{min-width:320px}body,input{font-size:11pt}}.container{margin:0 auto;max-width:calc(100% - 5em);width:60em}@media screen and (max-width:840px){.container{width:100%!important}}@media screen and (max-width:736px){.container{max-width:100%}}.box{background:#fff;border-radius:6px;box-shadow:0 2px 0 0 #e5e5e5;margin:0 0 2em;padding:3em}.box>:last-child{margin-bottom:0}#main{padding:2em 0}#main>header{text-align:center;margin:0 0 3em}#main>header h2{font-size:2.75em;margin:0}body.landing #main{margin-top:1em}@media screen and (max-width:840px){.box{padding:3em 2em}}@media screen and (max-width:736px){h2{font-size:1.75em;line-height:1.35em;letter-spacing:-.025em}h3{font-size:1.5em}h4{font-size:1em}.box{margin:1em;overflow-x:hidden;padding:2em!important}#main{padding:4em 0 0}#main>header{margin:0 2em 1.5em}#main>header h2{font-size:2em;line-height:2.5em}body.landing #main{padding:0;margin-top:0}}@media screen and (max-width:480px){.box{border-radius:0;box-shadow:none;margin:1em 0 0;padding:3em 1em!important}}
-			#cta {
-				background: #272822;
+		[data-theme="dark"] {
+			--bg-primary: #1a1a2e;
+			--bg-secondary: #16162a;
+			--text-primary: #f0f0f5;
+			--text-secondary: #a0a0b0;
+			--border: #2a2a4a;
+			--shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+			--shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
+		}
+
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+			background: var(--bg-primary);
+			color: var(--text-primary);
+			line-height: 1.6;
+			transition: var(--transition);
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+		}
+
+		/* Header */
+		.header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			padding: 0.75rem 1.5rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background: var(--bg-primary);
+			box-shadow: var(--shadow);
+			z-index: 1000;
+			transition: var(--transition);
+		}
+
+		.logo {
+			font-size: 1.1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+			text-decoration: none;
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+		}
+
+		.logo i {
+			color: var(--accent);
+		}
+
+		.header-actions {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+		}
+
+		/* Desktop Nav */
+		.nav-desktop {
+			display: flex;
+			align-items: center;
+			gap: 0.25rem;
+		}
+
+		.nav-desktop a {
+			color: var(--text-secondary);
+			text-decoration: none;
+			font-size: 0.85rem;
+			font-weight: 500;
+			transition: var(--transition);
+			padding: 0.5rem 0.75rem;
+			border-radius: var(--radius-sm);
+			white-space: nowrap;
+		}
+
+		.nav-desktop a:hover {
+			color: var(--accent);
+			background: var(--bg-secondary);
+		}
+
+		/* Action Buttons */
+		.action-btn {
+			background: var(--bg-secondary);
+			border: 1px solid var(--border);
+			border-radius: var(--radius-sm);
+			width: 36px;
+			height: 36px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: var(--transition);
+			color: var(--text-primary);
+		}
+
+		.action-btn:hover {
+			background: var(--accent);
+			color: white;
+			border-color: var(--accent);
+		}
+
+		/* Mobile Menu Dropdown */
+		.mobile-menu {
+			position: relative;
+			display: none;
+		}
+
+		.menu-dropdown {
+			position: absolute;
+			top: calc(100% + 8px);
+			right: 0;
+			background: var(--bg-primary);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			box-shadow: var(--shadow-lg);
+			padding: 0.5rem;
+			min-width: 140px;
+			opacity: 0;
+			transform: translateY(-10px);
+			pointer-events: none;
+			transition: var(--transition);
+			z-index: 1001;
+		}
+
+		.menu-dropdown.active {
+			opacity: 1;
+			transform: translateY(0);
+			pointer-events: auto;
+		}
+
+		.menu-dropdown a {
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+			padding: 0.625rem 0.75rem;
+			color: var(--text-secondary);
+			text-decoration: none;
+			font-size: 0.85rem;
+			border-radius: var(--radius-sm);
+			transition: var(--transition);
+		}
+
+		.menu-dropdown a:hover {
+			background: var(--bg-secondary);
+			color: var(--accent);
+		}
+
+		.menu-dropdown a i {
+			width: 16px;
+			text-align: center;
+		}
+
+		/* Main */
+		.main {
+			flex: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 6rem 1.5rem 3rem;
+		}
+
+		.container {
+			max-width: 680px;
+			width: 100%;
+			text-align: center;
+		}
+
+		.icon-wrapper {
+			margin-bottom: 1.5rem;
+		}
+
+		.icon-wrapper i {
+			font-size: 4rem;
+			color: var(--accent);
+			opacity: 0.9;
+		}
+
+		.title {
+			font-size: 2rem;
+			font-weight: 700;
+			margin-bottom: 0.75rem;
+			color: var(--text-primary);
+		}
+
+		.subtitle {
+			font-size: 1rem;
+			color: var(--text-secondary);
+			margin-bottom: 2rem;
+			max-width: 500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/* Form */
+		.form {
+			display: flex;
+			gap: 0.5rem;
+			margin-bottom: 2rem;
+		}
+
+		.input {
+			flex: 1;
+			padding: 0.875rem 1.25rem;
+			font-size: 0.95rem;
+			border: 2px solid var(--border);
+			border-radius: var(--radius);
+			background: var(--bg-secondary);
+			color: var(--text-primary);
+			transition: var(--transition);
+			outline: none;
+		}
+
+		.input:focus {
+			border-color: var(--accent);
+			box-shadow: 0 0 0 4px rgba(232, 153, 128, 0.15);
+		}
+
+		.input::placeholder {
+			color: var(--text-secondary);
+			opacity: 0.6;
+		}
+
+		.button {
+			padding: 0.875rem 2rem;
+			font-size: 0.95rem;
+			font-weight: 600;
+			border: none;
+			border-radius: var(--radius);
+			background: var(--accent);
+			color: white;
+			cursor: pointer;
+			transition: var(--transition);
+			white-space: nowrap;
+		}
+
+		.button:hover {
+			background: var(--accent-hover);
+			transform: translateY(-2px);
+			box-shadow: 0 4px 15px rgba(232, 153, 128, 0.4);
+		}
+
+		.button:active {
+			transform: translateY(0);
+		}
+
+		/* Footer */
+		.footer {
+			padding: 1.5rem;
+			text-align: center;
+			color: var(--text-secondary);
+			font-size: 0.85rem;
+			border-top: 1px solid var(--border);
+		}
+
+		.footer a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+
+		.footer a:hover {
+			text-decoration: underline;
+		}
+
+		/* Responsive - Tablet */
+		@media (max-width: 900px) {
+			.nav-desktop {
+				display: none;
 			}
 
-			header nav ul li {
-				line-height: 30px;
+			.mobile-menu {
+				display: block;
 			}
 
-		</style>
+			.header {
+				padding: 0.75rem 1rem;
+			}
 
-	</head>
-	<body class="landing is-preload">
-		<div id="page-wrapper">
-			<header id="header" class="alt">
-				<h1><a href="./">Github文件加速</a></h1>
-				<nav id="nav">
-					<ul>
-					<li><a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank" title="Github加速脚本">脚本</a></li>
-					<li><a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank" title="Github最新hosts">Hosts</a></li>
-						<li><a href="https://favorites.pages.dev/" target="_blank">更多</a></li>
-					</ul>
-				</nav>
-			</header>
+			.title {
+				font-size: 1.5rem;
+			}
 
-			<section id="cta">
-				<i class="fa fa-github" style="font-size: 7em"></i>
-				<br />
-				<h2>Github 下载加速</h2>
-				<p>为Releases、archive、gist等文件提供代理加速下载服务，也便在其他网页和网站中引入相关资源。
-				</p>
-				<p>请在下方输入框中粘贴您的GitHub文件链接：
-</p>
-				<form action="./" method="get" target="__blank">
-					<div class="row gtr-50 gtr-uniform">
-						<div class="col-8 col-12-mobilep">
-							<input class="block url" type="text" name="q" id="email" placeholder="GitHub 文件链接"
-								pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$"
-								required>
-						</div>
-						<div class="col-4 col-12-mobilep">
-							<input type="submit" value="获取">
-						</div>
-					</div>
-				</form>
-			</section>
+			.subtitle {
+				font-size: 0.9rem;
+			}
+
+			.icon-wrapper i {
+				font-size: 3rem;
+			}
+
+			.form {
+				flex-direction: column;
+			}
+
+			.button {
+				width: 100%;
+			}
+		}
+
+		/* Responsive - Mobile */
+		@media (max-width: 480px) {
+			.main {
+				padding: 5rem 1rem 2rem;
+			}
+
+			.title {
+				font-size: 1.25rem;
+			}
+
+			.icon-wrapper i {
+				font-size: 2.5rem;
+			}
+
+			.subtitle {
+				font-size: 0.85rem;
+			}
+		}
+
+		/* Animation */
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+				transform: translateY(20px);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		.container {
+			animation: fadeIn 0.6s ease-out;
+		}
+
+		/* Dropdown arrow */
+		.menu-dropdown::before {
+			content: '';
+			position: absolute;
+			top: -6px;
+			right: 14px;
+			border-left: 6px solid transparent;
+			border-right: 6px solid transparent;
+			border-bottom: 6px solid var(--border);
+		}
+
+		.menu-dropdown::after {
+			content: '';
+			position: absolute;
+			top: -5px;
+			right: 15px;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			border-bottom: 5px solid var(--bg-primary);
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<a href="./" class="logo">
+			<i class="fab fa-github"></i>
+			<span>GitHub 加速</span>
+		</a>
+		
+		<div class="header-actions">
+			<!-- Desktop Navigation -->
+			<nav class="nav-desktop">
+				<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank" title="Github 加速脚本">
+					<i class="fas fa-code"></i> 脚本
+				</a>
+				<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank" title="Github 最新 hosts">
+					<i class="fas fa-network-wired"></i> Hosts
+				</a>
+				<a href="https://favorites.pages.dev/" target="_blank">
+					<i class="fas fa-compass"></i> 更多
+				</a>
+			</nav>
 			
+			<!-- Theme Toggle (Always Visible) -->
+			<button class="action-btn" id="themeToggle" aria-label="切换主题">
+				<i class="fas fa-moon"></i>
+			</button>
 			
-			 <section id="main" class="container">
-              <header>
-                <div>
-                  <header>
-                    <h2>相关</h2>
-                  </header>
-                </div>
-              </header>
-              <div class="row">
-                <div class="col-12">
-                  <section class="box">
-                    <h3>【油猴脚本】Github 增强 - 高速下载</h3>
-                    <p>高速下载 Git Clone/SSH、Release、Raw、Code(ZIP) 等文件 (公益加速)、项目列表单文件快捷下载等
-                      <br><br>
-                      <b>Greasy Fork：</b><font color="red"><a href="https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD" target="_blank">Github 增强 - 高速下载</a></font><br><b>扩展程序：</b><font color="red"><a href="https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo" target="_blank">Tampermonkey</a></font></p>
-                    <header>
-                      <h3>
-                        <b>Watt Toolkit（Steam++工具箱）</b>
-                      </h3>
-                    </header>
-                    <p>使用 YARP.ReverseProxy 开源项目进行本地反代来支持更快的访问游戏网站。可加速Steam、Discord、Twitch、Github 等
-					<br><br>
-                      <b>官网：</b><font color="red"><a href="https://steampp.net/" target="_blank">Watt Toolkit</a></font>
-					  </p>
-					  <header>
-                      <h3>
-                        <b>相似网站</b>
-                      </h3>
-                    </header>
-                        <ul>
-        <li><a href="https://github.akams.cn/" target="_blank">GitHub 文件加速 - Sonder</a></li>
-        <li><a href="https://github.moeyy.xyz/" target="_blank">GitHub 文件加速 - moeyy.xyz</a></li>
-        <li><a href="https://ghmirror00.pages.dev/" target="_blank">GitHub Mirror - ghmirror00.pages.dev</a></li>
-        <li><a href="https://tool.mintimate.cn/gh/" target="_blank">GitHub 文件加速 - mintimate.cn</a></li>
-        <li><a href="https://gh.jasonzeng.dev/" target="_blank">GitHub 文件加速 - jasonzeng.dev</a></li>
-        <li><a href="https://github.wuzhij.com/" target="_blank">GitHub 文件加速 - wuzhij.com</a></li>
-        <li><a href="https://github.cutemic.cn/" target="_blank">GitHub 文件加速 - cutemic.cn</a></li>
-        <li><a href="https://gitdl.cn/" target="_blank">GitHub 文件加速 - gitdl.cn</a></li>
-        <li><a href="https://bing.com/search?q=GitHub+%E6%96%87%E4%BB%B6%E5%8A%A0%E9%80%9F" target="_blank">更多...</a></li>
-    </ul>
-
-                  </section>
-                  
-                </div>
-              </div>
-            </section>
-
-			<footer id="footer">
-				<p>&copy;<a>Github 文件加速</a></p>
-			</footer>
+			<!-- Mobile Menu Toggle -->
+			<button class="action-btn mobile-menu-btn" id="menuToggle" aria-label="菜单">
+				<i class="fas fa-bars"></i>
+			</button>
+			
+			<!-- Mobile Dropdown Menu -->
+			<div class="menu-dropdown" id="menuDropdown">
+				<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank">
+					<i class="fas fa-code"></i>
+					<span>脚本</span>
+				</a>
+				<a href="https://cdn.pixcat.cn/https://raw.githubusercontent.com/521xueweihan/GitHub520/main/hosts" target="_blank">
+					<i class="fas fa-network-wired"></i>
+					<span>Hosts</span>
+				</a>
+				<a href="https://favorites.pages.dev/" target="_blank">
+					<i class="fas fa-compass"></i>
+					<span>更多</span>
+				</a>
+			</div>
 		</div>
-	</body>
-</html>
+	</header>
 
+	<main class="main">
+		<div class="container">
+			<div class="icon-wrapper">
+				<i class="fab fa-github"></i>
+			</div>
+			
+			<h1 class="title">GitHub 下载加速</h1>
+			<p class="subtitle">为 Releases、archive、gist 等文件提供代理加速下载服务</p>
+			
+			<form action="./" method="get" target="_blank" class="form">
+				<input 
+					class="input" 
+					type="text" 
+					name="q" 
+					placeholder="粘贴 GitHub 文件链接"
+					pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$"
+					required
+					autocomplete="off"
+				/>
+				<button type="submit" class="button">
+					<i class="fas fa-bolt"></i> 获取
+				</button>
+			</form>
+		</div>
+	</main>
+
+	<footer class="footer">
+		<p>&copy; <a href="./">GitHub 文件加速</a></p>
+	</footer>
+
+	<script>
+		// 主题切换
+		const themeToggle = document.getElementById('themeToggle');
+		const themeIcon = themeToggle.querySelector('i');
+		
+		const savedTheme = localStorage.getItem('theme');
+		if (savedTheme) {
+			document.documentElement.setAttribute('data-theme', savedTheme);
+			updateThemeIcon(savedTheme);
+		} else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			updateThemeIcon('dark');
+		}
+		
+		function updateThemeIcon(theme) {
+			themeIcon.className = theme === 'dark' ? 'fas fa-sun' : 'fas fa-moon';
+		}
+		
+		themeToggle.addEventListener('click', (e) => {
+			e.stopPropagation();
+			const currentTheme = document.documentElement.getAttribute('data-theme');
+			const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+			
+			document.documentElement.setAttribute('data-theme', newTheme);
+			localStorage.setItem('theme', newTheme);
+			updateThemeIcon(newTheme);
+		});
+		
+		// 移动端菜单
+		const menuToggle = document.getElementById('menuToggle');
+		const menuDropdown = document.getElementById('menuDropdown');
+		const menuIcon = menuToggle.querySelector('i');
+		
+		menuToggle.addEventListener('click', (e) => {
+			e.stopPropagation();
+			menuDropdown.classList.toggle('active');
+			menuIcon.className = menuDropdown.classList.contains('active') ? 'fas fa-times' : 'fas fa-bars';
+		});
+		
+		// 点击链接后关闭菜单
+		menuDropdown.querySelectorAll('a').forEach(link => {
+			link.addEventListener('click', () => {
+				menuDropdown.classList.remove('active');
+				menuIcon.className = 'fas fa-bars';
+			});
+		});
+		
+		// 点击外部关闭菜单
+		document.addEventListener('click', (e) => {
+			if (!menuDropdown.contains(e.target) && !menuToggle.contains(e.target)) {
+				menuDropdown.classList.remove('active');
+				menuIcon.className = 'fas fa-bars';
+			}
+		});
+		
+		// 输入框自动聚焦
+		document.querySelector('.input').focus();
+		
+		// 表单验证提示
+		const form = document.querySelector('.form');
+		const input = document.querySelector('.input');
+		
+		form.addEventListener('submit', (e) => {
+			if (!input.validity.valid) {
+				e.preventDefault();
+				input.style.borderColor = '#ef4444';
+				input.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
+				
+				setTimeout(() => {
+					input.style.borderColor = '';
+					input.style.boxShadow = '';
+				}, 2000);
+			}
+		});
+		
+		input.addEventListener('input', () => {
+			input.style.borderColor = '';
+			input.style.boxShadow = '';
+		});
+	</script>
+</body>
+</html>
