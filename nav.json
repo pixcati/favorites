@@ -1501,7 +1501,7 @@
             },
             {
                 "name": "老豆荚的应用分享",
-                "href": "https:\/\/oldpods.cn\/home\/index\/index",
+                "href": "https:\/\/oldpods.cn\/",
                 "desc": "旧版安卓软件、精简软件、定制版软件、游戏分享等",
                 "logo": "default.ico"
             },
@@ -1590,21 +1590,15 @@
                 "logo": "default.ico"
             },
             {
+                "name": "OpenAPK",
+                "href": "https:\/\/www.openapk.net\/zh\/",
+                "desc": "安卓开源应用APK下载",
+                "logo": "default.ico"
+            },
+            {
                 "name": "LITEAPKS",
                 "href": "https:\/\/liteapks.com\/",
                 "desc": "国外安卓破解软件游戏站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "AppShare",
-                "href": "https:\/\/appshare.muge.info\/#",
-                "desc": "AppShare",
-                "logo": "default.ico"
-            },
-            {
-                "name": "奇妙应用",
-                "href": "https:\/\/www.gy328.com\/app\/magicalapk\/",
-                "desc": "社区与APP应用分享",
                 "logo": "default.ico"
             },
             {
