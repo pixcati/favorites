@@ -51,7 +51,6 @@
 			flex-direction: column;
 		}
 
-		/* Header */
 		.header {
 			position: fixed;
 			top: 0;
@@ -81,7 +80,6 @@
 			color: var(--accent);
 		}
 
-		/* Desktop Navigation */
 		.nav-desktop {
 			display: flex;
 			align-items: center;
@@ -104,7 +102,6 @@
 			background: var(--bg-secondary);
 		}
 
-		/* Theme Toggle */
 		.theme-toggle {
 			background: var(--bg-secondary);
 			border: 1px solid var(--border);
@@ -126,7 +123,6 @@
 			border-color: var(--accent);
 		}
 
-		/* Mobile Controls */
 		.mobile-controls {
 			display: none;
 			align-items: center;
@@ -147,13 +143,14 @@
 			color: var(--text-primary);
 		}
 
-		.action-btn:hover {
+		.action-btn:hover,
+		.action-btn:active,
+		.action-btn:focus {
 			background: var(--accent);
 			color: white;
 			border-color: var(--accent);
 		}
 
-		/* Mobile Dropdown Menu */
 		.mobile-menu {
 			position: relative;
 		}
@@ -204,7 +201,6 @@
 			font-size: 0.875rem;
 		}
 
-		/* Main */
 		.main {
 			flex: 1;
 			display: flex;
@@ -245,7 +241,6 @@
 			margin-right: auto;
 		}
 
-		/* Form */
 		.form {
 			display: flex;
 			gap: 0.5rem;
@@ -297,7 +292,6 @@
 			transform: translateY(0);
 		}
 
-		/* Footer */
 		.footer {
 			padding: 1.5rem;
 			text-align: center;
@@ -315,7 +309,6 @@
 			text-decoration: underline;
 		}
 
-		/* Responsive - Tablet & Mobile */
 		@media (max-width: 900px) {
 			.nav-desktop {
 				display: none;
@@ -350,7 +343,6 @@
 			}
 		}
 
-		/* Responsive - Small Mobile */
 		@media (max-width: 480px) {
 			.main {
 				padding: 5rem 1rem 2rem;
@@ -369,7 +361,6 @@
 			}
 		}
 
-		/* Animation */
 		@keyframes fadeIn {
 			from {
 				opacity: 0;
@@ -385,7 +376,6 @@
 			animation: fadeIn 0.6s ease-out;
 		}
 
-		/* Dropdown arrow */
 		.menu-dropdown::before {
 			content: '';
 			position: absolute;
@@ -414,7 +404,6 @@
 			<span>GitHub 加速</span>
 		</a>
 		
-		<!-- Desktop Navigation -->
 		<nav class="nav-desktop">
 			<a href="https://scriptcat.org/zh-CN/script-show-page/900" target="_blank" title="Github 加速脚本">
 				<i class="fas fa-code"></i> 脚本
@@ -430,7 +419,6 @@
 			</button>
 		</nav>
 		
-		<!-- Mobile Controls -->
 		<div class="mobile-controls">
 			<button class="action-btn" id="themeToggleMobile" aria-label="切换主题">
 				<i class="fas fa-moon"></i>
@@ -488,7 +476,6 @@
 	</footer>
 
 	<script>
-		// 主题切换函数
 		function initTheme() {
 			const savedTheme = localStorage.getItem('theme');
 			if (savedTheme) {
@@ -516,11 +503,9 @@
 			updateThemeIcon(newTheme);
 		}
 		
-		// 初始化主题
 		const currentTheme = initTheme();
 		updateThemeIcon(currentTheme);
 		
-		// 主题切换事件 (桌面 + 移动)
 		document.getElementById('themeToggle').addEventListener('click', (e) => {
 			e.stopPropagation();
 			toggleTheme();
@@ -531,7 +516,6 @@
 			toggleTheme();
 		});
 		
-		// 移动端菜单
 		const menuToggle = document.getElementById('menuToggle');
 		const menuDropdown = document.getElementById('menuDropdown');
 		const menuIcon = menuToggle.querySelector('i');
@@ -542,7 +526,6 @@
 			menuIcon.className = menuDropdown.classList.contains('active') ? 'fas fa-times' : 'fas fa-bars';
 		});
 		
-		// 点击链接后关闭菜单
 		menuDropdown.querySelectorAll('a').forEach(link => {
 			link.addEventListener('click', () => {
 				menuDropdown.classList.remove('active');
@@ -550,7 +533,6 @@
 			});
 		});
 		
-		// 点击外部关闭菜单
 		document.addEventListener('click', (e) => {
 			if (!menuDropdown.contains(e.target) && !menuToggle.contains(e.target)) {
 				menuDropdown.classList.remove('active');
@@ -558,10 +540,8 @@
 			}
 		});
 		
-		// 输入框自动聚焦
 		document.querySelector('.input').focus();
 		
-		// 表单验证提示
 		const form = document.querySelector('.form');
 		const input = document.querySelector('.input');
 		
