@@ -1657,6 +1657,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "游戏资源导航",
+                "href": "https:\/\/youxi.ggonav.com\/",
+                "desc": "单机、主机、网页游戏资源聚合导航",
+                "logo": "default.ico"
+            },
+            {
                 "name": "云游戏平台合集",
                 "href": "https:\/\/www.207788.xyz\/55.html",
                 "desc": "汇总了云游戏平台",
@@ -1669,9 +1675,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "梨子乐",
-                "href": "https:\/\/lzlgo.com\/",
-                "desc": "PC游戏等",
+                "name": "GBTGAME",
+                "href": "https:\/\/pan.gbtgame.me\/",
+                "desc": "GBTGAME官方网盘",
                 "logo": "default.ico"
             },
             {
@@ -1804,12 +1810,6 @@
                 "name": "喜加一",
                 "href": "https:\/\/www.ithome.com\/zt\/xijiayi",
                 "desc": "当下可以白嫖的游戏",
-                "logo": "default.ico"
-            },
-            {
-                "name": "游戏资源导航",
-                "href": "https:\/\/youxi.ggonav.com\/",
-                "desc": "单机、主机、网页游戏资源聚合导航",
                 "logo": "default.ico"
             },
             {
