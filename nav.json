@@ -2096,6 +2096,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "爱玩机工具箱",
+                "href": "https:\/\/doc.byyoung.top\/",
+                "desc": "解锁玩机新姿势",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Shizuku",
                 "href": "https:\/\/shizuku.rikka.app\/zh-hans\/",
                 "desc": "让你的应用直接使用系统 API",
