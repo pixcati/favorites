@@ -1813,6 +1813,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "SteamDB",
+                "href": "https:\/\/steamdb.info\/",
+                "desc": "Steam第三方数据库，追踪价格及限时免费活动",
+                "logo": "default.ico"
+            },
+            {
                 "name": "模拟器与ROM资源索引",
                 "href": "https:\/\/fmhy.net\/gaming#emulation-roms",
                 "desc": "模拟器与ROM资源汇总索引",
@@ -1967,6 +1973,12 @@
                 "name": "境外APK下载 ②",
                 "href": "https:\/\/fmhy.net\/android-iosguide",
                 "desc": "Mod版APK或原版APK下载渠道",
+                "logo": "default.ico"
+            },
+            {
+                "name": "苹果限免软件",
+                "href": "https:\/\/gofans.cn\/",
+                "desc": "Apple限免正版软件优惠",
                 "logo": "default.ico"
             },
             {
