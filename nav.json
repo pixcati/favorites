@@ -2658,6 +2658,12 @@
                 "logo": "default.ico"
             },
             {
+                "name": "TvBox 全链路资源",
+                "href": "https:\/\/zoo.ink\/tvbox.html",
+                "desc": "TvBox全链路资源，接口、软件以及资源站点",
+                "logo": "default.ico"
+            },
+            {
                 "name": "全网TV影视应用汇总 ①",
                 "href": "https:\/\/github.com\/youhunwl\/TVAPP",
                 "desc": "涵盖影视、直播、K歌、工具、游戏等类型",
