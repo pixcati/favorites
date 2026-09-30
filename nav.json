@@ -722,12 +722,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "泄露数据查询",
-                "href": "https:\/\/taogefx.com\/3574.html",
-                "desc": "检查信息数据是否遭遇安全隐患",
-                "logo": "default.ico"
-            },
-            {
                 "name": "虫部落学术搜索",
                 "href": "https:\/\/scholar.chongbuluo.com\/",
                 "desc": "使用多个学术搜索引擎搜索内容",
@@ -3364,12 +3358,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Tor网址集",
-                "href": "https:\/\/onion666.com\/",
-                "desc": "深网网址列表",
-                "logo": "default.ico"
-            },
-            {
                 "name": "易学入门",
                 "href": "https:\/\/blog.17lai.site\/posts\/1accbe50\/",
                 "desc": "一篇关于易学入门的博文",
@@ -3485,13 +3473,7 @@
             },
             {
                 "name": "资料集 ①",
-                "href": "https:\/\/pan.pixcat.cn\/%E7%8E%84%E5%AD%A6",
-                "desc": "资料集合",
-                "logo": "default.ico"
-            },
-            {
-                "name": "资料集 ②",
-                "href": "https:\/\/pan.pixcat.cn\/%E5%AD%A6%E4%B9%A0\/%E7%8E%84%E5%AD%A6",
+                "href": "玄学 | Phttps:\/\/pan.pixcat.cn\/%E5%AD%A6%E4%B9%A0\/%E7%8E%84%E5%AD%A6",
                 "desc": "资料集合",
                 "logo": "default.ico"
             }
