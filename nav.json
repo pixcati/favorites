@@ -967,6 +967,12 @@
                 "href": "https:\/\/skillhub.cn\/",
                 "desc": "腾讯 SkillHub，专为中国用户优化的 Skills 社区",
                 "logo": "default.ico"
+            },
+            {
+                "name": "Agent Skills 榜单",
+                "href": "https:\/\/linkly.ai\/zh\/skills",
+                "desc": "最佳智能体技能榜单，综合参考多个平台的数据",
+                "logo": "default.ico"
             }
         ]
     },
@@ -3420,6 +3426,12 @@
             {
                 "name": "行星鉴定记录者",
                 "href": "https:\/\/planetrec.org\/",
+                "desc": "",
+                "logo": "default.ico"
+            },
+            {
+                "name": "iWell-Guard",
+                "href": "https:\/\/iwell-guard.com\/zh-hans\/",
                 "desc": "",
                 "logo": "default.ico"
             },
