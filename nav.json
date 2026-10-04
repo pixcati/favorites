@@ -143,21 +143,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "快速抠图",
-                "href": "https:\/\/www.gaoding.com\/koutu",
-                "desc": "实用在线抠图工具",
-                "logo": "default.ico"
-            },
-            {
                 "name": "inpaint-web",
                 "href": "https:\/\/inpaintweb.lxfater.com\/",
                 "desc": "无需上传在浏览器端进行图像修复、抠图、超分辨率等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Clipdrop",
-                "href": "https:\/\/clipdrop.co\/",
-                "desc": "AI绘画、图片脑补、背景替换去除、图片去字等",
                 "logo": "default.ico"
             },
             {
@@ -176,6 +164,12 @@
                 "name": "SD整合包",
                 "href": "https:\/\/space.bilibili.com\/12566101\/channel\/seriesdetail?sid=3930565",
                 "desc": "Stable Diffusion秋叶整合包",
+                "logo": "default.ico"
+            },
+            {
+                "name": "创作者免费素材清单",
+                "href": "https:\/\/skyzhao1223.github.io\/free-for-creators\/",
+                "desc": "免费可商用公共素材一览，音乐音效、视频素材、图片字体等",
                 "logo": "default.ico"
             }
         ]
@@ -1453,7 +1447,7 @@
             },
             {
                 "name": "寻找开源代替品",
-                "href": "https:\/\/openalternative.co\/",
+                "href": "https:\/\/i.pixcat.cn\/hu-lian-wang-nei-rong-bei-fen\/yu-ye-hui-lang\/yu-ye-hui-lang-ti-dai-pin-cha-zhao#ti-dai-pin-cha-zhao-wang-zhan",
                 "desc": "付费软件的开源免费替代方案",
                 "logo": "default.ico"
             },
