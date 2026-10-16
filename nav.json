@@ -469,9 +469,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "空投快传",
-                "href": "https:\/\/www.airportal.cn\/",
-                "desc": "AirPortal 空投快传",
+                "name": "SendTomo",
+                "href": "https:\/\/sendtomo.com\/",
+                "desc": "P2P文件传输，优先使用局域网，支持屏幕共享与超大文件传输",
                 "logo": "default.ico"
             },
             {
@@ -3002,12 +3002,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "什么值得看",
-                "href": "https:\/\/smzdk.top\/",
-                "desc": "发现当下正在发生的有趣事",
-                "logo": "default.ico"
-            },
-            {
                 "name": "如有乐享",
                 "href": "https:\/\/51.ruyo.net\/",
                 "desc": "分享是一种美德，是一种态度",
@@ -3165,7 +3159,7 @@
             },
             {
                 "name": "1000UserGuide",
-                "href": "https:\/\/1000userguide.com\/",
+                "href": "https:\/\/github.com\/naxiaoduo\/1000UserGuide",
                 "desc": "找到 1000 个种子用户",
                 "logo": "default.ico"
             },
@@ -3195,9 +3189,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "中文博客列表导航",
-                "href": "https:\/\/zhblogs.ohyee.cc\/",
-                "desc": "尝试链接几乎所有的中文博客",
+                "name": "HeyBlog",
+                "href": "https:\/\/www.heyblog.net\/",
+                "desc": "尝试发现、整理公开的个人博客站点",
                 "logo": "default.ico"
             },
             {
@@ -3210,12 +3204,6 @@
                 "name": "开往",
                 "href": "https:\/\/www.travellings.cn\/go.html",
                 "desc": "随机访问一个博客或网站",
-                "logo": "default.ico"
-            },
-            {
-                "name": "耕读",
-                "href": "https:\/\/igdux.com\/",
-                "desc": "耕读",
                 "logo": "default.ico"
             },
             {
@@ -3279,12 +3267,6 @@
                 "logo": "default.ico"
             },
             {
-                "name": "苏晓晴",
-                "href": "https:\/\/www.toubiec.cn\/",
-                "desc": "晓晴博客",
-                "logo": "default.ico"
-            },
-            {
                 "name": "Rat's Blog",
                 "href": "https:\/\/www.moerats.com\/",
                 "desc": "Rat's Blog",
@@ -3315,33 +3297,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "梅塔沃克",
-                "href": "https:\/\/iweec.com\/",
-                "desc": "梅塔沃克",
-                "logo": "default.ico"
-            },
-            {
-                "name": "缙哥哥",
-                "href": "https:\/\/www.dujin.org\/",
-                "desc": "缙哥哥博客",
-                "logo": "default.ico"
-            },
-            {
                 "name": "初之音",
                 "href": "https:\/\/www.himiku.com\/",
                 "desc": "初之音",
-                "logo": "default.ico"
-            },
-            {
-                "name": "皮皮凛",
-                "href": "https:\/\/owomoe.net\/",
-                "desc": "皮皮凛の小窝",
-                "logo": "default.ico"
-            },
-            {
-                "name": "V's Blog",
-                "href": "https:\/\/vofficial233.com\/",
-                "desc": "Vofficial",
                 "logo": "default.ico"
             },
             {
