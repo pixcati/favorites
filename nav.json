@@ -126,20 +126,14 @@
             },
             {
                 "name": "在线格式转换 ③",
-                "href": "https:\/\/convertio.co\/zh\/",
-                "desc": "将您的文件转换成任意格式",
+                "href": "https:\/\/i.pixcat.cn\/ge-shi-zhuan-huan-gong-ju#wang-ye-gong-ju",
+                "desc": "免费格式转换工具汇总，包含无需下载安装的在线工具与本地客户端",
                 "logo": "default.ico"
             },
             {
                 "name": "Local Audio Convert",
                 "href": "https:\/\/localaudioconvert.com\/audio-converter",
                 "desc": "在浏览器中本地转换音视频文件，支持一次拖入100个文件",
-                "logo": "default.ico"
-            },
-            {
-                "name": "FFmpeg网页版",
-                "href": "https:\/\/ffmpeg.gcc.ac.cn\/index_zh.html",
-                "desc": "在浏览器本地进行FFmpeg转码",
                 "logo": "default.ico"
             },
             {
@@ -187,14 +181,14 @@
             },
             {
                 "name": "大模型排行榜 ①",
-                "href": "https:\/\/lmarena.ai\/leaderboard\/",
-                "desc": "LMArena 大模型竞技榜单",
+                "href": "https:\/\/i.pixcat.cn\/da-mo-xing-pai-xing-bang-hui-zong",
+                "desc": "国内外大模型排行榜汇总",
                 "logo": "default.ico"
             },
             {
                 "name": "大模型排行榜 ②",
                 "href": "https:\/\/fmhy.net\/ai#ai-benchmarks",
-                "desc": "大模型评测榜单合集",
+                "desc": "大模型评测榜单与测试基准合集",
                 "logo": "default.ico"
             },
             {
@@ -680,15 +674,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "购物平替查询",
-                "href": "https:\/\/www.pingti.app\/",
-                "desc": "最佳平替，用更低价的搜索词购物",
-                "logo": "default.ico"
-            },
-            {
                 "name": "历史价格查询",
                 "href": "https:\/\/m.gwdang.com\/trendIndex\/",
-                "desc": "最佳平替，用更低价的搜索词购物",
+                "desc": "查询商品历史价格走势",
                 "logo": "default.ico"
             },
             {
@@ -1636,7 +1624,7 @@
     {
         "_id": "5cfdafadq0",
         "classify": "游戏资源",
-        "icon": "csz csz czs-game-l",
+        "icon": "csz czs-game-l",
         "sites": [
             {
                 "name": "安卓NS模拟器 ",
@@ -1809,7 +1797,7 @@
             {
                 "name": "SteamDB",
                 "href": "https:\/\/steamdb.info\/",
-                "desc": "Steam第三方数据库，追踪价格及限时免费活动",
+                "desc": "Steam 第三方数据库，追踪价格及限时免费活动",
                 "logo": "default.ico"
             },
             {
@@ -1843,6 +1831,18 @@
                 "logo": "default.ico"
             },
             {
+                "name": "GameNative",
+                "href": "https:\/\/github.com\/utkarshdalal\/GameNative",
+                "desc": "开源 Steam 第三方安卓客户端，在移动端玩PC游戏",
+                "logo": "default.ico"
+            },
+            {
+                "name": "DroidDeck",
+                "href": "https:\/\/github.com\/Droid-Deck\/DroidDeck",
+                "desc": "把 Steam OS 的体验带到安卓系统",
+                "logo": "default.ico"
+            },
+            {
                 "name": "Batocera",
                 "href": "https:\/\/batocera.org\/",
                 "desc": "基于Linux的复古游戏系统",
@@ -1852,6 +1852,12 @@
                 "name": "EmuELEC",
                 "href": "https:\/\/bing.com\/search?q=EmuELEC",
                 "desc": "基于LibreELEC的复古游戏模拟器系统，适用于ARM环境",
+                "logo": "default.ico"
+            },
+            {
+                "name": "Armada",
+                "href": "https:\/\/github.com\/virtudude\/armada",
+                "desc": "类似 SteamOS 的 Linux 发行版，让骁龙 ARM 掌机跑 PC 游戏",
                 "logo": "default.ico"
             },
             {
@@ -2204,9 +2210,9 @@
                 "logo": "default.ico"
             },
             {
-                "name": "Mac 运行 iOS 游戏",
-                "href": "https:\/\/github.com\/PlayCover\/PlayCover",
-                "desc": "安卓上的Wine环境等",
+                "name": "vphone-cli",
+                "href": "https:\/\/github.com\/Lakr233\/vphone-cli",
+                "desc": "在 macOS 上运行完整iOS",
                 "logo": "default.ico"
             },
             {
@@ -2410,18 +2416,6 @@
         "icon": "csz czs-html5",
         "sites": [
             {
-                "name": "图生代码",
-                "href": "https:\/\/www.octopus31.com\/code\/generate",
-                "desc": "AI通过图片为你生成代码",
-                "logo": "default.ico"
-            },
-            {
-                "name": "Web前端导航",
-                "href": "https:\/\/www.alloyteam.com\/nav\/",
-                "desc": "前端、设计师网址导航",
-                "logo": "default.ico"
-            },
-            {
                 "name": "WebStack",
                 "href": "https:\/\/webstack.cc\/cn\/index.html",
                 "desc": "前端、设计师网址导航",
@@ -2497,12 +2491,6 @@
                 "name": "我收藏的主题",
                 "href": "https:\/\/github.com\/stars\/pixcati\/lists\/%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F%E4%B8%8E%E4%B8%BB%E9%A2%98",
                 "desc": "Github上标星的主题、插件、衍生项目等",
-                "logo": "default.ico"
-            },
-            {
-                "name": "樱花Frp文档",
-                "href": "https:\/\/doc.natfrp.com\/",
-                "desc": "樱花Frp文档",
                 "logo": "default.ico"
             },
             {
@@ -3141,7 +3129,7 @@
             },
             {
                 "name": "每周科技补全",
-                "href": "https:\/\/my.feishu.cn\/wiki\/TOHawcRzricMQ3kr6lmc7x8nnGc",
+                "href": "https:\/\/xuanli199.github.io\/weekly\/",
                 "desc": "玄离199的每周科技补全",
                 "logo": "default.ico"
             },
@@ -3449,7 +3437,7 @@
             },
             {
                 "name": "资料集 ①",
-                "href": "玄学 | Phttps:\/\/pan.pixcat.cn\/%E5%AD%A6%E4%B9%A0\/%E7%8E%84%E5%AD%A6",
+                "href": "https:\/\/pan.pixcat.cn\/%E5%AD%A6%E4%B9%A0\/%E7%8E%84%E5%AD%A6",
                 "desc": "资料集合",
                 "logo": "default.ico"
             }
