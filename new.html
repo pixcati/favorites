@@ -393,31 +393,33 @@
 			.then(response => response.json())
 			.then(data => {
 				const container = document.getElementById('jsonList');
+				const categories = data.categories || [];
 
-				data.forEach(category => {
+				categories.forEach(category => {
 					const titleElement = document.createElement('div');
 					titleElement.className = 'title';
-					titleElement.innerHTML = `<i class="${category.icon}"></i> ${category.classify}`;
+					titleElement.textContent = `${category.icon || ''} ${category.name}`;
 
 					container.appendChild(titleElement);
 
 					const projectListElement = document.createElement('div');
 					projectListElement.className = 'projectList';
 
-					category.sites.forEach(site => {
+					const sites = (category.children || []).flatMap(child => child.sites || []);
+					sites.forEach(site => {
 						const projectItem = document.createElement('a');
 						projectItem.className = 'projectItem a';
 						projectItem.setAttribute('target', '_blank');
-						projectItem.href = site.href;
+						projectItem.href = site.url;
 
 						const projectItemLeft = document.createElement('div');
 						projectItemLeft.className = 'projectItemLeft';
 
 						const title = document.createElement('h1');
-						title.textContent = site.name;
+						title.textContent = site.title;
 
 						const description = document.createElement('p');
-						description.textContent = site.desc;
+						description.textContent = site.description;
 
 						projectItemLeft.appendChild(title);
 						projectItemLeft.appendChild(description);
@@ -426,7 +428,7 @@
 						projectItemRight.className = 'projectItemRight';
 
 						const img = document.createElement('img');
-						img.src = site.logo;
+						img.src = site.icon;
 						img.alt = site.name;
 
 						projectItemRight.appendChild(img);
