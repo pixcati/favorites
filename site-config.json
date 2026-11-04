@@ -1,0 +1,69 @@
+{
+  "title": "我的收藏",
+  "name": "我的收藏",
+  "description": "网站仅作为个人网络书签，不构成工具网站或导航",
+  "keywords": [
+    "导航",
+    "书签",
+    "收藏"
+  ],
+  "logo": "/images/logo.svg",
+  "favicon": "/favicon.ico",
+  "author": "pixcat",
+  "copyright": "我的收藏",
+  "icp": "",
+  "beian": "",
+  "qrCode": "",
+  "qrCodeText": "",
+  "footerLinks": [],
+  "themeMode": "system",
+  "search": {
+    "defaultEngine": "local",
+    "enableLocalSearch": true,
+    "showEngineSelector": true,
+    "enableSuggestion": true,
+    "enableTabFocus": true,
+    "placeholder": "搜索网站或直接按 Enter 通过外部引擎搜索...",
+    "engines": [
+      {
+        "id": "baidu",
+        "name": "百度",
+        "icon": "/images/baidu.svg",
+        "url": "https://www.baidu.com/s?wd={query}&tn=68018901_11_oem_dg"
+      },
+      {
+        "id": "bing",
+        "name": "必应",
+        "icon": "/images/bing.svg",
+        "url": "https://www.bing.com/search?q={query}"
+      },
+      {
+        "id": "google",
+        "name": "谷歌",
+        "icon": "/images/google.svg",
+        "url": "https://www.google.com/search?q={query}"
+      }
+    ]
+  },
+  "ads": [],
+  "plugins": [],
+  "layout": {
+    "maxWidth": "1400",
+    "showFooter": true,
+    "showFooterQrCode": false,
+    "showFloatingQrCode": false,
+    "showFloatingActions": true,
+    "defaultIconPadding": "8",
+    "linkTarget": "new"
+  },
+  "adsAspectRatio": "4/3",
+  "homeAdsAspectRatio": "16/9",
+  "submission": {
+    "enabled": false,
+    "showFloatingButton": false,
+    "showSidebarButton": false,
+    "staticEmail": ""
+  },
+  "sidebarAdsEnabled": false,
+  "homeAdsEnabled": false
+}
