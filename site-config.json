@@ -92,12 +92,6 @@
         "url": "https://m.sm.cn/s?q={query}"
       },
       {
-        "id": "zhihu",
-        "name": "知乎",
-        "icon": "/images/zhihu.svg",
-        "url": "https://www.zhihu.com/search?type=content&q={query}"
-      },
-      {
         "id": "bilibili",
         "name": "哔哩哔哩",
         "icon": "/images/bilibili.svg",
@@ -108,6 +102,12 @@
         "name": "少数派",
         "icon": "/images/sspai.svg",
         "url": "https://sspai.com/search?q={query}"
+      },
+      {
+        "id": "zhihu",
+        "name": "知乎",
+        "icon": "/images/zhihu.svg",
+        "url": "https://www.zhihu.com/search?type=content&q={query}"
       }
     ]
   },
