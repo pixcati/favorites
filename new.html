@@ -580,6 +580,7 @@
 				categories.forEach(category => {
 					const titleElement = document.createElement('div');
 					titleElement.className = 'title';
+					titleElement.style.animationDelay = '600ms';
 					titleElement.textContent = `${category.icon || ''} ${category.name}`;
 
 					container.appendChild(titleElement);
@@ -590,7 +591,7 @@
 					const sites = (category.children || []).flatMap(child => child.sites || []);
 					sites.forEach((site, siteIndex) => {
 						const projectItem = document.createElement('a');
-						projectItem.style.animationDelay = Math.min(siteIndex * 12, 240) + 'ms';
+						projectItem.style.animationDelay = (600 + Math.min(siteIndex * 12, 240)) + 'ms';
 						projectItem.className = 'projectItem a';
 						projectItem.setAttribute('target', '_blank');
 						projectItem.href = site.url;
