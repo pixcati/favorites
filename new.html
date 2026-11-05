@@ -110,7 +110,7 @@
 				width: 150px;
 				position: relative;
 				border-radius: 50%;
-				background: #472eff;
+				background: #10b981;
 				animation: zoom 1s linear infinite;
 			}
 			@keyframes zoom {
@@ -351,14 +351,20 @@
 				height: 100%;
 				border-radius: 999px;
 				cursor: pointer;
-				background: #334155;
+				background: rgba(51, 65, 85, 0.55);
+				backdrop-filter: blur(8px);
+				-webkit-backdrop-filter: blur(8px);
+				border: 1px solid rgba(255, 255, 255, 0.18);
 				box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.25);
 				transition: background 0.25s ease;
 				overflow: hidden;
 				position: relative;
 			}
 			.onoffswitch-checkbox:checked + .onoffswitch-label {
-				background: #e2e8f0;
+				background: rgba(226, 232, 240, 0.85);
+				backdrop-filter: blur(8px);
+				-webkit-backdrop-filter: blur(8px);
+				border: 1px solid rgba(0, 0, 0, 0.08);
 				box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
 			}
 			.onoffswitch-inner {
