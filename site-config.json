@@ -51,13 +51,13 @@
       },
       {
         "id": "metaso",
-        "name": "秘塔AI搜索",
+        "name": "秘塔 AI 搜索",
         "icon": "https://favicon.im/metaso.cn",
         "url": "https://metaso.cn/?q={query}"
       },
       {
         "id": "nano",
-        "name": "纳米AI搜索",
+        "name": "纳米 AI 搜索",
         "icon": "https://favicon.im/n.cn",
         "url": "https://so.n.cn/?q={query}"
       },
@@ -69,7 +69,7 @@
       },
       {
         "id": "360so",
-        "name": "360搜索",
+        "name": "360 搜索",
         "icon": "https://favicon.im/so.com",
         "url": "https://www.so.com/s?q={query}"
       },
