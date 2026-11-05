@@ -50,16 +50,28 @@
         "url": "https://duckduckgo.com/?q={query}"
       },
       {
+        "id": "yandex",
+        "name": "Yandex",
+        "icon": "/images/yandex.svg",
+        "url": "https://yandex.com/search/?text={query}"
+      },
+      {
         "id": "metaso",
-        "name": "秘塔 AI 搜索",
-        "icon": "https://favicon.im/metaso.cn",
+        "name": "秘塔 AI",
+        "icon": "/images/metaso.svg",
         "url": "https://metaso.cn/?q={query}"
       },
       {
         "id": "nano",
-        "name": "纳米 AI 搜索",
-        "icon": "https://favicon.im/n.cn",
+        "name": "纳米 AI",
+        "icon": "/images/nano.svg",
         "url": "https://so.n.cn/?q={query}"
+      },
+      {
+        "id": "quark",
+        "name": "夸克",
+        "icon": "/images/quark.svg",
+        "url": "https://quark.sm.cn/s?q={query}"
       },
       {
         "id": "sogou",
@@ -69,15 +81,33 @@
       },
       {
         "id": "360so",
-        "name": "360 搜索",
-        "icon": "https://favicon.im/so.com",
+        "name": "360",
+        "icon": "/images/360so.svg",
         "url": "https://www.so.com/s?q={query}"
       },
       {
         "id": "shenma",
         "name": "神马",
-        "icon": "https://favicon.im/sm.cn",
+        "icon": "/images/shenma.svg",
         "url": "https://m.sm.cn/s?q={query}"
+      },
+      {
+        "id": "zhihu",
+        "name": "知乎",
+        "icon": "/images/zhihu.svg",
+        "url": "https://www.zhihu.com/search?type=content&q={query}"
+      },
+      {
+        "id": "bilibili",
+        "name": "哔哩哔哩",
+        "icon": "/images/bilibili.svg",
+        "url": "https://www.bilibili.com/search?keyword={query}"
+      },
+      {
+        "id": "sspai",
+        "name": "少数派",
+        "icon": "/images/sspai.svg",
+        "url": "https://sspai.com/search?q={query}"
       }
     ]
   },
