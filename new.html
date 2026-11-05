@@ -89,7 +89,7 @@
 				color: var(--main_text_color);
 			}
 			#nav-loading {
-				transition: opacity 0.5s ease;
+				transition: opacity 0.3s ease;
 				background: radial-gradient(white, #d8eaff);
 				background-size: 100%;
 				background-position: center;
@@ -226,7 +226,7 @@
 				background: var(--item_hover_color);
 			}
 			.title {
-				animation: cardIn 0.4s ease backwards;
+				animation: cardIn 0.3s ease-out backwards;
 				display: flex;
 				align-items: center;
 				font-size: 26px;
@@ -258,7 +258,7 @@
 				}
 			}
 			.projectItem {
-				animation: cardIn 0.5s ease backwards;
+				animation: cardIn 0.35s ease-out backwards;
 				margin: 7px;
 				display: flex;
 				background-color: var(--item_bg_color);
@@ -580,7 +580,7 @@
 				categories.forEach(category => {
 					const titleElement = document.createElement('div');
 					titleElement.className = 'title';
-					titleElement.style.animationDelay = '600ms';
+					titleElement.style.animationDelay = '300ms';
 					titleElement.textContent = `${category.icon || ''} ${category.name}`;
 
 					container.appendChild(titleElement);
@@ -591,7 +591,7 @@
 					const sites = (category.children || []).flatMap(child => child.sites || []);
 					sites.forEach((site, siteIndex) => {
 						const projectItem = document.createElement('a');
-						projectItem.style.animationDelay = (600 + Math.min(siteIndex * 12, 240)) + 'ms';
+						projectItem.style.animationDelay = (300 + Math.min(siteIndex * 8, 120)) + 'ms';
 						projectItem.className = 'projectItem a';
 						projectItem.setAttribute('target', '_blank');
 						projectItem.href = site.url;
@@ -635,7 +635,7 @@
 			var pageLoading = document.querySelector("#nav-loading");
 			if (pageLoading) {
 				pageLoading.style.opacity = '0';
-				setTimeout(function() { pageLoading.style.display = 'none'; }, 600);
+				setTimeout(function() { pageLoading.style.display = 'none'; }, 350);
 			}
 		}
 	</script>
