@@ -23,19 +23,19 @@
     "showEngineSelector": true,
     "enableSuggestion": true,
     "enableTabFocus": true,
-    "placeholder": "搜索网站或直接按 Enter 通过外部引擎搜索...",
+    "placeholder": "搜点什么...",
     "engines": [
-      {
-        "id": "baidu",
-        "name": "百度",
-        "icon": "/images/baidu.svg",
-        "url": "https://www.baidu.com/s?wd={query}&tn=68018901_11_oem_dg"
-      },
       {
         "id": "bing",
         "name": "必应",
         "icon": "/images/bing.svg",
         "url": "https://www.bing.com/search?q={query}"
+      },
+      {
+        "id": "baidu",
+        "name": "百度",
+        "icon": "/images/baidu.svg",
+        "url": "https://www.baidu.com/s?wd={query}&tn=68018901_11_oem_dg"
       },
       {
         "id": "google",
@@ -44,15 +44,9 @@
         "url": "https://www.google.com/search?q={query}"
       },
       {
-        "id": "duckduckgo-svg",
-        "name": "DuckDuckGo (SVG)",
-        "icon": "/images/duckduckgo.svg",
-        "url": "https://duckduckgo.com/?q={query}"
-      },
-      {
         "id": "duckduckgo",
         "name": "DuckDuckGo",
-        "icon": "https://favicon.im/duckduckgo.com",
+        "icon": "/images/duckduckgo.svg",
         "url": "https://duckduckgo.com/?q={query}"
       },
       {
@@ -62,28 +56,28 @@
         "url": "https://metaso.cn/?q={query}"
       },
       {
-        "id": "sogou-svg",
-        "name": "搜狗 (SVG)",
-        "icon": "/images/sogou.svg",
-        "url": "https://www.sogou.com/web?query={query}"
+        "id": "nano",
+        "name": "纳米AI搜索",
+        "icon": "https://favicon.im/n.cn",
+        "url": "https://so.n.cn/?q={query}"
       },
       {
         "id": "sogou",
         "name": "搜狗",
-        "icon": "https://favicon.im/sogou.com",
+        "icon": "/images/sogou.svg",
         "url": "https://www.sogou.com/web?query={query}"
+      },
+      {
+        "id": "360so",
+        "name": "360搜索",
+        "icon": "https://favicon.im/so.com",
+        "url": "https://www.so.com/s?q={query}"
       },
       {
         "id": "shenma",
         "name": "神马",
         "icon": "https://favicon.im/sm.cn",
         "url": "https://m.sm.cn/s?q={query}"
-      },
-      {
-        "id": "nano",
-        "name": "纳米AI搜索",
-        "icon": "https://favicon.im/n.cn",
-        "url": "https://so.n.cn/?q={query}"
       }
     ]
   },
