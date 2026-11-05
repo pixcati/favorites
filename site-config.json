@@ -42,6 +42,48 @@
         "name": "谷歌",
         "icon": "/images/google.svg",
         "url": "https://www.google.com/search?q={query}"
+      },
+      {
+        "id": "duckduckgo-svg",
+        "name": "DuckDuckGo (SVG)",
+        "icon": "/images/duckduckgo.svg",
+        "url": "https://duckduckgo.com/?q={query}"
+      },
+      {
+        "id": "duckduckgo",
+        "name": "DuckDuckGo",
+        "icon": "https://favicon.im/duckduckgo.com",
+        "url": "https://duckduckgo.com/?q={query}"
+      },
+      {
+        "id": "metaso",
+        "name": "秘塔AI搜索",
+        "icon": "https://favicon.im/metaso.cn",
+        "url": "https://metaso.cn/?q={query}"
+      },
+      {
+        "id": "sogou-svg",
+        "name": "搜狗 (SVG)",
+        "icon": "/images/sogou.svg",
+        "url": "https://www.sogou.com/web?query={query}"
+      },
+      {
+        "id": "sogou",
+        "name": "搜狗",
+        "icon": "https://favicon.im/sogou.com",
+        "url": "https://www.sogou.com/web?query={query}"
+      },
+      {
+        "id": "shenma",
+        "name": "神马",
+        "icon": "https://favicon.im/sm.cn",
+        "url": "https://m.sm.cn/s?q={query}"
+      },
+      {
+        "id": "nano",
+        "name": "纳米AI搜索",
+        "icon": "https://favicon.im/n.cn",
+        "url": "https://so.n.cn/?q={query}"
       }
     ]
   },
