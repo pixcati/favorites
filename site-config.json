@@ -98,6 +98,12 @@
         "url": "https://m.sm.cn/s?q={query}"
       },
       {
+        "id": "douyin",
+        "name": "抖音",
+        "icon": "/images/douyin.svg",
+        "url": "https://www.douyin.com/search/{query}"
+      },
+      {
         "id": "bilibili",
         "name": "哔哩哔哩",
         "icon": "/images/bilibili.svg",
