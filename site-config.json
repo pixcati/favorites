@@ -110,6 +110,12 @@
         "url": "https://www.bilibili.com/search?keyword={query}"
       },
       {
+        "id": "youtube",
+        "name": "YouTube",
+        "icon": "/images/youtube.svg",
+        "url": "https://www.youtube.com/results?search_query={query}"
+      },
+      {
         "id": "sspai",
         "name": "少数派",
         "icon": "/images/sspai.svg",
