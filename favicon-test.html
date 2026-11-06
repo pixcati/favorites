@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>图标服务对比测试</title>
+<style>
+  body{font-family:system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;margin:24px;color:#1f2937;background:#fff}
+  h1{font-size:22px;margin:0 0 8px}
+  p{font-size:14px;line-height:1.7;color:#374151;max-width:1000px}
+  .note{font-size:13px;color:#6b7280}
+  button{font-size:14px;padding:6px 16px;border:1px solid #d1d5db;border-radius:8px;background:#f9fafb;cursor:pointer;margin:12px 0}
+  table{border-collapse:collapse;font-size:13px;margin-top:8px}
+  th,td{border:1px solid #e5e7eb;padding:6px 8px;text-align:center;vertical-align:middle}
+  th{background:#f3f4f6;white-space:nowrap}
+  td.domain{text-align:left;white-space:nowrap;font-weight:600}
+  td.noicon{background:#fef3c7}
+  .cell img{width:32px;height:32px;object-fit:contain;display:block;margin:0 auto}
+  .cell .t{font-size:11px;color:#6b7280;margin-top:2px;white-space:nowrap}
+  .cell .err{color:#dc2626;font-weight:700}
+  .cell .nolocal{font-size:20px;color:#9ca3af}
+  #summary td,#summary th{text-align:left}
+  #summary td.num{text-align:right;font-variant-numeric:tabular-nums}
+  .good{color:#047857;font-weight:700}
+  .bad{color:#dc2626;font-weight:700}
+  .unk{color:#b45309;font-weight:700}
+</style>
+</head>
+<body>
+<h1>图标服务对比测试</h1>
+<p>每一行是一个测试域名，每一列是一种图标来源。每个格子显示实际拿到的图标，下方是本次加载耗时（毫秒），加载失败显示 <span class="err">✗</span>。黄色行是没有图标的域名（example.com / example.org），用来看各服务在“拿不到图标”时是返回一张默认图（会盖住字母占位），还是什么都不返回（字母占位能正常显示）。每次打开页面都会带一个随机参数重新测一遍，避开浏览器缓存。</p>
+<p class="note">本地一列用的是随页面一起部署的本地图标文件（/favicon-test/ 目录）。没有图标的域名在本地列没有文件，直接显示字母，不发请求。</p>
+<button onclick="location.reload()">重新测试</button>
+<h2>汇总（本次浏览器实测）</h2>
+<table id="summary">
+<thead><tr><th>图标来源</th><th>平均耗时（毫秒，仅成功项）</th><th>成功</th><th>失败</th><th>拿不到图标时</th></tr></thead>
+<tbody><tr><td colspan="5">测试中……</td></tr></tbody>
+</table>
+<h2>逐项结果</h2>
+<table id="grid"></table>
+<h2>各服务“拿不到图标时”的表现（服务端验证）</h2>
+<ul id="verdicts" style="font-size:14px;line-height:1.9"></ul>
+<script>
+var CB = Date.now();
+var DOMAINS = [
+  {d:"github.com", hasIcon:true},
+  {d:"google.com", hasIcon:true},
+  {d:"bilibili.com", hasIcon:true},
+  {d:"zhihu.com", hasIcon:true},
+  {d:"v2ex.com", hasIcon:true},
+  {d:"pixcat.cn", hasIcon:true},
+  {d:"example.com", hasIcon:false},
+  {d:"example.org", hasIcon:false}
+];
+var SERVICES = [
+  {id:"local", name:"本地", url:function(d){return "/favicon-test/"+d+".svg";},
+   verdict:"无图标时不发请求，直接显示字母", cls:"good"},
+  {id:"faviconim", name:"favicon.im（现用）", url:function(d){return "https://favicon.im/"+d;},
+   verdict:"返回默认灰色 f 图，会盖住字母", cls:"bad"},
+  {id:"google", name:"Google S2", url:function(d){return "https://www.google.com/s2/favicons?domain="+d+"&sz=64";},
+   verdict:"404，什么都不返回，字母能显示", cls:"good"},
+  {id:"duckduckgo", name:"DuckDuckGo", url:function(d){return "https://icons.duckduckgo.com/ip3/"+d+".ico";},
+   verdict:"返回 0 字节空内容，图片解码失败，字母能显示", cls:"good"},
+  {id:"iconhorse", name:"Icon Horse", url:function(d){return "https://icon.horse/icon/"+d;},
+   verdict:"返回默认图，会盖住字母", cls:"bad"},
+  {id:"faviconkit", name:"FaviconKit", url:function(d){return "https://ico.faviconkit.net/favicon/"+d+"?sz=64";},
+   verdict:"404，什么都不返回，字母能显示", cls:"good"},
+  {id:"yandex", name:"Yandex", url:function(d){return "https://favicon.yandex.net/favicon/v2/"+d;},
+   verdict:"返回默认图（70 字节），会盖住字母", cls:"bad"},
+  {id:"favicondl", name:"favicondl", url:function(d){return "https://favicondl.com/api/extract?url="+d+"&size=32";},
+   verdict:"404（JSON 报错），什么都不返回，字母能显示", cls:"good"},
+  {id:"favicone", name:"favicone", url:function(d){return "https://favicone.com/"+d;},
+   verdict:"返回默认图，会盖住字母", cls:"bad"},
+  {id:"imgsrc", name:"imgsrc.pub", url:function(d){return "https://imgsrc.pub/favicon?url="+d;},
+   verdict:"返回默认蓝底白 I 图，会盖住字母", cls:"bad"},
+  {id:"vemetric", name:"vemetric", url:function(d){return "https://favicon.vemetric.com/"+d;},
+   verdict:"返回默认图，会盖住字母", cls:"bad"},
+  {id:"clearbit", name:"Clearbit", url:function(d){return "https://logo.clearbit.com/"+d;},
+   verdict:"本机无法访问，待浏览器验证；按公开资料，找不到时返回 404", cls:"unk"},
+  {id:"getfavicon", name:"get-favicon", url:function(d){return "https://get-favicon.lingjistudio.com/"+d;},
+   verdict:"本机无法访问，待浏览器验证", cls:"unk"},
+  {id:"direct", name:"直连 /favicon.ico", url:function(d){return "https://"+d+"/favicon.ico";},
+   verdict:"404，什么都不返回，字母能显示", cls:"good"}
+];
+function withCB(u){ return u + (u.indexOf("?") >= 0 ? "&" : "?") + "t=" + CB; }
+var grid = document.getElementById("grid");
+var thead = document.createElement("thead");
+var tr = document.createElement("tr");
+var th0 = document.createElement("th"); th0.textContent = "域名"; tr.appendChild(th0);
+SERVICES.forEach(function(s){ var th = document.createElement("th"); th.textContent = s.name; tr.appendChild(th); });
+thead.appendChild(tr); grid.appendChild(thead);
+var tbody = document.createElement("tbody");
+var stats = {};
+SERVICES.forEach(function(s){ stats[s.id] = {ok:0, fail:0, total:0, count:0}; });
+var total = DOMAINS.length * SERVICES.length, done = 0;
+function finish(){
+  var tb = document.querySelector("#summary tbody");
+  tb.innerHTML = "";
+  SERVICES.forEach(function(s){
+    var st = stats[s.id];
+    var avg = st.count ? Math.round(st.total / st.count) : "—";
+    var row = document.createElement("tr");
+    row.innerHTML = "<td>"+s.name+"</td><td class='num'>"+avg+"</td><td class='num'>"+st.ok+"</td><td class='num'>"+st.fail+"</td><td class='"+s.cls+"'>"+s.verdict+"</td>";
+    tb.appendChild(row);
+  });
+}
+DOMAINS.forEach(function(dom){
+  var row = document.createElement("tr");
+  var td0 = document.createElement("td"); td0.className = "domain" + (dom.hasIcon ? "" : " noicon"); td0.textContent = dom.d + (dom.hasIcon ? "" : "（无图标）"); row.appendChild(td0);
+  SERVICES.forEach(function(s){
+    var td = document.createElement("td"); td.className = "cell";
+    if (s.id === "local" && !dom.hasIcon) {
+      td.innerHTML = "<div class='nolocal'>例</div><div class='t'>无本地图标</div>";
+      stats[s.id].ok++; done++;
+      row.appendChild(td);
+      return;
+    }
+    var t0 = performance.now();
+    var img = document.createElement("img");
+    img.alt = "";
+    var label = document.createElement("div"); label.className = "t"; label.textContent = "…";
+    img.onload = function(){
+      var ms = Math.round(performance.now() - t0);
+      label.textContent = ms + " ms";
+      stats[s.id].ok++; stats[s.id].total += ms; stats[s.id].count++;
+      done++; if (done >= total) finish();
+    };
+    img.onerror = function(){
+      label.innerHTML = "<span class='err'>✗ 失败</span>";
+      stats[s.id].fail++;
+      done++; if (done >= total) finish();
+    };
+    img.src = withCB(s.url(dom.d));
+    td.appendChild(img); td.appendChild(label);
+    row.appendChild(td);
+  });
+  tbody.appendChild(row);
+});
+grid.appendChild(tbody);
+var vl = document.getElementById("verdicts");
+SERVICES.forEach(function(s){
+  var li = document.createElement("li");
+  li.innerHTML = "<b>"+s.name+"</b>：<span class='"+s.cls+"'>"+s.verdict+"</span>";
+  vl.appendChild(li);
+});
+setTimeout(function(){ if (done < total) finish(); }, 20000);
+</script>
+</body>
+</html>
