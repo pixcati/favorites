@@ -359,6 +359,13 @@
 			color: var(--text-primary);
 		}
 
+		.nodes-count {
+			font-size: 0.85rem;
+			font-weight: 400;
+			color: var(--text-secondary);
+			margin-left: 0.5rem;
+		}
+
 		.button-secondary {
 			padding: 0.5rem 1rem;
 			font-size: 0.875rem;
@@ -389,8 +396,56 @@
 			margin: 0.5rem 0 0.75rem;
 		}
 
+		.nodes-progress {
+			height: 3px;
+			background: var(--bg-secondary);
+			border-radius: 2px;
+			overflow: hidden;
+			margin: 0 0 0.75rem;
+			opacity: 0;
+			transition: var(--transition);
+		}
+
+		.nodes-progress.show {
+			opacity: 1;
+		}
+
+		.nodes-progress i {
+			display: block;
+			height: 100%;
+			width: 0;
+			background: var(--accent);
+			border-radius: 2px;
+			transition: width 0.3s ease;
+		}
+
 		.node-list {
 			list-style: none;
+			max-height: 232px;
+			overflow-y: auto;
+			scrollbar-width: thin;
+			scrollbar-color: var(--border) transparent;
+			background: var(--bg-secondary);
+			border: 1px solid var(--border);
+			border-radius: var(--radius-sm);
+			padding: 0.25rem;
+		}
+
+		.node-list::-webkit-scrollbar {
+			width: 6px;
+		}
+
+		.node-list::-webkit-scrollbar-thumb {
+			background: var(--border);
+			border-radius: 3px;
+		}
+
+		.node-list::-webkit-scrollbar-thumb:hover {
+			background: var(--accent);
+		}
+
+		.node-list::-webkit-scrollbar-track {
+			background: transparent;
 		}
 
 		.node-row {
@@ -411,7 +466,7 @@
 		}
 
 		.node-row:hover {
-			background: var(--bg-secondary);
+			background: var(--bg-primary);
 			color: var(--accent);
 		}
 
@@ -420,17 +475,30 @@
 			color: var(--text-primary);
 		}
 
-		.node-check {
-			width: 14px;
-			height: 14px;
-			fill: currentColor;
+		.node-dot {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: var(--border);
 			flex-shrink: 0;
-			color: var(--accent);
-			visibility: hidden;
 		}
 
-		.node-row.selected .node-check {
-			visibility: visible;
+		.node-row.testing .node-dot {
+			background: var(--accent);
+			animation: nodePulse 1s ease-in-out infinite;
+		}
+
+		.node-row.failed .node-dot {
+			background: #ef4444;
+		}
+
+		.node-row.selected .node-dot {
+			background: var(--accent);
+		}
+
+		@keyframes nodePulse {
+			0%, 100% { opacity: 1; }
+			50% { opacity: 0.35; }
 		}
 
 		.node-name {
@@ -450,18 +518,12 @@
 			font-size: 0.85rem;
 			color: var(--text-secondary);
 			white-space: nowrap;
+			font-variant-numeric: tabular-nums;
 		}
 
 		.node-row.selected .node-speed {
 			color: var(--accent);
 			font-weight: 600;
-		}
-
-		.nodes-note {
-			font-size: 0.8rem;
-			color: var(--text-secondary);
-			opacity: 0.75;
-			margin-top: 0.75rem;
 		}
 
 		@media (max-width: 480px) {
@@ -652,12 +714,12 @@
 
 			<section class="nodes" id="nodes">
 				<div class="nodes-head">
-					<h2>加速节点</h2>
+					<h2>加速节点<span class="nodes-count" id="nodesCount"></span></h2>
 					<button type="button" class="button-secondary" id="speedTestBtn">节点测速</button>
 				</div>
 				<p class="nodes-status" id="nodesStatus">当前节点：本站（cdn.pixcat.cn）</p>
+				<div class="nodes-progress" id="nodesProgress"><i></i></div>
 				<ul class="node-list" id="nodeList"></ul>
-				<p class="nodes-note">节点来自油猴脚本与公开公益节点；测速会下载一张测试图片，点一行可手动切换节点，下载走所选节点。</p>
 			</section>
 		</div>
 	</main>
@@ -758,16 +820,23 @@
 			{ name: 'Yylx', base: 'https://git.yylx.win/' },
 			{ name: 'Ednovas', base: 'https://github.ednovas.xyz/' }
 		];
-		var TEST_IMAGE = 'https://raw.githubusercontent.com/AAswordman/OperitWeb/main/public/manuals/assets/workflow/01.png';
-		var TEST_SIZE = 1363888;
-		var TEST_TIMEOUT = 6000;
+		var LATENCY_IMAGE = 'https://raw.githubusercontent.com/python/cpython/refs/heads/main/PC/icons/python.ico';
+		var SPEED_IMAGE = 'https://raw.githubusercontent.com/AAswordman/OperitWeb/main/public/manuals/assets/workflow/01.png';
+		var LATENCY_TIMEOUT = 4000;
+		var SPEED_TIMEOUT = 6000;
+		var SPEED_TOP = 5;
 		var GF_SCRIPT_URL = 'https://update.greasyfork.org/scripts/412245/Github%20Enhancement%20-%20High%20Speed%20Download.user.js';
 		var selectedBase = localStorage.getItem('ghproxy-node') || 'https://cdn.pixcat.cn/';
 		if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = 'https://cdn.pixcat.cn/';
 		var nodeListEl = document.getElementById('nodeList');
 		var nodesStatusEl = document.getElementById('nodesStatus');
+		var nodesCountEl = document.getElementById('nodesCount');
+		var nodesProgressEl = document.getElementById('nodesProgress');
+		var nodesProgressFill = nodesProgressEl.querySelector('i');
 		var speedTestBtn = document.getElementById('speedTestBtn');
 		var nodeResults = {};
+		var nodeSpeeds = {};
+		var nodeLatency = {};
 		var isTesting = false;
 
 		function nodeByBase(base) {
@@ -779,16 +848,23 @@
 			return base.replace(/^https?:\/\//, '').replace(/\/$/, '');
 		}
 
+		function setProgress(pct, show) {
+			if (show === true) nodesProgressEl.classList.add('show');
+			if (show === false) nodesProgressEl.classList.remove('show');
+			nodesProgressFill.style.width = Math.max(0, Math.min(100, pct)) + '%';
+		}
+
 		function renderNodes() {
 			nodeListEl.innerHTML = '';
+			nodesCountEl.textContent = NODES.length + ' 个节点';
 			NODES.forEach(function (n) {
 				var li = document.createElement('li');
 				var btn = document.createElement('button');
 				btn.type = 'button';
-				btn.className = 'node-row' + (n.base === selectedBase ? ' selected' : '');
 				var r = nodeResults[n.base];
+				btn.className = 'node-row' + (n.base === selectedBase ? ' selected' : '') + (isTesting && r === undefined ? ' testing' : '') + (r === null ? ' failed' : '');
 				var speedText = r === undefined ? (isTesting ? '测速中…' : '—') : (r === null ? '失败' : r);
-				btn.innerHTML = '<svg class="node-check" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg><span class="node-name"></span><span class="node-host"></span><span class="node-speed"></span>';
+				btn.innerHTML = '<span class="node-dot"></span><span class="node-name"></span><span class="node-host"></span><span class="node-speed"></span>';
 				btn.querySelector('.node-name').textContent = n.name;
 				btn.querySelector('.node-host').textContent = n.name === nodeHost(n.base) ? '' : nodeHost(n.base);
 				btn.querySelector('.node-speed').textContent = speedText;
@@ -804,37 +880,85 @@
 			renderNodes();
 			var cur = nodeByBase(base);
 			nodesStatusEl.textContent = '当前节点：' + cur.name + '（' + nodeHost(cur.base) + '）';
+			var row = nodeListEl.querySelector('.node-row.selected');
+			if (row) row.scrollIntoView({ block: 'nearest' });
 		}
 
-		function testNode(node) {
+		function testLatency(node) {
 			return new Promise(function (resolve) {
-				var img = new Image();
-				var done = false;
+				var ctrl = new AbortController();
+				var timer = setTimeout(function () { ctrl.abort(); }, LATENCY_TIMEOUT);
 				var start = performance.now();
-				var timer = setTimeout(function () {
-					if (done) return;
-					done = true;
-					img.src = '';
+				fetch(node.base + LATENCY_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
+					if (!res.ok) throw new Error('bad status');
+					return res.blob();
+				}).then(function () {
+					clearTimeout(timer);
+					resolve(performance.now() - start);
+				}).catch(function () {
+					clearTimeout(timer);
 					resolve(null);
-				}, TEST_TIMEOUT);
-				img.onload = function () {
-					if (done) return;
-					done = true;
+				});
+			});
+		}
+
+		function testSpeed(node) {
+			return new Promise(function (resolve) {
+				var ctrl = new AbortController();
+				var timer = setTimeout(function () { ctrl.abort(); }, SPEED_TIMEOUT);
+				var start = performance.now();
+				fetch(node.base + SPEED_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
+					if (!res.ok) throw new Error('bad status');
+					return res.blob();
+				}).then(function (blob) {
 					clearTimeout(timer);
 					var sec = (performance.now() - start) / 1000;
-					if (sec <= 0) { resolve(null); return; }
-					var mbps = (TEST_SIZE / 1048576) / sec;
-					resolve(mbps >= 10 ? mbps.toFixed(1) + ' MB/s' : mbps.toFixed(2) + ' MB/s');
-				};
-				img.onerror = function () {
-					if (done) return;
-					done = true;
+					if (sec <= 0 || !blob.size) { resolve(null); return; }
+					var mbps = (blob.size / 1048576) / sec;
+					resolve({ mbps: mbps, text: mbps >= 10 ? mbps.toFixed(1) + ' MB/s' : mbps.toFixed(2) + ' MB/s' });
+				}).catch(function () {
 					clearTimeout(timer);
 					resolve(null);
-				};
-				img.referrerPolicy = 'no-referrer';
-				img.src = node.base + TEST_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000);
+				});
 			});
+		}
+
+		function finishTest(startBase) {
+			isTesting = false;
+			speedTestBtn.disabled = false;
+			speedTestBtn.textContent = '节点测速';
+			setProgress(100);
+			setTimeout(function () { setProgress(0, false); }, 800);
+			var best = null, bestMbps = -1;
+			Object.keys(nodeSpeeds).forEach(function (b) {
+				if (nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
+			});
+			if (best) {
+				if (selectedBase === startBase) {
+					selectNode(best.base);
+					nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，已自动切换';
+				} else {
+					renderNodes();
+					nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，你手动选了 ' + nodeByBase(selectedBase).name + '，未切换';
+				}
+				return;
+			}
+			var low = null, lowMs = Infinity;
+			Object.keys(nodeLatency).forEach(function (b) {
+				if (nodeLatency[b] < lowMs) { lowMs = nodeLatency[b]; low = nodeByBase(b); }
+			});
+			if (low) {
+				if (selectedBase === startBase) {
+					selectNode(low.base);
+					nodesStatusEl.textContent = '最快（按延迟）：' + low.name + ' ' + Math.round(lowMs) + ' ms，已自动切换';
+				} else {
+					renderNodes();
+					nodesStatusEl.textContent = '测速未完成，最快（按延迟）：' + low.name + ' ' + Math.round(lowMs) + ' ms，未切换';
+				}
+				return;
+			}
+			renderNodes();
+			nodesStatusEl.textContent = '测速失败，仍使用当前节点';
 		}
 
 		speedTestBtn.addEventListener('click', function () {
@@ -843,41 +967,44 @@
 			speedTestBtn.disabled = true;
 			speedTestBtn.textContent = '测速中…';
 			nodeResults = {};
+			nodeSpeeds = {};
+			nodeLatency = {};
 			var startBase = selectedBase;
 			var finished = 0;
 			renderNodes();
-			nodesStatusEl.textContent = '正在测速… 0/' + NODES.length;
+			setProgress(0, true);
+			nodesStatusEl.textContent = '正在测延迟… 0/' + NODES.length;
 			Promise.all(NODES.map(function (n) {
-				return testNode(n).then(function (r) {
-					nodeResults[n.base] = r;
+				return testLatency(n).then(function (ms) {
 					finished++;
+					if (ms !== null) {
+						nodeLatency[n.base] = ms;
+						nodeResults[n.base] = Math.round(ms) + ' ms';
+					} else {
+						nodeResults[n.base] = null;
+					}
 					renderNodes();
-					nodesStatusEl.textContent = '正在测速… ' + finished + '/' + NODES.length;
-					return { node: n, result: r };
+					nodesStatusEl.textContent = '正在测延迟… ' + finished + '/' + NODES.length;
+					setProgress(finished / NODES.length * 60);
+					return { node: n, ms: ms };
 				});
 			})).then(function (all) {
-				var best = null, bestMbps = -1;
-				all.forEach(function (x) {
-					if (x.result) {
-						var v = parseFloat(x.result);
-						if (v > bestMbps) { bestMbps = v; best = x.node; }
-					}
-				});
-				isTesting = false;
-				speedTestBtn.disabled = false;
-				speedTestBtn.textContent = '节点测速';
-				if (best) {
-					if (selectedBase === startBase) {
-						selectNode(best.base);
-						nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，已自动切换';
-					} else {
+				var top = all.filter(function (x) { return x.ms !== null; }).sort(function (a, b) { return a.ms - b.ms; }).slice(0, SPEED_TOP);
+				if (!top.length) { finishTest(startBase); return; }
+				var done2 = 0;
+				nodesStatusEl.textContent = '正在测速… 0/' + top.length;
+				Promise.all(top.map(function (x) {
+					return testSpeed(x.node).then(function (r) {
+						done2++;
+						if (r) {
+							nodeSpeeds[x.node.base] = r.mbps;
+							nodeResults[x.node.base] = r.text;
+						}
 						renderNodes();
-						nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，你手动选了 ' + nodeByBase(selectedBase).name + '，未切换';
-					}
-				} else {
-					renderNodes();
-					nodesStatusEl.textContent = '测速失败，仍使用当前节点';
-				}
+						nodesStatusEl.textContent = '正在测速… ' + done2 + '/' + top.length;
+						setProgress(60 + done2 / top.length * 40);
+					});
+				})).then(function () { finishTest(startBase); });
 			});
 		});
 
