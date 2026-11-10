@@ -336,6 +336,140 @@
 			transform: translateY(0);
 		}
 
+		.nodes {
+			margin-top: 0.5rem;
+			background: var(--bg-primary);
+			border: 1px solid var(--border);
+			border-radius: var(--radius);
+			box-shadow: var(--shadow);
+			padding: 1rem 1.25rem;
+			text-align: left;
+		}
+
+		.nodes-head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			gap: 0.75rem;
+		}
+
+		.nodes-head h2 {
+			font-size: 1rem;
+			font-weight: 600;
+			color: var(--text-primary);
+		}
+
+		.button-secondary {
+			padding: 0.5rem 1rem;
+			font-size: 0.875rem;
+			font-weight: 600;
+			border: 1px solid var(--border);
+			border-radius: var(--radius-sm);
+			background: var(--bg-secondary);
+			color: var(--text-primary);
+			cursor: pointer;
+			transition: var(--transition);
+			white-space: nowrap;
+		}
+
+		.button-secondary:hover {
+			background: var(--accent);
+			color: white;
+			border-color: var(--accent);
+		}
+
+		.button-secondary:disabled {
+			opacity: 0.6;
+			cursor: not-allowed;
+		}
+
+		.nodes-status {
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			margin: 0.5rem 0 0.75rem;
+		}
+
+		.node-list {
+			list-style: none;
+		}
+
+		.node-row {
+			display: flex;
+			align-items: center;
+			gap: 0.75rem;
+			width: 100%;
+			padding: 0.625rem 0.875rem;
+			font-size: 0.875rem;
+			font-family: inherit;
+			color: var(--text-secondary);
+			background: transparent;
+			border: none;
+			border-radius: var(--radius-sm);
+			cursor: pointer;
+			transition: var(--transition);
+			text-align: left;
+		}
+
+		.node-row:hover {
+			background: var(--bg-secondary);
+			color: var(--accent);
+		}
+
+		.node-row.selected {
+			background: rgba(232, 153, 128, 0.12);
+			color: var(--text-primary);
+		}
+
+		.node-check {
+			width: 14px;
+			height: 14px;
+			fill: currentColor;
+			flex-shrink: 0;
+			color: var(--accent);
+			visibility: hidden;
+		}
+
+		.node-row.selected .node-check {
+			visibility: visible;
+		}
+
+		.node-name {
+			font-weight: 600;
+			color: var(--text-primary);
+			white-space: nowrap;
+		}
+
+		.node-host {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		.node-speed {
+			margin-left: auto;
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			white-space: nowrap;
+		}
+
+		.node-row.selected .node-speed {
+			color: var(--accent);
+			font-weight: 600;
+		}
+
+		.nodes-note {
+			font-size: 0.8rem;
+			color: var(--text-secondary);
+			opacity: 0.75;
+			margin-top: 0.75rem;
+		}
+
+		@media (max-width: 480px) {
+			.nodes {
+				padding: 0.875rem 1rem;
+			}
+		}
+
 		.footer {
 			padding: 1.5rem;
 			text-align: center;
@@ -515,6 +649,16 @@
 					<svg viewBox="0 0 448 512" aria-hidden="true"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg> 获取
 				</button>
 			</form>
+
+			<section class="nodes" id="nodes">
+				<div class="nodes-head">
+					<h2>加速节点</h2>
+					<button type="button" class="button-secondary" id="speedTestBtn">节点测速</button>
+				</div>
+				<p class="nodes-status" id="nodesStatus">当前节点：本站（cdn.pixcat.cn）</p>
+				<ul class="node-list" id="nodeList"></ul>
+				<p class="nodes-note">节点来自油猴脚本与公开公益节点；测速会下载一张测试图片，点一行可手动切换节点，下载走所选节点。</p>
+			</section>
 		</div>
 	</main>
 
@@ -599,6 +743,180 @@
 			input.style.borderColor = '';
 			input.style.boxShadow = '';
 		});
+
+		var NODES = [
+			{ name: '本站', base: 'https://cdn.pixcat.cn/' },
+			{ name: 'Ghfast', base: 'https://ghfast.top/' },
+			{ name: 'Gh-Proxy', base: 'https://gh-proxy.com/' },
+			{ name: 'GhProxyOrg', base: 'https://gh-proxy.org/' },
+			{ name: 'CdnGhProxy', base: 'https://cdn.gh-proxy.org/' },
+			{ name: 'GhEdgeOne', base: 'https://edgeone.gh-proxy.org/' },
+			{ name: 'FastGitCc', base: 'https://fastgit.cc/' },
+			{ name: 'Chjina', base: 'https://gh.chjina.com/' },
+			{ name: 'Monlor', base: 'https://gh.monlor.com/' },
+			{ name: 'Nxnow', base: 'https://gh.nxnow.top/' },
+			{ name: 'Yylx', base: 'https://git.yylx.win/' },
+			{ name: 'Ednovas', base: 'https://github.ednovas.xyz/' }
+		];
+		var TEST_IMAGE = 'https://raw.githubusercontent.com/AAswordman/OperitWeb/main/public/manuals/assets/workflow/01.png';
+		var TEST_SIZE = 1363888;
+		var TEST_TIMEOUT = 6000;
+		var GF_SCRIPT_URL = 'https://update.greasyfork.org/scripts/412245/Github%20Enhancement%20-%20High%20Speed%20Download.user.js';
+		var selectedBase = localStorage.getItem('ghproxy-node') || 'https://cdn.pixcat.cn/';
+		if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = 'https://cdn.pixcat.cn/';
+		var nodeListEl = document.getElementById('nodeList');
+		var nodesStatusEl = document.getElementById('nodesStatus');
+		var speedTestBtn = document.getElementById('speedTestBtn');
+		var nodeResults = {};
+		var isTesting = false;
+
+		function nodeByBase(base) {
+			for (var i = 0; i < NODES.length; i++) if (NODES[i].base === base) return NODES[i];
+			return NODES[0];
+		}
+
+		function nodeHost(base) {
+			return base.replace(/^https?:\/\//, '').replace(/\/$/, '');
+		}
+
+		function renderNodes() {
+			nodeListEl.innerHTML = '';
+			NODES.forEach(function (n) {
+				var li = document.createElement('li');
+				var btn = document.createElement('button');
+				btn.type = 'button';
+				btn.className = 'node-row' + (n.base === selectedBase ? ' selected' : '');
+				var r = nodeResults[n.base];
+				var speedText = r === undefined ? (isTesting ? '测速中…' : '—') : (r === null ? '失败' : r);
+				btn.innerHTML = '<svg class="node-check" viewBox="0 0 448 512" aria-hidden="true"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg><span class="node-name"></span><span class="node-host"></span><span class="node-speed"></span>';
+				btn.querySelector('.node-name').textContent = n.name;
+				btn.querySelector('.node-host').textContent = n.name === nodeHost(n.base) ? '' : nodeHost(n.base);
+				btn.querySelector('.node-speed').textContent = speedText;
+				btn.addEventListener('click', function () { selectNode(n.base); });
+				li.appendChild(btn);
+				nodeListEl.appendChild(li);
+			});
+		}
+
+		function selectNode(base) {
+			selectedBase = base;
+			localStorage.setItem('ghproxy-node', base);
+			renderNodes();
+			var cur = nodeByBase(base);
+			nodesStatusEl.textContent = '当前节点：' + cur.name + '（' + nodeHost(cur.base) + '）';
+		}
+
+		function testNode(node) {
+			return new Promise(function (resolve) {
+				var img = new Image();
+				var done = false;
+				var start = performance.now();
+				var timer = setTimeout(function () {
+					if (done) return;
+					done = true;
+					img.src = '';
+					resolve(null);
+				}, TEST_TIMEOUT);
+				img.onload = function () {
+					if (done) return;
+					done = true;
+					clearTimeout(timer);
+					var sec = (performance.now() - start) / 1000;
+					if (sec <= 0) { resolve(null); return; }
+					var mbps = (TEST_SIZE / 1048576) / sec;
+					resolve(mbps >= 10 ? mbps.toFixed(1) + ' MB/s' : mbps.toFixed(2) + ' MB/s');
+				};
+				img.onerror = function () {
+					if (done) return;
+					done = true;
+					clearTimeout(timer);
+					resolve(null);
+				};
+				img.referrerPolicy = 'no-referrer';
+				img.src = node.base + TEST_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000);
+			});
+		}
+
+		speedTestBtn.addEventListener('click', function () {
+			if (isTesting) return;
+			isTesting = true;
+			speedTestBtn.disabled = true;
+			speedTestBtn.textContent = '测速中…';
+			nodeResults = {};
+			var startBase = selectedBase;
+			var finished = 0;
+			renderNodes();
+			nodesStatusEl.textContent = '正在测速… 0/' + NODES.length;
+			Promise.all(NODES.map(function (n) {
+				return testNode(n).then(function (r) {
+					nodeResults[n.base] = r;
+					finished++;
+					renderNodes();
+					nodesStatusEl.textContent = '正在测速… ' + finished + '/' + NODES.length;
+					return { node: n, result: r };
+				});
+			})).then(function (all) {
+				var best = null, bestMbps = -1;
+				all.forEach(function (x) {
+					if (x.result) {
+						var v = parseFloat(x.result);
+						if (v > bestMbps) { bestMbps = v; best = x.node; }
+					}
+				});
+				isTesting = false;
+				speedTestBtn.disabled = false;
+				speedTestBtn.textContent = '节点测速';
+				if (best) {
+					if (selectedBase === startBase) {
+						selectNode(best.base);
+						nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，已自动切换';
+					} else {
+						renderNodes();
+						nodesStatusEl.textContent = '最快：' + best.name + ' ' + nodeResults[best.base] + '，你手动选了 ' + nodeByBase(selectedBase).name + '，未切换';
+					}
+				} else {
+					renderNodes();
+					nodesStatusEl.textContent = '测速失败，仍使用当前节点';
+				}
+			});
+		});
+
+		form.addEventListener('submit', function (e) {
+			if (!input.validity.valid) return;
+			e.preventDefault();
+			var u = input.value.trim();
+			if (!/^https?:\/\//i.test(u)) u = 'https://' + u;
+			window.open(selectedBase + u, '_blank');
+		});
+
+		function refreshNodesFromScript() {
+			var ctrl = new AbortController();
+			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
+			fetch(GF_SCRIPT_URL, { signal: ctrl.signal }).then(function (res) {
+				if (!res.ok) return null;
+				return res.text();
+			}).then(function (text) {
+				clearTimeout(timer);
+				if (!text) return;
+				var clean = text.split('\n').filter(function (l) { return !l.trim().startsWith('//'); }).join('\n');
+				var seen = {};
+				NODES.forEach(function (n) { seen[nodeHost(n.base)] = true; });
+				var added = 0;
+				var re = /'(https:\/\/[a-zA-Z0-9.\-]+\/https:\/\/github\.com)'/g, m;
+				while ((m = re.exec(clean)) && NODES.length < 20) {
+					var base = m[1].replace(/\/https:\/\/github\.com$/, '/');
+					if (!seen[nodeHost(base)]) {
+						seen[nodeHost(base)] = true;
+						NODES.push({ name: nodeHost(base), base: base });
+						added++;
+					}
+				}
+				if (added) renderNodes();
+			}).catch(function () { clearTimeout(timer); });
+		}
+
+		selectNode(selectedBase);
+		refreshNodesFromScript();
 	</script>
 </body>
 </html>
