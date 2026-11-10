@@ -385,9 +385,24 @@
 			border-color: var(--accent);
 		}
 
-		.button-secondary:disabled {
-			opacity: 0.6;
-			cursor: not-allowed;
+		.button-secondary svg {
+			height: 1em;
+			width: auto;
+			fill: currentColor;
+			vertical-align: -0.125em;
+			margin-right: 0.35em;
+		}
+
+		.button-secondary .icon-stop {
+			display: none;
+		}
+
+		.button-secondary.testing .icon-stop {
+			display: inline;
+		}
+
+		.button-secondary.testing .icon-gauge {
+			display: none;
 		}
 
 		.nodes-status {
@@ -715,7 +730,7 @@
 			<section class="nodes" id="nodes">
 				<div class="nodes-head">
 					<h2>加速节点<span class="nodes-count" id="nodesCount"></span></h2>
-					<button type="button" class="button-secondary" id="speedTestBtn">节点测速</button>
+					<button type="button" class="button-secondary" id="speedTestBtn"><svg class="icon-gauge" viewBox="0 0 512 512" aria-hidden="true"><path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM256 416c35.3 0 64-28.7 64-64c0-17.4-6.9-33.1-18.1-44.6L366 161.7c5.3-12.1-.2-26.3-12.3-31.6s-26.3 .2-31.6 12.3L257.9 288c-.6 0-1.3 0-1.9 0c-35.3 0-64 28.7-64 64s28.7 64 64 64zM176 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM96 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm352-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg><svg class="icon-stop" viewBox="0 0 384 512" aria-hidden="true"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg><span id="speedTestText">节点测速</span></button>
 				</div>
 				<p class="nodes-status" id="nodesStatus">当前节点：本站（cdn.pixcat.cn）</p>
 				<div class="nodes-progress" id="nodesProgress"><i></i></div>
@@ -823,8 +838,8 @@
 		var LATENCY_IMAGE = 'https://raw.githubusercontent.com/python/cpython/refs/heads/main/PC/icons/python.ico';
 		var SPEED_IMAGE = 'https://raw.githubusercontent.com/AAswordman/OperitWeb/main/public/manuals/assets/workflow/01.png';
 		var LATENCY_TIMEOUT = 4000;
-		var SPEED_TIMEOUT = 6000;
-		var SPEED_TOP = 5;
+		var SPEED_TIMEOUT = 15000;
+		var NODES_URL = '/nodes';
 		var GF_SCRIPT_URL = 'https://update.greasyfork.org/scripts/412245/Github%20Enhancement%20-%20High%20Speed%20Download.user.js';
 		var selectedBase = localStorage.getItem('ghproxy-node') || 'https://cdn.pixcat.cn/';
 		if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = 'https://cdn.pixcat.cn/';
@@ -834,10 +849,13 @@
 		var nodesProgressEl = document.getElementById('nodesProgress');
 		var nodesProgressFill = nodesProgressEl.querySelector('i');
 		var speedTestBtn = document.getElementById('speedTestBtn');
+		var speedTestText = document.getElementById('speedTestText');
 		var nodeResults = {};
 		var nodeSpeeds = {};
 		var nodeLatency = {};
 		var isTesting = false;
+		var testStopped = false;
+		var testControllers = [];
 
 		function nodeByBase(base) {
 			for (var i = 0; i < NODES.length; i++) if (NODES[i].base === base) return NODES[i];
@@ -877,6 +895,7 @@
 		function selectNode(base) {
 			selectedBase = base;
 			localStorage.setItem('ghproxy-node', base);
+			try { document.cookie = 'ghproxy-node=' + encodeURIComponent(base) + '; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
 			renderNodes();
 			var cur = nodeByBase(base);
 			nodesStatusEl.textContent = '当前节点：' + cur.name + '（' + nodeHost(cur.base) + '）';
@@ -887,6 +906,7 @@
 		function testLatency(node) {
 			return new Promise(function (resolve) {
 				var ctrl = new AbortController();
+				testControllers.push(ctrl);
 				var timer = setTimeout(function () { ctrl.abort(); }, LATENCY_TIMEOUT);
 				var start = performance.now();
 				fetch(node.base + LATENCY_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
@@ -905,6 +925,7 @@
 		function testSpeed(node) {
 			return new Promise(function (resolve) {
 				var ctrl = new AbortController();
+				testControllers.push(ctrl);
 				var timer = setTimeout(function () { ctrl.abort(); }, SPEED_TIMEOUT);
 				var start = performance.now();
 				fetch(node.base + SPEED_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
@@ -925,10 +946,16 @@
 
 		function finishTest(startBase) {
 			isTesting = false;
-			speedTestBtn.disabled = false;
-			speedTestBtn.textContent = '节点测速';
+			testControllers = [];
+			speedTestBtn.classList.remove('testing');
+			speedTestText.textContent = '节点测速';
 			setProgress(100);
 			setTimeout(function () { setProgress(0, false); }, 800);
+			if (testStopped) {
+				renderNodes();
+				nodesStatusEl.textContent = '已停止测速，仍使用当前节点';
+				return;
+			}
 			var best = null, bestMbps = -1;
 			Object.keys(nodeSpeeds).forEach(function (b) {
 				if (nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
@@ -962,10 +989,17 @@
 		}
 
 		speedTestBtn.addEventListener('click', function () {
-			if (isTesting) return;
+			if (isTesting) {
+				testStopped = true;
+				testControllers.forEach(function (c) { try { c.abort(); } catch (e) {} });
+				testControllers = [];
+				return;
+			}
 			isTesting = true;
-			speedTestBtn.disabled = true;
-			speedTestBtn.textContent = '测速中…';
+			testStopped = false;
+			testControllers = [];
+			speedTestBtn.classList.add('testing');
+			speedTestText.textContent = '停止测速';
 			nodeResults = {};
 			nodeSpeeds = {};
 			nodeLatency = {};
@@ -989,7 +1023,8 @@
 					return { node: n, ms: ms };
 				});
 			})).then(function (all) {
-				var top = all.filter(function (x) { return x.ms !== null; }).sort(function (a, b) { return a.ms - b.ms; }).slice(0, SPEED_TOP);
+				if (testStopped) { finishTest(startBase); return; }
+				var top = all.filter(function (x) { return x.ms !== null; }).sort(function (a, b) { return a.ms - b.ms; });
 				if (!top.length) { finishTest(startBase); return; }
 				var done2 = 0;
 				nodesStatusEl.textContent = '正在测速… 0/' + top.length;
@@ -1016,6 +1051,22 @@
 			window.open(selectedBase + u, '_blank');
 		});
 
+		function mergeNodes(list) {
+			var seen = {};
+			NODES.forEach(function (n) { seen[nodeHost(n.base)] = true; });
+			var added = 0;
+			list.forEach(function (n) {
+				if (!n || !n.base) return;
+				if (NODES.length >= 20) return;
+				if (!seen[nodeHost(n.base)]) {
+					seen[nodeHost(n.base)] = true;
+					NODES.push({ name: n.name || nodeHost(n.base), base: n.base });
+					added++;
+				}
+			});
+			if (added) renderNodes();
+		}
+
 		function refreshNodesFromScript() {
 			var ctrl = new AbortController();
 			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
@@ -1026,24 +1077,33 @@
 				clearTimeout(timer);
 				if (!text) return;
 				var clean = text.split('\n').filter(function (l) { return !l.trim().startsWith('//'); }).join('\n');
-				var seen = {};
-				NODES.forEach(function (n) { seen[nodeHost(n.base)] = true; });
-				var added = 0;
+				var list = [];
 				var re = /'(https:\/\/[a-zA-Z0-9.\-]+\/https:\/\/github\.com)'/g, m;
-				while ((m = re.exec(clean)) && NODES.length < 20) {
+				while ((m = re.exec(clean))) {
 					var base = m[1].replace(/\/https:\/\/github\.com$/, '/');
-					if (!seen[nodeHost(base)]) {
-						seen[nodeHost(base)] = true;
-						NODES.push({ name: nodeHost(base), base: base });
-						added++;
-					}
+					list.push({ name: nodeHost(base), base: base });
 				}
-				if (added) renderNodes();
+				mergeNodes(list);
 			}).catch(function () { clearTimeout(timer); });
 		}
 
+		function refreshNodes() {
+			var ctrl = new AbortController();
+			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
+			fetch(NODES_URL, { signal: ctrl.signal }).then(function (res) {
+				if (!res.ok) throw new Error('bad status');
+				return res.json();
+			}).then(function (data) {
+				clearTimeout(timer);
+				if (data && data.nodes && data.nodes.length) mergeNodes(data.nodes);
+			}).catch(function () {
+				clearTimeout(timer);
+				refreshNodesFromScript();
+			});
+		}
+
 		selectNode(selectedBase);
-		refreshNodesFromScript();
+		refreshNodes();
 	</script>
 </body>
 </html>
