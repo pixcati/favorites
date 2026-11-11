@@ -985,8 +985,6 @@
 			}
 		});
 		
-		document.querySelector('.input').focus();
-		
 		const form = document.querySelector('.form');
 		const input = document.querySelector('.input');
 		
@@ -1539,13 +1537,13 @@
 			releaseModeBtn.classList.toggle('on', releaseMode);
 			releaseModeBtn.setAttribute('aria-checked', releaseMode ? 'true' : 'false');
 			releaseModeBtn.parentElement.classList.toggle('on', releaseMode);
-			input.placeholder = releaseMode ? 'owner/repo 或 Release 页面链接' : '粘贴 GitHub 文件链接';
+			input.placeholder = releaseMode ? '张贴 Github 仓库或 Release 页面链接' : '粘贴 GitHub 文件链接';
 			if (releaseMode) {
 				input.removeAttribute('pattern');
 			} else {
 				input.setAttribute('pattern', FILE_PATTERN);
 			}
-			input.focus();
+			input.focus({ preventScroll: true });
 		});
 	</script>
 </body>
