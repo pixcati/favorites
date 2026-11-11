@@ -304,12 +304,17 @@
 			color: var(--text-secondary);
 		}
 
+		.mode-row.on .mode-label {
+			color: var(--accent);
+			font-weight: 600;
+		}
+
 		.mode-switch {
 			width: 38px;
 			height: 20px;
 			border-radius: 999px;
-			border: 1px solid var(--border);
-			background: var(--bg-secondary);
+			border: 1px solid rgba(232, 153, 128, 0.45);
+			background: rgba(232, 153, 128, 0.15);
 			cursor: pointer;
 			position: relative;
 			padding: 0;
@@ -324,7 +329,8 @@
 			width: 14px;
 			height: 14px;
 			border-radius: 50%;
-			background: var(--text-secondary);
+			background: white;
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
 			transition: var(--transition);
 		}
 
@@ -335,7 +341,6 @@
 
 		.mode-switch.on i {
 			left: 21px;
-			background: white;
 		}
 
 		.input {
@@ -603,7 +608,11 @@
 		}
 
 		.release-list {
-			margin-top: 0.75rem;
+			margin-bottom: 1.25rem;
+		}
+
+		.release-status {
+			margin: 0 0 1rem;
 		}
 
 		.release-row {
@@ -855,6 +864,9 @@
 				<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
 			</div>
 
+			<p class="nodes-status release-status" id="releaseStatus" hidden></p>
+			<ul class="node-list release-list" id="releaseList" hidden></ul>
+
 			<section class="nodes" id="nodes">
 				<div class="nodes-head">
 					<h2>加速节点<span class="nodes-count" id="nodesCount">加载中…</span></h2>
@@ -863,14 +875,6 @@
 				<p class="nodes-status" id="nodesStatus">当前节点：本站（cdn.pixcat.cn）</p>
 				<div class="nodes-progress" id="nodesProgress"><i></i></div>
 				<ul class="node-list" id="nodeList"></ul>
-			</section>
-
-			<section class="nodes" id="release">
-				<div class="nodes-head">
-					<h2>获取 Release</h2>
-				</div>
-				<p class="nodes-status" id="releaseStatus">输入仓库，查看最新版本的编译产物，用当前节点下载</p>
-				<ul class="node-list release-list" id="releaseList" hidden></ul>
 			</section>
 		</div>
 	</main>
@@ -945,6 +949,7 @@
 			if (releaseMode) {
 				var parsed = parseReleaseInput(v);
 				if (!parsed) {
+					releaseStatusEl.hidden = false;
 					releaseStatusEl.textContent = '请输入 owner/repo 或 Release 页面链接';
 					input.style.borderColor = '#ef4444';
 					input.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
@@ -954,6 +959,7 @@
 					}, 2000);
 					return;
 				}
+				releaseStatusEl.hidden = false;
 				releaseStatusEl.textContent = '正在获取 Release…';
 				releaseListEl.hidden = true;
 				fetchReleaseDirect(parsed.owner, parsed.repo, parsed.tag).then(function (data) {
@@ -1350,10 +1356,11 @@
 			var assets = data.assets || [];
 			if (!assets.length) {
 				releaseStatusEl.textContent = (data.tag || '') + ' 没有可下载的产物';
+				releaseStatusEl.hidden = false;
 				releaseListEl.hidden = true;
 				return;
 			}
-			releaseStatusEl.textContent = (data.tag || '') + ' · ' + assets.length + ' 个产物，用当前节点下载';
+			releaseStatusEl.hidden = true;
 			assets.forEach(function (a) {
 				var li = document.createElement('li');
 				var btn = document.createElement('button');
@@ -1380,15 +1387,14 @@
 			releaseMode = !releaseMode;
 			releaseModeBtn.classList.toggle('on', releaseMode);
 			releaseModeBtn.setAttribute('aria-checked', releaseMode ? 'true' : 'false');
+			releaseModeBtn.parentElement.classList.toggle('on', releaseMode);
 			input.placeholder = releaseMode ? 'owner/repo 或 Release 页面链接' : '粘贴 GitHub 文件链接';
 			if (releaseMode) {
 				input.removeAttribute('pattern');
 			} else {
 				input.setAttribute('pattern', FILE_PATTERN);
 			}
-			input.value = '';
 			input.focus();
-			releaseStatusEl.textContent = releaseMode ? 'Release 模式已开启，在上方输入仓库后点获取' : '输入仓库，查看最新版本的编译产物，用当前节点下载';
 		});
 	</script>
 </body>
