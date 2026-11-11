@@ -650,7 +650,12 @@
 		}
 
 
+		[hidden] {
+			display: none !important;
+		}
+
 		.release-head {
+			position: relative;
 			display: flex;
 			align-items: center;
 			gap: 0.75rem;
@@ -666,7 +671,7 @@
 			flex: 1;
 		}
 		.release-version-wrap {
-			position: relative;
+			position: static;
 			flex-shrink: 0;
 			max-width: 46%;
 		}
@@ -706,9 +711,8 @@
 		.release-version-list {
 			position: absolute;
 			top: calc(100% + 0.4rem);
+			left: 0;
 			right: 0;
-			min-width: 10rem;
-			max-width: 16rem;
 			max-height: 16rem;
 			overflow-y: auto;
 			margin: 0;
