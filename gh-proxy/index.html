@@ -1286,7 +1286,7 @@
 			}).then(function (data) {
 				clearTimeout(timer);
 				if (!data || !data.nodes || !data.nodes.length) throw new Error('empty');
-				NODES = data.nodes.filter(function (n) { return n && n.base; }).slice(0, 30);
+				NODES = data.nodes.filter(function (n) { return n && n.base; });
 				if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = OWN_BASE;
 				selectNode(selectedBase);
 			}).catch(function () {
