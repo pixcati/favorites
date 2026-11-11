@@ -840,7 +840,6 @@
 		var LATENCY_TIMEOUT = 4000;
 		var SPEED_TIMEOUT = 15000;
 		var NODES_URL = '/nodes';
-		var GF_SCRIPT_URL = 'https://update.greasyfork.org/scripts/412245/Github%20Enhancement%20-%20High%20Speed%20Download.user.js';
 		var selectedBase = localStorage.getItem('ghproxy-node') || 'https://cdn.pixcat.cn/';
 		if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = 'https://cdn.pixcat.cn/';
 		var nodeListEl = document.getElementById('nodeList');
@@ -1067,26 +1066,6 @@
 			if (added) renderNodes();
 		}
 
-		function refreshNodesFromScript() {
-			var ctrl = new AbortController();
-			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
-			fetch(GF_SCRIPT_URL, { signal: ctrl.signal }).then(function (res) {
-				if (!res.ok) return null;
-				return res.text();
-			}).then(function (text) {
-				clearTimeout(timer);
-				if (!text) return;
-				var clean = text.split('\n').filter(function (l) { return !l.trim().startsWith('//'); }).join('\n');
-				var list = [];
-				var re = /'(https:\/\/[a-zA-Z0-9.\-]+\/https:\/\/github\.com)'/g, m;
-				while ((m = re.exec(clean))) {
-					var base = m[1].replace(/\/https:\/\/github\.com$/, '/');
-					list.push({ name: nodeHost(base), base: base });
-				}
-				mergeNodes(list);
-			}).catch(function () { clearTimeout(timer); });
-		}
-
 		function refreshNodes() {
 			var ctrl = new AbortController();
 			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
@@ -1098,7 +1077,6 @@
 				if (data && data.nodes && data.nodes.length) mergeNodes(data.nodes);
 			}).catch(function () {
 				clearTimeout(timer);
-				refreshNodesFromScript();
 			});
 		}
 
