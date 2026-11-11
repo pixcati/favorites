@@ -974,7 +974,7 @@
 			<div class="release-head" id="releaseHead" hidden>
 				<span class="release-head-repo" id="releaseHeadRepo"></span>
 				<div class="release-version-wrap" id="releaseVersionWrap">
-					<button type="button" class="release-version" id="releaseVersionBtn" aria-haspopup="listbox" aria-expanded="false"><span class="release-version-label" id="releaseVersionLabel">最新</span><svg class="release-version-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
+					<button type="button" class="release-version" id="releaseVersionBtn" aria-haspopup="listbox" aria-expanded="false"><span class="release-version-label" id="releaseVersionLabel"></span><svg class="release-version-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button>
 					<ul class="release-version-list" id="releaseVersionList" role="listbox" hidden></ul>
 				</div>
 			</div>
@@ -1520,7 +1520,7 @@
 			var labelEl = document.getElementById('releaseVersionLabel');
 			var listEl = document.getElementById('releaseVersionList');
 			repoEl.textContent = owner + '/' + repo;
-			labelEl.textContent = currentTag || '最新';
+			labelEl.textContent = currentTag;
 			listEl.innerHTML = '';
 			wrapEl.classList.remove('open');
 			btnEl.setAttribute('aria-expanded', 'false');
