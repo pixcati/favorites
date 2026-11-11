@@ -992,6 +992,7 @@
 			}
 			var u = v;
 			if (!/^https?:\/\//i.test(u)) u = 'https://' + u;
+			u = toRawUrl(u);
 			window.open(selectedBase + u, '_blank');
 		});
 		
@@ -1003,6 +1004,11 @@
 		var NODES = [];
 		var OWN_BASE = 'https://cdn.pixcat.cn/';
 		var LATENCY_IMAGE = 'https://raw.githubusercontent.com/python/cpython/refs/heads/main/PC/icons/python.ico';
+		function toRawUrl(u) {
+			var m = u.match(/^(?:https?:\/\/)?github\.com\/([^\/]+)\/([^\/]+)\/(?:blob|raw)\/(.+)$/i);
+			if (m) return 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3];
+			return u;
+		}
 		var SPEED_FILES = [
 			'https://github.com/microsoft/terminal/releases/download/v1.22.10731.0/Microsoft.WindowsTerminal_1.22.10731.0_x64.zip',
 			'https://github.com/NVIDIA/cccl/releases/download/v3.2.0/cccl-src-v3.2.0.zip',
@@ -1070,6 +1076,7 @@
 
 		function selectNode(base) {
 			selectedBase = base;
+			if (currentRelease && !releaseListEl.hidden) renderRelease(currentRelease);
 			localStorage.setItem('ghproxy-node', base);
 			try { document.cookie = 'ghproxy-node=' + encodeURIComponent(base) + '; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
 			renderNodes();
@@ -1361,7 +1368,9 @@
 			}).catch(function (e) { clearTimeout(timer); throw e; });
 		}
 
+		var currentRelease = null;
 		function renderRelease(data) {
+			currentRelease = data;
 			releaseListEl.innerHTML = '';
 			var assets = data.assets || [];
 			if (!assets.length) {
