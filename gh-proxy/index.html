@@ -1170,7 +1170,7 @@
 				var spd = nodeSpeeds[n.base];
 				btn.className = 'node-row' + (n.base === selectedBase ? ' selected' : '') + (isTesting && lat === undefined ? ' testing' : '') + (lat === null ? ' failed' : '');
 				var latText = lat === undefined ? (isTesting ? '测速中…' : '') : (lat === null ? '失败' : Math.round(lat) + ' ms');
-				var spdText = spd === undefined ? (isTesting && lat !== undefined && lat !== null ? '测速中…' : '') : (spd === null ? '超时' : fmtSpeed(spd));
+				var spdText = spd === undefined ? (isTesting && lat !== undefined && lat !== null ? '测速中…' : '') : (spd === null ? '超时' : (spd === false ? '不支持' : fmtSpeed(spd)));
 				btn.innerHTML = '<span class="node-dot"></span><span class="node-name"></span><span class="node-host"></span><span class="node-latency"></span><span class="node-speed"></span>';
 				btn.querySelector('.node-name').textContent = n.name;
 				btn.querySelector('.node-host').textContent = n.name === nodeHost(n.base) ? '' : nodeHost(n.base);
@@ -1190,8 +1190,6 @@
 			renderNodes();
 			var cur = nodeByBase(base);
 			nodesStatusEl.textContent = cur.name === nodeHost(cur.base) ? '当前节点：' + nodeHost(cur.base) : '当前节点：' + cur.name + '（' + nodeHost(cur.base) + '）';
-			var row = nodeListEl.querySelector('.node-row.selected');
-			if (row) row.scrollIntoView({ block: 'nearest' });
 		}
 
 		function testLatency(node) {
@@ -1218,7 +1216,8 @@
 			return new Promise(function (resolve) {
 				var ctrl = new AbortController();
 				testControllers.push(ctrl);
-				var timer = setTimeout(function () { ctrl.abort(); }, SPEED_TIMEOUT);
+				var timedOut = false;
+				var timer = setTimeout(function () { timedOut = true; ctrl.abort(); }, SPEED_TIMEOUT);
 				var start = performance.now();
 				var speedFile = SPEED_FILES[Math.floor(Math.random() * SPEED_FILES.length)];
 				fetch(node.base + speedFile + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
@@ -1231,7 +1230,7 @@
 					resolve((blob.size / 1048576) / sec);
 				}).catch(function () {
 					clearTimeout(timer);
-					resolve(null);
+					resolve(timedOut ? null : false);
 				});
 			});
 		}
@@ -1250,7 +1249,7 @@
 			}
 			var best = null, bestMbps = -1;
 			Object.keys(nodeSpeeds).forEach(function (b) {
-				if (nodeSpeeds[b] !== null && nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
+				if (typeof nodeSpeeds[b] === 'number' && nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
 			});
 			if (best) {
 				if (selectedBase === startBase) {
@@ -1652,7 +1651,6 @@
 			} else {
 				input.setAttribute('pattern', FILE_PATTERN);
 			}
-			input.focus({ preventScroll: true });
 		});
 	</script>
 </body>
