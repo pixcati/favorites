@@ -1003,7 +1003,11 @@
 		var NODES = [];
 		var OWN_BASE = 'https://cdn.pixcat.cn/';
 		var LATENCY_IMAGE = 'https://raw.githubusercontent.com/python/cpython/refs/heads/main/PC/icons/python.ico';
-		var SPEED_IMAGE = 'https://raw.githubusercontent.com/AAswordman/OperitWeb/main/public/manuals/assets/workflow/01.png';
+		var SPEED_FILES = [
+			'https://github.com/microsoft/terminal/releases/download/v1.22.10731.0/Microsoft.WindowsTerminal_1.22.10731.0_x64.zip',
+			'https://github.com/NVIDIA/cccl/releases/download/v3.2.0/cccl-src-v3.2.0.zip',
+			'https://github.com/pypa/pip/archive/refs/tags/24.3.1.zip'
+		];
 		var LATENCY_TIMEOUT = 4000;
 		var SPEED_TIMEOUT = 15000;
 		var NODES_URL = 'https://cdn.pixcat.cn/nodes';
@@ -1100,7 +1104,8 @@
 				testControllers.push(ctrl);
 				var timer = setTimeout(function () { ctrl.abort(); }, SPEED_TIMEOUT);
 				var start = performance.now();
-				fetch(node.base + SPEED_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
+				var speedFile = SPEED_FILES[Math.floor(Math.random() * SPEED_FILES.length)];
+				fetch(node.base + speedFile + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
 					if (!res.ok) throw new Error('bad status');
 					return res.blob();
 				}).then(function (blob) {
