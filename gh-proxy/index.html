@@ -1003,7 +1003,12 @@
 
 		var NODES = [];
 		var OWN_BASE = 'https://cdn.pixcat.cn/';
-		var LATENCY_IMAGE = 'https://raw.githubusercontent.com/python/cpython/refs/heads/main/PC/icons/python.ico';
+		var LATENCY_IMAGES = [
+			'https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png',
+			'https://raw.githubusercontent.com/github/explore/main/topics/go/go.png',
+			'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/python.svg',
+			'https://raw.githubusercontent.com/twbs/icons/main/icons/github.svg'
+		];
 		function toRawUrl(u) {
 			var m = u.match(/^(?:https?:\/\/)?github\.com\/([^\/]+)\/([^\/]+)\/(?:blob|raw)\/(.+)$/i);
 			if (m) return 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3];
@@ -1092,7 +1097,8 @@
 				testControllers.push(ctrl);
 				var timer = setTimeout(function () { ctrl.abort(); }, LATENCY_TIMEOUT);
 				var start = performance.now();
-				fetch(node.base + LATENCY_IMAGE + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
+				var latencyImage = LATENCY_IMAGES[Math.floor(Math.random() * LATENCY_IMAGES.length)];
+				fetch(node.base + latencyImage + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
 					if (!res.ok) throw new Error('bad status');
 					return res.blob();
 				}).then(function () {
