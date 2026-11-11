@@ -1109,7 +1109,7 @@
 				var spd = nodeSpeeds[n.base];
 				btn.className = 'node-row' + (n.base === selectedBase ? ' selected' : '') + (isTesting && lat === undefined ? ' testing' : '') + (lat === null ? ' failed' : '');
 				var latText = lat === undefined ? (isTesting ? '测速中…' : '') : (lat === null ? '失败' : Math.round(lat) + ' ms');
-				var spdText = spd === undefined ? (isTesting && lat !== undefined && lat !== null ? '测速中…' : '') : fmtSpeed(spd);
+				var spdText = spd === undefined ? (isTesting && lat !== undefined && lat !== null ? '测速中…' : '') : (spd === null ? '超时' : fmtSpeed(spd));
 				btn.innerHTML = '<span class="node-dot"></span><span class="node-name"></span><span class="node-host"></span><span class="node-latency"></span><span class="node-speed"></span>';
 				btn.querySelector('.node-name').textContent = n.name;
 				btn.querySelector('.node-host').textContent = n.name === nodeHost(n.base) ? '' : nodeHost(n.base);
@@ -1189,7 +1189,7 @@
 			}
 			var best = null, bestMbps = -1;
 			Object.keys(nodeSpeeds).forEach(function (b) {
-				if (nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
+				if (nodeSpeeds[b] !== null && nodeSpeeds[b] > bestMbps) { bestMbps = nodeSpeeds[b]; best = nodeByBase(b); }
 			});
 			if (best) {
 				if (selectedBase === startBase) {
@@ -1261,17 +1261,20 @@
 				if (!top.length) { finishTest(startBase); return; }
 				var done2 = 0;
 				nodesStatusEl.textContent = '正在测速… 0/' + top.length;
-				Promise.all(top.map(function (x) {
-					return testSpeed(x.node).then(function (r) {
-						done2++;
-						if (r !== null) {
+				var chain = Promise.resolve();
+				top.forEach(function (x) {
+					chain = chain.then(function () {
+						if (testStopped) return;
+						return testSpeed(x.node).then(function (r) {
+							done2++;
 							nodeSpeeds[x.node.base] = r;
-						}
-						renderNodes();
-						nodesStatusEl.textContent = '正在测速… ' + done2 + '/' + top.length;
-						setProgress(60 + done2 / top.length * 40);
+							renderNodes();
+							nodesStatusEl.textContent = '正在测速… ' + done2 + '/' + top.length;
+							setProgress(60 + done2 / top.length * 40);
+						});
 					});
-				})).then(function () { finishTest(startBase); });
+				});
+				chain.then(function () { finishTest(startBase); });
 			});
 		});
 
