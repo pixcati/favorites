@@ -500,6 +500,7 @@
 			background: var(--bg-secondary);
 			border: 1px solid var(--border);
 			border-radius: var(--radius-sm);
+			box-shadow: var(--shadow);
 			padding: 0.25rem;
 		}
 
@@ -614,6 +615,8 @@
 
 		.release-list {
 			margin-bottom: 1.25rem;
+			max-height: none;
+			overflow-y: visible;
 		}
 
 		.release-status {
@@ -707,28 +710,31 @@
 		.release-version-wrap.open .release-version-caret {
 			transform: rotate(180deg);
 		}
+		.release-version-wrap.open .release-version {
+			border-bottom-left-radius: 0;
+			border-bottom-right-radius: 0;
+		}
 		.release-version-list {
 			position: absolute;
-			top: calc(100% + 0.4rem);
+			top: 100%;
+			left: 0;
 			right: 0;
-			width: max-content;
-			min-width: 7rem;
-			max-width: 15rem;
 			max-height: 16rem;
 			overflow-y: auto;
 			margin: 0;
 			padding: 0.35rem;
 			list-style: none;
 			background: var(--bg-secondary);
-			border: 1px solid var(--border);
-			border-radius: var(--radius-sm);
+			border: 1px solid rgba(232, 153, 128, 0.45);
+			border-top: none;
+			border-radius: 0 0 var(--radius-sm) var(--radius-sm);
 			box-shadow: var(--shadow-lg);
 			z-index: 30;
 		}
 		.release-version-list button {
 			display: block;
 			width: 100%;
-			text-align: left;
+			text-align: center;
 			font: inherit;
 			font-size: 0.85rem;
 			color: var(--text-primary);
