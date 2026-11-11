@@ -655,7 +655,6 @@
 		}
 
 		.release-head {
-			position: relative;
 			display: flex;
 			align-items: center;
 			gap: 0.75rem;
@@ -671,7 +670,7 @@
 			flex: 1;
 		}
 		.release-version-wrap {
-			position: static;
+			position: relative;
 			flex-shrink: 0;
 			max-width: 46%;
 		}
@@ -711,8 +710,10 @@
 		.release-version-list {
 			position: absolute;
 			top: calc(100% + 0.4rem);
-			left: 0;
 			right: 0;
+			width: max-content;
+			min-width: 7rem;
+			max-width: 15rem;
 			max-height: 16rem;
 			overflow-y: auto;
 			margin: 0;
