@@ -1033,9 +1033,16 @@
                             "icon": "https:\/\/favicon.im\/tool.chinaz.com"
                         },
                         {
+                            "id": "site-2AtT9FWyIRSb",
+                            "title": "Github 文件加速 ①",
+                            "description": "多节点Github文件下载加速，支持直接获取编译版本",
+                            "url": "https:\/\/cdn.pixcat.cn\/",
+                            "icon": "https:\/\/favicon.im\/cdn.pixcat.cn"
+                        },
+                        {
                             "id": "site-4-20",
-                            "title": "Github 文件加速",
-                            "description": "加速Github文件下载",
+                            "title": "Github 文件加速 ②",
+                            "description": "通过不同节点加速Github文件下载，支持节点测速",
                             "url": "https:\/\/github.akams.cn\/",
                             "icon": "https:\/\/favicon.im\/github.akams.cn"
                         },
