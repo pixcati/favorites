@@ -229,300 +229,307 @@
                         },
                         {
                             "id": "site-1-3",
+                            "title": "专属时钟",
+                            "description": "极简网页时钟，支持屏幕常亮、全屏显示、自由缩放与自定义显示方向",
+                            "url": "https:\/\/www.pixcat.cn\/lab\/clock.html",
+                            "icon": "https:\/\/favicon.im\/www.pixcat.cn"
+                        },
+                        {
+                            "id": "site-1-4",
                             "title": "今日热榜",
                             "description": "全网各平台热榜聚合",
                             "url": "https:\/\/tophub.today\/c\/news",
                             "icon": "https:\/\/favicon.im\/tophub.today"
                         },
                         {
-                            "id": "site-1-4",
+                            "id": "site-1-5",
                             "title": "即时热点",
                             "description": "正在发生的事",
                             "url": "https:\/\/nowhots.com\/",
                             "icon": "https:\/\/favicon.im\/nowhots.com"
                         },
                         {
-                            "id": "site-1-5",
+                            "id": "site-1-6",
                             "title": "摸摸鱼热榜",
                             "description": "摸摸鱼热榜",
                             "url": "https:\/\/www.momoyu.cc\/",
                             "icon": "https:\/\/favicon.im\/www.momoyu.cc"
                         },
                         {
-                            "id": "site-1-6",
+                            "id": "site-1-7",
                             "title": "沉浸式翻译",
                             "description": "双语对照网页翻译",
                             "url": "https:\/\/immersivetranslate.com\/",
                             "icon": "https:\/\/favicon.im\/immersivetranslate.com"
                         },
                         {
-                            "id": "site-1-7",
+                            "id": "site-1-8",
                             "title": "翻译图中文字",
                             "description": "一键翻译各类图片内文字",
                             "url": "https:\/\/cotrans.touhou.ai\/",
                             "icon": "https:\/\/favicon.im\/cotrans.touhou.ai"
                         },
                         {
-                            "id": "site-1-8",
+                            "id": "site-1-9",
                             "title": "多引擎翻译 ①",
                             "description": "使用多个源进行翻译",
                             "url": "https:\/\/33tool.com\/translate\/",
                             "icon": "https:\/\/favicon.im\/33tool.com"
                         },
                         {
-                            "id": "site-1-9",
+                            "id": "site-1-10",
                             "title": "多引擎翻译 ②",
                             "description": "使用多个AI进行翻译",
                             "url": "https:\/\/openl.club\/",
                             "icon": "https:\/\/favicon.im\/openl.club"
                         },
                         {
-                            "id": "site-1-10",
+                            "id": "site-1-11",
                             "title": "从图片提取文字",
                             "description": "OCR文字识别",
                             "url": "https:\/\/i.pixcat.cn\/ocr-wen-zi-shi-bie-gong-ju",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
                         {
-                            "id": "site-1-11",
+                            "id": "site-1-12",
                             "title": "白板",
                             "description": "开源手绘白板，协作加密，支持PNG、SVG导出",
                             "url": "https:\/\/excalidraw.com\/",
                             "icon": "https:\/\/favicon.im\/excalidraw.com"
                         },
                         {
-                            "id": "site-1-12",
+                            "id": "site-1-13",
                             "title": "模拟手写签名",
                             "description": "模拟手写英文签名，可导出SVG",
                             "url": "https:\/\/www.calligrapher.ai\/",
                             "icon": "https:\/\/favicon.im\/www.calligrapher.ai"
                         },
                         {
-                            "id": "site-1-13",
+                            "id": "site-1-14",
                             "title": "查看本地IP",
                             "description": "查询本地IPV4、IPV6或DNS",
                             "url": "https:\/\/ip.skk.moe\/",
                             "icon": "https:\/\/favicon.im\/ip.skk.moe"
                         },
                         {
-                            "id": "site-1-14",
+                            "id": "site-1-15",
                             "title": "URL提取",
                             "description": "从内容中提取链接",
                             "url": "http:\/\/tools.sbbbb.cn\/urltq\/",
                             "icon": "https:\/\/favicon.im\/tools.sbbbb.cn"
                         },
                         {
-                            "id": "site-1-15",
+                            "id": "site-1-16",
                             "title": "域名Whois查询 ①",
                             "description": "查询域名的Whois信息",
                             "url": "https:\/\/who.cx\/",
                             "icon": "https:\/\/favicon.im\/who.cx"
                         },
                         {
-                            "id": "site-1-16",
+                            "id": "site-1-17",
                             "title": "域名Whois查询 ②",
                             "description": "查询域名的Whois信息",
                             "url": "https:\/\/tian.hu\/",
                             "icon": "https:\/\/favicon.im\/tian.hu"
                         },
                         {
-                            "id": "site-1-17",
+                            "id": "site-1-18",
                             "title": "代码卡片制作",
                             "description": "为你的代码片段生成好看的卡片图",
                             "url": "https:\/\/carbon.now.sh\/",
                             "icon": "https:\/\/favicon.im\/carbon.now.sh"
                         },
                         {
-                            "id": "site-1-18",
+                            "id": "site-1-19",
                             "title": "WIFI卡片制作",
                             "description": "为你的wifi制作二维码以扫码接入",
                             "url": "https:\/\/wificard.io\/",
                             "icon": "https:\/\/favicon.im\/wificard.io"
                         },
                         {
-                            "id": "site-1-19",
+                            "id": "site-1-20",
                             "title": "浏览器扩展下载 ①",
                             "description": "国内下载 Chrome 扩展",
                             "url": "https:\/\/chrome.zzzmh.cn\/",
                             "icon": "https:\/\/favicon.im\/chrome.zzzmh.cn"
                         },
                         {
-                            "id": "site-1-20",
+                            "id": "site-1-21",
                             "title": "浏览器扩展下载 ②",
                             "description": "下载 CRX 格式的 Chrome 扩展",
                             "url": "https:\/\/crxdl.com\/",
                             "icon": "https:\/\/favicon.im\/crxdl.com"
                         },
                         {
-                            "id": "site-1-21",
+                            "id": "site-1-22",
                             "title": "浏览器扩展下载 ③",
                             "description": "下载 CRX 格式的 Chrome 扩展",
                             "url": "https:\/\/www.crxsoso.com\/",
                             "icon": "https:\/\/favicon.im\/www.crxsoso.com"
                         },
                         {
-                            "id": "site-1-22",
+                            "id": "site-1-23",
                             "title": "GFork Proxy",
                             "description": "Greasy Fork 镜像站",
                             "url": "https:\/\/home.greasyfork.org.cn\/zh-hans",
                             "icon": "https:\/\/favicon.im\/home.greasyfork.org.cn"
                         },
                         {
-                            "id": "site-1-23",
+                            "id": "site-1-24",
                             "title": "找脚本 ①",
                             "description": "分享你的用户脚本",
                             "url": "https:\/\/scriptcat.org\/zh-CN\/",
                             "icon": "https:\/\/favicon.im\/scriptcat.org"
                         },
                         {
-                            "id": "site-1-24",
+                            "id": "site-1-25",
                             "title": "找脚本 ②",
                             "description": "油猴脚本搜索工具",
                             "url": "https:\/\/www.zhaojiaoben.cn\/",
                             "icon": "https:\/\/favicon.im\/www.zhaojiaoben.cn"
                         },
                         {
-                            "id": "site-1-25",
+                            "id": "site-1-26",
                             "title": "二维码生成制作",
                             "description": "参数化二维码生成",
                             "url": "https:\/\/qrbtf.com\/",
                             "icon": "https:\/\/favicon.im\/qrbtf.com"
                         },
                         {
-                            "id": "site-1-26",
+                            "id": "site-1-27",
                             "title": "CPU显卡天梯图",
                             "description": "CPU、GPU、Soc性能排行",
                             "url": "https:\/\/www.topcpu.net\/zh-hk\/",
                             "icon": "https:\/\/favicon.im\/www.topcpu.net"
                         },
                         {
-                            "id": "site-1-27",
+                            "id": "site-1-28",
                             "title": "移动端芯片排行",
                             "description": "移动端Soc性能排行，由极客湾出品",
                             "url": "https:\/\/www.socpk.com\/",
                             "icon": "https:\/\/favicon.im\/www.socpk.com"
                         },
                         {
-                            "id": "site-1-28",
+                            "id": "site-1-29",
                             "title": "路由器CPU性能排行",
                             "description": "硬路由多核加解密性能",
                             "url": "https:\/\/www.jamcz.com\/router\/",
                             "icon": "https:\/\/favicon.im\/www.jamcz.com"
                         },
                         {
-                            "id": "site-1-29",
+                            "id": "site-1-30",
                             "title": "随机密码生成",
                             "description": "随机字符串、密码生成器",
                             "url": "https:\/\/www.nullgo.com\/web\/random",
                             "icon": "https:\/\/favicon.im\/www.nullgo.com"
                         },
                         {
-                            "id": "site-1-30",
+                            "id": "site-1-31",
                             "title": "设备默认密码大全",
                             "description": "不同设备的默认账号及密码",
                             "url": "http:\/\/tools.sbbbb.cn\/defaultpasswd\/",
                             "icon": "https:\/\/favicon.im\/tools.sbbbb.cn"
                         },
                         {
-                            "id": "site-1-31",
+                            "id": "site-1-32",
                             "title": "公共DNS大全",
                             "description": "常用、小众或地方DNS",
                             "url": "https:\/\/dns.iui.im\/",
                             "icon": "https:\/\/favicon.im\/dns.iui.im"
                         },
                         {
-                            "id": "site-1-32",
+                            "id": "site-1-33",
                             "title": "快捷键备忘录",
                             "description": "工具类软件的常用快捷键",
                             "url": "https:\/\/hotkeycheatsheet.com\/zh",
                             "icon": "https:\/\/favicon.im\/hotkeycheatsheet.com"
                         },
                         {
-                            "id": "site-1-33",
+                            "id": "site-1-34",
                             "title": "开发者速查表 ①",
                             "description": "Devhints",
                             "url": "https:\/\/devhints.io\/",
                             "icon": "https:\/\/favicon.im\/devhints.io"
                         },
                         {
-                            "id": "site-1-34",
+                            "id": "site-1-35",
                             "title": "开发者速查表②",
                             "description": "Quick Reference",
                             "url": "https:\/\/wangchujiang.com\/reference\/",
                             "icon": "https:\/\/favicon.im\/wangchujiang.com"
                         },
                         {
-                            "id": "site-1-35",
+                            "id": "site-1-36",
                             "title": "AI编程助手收集",
                             "description": "国内外AI编程助手收集推荐",
                             "url": "https:\/\/51.ruyo.net\/18684.html",
                             "icon": "https:\/\/favicon.im\/51.ruyo.net"
                         },
                         {
-                            "id": "site-1-36",
+                            "id": "site-1-37",
                             "title": "网页上都是简体",
                             "description": "网页上的繁体字都替换为简体",
                             "url": "https:\/\/gfork.zh-tw.eu.org\/zh-hans\/scripts\/378243",
                             "icon": "https:\/\/favicon.im\/gfork.zh-tw.eu.org"
                         },
                         {
-                            "id": "site-1-37",
+                            "id": "site-1-38",
                             "title": "获取境外号卡 ①",
                             "description": "中国大陆可用境外SIM卡",
                             "url": "https:\/\/mutou.men\/posts\/2023-07-26-国外手机卡汇总\/",
                             "icon": "https:\/\/favicon.im\/mutou.men"
                         },
                         {
-                            "id": "site-1-38",
+                            "id": "site-1-39",
                             "title": "获取境外号卡 ②",
                             "description": "中国大陆可用境外SIM卡",
                             "url": "https:\/\/owomoe.net\/dev\/175.html",
                             "icon": "https:\/\/favicon.im\/owomoe.net"
                         },
                         {
-                            "id": "site-1-39",
+                            "id": "site-1-40",
                             "title": "在线方格纸打印",
                             "description": "在线自定义打印多种类型的方格纸",
                             "url": "https:\/\/www.mygraphpaper.com\/index.php?lang=zh-hans",
                             "icon": "https:\/\/favicon.im\/www.mygraphpaper.com"
                         },
                         {
-                            "id": "site-1-40",
+                            "id": "site-1-41",
                             "title": "在线 Markdown 编辑 ①",
                             "description": "为未来而构建的在线 Markdown 编辑器",
                             "url": "https:\/\/markdown.lovejade.cn\/",
                             "icon": "https:\/\/favicon.im\/markdown.lovejade.cn"
                         },
                         {
-                            "id": "site-1-41",
+                            "id": "site-1-42",
                             "title": "在线 Markdown 编辑 ②",
                             "description": "Markdown 编辑阅读器，实时同步预览",
                             "url": "https:\/\/md.openwrite.cn\/",
                             "icon": "https:\/\/favicon.im\/md.openwrite.cn"
                         },
                         {
-                            "id": "site-1-42",
+                            "id": "site-1-43",
                             "title": "帮你收短信 ①",
                             "description": "国外接码平台整理",
                             "url": "https:\/\/fmhy.net\/storage#sms-verification-sites",
                             "icon": "https:\/\/favicon.im\/fmhy.net"
                         },
                         {
-                            "id": "site-1-43",
+                            "id": "site-1-44",
                             "title": "帮你收短信 ②",
                             "description": "国内外接码平台汇总",
                             "url": "https:\/\/233heji.com\/28.html",
                             "icon": "https:\/\/favicon.im\/233heji.com"
                         },
                         {
-                            "id": "site-1-44",
+                            "id": "site-1-45",
                             "title": "临时邮箱",
                             "description": "免费临时邮箱汇总整理",
                             "url": "https:\/\/www.207788.xyz\/117.html",
                             "icon": "https:\/\/favicon.im\/www.207788.xyz"
                         },
                         {
-                            "id": "site-1-45",
+                            "id": "site-1-46",
                             "title": "URL Parser",
                             "description": "将网页转化为大模型可理解的格式",
                             "url": "https:\/\/www.urlparser.online\/",
