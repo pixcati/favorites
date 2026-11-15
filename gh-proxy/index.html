@@ -291,6 +291,10 @@
 			margin-bottom: 0.75rem;
 		}
 
+		.mode-rows {
+			display: contents;
+		}
+
 		.mode-row {
 			display: flex;
 			align-items: center;
@@ -610,6 +614,22 @@
 		@media (max-width: 600px) {
 			.node-host {
 				display: none;
+			}
+
+			.mode-rows {
+				display: flex;
+				align-items: center;
+				justify-content: flex-end;
+				gap: 1.25rem;
+				margin-bottom: 1.25rem;
+			}
+
+			.mode-rows .mode-row {
+				margin-bottom: 0;
+			}
+
+			.mode-rows .mode-row:nth-child(2) {
+				order: -1;
 			}
 		}
 
@@ -971,14 +991,16 @@
 				</button>
 			</form>
 
-			<div class="mode-row">
-				<span class="mode-label">获取 Release</span>
-				<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
-			</div>
+			<div class="mode-rows">
+				<div class="mode-row">
+					<span class="mode-label">获取 Release</span>
+					<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
+				</div>
 
-			<div class="mode-row">
-				<span class="mode-label">jsDelivr</span>
-				<button type="button" class="mode-switch" id="jsdelivrMode" role="switch" aria-checked="false" aria-label="jsDelivr 模式"><i></i></button>
+				<div class="mode-row">
+					<span class="mode-label">jsDelivr</span>
+					<button type="button" class="mode-switch" id="jsdelivrMode" role="switch" aria-checked="false" aria-label="jsDelivr 模式"><i></i></button>
+				</div>
 			</div>
 
 			<p class="nodes-status" id="jsdStatus" hidden></p>
