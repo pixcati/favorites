@@ -1017,6 +1017,18 @@
 				<div class="nodes-progress" id="nodesProgress"><i></i></div>
 				<ul class="node-list" id="nodeList"></ul>
 			</section>
+			<section class="nodes" id="purgeSection" hidden>
+				<div class="nodes-head">
+					<h2>刷新 jsDelivr 缓存</h2>
+					<button type="button" class="button-secondary" id="purgeFillBtn">使用上方链接</button>
+				</div>
+				<p class="nodes-status">jsDelivr 会缓存仓库文件，GitHub 上更新后，这里可能还是旧版。粘贴文件链接，点“刷新缓存”，强制 jsDelivr 重新从 GitHub 拉取最新版，一次刷新对所有 jsDelivr 节点生效。</p>
+				<form class="form" id="purgeForm">
+					<input class="input" type="text" id="purgeInput" placeholder="粘贴 GitHub 文件链接（blob / raw）" autocomplete="off" />
+					<button type="submit" class="button" id="purgeBtn">刷新缓存</button>
+				</form>
+				<p class="nodes-status" id="purgeStatus" hidden></p>
+			</section>
 		</div>
 	</main>
 
@@ -1756,6 +1768,11 @@
 		var releaseModeBtn = document.getElementById('releaseMode');
 		var jsdelivrModeBtn = document.getElementById('jsdelivrMode');
 		var jsdStatusEl = document.getElementById('jsdStatus');
+		var purgeSectionEl = document.getElementById('purgeSection');
+		var purgeInputEl = document.getElementById('purgeInput');
+		var purgeStatusEl = document.getElementById('purgeStatus');
+		var purgeFormEl = document.getElementById('purgeForm');
+		var purgeBtnEl = document.getElementById('purgeBtn');
 		var FILE_PATTERN = '^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$';
 		function setReleaseMode(on) {
 			releaseMode = on;
@@ -1789,6 +1806,8 @@
 				input.placeholder = '粘贴 GitHub 文件链接';
 				applyNodeList();
 			}
+			purgeSectionEl.hidden = !on;
+			if (on) fillPurgeInput(false);
 		}
 		releaseModeBtn.addEventListener('click', function () {
 			if (isTesting) { nodesStatusEl.textContent = '测速进行中，请先停止测速再切换模式'; return; }
@@ -1798,12 +1817,78 @@
 			if (isTesting) { nodesStatusEl.textContent = '测速进行中，请先停止测速再切换模式'; return; }
 			setJsdelivrMode(!jsdelivrMode);
 		});
+		function toPurgePath(v) {
+			var jsd = toJsdPath(v);
+			if (jsd) return jsd;
+			var m = v.match(/^(?:https?:\/\/)?[^\/]+\/gh\/(.+)$/i);
+			if (m) {
+				var rest = m[1].split(/[?#]/)[0];
+				if (/^[^\/]+\/[^\/]+@[^\/]+\/.+$/.test(rest)) return 'gh/' + rest;
+			}
+			return null;
+		}
+		function fillPurgeInput(force) {
+			if (!force && purgeInputEl.value.trim()) return;
+			var v = input.value.trim();
+			if (toJsdPath(v)) purgeInputEl.value = v;
+		}
+		document.getElementById('purgeFillBtn').addEventListener('click', function () {
+			var v = input.value.trim();
+			if (toJsdPath(v)) {
+				purgeInputEl.value = v;
+				purgeStatusEl.hidden = true;
+				purgeInputEl.focus();
+			} else {
+				purgeStatusEl.hidden = false;
+				purgeStatusEl.textContent = '上方输入框里没有可用的文件链接，请先粘贴 blob / raw 链接';
+			}
+		});
+		purgeFormEl.addEventListener('submit', function (e) {
+			e.preventDefault();
+			var v = purgeInputEl.value.trim();
+			var p = toPurgePath(v);
+			if (!p) {
+				purgeStatusEl.hidden = false;
+				purgeStatusEl.textContent = '请输入 GitHub 文件链接（blob / raw）或 jsDelivr 链接（/gh/…）';
+				purgeInputEl.style.borderColor = '#ef4444';
+				purgeInputEl.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
+				setTimeout(function () {
+					purgeInputEl.style.borderColor = '';
+					purgeInputEl.style.boxShadow = '';
+				}, 2000);
+				return;
+			}
+			purgeStatusEl.hidden = false;
+			purgeStatusEl.textContent = '正在刷新…';
+			purgeBtnEl.disabled = true;
+			purgeBtnEl.textContent = '刷新中…';
+			fetch('https://purge.jsdelivr.net/' + p).then(function (res) {
+				return res.json();
+			}).then(function (data) {
+				purgeBtnEl.disabled = false;
+				purgeBtnEl.textContent = '刷新缓存';
+				var entry = data && data.paths && data.paths['/' + p];
+				if (data && data.status === 'finished' && entry && !entry.throttled) {
+					purgeStatusEl.textContent = '已刷新，重新打开链接即可看到最新版';
+				} else if (entry && entry.throttled) {
+					purgeStatusEl.textContent = '刷新太频繁，请稍后再试一次';
+				} else {
+					purgeStatusEl.textContent = '刷新失败，请再试一次';
+				}
+			}).catch(function () {
+				purgeBtnEl.disabled = false;
+				purgeBtnEl.textContent = '刷新缓存';
+				purgeStatusEl.textContent = '刷新失败，请检查网络后重试';
+			});
+		});
 		if (jsdelivrMode) {
 			jsdelivrModeBtn.classList.add('on');
 			jsdelivrModeBtn.setAttribute('aria-checked', 'true');
 			jsdelivrModeBtn.parentElement.classList.add('on');
 			input.placeholder = '粘贴 GitHub 文件链接（jsDelivr）';
 			try { document.cookie = 'ghproxy-jsdelivr=1; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
+			purgeSectionEl.hidden = false;
+			fillPurgeInput(false);
 		}
 	</script>
 </body>
