@@ -480,6 +480,24 @@
 			margin: 0.5rem 0 0.75rem;
 		}
 
+		.purge-confirm {
+			display: flex;
+			align-items: center;
+			gap: 0.5rem;
+			font-size: 0.85rem;
+			color: var(--text-secondary);
+			margin: 0.25rem 0 0.75rem;
+			cursor: pointer;
+		}
+
+		.purge-confirm[hidden] {
+			display: none;
+		}
+
+		.purge-confirm input {
+			accent-color: var(--accent);
+		}
+
 		.nodes-progress {
 			height: 3px;
 			background: var(--bg-secondary);
@@ -1022,11 +1040,12 @@
 					<h2>刷新 jsDelivr 缓存</h2>
 					<button type="button" class="button-secondary" id="purgeFillBtn">使用上方链接</button>
 				</div>
-				<p class="nodes-status">jsDelivr 会缓存仓库文件，GitHub 上更新后，这里可能还是旧版。粘贴文件链接，点“刷新缓存”，强制 jsDelivr 重新从 GitHub 拉取最新版，一次刷新对所有 jsDelivr 节点生效。</p>
+				<p class="nodes-status">jsDelivr 会缓存仓库文件，GitHub 上更新后，这里可能还是旧版。粘贴文件链接，点“刷新缓存”，强制 jsDelivr 重新从 GitHub 拉取最新版，一次刷新对所有 jsDelivr 节点生效；也支持本站加速节点列表里的 jsDelivr 镜像链接。</p>
 				<form class="form" id="purgeForm">
-					<input class="input" type="text" id="purgeInput" placeholder="粘贴 GitHub 文件链接（blob / raw）" autocomplete="off" />
+					<input class="input" type="text" id="purgeInput" placeholder="粘贴 GitHub 文件链接（blob / raw）或 jsDelivr 链接" autocomplete="off" />
 					<button type="submit" class="button" id="purgeBtn">刷新缓存</button>
 				</form>
+				<label class="purge-confirm" id="purgeConfirm" hidden><input type="checkbox" id="purgeConfirmBox"> 这是 jsDelivr 镜像站 / 反向代理，继续刷新</label>
 				<p class="nodes-status" id="purgeStatus" hidden></p>
 			</section>
 		</div>
@@ -1773,6 +1792,8 @@
 		var purgeStatusEl = document.getElementById('purgeStatus');
 		var purgeFormEl = document.getElementById('purgeForm');
 		var purgeBtnEl = document.getElementById('purgeBtn');
+		var purgeConfirmEl = document.getElementById('purgeConfirm');
+		var purgeConfirmBox = document.getElementById('purgeConfirmBox');
 		var FILE_PATTERN = '^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$';
 		function setReleaseMode(on) {
 			releaseMode = on;
@@ -1827,6 +1848,23 @@
 			}
 			return null;
 		}
+		var purgeMirrors = [];
+		try { purgeMirrors = JSON.parse(localStorage.getItem('ghproxy-purge-mirrors') || '[]') || []; } catch (e) { purgeMirrors = []; }
+		function jsdHostOf(base) { return base.replace(/^https?:\/\//, '').split('/')[0].toLowerCase(); }
+		function isKnownJsdHost(host) {
+			if (purgeMirrors.indexOf(host) >= 0) return true;
+			return JSD_NODES.some(function (n) { return n && n.base && jsdHostOf(n.base) === host; });
+		}
+		function rememberPurgeMirror(host) {
+			if (purgeMirrors.indexOf(host) >= 0) return;
+			purgeMirrors.push(host);
+			if (purgeMirrors.length > 20) purgeMirrors.shift();
+			try { localStorage.setItem('ghproxy-purge-mirrors', JSON.stringify(purgeMirrors)); } catch (e) {}
+		}
+		function purgeInputHost(v) {
+			var m = v.match(/^(?:https?:\/\/)?([^\/]+)\/gh\/(.+)$/i);
+			return m ? m[1].toLowerCase() : null;
+		}
 		function fillPurgeInput(force) {
 			if (!force && purgeInputEl.value.trim()) return;
 			var v = input.value.trim();
@@ -1843,8 +1881,32 @@
 				purgeStatusEl.textContent = '上方输入框里没有可用的文件链接，请先粘贴 blob / raw 链接';
 			}
 		});
-		purgeFormEl.addEventListener('submit', function (e) {
-			e.preventDefault();
+		function doPurge(p, host) {
+			purgeStatusEl.hidden = false;
+			purgeStatusEl.textContent = '正在刷新…';
+			purgeBtnEl.disabled = true;
+			purgeBtnEl.textContent = '刷新中…';
+			fetch('https://purge.jsdelivr.net/' + p).then(function (res) {
+				return res.json();
+			}).then(function (data) {
+				purgeBtnEl.disabled = false;
+				purgeBtnEl.textContent = '刷新缓存';
+				var entry = data && data.paths && data.paths['/' + p];
+				if (data && data.status === 'finished' && entry && !entry.throttled) {
+					purgeStatusEl.textContent = '已刷新，重新打开链接即可看到最新版';
+					if (host) rememberPurgeMirror(host);
+				} else if (entry && entry.throttled) {
+					purgeStatusEl.textContent = '刷新太频繁，请稍后再试一次';
+				} else {
+					purgeStatusEl.textContent = '刷新失败，请再试一次';
+				}
+			}).catch(function () {
+				purgeBtnEl.disabled = false;
+				purgeBtnEl.textContent = '刷新缓存';
+				purgeStatusEl.textContent = '刷新失败，请检查网络后重试';
+			});
+		}
+		function submitPurge() {
 			var v = purgeInputEl.value.trim();
 			var p = toPurgePath(v);
 			if (!p) {
@@ -1858,28 +1920,27 @@
 				}, 2000);
 				return;
 			}
-			purgeStatusEl.hidden = false;
-			purgeStatusEl.textContent = '正在刷新…';
-			purgeBtnEl.disabled = true;
-			purgeBtnEl.textContent = '刷新中…';
-			fetch('https://purge.jsdelivr.net/' + p).then(function (res) {
-				return res.json();
-			}).then(function (data) {
-				purgeBtnEl.disabled = false;
-				purgeBtnEl.textContent = '刷新缓存';
-				var entry = data && data.paths && data.paths['/' + p];
-				if (data && data.status === 'finished' && entry && !entry.throttled) {
-					purgeStatusEl.textContent = '已刷新，重新打开链接即可看到最新版';
-				} else if (entry && entry.throttled) {
-					purgeStatusEl.textContent = '刷新太频繁，请稍后再试一次';
-				} else {
-					purgeStatusEl.textContent = '刷新失败，请再试一次';
-				}
-			}).catch(function () {
-				purgeBtnEl.disabled = false;
-				purgeBtnEl.textContent = '刷新缓存';
-				purgeStatusEl.textContent = '刷新失败，请检查网络后重试';
-			});
+			var host = purgeInputHost(v);
+			if (host && !isKnownJsdHost(host) && !purgeConfirmBox.checked) {
+				purgeStatusEl.hidden = false;
+				purgeStatusEl.textContent = '这个域名不在本站节点列表里';
+				purgeConfirmEl.hidden = false;
+				return;
+			}
+			purgeConfirmEl.hidden = true;
+			doPurge(p, host);
+		}
+		purgeFormEl.addEventListener('submit', function (e) {
+			e.preventDefault();
+			submitPurge();
+		});
+		purgeConfirmBox.addEventListener('change', function () {
+			if (purgeConfirmBox.checked) submitPurge();
+		});
+		purgeInputEl.addEventListener('input', function () {
+			purgeStatusEl.hidden = true;
+			purgeConfirmEl.hidden = true;
+			purgeConfirmBox.checked = false;
 		});
 		if (jsdelivrMode) {
 			jsdelivrModeBtn.classList.add('on');
