@@ -619,17 +619,13 @@
 			.mode-rows {
 				display: flex;
 				align-items: center;
-				justify-content: flex-end;
+				justify-content: center;
 				gap: 1.25rem;
 				margin-bottom: 1.25rem;
 			}
 
 			.mode-rows .mode-row {
 				margin-bottom: 0;
-			}
-
-			.mode-rows .mode-row:nth-child(2) {
-				order: -1;
 			}
 		}
 
@@ -993,13 +989,13 @@
 
 			<div class="mode-rows">
 				<div class="mode-row">
-					<span class="mode-label">获取 Release</span>
-					<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
+					<span class="mode-label">jsDelivr</span>
+					<button type="button" class="mode-switch" id="jsdelivrMode" role="switch" aria-checked="false" aria-label="jsDelivr 模式"><i></i></button>
 				</div>
 
 				<div class="mode-row">
-					<span class="mode-label">jsDelivr</span>
-					<button type="button" class="mode-switch" id="jsdelivrMode" role="switch" aria-checked="false" aria-label="jsDelivr 模式"><i></i></button>
+					<span class="mode-label">获取 Release</span>
+					<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
 				</div>
 			</div>
 
