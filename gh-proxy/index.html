@@ -976,6 +976,12 @@
 				<button type="button" class="mode-switch" id="releaseMode" role="switch" aria-checked="false" aria-label="获取 Release 模式"><i></i></button>
 			</div>
 
+			<div class="mode-row">
+				<span class="mode-label">jsDelivr</span>
+				<button type="button" class="mode-switch" id="jsdelivrMode" role="switch" aria-checked="false" aria-label="jsDelivr 模式"><i></i></button>
+			</div>
+
+			<p class="nodes-status" id="jsdStatus" hidden></p>
 			<p class="nodes-status release-status" id="releaseStatus" hidden></p>
 			<div class="release-head" id="releaseHead" hidden>
 				<span class="release-head-repo" id="releaseHeadRepo"></span>
@@ -1095,6 +1101,23 @@
 				});
 				return;
 			}
+			if (jsdelivrMode) {
+				var jsd = toJsdPath(v);
+				if (!jsd) {
+					jsdStatusEl.hidden = false;
+					jsdStatusEl.textContent = 'jsDelivr 模式只支持仓库文件链接（blob / raw），Release、archive、gist 请先关闭 jsDelivr 开关';
+					input.style.borderColor = '#ef4444';
+					input.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
+					setTimeout(function () {
+						input.style.borderColor = '';
+						input.style.boxShadow = '';
+					}, 2000);
+					return;
+				}
+				jsdStatusEl.hidden = true;
+				window.open(selectedBase + jsd, '_blank');
+				return;
+			}
 			if (!input.validity.valid) {
 				input.style.borderColor = '#ef4444';
 				input.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
@@ -1116,6 +1139,8 @@
 		});
 
 		var NODES = [];
+		var GH_NODES = [];
+		var JSD_NODES = [];
 		var OWN_BASE = 'https://cdn.pixcat.cn/';
 		var LATENCY_IMAGES = [
 			'https://raw.githubusercontent.com/github/explore/main/topics/javascript/javascript.png',
@@ -1128,16 +1153,70 @@
 			if (m) return 'https://raw.githubusercontent.com/' + m[1] + '/' + m[2] + '/' + m[3];
 			return u;
 		}
+		function toJsdPath(u) {
+			var m = u.match(/^(?:https?:\/\/)?github\.com\/([^\/]+)\/([^\/]+)\/(?:blob|raw)\/(.+)$/i);
+			if (!m) m = u.match(/^(?:https?:\/\/)?raw\.githubusercontent\.com\/([^\/]+)\/([^\/]+)\/(.+)$/i);
+			if (!m) return null;
+			var rest = m[3];
+			var i = rest.indexOf('/');
+			if (i < 0) return null;
+			return 'gh/' + m[1] + '/' + m[2] + '@' + rest.slice(0, i) + '/' + rest.slice(i + 1);
+		}
+		function nodeStorageKey() {
+			return jsdelivrMode ? 'ghproxy-jsd-node' : 'ghproxy-node';
+		}
+		function activeLatencyImages() {
+			return jsdelivrMode ? JSD_LATENCY_IMAGES : LATENCY_IMAGES;
+		}
+		function activeSpeedFiles() {
+			return jsdelivrMode ? JSD_SPEED_FILES : SPEED_FILES;
+		}
+		function currentNodesUrl() {
+			return jsdelivrMode ? JSD_NODES_URL : NODES_URL;
+		}
+		function currentFallback() {
+			return jsdelivrMode ? JSD_DEFAULT : OWN_BASE;
+		}
+		function applyNodeList() {
+			var target = jsdelivrMode ? JSD_NODES : GH_NODES;
+			if (target.length) {
+				NODES = target;
+				var stored = null;
+				try { stored = localStorage.getItem(nodeStorageKey()); } catch (e) {}
+				if (stored) selectedBase = stored;
+				if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = currentFallback();
+				nodeSpeeds = {};
+				nodeLatency = {};
+				renderNodes();
+				selectNode(selectedBase);
+			} else {
+				refreshNodes();
+			}
+		}
 		var SPEED_FILES = [
 			'https://github.com/microsoft/terminal/releases/download/v1.22.10731.0/Microsoft.WindowsTerminal_1.22.10731.0_x64.zip',
 			'https://github.com/NVIDIA/cccl/releases/download/v3.2.0/cccl-src-v3.2.0.zip',
 			'https://github.com/pypa/pip/archive/refs/tags/24.3.1.zip'
+		];
+		var JSD_NODES_URL = 'https://cdn.pixcat.cn/jsd-nodes';
+		var JSD_DEFAULT = 'https://cdn.jsdelivr.net/';
+		var JSD_LATENCY_IMAGES = [
+			'gh/github/explore@main/topics/javascript/javascript.png',
+			'gh/github/explore@main/topics/go/go.png',
+			'gh/simple-icons/simple-icons@develop/icons/python.svg',
+			'gh/twbs/icons@main/icons/github.svg'
+		];
+		var JSD_SPEED_FILES = [
+			'gh/apache/echarts@5/dist/echarts.min.js',
+			'gh/mrdoob/three.js@master/build/three.module.js'
 		];
 		var LATENCY_TIMEOUT = 4000;
 		var SPEED_TIMEOUT = 15000;
 		var NODES_URL = 'https://cdn.pixcat.cn/nodes';
 		var selectedBase = localStorage.getItem('ghproxy-node') || OWN_BASE;
 		var releaseMode = false;
+		var jsdelivrMode = localStorage.getItem('ghproxy-jsdelivr') === '1';
+		if (jsdelivrMode) selectedBase = localStorage.getItem('ghproxy-jsd-node') || JSD_DEFAULT;
 		var nodeListEl = document.getElementById('nodeList');
 		var nodesStatusEl = document.getElementById('nodesStatus');
 		var nodesCountEl = document.getElementById('nodesCount');
@@ -1196,7 +1275,7 @@
 		function selectNode(base) {
 			selectedBase = base;
 			if (currentRelease && !releaseListEl.hidden) renderRelease(currentRelease);
-			localStorage.setItem('ghproxy-node', base);
+			localStorage.setItem(nodeStorageKey(), base);
 			try { document.cookie = 'ghproxy-node=' + encodeURIComponent(base) + '; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
 			renderNodes();
 			var cur = nodeByBase(base);
@@ -1209,7 +1288,8 @@
 				testControllers.push(ctrl);
 				var timer = setTimeout(function () { ctrl.abort(); }, LATENCY_TIMEOUT);
 				var start = performance.now();
-				var latencyImage = LATENCY_IMAGES[Math.floor(Math.random() * LATENCY_IMAGES.length)];
+				var latencyImgs = activeLatencyImages();
+				var latencyImage = latencyImgs[Math.floor(Math.random() * latencyImgs.length)];
 				fetch(node.base + latencyImage + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
 					if (!res.ok) throw new Error('bad status');
 					return res.blob();
@@ -1230,7 +1310,8 @@
 				var timedOut = false;
 				var timer = setTimeout(function () { timedOut = true; ctrl.abort(); }, SPEED_TIMEOUT);
 				var start = performance.now();
-				var speedFile = SPEED_FILES[Math.floor(Math.random() * SPEED_FILES.length)];
+				var speedFiles = activeSpeedFiles();
+				var speedFile = speedFiles[Math.floor(Math.random() * speedFiles.length)];
 				fetch(node.base + speedFile + '?t=' + Date.now() + Math.floor(Math.random() * 1000), { cache: 'no-cache', signal: ctrl.signal, referrerPolicy: 'no-referrer' }).then(function (res) {
 					if (!res.ok) throw new Error('bad status');
 					return res.blob();
@@ -1352,14 +1433,18 @@
 		function refreshNodes() {
 			var ctrl = new AbortController();
 			var timer = setTimeout(function () { ctrl.abort(); }, 5000);
-			fetch(NODES_URL, { signal: ctrl.signal }).then(function (res) {
+			fetch(currentNodesUrl(), { signal: ctrl.signal }).then(function (res) {
 				if (!res.ok) throw new Error('bad status');
 				return res.json();
 			}).then(function (data) {
 				clearTimeout(timer);
 				if (!data || !data.nodes || !data.nodes.length) throw new Error('empty');
-				NODES = data.nodes.filter(function (n) { return n && n.base; });
-				if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = OWN_BASE;
+				if (jsdelivrMode) { JSD_NODES = data.nodes.filter(function (n) { return n && n.base; }); NODES = JSD_NODES; }
+				else { GH_NODES = data.nodes.filter(function (n) { return n && n.base; }); NODES = GH_NODES; }
+				var stored = null;
+				try { stored = localStorage.getItem(nodeStorageKey()); } catch (e) {}
+				if (stored) selectedBase = stored;
+				if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = currentFallback();
 				selectNode(selectedBase);
 			}).catch(function () {
 				clearTimeout(timer);
@@ -1650,19 +1735,65 @@
 		}
 
 		var releaseModeBtn = document.getElementById('releaseMode');
+		var jsdelivrModeBtn = document.getElementById('jsdelivrMode');
+		var jsdStatusEl = document.getElementById('jsdStatus');
 		var FILE_PATTERN = '^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$';
-		releaseModeBtn.addEventListener('click', function () {
-			releaseMode = !releaseMode;
-			releaseModeBtn.classList.toggle('on', releaseMode);
-			releaseModeBtn.setAttribute('aria-checked', releaseMode ? 'true' : 'false');
-			releaseModeBtn.parentElement.classList.toggle('on', releaseMode);
-			input.placeholder = releaseMode ? '粘贴 Github 仓库或 Release 页面链接' : '粘贴 GitHub 文件链接';
-			if (releaseMode) {
+		function setReleaseMode(on) {
+			releaseMode = on;
+			releaseModeBtn.classList.toggle('on', on);
+			releaseModeBtn.setAttribute('aria-checked', on ? 'true' : 'false');
+			releaseModeBtn.parentElement.classList.toggle('on', on);
+			if (on) {
+				if (jsdelivrMode) setJsdelivrMode(false);
+				input.placeholder = '粘贴 Github 仓库或 Release 页面链接';
 				input.removeAttribute('pattern');
 			} else {
-				input.setAttribute('pattern', FILE_PATTERN);
+				input.placeholder = jsdelivrMode ? '粘贴 GitHub 文件链接（jsDelivr）' : '粘贴 GitHub 文件链接';
+				if (jsdelivrMode) {
+					input.removeAttribute('pattern');
+				} else {
+					input.setAttribute('pattern', FILE_PATTERN);
+				}
+				releaseStatusEl.hidden = true;
+				document.getElementById('releaseHead').hidden = true;
+				releaseListEl.hidden = true;
 			}
+		}
+		function setJsdelivrMode(on) {
+			jsdelivrMode = on;
+			try { localStorage.setItem('ghproxy-jsdelivr', on ? '1' : '0'); } catch (e) {}
+			try { document.cookie = 'ghproxy-jsdelivr=' + (on ? '1' : '0') + '; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
+			jsdelivrModeBtn.classList.toggle('on', on);
+			jsdelivrModeBtn.setAttribute('aria-checked', on ? 'true' : 'false');
+			jsdelivrModeBtn.parentElement.classList.toggle('on', on);
+			jsdStatusEl.hidden = true;
+			if (on) {
+				if (releaseMode) setReleaseMode(false);
+				input.placeholder = '粘贴 GitHub 文件链接（jsDelivr）';
+				input.removeAttribute('pattern');
+				applyNodeList();
+			} else {
+				input.placeholder = '粘贴 GitHub 文件链接';
+				input.setAttribute('pattern', FILE_PATTERN);
+				applyNodeList();
+			}
+		}
+		releaseModeBtn.addEventListener('click', function () {
+			if (isTesting) { nodesStatusEl.textContent = '测速进行中，请先停止测速再切换模式'; return; }
+			setReleaseMode(!releaseMode);
 		});
+		jsdelivrModeBtn.addEventListener('click', function () {
+			if (isTesting) { nodesStatusEl.textContent = '测速进行中，请先停止测速再切换模式'; return; }
+			setJsdelivrMode(!jsdelivrMode);
+		});
+		if (jsdelivrMode) {
+			jsdelivrModeBtn.classList.add('on');
+			jsdelivrModeBtn.setAttribute('aria-checked', 'true');
+			jsdelivrModeBtn.parentElement.classList.add('on');
+			input.placeholder = '粘贴 GitHub 文件链接（jsDelivr）';
+			input.removeAttribute('pattern');
+			try { document.cookie = 'ghproxy-jsdelivr=1; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
+		}
 	</script>
 </body>
 </html>
