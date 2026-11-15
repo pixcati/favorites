@@ -978,8 +978,6 @@
 					type="text" 
 					name="q" 
 					placeholder="粘贴 GitHub 文件链接"
-					pattern="^((https|http):\/\/)?(github\.com\/.+?\/.+?\/(?:releases|archive|blob)|((?:raw|gist)\.(?:githubusercontent|github)\.com))\/.+$"
-					required
 					autocomplete="off"
 				/>
 				<button type="submit" class="button">
@@ -1136,7 +1134,9 @@
 				window.open(selectedBase + jsd, '_blank');
 				return;
 			}
-			if (!input.validity.valid) {
+			if (!v || !new RegExp(FILE_PATTERN).test(v)) {
+				jsdStatusEl.hidden = false;
+				jsdStatusEl.textContent = '请输入 GitHub 文件链接（Releases、archive、blob、raw、gist）';
 				input.style.borderColor = '#ef4444';
 				input.style.boxShadow = '0 0 0 4px rgba(239, 68, 68, 0.15)';
 				setTimeout(function () {
@@ -1145,6 +1145,7 @@
 				}, 2000);
 				return;
 			}
+			jsdStatusEl.hidden = true;
 			var u = v;
 			if (!/^https?:\/\//i.test(u)) u = 'https://' + u;
 			u = toRawUrl(u);
@@ -1761,17 +1762,12 @@
 			releaseModeBtn.classList.toggle('on', on);
 			releaseModeBtn.setAttribute('aria-checked', on ? 'true' : 'false');
 			releaseModeBtn.parentElement.classList.toggle('on', on);
+			jsdStatusEl.hidden = true;
 			if (on) {
 				if (jsdelivrMode) setJsdelivrMode(false);
 				input.placeholder = '粘贴 Github 仓库或 Release 页面链接';
-				input.removeAttribute('pattern');
 			} else {
 				input.placeholder = jsdelivrMode ? '粘贴 GitHub 文件链接（jsDelivr）' : '粘贴 GitHub 文件链接';
-				if (jsdelivrMode) {
-					input.removeAttribute('pattern');
-				} else {
-					input.setAttribute('pattern', FILE_PATTERN);
-				}
 				releaseStatusEl.hidden = true;
 				document.getElementById('releaseHead').hidden = true;
 				releaseListEl.hidden = true;
@@ -1788,11 +1784,9 @@
 			if (on) {
 				if (releaseMode) setReleaseMode(false);
 				input.placeholder = '粘贴 GitHub 文件链接（jsDelivr）';
-				input.removeAttribute('pattern');
 				applyNodeList();
 			} else {
 				input.placeholder = '粘贴 GitHub 文件链接';
-				input.setAttribute('pattern', FILE_PATTERN);
 				applyNodeList();
 			}
 		}
@@ -1809,7 +1803,6 @@
 			jsdelivrModeBtn.setAttribute('aria-checked', 'true');
 			jsdelivrModeBtn.parentElement.classList.add('on');
 			input.placeholder = '粘贴 GitHub 文件链接（jsDelivr）';
-			input.removeAttribute('pattern');
 			try { document.cookie = 'ghproxy-jsdelivr=1; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
 		}
 	</script>
