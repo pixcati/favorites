@@ -292,7 +292,15 @@
 		}
 
 		.mode-rows {
-			display: contents;
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			gap: 1.25rem;
+			margin-bottom: 1.25rem;
+		}
+
+		.mode-rows .mode-row {
+			margin-bottom: 0;
 		}
 
 		.mode-row {
@@ -617,15 +625,7 @@
 			}
 
 			.mode-rows {
-				display: flex;
-				align-items: center;
 				justify-content: center;
-				gap: 1.25rem;
-				margin-bottom: 1.25rem;
-			}
-
-			.mode-rows .mode-row {
-				margin-bottom: 0;
 			}
 		}
 
