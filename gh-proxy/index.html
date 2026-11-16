@@ -838,6 +838,10 @@
 			text-decoration: none;
 		}
 
+		.footer .footer-title {
+			color: var(--accent);
+		}
+
 		.footer a:hover {
 			text-decoration: underline;
 		}
@@ -1052,7 +1056,7 @@
 	</main>
 
 	<footer class="footer">
-		<p>&copy; <a href="./">GitHub 文件加速</a></p>
+		<p>&copy; <span class="footer-title">GitHub 文件加速</span></p>
 	</footer>
 
 	<script>
@@ -1239,6 +1243,7 @@
 				nodeLatency = {};
 				renderNodes();
 				selectNode(selectedBase);
+				nodeListEl.scrollTop = 0;
 			} else {
 				refreshNodes();
 			}
@@ -1496,6 +1501,7 @@
 				if (stored) selectedBase = stored;
 				if (!NODES.some(function (n) { return n.base === selectedBase; })) selectedBase = currentFallback();
 				selectNode(selectedBase);
+				nodeListEl.scrollTop = 0;
 			}).catch(function () {
 				clearTimeout(timer);
 				if (!NODES.length) nodesStatusEl.textContent = '节点列表加载失败，仍使用默认节点';
@@ -1828,7 +1834,13 @@
 				applyNodeList();
 			}
 			purgeSectionEl.hidden = !on;
-			if (on) fillPurgeInput(false);
+			if (on) {
+				purgeStatusEl.hidden = true;
+				purgeStatusEl.textContent = '';
+				purgeConfirmEl.hidden = true;
+				purgeConfirmBox.checked = false;
+				fillPurgeInput(false);
+			}
 		}
 		releaseModeBtn.addEventListener('click', function () {
 			if (isTesting) { nodesStatusEl.textContent = '测速进行中，请先停止测速再切换模式'; return; }
