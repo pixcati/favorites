@@ -1031,7 +1031,7 @@
 					<h2>加速节点<span class="nodes-count" id="nodesCount">加载中…</span></h2>
 					<button type="button" class="button-secondary" id="speedTestBtn"><svg class="icon-gauge" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 14 4-4"/><path d="M3.34 19a10 10 0 1 1 17.32 0"/></svg><svg class="icon-stop" viewBox="0 0 384 512" aria-hidden="true"><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg><span id="speedTestText">节点测速</span></button>
 				</div>
-				<p class="nodes-status" id="nodesStatus">当前节点 本站（cdn.pixcat.cn）</p>
+				<p class="nodes-status" id="nodesStatus">当前节点：本站（cdn.pixcat.cn）</p>
 				<div class="nodes-progress" id="nodesProgress"><i></i></div>
 				<ul class="node-list" id="nodeList"></ul>
 			</section>
@@ -1042,7 +1042,7 @@
 				</div>
 				<p class="nodes-status">jsDelivr 会缓存仓库文件，GitHub 上更新后并不会立刻同步到 jsDelivr。粘贴文件链接，点“刷新缓存”， jsDelivr 将重新从 GitHub 拉取最新版；支持来自本站加速节点列表里的 jsDelivr 分节点与镜像服务的文件链接。</p>
 				<form class="form" id="purgeForm">
-					<input class="input" type="text" id="purgeInput" placeholder="粘贴 GitHub 文件链接（blob / raw）或 jsDelivr 链接" autocomplete="off" />
+					<input class="input" type="text" id="purgeInput" placeholder="粘贴 GitHub 文件链接（blob / raw）" autocomplete="off" />
 					<button type="submit" class="button" id="purgeBtn">刷新缓存</button>
 				</form>
 				<label class="purge-confirm" id="purgeConfirm" hidden><input type="checkbox" id="purgeConfirmBox"> 这是 jsDelivr 镜像站 / 反向代理，继续刷新</label>
@@ -1329,7 +1329,7 @@
 			try { document.cookie = 'ghproxy-node=' + encodeURIComponent(base) + '; path=/; max-age=86400; SameSite=Lax; Secure'; } catch (e) {}
 			renderNodes();
 			var cur = nodeByBase(base);
-			nodesStatusEl.textContent = cur.name === nodeHost(cur.base) ? '当前节点 ' + nodeHost(cur.base) : '当前节点 ' + cur.name + '（' + nodeHost(cur.base) + '）';
+			nodesStatusEl.textContent = cur.name === nodeHost(cur.base) ? '当前节点：' + nodeHost(cur.base) : '当前节点：' + cur.name + '（' + nodeHost(cur.base) + '）';
 		}
 
 		function testLatency(node) {
@@ -1396,10 +1396,10 @@
 			if (best) {
 				if (selectedBase === startBase) {
 					selectNode(best.base);
-					nodesStatusEl.textContent = '最快 ' + best.name + ' ' + fmtSpeed(nodeSpeeds[best.base]) + '，已自动切换';
+					nodesStatusEl.textContent = '最快：' + best.name + ' ' + fmtSpeed(nodeSpeeds[best.base]) + '，已自动切换';
 				} else {
 					renderNodes();
-					nodesStatusEl.textContent = '最快 ' + best.name + ' ' + fmtSpeed(nodeSpeeds[best.base]) + '，你手动选了 ' + nodeByBase(selectedBase).name + '，未切换';
+					nodesStatusEl.textContent = '最快：' + best.name + ' ' + fmtSpeed(nodeSpeeds[best.base]) + '，你手动选了 ' + nodeByBase(selectedBase).name + '，未切换';
 				}
 				return;
 			}
@@ -1410,10 +1410,10 @@
 			if (low) {
 				if (selectedBase === startBase) {
 					selectNode(low.base);
-					nodesStatusEl.textContent = '最快（按延迟） ' + low.name + ' ' + Math.round(lowMs) + ' ms，已自动切换';
+					nodesStatusEl.textContent = '最快（按延迟）：' + low.name + ' ' + Math.round(lowMs) + ' ms，已自动切换';
 				} else {
 					renderNodes();
-					nodesStatusEl.textContent = '测速未完成，最快（按延迟） ' + low.name + ' ' + Math.round(lowMs) + ' ms，未切换';
+					nodesStatusEl.textContent = '测速未完成，最快（按延迟）：' + low.name + ' ' + Math.round(lowMs) + ' ms，未切换';
 				}
 				return;
 			}
