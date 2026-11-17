@@ -210,7 +210,7 @@
                             "id": "site-1-0",
                             "title": "国内大模型一览",
                             "description": "国产LLM列表",
-                            "url": "https:\/\/github.com\/wgwang\/awesome-LLMs-In-China",
+                            "url": "https:\/\/r.pixcat.cn\/wgwang\/awesome-LLMs-In-China",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -1106,7 +1106,7 @@
                             "id": "site-4-28",
                             "title": "GitHubDaily",
                             "description": "分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯",
-                            "url": "https:\/\/github.com\/GitHubDaily\/GitHubDaily",
+                            "url": "https:\/\/r.pixcat.cn\/GitHubDaily\/GitHubDaily",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -1120,21 +1120,21 @@
                             "id": "site-4-30",
                             "title": "独立开发者项目列表",
                             "description": "中国独立开发者项目列表",
-                            "url": "https:\/\/github.com\/1c7\/chinese-independent-developer",
+                            "url": "https:\/\/r.pixcat.cn\/1c7\/chinese-independent-developer",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-31",
                             "title": "Awesome GitHub Repo",
                             "description": "收集整理 GitHub 上高质量、有趣的开源项目",
-                            "url": "https:\/\/github.com\/Wechat-ggGitHub\/Awesome-GitHub-Repo",
+                            "url": "https:\/\/r.pixcat.cn\/Wechat-ggGitHub\/Awesome-GitHub-Repo",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-32",
                             "title": "Awesome Shell",
                             "description": "命令行框架、工具包、指南、小玩意合集",
-                            "url": "https:\/\/github.com\/alebcay\/awesome-shell\/blob\/master\/README_ZH-CN.md",
+                            "url": "https:\/\/r.pixcat.cn\/alebcay\/awesome-shell\/README_ZH-CN.md",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -1258,24 +1258,24 @@
                         },
                         {
                             "id": "site-5-13",
-                            "title": "Creative Mass",
-                            "description": "精选创意导航",
-                            "url": "https:\/\/creativemass.cn\/",
-                            "icon": "https:\/\/favicon.im\/creativemass.cn"
-                        },
-                        {
-                            "id": "site-5-14",
                             "title": "叛逆草",
                             "description": "专注收集分享免费优质资源",
                             "url": "https:\/\/www.pncao.com\/",
                             "icon": "https:\/\/favicon.im\/www.pncao.com"
                         },
                         {
-                            "id": "site-5-15",
+                            "id": "site-5-14",
                             "title": "Tbox",
                             "description": "收录优质的在线工具",
                             "url": "https:\/\/www.tboxn.com\/",
                             "icon": "https:\/\/favicon.im\/www.tboxn.com"
+                        },
+                        {
+                            "id": "site-5-15",
+                            "title": "爱分享导航",
+                            "description": "收录各类实用网站的导航",
+                            "url": "https:\/\/ifxdh.com\/",
+                            "icon": "https:\/\/favicon.im\/ifxdh.com"
                         },
                         {
                             "id": "site-5-16",
@@ -1328,139 +1328,118 @@
                         },
                         {
                             "id": "site-5-23",
-                            "title": "旁门左道",
-                            "description": "旁门左道PPT推荐的导航",
-                            "url": "https:\/\/www.goto-mars.com\/people\/aLYqyNvYvd#nav-category-265771",
-                            "icon": "https:\/\/favicon.im\/www.goto-mars.com"
-                        },
-                        {
-                            "id": "site-5-24",
                             "title": "CXY521",
                             "description": "程序员导航-CXY521",
                             "url": "http:\/\/www.cxy521.com\/",
                             "icon": "https:\/\/favicon.im\/www.cxy521.com"
                         },
                         {
-                            "id": "site-5-25",
-                            "title": "冻死企鹅",
-                            "description": "可白嫖AI项目导航",
-                            "url": "https:\/\/bin9.top\/",
-                            "icon": "https:\/\/favicon.im\/bin9.top"
-                        },
-                        {
-                            "id": "site-5-26",
+                            "id": "site-5-24",
                             "title": "油小猴",
                             "description": "实用脚本集",
                             "url": "https:\/\/www.baiduyun.wiki\/",
                             "icon": "https:\/\/favicon.im\/www.baiduyun.wiki"
                         },
                         {
-                            "id": "site-5-27",
+                            "id": "site-5-25",
                             "title": "源仓库",
                             "description": "书源、漫画源影视源",
                             "url": "https:\/\/www.yckceo.com\/",
                             "icon": "https:\/\/favicon.im\/www.yckceo.com"
                         },
                         {
-                            "id": "site-5-28",
+                            "id": "site-5-26",
                             "title": "各种源大集合",
                             "description": "书源、图源、订阅源、规则、直播源",
                             "url": "https:\/\/source.zgqinc.gq\/",
                             "icon": "https:\/\/favicon.im\/source.zgqinc.gq"
                         },
                         {
-                            "id": "site-5-29",
+                            "id": "site-5-27",
                             "title": "爱资料工具",
                             "description": "好用的在线工具箱",
                             "url": "https:\/\/www.toolnb.com\/",
                             "icon": "https:\/\/favicon.im\/www.toolnb.com"
                         },
                         {
-                            "id": "site-5-30",
+                            "id": "site-5-28",
                             "title": "PickFrom",
                             "description": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
                             "url": "https:\/\/zh.pickfrom.net\/",
                             "icon": "https:\/\/favicon.im\/zh.pickfrom.net"
                         },
                         {
-                            "id": "site-5-31",
+                            "id": "site-5-29",
                             "title": "0xShe网络安全导航",
                             "description": "网络安全日常工具集",
                             "url": "https:\/\/sbbbb.cn\/",
                             "icon": "https:\/\/favicon.im\/sbbbb.cn"
                         },
                         {
-                            "id": "site-5-32",
+                            "id": "site-5-30",
                             "title": "Toollu",
                             "description": "代码压缩、美化，开发类、站长类、极客类工具",
                             "url": "https:\/\/tool.lu\/",
                             "icon": "https:\/\/favicon.im\/tool.lu"
                         },
                         {
-                            "id": "site-5-33",
-                            "title": "在线工具箱",
-                            "description": "在线工具箱",
-                            "url": "http:\/\/www.66zan.cn\/",
-                            "icon": "https:\/\/favicon.im\/www.66zan.cn"
-                        },
-                        {
-                            "id": "site-5-34",
+                            "id": "site-5-31",
                             "title": "Tools-Web",
                             "description": "一个轻量的在线工具箱",
                             "url": "https:\/\/tools.ranblogs.com\/",
                             "icon": "https:\/\/favicon.im\/tools.ranblogs.com"
                         },
                         {
-                            "id": "site-5-35",
+                            "id": "site-5-32",
                             "title": "即时工具",
                             "description": "",
                             "url": "https:\/\/www.67tool.com\/",
                             "icon": "https:\/\/favicon.im\/www.67tool.com"
                         },
                         {
-                            "id": "site-5-36",
+                            "id": "site-5-33",
                             "title": "LKS的网站推荐",
                             "description": "良心网站推荐",
                             "url": "http:\/\/lkssite.vip\/",
                             "icon": "https:\/\/favicon.im\/lkssite.vip"
                         },
                         {
-                            "id": "site-5-37",
+                            "id": "site-5-34",
                             "title": "免费AI工具箱",
                             "description": "一切开始的地方，告别信息差",
                             "url": "https:\/\/nav.laogou717.com\/",
                             "icon": "https:\/\/favicon.im\/nav.laogou717.com"
                         },
                         {
-                            "id": "site-5-38",
+                            "id": "site-5-35",
                             "title": "AI工具导航 ①",
                             "description": "AIGC工具集",
                             "url": "https:\/\/www.aigc.cn\/",
                             "icon": "https:\/\/favicon.im\/www.aigc.cn"
                         },
                         {
-                            "id": "site-5-39",
+                            "id": "site-5-36",
                             "title": "AI工具导航 ②",
                             "description": "AI工具导航",
                             "url": "https:\/\/www.aiopenminds.com\/",
                             "icon": "https:\/\/favicon.im\/www.aiopenminds.com"
                         },
                         {
-                            "id": "site-5-40",
+                            "id": "site-5-37",
                             "title": "AI工具导航 ③",
                             "description": "AI工具导航",
                             "url": "https:\/\/okeiai.com\/zh\/tools",
                             "icon": "https:\/\/favicon.im\/okeiai.com"
                         },
                         {
-                            "id": "site-5-41",
+                            "id": "site-5-38",
                             "title": "AI工具导航 ④",
                             "description": "AI工具导航",
                             "url": "https:\/\/www.aigotools.com\/cn",
                             "icon": "https:\/\/favicon.im\/www.aigotools.com"
                         },
                         {
-                            "id": "site-5-42",
+                            "id": "site-5-39",
                             "title": "AI工具导航 ⑤",
                             "description": "AIHub工具导航",
                             "url": "https:\/\/www.aihub.cn\/",
@@ -1804,139 +1783,146 @@
                         },
                         {
                             "id": "site-7-22",
+                            "title": "反斗软件",
+                            "description": "分享免费好用有趣的软件",
+                            "url": "https:\/\/www.apprcn.com\/",
+                            "icon": "https:\/\/favicon.im\/www.apprcn.com"
+                        },
+                        {
+                            "id": "site-7-23",
                             "title": "软仓",
                             "description": "RuanCang.Net",
                             "url": "https:\/\/www.ruancang.net\/",
                             "icon": "https:\/\/favicon.im\/www.ruancang.net"
                         },
                         {
-                            "id": "site-7-23",
+                            "id": "site-7-24",
                             "title": "克隆窝",
                             "description": "修改、汉化、绿色软件等",
                             "url": "https:\/\/www.uy5.net\/",
                             "icon": "https:\/\/favicon.im\/www.uy5.net"
                         },
                         {
-                            "id": "site-7-24",
+                            "id": "site-7-25",
                             "title": "分享迷",
                             "description": "安卓TV软件、修改、绿色软件等",
                             "url": "https:\/\/www.fenxm.com\/",
                             "icon": "https:\/\/favicon.im\/www.fenxm.com"
                         },
                         {
-                            "id": "site-7-25",
+                            "id": "site-7-26",
                             "title": "鸭先知",
                             "description": "专注分享优质软件应用、技术教程等",
                             "url": "https:\/\/www.yxzhi.com\/",
                             "icon": "https:\/\/favicon.im\/www.yxzhi.com"
                         },
                         {
-                            "id": "site-7-26",
+                            "id": "site-7-27",
                             "title": "绿软小站",
                             "description": "修改、破解软件等",
                             "url": "https:\/\/www.gndown.com\/",
                             "icon": "https:\/\/favicon.im\/www.gndown.com"
                         },
                         {
-                            "id": "site-7-27",
+                            "id": "site-7-28",
                             "title": "极客应用",
                             "description": "",
                             "url": "https:\/\/www.gy328.com\/",
                             "icon": "https:\/\/favicon.im\/www.gy328.com"
                         },
                         {
-                            "id": "site-7-28",
+                            "id": "site-7-29",
                             "title": "吾爱破解",
                             "description": "知名破解软件论坛，大量原创与精品软件",
                             "url": "https:\/\/www.52pojie.cn\/",
                             "icon": "https:\/\/favicon.im\/www.52pojie.cn"
                         },
                         {
-                            "id": "site-7-29",
+                            "id": "site-7-30",
                             "title": "puresys",
                             "description": "纯净、修改、破解",
                             "url": "https:\/\/www.puresys.net\/",
                             "icon": "https:\/\/favicon.im\/www.puresys.net"
                         },
                         {
-                            "id": "site-7-30",
+                            "id": "site-7-31",
                             "title": "App热",
                             "description": "修改、汉化、绿色软件等",
                             "url": "https:\/\/apphot.cc\/",
                             "icon": "https:\/\/favicon.im\/apphot.cc"
                         },
                         {
-                            "id": "site-7-31",
+                            "id": "site-7-32",
                             "title": "异星软件空间",
                             "description": "安卓直装修改破解软件等",
                             "url": "http:\/\/www.yxssp.com\/",
                             "icon": "https:\/\/favicon.im\/www.yxssp.com"
                         },
                         {
-                            "id": "site-7-32",
+                            "id": "site-7-33",
                             "title": "OpenAPK",
                             "description": "安卓开源应用APK下载",
                             "url": "https:\/\/www.openapk.net\/zh\/",
                             "icon": "https:\/\/favicon.im\/www.openapk.net"
                         },
                         {
-                            "id": "site-7-33",
+                            "id": "site-7-34",
                             "title": "LITEAPKS",
                             "description": "国外安卓破解软件游戏站",
                             "url": "https:\/\/liteapks.com\/",
                             "icon": "https:\/\/favicon.im\/liteapks.com"
                         },
                         {
-                            "id": "site-7-34",
+                            "id": "site-7-35",
                             "title": "Modyolo",
                             "description": "安卓应用修改、去广告版等",
                             "url": "https:\/\/modyolo.com\/",
                             "icon": "https:\/\/favicon.im\/modyolo.com"
                         },
                         {
-                            "id": "site-7-35",
+                            "id": "site-7-36",
                             "title": "5-Play",
                             "description": "国外安卓破解软件游戏站",
                             "url": "https:\/\/5play.org\/",
                             "icon": "https:\/\/favicon.im\/5play.org"
                         },
                         {
-                            "id": "site-7-36",
+                            "id": "site-7-37",
                             "title": "火绒应用商店",
                             "description": "Windows软件商店，联想与火绒联合出品",
                             "url": "https:\/\/www.huorong.cn\/app_store.html",
                             "icon": "https:\/\/favicon.im\/www.huorong.cn"
                         },
                         {
-                            "id": "site-7-37",
+                            "id": "site-7-38",
                             "title": "星火应用商店",
                             "description": "Linux软件商店，适用于Debian系",
                             "url": "https:\/\/spark-app.store\/",
                             "icon": "https:\/\/favicon.im\/spark-app.store"
                         },
                         {
-                            "id": "site-7-38",
+                            "id": "site-7-39",
                             "title": "iStore",
                             "description": "一个Openwrt软件商店，适用于x86_64和arm64设备",
                             "url": "https:\/\/github.com\/linkease\/istore",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-7-39",
+                            "id": "site-7-40",
                             "title": "异次元软件世界",
                             "description": "高质量软件图文",
                             "url": "https:\/\/www.iplaysoft.com\/",
                             "icon": "https:\/\/favicon.im\/www.iplaysoft.com"
                         },
                         {
-                            "id": "site-7-40",
+                            "id": "site-7-41",
                             "title": "截图神器",
                             "description": "PixXin支持截取动图、贴图、长截图、OCR等功能",
                             "url": "https:\/\/pixpinapp.com\/",
                             "icon": "https:\/\/favicon.im\/pixpinapp.com"
                         },
                         {
-                            "id": "site-7-41",
+                            "id": "site-7-42",
                             "title": "QQ微信防撤回",
                             "description": "PC微信QQ防撤回补丁",
                             "url": "https:\/\/github.com\/huiyadanli\/RevokeMsgPatcher\/wiki",
@@ -2352,7 +2338,7 @@
                             "id": "site-9-4",
                             "title": "BL解锁规则汇总",
                             "description": "不同手机厂商 Bootloader 解锁规则",
-                            "url": "https:\/\/github.com\/MlgmXyysd\/android-bootloader-kernel-source",
+                            "url": "https:\/\/r.pixcat.cn\/MlgmXyysd\/android-bootloader-kernel-source",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -2541,7 +2527,7 @@
                             "id": "site-9-31",
                             "title": "Awesome-Shizuku",
                             "description": "挖掘Shizuku的可玩性",
-                            "url": "https:\/\/github.com\/timschneeb\/awesome-shizuku\/blob\/master\/README_cn.md",
+                            "url": "https:\/\/r.pixcat.cn\/timschneeb\/awesome-shizuku\/README_cn.md",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -3171,7 +3157,7 @@
                             "id": "site-13-6",
                             "title": "TVBox 配置源 ②",
                             "description": "TVBox源仓库与接口",
-                            "url": "https:\/\/github.com\/youhunwl\/TVAPP#%E6%8E%A5%E5%8F%A3%E6%BA%90-",
+                            "url": "https:\/\/r.pixcat.cn\/youhunwl\/TVAPP#%E6%8E%A5%E5%8F%A3%E6%BA%90-",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -3185,14 +3171,14 @@
                             "id": "site-13-8",
                             "title": "全网TV影视应用汇总 ①",
                             "description": "涵盖影视、直播、K歌、工具、游戏等类型",
-                            "url": "https:\/\/github.com\/youhunwl\/TVAPP",
+                            "url": "https:\/\/r.pixcat.cn\/youhunwl\/TVAPP",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-13-9",
                             "title": "全网TV影视应用汇总 ②",
                             "description": "人工精选影视 APP、网盘搜索、磁力BT、TVbox与影视仓配置源等",
-                            "url": "https:\/\/github.com\/laoma2053\/awesome-zhuiju-free",
+                            "url": "https:\/\/r.pixcat.cn\/laoma2053\/awesome-zhuiju-free",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -3318,7 +3304,7 @@
                             "id": "site-14-11",
                             "title": "电报优质频道集 ②",
                             "description": "Telegram上不错的频道与群组",
-                            "url": "https:\/\/github.com\/itgoyo\/TelegramGroup",
+                            "url": "https:\/\/r.pixcat.cn\/itgoyo\/TelegramGroup",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -3521,7 +3507,7 @@
                             "id": "site-14-40",
                             "title": "程序员延寿指南",
                             "description": "如何活得更久",
-                            "url": "https:\/\/github.com\/geekan\/HowToLiveLonger",
+                            "url": "https:\/\/r.pixcat.cn\/geekan\/HowToLiveLonger",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
@@ -3780,21 +3766,21 @@
                             "id": "site-15-32",
                             "title": "1000UserGuide",
                             "description": "找到 1000 个种子用户",
-                            "url": "https:\/\/github.com\/naxiaoduo\/1000UserGuide",
+                            "url": "https:\/\/r.pixcat.cn\/naxiaoduo\/1000UserGuide",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-15-33",
                             "title": "平替好物清单",
                             "description": "工厂源头或小微品牌生产的口碑平替好物",
-                            "url": "https:\/\/github.com\/leonlucc\/awesome-alternative",
+                            "url": "https:\/\/r.pixcat.cn\/leonlucc\/awesome-alternative",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-15-34",
                             "title": "Awesome",
                             "description": "Awesome",
-                            "url": "https:\/\/github.com\/sindresorhus\/awesome",
+                            "url": "https:\/\/r.pixcat.cn\/sindresorhus\/awesome",
                             "icon": "https:\/\/favicon.im\/github.com"
                         }
                     ]
@@ -3876,87 +3862,73 @@
                         },
                         {
                             "id": "site-16-9",
+                            "title": "小棉袄的百味人生",
+                            "description": "个人博客",
+                            "url": "https:\/\/haikuoshijie.cn\/",
+                            "icon": "https:\/\/favicon.im\/haikuoshijie.cn"
+                        },
+                        {
+                            "id": "site-16-10",
                             "title": "在下莫老师",
                             "description": "莫老师的附件表",
                             "url": "https:\/\/xn--ghqy5t5uf651b82d.com\/",
                             "icon": "https:\/\/favicon.im\/xn--ghqy5t5uf651b82d.com"
                         },
                         {
-                            "id": "site-16-10",
+                            "id": "site-16-11",
                             "title": "我不是咕咕鸽",
                             "description": "我不是咕咕鸽",
                             "url": "https:\/\/blog.laoda.de\/",
                             "icon": "https:\/\/favicon.im\/blog.laoda.de"
                         },
                         {
-                            "id": "site-16-11",
+                            "id": "site-16-12",
                             "title": "刘悦",
                             "description": "刘悦的技术博客",
                             "url": "https:\/\/v3u.cn\/",
                             "icon": "https:\/\/favicon.im\/v3u.cn"
                         },
                         {
-                            "id": "site-16-12",
+                            "id": "site-16-13",
                             "title": "小z博客",
                             "description": " 小z博客",
                             "url": "https:\/\/blog.xiaoz.org\/",
                             "icon": "https:\/\/favicon.im\/blog.xiaoz.org"
                         },
                         {
-                            "id": "site-16-13",
+                            "id": "site-16-14",
                             "title": "缤纷彩虹",
                             "description": "彩虹云任务作者的博客",
                             "url": "http:\/\/blog.cccyun.cn\/",
                             "icon": "https:\/\/favicon.im\/blog.cccyun.cn"
                         },
                         {
-                            "id": "site-16-14",
+                            "id": "site-16-15",
                             "title": "Rat's Blog",
                             "description": "Rat's Blog",
                             "url": "https:\/\/www.moerats.com\/",
                             "icon": "https:\/\/favicon.im\/www.moerats.com"
                         },
                         {
-                            "id": "site-16-15",
+                            "id": "site-16-16",
                             "title": "笨猫博客",
                             "description": "笨猫博客",
                             "url": "https:\/\/www.nbmao.com\/",
                             "icon": "https:\/\/favicon.im\/www.nbmao.com"
                         },
                         {
-                            "id": "site-16-16",
+                            "id": "site-16-17",
                             "title": "Monlor's Blog",
                             "description": "Monlor's Blog",
                             "url": "https:\/\/www.monlor.com\/",
                             "icon": "https:\/\/favicon.im\/www.monlor.com"
                         },
                         {
-                            "id": "site-16-17",
+                            "id": "site-16-18",
                             "title": "夜法之书",
                             "description": "关于Linux开源，Nas，Docker，嵌入式，理财，BG健身等主题",
                             "url": "https:\/\/blog.17lai.site\/",
                             "icon": "https:\/\/favicon.im\/blog.17lai.site"
-                        },
-                        {
-                            "id": "site-16-18",
-                            "title": "从零开始的创作生活",
-                            "description": "一个爱分享的小站",
-                            "url": "https:\/\/www.fengcun.top\/",
-                            "icon": "https:\/\/favicon.im\/www.fengcun.top"
-                        },
-                        {
-                            "id": "site-16-19",
-                            "title": "初之音",
-                            "description": "初之音",
-                            "url": "https:\/\/www.himiku.com\/",
-                            "icon": "https:\/\/favicon.im\/www.himiku.com"
-                        },
-                        {
-                            "id": "site-16-20",
-                            "title": "平替生活",
-                            "description": "平替生活",
-                            "url": "https:\/\/cheapy.top\/",
-                            "icon": "https:\/\/favicon.im\/cheapy.top"
                         }
                     ]
                 }
