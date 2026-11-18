@@ -1040,112 +1040,154 @@
                             "icon": "https:\/\/favicon.im\/tool.chinaz.com"
                         },
                         {
-                            "id": "site-2AtT9FWyIRSb",
+                            "id": "site-4-20",
                             "title": "Github 文件加速 ①",
                             "description": "多节点 Github 文件下载加速，支持直接获取编译版本",
                             "url": "https:\/\/cdn.pixcat.cn\/",
                             "icon": "https:\/\/favicon.im\/cdn.pixcat.cn"
                         },
                         {
-                            "id": "site-4-20",
+                            "id": "site-4-21",
                             "title": "Github 文件加速 ②",
                             "description": "通过不同节点加速 Github 文件下载，支持节点测速",
                             "url": "https:\/\/github.akams.cn\/",
                             "icon": "https:\/\/favicon.im\/github.akams.cn"
                         },
                         {
-                            "id": "site-4-21",
+                            "id": "site-4-22",
                             "title": "Github 下载加速脚本",
                             "description": "高速下载 Git Clone\/SSH、Release、Raw、Code(ZIP) 等文件",
                             "url": "https:\/\/scriptcat.org\/zh-CN\/script-show-page\/900",
                             "icon": "https:\/\/favicon.im\/scriptcat.org"
                         },
                         {
-                            "id": "site-4-22",
+                            "id": "site-4-23",
                             "title": "Ollama",
                             "description": "在本地运行大语言模型",
                             "url": "https:\/\/ollama.com\/",
                             "icon": "https:\/\/favicon.im\/ollama.com"
                         },
                         {
-                            "id": "site-4-23",
+                            "id": "site-4-24",
                             "title": "Koishi",
                             "description": "跨平台、可扩展、高性能的机器人框架",
                             "url": "https:\/\/koishi.chat\/zh-CN\/",
                             "icon": "https:\/\/favicon.im\/koishi.chat"
                         },
                         {
-                            "id": "site-4-24",
+                            "id": "site-4-25",
+                            "title": "Operit",
+                            "description": "安卓 AI Agent 与 AI 聊天软件",
+                            "url": "https:\/\/github.com\/AAswordman\/Operit",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-4-26",
+                            "title": "Eta",
+                            "description": "安卓系统级 AI Agent，越过沙盒访问底层 API、屏幕、终端与数据",
+                            "url": "https:\/\/github.com\/Mangi-11\/Eta",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-4-27",
+                            "title": "DSHA",
+                            "description": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness",
+                            "url": "https:\/\/github.com\/DSH-APP\/DSHA",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-4-28",
                             "title": "AstrBot",
                             "description": "全功能的 Agent 聊天机器人",
                             "url": "https:\/\/astrbot.app\/",
                             "icon": "https:\/\/favicon.im\/astrbot.app"
                         },
                         {
-                            "id": "site-4-25",
+                            "id": "site-4-29",
                             "title": "OpenClaw",
                             "description": "自部署运行 AI 执行系统自动化任务",
                             "url": "https:\/\/github.com\/openclaw\/openclaw",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-26",
+                            "id": "site-4-30",
                             "title": "nanobot",
                             "description": "轻量级 OpenClaw 平替，多平台接入与智能任务调度",
                             "url": "https:\/\/github.com\/HKUDS\/nanobot",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-27",
+                            "id": "site-4-31",
+                            "title": "DeepSeek Harness",
+                            "description": "共探智能上限",
+                            "url": "https:\/\/www.deepseek.com\/harness\/",
+                            "icon": "https:\/\/favicon.im\/www.deepseek.com"
+                        },
+                        {
+                            "id": "site-4-32",
+                            "title": "Hermes Agent",
+                            "description": "与你一同成长的智能体",
+                            "url": "https:\/\/github.com\/NousResearch\/hermes-agent",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-4-33",
+                            "title": "Pi",
+                            "description": "极简可扩展的编程 Agent，支持扩展、技能与主题",
+                            "url": "https:\/\/github.com\/earendil-works\/pi",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-4-34",
                             "title": "ClawPulse",
                             "description": "AI Agent 项目项目收集汇总",
                             "url": "https:\/\/www.clawpulse.net\/",
                             "icon": "https:\/\/favicon.im\/www.clawpulse.net"
                         },
                         {
-                            "id": "site-4-28",
+                            "id": "site-4-35",
                             "title": "GitHubDaily",
                             "description": "分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯",
                             "url": "https:\/\/r.pixcat.cn\/GitHubDaily\/GitHubDaily",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-29",
+                            "id": "site-4-36",
                             "title": "GitHub 排行榜",
                             "description": "探索最受欢迎的开源项目",
                             "url": "https:\/\/gitcn.org\/top",
                             "icon": "https:\/\/favicon.im\/gitcn.org"
                         },
                         {
-                            "id": "site-4-30",
+                            "id": "site-4-37",
                             "title": "独立开发者项目列表",
                             "description": "中国独立开发者项目列表",
                             "url": "https:\/\/r.pixcat.cn\/1c7\/chinese-independent-developer",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-31",
+                            "id": "site-4-38",
                             "title": "Awesome GitHub Repo",
                             "description": "收集整理 GitHub 上高质量、有趣的开源项目",
                             "url": "https:\/\/r.pixcat.cn\/Wechat-ggGitHub\/Awesome-GitHub-Repo",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-32",
+                            "id": "site-4-39",
                             "title": "Awesome Shell",
                             "description": "命令行框架、工具包、指南、小玩意合集",
                             "url": "https:\/\/r.pixcat.cn\/alebcay\/awesome-shell\/README_ZH-CN.md",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-4-33",
+                            "id": "site-4-40",
                             "title": "SkillHub",
                             "description": "腾讯 SkillHub，专为中国用户优化的 Skills 社区",
                             "url": "https:\/\/skillhub.cn\/",
                             "icon": "https:\/\/favicon.im\/skillhub.cn"
                         },
                         {
-                            "id": "site-4-34",
+                            "id": "site-4-41",
                             "title": "Agent Skills 榜单",
                             "description": "最佳智能体技能榜单，综合参考多个平台的数据",
                             "url": "https:\/\/linkly.ai\/zh\/skills",
