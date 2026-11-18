@@ -2281,7 +2281,7 @@
                         {
                             "id": "site-8-48",
                             "title": "GG修改器",
-                            "description": "Android 游戏数值修改工具",
+                            "description": "安卓游戏数值修改工具",
                             "url": "https:\/\/gameguardian.net\/forum\/files\/",
                             "icon": "https:\/\/favicon.im\/gameguardian.net"
                         },
@@ -2449,7 +2449,7 @@
                         {
                             "id": "site-9-20",
                             "title": "地理位置模拟",
-                            "description": "基于 Android 调试 API + 百度地图实现的虚拟定位工具",
+                            "description": "基于安卓调试 API + 百度地图实现的虚拟定位工具",
                             "url": "https:\/\/github.com\/ZCShou\/GoGoGo",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2491,7 +2491,7 @@
                         {
                             "id": "site-9-26",
                             "title": "Tango",
-                            "description": "浏览器中管理你的 Android",
+                            "description": "浏览器中管理你的安卓",
                             "url": "https:\/\/app.tangoapp.dev\/",
                             "icon": "https:\/\/favicon.im\/app.tangoapp.dev"
                         },
@@ -2547,7 +2547,7 @@
                         {
                             "id": "site-9-34",
                             "title": "两仪",
-                            "description": "一个轻量级的 Android 容器",
+                            "description": "一个轻量级的安卓容器",
                             "url": "https:\/\/twoyi.app\/zh\/index.html",
                             "icon": "https:\/\/favicon.im\/twoyi.app"
                         },
@@ -2568,7 +2568,7 @@
                         {
                             "id": "site-9-37",
                             "title": "DroidVM",
-                            "description": "Android 上的虚拟机管理器，支持高通 Gunyah、联发科 GenieZone 与 Linux KVM",
+                            "description": "安卓上的虚拟机管理器，支持高通 Gunyah、联发科 GenieZone 与 Linux KVM",
                             "url": "https:\/\/github.com\/Droid-VM\/DroidVM",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2603,7 +2603,7 @@
                         {
                             "id": "site-9-42",
                             "title": "MiceWine",
-                            "description": "在 Android 上运行 Windows 软件和游戏",
+                            "description": "在安卓上运行 Windows 软件和游戏",
                             "url": "https:\/\/github.com\/caplogistica\/MiceWine",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2659,14 +2659,14 @@
                         {
                             "id": "site-9-50",
                             "title": "Waydroid",
-                            "description": "在 Linux 系统上启动 Android 系统",
+                            "description": "在 Linux 系统上启动安卓系统",
                             "url": "https:\/\/waydro.id\/",
                             "icon": "https:\/\/favicon.im\/waydro.id"
                         },
                         {
                             "id": "site-9-51",
                             "title": "redroid",
-                            "description": "基于 KVM-QENU，在 docker 中运行 Android 系统、云手机",
+                            "description": "基于 KVM-QENU，在 docker 中运行安卓系统、云手机",
                             "url": "https:\/\/github.com\/remote-android\/redroid-doc\/",
                             "icon": "https:\/\/favicon.im\/github.com"
                         }
