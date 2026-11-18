@@ -41,7 +41,7 @@
                         {
                             "id": "site-0-5",
                             "title": "B站视频下载",
-                            "description": "多个可下载B站视频的工具",
+                            "description": "多个可下载 B 站视频的工具",
                             "url": "https:\/\/i.pixcat.cn\/shi-pin-xia-zai-gong-ju#bilibili-bi-li-bi-li",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
@@ -55,7 +55,7 @@
                         {
                             "id": "site-0-7",
                             "title": "Go Music DL",
-                            "description": "多平台音乐聚合搜索，支持网易云、QQ、酷狗、酷我、B站、汽水、咪咕等",
+                            "description": "多平台音乐聚合搜索，支持网易云、QQ、酷狗、酷我、B 站、汽水、咪咕等",
                             "url": "https:\/\/music.zkkp.nyc.mn\/",
                             "icon": "https:\/\/favicon.im\/music.zkkp.nyc.mn"
                         },
@@ -90,14 +90,14 @@
                         {
                             "id": "site-0-12",
                             "title": "YouTube 视频下载 ②",
-                            "description": "支持YouTube、Twitter、Tumblr等平台",
+                            "description": "支持 YouTube、Twitter、Tumblr 等平台",
                             "url": "https:\/\/i.pixcat.cn\/shi-pin-xia-zai-gong-ju",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
                         {
                             "id": "site-0-13",
                             "title": "音视频在线剪切",
-                            "description": "音视频在线剪切、格式转换、PDF转Word等",
+                            "description": "音视频在线剪切、格式转换、PDF 转 Word 等",
                             "url": "https:\/\/123apps.com\/cn\/",
                             "icon": "https:\/\/favicon.im\/123apps.com"
                         },
@@ -111,14 +111,14 @@
                         {
                             "id": "site-0-15",
                             "title": "文字转AI语音 ①",
-                            "description": "角色语音生成，原神、星穹、鸣潮、LOL等",
+                            "description": "角色语音生成，原神、星穹、鸣潮、LOL 等",
                             "url": "https:\/\/acgn.ttson.cn\/",
                             "icon": "https:\/\/favicon.im\/acgn.ttson.cn"
                         },
                         {
                             "id": "site-0-16",
                             "title": "文字转AI语音 ②",
-                            "description": "基于微软Azure语音合成的第三方工具",
+                            "description": "基于微软 Azure 语音合成的第三方工具",
                             "url": "https:\/\/www.text-to-speech.cn\/",
                             "icon": "https:\/\/favicon.im\/www.text-to-speech.cn"
                         },
@@ -153,7 +153,7 @@
                         {
                             "id": "site-0-21",
                             "title": "Local Audio Convert",
-                            "description": "在浏览器中本地转换音视频文件，支持一次拖入100个文件",
+                            "description": "在浏览器中本地转换音视频文件，支持一次拖入 100 个文件",
                             "url": "https:\/\/localaudioconvert.com\/audio-converter",
                             "icon": "https:\/\/favicon.im\/localaudioconvert.com"
                         },
@@ -167,7 +167,7 @@
                         {
                             "id": "site-0-23",
                             "title": "图片无损放大 ①",
-                            "description": "在安卓设备上运行Real-CUGAN、Waifu2x等",
+                            "description": "在安卓设备上运行 Real-CUGAN、Waifu2x 等",
                             "url": "https:\/\/github.com\/tumuyan\/RealSR-NCNN-Android\/releases",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -181,7 +181,7 @@
                         {
                             "id": "site-0-25",
                             "title": "SD整合包",
-                            "description": "Stable Diffusion秋叶整合包",
+                            "description": "Stable Diffusion 秋叶整合包",
                             "url": "https:\/\/space.bilibili.com\/12566101\/channel\/seriesdetail?sid=3930565",
                             "icon": "https:\/\/favicon.im\/space.bilibili.com"
                         },
@@ -209,7 +209,7 @@
                         {
                             "id": "site-1-0",
                             "title": "国内大模型一览",
-                            "description": "国产LLM列表",
+                            "description": "国产 LLM 列表",
                             "url": "https:\/\/r.pixcat.cn\/wgwang\/awesome-LLMs-In-China",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -279,35 +279,35 @@
                         {
                             "id": "site-1-10",
                             "title": "多引擎翻译 ②",
-                            "description": "使用多个AI进行翻译",
+                            "description": "使用多个 AI 进行翻译",
                             "url": "https:\/\/openl.club\/",
                             "icon": "https:\/\/favicon.im\/openl.club"
                         },
                         {
                             "id": "site-1-11",
                             "title": "从图片提取文字",
-                            "description": "OCR文字识别",
+                            "description": "OCR 文字识别",
                             "url": "https:\/\/i.pixcat.cn\/ocr-wen-zi-shi-bie-gong-ju",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
                         {
                             "id": "site-1-12",
                             "title": "白板",
-                            "description": "开源手绘白板，协作加密，支持PNG、SVG导出",
+                            "description": "开源手绘白板，协作加密，支持 PNG、SVG 导出",
                             "url": "https:\/\/excalidraw.com\/",
                             "icon": "https:\/\/favicon.im\/excalidraw.com"
                         },
                         {
                             "id": "site-1-13",
                             "title": "模拟手写签名",
-                            "description": "模拟手写英文签名，可导出SVG",
+                            "description": "模拟手写英文签名，可导出 SVG",
                             "url": "https:\/\/www.calligrapher.ai\/",
                             "icon": "https:\/\/favicon.im\/www.calligrapher.ai"
                         },
                         {
                             "id": "site-1-14",
                             "title": "查看本地IP",
-                            "description": "查询本地IPV4、IPV6或DNS",
+                            "description": "查询本地 IPV4、IPV6 或 DNS",
                             "url": "https:\/\/ip.skk.moe\/",
                             "icon": "https:\/\/favicon.im\/ip.skk.moe"
                         },
@@ -321,14 +321,14 @@
                         {
                             "id": "site-1-16",
                             "title": "域名Whois查询 ①",
-                            "description": "查询域名的Whois信息",
+                            "description": "查询域名的 Whois 信息",
                             "url": "https:\/\/who.cx\/",
                             "icon": "https:\/\/favicon.im\/who.cx"
                         },
                         {
                             "id": "site-1-17",
                             "title": "域名Whois查询 ②",
-                            "description": "查询域名的Whois信息",
+                            "description": "查询域名的 Whois 信息",
                             "url": "https:\/\/tian.hu\/",
                             "icon": "https:\/\/favicon.im\/tian.hu"
                         },
@@ -342,7 +342,7 @@
                         {
                             "id": "site-1-19",
                             "title": "WIFI卡片制作",
-                            "description": "为你的wifi制作二维码以扫码接入",
+                            "description": "为你的 wifi 制作二维码以扫码接入",
                             "url": "https:\/\/wificard.io\/",
                             "icon": "https:\/\/favicon.im\/wificard.io"
                         },
@@ -398,14 +398,14 @@
                         {
                             "id": "site-1-27",
                             "title": "CPU显卡天梯图",
-                            "description": "CPU、GPU、Soc性能排行",
+                            "description": "CPU、GPU、Soc 性能排行",
                             "url": "https:\/\/www.topcpu.net\/zh-hk\/",
                             "icon": "https:\/\/favicon.im\/www.topcpu.net"
                         },
                         {
                             "id": "site-1-28",
                             "title": "移动端芯片排行",
-                            "description": "移动端Soc性能排行，由极客湾出品",
+                            "description": "移动端 Soc 性能排行，由极客湾出品",
                             "url": "https:\/\/www.socpk.com\/",
                             "icon": "https:\/\/favicon.im\/www.socpk.com"
                         },
@@ -433,7 +433,7 @@
                         {
                             "id": "site-1-32",
                             "title": "公共DNS大全",
-                            "description": "常用、小众或地方DNS",
+                            "description": "常用、小众或地方 DNS",
                             "url": "https:\/\/dns.iui.im\/",
                             "icon": "https:\/\/favicon.im\/dns.iui.im"
                         },
@@ -461,7 +461,7 @@
                         {
                             "id": "site-1-36",
                             "title": "AI编程助手收集",
-                            "description": "国内外AI编程助手收集推荐",
+                            "description": "国内外 AI 编程助手收集推荐",
                             "url": "https:\/\/51.ruyo.net\/18684.html",
                             "icon": "https:\/\/favicon.im\/51.ruyo.net"
                         },
@@ -475,14 +475,14 @@
                         {
                             "id": "site-1-38",
                             "title": "获取境外号卡 ①",
-                            "description": "中国大陆可用境外SIM卡",
+                            "description": "中国大陆可用境外 SIM 卡",
                             "url": "https:\/\/mutou.men\/posts\/2023-07-26-国外手机卡汇总\/",
                             "icon": "https:\/\/favicon.im\/mutou.men"
                         },
                         {
                             "id": "site-1-39",
                             "title": "获取境外号卡 ②",
-                            "description": "中国大陆可用境外SIM卡",
+                            "description": "中国大陆可用境外 SIM 卡",
                             "url": "https:\/\/owomoe.net\/dev\/175.html",
                             "icon": "https:\/\/favicon.im\/owomoe.net"
                         },
@@ -559,21 +559,21 @@
                         {
                             "id": "site-2-1",
                             "title": "SendTomo",
-                            "description": "P2P文件传输，优先使用局域网，支持屏幕共享与超大文件传输",
+                            "description": "P2P 文件传输，优先使用局域网，支持屏幕共享与超大文件传输",
                             "url": "https:\/\/sendtomo.com\/",
                             "icon": "https:\/\/favicon.im\/sendtomo.com"
                         },
                         {
                             "id": "site-2-2",
                             "title": "云鸽",
-                            "description": "局域网、P2P文件传输",
+                            "description": "局域网、P2P 文件传输",
                             "url": "https:\/\/yunge.in\/",
                             "icon": "https:\/\/favicon.im\/yunge.in"
                         },
                         {
                             "id": "site-2-3",
                             "title": "PairDrop",
-                            "description": "无需下载登录在线P2P文件互传",
+                            "description": "无需下载登录在线 P2P 文件互传",
                             "url": "https:\/\/pairdrop.net\/",
                             "icon": "https:\/\/favicon.im\/pairdrop.net"
                         },
@@ -601,14 +601,14 @@
                         {
                             "id": "site-2-7",
                             "title": "多轨快传",
-                            "description": "同时使用USB和WIFI等多张网卡传输文件",
+                            "description": "同时使用 USB 和 WIFI 等多张网卡传输文件",
                             "url": "https:\/\/github.com\/weixiansen574\/HybridFileXfer",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-2-8",
                             "title": "IPFS文件床",
-                            "description": "基于IPFS的图床与文件存储服务",
+                            "description": "基于 IPFS 的图床与文件存储服务",
                             "url": "https:\/\/cdn.ipfsscan.io\/",
                             "icon": "https:\/\/favicon.im\/cdn.ipfsscan.io"
                         },
@@ -762,7 +762,7 @@
                         {
                             "id": "site-3-3",
                             "title": "AI搜索引擎汇总",
-                            "description": "AI搜索引擎工具目录列表",
+                            "description": "AI 搜索引擎工具目录列表",
                             "url": "https:\/\/i.pixcat.cn\/ai-sou-suo-yin-qing-hui-zong",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
@@ -902,14 +902,14 @@
                         {
                             "id": "site-4-0",
                             "title": "我的Stars列表",
-                            "description": "我的Github标星列表",
+                            "description": "我的 Github 标星列表",
                             "url": "https:\/\/github.com\/pixcati?tab=stars",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-1",
                             "title": "在线定制OP固件",
-                            "description": "定制您的OpenWrt固件",
+                            "description": "定制您的 OpenWrt 固件",
                             "url": "https:\/\/supes.top\/",
                             "icon": "https:\/\/favicon.im\/supes.top"
                         },
@@ -930,28 +930,28 @@
                         {
                             "id": "site-4-4",
                             "title": "一键更换软件源",
-                            "description": "更换软件源为不同的国内镜像，支持多个发行版 ",
+                            "description": "更换软件源为不同的国内镜像，支持多个发行版",
                             "url": "https:\/\/linuxmirrors.cn\/",
                             "icon": "https:\/\/favicon.im\/linuxmirrors.cn"
                         },
                         {
                             "id": "site-4-5",
                             "title": "一键重装服务器",
-                            "description": "适用于Linux \/ Windows ",
+                            "description": "适用于 Linux \/ Windows",
                             "url": "https:\/\/github.com\/bin456789\/reinstall",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-6",
                             "title": "一键内核网络加速",
-                            "description": "为服务器启用BBR、锐速以及魔改版加速",
+                            "description": "为服务器启用 BBR、锐速以及魔改版加速",
                             "url": "https:\/\/github.com\/Chikage0o0\/Linux-NetSpeed\/blob\/master\/README.md",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-7",
                             "title": "一键安装Kangle",
-                            "description": "一键安装 Kangle+Ep+Mysql ",
+                            "description": "一键安装 Kangle+Ep+Mysql",
                             "url": "http:\/\/kangle.cccyun.cn\/",
                             "icon": "https:\/\/favicon.im\/kangle.cccyun.cn"
                         },
@@ -972,28 +972,28 @@
                         {
                             "id": "site-4-10",
                             "title": "免费SSL证书",
-                            "description": "免费SSL证书申请渠道汇总",
+                            "description": "免费 SSL 证书申请渠道汇总",
                             "url": "https:\/\/wzfou.com\/mianfei-ssl\/",
                             "icon": "https:\/\/favicon.im\/wzfou.com"
                         },
                         {
                             "id": "site-4-11",
                             "title": "VPS融合怪脚本",
-                            "description": "VPS融合怪服务器测评脚本",
+                            "description": "VPS 融合怪服务器测评脚本",
                             "url": "https:\/\/github.com\/spiritLHLS\/ecs",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-12",
                             "title": "魔改版宝塔面板",
-                            "description": "去除验证码关闭活动推荐等 ",
+                            "description": "去除验证码关闭活动推荐等",
                             "url": "https:\/\/www.hostcli.com\/",
                             "icon": "https:\/\/favicon.im\/www.hostcli.com"
                         },
                         {
                             "id": "site-4-13",
                             "title": "高仿宝塔面板",
-                            "description": "根据宝塔UI重构的面板",
+                            "description": "根据宝塔 UI 重构的面板",
                             "url": "https:\/\/github.com\/midoks\/mdserver-web",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -1007,7 +1007,7 @@
                         {
                             "id": "site-4-15",
                             "title": "VPS可视化管理",
-                            "description": "类似宝塔、LNMP等同类软件聚合 ",
+                            "description": "类似宝塔、LNMP 等同类软件聚合",
                             "url": "https:\/\/i.pixcat.cn\/vps-ke-shi-hua-guan-li",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
@@ -1028,7 +1028,7 @@
                         {
                             "id": "site-4-18",
                             "title": "CloudFlare 优选域名",
-                            "description": "提供优质的CloudFlare CDN节点信息",
+                            "description": "提供优质的 CloudFlare CDN 节点信息",
                             "url": "https:\/\/cf.090227.xyz\/",
                             "icon": "https:\/\/favicon.im\/cf.090227.xyz"
                         },
@@ -1042,14 +1042,14 @@
                         {
                             "id": "site-2AtT9FWyIRSb",
                             "title": "Github 文件加速 ①",
-                            "description": "多节点Github文件下载加速，支持直接获取编译版本",
+                            "description": "多节点 Github 文件下载加速，支持直接获取编译版本",
                             "url": "https:\/\/cdn.pixcat.cn\/",
                             "icon": "https:\/\/favicon.im\/cdn.pixcat.cn"
                         },
                         {
                             "id": "site-4-20",
                             "title": "Github 文件加速 ②",
-                            "description": "通过不同节点加速Github文件下载，支持节点测速",
+                            "description": "通过不同节点加速 Github 文件下载，支持节点测速",
                             "url": "https:\/\/github.akams.cn\/",
                             "icon": "https:\/\/favicon.im\/github.akams.cn"
                         },
@@ -1084,21 +1084,21 @@
                         {
                             "id": "site-4-25",
                             "title": "OpenClaw",
-                            "description": "自部署运行AI执行系统自动化任务",
+                            "description": "自部署运行 AI 执行系统自动化任务",
                             "url": "https:\/\/github.com\/openclaw\/openclaw",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-26",
                             "title": "nanobot",
-                            "description": "轻量级OpenClaw平替，多平台接入与智能任务调度",
+                            "description": "轻量级 OpenClaw 平替，多平台接入与智能任务调度",
                             "url": "https:\/\/github.com\/HKUDS\/nanobot",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-4-27",
                             "title": "ClawPulse",
-                            "description": "AI Agent项目项目收集汇总",
+                            "description": "AI Agent 项目项目收集汇总",
                             "url": "https:\/\/www.clawpulse.net\/",
                             "icon": "https:\/\/favicon.im\/www.clawpulse.net"
                         },
@@ -1168,7 +1168,7 @@
                         {
                             "id": "site-5-0",
                             "title": "MikuTools",
-                            "description": "一个轻量的工具集合。图片提取文字、各平台视频下载、临时文件分享等",
+                            "description": "一个轻量的工具集合，图片提取文字、各平台视频下载、临时文件分享等",
                             "url": "https:\/\/tools.miku.ac\/",
                             "icon": "https:\/\/favicon.im\/tools.miku.ac"
                         },
@@ -1238,7 +1238,7 @@
                         {
                             "id": "site-5-10",
                             "title": "大数据工具导航",
-                            "description": "199IT大数据工具导航",
+                            "description": "199IT 大数据工具导航",
                             "url": "http:\/\/hao.199it.com\/",
                             "icon": "https:\/\/favicon.im\/hao.199it.com"
                         },
@@ -1308,14 +1308,14 @@
                         {
                             "id": "site-5-20",
                             "title": "OpenI",
-                            "description": "AI时代",
+                            "description": "AI 时代",
                             "url": "https:\/\/openi.cn\/",
                             "icon": "https:\/\/favicon.im\/openi.cn"
                         },
                         {
                             "id": "site-5-21",
                             "title": "导航蟹",
-                            "description": "",
+                            "description": "AI 工具、书籍、影视与学习资源的导航站",
                             "url": "https:\/\/daohangxie.com\/",
                             "icon": "https:\/\/favicon.im\/daohangxie.com"
                         },
@@ -1364,7 +1364,7 @@
                         {
                             "id": "site-5-28",
                             "title": "PickFrom",
-                            "description": "网页长截图、PDF转图片、网页转PDF、视频剪切等",
+                            "description": "网页长截图、PDF 转图片、网页转 PDF、视频剪切等",
                             "url": "https:\/\/zh.pickfrom.net\/",
                             "icon": "https:\/\/favicon.im\/zh.pickfrom.net"
                         },
@@ -1392,7 +1392,7 @@
                         {
                             "id": "site-5-32",
                             "title": "即时工具",
-                            "description": "",
+                            "description": "即用即走的在线工具箱，涵盖视频、音频、图片与文档处理",
                             "url": "https:\/\/www.67tool.com\/",
                             "icon": "https:\/\/favicon.im\/www.67tool.com"
                         },
@@ -1413,35 +1413,35 @@
                         {
                             "id": "site-5-35",
                             "title": "AI工具导航 ①",
-                            "description": "AIGC工具集",
+                            "description": "AIGC 工具集",
                             "url": "https:\/\/www.aigc.cn\/",
                             "icon": "https:\/\/favicon.im\/www.aigc.cn"
                         },
                         {
                             "id": "site-5-36",
                             "title": "AI工具导航 ②",
-                            "description": "AI工具导航",
+                            "description": "AI 工具导航",
                             "url": "https:\/\/www.aiopenminds.com\/",
                             "icon": "https:\/\/favicon.im\/www.aiopenminds.com"
                         },
                         {
                             "id": "site-5-37",
                             "title": "AI工具导航 ③",
-                            "description": "AI工具导航",
+                            "description": "AI 工具导航",
                             "url": "https:\/\/okeiai.com\/zh\/tools",
                             "icon": "https:\/\/favicon.im\/okeiai.com"
                         },
                         {
                             "id": "site-5-38",
                             "title": "AI工具导航 ④",
-                            "description": "AI工具导航",
+                            "description": "AI 工具导航",
                             "url": "https:\/\/www.aigotools.com\/cn",
                             "icon": "https:\/\/favicon.im\/www.aigotools.com"
                         },
                         {
                             "id": "site-5-39",
                             "title": "AI工具导航 ⑤",
-                            "description": "AIHub工具导航",
+                            "description": "AIHub 工具导航",
                             "url": "https:\/\/www.aihub.cn\/",
                             "icon": "https:\/\/favicon.im\/www.aihub.cn"
                         }
@@ -1462,7 +1462,7 @@
                         {
                             "id": "site-6-0",
                             "title": "抽象背景生成器",
-                            "description": "抽象动态背景生成器,免费导出图片视频或JS",
+                            "description": "抽象动态背景生成器，免费导出图片视频或 JS",
                             "url": "https:\/\/www.color4bg.com\/zh-hans\/",
                             "icon": "https:\/\/favicon.im\/www.color4bg.com"
                         },
@@ -1595,14 +1595,14 @@
                         {
                             "id": "site-6-19",
                             "title": "在线配色",
-                            "description": "Adobe官方推出的配色工具",
+                            "description": "Adobe 官方推出的配色工具",
                             "url": "https:\/\/color.adobe.com\/zh\/create\/color-wheel",
                             "icon": "https:\/\/favicon.im\/color.adobe.com"
                         },
                         {
                             "id": "site-6-20",
                             "title": "配色方案推荐",
-                            "description": "",
+                            "description": "经典、时尚配色组合大全，附配色工具",
                             "url": "https:\/\/peiseka.com\/",
                             "icon": "https:\/\/favicon.im\/peiseka.com"
                         },
@@ -1644,42 +1644,42 @@
                         {
                             "id": "site-7-2",
                             "title": "下载与白嫖 office ②",
-                            "description": "一键自动化、无人值守下载、安装、部署 Office ",
+                            "description": "一键自动化、无人值守下载、安装、部署 Office",
                             "url": "https:\/\/www.mocreak.com\/",
                             "icon": "https:\/\/favicon.im\/www.mocreak.com"
                         },
                         {
                             "id": "site-7-3",
                             "title": "获取免费的WPS",
-                            "description": "WPS政企专版 ",
+                            "description": "WPS 政企专版",
                             "url": "https:\/\/www.lyszm.com\/773.html",
                             "icon": "https:\/\/favicon.im\/www.lyszm.com"
                         },
                         {
                             "id": "site-7-4",
                             "title": "Adobe系列下载 ①",
-                            "description": "从网盘获取Adobe系列软件",
+                            "description": "从网盘获取 Adobe 系列软件",
                             "url": "https:\/\/pan.baidu.com\/wap\/link?surl=5Ddk-RywrQk9yi-O3eZ-xmA#\/home\/%2F\/%2F",
                             "icon": "https:\/\/favicon.im\/pan.baidu.com"
                         },
                         {
                             "id": "site-7-5",
                             "title": "Adobe系列下载 ②",
-                            "description": "获取Adobe全家桶",
+                            "description": "获取 Adobe 全家桶",
                             "url": "http:\/\/adobe.v404.cn\/adobe\/",
                             "icon": "https:\/\/favicon.im\/adobe.v404.cn"
                         },
                         {
                             "id": "site-7-6",
                             "title": "激活 Windows",
-                            "description": "智能选择激活方式，同时可激活Office",
+                            "description": "智能选择激活方式，同时可激活 Office",
                             "url": "https:\/\/www.423down.com\/1202.html",
                             "icon": "https:\/\/favicon.im\/www.423down.com"
                         },
                         {
                             "id": "site-7-7",
                             "title": "激活 Office",
-                            "description": "数字激活工具，同时激活Win或Office",
+                            "description": "数字激活工具，同时激活 Win 或 Office",
                             "url": "https:\/\/www.423down.com\/6707.html",
                             "icon": "https:\/\/favicon.im\/www.423down.com"
                         },
@@ -1693,7 +1693,7 @@
                         {
                             "id": "site-7-9",
                             "title": "补回丢失的DLL",
-                            "description": "查找并下载缺失的DLL文件",
+                            "description": "查找并下载缺失的 DLL 文件",
                             "url": "https:\/\/cn.dll-files.com\/",
                             "icon": "https:\/\/favicon.im\/cn.dll-files.com"
                         },
@@ -1763,7 +1763,7 @@
                         {
                             "id": "site-7-19",
                             "title": "UniGetUI",
-                            "description": "适用于WIndows的软件包管理器可视化界面",
+                            "description": "适用于 WIndows 的软件包管理器可视化界面",
                             "url": "https:\/\/github.com\/marticliment\/UnigetUI",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -1805,7 +1805,7 @@
                         {
                             "id": "site-7-25",
                             "title": "分享迷",
-                            "description": "安卓TV软件、修改、绿色软件等",
+                            "description": "安卓 TV 软件、修改、绿色软件等",
                             "url": "https:\/\/www.fenxm.com\/",
                             "icon": "https:\/\/favicon.im\/www.fenxm.com"
                         },
@@ -1826,7 +1826,7 @@
                         {
                             "id": "site-7-28",
                             "title": "极客应用",
-                            "description": "",
+                            "description": "Windows、Mac 与安卓应用资源合集",
                             "url": "https:\/\/www.gy328.com\/",
                             "icon": "https:\/\/favicon.im\/www.gy328.com"
                         },
@@ -1861,7 +1861,7 @@
                         {
                             "id": "site-7-33",
                             "title": "OpenAPK",
-                            "description": "安卓开源应用APK下载",
+                            "description": "安卓开源应用 APK 下载",
                             "url": "https:\/\/www.openapk.net\/zh\/",
                             "icon": "https:\/\/favicon.im\/www.openapk.net"
                         },
@@ -1889,21 +1889,21 @@
                         {
                             "id": "site-7-37",
                             "title": "火绒应用商店",
-                            "description": "Windows软件商店，联想与火绒联合出品",
+                            "description": "Windows 软件商店，联想与火绒联合出品",
                             "url": "https:\/\/www.huorong.cn\/app_store.html",
                             "icon": "https:\/\/favicon.im\/www.huorong.cn"
                         },
                         {
                             "id": "site-7-38",
                             "title": "星火应用商店",
-                            "description": "Linux软件商店，适用于Debian系",
+                            "description": "Linux 软件商店，适用于 Debian 系",
                             "url": "https:\/\/spark-app.store\/",
                             "icon": "https:\/\/favicon.im\/spark-app.store"
                         },
                         {
                             "id": "site-7-39",
                             "title": "iStore",
-                            "description": "一个Openwrt软件商店，适用于x86_64和arm64设备",
+                            "description": "一个 Openwrt 软件商店，适用于 x86_64 和 arm64 设备",
                             "url": "https:\/\/github.com\/linkease\/istore",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -1917,14 +1917,14 @@
                         {
                             "id": "site-7-41",
                             "title": "截图神器",
-                            "description": "PixXin支持截取动图、贴图、长截图、OCR等功能",
+                            "description": "PixXin 支持截取动图、贴图、长截图、OCR 等功能",
                             "url": "https:\/\/pixpinapp.com\/",
                             "icon": "https:\/\/favicon.im\/pixpinapp.com"
                         },
                         {
                             "id": "site-7-42",
                             "title": "QQ微信防撤回",
-                            "description": "PC微信QQ防撤回补丁",
+                            "description": "PC 微信 QQ 防撤回补丁",
                             "url": "https:\/\/github.com\/huiyadanli\/RevokeMsgPatcher\/wiki",
                             "icon": "https:\/\/favicon.im\/github.com"
                         }
@@ -1945,7 +1945,7 @@
                         {
                             "id": "site-8-0",
                             "title": "安卓NS模拟器 ",
-                            "description": "NS、PS2、PSV、3DS等模拟器",
+                            "description": "NS、PS2、PSV、3DS 等模拟器",
                             "url": "https:\/\/www.bilibili.com\/read\/cv18207718",
                             "icon": "https:\/\/favicon.im\/www.bilibili.com"
                         },
@@ -1973,28 +1973,28 @@
                         {
                             "id": "site-8-4",
                             "title": "资源避难所 ",
-                            "description": "PC游戏、模拟器资源下载",
+                            "description": "PC 游戏、模拟器资源下载",
                             "url": "https:\/\/www.flysheep6.com\/",
                             "icon": "https:\/\/favicon.im\/www.flysheep6.com"
                         },
                         {
                             "id": "site-8-5",
                             "title": "GBTGAME",
-                            "description": "GBTGAME官方网盘",
+                            "description": "GBTGAME 官方网盘",
                             "url": "https:\/\/pan.gbtgame.me\/",
                             "icon": "https:\/\/favicon.im\/pan.gbtgame.me"
                         },
                         {
                             "id": "site-8-6",
                             "title": "Koyso",
-                            "description": "PC单机游戏下载",
+                            "description": "PC 单机游戏下载",
                             "url": "https:\/\/koysobackup.com\/",
                             "icon": "https:\/\/favicon.im\/koysobackup.com"
                         },
                         {
                             "id": "site-8-7",
                             "title": "小霸王 ",
-                            "description": "在线玩FC、街机、GBA等",
+                            "description": "在线玩 FC、街机、GBA 等",
                             "url": "https:\/\/www.yikm.net\/",
                             "icon": "https:\/\/favicon.im\/www.yikm.net"
                         },
@@ -2015,14 +2015,14 @@
                         {
                             "id": "site-8-10",
                             "title": "老游戏在线玩",
-                            "description": "包含NES、GB\/GBC\/GBA、NDS、PS等",
+                            "description": "包含 NES、GB\/GBC\/GBA、NDS、PS 等",
                             "url": "https:\/\/zaixianwan.app\/",
                             "icon": "https:\/\/favicon.im\/zaixianwan.app"
                         },
                         {
                             "id": "site-8-11",
                             "title": "低端游戏",
-                            "description": "在线PC经典游戏，支持手柄，3DFX Voodoo等",
+                            "description": "在线 PC 经典游戏，支持手柄，3DFX Voodoo 等",
                             "url": "https:\/\/ddyx.me\/",
                             "icon": "https:\/\/favicon.im\/ddyx.me"
                         },
@@ -2036,7 +2036,7 @@
                         {
                             "id": "site-8-13",
                             "title": "Poki",
-                            "description": "在线H5游戏合集",
+                            "description": "在线 H5 游戏合集",
                             "url": "https:\/\/poki.cn\/",
                             "icon": "https:\/\/favicon.im\/poki.cn"
                         },
@@ -2071,21 +2071,21 @@
                         {
                             "id": "site-8-18",
                             "title": "Java游戏小站",
-                            "description": "Java游戏资源集合",
+                            "description": "Java 游戏资源集合",
                             "url": "https:\/\/java.owoemu.com\/",
                             "icon": "https:\/\/favicon.im\/java.owoemu.com"
                         },
                         {
                             "id": "site-8-19",
                             "title": "Awesome JS Games",
-                            "description": "JS游戏以及相关资源",
+                            "description": "JS 游戏以及相关资源",
                             "url": "https:\/\/i.pixcat.cn\/js-you-xi-yi-ji-xiang-guan-zi-yuan",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
                         {
                             "id": "site-8-20",
                             "title": "Flashpoint",
-                            "description": "Flash档案馆，游戏与动画",
+                            "description": "Flash 档案馆，游戏与动画",
                             "url": "https:\/\/flashpointarchive.org\/",
                             "icon": "https:\/\/favicon.im\/flashpointarchive.org"
                         },
@@ -2099,14 +2099,14 @@
                         {
                             "id": "site-8-22",
                             "title": "oldswf ",
-                            "description": "无需安装flash即可在线游玩的小游戏站",
+                            "description": "无需安装 flash 即可在线游玩的小游戏站",
                             "url": "https:\/\/oldswf.com\/",
                             "icon": "https:\/\/favicon.im\/oldswf.com"
                         },
                         {
                             "id": "site-8-23",
                             "title": "Ruffle ",
-                            "description": "通过Ruffle在现代浏览器中玩转Flash",
+                            "description": "通过 Ruffle 在现代浏览器中玩转 Flash",
                             "url": "https:\/\/ruffle.rs\/",
                             "icon": "https:\/\/favicon.im\/ruffle.rs"
                         },
@@ -2120,14 +2120,14 @@
                         {
                             "id": "site-8-25",
                             "title": "NS游戏资源",
-                            "description": "Switch 520资源站",
+                            "description": "Switch 520 资源站",
                             "url": "https:\/\/www.gamer520.com\/",
                             "icon": "https:\/\/favicon.im\/www.gamer520.com"
                         },
                         {
                             "id": "site-8-26",
                             "title": "白嫖游戏速报",
-                            "description": "聚合Steam、Epic等平台的限免资讯",
+                            "description": "聚合 Steam、Epic 等平台的限免资讯",
                             "url": "https:\/\/gameinfo.gbtgame.me\/",
                             "icon": "https:\/\/favicon.im\/gameinfo.gbtgame.me"
                         },
@@ -2148,42 +2148,42 @@
                         {
                             "id": "site-8-29",
                             "title": "模拟器与ROM资源索引",
-                            "description": "模拟器与ROM资源汇总索引",
+                            "description": "模拟器与 ROM 资源汇总索引",
                             "url": "https:\/\/fmhy.net\/gaming#emulation-roms",
                             "icon": "https:\/\/favicon.im\/fmhy.net"
                         },
                         {
                             "id": "site-8-30",
                             "title": "Cemu Guide",
-                            "description": "Wii U模拟器",
+                            "description": "Wii U 模拟器",
                             "url": "https:\/\/cemu.cfw.guide\/",
                             "icon": "https:\/\/favicon.im\/cemu.cfw.guide"
                         },
                         {
                             "id": "site-8-31",
                             "title": "Dolphin",
-                            "description": "Wii模拟器",
+                            "description": "Wii 模拟器",
                             "url": "https:\/\/cn.dolphin-emu.org\/",
                             "icon": "https:\/\/favicon.im\/cn.dolphin-emu.org"
                         },
                         {
                             "id": "site-8-32",
                             "title": "Lemuroid",
-                            "description": "Lemuroid模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
+                            "description": "Lemuroid 模拟器，NES、SNES、GB、GBC、GBA、NDS、PCE、NGP、NGC、WS、WSC、3DS",
                             "url": "https:\/\/f-droid.org\/zh_Hans\/packages\/com.swordfish.lemuroid\/",
                             "icon": "https:\/\/favicon.im\/f-droid.org"
                         },
                         {
                             "id": "site-8-33",
                             "title": "RetroArch",
-                            "description": "跨平台38合1全能模拟器",
+                            "description": "跨平台 38 合 1 全能模拟器",
                             "url": "https:\/\/www.retroarch.com\/",
                             "icon": "https:\/\/favicon.im\/www.retroarch.com"
                         },
                         {
                             "id": "site-8-34",
                             "title": "GameNative",
-                            "description": "开源 Steam 第三方安卓客户端，在移动端玩PC游戏",
+                            "description": "开源 Steam 第三方安卓客户端，在移动端玩 PC 游戏",
                             "url": "https:\/\/github.com\/utkarshdalal\/GameNative",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2197,14 +2197,14 @@
                         {
                             "id": "site-8-36",
                             "title": "Batocera",
-                            "description": "基于Linux的复古游戏系统",
+                            "description": "基于 Linux 的复古游戏系统",
                             "url": "https:\/\/batocera.org\/",
                             "icon": "https:\/\/favicon.im\/batocera.org"
                         },
                         {
                             "id": "site-8-37",
                             "title": "EmuELEC",
-                            "description": "基于LibreELEC的复古游戏模拟器系统，适用于ARM环境",
+                            "description": "基于 LibreELEC 的复古游戏模拟器系统，适用于 ARM 环境",
                             "url": "https:\/\/bing.com\/search?q=EmuELEC",
                             "icon": "https:\/\/favicon.im\/bing.com"
                         },
@@ -2218,7 +2218,7 @@
                         {
                             "id": "site-8-39",
                             "title": "Pcstory",
-                            "description": "蘑菇游戏下载器，5.0版本",
+                            "description": "蘑菇游戏下载器，5.0 版本",
                             "url": "https:\/\/7zip.lanzoue.com\/itgNi0nvsw8d",
                             "icon": "https:\/\/favicon.im\/7zip.lanzoue.com"
                         },
@@ -2239,7 +2239,7 @@
                         {
                             "id": "site-8-42",
                             "title": "MC资源",
-                            "description": "Minecraft各版本整合",
+                            "description": "Minecraft 各版本整合",
                             "url": "https:\/\/mc.minebbs.com\/",
                             "icon": "https:\/\/favicon.im\/mc.minebbs.com"
                         },
@@ -2274,7 +2274,7 @@
                         {
                             "id": "site-8-47",
                             "title": "CE修改器",
-                            "description": "Cheat Engine中文版",
+                            "description": "Cheat Engine 中文版",
                             "url": "https:\/\/www.ghxi.com\/ce.html",
                             "icon": "https:\/\/favicon.im\/www.ghxi.com"
                         },
@@ -2309,21 +2309,21 @@
                         {
                             "id": "site-9-0",
                             "title": "安卓旧版软件",
-                            "description": "寻找旧版本、32位、x86等多架构软件",
+                            "description": "寻找旧版本、32 位、x86 等多架构软件",
                             "url": "https:\/\/apkcombo.com\/zh\/",
                             "icon": "https:\/\/favicon.im\/apkcombo.com"
                         },
                         {
                             "id": "site-9-1",
                             "title": "ADB在线执行器",
-                            "description": "在线的ADB GUI",
+                            "description": "在线的 ADB GUI",
                             "url": "https:\/\/xadb.netlify.app\/",
                             "icon": "https:\/\/favicon.im\/xadb.netlify.app"
                         },
                         {
                             "id": "site-9-2",
                             "title": "Magisk 资源分享",
-                            "description": "Magisk、Xposed资源",
+                            "description": "Magisk、Xposed 资源",
                             "url": "https:\/\/magisk.suchenqaq.club\/",
                             "icon": "https:\/\/favicon.im\/magisk.suchenqaq.club"
                         },
@@ -2344,28 +2344,28 @@
                         {
                             "id": "site-9-5",
                             "title": "境外APK下载 ①",
-                            "description": "免代理下载谷歌市场上的APK",
+                            "description": "免代理下载谷歌市场上的 APK",
                             "url": "https:\/\/filehippo.com\/zh\/android\/",
                             "icon": "https:\/\/favicon.im\/filehippo.com"
                         },
                         {
                             "id": "site-9-6",
                             "title": "境外APK下载 ②",
-                            "description": "Mod版APK或原版APK下载渠道",
+                            "description": "Mod 版 APK 或原版 APK 下载渠道",
                             "url": "https:\/\/fmhy.net\/android-iosguide",
                             "icon": "https:\/\/favicon.im\/fmhy.net"
                         },
                         {
                             "id": "site-9-7",
                             "title": "苹果限免软件",
-                            "description": "Apple限免正版软件优惠",
+                            "description": "Apple 限免正版软件优惠",
                             "url": "https:\/\/gofans.cn\/",
                             "icon": "https:\/\/favicon.im\/gofans.cn"
                         },
                         {
                             "id": "site-9-8",
                             "title": "IPA软件下载",
-                            "description": "下载适用于iOS的IPA软件",
+                            "description": "下载适用于 iOS 的 IPA 软件",
                             "url": "https:\/\/i.pixcat.cn\/ipa-ge-shi-ruan-jian-xia-zai",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
@@ -2379,14 +2379,14 @@
                         {
                             "id": "site-9-10",
                             "title": "MIUI修改版桌面",
-                            "description": "一个修改版的MIUI桌面",
+                            "description": "一个修改版的 MIUI 桌面",
                             "url": "https:\/\/space.bilibili.com\/324056528\/video",
                             "icon": "https:\/\/favicon.im\/space.bilibili.com"
                         },
                         {
                             "id": "site-9-11",
                             "title": "MIUI主题国际站",
-                            "description": "下载国际版 MIUI 主题MTZ文件",
+                            "description": "下载国际版 MIUI 主题 MTZ 文件",
                             "url": "https:\/\/www.miuithemer.com\/",
                             "icon": "https:\/\/favicon.im\/www.miuithemer.com"
                         },
@@ -2407,35 +2407,35 @@
                         {
                             "id": "site-9-14",
                             "title": "安卓玩机合集 ①",
-                            "description": "adb、fastboot以及各厂商驱动与官方刷机包",
+                            "description": "adb、fastboot 以及各厂商驱动与官方刷机包",
                             "url": "https:\/\/www.jamcz.com\/tutorial\/wanji\/",
                             "icon": "https:\/\/favicon.im\/www.jamcz.com"
                         },
                         {
                             "id": "site-9-15",
                             "title": "安卓玩机合集 ②",
-                            "description": "Root与免Root玩机工具等",
+                            "description": "Root 与免 Root 玩机工具等",
                             "url": "https:\/\/myql.eu.org\/article\/196d7f79-818d-80fb-97f9-d17380c535b9",
                             "icon": "https:\/\/favicon.im\/myql.eu.org"
                         },
                         {
                             "id": "site-9-16",
                             "title": "安卓玩机合集 ③",
-                            "description": " Magisk、 KernelSU与其他Root刷机资源",
+                            "description": "Magisk、KernelSU 与其他 Root 刷机资源",
                             "url": "https:\/\/fmhy.net\/android-iosguide#root-flash",
                             "icon": "https:\/\/favicon.im\/fmhy.net"
                         },
                         {
                             "id": "site-9-17",
                             "title": "萤火虫资源站",
-                            "description": " 安卓玩机、手表手环、路由器资源等",
+                            "description": "安卓玩机、手表手环、路由器资源等",
                             "url": "https:\/\/www.yhcres.top\/",
                             "icon": "https:\/\/favicon.im\/www.yhcres.top"
                         },
                         {
                             "id": "site-9-18",
                             "title": "GSI镜像列表",
-                            "description": "GSI通用刷机包、DSU Loader",
+                            "description": "GSI 通用刷机包、DSU Loader",
                             "url": "https:\/\/github.com\/phhusson\/treble_experimentations\/wiki\/Generic-System-Image-(GSI)-List",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2477,7 +2477,7 @@
                         {
                             "id": "site-9-24",
                             "title": "巨魔 2 ",
-                            "description": "通过TrollStore免越狱安装IPA",
+                            "description": "通过 TrollStore 免越狱安装 IPA",
                             "url": "https:\/\/www.52pojie.cn\/thread-1862815-1-1.html",
                             "icon": "https:\/\/favicon.im\/www.52pojie.cn"
                         },
@@ -2498,7 +2498,7 @@
                         {
                             "id": "site-9-27",
                             "title": "搞机助手",
-                            "description": "搞机助手Win版",
+                            "description": "搞机助手 Win 版",
                             "url": "https:\/\/lsdy.top\/gjzs",
                             "icon": "https:\/\/favicon.im\/lsdy.top"
                         },
@@ -2526,7 +2526,7 @@
                         {
                             "id": "site-9-31",
                             "title": "Awesome-Shizuku",
-                            "description": "挖掘Shizuku的可玩性",
+                            "description": "挖掘 Shizuku 的可玩性",
                             "url": "https:\/\/r.pixcat.cn\/timschneeb\/awesome-shizuku\/README_cn.md",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2540,7 +2540,7 @@
                         {
                             "id": "site-9-33",
                             "title": "VMOS Pro",
-                            "description": "获取新版本的VMOS Pro 解锁版",
+                            "description": "获取新版本的 VMOS Pro 解锁版",
                             "url": "https:\/\/423down.lanzouo.com\/b0f1fns7a",
                             "icon": "https:\/\/favicon.im\/423down.lanzouo.com"
                         },
@@ -2554,112 +2554,119 @@
                         {
                             "id": "site-9-35",
                             "title": "小小容器",
-                            "description": "给所有安卓arm64设备的PC应用引擎",
+                            "description": "给所有安卓 arm64 设备的 PC 应用引擎",
                             "url": "https:\/\/github.com\/Cateners\/tiny_computer",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-9-36",
                             "title": "虚拟电脑",
-                            "description": "安卓手机秒变Linux桌面电脑",
+                            "description": "安卓手机秒变 Linux 桌面电脑",
                             "url": "http:\/\/124.221.123.125\/cn\/",
                             "icon": "https:\/\/favicon.im\/124.221.123.125"
                         },
                         {
                             "id": "site-9-37",
+                            "title": "DroidVM",
+                            "description": "Android 上的虚拟机管理器，支持高通 Gunyah、联发科 GenieZone 与 Linux KVM",
+                            "url": "https:\/\/github.com\/Droid-VM\/DroidVM",
+                            "icon": "https:\/\/favicon.im\/github.com"
+                        },
+                        {
+                            "id": "site-9-38",
                             "title": "Termux",
                             "description": "带软件包的终端模拟器",
                             "url": "https:\/\/f-droid.org\/zh_Hans\/packages\/com.termux\/",
                             "icon": "https:\/\/favicon.im\/f-droid.org"
                         },
                         {
-                            "id": "site-9-38",
+                            "id": "site-9-39",
                             "title": "Termux魔改版",
-                            "description": "ZeroTermux、uTermux等版本",
+                            "description": "ZeroTermux、uTermux 等版本",
                             "url": "https:\/\/od.ixcmstudio.cn\/repository\/main\/ZeroTermux\/",
                             "icon": "https:\/\/favicon.im\/od.ixcmstudio.cn"
                         },
                         {
-                            "id": "site-9-39",
+                            "id": "site-9-40",
                             "title": "Winlator",
-                            "description": "通过Wine、Box86等在安卓设备上运行Windows应用",
+                            "description": "通过 Wine、Box86 等在安卓设备上运行 Windows 应用",
                             "url": "https:\/\/github.com\/brunodev85\/winlator",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-40",
+                            "id": "site-9-41",
                             "title": "Winlator-Amod",
-                            "description": "Winlator阿飞修改版本",
+                            "description": "Winlator 阿飞修改版本",
                             "url": "https:\/\/github.com\/afeimod\/winlator-mod",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-41",
+                            "id": "site-9-42",
                             "title": "MiceWine",
                             "description": "在 Android 上运行 Windows 软件和游戏",
                             "url": "https:\/\/github.com\/caplogistica\/MiceWine",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-42",
+                            "id": "site-9-43",
                             "title": "盖世游戏",
                             "description": "在安卓上运行 PC 游戏，可导入本地或 Steam 游戏",
                             "url": "https:\/\/gamehub.xiaoji.com\/zh-cn",
                             "icon": "https:\/\/favicon.im\/gamehub.xiaoji.com"
                         },
                         {
-                            "id": "site-9-43",
+                            "id": "site-9-44",
                             "title": "安卓端PC模拟器合集",
-                            "description": "安卓上的Wine环境等",
+                            "description": "安卓上的 Wine 环境等",
                             "url": "https:\/\/www.bilibili.com\/read\/mobile?id=25407219",
                             "icon": "https:\/\/favicon.im\/www.bilibili.com"
                         },
                         {
-                            "id": "site-9-44",
+                            "id": "site-9-45",
                             "title": "WSL Dashboard",
                             "description": "现代、高性能、轻量级的 WSL 实例管理仪表板，基于 Rust 和 Slint 构建",
                             "url": "https:\/\/github.com\/owu\/wsl-dashboard",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-45",
+                            "id": "site-9-46",
                             "title": "WSABuilds",
-                            "description": "Windows 安卓子系统，支持谷歌服务与Root",
+                            "description": "Windows 安卓子系统，支持谷歌服务与 Root",
                             "url": "https:\/\/github.com\/MustardChef\/WSABuilds",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-46",
+                            "id": "site-9-47",
                             "title": "vphone-cli",
-                            "description": "在 macOS 上运行完整iOS",
+                            "description": "在 macOS 上运行完整 iOS",
                             "url": "https:\/\/github.com\/Lakr233\/vphone-cli",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-47",
+                            "id": "site-9-48",
                             "title": "Docker-OSX",
                             "description": "在 Docker 中运行 macOS",
                             "url": "https:\/\/github.com\/sickcodes\/Docker-OSX",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-9-48",
+                            "id": "site-9-49",
                             "title": "WinBoat",
                             "description": "在 Linux 上运行 Windows 应用，实现无缝集成",
                             "url": "https:\/\/www.winboat.app\/",
                             "icon": "https:\/\/favicon.im\/www.winboat.app"
                         },
                         {
-                            "id": "site-9-49",
+                            "id": "site-9-50",
                             "title": "Waydroid",
                             "description": "在 Linux 系统上启动 Android 系统",
                             "url": "https:\/\/waydro.id\/",
                             "icon": "https:\/\/favicon.im\/waydro.id"
                         },
                         {
-                            "id": "site-9-50",
+                            "id": "site-9-51",
                             "title": "redroid",
-                            "description": "基于KVM-QENU，在 docker 中运行 Android 系统、云手机",
+                            "description": "基于 KVM-QENU，在 docker 中运行 Android 系统、云手机",
                             "url": "https:\/\/github.com\/remote-android\/redroid-doc\/",
                             "icon": "https:\/\/favicon.im\/github.com"
                         }
@@ -2680,7 +2687,7 @@
                         {
                             "id": "site-10-0",
                             "title": "WinNew",
-                            "description": " 从微软服务器获取最新原版镜像",
+                            "description": "从微软服务器获取最新原版镜像",
                             "url": "https:\/\/winnew.cn\/",
                             "icon": "https:\/\/favicon.im\/winnew.cn"
                         },
@@ -2708,7 +2715,7 @@
                         {
                             "id": "site-10-4",
                             "title": "系统库",
-                            "description": "致力于原版Windows生态服务",
+                            "description": "致力于原版 Windows 生态服务",
                             "url": "https:\/\/www.xitongku.com\/h5\/",
                             "icon": "https:\/\/favicon.im\/www.xitongku.com"
                         },
@@ -2729,21 +2736,21 @@
                         {
                             "id": "site-10-7",
                             "title": "Edgeless",
-                            "description": "强大而优雅的半开源PE工具",
+                            "description": "强大而优雅的半开源 PE 工具",
                             "url": "https:\/\/home.edgeless.top\/",
                             "icon": "https:\/\/favicon.im\/home.edgeless.top"
                         },
                         {
                             "id": "site-10-8",
                             "title": "FirPE Project",
-                            "description": "最适合年轻人的PE",
+                            "description": "最适合年轻人的 PE",
                             "url": "https:\/\/firpe.cn\/",
                             "icon": "https:\/\/favicon.im\/firpe.cn"
                         },
                         {
                             "id": "site-10-9",
                             "title": "HotPE",
-                            "description": "一个纯净、强大、优雅的PE工具箱",
+                            "description": "一个纯净、强大、优雅的 PE 工具箱",
                             "url": "https:\/\/www.hotpe.top\/",
                             "icon": "https:\/\/favicon.im\/www.hotpe.top"
                         },
@@ -2764,14 +2771,14 @@
                         {
                             "id": "site-10-12",
                             "title": "Bliss OS For PC",
-                            "description": "内置KernelSU的Android x86系统",
+                            "description": "内置 KernelSU 的 Android x86 系统",
                             "url": "https:\/\/blissos.org\/",
                             "icon": "https:\/\/favicon.im\/blissos.org"
                         },
                         {
                             "id": "site-10-13",
                             "title": "黑苹果",
-                            "description": "MacOS镜像",
+                            "description": "MacOS 镜像",
                             "url": "https:\/\/mackext.com\/category\/macos\/",
                             "icon": "https:\/\/favicon.im\/mackext.com"
                         },
@@ -2820,21 +2827,21 @@
                         {
                             "id": "site-10-20",
                             "title": "前端公共库汇总",
-                            "description": "前端JS、CSS静态资源公共库，含评测及推荐",
+                            "description": "前端 JS、CSS 静态资源公共库，含评测及推荐",
                             "url": "https:\/\/51.ruyo.net\/12387.html",
                             "icon": "https:\/\/favicon.im\/51.ruyo.net"
                         },
                         {
                             "id": "site-10-21",
                             "title": "Docker镜像加速 ①",
-                            "description": "Docker Hub加速",
+                            "description": "Docker Hub 加速",
                             "url": "https:\/\/51.ruyo.net\/18416.html",
                             "icon": "https:\/\/favicon.im\/51.ruyo.net"
                         },
                         {
                             "id": "site-10-22",
                             "title": "Docker镜像加速 ②",
-                            "description": "Docker Hub加速",
+                            "description": "Docker Hub 加速",
                             "url": "https:\/\/www.wangdu.site\/course\/2109.html",
                             "icon": "https:\/\/favicon.im\/www.wangdu.site"
                         },
@@ -2855,7 +2862,7 @@
                         {
                             "id": "site-10-25",
                             "title": "FydeOS",
-                            "description": "基于 Chrome OS，同时支持安卓与Linux应用",
+                            "description": "基于 Chrome OS，同时支持安卓与 Linux 应用",
                             "url": "https:\/\/fydeos.com\/",
                             "icon": "https:\/\/favicon.im\/fydeos.com"
                         },
@@ -2890,7 +2897,7 @@
                         {
                             "id": "site-11-1",
                             "title": "W3school",
-                            "description": "w3school在线教程",
+                            "description": "w3school 在线教程",
                             "url": "https:\/\/www.w3school.com.cn\/",
                             "icon": "https:\/\/favicon.im\/www.w3school.com.cn"
                         },
@@ -2911,14 +2918,14 @@
                         {
                             "id": "site-11-4",
                             "title": "CSS 筛选",
-                            "description": "滤出CSS中被使用的部分",
+                            "description": "滤出 CSS 中被使用的部分",
                             "url": "https:\/\/uncss-online.com\/",
                             "icon": "https:\/\/favicon.im\/uncss-online.com"
                         },
                         {
                             "id": "site-11-5",
                             "title": "JS 变萌",
-                            "description": "萌系的JS加密",
+                            "description": "萌系的 JS 加密",
                             "url": "https:\/\/utf-8.jp\/public\/aaencode.html",
                             "icon": "https:\/\/favicon.im\/utf-8.jp"
                         },
@@ -2946,7 +2953,7 @@
                         {
                             "id": "site-11-9",
                             "title": "MetingJS",
-                            "description": "给APlayer加入了外链网易云等功能",
+                            "description": "给 APlayer 加入了外链网易云等功能",
                             "url": "https:\/\/github.com\/metowolf\/MetingJS",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -2960,21 +2967,21 @@
                         {
                             "id": "site-11-11",
                             "title": "念念不忘必有回响",
-                            "description": "typecho非官方网站",
+                            "description": "typecho 非官方网站",
                             "url": "https:\/\/typecho.work\/",
                             "icon": "https:\/\/favicon.im\/typecho.work"
                         },
                         {
                             "id": "site-11-12",
                             "title": "我收藏的主题",
-                            "description": "Github上标星的主题、插件、衍生项目等",
+                            "description": "Github 上标星的主题、插件、衍生项目等",
                             "url": "https:\/\/github.com\/stars\/pixcati\/lists\/%E5%8D%9A%E5%AE%A2%E7%A8%8B%E5%BA%8F%E4%B8%8E%E4%B8%BB%E9%A2%98",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-11-13",
                             "title": "Easy Hexo",
-                            "description": "轻松入门Hexo",
+                            "description": "轻松入门 Hexo",
                             "url": "https:\/\/easyhexo.com\/",
                             "icon": "https:\/\/favicon.im\/easyhexo.com"
                         },
@@ -3023,14 +3030,14 @@
                         {
                             "id": "site-12-1",
                             "title": "常见代理客户端 ①",
-                            "description": "常见的代理客户端，vmess、torjan或更多",
+                            "description": "常见的代理客户端，vmess、torjan 或更多",
                             "url": "https:\/\/findladders.com\/clients\/",
                             "icon": "https:\/\/favicon.im\/findladders.com"
                         },
                         {
                             "id": "site-12-2",
                             "title": "常见代理客户端 ②",
-                            "description": "常见的代理客户端，vmess、torjan或更多",
+                            "description": "常见的代理客户端，vmess、torjan 或更多",
                             "url": "https:\/\/jichangx.com\/gui\/",
                             "icon": "https:\/\/favicon.im\/jichangx.com"
                         },
@@ -3079,14 +3086,14 @@
                         {
                             "id": "site-12-9",
                             "title": "xray-ui",
-                            "description": "基于x-ui的修改版本",
+                            "description": "基于 x-ui 的修改版本",
                             "url": "https:\/\/github.com\/qist\/xray-ui",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-12-10",
                             "title": "3x-ui",
-                            "description": "Xray服务端可视化面板",
+                            "description": "Xray 服务端可视化面板",
                             "url": "https:\/\/github.com\/MHSanaei\/3x-ui",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -3142,49 +3149,49 @@
                         {
                             "id": "site-13-4",
                             "title": "聚玩盒子",
-                            "description": "安卓TV软件、TVBox衍生版本等",
+                            "description": "安卓 TV 软件、TVBox 衍生版本等",
                             "url": "https:\/\/www.juwanhezi.com\/",
                             "icon": "https:\/\/favicon.im\/www.juwanhezi.com"
                         },
                         {
                             "id": "site-13-5",
                             "title": "TVBox",
-                            "description": "TVBox本体及配置源",
+                            "description": "TVBox 本体及配置源",
                             "url": "https:\/\/iui.su\/175\/",
                             "icon": "https:\/\/favicon.im\/iui.su"
                         },
                         {
                             "id": "site-13-6",
                             "title": "TVBox 配置源 ①",
-                            "description": "TVBox源仓库与接口",
+                            "description": "TVBox 源仓库与接口",
                             "url": "https:\/\/www.aipan.me\/tvbox",
                             "icon": "https:\/\/favicon.im\/www.aipan.me"
                         },
                         {
                             "id": "site-13-7",
                             "title": "TVBox 配置源 ②",
-                            "description": "TVBox源仓库与接口",
+                            "description": "TVBox 源仓库与接口",
                             "url": "https:\/\/r.pixcat.cn\/youhunwl\/TVAPP#%E6%8E%A5%E5%8F%A3%E6%BA%90-",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-13-8",
                             "title": "TVBox 全链路资源",
-                            "description": "TvBox全链路资源，接口、软件以及资源站点",
+                            "description": "TvBox 全链路资源，接口、软件以及资源站点",
                             "url": "https:\/\/zoo.ink\/tvbox.html",
                             "icon": "https:\/\/favicon.im\/zoo.ink"
                         },
                         {
                             "id": "site-13-9",
                             "title": "全网TV影视应用汇总 ①",
-                            "description": "涵盖影视、直播、K歌、工具、游戏等类型",
+                            "description": "涵盖影视、直播、K 歌、工具、游戏等类型",
                             "url": "https:\/\/r.pixcat.cn\/youhunwl\/TVAPP",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-13-10",
                             "title": "全网TV影视应用汇总 ②",
-                            "description": "人工精选影视 APP、网盘搜索、磁力BT、TVbox与影视仓配置源等",
+                            "description": "人工精选影视 APP、网盘搜索、磁力 BT、TVbox 与影视仓配置源等",
                             "url": "https:\/\/r.pixcat.cn\/laoma2053\/awesome-zhuiju-free",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -3205,7 +3212,7 @@
                         {
                             "id": "site-13-13",
                             "title": "哆啦新番社",
-                            "description": "哆啦A梦大山、水田、剧场版与直播等",
+                            "description": "哆啦 A 梦大山、水田、剧场版与直播等",
                             "url": "https:\/\/www.dora-video.cn\/",
                             "icon": "https:\/\/favicon.im\/www.dora-video.cn"
                         },
@@ -3303,21 +3310,21 @@
                         {
                             "id": "site-14-10",
                             "title": "电报优质频道集 ①",
-                            "description": "Telegram上不错的频道与群组",
+                            "description": "Telegram 上不错的频道与群组",
                             "url": "https:\/\/rectg.com\/",
                             "icon": "https:\/\/favicon.im\/rectg.com"
                         },
                         {
                             "id": "site-14-11",
                             "title": "电报优质频道集 ②",
-                            "description": "Telegram上不错的频道与群组",
+                            "description": "Telegram 上不错的频道与群组",
                             "url": "https:\/\/r.pixcat.cn\/itgoyo\/TelegramGroup",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
                             "id": "site-14-12",
                             "title": "我的Github书单",
-                            "description": "在Github上标星的那些书单项目",
+                            "description": "在 Github 上标星的那些书单项目",
                             "url": "https:\/\/github.com\/pixcati?submit=Search&q=book&tab=stars",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
@@ -3373,14 +3380,14 @@
                         {
                             "id": "site-14-20",
                             "title": "在Github上大学",
-                            "description": "Github上共享的电子教材与课程资源",
+                            "description": "Github 上共享的电子教材与课程资源",
                             "url": "https:\/\/i.pixcat.cn\/github-shang-de-xue-xi-zi-yuan",
                             "icon": "https:\/\/favicon.im\/i.pixcat.cn"
                         },
                         {
                             "id": "site-14-21",
                             "title": "Github上的公共书库",
-                            "description": "Github上共享电子书或学习资源",
+                            "description": "Github 上共享电子书或学习资源",
                             "url": "https:\/\/gitcn.org\/topics\/books",
                             "icon": "https:\/\/favicon.im\/gitcn.org"
                         },
@@ -3429,7 +3436,7 @@
                         {
                             "id": "site-14-28",
                             "title": "安娜的档案",
-                            "description": "37668190本图书、105786988篇论文",
+                            "description": "37668190 本图书、105786988 篇论文",
                             "url": "https:\/\/zh.annas-archive.org\/",
                             "icon": "https:\/\/favicon.im\/zh.annas-archive.org"
                         },
@@ -3506,7 +3513,7 @@
                         {
                             "id": "site-14-39",
                             "title": "计算机自学指南",
-                            "description": "CS自学指南",
+                            "description": "CS 自学指南",
                             "url": "https:\/\/csdiy.wiki\/",
                             "icon": "https:\/\/favicon.im\/csdiy.wiki"
                         },
@@ -3681,14 +3688,14 @@
                         {
                             "id": "site-15-19",
                             "title": "建站百科",
-                            "description": "VPS优惠、便宜VPS、免费资源等",
+                            "description": "VPS 优惠、便宜 VPS、免费资源等",
                             "url": "https:\/\/www.jzbk.net\/",
                             "icon": "https:\/\/favicon.im\/www.jzbk.net"
                         },
                         {
                             "id": "site-15-20",
                             "title": "主机百科",
-                            "description": "VPS主机信息和主机测评",
+                            "description": "VPS 主机信息和主机测评",
                             "url": "https:\/\/zhujiwiki.com\/",
                             "icon": "https:\/\/favicon.im\/zhujiwiki.com"
                         },
@@ -3702,7 +3709,7 @@
                         {
                             "id": "site-15-22",
                             "title": "GitHub中文社区",
-                            "description": "GitHub中文社区",
+                            "description": "GitHub 中文社区",
                             "url": "https:\/\/github-cn.com\/",
                             "icon": "https:\/\/favicon.im\/github-cn.com"
                         },
@@ -3744,14 +3751,14 @@
                         {
                             "id": "site-15-28",
                             "title": "Github 严选周刊",
-                            "description": "每周精选一个高质量开源项目，深度解析其价值与应用场景。",
+                            "description": "每周精选一个高质量开源项目，深度解析其价值与应用场景",
                             "url": "https:\/\/github-cn.com\/weekly",
                             "icon": "https:\/\/favicon.im\/github-cn.com"
                         },
                         {
                             "id": "site-15-29",
                             "title": "每周科技补全",
-                            "description": "玄离199的每周科技补全",
+                            "description": "玄离 199 的每周科技补全",
                             "url": "https:\/\/xuanli199.github.io\/weekly\/",
                             "icon": "https:\/\/favicon.im\/xuanli199.github.io"
                         },
@@ -3898,7 +3905,7 @@
                         {
                             "id": "site-16-13",
                             "title": "小z博客",
-                            "description": " 小z博客",
+                            "description": "小 z 博客",
                             "url": "https:\/\/blog.xiaoz.org\/",
                             "icon": "https:\/\/favicon.im\/blog.xiaoz.org"
                         },
@@ -3933,7 +3940,7 @@
                         {
                             "id": "site-16-18",
                             "title": "夜法之书",
-                            "description": "关于Linux开源，Nas，Docker，嵌入式，理财，BG健身等主题",
+                            "description": "关于 Linux 开源，Nas，Docker，嵌入式，理财，BG 健身等主题",
                             "url": "https:\/\/blog.17lai.site\/",
                             "icon": "https:\/\/favicon.im\/blog.17lai.site"
                         }
@@ -3989,7 +3996,7 @@
                         {
                             "id": "site-17-5",
                             "title": "藏密度亡经",
-                            "description": "",
+                            "description": "藏密度亡经",
                             "url": "http:\/\/www.dzj.fosss.net\/relative\/sdhb\/zyjt\/4285-zydjt",
                             "icon": "https:\/\/favicon.im\/www.dzj.fosss.net"
                         },
@@ -4024,14 +4031,14 @@
                         {
                             "id": "site-17-10",
                             "title": "行星鉴定记录者",
-                            "description": "",
+                            "description": "探索神话、历史与文明隐秘档案",
                             "url": "https:\/\/planetrec.org\/",
                             "icon": "https:\/\/favicon.im\/planetrec.org"
                         },
                         {
                             "id": "site-17-11",
                             "title": "iWell-Guard",
-                            "description": "",
+                            "description": "护身吊坠与各文明神魔灵体百科",
                             "url": "https:\/\/iwell-guard.com\/zh-hans\/",
                             "icon": "https:\/\/favicon.im\/iwell-guard.com"
                         },
@@ -4045,14 +4052,14 @@
                         {
                             "id": "site-17-13",
                             "title": "万万",
-                            "description": "",
+                            "description": "微博个人主页",
                             "url": "https:\/\/m.weibo.cn\/u\/7669407665",
                             "icon": "https:\/\/favicon.im\/m.weibo.cn"
                         },
                         {
                             "id": "site-17-14",
                             "title": "Ruowen Huang",
-                            "description": "",
+                            "description": "灵媒 Ruowen Huang 的个人网站",
                             "url": "http:\/\/ruowenh.com\/%E4%B8%BB%E9%A0%81\/",
                             "icon": "https:\/\/favicon.im\/ruowenh.com"
                         },
@@ -4087,14 +4094,14 @@
                         {
                             "id": "site-17-19",
                             "title": "五音疗疾",
-                            "description": "五音调五脏 ",
+                            "description": "五音调五脏",
                             "url": "https:\/\/search.bilibili.com\/all?keyword=%E9%9F%B3%E8%8D%AF",
                             "icon": "https:\/\/favicon.im\/search.bilibili.com"
                         },
                         {
                             "id": "site-17-20",
                             "title": "祛附",
-                            "description": "",
+                            "description": "移除能量场当中的精怪、附体与植入物",
                             "url": "https:\/\/www.bilibili.com\/video\/BV14g411N7wy",
                             "icon": "https:\/\/favicon.im\/www.bilibili.com"
                         },
@@ -4143,14 +4150,14 @@
                         {
                             "id": "site-18-2",
                             "title": "发现有趣的东西",
-                            "description": "一些有趣、新奇的网站或app等",
+                            "description": "一些有趣、新奇的网站或 app 等",
                             "url": "https:\/\/iui.su\/3093\/",
                             "icon": "https:\/\/favicon.im\/iui.su"
                         },
                         {
                             "id": "site-18-3",
                             "title": "Interactive",
-                            "description": "",
+                            "description": "FMHY 网站上的互动趣味网站专题",
                             "url": "https:\/\/fmhy.net\/miscguide#interactive",
                             "icon": "https:\/\/favicon.im\/fmhy.net"
                         },
@@ -4178,7 +4185,7 @@
                         {
                             "id": "site-18-7",
                             "title": "月球地图",
-                            "description": "嫦娥二号7米分辨率全月图",
+                            "description": "嫦娥二号 7 米分辨率全月图",
                             "url": "https:\/\/ce2.greensea.org\/",
                             "icon": "https:\/\/favicon.im\/ce2.greensea.org"
                         },
@@ -4192,7 +4199,7 @@
                         {
                             "id": "site-18-9",
                             "title": "景区实时摄像头",
-                            "description": "24小时中国景区的实时摄像头画面",
+                            "description": "24 小时中国景区的实时摄像头画面",
                             "url": "https:\/\/livechina.cctv.com\/zhibo",
                             "icon": "https:\/\/favicon.im\/livechina.cctv.com"
                         },
@@ -4255,7 +4262,7 @@
                         {
                             "id": "site-18-18",
                             "title": "AI人生重开手帐",
-                            "description": "人生重开模拟器AI版本",
+                            "description": "人生重开模拟器 AI 版本",
                             "url": "https:\/\/re.maa-ai.com\/",
                             "icon": "https:\/\/favicon.im\/re.maa-ai.com"
                         },
@@ -4276,14 +4283,14 @@
                         {
                             "id": "site-18-21",
                             "title": "P站Logo生成",
-                            "description": "Pornhub风格logo生成",
+                            "description": "Pornhub 风格 logo 生成",
                             "url": "https:\/\/www.logoly.pro\/",
                             "icon": "https:\/\/favicon.im\/www.logoly.pro"
                         },
                         {
                             "id": "site-18-23",
                             "title": "哄哄模拟器",
-                            "description": "让TA原谅你",
+                            "description": "让 TA 原谅你",
                             "url": "https:\/\/hong.greatdk.com\/",
                             "icon": "https:\/\/favicon.im\/hong.greatdk.com"
                         },
