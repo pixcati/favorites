@@ -3526,62 +3526,69 @@
                         },
                         {
                             "id": "site-14-34",
+                            "title": "人生进阶指南",
+                            "description": "AI 时代终身学习指南，持续学习、真实项目与人生进阶",
+                            "url": "https:\/\/byoungd.github.io\/up\/",
+                            "icon": "https:\/\/favicon.im\/byoungd.github.io"
+                        },
+                        {
+                            "id": "site-14-35",
                             "title": "高性价比人生指南",
                             "description": "用最少的钱、时间和精力换回寿命、金钱和人身自由",
                             "url": "https:\/\/eternity4719.github.io\/HowToLiveBetter\/",
                             "icon": "https:\/\/favicon.im\/eternity4719.github.io"
                         },
                         {
-                            "id": "site-14-35",
+                            "id": "site-14-36",
                             "title": "城市租房生存指南",
                             "description": "租房小白修炼手册",
                             "url": "https:\/\/zufang.ababtools.com\/",
                             "icon": "https:\/\/favicon.im\/zufang.ababtools.com"
                         },
                         {
-                            "id": "site-14-36",
+                            "id": "site-14-37",
                             "title": "大学生的百科全书",
                             "description": "专为大学生群体打造的知识共享平台，助力学业与社会衔接",
                             "url": "https:\/\/ac-wiki.org\/",
                             "icon": "https:\/\/favicon.im\/ac-wiki.org"
                         },
                         {
-                            "id": "site-14-37",
+                            "id": "site-14-38",
                             "title": "大学生活质量指北",
                             "description": "招生时不写明但实际影响生活质量的详尽信息",
                             "url": "https:\/\/colleges.chat\/",
                             "icon": "https:\/\/favicon.im\/colleges.chat"
                         },
                         {
-                            "id": "site-14-38",
+                            "id": "site-14-39",
                             "title": "你缺失的计算机课",
                             "description": "你缺失的那门计算机课",
                             "url": "https:\/\/www.criwits.top\/missing\/",
                             "icon": "https:\/\/favicon.im\/www.criwits.top"
                         },
                         {
-                            "id": "site-14-39",
+                            "id": "site-14-40",
                             "title": "计算机自学指南",
                             "description": "CS 自学指南",
                             "url": "https:\/\/csdiy.wiki\/",
                             "icon": "https:\/\/favicon.im\/csdiy.wiki"
                         },
                         {
-                            "id": "site-14-40",
+                            "id": "site-14-41",
                             "title": "程序员延寿指南",
                             "description": "如何活得更久",
                             "url": "https:\/\/r.pixcat.cn\/geekan\/HowToLiveLonger",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-14-41",
+                            "id": "site-14-42",
                             "title": "GPT调教指南",
                             "description": "ChatGPT、LLMs 中文调教指南",
                             "url": "https:\/\/github.com\/PlexPt\/awesome-chatgpt-prompts-zh",
                             "icon": "https:\/\/favicon.im\/github.com"
                         },
                         {
-                            "id": "site-14-42",
+                            "id": "site-14-43",
                             "title": "ClawPath",
                             "description": "OpenClaw 最短上手路径",
                             "url": "https:\/\/clawpath.dev\/",
