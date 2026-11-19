@@ -1342,146 +1342,153 @@
                         },
                         {
                             "id": "site-5-19",
+                            "title": "果汁导航",
+                            "description": "聚合各类常用网站的综合导航站",
+                            "url": "http:\/\/guozhivip.com\/",
+                            "icon": "https:\/\/favicon.im\/guozhivip.com"
+                        },
+                        {
+                            "id": "site-5-20",
                             "title": "轻工具",
                             "description": "专注收集分享优质免费资源",
                             "url": "https:\/\/qinggongju.com\/",
                             "icon": "https:\/\/favicon.im\/qinggongju.com"
                         },
                         {
-                            "id": "site-5-20",
+                            "id": "site-5-21",
                             "title": "OpenI",
                             "description": "AI 时代",
                             "url": "https:\/\/openi.cn\/",
                             "icon": "https:\/\/favicon.im\/openi.cn"
                         },
                         {
-                            "id": "site-5-21",
+                            "id": "site-5-22",
                             "title": "导航蟹",
                             "description": "AI 工具、书籍、影视与学习资源的导航站",
                             "url": "https:\/\/daohangxie.com\/",
                             "icon": "https:\/\/favicon.im\/daohangxie.com"
                         },
                         {
-                            "id": "site-5-22",
+                            "id": "site-5-23",
                             "title": "AMZ123",
                             "description": "跨境电商出海导航",
                             "url": "https:\/\/www.amz123.com\/",
                             "icon": "https:\/\/favicon.im\/www.amz123.com"
                         },
                         {
-                            "id": "site-5-23",
+                            "id": "site-5-24",
                             "title": "CXY521",
                             "description": "程序员导航-CXY521",
                             "url": "http:\/\/www.cxy521.com\/",
                             "icon": "https:\/\/favicon.im\/www.cxy521.com"
                         },
                         {
-                            "id": "site-5-24",
+                            "id": "site-5-25",
                             "title": "油小猴",
                             "description": "实用脚本集",
                             "url": "https:\/\/www.baiduyun.wiki\/",
                             "icon": "https:\/\/favicon.im\/www.baiduyun.wiki"
                         },
                         {
-                            "id": "site-5-25",
+                            "id": "site-5-26",
                             "title": "源仓库",
                             "description": "书源、漫画源影视源",
                             "url": "https:\/\/www.yckceo.com\/",
                             "icon": "https:\/\/favicon.im\/www.yckceo.com"
                         },
                         {
-                            "id": "site-5-26",
+                            "id": "site-5-27",
                             "title": "各种源大集合",
                             "description": "书源、图源、订阅源、规则、直播源",
                             "url": "https:\/\/source.zgqinc.gq\/",
                             "icon": "https:\/\/favicon.im\/source.zgqinc.gq"
                         },
                         {
-                            "id": "site-5-27",
+                            "id": "site-5-28",
                             "title": "爱资料工具",
                             "description": "好用的在线工具箱",
                             "url": "https:\/\/www.toolnb.com\/",
                             "icon": "https:\/\/favicon.im\/www.toolnb.com"
                         },
                         {
-                            "id": "site-5-28",
+                            "id": "site-5-29",
                             "title": "PickFrom",
                             "description": "网页长截图、PDF 转图片、网页转 PDF、视频剪切等",
                             "url": "https:\/\/zh.pickfrom.net\/",
                             "icon": "https:\/\/favicon.im\/zh.pickfrom.net"
                         },
                         {
-                            "id": "site-5-29",
+                            "id": "site-5-30",
                             "title": "0xShe网络安全导航",
                             "description": "网络安全日常工具集",
                             "url": "https:\/\/sbbbb.cn\/",
                             "icon": "https:\/\/favicon.im\/sbbbb.cn"
                         },
                         {
-                            "id": "site-5-30",
+                            "id": "site-5-31",
                             "title": "Toollu",
                             "description": "代码压缩、美化，开发类、站长类、极客类工具",
                             "url": "https:\/\/tool.lu\/",
                             "icon": "https:\/\/favicon.im\/tool.lu"
                         },
                         {
-                            "id": "site-5-31",
+                            "id": "site-5-32",
                             "title": "Tools-Web",
                             "description": "一个轻量的在线工具箱",
                             "url": "https:\/\/tools.ranblogs.com\/",
                             "icon": "https:\/\/favicon.im\/tools.ranblogs.com"
                         },
                         {
-                            "id": "site-5-32",
+                            "id": "site-5-33",
                             "title": "即时工具",
                             "description": "即用即走的在线工具箱，涵盖视频、音频、图片与文档处理",
                             "url": "https:\/\/www.67tool.com\/",
                             "icon": "https:\/\/favicon.im\/www.67tool.com"
                         },
                         {
-                            "id": "site-5-33",
+                            "id": "site-5-34",
                             "title": "LKS的网站推荐",
                             "description": "良心网站推荐",
                             "url": "http:\/\/lkssite.vip\/",
                             "icon": "https:\/\/favicon.im\/lkssite.vip"
                         },
                         {
-                            "id": "site-5-34",
+                            "id": "site-5-35",
                             "title": "免费AI工具箱",
                             "description": "一切开始的地方，告别信息差",
                             "url": "https:\/\/nav.laogou717.com\/",
                             "icon": "https:\/\/favicon.im\/nav.laogou717.com"
                         },
                         {
-                            "id": "site-5-35",
+                            "id": "site-5-36",
                             "title": "AI工具导航 ①",
                             "description": "AIGC 工具集",
                             "url": "https:\/\/www.aigc.cn\/",
                             "icon": "https:\/\/favicon.im\/www.aigc.cn"
                         },
                         {
-                            "id": "site-5-36",
+                            "id": "site-5-37",
                             "title": "AI工具导航 ②",
                             "description": "AI 工具导航",
                             "url": "https:\/\/www.aiopenminds.com\/",
                             "icon": "https:\/\/favicon.im\/www.aiopenminds.com"
                         },
                         {
-                            "id": "site-5-37",
+                            "id": "site-5-38",
                             "title": "AI工具导航 ③",
                             "description": "AI 工具导航",
                             "url": "https:\/\/okeiai.com\/zh\/tools",
                             "icon": "https:\/\/favicon.im\/okeiai.com"
                         },
                         {
-                            "id": "site-5-38",
+                            "id": "site-5-39",
                             "title": "AI工具导航 ④",
                             "description": "AI 工具导航",
                             "url": "https:\/\/www.aigotools.com\/cn",
                             "icon": "https:\/\/favicon.im\/www.aigotools.com"
                         },
                         {
-                            "id": "site-5-39",
+                            "id": "site-5-40",
                             "title": "AI工具导航 ⑤",
                             "description": "AIHub 工具导航",
                             "url": "https:\/\/www.aihub.cn\/",
