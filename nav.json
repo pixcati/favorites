@@ -3600,6 +3600,13 @@
                             "description": "OpenClaw 最短上手路径",
                             "url": "https:\/\/clawpath.dev\/",
                             "icon": "https:\/\/favicon.im\/clawpath.dev"
+                        },
+                        {
+                            "id": "site-14-44",
+                            "title": "人间防骗指南",
+                            "description": "447 种骗局逐个拆解，附真实案例与自查清单",
+                            "url": "https:\/\/qerssd.github.io\/HowToAvoidScams\/",
+                            "icon": "https:\/\/favicon.im\/qerssd.github.io"
                         }
                     ]
                 }
